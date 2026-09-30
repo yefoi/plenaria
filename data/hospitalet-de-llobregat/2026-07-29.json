@@ -1,0 +1,811 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "hospitalet-de-llobregat",
+    "nombre": "L'Hospitalet de Llobregat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "810170005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "extracte-acords",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-29",
+    "municipio_id": "hospitalet-de-llobregat",
+    "fecha": "2026-07-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/810170005/2026/e02d98f9-7bbd-42ac-843f-d97c890e5f0a/20260729%20Extracte%20acords%20del%20Ple.pdf",
+    "hash_contenido": "9d645636a8e858606d39102e74a76712407aee72f5971385fe69d51af972fcac",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-09-30T07:57:53.687Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-29#1",
+      "sesion_id": "2026-07-29",
+      "orden": 1,
+      "titulo": "LECTURA I APROVACIÓ DE L'ESBORRANY DE L'ACTA DE LA SESSIÓ ORDINÀRIA DEL 30 DE JUNY DE 2026.",
+      "texto_redactado": "LECTURA I APROVACIÓ DE L'ESBORRANY DE L'ACTA DE LA SESSIÓ ORDINÀRIA DEL 30 DE JUNY DE 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.43,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#2",
+      "sesion_id": "2026-07-29",
+      "orden": 2,
+      "titulo": "PRESA DE POSSESSIÓ DEL CÀRREC DE REGIDORA DE LA SRA. MERCÈ CAMBA MARTÍNEZ.",
+      "texto_redactado": "PRESA DE POSSESSIÓ DEL CÀRREC DE REGIDORA DE LA SRA. MERCÈ CAMBA MARTÍNEZ.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#3",
+      "sesion_id": "2026-07-29",
+      "orden": 3,
+      "titulo": "PRESA DE POSSESSIÓ DEL CÀRREC DE REGIDOR DEL SR. ROBERTO GONZÁLEZ HERNÁNDEZ.",
+      "texto_redactado": "PRESA DE POSSESSIÓ DEL CÀRREC DE REGIDOR DEL SR. ROBERTO GONZÁLEZ HERNÁNDEZ.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#4",
+      "sesion_id": "2026-07-29",
+      "orden": 4,
+      "titulo": "DONAR COMPTE DEL DECRET DE L'ALCALDIA NÚM 9403/2026, D'1 DE JULIOL, PEL QUAL ES MODIFICA LA COMPOSICIÓ DE LA JUNTA DE GOVERN LOCAL I ES CONFIRMA EL SEU RÈGIM DE FUNCIONAMENT.",
+      "texto_redactado": "DONAR COMPTE DEL DECRET DE L'ALCALDIA NÚM 9403/2026, D'1 DE JULIOL, PEL QUAL ES MODIFICA LA COMPOSICIÓ DE LA JUNTA DE GOVERN LOCAL I ES CONFIRMA EL SEU RÈGIM DE FUNCIONAMENT.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#5",
+      "sesion_id": "2026-07-29",
+      "orden": 5,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#6",
+      "sesion_id": "2026-07-29",
+      "orden": 6,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#7",
+      "sesion_id": "2026-07-29",
+      "orden": 7,
+      "titulo": "DONAR COMPTE DEL DECRET DE L'ALCALDIA NÚM. 9515/2026, DE 3 DE JULIOL, PEL QUAL ES MODIFICA PARCIALMENT LA COMPOSICIÓ NOMINAL DE LES COMISSIONS PERMANENTS DEL PLE.",
+      "texto_redactado": "DONAR COMPTE DEL DECRET DE L'ALCALDIA NÚM. 9515/2026, DE 3 DE JULIOL, PEL QUAL ES MODIFICA PARCIALMENT LA COMPOSICIÓ NOMINAL DE LES COMISSIONS PERMANENTS DEL PLE.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#8",
+      "sesion_id": "2026-07-29",
+      "orden": 8,
+      "titulo": "DONAR COMPTE DEL DECRET DE L'ALCALDIA NÚM. 9478/2026, DE 3 DE JULIOL, DE MODIFICACIÓ PARCIAL DE LA DELEGACIÓ DE LA PRESIDÈNCIA, I CONCRECIÓ DE LA COMPOSICIÓ NOMINAL DE LA COMISSIÓ DE SUGGERIMENTS I RECLAMACIONS.",
+      "texto_redactado": "DONAR COMPTE DEL DECRET DE L'ALCALDIA NÚM. 9478/2026, DE 3 DE JULIOL, DE MODIFICACIÓ PARCIAL DE LA DELEGACIÓ DE LA PRESIDÈNCIA, I CONCRECIÓ DE LA COMPOSICIÓ NOMINAL DE LA COMISSIÓ DE SUGGERIMENTS I RECLAMACIONS.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#9",
+      "sesion_id": "2026-07-29",
+      "orden": 9,
+      "titulo": "DONAR COMPTE DEL DECRET DE L'ALCALDIA NÚM. 9477/2026, DE 3 DE JULIOL, PEL QUAL ES MODIFICA PARCIALMENT EL DECRET 12786/2024, DE 6 DE SETEMBRE, EN RELACIÓ A LA DELEGACIÓ DE LA PRESIDÈNCIA DEL CONSELL EDUCATIU DE L'HOSPITALET I A LA REPRESENTACIÓ DEL GRUP POLÍTIC MUNICIPAL DEL PSC.",
+      "texto_redactado": "DONAR COMPTE DEL DECRET DE L'ALCALDIA NÚM. 9477/2026, DE 3 DE JULIOL, PEL QUAL ES MODIFICA PARCIALMENT EL DECRET 12786/2024, DE 6 DE SETEMBRE, EN RELACIÓ A LA DELEGACIÓ DE LA PRESIDÈNCIA DEL CONSELL EDUCATIU DE L'HOSPITALET I A LA REPRESENTACIÓ DEL GRUP POLÍTIC MUNICIPAL DEL PSC.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#10",
+      "sesion_id": "2026-07-29",
+      "orden": 10,
+      "titulo": "Punto de servicios sociales",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#11",
+      "sesion_id": "2026-07-29",
+      "orden": 11,
+      "titulo": "DONAR COMPTE DE L'INFORME DE L'ALCALDIA PREVIST A L'ART. 104 BIS, APARTAT 6 DE LA LLEI 7/1985, DE 2 D'ABRIL, REGULADORA DE LES BASES DE RÈGIM LOCAL",
+      "texto_redactado": "DONAR COMPTE DE L'INFORME DE L'ALCALDIA PREVIST A L'ART. 104 BIS, APARTAT 6 DE LA LLEI 7/1985, DE 2 D'ABRIL, REGULADORA DE LES BASES DE RÈGIM LOCAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#12",
+      "sesion_id": "2026-07-29",
+      "orden": 12,
+      "titulo": "DONAR COMPTE DELS DECRETS DE L'ALCALDIA NÚMEROS 9671, 9672,9673, 9674 I 9675, DE 9 DE JULIOL DE 2026, PELS QUALS ES DECLARA EL COMPLIMENT DELS GRUPS POLÍTICS MUNICIPALS DE L'OBLIGACIÓ DE PRESENTAR LA DOCUMENTACIÓ JUSTIFICATIVA DE LA DOTACIÓ DE L'EXERCICI 2025 (EXPEDIENTS RELACIONATS AJT/47537/2026, AJT/47542/2026, AJT/47563/2026, AJT/47550/2026, AJT/47558/2026).",
+      "texto_redactado": "DONAR COMPTE DELS DECRETS DE L'ALCALDIA NÚMEROS 9671, 9672,9673, 9674 I 9675, DE 9 DE JULIOL DE 2026, PELS QUALS ES DECLARA EL COMPLIMENT DELS GRUPS POLÍTICS MUNICIPALS DE L'OBLIGACIÓ DE PRESENTAR LA DOCUMENTACIÓ JUSTIFICATIVA DE LA DOTACIÓ DE L'EXERCICI 2025 (EXPEDIENTS RELACIONATS AJT/47537/2026, AJT/47542/2026, AJT/47563/2026, AJT/47550/2026, AJT/47558/2026).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#13",
+      "sesion_id": "2026-07-29",
+      "orden": 13,
+      "titulo": "APROVAR PROVISIONALMENT EL PLA ESPECIAL PER LA REGULACIÓ DELS USOS I LES CONDICIONS D’ORDENACIÓ I EDIFICACIÓ DE LA NOVA ESCOLA BRESSOL - CASA DE LES FLORS - A LA PLAÇA GRANADA.",
+      "texto_redactado": "APROVAR PROVISIONALMENT EL PLA ESPECIAL PER LA REGULACIÓ DELS USOS I LES CONDICIONS D’ORDENACIÓ I EDIFICACIÓ DE LA NOVA ESCOLA BRESSOL - CASA DE LES FLORS - A LA PLAÇA GRANADA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#14",
+      "sesion_id": "2026-07-29",
+      "orden": 14,
+      "titulo": "APROVAR LES DUES FESTES LOCALS D'AQUEST MUNICIPI PER A L'ANY 2027.",
+      "texto_redactado": "APROVAR LES DUES FESTES LOCALS D'AQUEST MUNICIPI PER A L'ANY 2027.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#15",
+      "sesion_id": "2026-07-29",
+      "orden": 15,
+      "titulo": "APROVAR INICIALMENT LA MODIFICACIÓ PUNTUAL DE PLA GENERAL METROPOLITÀ A L'ILLA NORD (PARCEL·LES 4 I 7) A LA CONFLUÈNCIA DEL C. LEONARDO DA VINCI I AV. DEL CARRILET.",
+      "texto_redactado": "APROVAR INICIALMENT LA MODIFICACIÓ PUNTUAL DE PLA GENERAL METROPOLITÀ A L'ILLA NORD (PARCEL·LES 4 I 7) A LA CONFLUÈNCIA DEL C. LEONARDO DA VINCI I AV. DEL CARRILET.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#16",
+      "sesion_id": "2026-07-29",
+      "orden": 16,
+      "titulo": "APROVAR PROVISIONALMENT LA MODIFICACIÓ PUNTUAL DEL PLA GENERAL METROPOLITÀ PER A LA REGULACIÓ DE LES CONDICIONS D'EMPLAÇAMENT DELS HABITATGES D'ÚS TURÍSTIC I DELS APARTAMENTS TURÍSTICS, ALBERGS DE JOVENTUT I ALLOTJAMENTS DESTINATS AL COL·LECTIU EDUCATIU AL MUNICIPI DE L'HOSPITALET DE LLOBREGAT.",
+      "texto_redactado": "APROVAR PROVISIONALMENT LA MODIFICACIÓ PUNTUAL DEL PLA GENERAL METROPOLITÀ PER A LA REGULACIÓ DE LES CONDICIONS D'EMPLAÇAMENT DELS HABITATGES D'ÚS TURÍSTIC I DELS APARTAMENTS TURÍSTICS, ALBERGS DE JOVENTUT I ALLOTJAMENTS DESTINATS AL COL·LECTIU EDUCATIU AL MUNICIPI DE L'HOSPITALET DE LLOBREGAT.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias",
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#17",
+      "sesion_id": "2026-07-29",
+      "orden": 17,
+      "titulo": "APROVAR PROVISIONALMENT LA MODIFICACIÓ PUNTUAL DEL PLA GENERAL METROPOLITÀ (PGM) AL [DIRECCIÓN] DE L'HOSPITALET DE LLOBREGAT (EQUIPAMENT DOCENT MILAGROS CONSARNAU).",
+      "texto_redactado": "APROVAR PROVISIONALMENT LA MODIFICACIÓ PUNTUAL DEL PLA GENERAL METROPOLITÀ (PGM) AL [DIRECCIÓN] DE L'HOSPITALET DE LLOBREGAT (EQUIPAMENT DOCENT MILAGROS CONSARNAU).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#18",
+      "sesion_id": "2026-07-29",
+      "orden": 18,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#19",
+      "sesion_id": "2026-07-29",
+      "orden": 19,
+      "titulo": "DONAR COMPTE DE LA RESOLUCIO 9730/2026, DE 9 DE JULIOL, RELATIVA A AVALUAR L'ESTABILITAT PRESSUPOSTÀRIA I LA SOSTENIBILITAT FINANCERA EN TERMES SEC 2010 A 31.12.2025 UNA VEGADA APROVATS ELS ESTATS I COMPTES ANUALS DELS ENS DEPENDENTS.",
+      "texto_redactado": "DONAR COMPTE DE LA RESOLUCIO 9730/2026, DE 9 DE JULIOL, RELATIVA A AVALUAR L'ESTABILITAT PRESSUPOSTÀRIA I LA SOSTENIBILITAT FINANCERA EN TERMES SEC 2010 A 31.12.2025 UNA VEGADA APROVATS ELS ESTATS I COMPTES ANUALS DELS ENS DEPENDENTS.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#20",
+      "sesion_id": "2026-07-29",
+      "orden": 20,
+      "titulo": "DONAR COMPTE DE L'ACTUALITZACIÓ DE L'ANNEX D'INVERSIONS DEL PRESSUPOST MUNICIPAL DE L'EXERCICI 2026 CORRESPONENT AL SEGON TRIMESTRE.",
+      "texto_redactado": "DONAR COMPTE DE L'ACTUALITZACIÓ DE L'ANNEX D'INVERSIONS DEL PRESSUPOST MUNICIPAL DE L'EXERCICI 2026 CORRESPONENT AL SEGON TRIMESTRE.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#21",
+      "sesion_id": "2026-07-29",
+      "orden": 21,
+      "titulo": "DONAR COMPTE DE LA INFORMACIÓ CONTINGUDA A L'ARTICLE 207 DEL TRLRHL, REFERIDA A L'EXECUCIÓ DEL PRESSUPOST D'AQUEST AJUNTAMENT I DELS MOVIMENTS FINANCERS DE LA TRESORERIA, PER OPERACIONS PRESSUPOSTÀRIES I NO PRESSUPOSTÀRIES, AIXÍ COM DE LA SITUACIÓ DELS FONS LÍQUIDS DE LA TRESORERIA, FINS AL 30 DE JUNY DE 2026.",
+      "texto_redactado": "DONAR COMPTE DE LA INFORMACIÓ CONTINGUDA A L'ARTICLE 207 DEL TRLRHL, REFERIDA A L'EXECUCIÓ DEL PRESSUPOST D'AQUEST AJUNTAMENT I DELS MOVIMENTS FINANCERS DE LA TRESORERIA, PER OPERACIONS PRESSUPOSTÀRIES I NO PRESSUPOSTÀRIES, AIXÍ COM DE LA SITUACIÓ DELS FONS LÍQUIDS DE LA TRESORERIA, FINS AL 30 DE JUNY DE 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#22",
+      "sesion_id": "2026-07-29",
+      "orden": 22,
+      "titulo": "APROVAR PROVISIONALMENT L'ESTABLIMENT DE L'ORDENANÇA FISCAL NÚM. 1.6. DEL RECÀRREC DE L'IMPOST SOBRE LES ESTADES EN ESTABLIMENTS TURÍSTICS.",
+      "texto_redactado": "APROVAR PROVISIONALMENT L'ESTABLIMENT DE L'ORDENANÇA FISCAL NÚM. 1.6. DEL RECÀRREC DE L'IMPOST SOBRE LES ESTADES EN ESTABLIMENTS TURÍSTICS.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#23",
+      "sesion_id": "2026-07-29",
+      "orden": 23,
+      "titulo": "APROVAR LA MODIFICACIÓ DE CRÈDIT NÚMERO 23 DEL PRESSUPOST MUNICIPAL DE L'EXERCICI 2026, CORRESPONENT A L'EXPEDIENT 122/2026 EN LA MODALITAT DE BAIXA PER ANUL.LACIÓ/SUPLEMENT DE CRÈDIT.",
+      "texto_redactado": "APROVAR LA MODIFICACIÓ DE CRÈDIT NÚMERO 23 DEL PRESSUPOST MUNICIPAL DE L'EXERCICI 2026, CORRESPONENT A L'EXPEDIENT 122/2026 EN LA MODALITAT DE BAIXA PER ANUL.LACIÓ/SUPLEMENT DE CRÈDIT.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#24",
+      "sesion_id": "2026-07-29",
+      "orden": 24,
+      "titulo": "APROVAR LA MODIFICACIÓ DE CRÈDIT NÚMERO 24 DEL PRESSUPOST MUNICIPAL DE L'EXERCICI 2026, CORRESPONENT A L'EXPEDIENT 125/2026 EN LA MODALITAT DE BAIXA PER ANUL.LACIÓ/SUPLEMENT DE CRÈDIT I 126/2026 DE BAIXA PER ANUL.LACIÓ/ CRÈDIT EXTRAORDINARI.",
+      "texto_redactado": "APROVAR LA MODIFICACIÓ DE CRÈDIT NÚMERO 24 DEL PRESSUPOST MUNICIPAL DE L'EXERCICI 2026, CORRESPONENT A L'EXPEDIENT 125/2026 EN LA MODALITAT DE BAIXA PER ANUL.LACIÓ/SUPLEMENT DE CRÈDIT I 126/2026 DE BAIXA PER ANUL.LACIÓ/ CRÈDIT EXTRAORDINARI.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#25",
+      "sesion_id": "2026-07-29",
+      "orden": 25,
+      "titulo": "APROVAR LA PARTICIPACIÓ DE L'HOSPITALET DE LLOBREGAT EN LA FASE VIII DE LA \"XARXA EUROPEA DE CIUTATS SALUDABLES\" (2026-2030), DESIGNANT COM A RESPONSABLE POLÍTIC AL SR. JOSE ANTONIO ALCAIDE MARTIN, TINENT D'ALCALDIA DE L'ÀREA DE CIUTAT DE DRETS I COM A COORDINADORA TÈCNICA A LA SRA. EVA BALLARIN LANA, CAP DE SECCIÓ DE PROMOCIÓ DE LA SALUT.",
+      "texto_redactado": "APROVAR LA PARTICIPACIÓ DE L'HOSPITALET DE LLOBREGAT EN LA FASE VIII DE LA \"XARXA EUROPEA DE CIUTATS SALUDABLES\" (2026-2030), DESIGNANT COM A RESPONSABLE POLÍTIC AL SR. JOSE ANTONIO ALCAIDE MARTIN, TINENT D'ALCALDIA DE L'ÀREA DE CIUTAT DE DRETS I COM A COORDINADORA TÈCNICA A LA SRA. EVA BALLARIN LANA, CAP DE SECCIÓ DE PROMOCIÓ DE LA SALUT.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#26",
+      "sesion_id": "2026-07-29",
+      "orden": 26,
+      "titulo": "Punto sancionador",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#27",
+      "sesion_id": "2026-07-29",
+      "orden": 27,
+      "titulo": "Punto sancionador",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#28",
+      "sesion_id": "2026-07-29",
+      "orden": 28,
+      "titulo": "Punto sancionador",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#29",
+      "sesion_id": "2026-07-29",
+      "orden": 29,
+      "titulo": "Punto sancionador",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#30",
+      "sesion_id": "2026-07-29",
+      "orden": 30,
+      "titulo": "DONAR COMPTE DELS DECRETS D'ALCALDIA I LES RESOLUCIONS DICTADES PER DELEGACIÓ, CORRESPONENTS AL PERÍODE DEL 22 DE JUNY AL 19 DE JULIOL DE",
+      "texto_redactado": "DONAR COMPTE DELS DECRETS D'ALCALDIA I LES RESOLUCIONS DICTADES PER DELEGACIÓ, CORRESPONENTS AL PERÍODE DEL 22 DE JUNY AL 19 DE JULIOL DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#31",
+      "sesion_id": "2026-07-29",
+      "orden": 31,
+      "titulo": "DONAR COMPTE DELS ACORDS ADOPTATS PER LA JUNTA DE GOVERN LOCAL CORRESPONENTS A LA SESSIÓ NÚMERO 27 DE 25 DE JUNY I A LES SESSIONS",
+      "texto_redactado": "DONAR COMPTE DELS ACORDS ADOPTATS PER LA JUNTA DE GOVERN LOCAL CORRESPONENTS A LA SESSIÓ NÚMERO 27 DE 25 DE JUNY I A LES SESSIONS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#32",
+      "sesion_id": "2026-07-29",
+      "orden": 32,
+      "titulo": "PETICIÓ DE PARAULA DE L'ENTITAT ASSOC PADRES DE NIÑOS DISMINUIDOS DE SANTA EULALIA, PER EXPOSAR LES PROBLEMÀTIQUES I NECESSITATS RELACIONADES AMB L'ESCOLA D'EDUCACIÓ ESPECIAL L'ESCORÇA A L'HOSPITALET DE LLOBREGAT.",
+      "texto_redactado": "PETICIÓ DE PARAULA DE L'ENTITAT ASSOC PADRES DE NIÑOS DISMINUIDOS DE SANTA EULALIA, PER EXPOSAR LES PROBLEMÀTIQUES I NECESSITATS RELACIONADES AMB L'ESCOLA D'EDUCACIÓ ESPECIAL L'ESCORÇA A L'HOSPITALET DE LLOBREGAT.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#33",
+      "sesion_id": "2026-07-29",
+      "orden": 33,
+      "titulo": "PETICIÓ DE PARAULA DE L'ENTITAT FOMENT DE LA INFORMACIÓ CRÍTICA (FIC), PER POSAR DE MANIFEST L'INTERÈS DE L'ENTITAT PEL NOU CONTRACTE-PROGRAMA PELS ANYS 2027-2028, PRESENTAT EL 6 DE JULIOL AL CONSELL EXECUTIU DELS SCM.",
+      "texto_redactado": "PETICIÓ DE PARAULA DE L'ENTITAT FOMENT DE LA INFORMACIÓ CRÍTICA (FIC), PER POSAR DE MANIFEST L'INTERÈS DE L'ENTITAT PEL NOU CONTRACTE-PROGRAMA PELS ANYS 2027-2028, PRESENTAT EL 6 DE JULIOL AL CONSELL EXECUTIU DELS SCM.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    },
+    {
+      "id": "2026-07-29#34",
+      "sesion_id": "2026-07-29",
+      "orden": 34,
+      "titulo": "PRECS I PREGUNTES",
+      "texto_redactado": "PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T07:57:53.687Z"
+      }
+    }
+  ]
+}

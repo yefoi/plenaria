@@ -1,0 +1,422 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "toledo",
+    "nombre": "Toledo",
+    "provincia": "Toledo",
+    "fuente_tipo": "pdf-transparencia",
+    "fuente_config": {
+      "listado_url": "https://www.toledo.es/toledo-abierto/transparencia-activa-e-informacion-sobre-la-corporacion-municipal/actas_pleno_ayto/",
+      "patron_pdf": "(^|/)acta[^/]*\\.pdf$",
+      "formato": "auto",
+      "idioma": "es"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-26",
+    "municipio_id": "toledo",
+    "fecha": "2026-06-26",
+    "tipo": "otra",
+    "fuente_url": "https://www.toledo.es/wp-content/uploads/2026/07/acta-sesion-ordinaria-pleno-celebrado-el-26-de-junio-de-2026.pdf",
+    "hash_contenido": "865c036d85d4413e9c8d0ed6533ad6747f81c3b55d4bfc0a995b33f33003095d",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-09-30T08:13:35.679Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-26#1",
+      "sesion_id": "2026-06-26",
+      "orden": 1,
+      "titulo": "APROBACIÓN DEL BORRADOR DEL ACTA DE LA SESIÓN ANTERIOR DEL EXCMO. AYUNTAMIENTO PLENO DE TOLEDO (ORDINARIA, CELEBRADA EL",
+      "texto_redactado": "APROBACIÓN DEL BORRADOR DEL ACTA DE LA SESIÓN ANTERIOR DEL EXCMO. AYUNTAMIENTO PLENO DE TOLEDO (ORDINARIA, CELEBRADA EL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:35.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#2",
+      "sesion_id": "2026-06-26",
+      "orden": 2,
+      "titulo": "DECLARACIÓN INSTITUCIONAL. “PROSVIDA”. PERSONAS CON CÁNCER DE PRÓSTATA, AMIGOS Y FAMILIARES. DÍA MUNDIAL DEL CÁNCER DE",
+      "texto_redactado": "DECLARACIÓN INSTITUCIONAL. “PROSVIDA”. PERSONAS CON CÁNCER DE PRÓSTATA, AMIGOS Y FAMILIARES. DÍA MUNDIAL DEL CÁNCER DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:35.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#3",
+      "sesion_id": "2026-06-26",
+      "orden": 3,
+      "titulo": "DECLARACIÓN INSTITUCIONAL. CENTRO DE ESTUDIOS Y OPINIÓN “FUNDACIÓN AXA”. MANIFIESTO PONLE FRENO PEATONES 2030. “COMPROMISO POR LA REDUCCIÓN DE LAS VÍCTIMAS POR ATROPELLO EN LAS CIUDADES AL 50%”.",
+      "texto_redactado": "DECLARACIÓN INSTITUCIONAL. CENTRO DE ESTUDIOS Y OPINIÓN “FUNDACIÓN AXA”. MANIFIESTO PONLE FRENO PEATONES 2030. “COMPROMISO POR LA REDUCCIÓN DE LAS VÍCTIMAS POR ATROPELLO EN LAS CIUDADES AL 50%”.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "movilidad_trafico",
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:35.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#4",
+      "sesion_id": "2026-06-26",
+      "orden": 4,
+      "titulo": "EXPEDIENTE DE MODIFICACIÓN DE CRÉDITO Nº 57/2026.",
+      "texto_redactado": "EXPEDIENTE DE MODIFICACIÓN DE CRÉDITO Nº 57/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:35.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#5",
+      "sesion_id": "2026-06-26",
+      "orden": 5,
+      "titulo": "EXPEDIENTE DE MODIFICACIÓN DE CRÉDITO Nº 58/2026.",
+      "texto_redactado": "EXPEDIENTE DE MODIFICACIÓN DE CRÉDITO Nº 58/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:35.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#6",
+      "sesion_id": "2026-06-26",
+      "orden": 6,
+      "titulo": "EXPEDIENTE DE MODIFICACIÓN DE CRÉDITO Nº 61/2026.",
+      "texto_redactado": "EXPEDIENTE DE MODIFICACIÓN DE CRÉDITO Nº 61/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:35.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#7",
+      "sesion_id": "2026-06-26",
+      "orden": 7,
+      "titulo": "EXPEDIENTE DE MODIFICACIÓN DE CRÉDITO Nº 62/2026.",
+      "texto_redactado": "EXPEDIENTE DE MODIFICACIÓN DE CRÉDITO Nº 62/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:35.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#8",
+      "sesion_id": "2026-06-26",
+      "orden": 8,
+      "titulo": "EXPEDIENTE DE MODIFICACIÓN DE CRÉDITO Nº 63/2026.",
+      "texto_redactado": "EXPEDIENTE DE MODIFICACIÓN DE CRÉDITO Nº 63/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:35.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#9",
+      "sesion_id": "2026-06-26",
+      "orden": 9,
+      "titulo": "EXPEDIENTE DE MODIFICACIÓN DE CRÉDITO Nº 4/2026. TEATRO DE",
+      "texto_redactado": "EXPEDIENTE DE MODIFICACIÓN DE CRÉDITO Nº 4/2026. TEATRO DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:35.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#10",
+      "sesion_id": "2026-06-26",
+      "orden": 10,
+      "titulo": "RECONOCIMIENTO EXTRAJUDICIAL DE CRÉDITO Nº 11/2026.",
+      "texto_redactado": "RECONOCIMIENTO EXTRAJUDICIAL DE CRÉDITO Nº 11/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:35.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#11",
+      "sesion_id": "2026-06-26",
+      "orden": 11,
+      "titulo": "SOLICITUDES DE DECLARACIONES DE ESPECIAL INTERÉS O UTILIDAD MUNICIPAL DE VARIAS OBRAS EN EL CASCO HISTÓRICO.",
+      "texto_redactado": "SOLICITUDES DE DECLARACIONES DE ESPECIAL INTERÉS O UTILIDAD MUNICIPAL DE VARIAS OBRAS EN EL CASCO HISTÓRICO.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:35.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#12",
+      "sesion_id": "2026-06-26",
+      "orden": 12,
+      "titulo": "MOCIONES (PROPOSICIONES): MOCIÓN CONJUNTA PSOE-IU-PODEMOS TOLEDO: CON MOTIVO DEL ORGULLO LGTBI 2026. MOCIÓN PSOE: PARA LA MEJORA DEL SERVICIO DE PISCINAS MUNICIPALES Y SU ADAPTACIÓN COMO REFUGIOS CLIMÁTICOS. MOCIÓN PP: PARA INSTAR AL MINISTERIO DE TRANSPORTE Y MOVILIDAD SOSTENIBLE A GARANTIZAR LA PARADA DE LA ALTA VELOCIDAD EN LA CIUDAD DE TOLEDO Y SU INTEGRACIÓN DEFINITIVA EN LA LÍNEA “MADRID-EXTREMADURA-FRONTERA PORTUGUESA”. MOCIÓN PP: POR LA QUE SE PLANTEA LA NECESIDAD DE QUE EL GOBIERNO Y SU PRESIDENTE ASUMAN LA RESPONSABILIDAD POLÍTICA NECESARIA POR LOS MÚLTIPLES CASOS DE PRESUNTA CORRUPCIÓN Y LE INSTA A PROPONER LA DISOLUCIÓN DE LAS CORTES GENERALES Y CONVOCAR ELECCIONES GENERALES. MOCIÓN VOX: PARA INSTAR A LA JUNTA DE COMUNIDADES DE CASTILLA-LA MANCHA A FIN DE QUE SE APRUEBE LA NORMATIVA NECESARIA PARA LA GESTIÓN Y COBRO DE UNA TASA TURÍSTICA EN LOS MUNICIPIOS DE LA REGIÓN. MOCIÓN",
+      "texto_redactado": "MOCIONES (PROPOSICIONES): MOCIÓN CONJUNTA PSOE-IU-PODEMOS TOLEDO: CON MOTIVO DEL ORGULLO LGTBI 2026. MOCIÓN PSOE: PARA LA MEJORA DEL SERVICIO DE PISCINAS MUNICIPALES Y SU ADAPTACIÓN COMO REFUGIOS CLIMÁTICOS. MOCIÓN PP: PARA INSTAR AL MINISTERIO DE TRANSPORTE Y MOVILIDAD SOSTENIBLE A GARANTIZAR LA PARADA DE LA ALTA VELOCIDAD EN LA CIUDAD DE TOLEDO Y SU INTEGRACIÓN DEFINITIVA EN LA LÍNEA “MADRID-EXTREMADURA-FRONTERA PORTUGUESA”. MOCIÓN PP: POR LA QUE SE PLANTEA LA NECESIDAD DE QUE EL GOBIERNO Y SU PRESIDENTE ASUMAN LA RESPONSABILIDAD POLÍTICA NECESARIA POR LOS MÚLTIPLES CASOS DE PRESUNTA CORRUPCIÓN Y LE INSTA A PROPONER LA DISOLUCIÓN DE LAS CORTES GENERALES Y CONVOCAR ELECCIONES GENERALES. MOCIÓN VOX: PARA INSTAR A LA JUNTA DE COMUNIDADES DE CASTILLA-LA MANCHA A FIN DE QUE SE APRUEBE LA NORMATIVA NECESARIA PARA LA GESTIÓN Y COBRO DE UNA TASA TURÍSTICA EN LOS MUNICIPIOS DE LA REGIÓN. MOCIÓN",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "movilidad_trafico",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:35.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#13",
+      "sesion_id": "2026-06-26",
+      "orden": 13,
+      "titulo": "DAR CUENTA DEL INFORME DE INICIO DE ARCHIVO DEL EXPEDIENTE DEL PROGRAMA DE ACTUACIÓN URBANIZADORA UA2 DE LA UNIDAD FERROVIARIA DE SANTA BÁRBARA.",
+      "texto_redactado": "DAR CUENTA DEL INFORME DE INICIO DE ARCHIVO DEL EXPEDIENTE DEL PROGRAMA DE ACTUACIÓN URBANIZADORA UA2 DE LA UNIDAD FERROVIARIA DE SANTA BÁRBARA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:35.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#14",
+      "sesion_id": "2026-06-26",
+      "orden": 14,
+      "titulo": "DAR CUENTA DEL SOMETIMIENTO A INFORMACIÓN PÚBLICA DE CALIFICACIÓN URBANÍSTICA PARA “SUSTITUCIÓN DEL C.T. CAÑETE Nº",
+      "texto_redactado": "DAR CUENTA DEL SOMETIMIENTO A INFORMACIÓN PÚBLICA DE CALIFICACIÓN URBANÍSTICA PARA “SUSTITUCIÓN DEL C.T. CAÑETE Nº",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:35.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#15",
+      "sesion_id": "2026-06-26",
+      "orden": 15,
+      "titulo": "DAR CUENTA DE EXTRACTOS DE DECRETOS DICTADOS POR LA ALCALDÍA PRESIDENCIA DURANTE EL PERIODO COMPRENDIDO ENTRE EL 4 DE MAYO Y EL 5 DE JUNIO DE 2026, AMBOS INCLUSIVE (RESOLUCIÓN N.º",
+      "texto_redactado": "DAR CUENTA DE EXTRACTOS DE DECRETOS DICTADOS POR LA ALCALDÍA PRESIDENCIA DURANTE EL PERIODO COMPRENDIDO ENTRE EL 4 DE MAYO Y EL 5 DE JUNIO DE 2026, AMBOS INCLUSIVE (RESOLUCIÓN N.º",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:35.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#16",
+      "sesion_id": "2026-06-26",
+      "orden": 16,
+      "titulo": "DAR CUENTA DE LAS ACTAS DE SESIONES DE LA JUNTA DE GOBIERNO DE LA CIUDAD DE TOLEDO CELEBRADAS EN EL PERIODO COMPRENDIDO ENTRE LOS DÍAS 6 DE MAYO Y 3 DE JUNIO DE 2026.",
+      "texto_redactado": "DAR CUENTA DE LAS ACTAS DE SESIONES DE LA JUNTA DE GOBIERNO DE LA CIUDAD DE TOLEDO CELEBRADAS EN EL PERIODO COMPRENDIDO ENTRE LOS DÍAS 6 DE MAYO Y 3 DE JUNIO DE 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:35.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#17",
+      "sesion_id": "2026-06-26",
+      "orden": 17,
+      "titulo": "RUEGOS Y PREGUNTAS.",
+      "texto_redactado": "RUEGOS Y PREGUNTAS.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:35.679Z"
+      }
+    }
+  ]
+}

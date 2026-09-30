@@ -1,0 +1,54 @@
+name: Ingesta diaria
+
+on:
+  schedule:
+    - cron: '15 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ingesta
+  cancel-in-progress: false
+
+jobs:
+  ingesta:
+    runs-on: ubuntu-latest
+    env:
+      PLENARIA_USER_AGENT: 'Plenaria/0.1 (+https://github.com/${{ github.repository }})'
+      TYPESAFE_AI_API_KEY: ${{ secrets.TYPESAFE_AI_API_KEY }}
+      CLASSIFIER_API_KEY: ${{ secrets.CLASSIFIER_API_KEY }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Descubrir y procesar sesiones nuevas
+        run: npm run ingest -- --municipio hospitalet-de-llobregat --limit 3
+      - name: Clasificar sesiones pendientes
+        run: |
+          if [ -n "$TYPESAFE_AI_API_KEY" ]; then
+            npm run classify -- --municipio hospitalet-de-llobregat
+          else
+            echo "Sin TYPESAFE_AI_API_KEY: se clasifica sin la pasada de impacto (jev)"
+            npm run classify -- --municipio hospitalet-de-llobregat --sin-jev
+          fi
+      - name: Resúmenes semanales
+        run: npm run digest -- --todas
+      - name: Guardar cambios de datos
+        run: |
+          git config user.name "plenaria-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Sin cambios en data/"
+          else
+            git commit -m "datos: ingesta y clasificación automática"
+            git push
+          fi
+      - name: Evaluación contra el conjunto dorado
+        run: npm run eval
+        continue-on-error: true

@@ -1,0 +1,285 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "toledo",
+    "nombre": "Toledo",
+    "provincia": "Toledo",
+    "fuente_tipo": "pdf-transparencia",
+    "fuente_config": {
+      "listado_url": "https://www.toledo.es/toledo-abierto/transparencia-activa-e-informacion-sobre-la-corporacion-municipal/actas_pleno_ayto/",
+      "patron_pdf": "(^|/)acta[^/]*\\.pdf$",
+      "formato": "auto",
+      "idioma": "es"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-24",
+    "municipio_id": "toledo",
+    "fecha": "2026-07-24",
+    "tipo": "otra",
+    "fuente_url": "https://www.toledo.es/wp-content/uploads/2026/09/acta-sesion-ordinaria-pleno-celebrado-el-24-de-julio-de-2026.pdf",
+    "hash_contenido": "7823d7c7b63d2446e90f2d48b28c14b17eeeefe7672bdffadf032afa5e87b64f",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-09-30T08:13:29.424Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-24#1",
+      "sesion_id": "2026-07-24",
+      "orden": 1,
+      "titulo": "APROBACIÓN DEL BORRADOR DEL ACTA DE LA SESIÓN ANTERIOR DEL EXCMO. AYUNTAMIENTO PLENO DE TOLEDO (ORDINARIA, CELEBRADA EL",
+      "texto_redactado": "APROBACIÓN DEL BORRADOR DEL ACTA DE LA SESIÓN ANTERIOR DEL EXCMO. AYUNTAMIENTO PLENO DE TOLEDO (ORDINARIA, CELEBRADA EL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:29.424Z"
+      }
+    },
+    {
+      "id": "2026-07-24#2",
+      "sesion_id": "2026-07-24",
+      "orden": 2,
+      "titulo": "RECONOCIMIENTO EXTRAJUDICIAL DE CRÉDITO Nº 12/2026.",
+      "texto_redactado": "RECONOCIMIENTO EXTRAJUDICIAL DE CRÉDITO Nº 12/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:29.424Z"
+      }
+    },
+    {
+      "id": "2026-07-24#3",
+      "sesion_id": "2026-07-24",
+      "orden": 3,
+      "titulo": "RECONOCIMIENTO EXTRAJUDICIAL DE CRÉDITO Nº 13/2026.",
+      "texto_redactado": "RECONOCIMIENTO EXTRAJUDICIAL DE CRÉDITO Nº 13/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:29.424Z"
+      }
+    },
+    {
+      "id": "2026-07-24#4",
+      "sesion_id": "2026-07-24",
+      "orden": 4,
+      "titulo": "EXPEDIENTE DE MODIFICACIÓN DE CRÉDITO Nº 71/2026.",
+      "texto_redactado": "EXPEDIENTE DE MODIFICACIÓN DE CRÉDITO Nº 71/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:29.424Z"
+      }
+    },
+    {
+      "id": "2026-07-24#5",
+      "sesion_id": "2026-07-24",
+      "orden": 5,
+      "titulo": "EXPEDIENTE DE MODIFICACIÓN DE CRÉDITO Nº 73/2026.",
+      "texto_redactado": "EXPEDIENTE DE MODIFICACIÓN DE CRÉDITO Nº 73/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:29.424Z"
+      }
+    },
+    {
+      "id": "2026-07-24#6",
+      "sesion_id": "2026-07-24",
+      "orden": 6,
+      "titulo": "EXPEDIENTE DE MODIFICACIÓN DE CRÉDITO Nº 74/2026.",
+      "texto_redactado": "EXPEDIENTE DE MODIFICACIÓN DE CRÉDITO Nº 74/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:29.424Z"
+      }
+    },
+    {
+      "id": "2026-07-24#7",
+      "sesion_id": "2026-07-24",
+      "orden": 7,
+      "titulo": "EXPEDIENTE DE MODIFICACIÓN DE CRÉDITO Nº 5/2026 DEL PATRONATO DEPORTIVO MUNICIPAL.",
+      "texto_redactado": "EXPEDIENTE DE MODIFICACIÓN DE CRÉDITO Nº 5/2026 DEL PATRONATO DEPORTIVO MUNICIPAL.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:29.424Z"
+      }
+    },
+    {
+      "id": "2026-07-24#8",
+      "sesion_id": "2026-07-24",
+      "orden": 8,
+      "titulo": "MOCIONES (PROPOSICIONES): MOCIÓN PSOE: PARA LA CREACIÓN DE UNA RED DE REFUGIOS MOCIÓN PSOE: PARA LA ELABORACIÓN DE UN PLAN INTEGRAL DE MEJORA DE LA SEGURIDAD EN LOS PASOS DE PEATONES. MOCIÓN PP: PARA INSTAR AL GOBIERNO DE ESPAÑA A TRAVÉS DEL MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE A CORREGIR LAS DEFICIENCIAS DETECTADAS Y EJECUTAR CUANTAS ACTUACIONES SEAN NECESARIAS EN EL CARRIL BICI QUE CONECTA LOS BARRIOS DE SANTA BÁRBARA Y SANTA MARÍA DE BENQUERENCIA. MOCIÓN VOX: PARA INSTAR A LA JUNTA DE COMUNIDADES DE CASTILLA-LA MANCHA A FIN DE QUE SE APRUEBE LA NORMATIVA QUE REGULE LA ACTIVIDAD DE SERVICIO DE VEHÍCULOS CON CONDUCTOR (VTC) EN LA REGIÓN. MOCIÓN IU-PODEMOS TOLEDO: PARA DESTINAR EL USO DE LA CASA DE CORCHO DEL PARQUE DE LA VEGA A DOTACIÓN PÚBLICA.",
+      "texto_redactado": "MOCIONES (PROPOSICIONES): MOCIÓN PSOE: PARA LA CREACIÓN DE UNA RED DE REFUGIOS MOCIÓN PSOE: PARA LA ELABORACIÓN DE UN PLAN INTEGRAL DE MEJORA DE LA SEGURIDAD EN LOS PASOS DE PEATONES. MOCIÓN PP: PARA INSTAR AL GOBIERNO DE ESPAÑA A TRAVÉS DEL MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE A CORREGIR LAS DEFICIENCIAS DETECTADAS Y EJECUTAR CUANTAS ACTUACIONES SEAN NECESARIAS EN EL CARRIL BICI QUE CONECTA LOS BARRIOS DE SANTA BÁRBARA Y SANTA MARÍA DE BENQUERENCIA. MOCIÓN VOX: PARA INSTAR A LA JUNTA DE COMUNIDADES DE CASTILLA-LA MANCHA A FIN DE QUE SE APRUEBE LA NORMATIVA QUE REGULE LA ACTIVIDAD DE SERVICIO DE VEHÍCULOS CON CONDUCTOR (VTC) EN LA REGIÓN. MOCIÓN IU-PODEMOS TOLEDO: PARA DESTINAR EL USO DE LA CASA DE CORCHO DEL PARQUE DE LA VEGA A DOTACIÓN PÚBLICA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "movilidad_trafico",
+        "seguridad",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:29.424Z"
+      }
+    },
+    {
+      "id": "2026-07-24#9",
+      "sesion_id": "2026-07-24",
+      "orden": 9,
+      "titulo": "DAR CUENTA DEL SOMETIMIENTO A INFORMACIÓN PÚBLICA DE LA NUEVA PROPUESTA DE ORDENACIÓN DEL SECTOR DEL PROGRAMA DE ACTUACIÓN URBANIZADORA DE LA UNIDAD URBANÍSTICA 25 + AMPLIACIÓN DEL PGMOUT, ESTABLECIDA EN PLAN PARCIAL DE MEJORA, PROYECTO DE URBANIZACIÓN, PROPUESTA DE CONVENIO Y PROPOSICIÓN JURÍDICO-ECONÓMICA ACTUALIZADA, ADAPTADA A LOS CONDICIONANTES ESTABLECIDOS EN RELACIÓN CON LAS ZONAS IDENTIFICADAS CON PRESENCIA DE VEGETACIÓN PROTEGIDA.",
+      "texto_redactado": "DAR CUENTA DEL SOMETIMIENTO A INFORMACIÓN PÚBLICA DE LA NUEVA PROPUESTA DE ORDENACIÓN DEL SECTOR DEL PROGRAMA DE ACTUACIÓN URBANIZADORA DE LA UNIDAD URBANÍSTICA 25 + AMPLIACIÓN DEL PGMOUT, ESTABLECIDA EN PLAN PARCIAL DE MEJORA, PROYECTO DE URBANIZACIÓN, PROPUESTA DE CONVENIO Y PROPOSICIÓN JURÍDICO-ECONÓMICA ACTUALIZADA, ADAPTADA A LOS CONDICIONANTES ESTABLECIDOS EN RELACIÓN CON LAS ZONAS IDENTIFICADAS CON PRESENCIA DE VEGETACIÓN PROTEGIDA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:29.424Z"
+      }
+    },
+    {
+      "id": "2026-07-24#10",
+      "sesion_id": "2026-07-24",
+      "orden": 10,
+      "titulo": "DAR CUENTA DEL SOMETIMIENTO A INFORMACIÓN DEL PLAN ESPECIAL DE REFORMA INTERIOR DE MEJORA PARA CAMBIO DE USO RESIDENCIAL DE LA PARCELA EP4 DE LA UU-29 “LA LEGUA” PARA U-29, “LA LEGUA”.",
+      "texto_redactado": "DAR CUENTA DEL SOMETIMIENTO A INFORMACIÓN DEL PLAN ESPECIAL DE REFORMA INTERIOR DE MEJORA PARA CAMBIO DE USO RESIDENCIAL DE LA PARCELA EP4 DE LA UU-29 “LA LEGUA” PARA U-29, “LA LEGUA”.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:29.424Z"
+      }
+    },
+    {
+      "id": "2026-07-24#11",
+      "sesion_id": "2026-07-24",
+      "orden": 11,
+      "titulo": "RUEGOS Y PREGUNTAS.",
+      "texto_redactado": "RUEGOS Y PREGUNTAS.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-09-30T08:13:29.424Z"
+      }
+    }
+  ]
+}

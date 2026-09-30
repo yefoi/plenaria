@@ -1,0 +1,795 @@
+{
+  "version": "2026-09-30.1",
+  "estado": "provisional",
+  "nota": "Primera versión propuesta por el agente a partir de 3 sesiones reales del piloto. Las etiquetas las revisará una persona; hasta entonces el conjunto es provisional y los umbrales de CI deben leerse con cautela. Los puntos sensibles (personal, sanciones individuales) se excluyen a propósito.",
+  "umbrales_ci": {
+    "tipo_accuracy": 0.7,
+    "tema_f1_micro": 0.6,
+    "afecta_accuracy": 0.65,
+    "impacto_mae": 1
+  },
+  "puntos": [
+    {
+      "id": "sesion-2026-09-23-01",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-09-23.txt",
+      "orden": 1,
+      "titulo": "LECTURA I APROVACIÓ DE L'ESBORRANY DE L'ACTA DE LA SESSIÓ ORDINÀRIA DEL 29 DE JULIOL DE 2026.",
+      "texto_redactado": "LECTURA I APROVACIÓ DE L'ESBORRANY DE L'ACTA DE LA SESSIÓ ORDINÀRIA DEL 29 DE JULIOL DE 2026.",
+      "esperado": {
+        "temas": [
+          "organizacion_institucional"
+        ],
+        "tipo": "aprobacion_acta",
+        "afecta_vecinos": false,
+        "impacto": 1
+      }
+    },
+    {
+      "id": "sesion-2026-09-23-02",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-09-23.txt",
+      "orden": 2,
+      "titulo": "DONAR COMPTE DEL DECRET DE L'ALCALDIA NÚM 10666/2026, DE 30 DE JULIOL, PEL QUAL ES NOMENA REGIDOR ADJUNT I REGIDOR PRESIDENT DEL DISTRICTE III I ES DELEGA EN AQUEST DIFERENTS FACULTATS DE L'ALCALDIA.",
+      "texto_redactado": "DONAR COMPTE DEL DECRET DE L'ALCALDIA NÚM 10666/2026, DE 30 DE JULIOL, PEL QUAL ES NOMENA REGIDOR ADJUNT I REGIDOR PRESIDENT DEL DISTRICTE III I ES DELEGA EN AQUEST DIFERENTS FACULTATS DE L'ALCALDIA.",
+      "esperado": {
+        "temas": [
+          "organizacion_institucional"
+        ],
+        "tipo": "dacion_cuenta",
+        "afecta_vecinos": false,
+        "impacto": 1
+      }
+    },
+    {
+      "id": "sesion-2026-09-23-03",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-09-23.txt",
+      "orden": 3,
+      "titulo": "DONAR COMPTE DE L'INFORME D'AVALUACIÓ NORMATIVA 2026, RELATIU A LA NORMATIVA MUNICIPAL PROGRAMADA I/O APROVADA ELS ANYS 2024 I 2025.",
+      "texto_redactado": "DONAR COMPTE DE L'INFORME D'AVALUACIÓ NORMATIVA 2026, RELATIU A LA NORMATIVA MUNICIPAL PROGRAMADA I/O APROVADA ELS ANYS 2024 I 2025.",
+      "esperado": {
+        "temas": [
+          "organizacion_institucional"
+        ],
+        "tipo": "dacion_cuenta",
+        "afecta_vecinos": false,
+        "impacto": 1
+      }
+    },
+    {
+      "id": "sesion-2026-09-23-04",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-09-23.txt",
+      "orden": 4,
+      "titulo": "DONAR COMPTE DE LA RESOLUCIÓ DE LA SÍNDICA DE GREUGES DE L'HOSPITALET DE LLOBREGAT, SIN/215/2026, DE 22 DE JULIOL DE 2026, PER LA QUAL S'APROVA LA SIGNATURA DE LA PRÒRROGA DEL CONVENI DE COL·LABORACIÓ ENTRE EL SINDIC DE GREUGES DE CATALUNYA I EL SINDIC DE GREUGES DE L'HOSPITALET.",
+      "texto_redactado": "DONAR COMPTE DE LA RESOLUCIÓ DE LA SÍNDICA DE GREUGES DE L'HOSPITALET DE LLOBREGAT, SIN/215/2026, DE 22 DE JULIOL DE 2026, PER LA QUAL S'APROVA LA SIGNATURA DE LA PRÒRROGA DEL CONVENI DE COL·LABORACIÓ ENTRE EL SINDIC DE GREUGES DE CATALUNYA I EL SINDIC DE GREUGES DE L'HOSPITALET.",
+      "esperado": {
+        "temas": [
+          "organizacion_institucional"
+        ],
+        "tipo": "dacion_cuenta",
+        "afecta_vecinos": false,
+        "impacto": 1
+      }
+    },
+    {
+      "id": "sesion-2026-09-23-08",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-09-23.txt",
+      "orden": 8,
+      "titulo": "DONAR COMPTE DELS INFORMES DE LA TRESORERIA I LA INTERVENCIÓ GENERAL, D'ACORD AMB L'ART. 4 DE LA LLEI 15/2010, DE 5 DE JULIOL, I L'ART. 10 DE LA LLEI 25/2013 EN RELACIÓ ALS TERMINIS DE PAGAMENTALS PROVEIDORS I LA GESTIÓ DE",
+      "texto_redactado": "DONAR COMPTE DELS INFORMES DE LA TRESORERIA I LA INTERVENCIÓ GENERAL, D'ACORD AMB L'ART. 4 DE LA LLEI 15/2010, DE 5 DE JULIOL, I L'ART. 10 DE LA LLEI 25/2013 EN RELACIÓ ALS TERMINIS DE PAGAMENTALS PROVEIDORS I LA GESTIÓ DE",
+      "esperado": {
+        "temas": [
+          "presupuesto_impuestos"
+        ],
+        "tipo": "dacion_cuenta",
+        "afecta_vecinos": false,
+        "impacto": 2
+      }
+    },
+    {
+      "id": "sesion-2026-09-23-11",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-09-23.txt",
+      "orden": 11,
+      "titulo": "APROVAR LA MODIFICACIÓ DE CRÈDIT NÚMERO 28 DEL PRESSUPOST MUNICIPAL DE L'EXERCICI 2026, CORRESPONENT A L'EXPEDIENT 115/2026 EN LA MODALITAT DE CRÈDIT EXTRAORDINARI FINANÇAT AMB ROMANENT DE TRESORERIA PER A DESPESES GENERALS PROCEDENT DE LA LIQUIDACIÓ DE L'EXERCICI 2025 I 112/2026 DE BAIXA PER ANUL.LACIÓ/CRÈDIT EXTRAORDINARI.",
+      "texto_redactado": "APROVAR LA MODIFICACIÓ DE CRÈDIT NÚMERO 28 DEL PRESSUPOST MUNICIPAL DE L'EXERCICI 2026, CORRESPONENT A L'EXPEDIENT 115/2026 EN LA MODALITAT DE CRÈDIT EXTRAORDINARI FINANÇAT AMB ROMANENT DE TRESORERIA PER A DESPESES GENERALS PROCEDENT DE LA LIQUIDACIÓ DE L'EXERCICI 2025 I 112/2026 DE BAIXA PER ANUL.LACIÓ/CRÈDIT EXTRAORDINARI.",
+      "esperado": {
+        "temas": [
+          "presupuesto_impuestos"
+        ],
+        "tipo": "acuerdo",
+        "afecta_vecinos": false,
+        "impacto": 2
+      }
+    },
+    {
+      "id": "sesion-2026-09-23-12",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-09-23.txt",
+      "orden": 12,
+      "titulo": "APROVAR LA MODIFICACIÓ DE CRÈDIT NÚMERO 29 DEL PRESSUPOST MUNICIPAL DE L'EXERCICI 2026, CORRESPONENT ALS EXPEDIENTS 133/2026 I 135/2026 EN LA MODALITAT DE BAIXA PER ANUL.LACIÓ/CRÈDIT EXTRAORDINARI I 132/2026 I 134/2026 DE BAIXA PER ANUL.LACIÓ/SUPLEMENT DE CRÈDIT.",
+      "texto_redactado": "APROVAR LA MODIFICACIÓ DE CRÈDIT NÚMERO 29 DEL PRESSUPOST MUNICIPAL DE L'EXERCICI 2026, CORRESPONENT ALS EXPEDIENTS 133/2026 I 135/2026 EN LA MODALITAT DE BAIXA PER ANUL.LACIÓ/CRÈDIT EXTRAORDINARI I 132/2026 I 134/2026 DE BAIXA PER ANUL.LACIÓ/SUPLEMENT DE CRÈDIT.",
+      "esperado": {
+        "temas": [
+          "presupuesto_impuestos"
+        ],
+        "tipo": "acuerdo",
+        "afecta_vecinos": false,
+        "impacto": 2
+      }
+    },
+    {
+      "id": "sesion-2026-09-23-13",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-09-23.txt",
+      "orden": 13,
+      "titulo": "APROVAR DEFINITIVAMENT L'ESTABLIMENT I L'ORDENANÇA FISCAL NÚM. 1.06 DEL RECÀRREC DE L'IMPOST SOBRE LES ESTADES EN ESTABLIMENTS TURÍSTICS.",
+      "texto_redactado": "APROVAR DEFINITIVAMENT L'ESTABLIMENT I L'ORDENANÇA FISCAL NÚM. 1.06 DEL RECÀRREC DE L'IMPOST SOBRE LES ESTADES EN ESTABLIMENTS TURÍSTICS.",
+      "esperado": {
+        "temas": [
+          "presupuesto_impuestos"
+        ],
+        "tipo": "acuerdo",
+        "afecta_vecinos": true,
+        "impacto": 3
+      }
+    },
+    {
+      "id": "sesion-2026-09-23-16",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-09-23.txt",
+      "orden": 16,
+      "titulo": "APROVAR EL COMPTE GENERAL DE L'AJUNTAMENT, CORRESPONENT A L'EXERCICI 2025.",
+      "texto_redactado": "APROVAR EL COMPTE GENERAL DE L'AJUNTAMENT, CORRESPONENT A L'EXERCICI 2025.",
+      "esperado": {
+        "temas": [
+          "presupuesto_impuestos"
+        ],
+        "tipo": "acuerdo",
+        "afecta_vecinos": false,
+        "impacto": 2
+      }
+    },
+    {
+      "id": "sesion-2026-09-23-17",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-09-23.txt",
+      "orden": 17,
+      "titulo": "DONAR COMPTE DELS DECRETS D'ALCALDIA I LES RESOLUCIONS DICTADES PER DELEGACIÓ CORRESPONENTS AL PERIODE DEL 20 DE JULIOL AL 13 DE SETEMBRE DE",
+      "texto_redactado": "DONAR COMPTE DELS DECRETS D'ALCALDIA I LES RESOLUCIONS DICTADES PER DELEGACIÓ CORRESPONENTS AL PERIODE DEL 20 DE JULIOL AL 13 DE SETEMBRE DE",
+      "esperado": {
+        "temas": [
+          "organizacion_institucional"
+        ],
+        "tipo": "dacion_cuenta",
+        "afecta_vecinos": false,
+        "impacto": 1
+      }
+    },
+    {
+      "id": "sesion-2026-09-23-18",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-09-23.txt",
+      "orden": 18,
+      "titulo": "DONAR COMPTE DELS ACORDS ADOPTATS PER LA JUNTA DE GOVERN LOCAL",
+      "texto_redactado": "DONAR COMPTE DELS ACORDS ADOPTATS PER LA JUNTA DE GOVERN LOCAL",
+      "esperado": {
+        "temas": [
+          "organizacion_institucional"
+        ],
+        "tipo": "dacion_cuenta",
+        "afecta_vecinos": false,
+        "impacto": 1
+      }
+    },
+    {
+      "id": "sesion-2026-09-23-19",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-09-23.txt",
+      "orden": 19,
+      "titulo": "PETICIÓ DE PARAULA DE L'ENTITAT FOMENT DE LA INFORMACIÓ CRÍTICA (FIC), PER RECLAMAR L'ATENCIÓ NECESSÀRIA AL PLE MUNICIPAL SOBRE LES GREUS ACTUACIONS DE LA PRESIDÈNCIA DEL CONSELL EXECUTIU DELS SCM EN LA TRAMITACIÓ D'ESMENES AL CONTRACTE-PROGRAMA.",
+      "texto_redactado": "PETICIÓ DE PARAULA DE L'ENTITAT FOMENT DE LA INFORMACIÓ CRÍTICA (FIC), PER RECLAMAR L'ATENCIÓ NECESSÀRIA AL PLE MUNICIPAL SOBRE LES GREUS ACTUACIONS DE LA PRESIDÈNCIA DEL CONSELL EXECUTIU DELS SCM EN LA TRAMITACIÓ D'ESMENES AL CONTRACTE-PROGRAMA.",
+      "esperado": {
+        "temas": [
+          "organizacion_institucional"
+        ],
+        "tipo": "ruego_pregunta",
+        "afecta_vecinos": false,
+        "impacto": 2
+      }
+    },
+    {
+      "id": "sesion-2026-09-23-20",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-09-23.txt",
+      "orden": 20,
+      "titulo": "MOCIÓ PER RECLAMAR MESURES URGENTS DAVANT LA DEGRADACIÓ I ELS PROBLEMES D'INSEGURETAT A LA PORTA NORD I L'ENTORN DE CAN RIGAL.",
+      "texto_redactado": "MOCIÓ PER RECLAMAR MESURES URGENTS DAVANT LA DEGRADACIÓ I ELS PROBLEMES D'INSEGURETAT A LA PORTA NORD I L'ENTORN DE CAN RIGAL.",
+      "esperado": {
+        "temas": [
+          "seguridad",
+          "mociones_grupos"
+        ],
+        "tipo": "mocion",
+        "afecta_vecinos": true,
+        "impacto": 4
+      }
+    },
+    {
+      "id": "sesion-2026-09-23-21",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-09-23.txt",
+      "orden": 21,
+      "titulo": "MOCIÓ SOBRE EL FUTUR CAMPUS DE SALUT CLÍNIC-UB, EL FUTUR DE CAN RIGAL I LES NECESSITATS DE LA ZONA NORD DE L'HOSPITALET.",
+      "texto_redactado": "MOCIÓ SOBRE EL FUTUR CAMPUS DE SALUT CLÍNIC-UB, EL FUTUR DE CAN RIGAL I LES NECESSITATS DE LA ZONA NORD DE L'HOSPITALET.",
+      "esperado": {
+        "temas": [
+          "urbanismo_licencias",
+          "mociones_grupos"
+        ],
+        "tipo": "mocion",
+        "afecta_vecinos": true,
+        "impacto": 4
+      }
+    },
+    {
+      "id": "sesion-2026-09-23-22",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-09-23.txt",
+      "orden": 22,
+      "titulo": "MOCIÓ PER LA MILLORA DELS PARCS I ZONES DE JOC INFANTILS.",
+      "texto_redactado": "MOCIÓ PER LA MILLORA DELS PARCS I ZONES DE JOC INFANTILS.",
+      "esperado": {
+        "temas": [
+          "servicios_publicos",
+          "mociones_grupos"
+        ],
+        "tipo": "mocion",
+        "afecta_vecinos": true,
+        "impacto": 4
+      }
+    },
+    {
+      "id": "sesion-2026-09-23-26",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-09-23.txt",
+      "orden": 26,
+      "titulo": "MOCIÓN PARA GARANTIZAR LA TRANSPARENCIA, EL CONTROL Y LA LEGALIDAD EN LOS EMPADRONAMIENTOS Y LA LUCHA CONTRA LA SOBREOCUPACIÓN DE VIVIENDAS EN L'HOSPITALET.",
+      "texto_redactado": "MOCIÓN PARA GARANTIZAR LA TRANSPARENCIA, EL CONTROL Y LA LEGALIDAD EN LOS EMPADRONAMIENTOS Y LA LUCHA CONTRA LA SOBREOCUPACIÓN DE VIVIENDAS EN L'HOSPITALET.",
+      "esperado": {
+        "temas": [
+          "organizacion_institucional",
+          "mociones_grupos"
+        ],
+        "tipo": "mocion",
+        "afecta_vecinos": true,
+        "impacto": 3
+      }
+    },
+    {
+      "id": "sesion-2026-09-23-31",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-09-23.txt",
+      "orden": 31,
+      "titulo": "MOCIÓN PARA COMBATIR LA SOBREOCUPACIÓN DE VIVIENDAS DE USO RESIDENCIAL.",
+      "texto_redactado": "MOCIÓN PARA COMBATIR LA SOBREOCUPACIÓN DE VIVIENDAS DE USO RESIDENCIAL.",
+      "esperado": {
+        "temas": [
+          "vivienda",
+          "mociones_grupos"
+        ],
+        "tipo": "mocion",
+        "afecta_vecinos": true,
+        "impacto": 4
+      }
+    },
+    {
+      "id": "sesion-2026-09-23-33",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-09-23.txt",
+      "orden": 33,
+      "titulo": "MOCIÓ PER A EVITAR ELS TALLS DE SUBMINISTRAMENT ELÈCTRIC A L'HOSPITALET DE LLOBREGAT.",
+      "texto_redactado": "MOCIÓ PER A EVITAR ELS TALLS DE SUBMINISTRAMENT ELÈCTRIC A L'HOSPITALET DE LLOBREGAT.",
+      "esperado": {
+        "temas": [
+          "servicios_publicos",
+          "mociones_grupos"
+        ],
+        "tipo": "mocion",
+        "afecta_vecinos": true,
+        "impacto": 4
+      }
+    },
+    {
+      "id": "sesion-2026-09-23-34",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-09-23.txt",
+      "orden": 34,
+      "titulo": "MOCIÓ PER A LA ELABORACIÓ D'UN NOU PLA D'ADAPTACIÓ AL CANVI CLIMÀTIC.",
+      "texto_redactado": "MOCIÓ PER A LA ELABORACIÓ D'UN NOU PLA D'ADAPTACIÓ AL CANVI CLIMÀTIC.",
+      "esperado": {
+        "temas": [
+          "medio_ambiente",
+          "mociones_grupos"
+        ],
+        "tipo": "mocion",
+        "afecta_vecinos": true,
+        "impacto": 4
+      }
+    },
+    {
+      "id": "sesion-2026-09-23-35",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-09-23.txt",
+      "orden": 35,
+      "titulo": "PRECS I PREGUNTES.",
+      "texto_redactado": "PRECS I PREGUNTES.",
+      "esperado": {
+        "temas": [
+          "otros"
+        ],
+        "tipo": "ruego_pregunta",
+        "afecta_vecinos": true,
+        "impacto": 2
+      }
+    },
+    {
+      "id": "sesion-2026-07-29-01",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-07-29.txt",
+      "orden": 1,
+      "titulo": "LECTURA I APROVACIÓ DE L'ESBORRANY DE L'ACTA DE LA SESSIÓ ORDINÀRIA DEL 30 DE JUNY DE 2026.",
+      "texto_redactado": "LECTURA I APROVACIÓ DE L'ESBORRANY DE L'ACTA DE LA SESSIÓ ORDINÀRIA DEL 30 DE JUNY DE 2026.",
+      "esperado": {
+        "temas": [
+          "organizacion_institucional"
+        ],
+        "tipo": "aprobacion_acta",
+        "afecta_vecinos": false,
+        "impacto": 1
+      }
+    },
+    {
+      "id": "sesion-2026-07-29-13",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-07-29.txt",
+      "orden": 13,
+      "titulo": "APROVAR PROVISIONALMENT EL PLA ESPECIAL PER LA REGULACIÓ DELS USOS I LES CONDICIONS D’ORDENACIÓ I EDIFICACIÓ DE LA NOVA ESCOLA BRESSOL - CASA DE LES FLORS - A LA PLAÇA GRANADA.",
+      "texto_redactado": "APROVAR PROVISIONALMENT EL PLA ESPECIAL PER LA REGULACIÓ DELS USOS I LES CONDICIONS D’ORDENACIÓ I EDIFICACIÓ DE LA NOVA ESCOLA BRESSOL - CASA DE LES FLORS - A LA PLAÇA GRANADA.",
+      "esperado": {
+        "temas": [
+          "urbanismo_licencias"
+        ],
+        "tipo": "acuerdo",
+        "afecta_vecinos": true,
+        "impacto": 4
+      }
+    },
+    {
+      "id": "sesion-2026-07-29-14",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-07-29.txt",
+      "orden": 14,
+      "titulo": "APROVAR LES DUES FESTES LOCALS D'AQUEST MUNICIPI PER A L'ANY 2027.",
+      "texto_redactado": "APROVAR LES DUES FESTES LOCALS D'AQUEST MUNICIPI PER A L'ANY 2027.",
+      "esperado": {
+        "temas": [
+          "cultura_deporte_educacion"
+        ],
+        "tipo": "acuerdo",
+        "afecta_vecinos": true,
+        "impacto": 3
+      }
+    },
+    {
+      "id": "sesion-2026-07-29-15",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-07-29.txt",
+      "orden": 15,
+      "titulo": "APROVAR INICIALMENT LA MODIFICACIÓ PUNTUAL DE PLA GENERAL METROPOLITÀ A L'ILLA NORD (PARCEL·LES 4 I 7) A LA CONFLUÈNCIA DEL C. LEONARDO DA VINCI I AV. DEL CARRILET.",
+      "texto_redactado": "APROVAR INICIALMENT LA MODIFICACIÓ PUNTUAL DE PLA GENERAL METROPOLITÀ A L'ILLA NORD (PARCEL·LES 4 I 7) A LA CONFLUÈNCIA DEL C. LEONARDO DA VINCI I AV. DEL CARRILET.",
+      "esperado": {
+        "temas": [
+          "urbanismo_licencias"
+        ],
+        "tipo": "acuerdo",
+        "afecta_vecinos": true,
+        "impacto": 4
+      }
+    },
+    {
+      "id": "sesion-2026-07-29-16",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-07-29.txt",
+      "orden": 16,
+      "titulo": "APROVAR PROVISIONALMENT LA MODIFICACIÓ PUNTUAL DEL PLA GENERAL METROPOLITÀ PER A LA REGULACIÓ DE LES CONDICIONS D'EMPLAÇAMENT DELS HABITATGES D'ÚS TURÍSTIC I DELS APARTAMENTS TURÍSTICS, ALBERGS DE JOVENTUT I ALLOTJAMENTS DESTINATS AL COL·LECTIU EDUCATIU AL MUNICIPI DE L'HOSPITALET DE LLOBREGAT.",
+      "texto_redactado": "APROVAR PROVISIONALMENT LA MODIFICACIÓ PUNTUAL DEL PLA GENERAL METROPOLITÀ PER A LA REGULACIÓ DE LES CONDICIONS D'EMPLAÇAMENT DELS HABITATGES D'ÚS TURÍSTIC I DELS APARTAMENTS TURÍSTICS, ALBERGS DE JOVENTUT I ALLOTJAMENTS DESTINATS AL COL·LECTIU EDUCATIU AL MUNICIPI DE L'HOSPITALET DE LLOBREGAT.",
+      "esperado": {
+        "temas": [
+          "urbanismo_licencias"
+        ],
+        "tipo": "acuerdo",
+        "afecta_vecinos": true,
+        "impacto": 4
+      }
+    },
+    {
+      "id": "sesion-2026-07-29-17",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-07-29.txt",
+      "orden": 17,
+      "titulo": "APROVAR PROVISIONALMENT LA MODIFICACIÓ PUNTUAL DEL PLA GENERAL METROPOLITÀ (PGM) AL [DIRECCIÓN] DE L'HOSPITALET DE LLOBREGAT (EQUIPAMENT DOCENT MILAGROS CONSARNAU).",
+      "texto_redactado": "APROVAR PROVISIONALMENT LA MODIFICACIÓ PUNTUAL DEL PLA GENERAL METROPOLITÀ (PGM) AL [DIRECCIÓN] DE L'HOSPITALET DE LLOBREGAT (EQUIPAMENT DOCENT MILAGROS CONSARNAU).",
+      "esperado": {
+        "temas": [
+          "urbanismo_licencias"
+        ],
+        "tipo": "acuerdo",
+        "afecta_vecinos": false,
+        "impacto": 2
+      }
+    },
+    {
+      "id": "sesion-2026-07-29-19",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-07-29.txt",
+      "orden": 19,
+      "titulo": "DONAR COMPTE DE LA RESOLUCIO 9730/2026, DE 9 DE JULIOL, RELATIVA A AVALUAR L'ESTABILITAT PRESSUPOSTÀRIA I LA SOSTENIBILITAT FINANCERA EN TERMES SEC 2010 A 31.12.2025 UNA VEGADA APROVATS ELS ESTATS I COMPTES ANUALS DELS ENS DEPENDENTS.",
+      "texto_redactado": "DONAR COMPTE DE LA RESOLUCIO 9730/2026, DE 9 DE JULIOL, RELATIVA A AVALUAR L'ESTABILITAT PRESSUPOSTÀRIA I LA SOSTENIBILITAT FINANCERA EN TERMES SEC 2010 A 31.12.2025 UNA VEGADA APROVATS ELS ESTATS I COMPTES ANUALS DELS ENS DEPENDENTS.",
+      "esperado": {
+        "temas": [
+          "presupuesto_impuestos"
+        ],
+        "tipo": "dacion_cuenta",
+        "afecta_vecinos": false,
+        "impacto": 2
+      }
+    },
+    {
+      "id": "sesion-2026-07-29-20",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-07-29.txt",
+      "orden": 20,
+      "titulo": "DONAR COMPTE DE L'ACTUALITZACIÓ DE L'ANNEX D'INVERSIONS DEL PRESSUPOST MUNICIPAL DE L'EXERCICI 2026 CORRESPONENT AL SEGON TRIMESTRE.",
+      "texto_redactado": "DONAR COMPTE DE L'ACTUALITZACIÓ DE L'ANNEX D'INVERSIONS DEL PRESSUPOST MUNICIPAL DE L'EXERCICI 2026 CORRESPONENT AL SEGON TRIMESTRE.",
+      "esperado": {
+        "temas": [
+          "presupuesto_impuestos"
+        ],
+        "tipo": "dacion_cuenta",
+        "afecta_vecinos": true,
+        "impacto": 3
+      }
+    },
+    {
+      "id": "sesion-2026-07-29-21",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-07-29.txt",
+      "orden": 21,
+      "titulo": "DONAR COMPTE DE LA INFORMACIÓ CONTINGUDA A L'ARTICLE 207 DEL TRLRHL, REFERIDA A L'EXECUCIÓ DEL PRESSUPOST D'AQUEST AJUNTAMENT I DELS MOVIMENTS FINANCERS DE LA TRESORERIA, PER OPERACIONS PRESSUPOSTÀRIES I NO PRESSUPOSTÀRIES, AIXÍ COM DE LA SITUACIÓ DELS FONS LÍQUIDS DE LA TRESORERIA, FINS AL 30 DE JUNY DE 2026.",
+      "texto_redactado": "DONAR COMPTE DE LA INFORMACIÓ CONTINGUDA A L'ARTICLE 207 DEL TRLRHL, REFERIDA A L'EXECUCIÓ DEL PRESSUPOST D'AQUEST AJUNTAMENT I DELS MOVIMENTS FINANCERS DE LA TRESORERIA, PER OPERACIONS PRESSUPOSTÀRIES I NO PRESSUPOSTÀRIES, AIXÍ COM DE LA SITUACIÓ DELS FONS LÍQUIDS DE LA TRESORERIA, FINS AL 30 DE JUNY DE 2026.",
+      "esperado": {
+        "temas": [
+          "presupuesto_impuestos"
+        ],
+        "tipo": "dacion_cuenta",
+        "afecta_vecinos": true,
+        "impacto": 3
+      }
+    },
+    {
+      "id": "sesion-2026-07-29-22",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-07-29.txt",
+      "orden": 22,
+      "titulo": "APROVAR PROVISIONALMENT L'ESTABLIMENT DE L'ORDENANÇA FISCAL NÚM. 1.6. DEL RECÀRREC DE L'IMPOST SOBRE LES ESTADES EN ESTABLIMENTS TURÍSTICS.",
+      "texto_redactado": "APROVAR PROVISIONALMENT L'ESTABLIMENT DE L'ORDENANÇA FISCAL NÚM. 1.6. DEL RECÀRREC DE L'IMPOST SOBRE LES ESTADES EN ESTABLIMENTS TURÍSTICS.",
+      "esperado": {
+        "temas": [
+          "presupuesto_impuestos"
+        ],
+        "tipo": "acuerdo",
+        "afecta_vecinos": true,
+        "impacto": 3
+      }
+    },
+    {
+      "id": "sesion-2026-07-29-23",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-07-29.txt",
+      "orden": 23,
+      "titulo": "APROVAR LA MODIFICACIÓ DE CRÈDIT NÚMERO 23 DEL PRESSUPOST MUNICIPAL DE L'EXERCICI 2026, CORRESPONENT A L'EXPEDIENT 122/2026 EN LA MODALITAT DE BAIXA PER ANUL.LACIÓ/SUPLEMENT DE CRÈDIT.",
+      "texto_redactado": "APROVAR LA MODIFICACIÓ DE CRÈDIT NÚMERO 23 DEL PRESSUPOST MUNICIPAL DE L'EXERCICI 2026, CORRESPONENT A L'EXPEDIENT 122/2026 EN LA MODALITAT DE BAIXA PER ANUL.LACIÓ/SUPLEMENT DE CRÈDIT.",
+      "esperado": {
+        "temas": [
+          "presupuesto_impuestos"
+        ],
+        "tipo": "acuerdo",
+        "afecta_vecinos": false,
+        "impacto": 2
+      }
+    },
+    {
+      "id": "sesion-2026-07-29-25",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-07-29.txt",
+      "orden": 25,
+      "titulo": "APROVAR LA PARTICIPACIÓ DE L'HOSPITALET DE LLOBREGAT EN LA FASE VIII DE LA \"XARXA EUROPEA DE CIUTATS SALUDABLES\" (2026-2030), DESIGNANT COM A RESPONSABLE POLÍTIC AL SR. JOSE ANTONIO ALCAIDE MARTIN, TINENT D'ALCALDIA DE L'ÀREA DE CIUTAT DE DRETS I COM A COORDINADORA TÈCNICA A LA SRA. EVA BALLARIN LANA, CAP DE SECCIÓ DE PROMOCIÓ DE LA SALUT.",
+      "texto_redactado": "APROVAR LA PARTICIPACIÓ DE L'HOSPITALET DE LLOBREGAT EN LA FASE VIII DE LA \"XARXA EUROPEA DE CIUTATS SALUDABLES\" (2026-2030), DESIGNANT COM A RESPONSABLE POLÍTIC AL SR. JOSE ANTONIO ALCAIDE MARTIN, TINENT D'ALCALDIA DE L'ÀREA DE CIUTAT DE DRETS I COM A COORDINADORA TÈCNICA A LA SRA. EVA BALLARIN LANA, CAP DE SECCIÓ DE PROMOCIÓ DE LA SALUT.",
+      "esperado": {
+        "temas": [
+          "servicios_publicos"
+        ],
+        "tipo": "acuerdo",
+        "afecta_vecinos": true,
+        "impacto": 3
+      }
+    },
+    {
+      "id": "sesion-2026-07-29-30",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-07-29.txt",
+      "orden": 30,
+      "titulo": "DONAR COMPTE DELS DECRETS D'ALCALDIA I LES RESOLUCIONS DICTADES PER DELEGACIÓ, CORRESPONENTS AL PERÍODE DEL 22 DE JUNY AL 19 DE JULIOL DE",
+      "texto_redactado": "DONAR COMPTE DELS DECRETS D'ALCALDIA I LES RESOLUCIONS DICTADES PER DELEGACIÓ, CORRESPONENTS AL PERÍODE DEL 22 DE JUNY AL 19 DE JULIOL DE",
+      "esperado": {
+        "temas": [
+          "organizacion_institucional"
+        ],
+        "tipo": "dacion_cuenta",
+        "afecta_vecinos": false,
+        "impacto": 1
+      }
+    },
+    {
+      "id": "sesion-2026-07-29-32",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-07-29.txt",
+      "orden": 32,
+      "titulo": "PETICIÓ DE PARAULA DE L'ENTITAT ASSOC PADRES DE NIÑOS DISMINUIDOS DE SANTA EULALIA, PER EXPOSAR LES PROBLEMÀTIQUES I NECESSITATS RELACIONADES AMB L'ESCOLA D'EDUCACIÓ ESPECIAL L'ESCORÇA A L'HOSPITALET DE LLOBREGAT.",
+      "texto_redactado": "PETICIÓ DE PARAULA DE L'ENTITAT ASSOC PADRES DE NIÑOS DISMINUIDOS DE SANTA EULALIA, PER EXPOSAR LES PROBLEMÀTIQUES I NECESSITATS RELACIONADES AMB L'ESCOLA D'EDUCACIÓ ESPECIAL L'ESCORÇA A L'HOSPITALET DE LLOBREGAT.",
+      "esperado": {
+        "temas": [
+          "servicios_sociales"
+        ],
+        "tipo": "ruego_pregunta",
+        "afecta_vecinos": true,
+        "impacto": 3
+      }
+    },
+    {
+      "id": "sesion-2026-07-29-34",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-07-29.txt",
+      "orden": 34,
+      "titulo": "PRECS I PREGUNTES",
+      "texto_redactado": "PRECS I PREGUNTES",
+      "esperado": {
+        "temas": [
+          "otros"
+        ],
+        "tipo": "ruego_pregunta",
+        "afecta_vecinos": true,
+        "impacto": 2
+      }
+    },
+    {
+      "id": "sesion-2026-06-30-01",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-06-30.txt",
+      "orden": 1,
+      "titulo": "LECTURA I APROVACIÓ DELS ESBORRANYS DE L'ACTA DE LA SESSIÓ EXTRAORDINÀRIA DEL 22 DE MAIG [MATRÍCULA] DE LA SESSIÓ ORDINÀRIA DEL 26 DE MAIG DE 2026.",
+      "texto_redactado": "LECTURA I APROVACIÓ DELS ESBORRANYS DE L'ACTA DE LA SESSIÓ EXTRAORDINÀRIA DEL 22 DE MAIG [MATRÍCULA] DE LA SESSIÓ ORDINÀRIA DEL 26 DE MAIG DE 2026.",
+      "esperado": {
+        "temas": [
+          "organizacion_institucional"
+        ],
+        "tipo": "aprobacion_acta",
+        "afecta_vecinos": false,
+        "impacto": 1
+      }
+    },
+    {
+      "id": "sesion-2026-06-30-03",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-06-30.txt",
+      "orden": 3,
+      "titulo": "APROVAR L'ENCÀRREC DE GESTIÓ ENTRE L'AJUNTAMENT DE L'HOSPITALET DE LLOBREGAT I EL CONSORCI PER A LA REFORMA DE LA GRANVIA I EL SAMONTÀ A L'HOSPITALET DE LLOBREGAT, PER A L'EXECUCIÓ DE LES INVERSIONS RELATIVES A LES ACTUACIONS DE REGENERACIÓ URBANA I SOCIAL PREVISTES EN EL PLA DEL SAMONTÀ PER A L'EXERCICI 2026-2029.",
+      "texto_redactado": "APROVAR L'ENCÀRREC DE GESTIÓ ENTRE L'AJUNTAMENT DE L'HOSPITALET DE LLOBREGAT I EL CONSORCI PER A LA REFORMA DE LA GRANVIA I EL SAMONTÀ A L'HOSPITALET DE LLOBREGAT, PER A L'EXECUCIÓ DE LES INVERSIONS RELATIVES A LES ACTUACIONS DE REGENERACIÓ URBANA I SOCIAL PREVISTES EN EL PLA DEL SAMONTÀ PER A L'EXERCICI 2026-2029.",
+      "esperado": {
+        "temas": [
+          "contratacion_obras",
+          "urbanismo_licencias"
+        ],
+        "tipo": "acuerdo",
+        "afecta_vecinos": true,
+        "impacto": 4
+      }
+    },
+    {
+      "id": "sesion-2026-06-30-04",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-06-30.txt",
+      "orden": 4,
+      "titulo": "APROVAR INICIALMENT LA MODIFICACIÓ PUNTUAL DE PLA GENERAL METROPOLITÀ A L'ÀMBIT DEL CAMPUS DE BELLVITGE (HOSPITAL UNIVERSITARI DE BELLVITGE, CAMPUS UNIVERSITARI I DE RECERCA).",
+      "texto_redactado": "APROVAR INICIALMENT LA MODIFICACIÓ PUNTUAL DE PLA GENERAL METROPOLITÀ A L'ÀMBIT DEL CAMPUS DE BELLVITGE (HOSPITAL UNIVERSITARI DE BELLVITGE, CAMPUS UNIVERSITARI I DE RECERCA).",
+      "esperado": {
+        "temas": [
+          "urbanismo_licencias"
+        ],
+        "tipo": "acuerdo",
+        "afecta_vecinos": true,
+        "impacto": 4
+      }
+    },
+    {
+      "id": "sesion-2026-06-30-06",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-06-30.txt",
+      "orden": 6,
+      "titulo": "APROVAR LA MODIFICACIÓ DE CRÈDIT NÚMERO 17 DEL PRESSUPOST MUNICIPAL DE L'EXERCICI 2026, CORRESPONENT A L'EXPEDIENT 106/2026 EN LA MODALITAT DE BAIXA PER ANUL.LACIÓ/CRÈDIT EXTRAORDINARI.",
+      "texto_redactado": "APROVAR LA MODIFICACIÓ DE CRÈDIT NÚMERO 17 DEL PRESSUPOST MUNICIPAL DE L'EXERCICI 2026, CORRESPONENT A L'EXPEDIENT 106/2026 EN LA MODALITAT DE BAIXA PER ANUL.LACIÓ/CRÈDIT EXTRAORDINARI.",
+      "esperado": {
+        "temas": [
+          "presupuesto_impuestos"
+        ],
+        "tipo": "acuerdo",
+        "afecta_vecinos": false,
+        "impacto": 2
+      }
+    },
+    {
+      "id": "sesion-2026-06-30-07",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-06-30.txt",
+      "orden": 7,
+      "titulo": "APROVAR LA MODIFICACIÓ DE CRÈDIT NÚMERO 19 DEL PRESSUPOST MUNICIPAL DE L'EXERCICI 2026, CORRESPONENT A L'EXPEDIENT 116/2026 EN LA MODALITAT DE BAIXA PER ANUL.LACIÓ/SUPLEMENT DE CRÈDIT.",
+      "texto_redactado": "APROVAR LA MODIFICACIÓ DE CRÈDIT NÚMERO 19 DEL PRESSUPOST MUNICIPAL DE L'EXERCICI 2026, CORRESPONENT A L'EXPEDIENT 116/2026 EN LA MODALITAT DE BAIXA PER ANUL.LACIÓ/SUPLEMENT DE CRÈDIT.",
+      "esperado": {
+        "temas": [
+          "presupuesto_impuestos"
+        ],
+        "tipo": "acuerdo",
+        "afecta_vecinos": false,
+        "impacto": 2
+      }
+    },
+    {
+      "id": "sesion-2026-06-30-09",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-06-30.txt",
+      "orden": 9,
+      "titulo": "DONAR COMPTE QUE HA ESDEVINGUT DEFINITIU L’ACORD D’APROVACIÓ PROVISIONAL DE MODIFICACIÓ DE L'ORDENANÇA FISCAL NÚM. 2.01 REGULADORA DE LA TAXA PER A LA PRESTACIÓ DEL SERVEI D’INTERVENCIÓ SOBRE LES ACTIVITATS I ELS ESPECTACLES PÚBLICS DE L’HOSPITALET DE LLOBREGAT.",
+      "texto_redactado": "DONAR COMPTE QUE HA ESDEVINGUT DEFINITIU L’ACORD D’APROVACIÓ PROVISIONAL DE MODIFICACIÓ DE L'ORDENANÇA FISCAL NÚM. 2.01 REGULADORA DE LA TAXA PER A LA PRESTACIÓ DEL SERVEI D’INTERVENCIÓ SOBRE LES ACTIVITATS I ELS ESPECTACLES PÚBLICS DE L’HOSPITALET DE LLOBREGAT.",
+      "esperado": {
+        "temas": [
+          "presupuesto_impuestos"
+        ],
+        "tipo": "dacion_cuenta",
+        "afecta_vecinos": true,
+        "impacto": 3
+      }
+    },
+    {
+      "id": "sesion-2026-06-30-11",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-06-30.txt",
+      "orden": 11,
+      "titulo": "APROVAR INICIALMENT LA DEROGACIÓ DE L'ORDENANÇA REGULADORA DE PREU PÚBLIC NÚM. 8 DEL SERVEI DE FORMACIÓ, CREACIÓ I INNOVACIÓ EN NOVES TECNOLOGIES (INFORMÀTIQUES I AUDIOVISUALS) I EN INDÚSTRIES CREATIVES.",
+      "texto_redactado": "APROVAR INICIALMENT LA DEROGACIÓ DE L'ORDENANÇA REGULADORA DE PREU PÚBLIC NÚM. 8 DEL SERVEI DE FORMACIÓ, CREACIÓ I INNOVACIÓ EN NOVES TECNOLOGIES (INFORMÀTIQUES I AUDIOVISUALS) I EN INDÚSTRIES CREATIVES.",
+      "esperado": {
+        "temas": [
+          "cultura_deporte_educacion"
+        ],
+        "tipo": "acuerdo",
+        "afecta_vecinos": true,
+        "impacto": 3
+      }
+    },
+    {
+      "id": "sesion-2026-06-30-14",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-06-30.txt",
+      "orden": 14,
+      "titulo": "APROVAR ELS ESTATUTS DE L'ASSOCIACIÓ BIOCLÚSTER D'INNOVACIÓ I SALUT I LA PARTICIPACIÓ DE L´AJUNTAMENT DE L´HOSPITALET DE LLOBREGAT COM A SOCI FUNDADOR.",
+      "texto_redactado": "APROVAR ELS ESTATUTS DE L'ASSOCIACIÓ BIOCLÚSTER D'INNOVACIÓ I SALUT I LA PARTICIPACIÓ DE L´AJUNTAMENT DE L´HOSPITALET DE LLOBREGAT COM A SOCI FUNDADOR.",
+      "esperado": {
+        "temas": [
+          "organizacion_institucional"
+        ],
+        "tipo": "acuerdo",
+        "afecta_vecinos": false,
+        "impacto": 2
+      }
+    },
+    {
+      "id": "sesion-2026-06-30-17",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-06-30.txt",
+      "orden": 17,
+      "titulo": "PETICIÓ DE PARAULA DE L'ENTITAT FOMENT DE LA INFORMACIÓ CRÍTICA (FIC), PER RECLAMAR INFORMACIÓ SOBRE LA NECESSITAT DE DEBATRE I APROVAR UN NOU REGLAMENT DE FUNCIONAMENT DEL CONSELL EXECUTIU DELS MITJANS DE COMUNICACIÓ I ELS ELEMENTS BÀSICS QUE HAURIA DE CONTENIR EL NOU CONTRACTE-PROGRAMA.",
+      "texto_redactado": "PETICIÓ DE PARAULA DE L'ENTITAT FOMENT DE LA INFORMACIÓ CRÍTICA (FIC), PER RECLAMAR INFORMACIÓ SOBRE LA NECESSITAT DE DEBATRE I APROVAR UN NOU REGLAMENT DE FUNCIONAMENT DEL CONSELL EXECUTIU DELS MITJANS DE COMUNICACIÓ I ELS ELEMENTS BÀSICS QUE HAURIA DE CONTENIR EL NOU CONTRACTE-PROGRAMA.",
+      "esperado": {
+        "temas": [
+          "otros"
+        ],
+        "tipo": "ruego_pregunta",
+        "afecta_vecinos": true,
+        "impacto": 2
+      }
+    },
+    {
+      "id": "sesion-2026-06-30-24",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-06-30.txt",
+      "orden": 24,
+      "titulo": "MOCIÓ EN SUPORT AL MANIFEST DEL DIA INTERNACIONAL DE L'ORGULL LGTBI+, 28 DE JUNY.",
+      "texto_redactado": "MOCIÓ EN SUPORT AL MANIFEST DEL DIA INTERNACIONAL DE L'ORGULL LGTBI+, 28 DE JUNY.",
+      "esperado": {
+        "temas": [
+          "servicios_sociales",
+          "mociones_grupos"
+        ],
+        "tipo": "mocion",
+        "afecta_vecinos": true,
+        "impacto": 3
+      }
+    },
+    {
+      "id": "sesion-2026-06-30-25",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-06-30.txt",
+      "orden": 25,
+      "titulo": "MOCIÓ PER AL RECONEIXEMENT, RECUPERACIÓ I SENYALITZACIÓ DEL CAMÍ DE SANT JAUME AL SEU PAS PER L'HOSPITALET DE LLOBREGAT.",
+      "texto_redactado": "MOCIÓ PER AL RECONEIXEMENT, RECUPERACIÓ I SENYALITZACIÓ DEL CAMÍ DE SANT JAUME AL SEU PAS PER L'HOSPITALET DE LLOBREGAT.",
+      "esperado": {
+        "temas": [
+          "cultura_deporte_educacion",
+          "mociones_grupos"
+        ],
+        "tipo": "mocion",
+        "afecta_vecinos": true,
+        "impacto": 3
+      }
+    },
+    {
+      "id": "sesion-2026-06-30-27",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-06-30.txt",
+      "orden": 27,
+      "titulo": "MOCIÓ SOBRE LA SITUACIÓ D'ABANDONAMENT I DEGRADACIÓ DEL POLIESPORTIU MUNICIPAL DE LES PLANES.",
+      "texto_redactado": "MOCIÓ SOBRE LA SITUACIÓ D'ABANDONAMENT I DEGRADACIÓ DEL POLIESPORTIU MUNICIPAL DE LES PLANES.",
+      "esperado": {
+        "temas": [
+          "cultura_deporte_educacion",
+          "servicios_publicos",
+          "mociones_grupos"
+        ],
+        "tipo": "mocion",
+        "afecta_vecinos": true,
+        "impacto": 4
+      }
+    },
+    {
+      "id": "sesion-2026-06-30-29",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-06-30.txt",
+      "orden": 29,
+      "titulo": "MOCIÓ PER ADQUIRIR EL SOLAR DE L'ANTIGA ROSANDBUS I DESTINAR-LO A EQUIPAMENTS PÚBLICS.",
+      "texto_redactado": "MOCIÓ PER ADQUIRIR EL SOLAR DE L'ANTIGA ROSANDBUS I DESTINAR-LO A EQUIPAMENTS PÚBLICS.",
+      "esperado": {
+        "temas": [
+          "urbanismo_licencias",
+          "mociones_grupos"
+        ],
+        "tipo": "mocion",
+        "afecta_vecinos": true,
+        "impacto": 4
+      }
+    },
+    {
+      "id": "sesion-2026-06-30-31",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-06-30.txt",
+      "orden": 31,
+      "titulo": "MOCIÓN PARA LA ELIMINACIÓN DEL TRIBUTO METROPOLITANO (TM).",
+      "texto_redactado": "MOCIÓN PARA LA ELIMINACIÓN DEL TRIBUTO METROPOLITANO (TM).",
+      "esperado": {
+        "temas": [
+          "presupuesto_impuestos",
+          "mociones_grupos"
+        ],
+        "tipo": "mocion",
+        "afecta_vecinos": true,
+        "impacto": 4
+      }
+    },
+    {
+      "id": "sesion-2026-06-30-34",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-06-30.txt",
+      "orden": 34,
+      "titulo": "MOCIÓN PARA SOLUCIONAR LOS PROBLEMAS DE RUIDO QUE PROVOCA LA FARGA, S.A. A LOS VECINOS DE LA AVENIDA ISABEL LA CATÓLICA.",
+      "texto_redactado": "MOCIÓN PARA SOLUCIONAR LOS PROBLEMAS DE RUIDO QUE PROVOCA LA FARGA, S.A. A LOS VECINOS DE LA AVENIDA ISABEL LA CATÓLICA.",
+      "esperado": {
+        "temas": [
+          "medio_ambiente",
+          "servicios_publicos",
+          "mociones_grupos"
+        ],
+        "tipo": "mocion",
+        "afecta_vecinos": true,
+        "impacto": 4
+      }
+    },
+    {
+      "id": "sesion-2026-06-30-38",
+      "fuente": "fixtures/hospitalet-llobregat/sesion-2026-06-30.txt",
+      "orden": 38,
+      "titulo": "MOCIÓ PER GARANTIR L'AMPLIACIÓ I LA QUALITAT DELS REFUGIS CLIMÀTICS A L'HOSPITALET DE LLOBREGAT.",
+      "texto_redactado": "MOCIÓ PER GARANTIR L'AMPLIACIÓ I LA QUALITAT DELS REFUGIS CLIMÀTICS A L'HOSPITALET DE LLOBREGAT.",
+      "esperado": {
+        "temas": [
+          "medio_ambiente",
+          "mociones_grupos"
+        ],
+        "tipo": "mocion",
+        "afecta_vecinos": true,
+        "impacto": 4
+      }
+    }
+  ]
+}
