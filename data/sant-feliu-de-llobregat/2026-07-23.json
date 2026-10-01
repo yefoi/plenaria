@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-feliu-de-llobregat",
+    "nombre": "Sant Feliu de Llobregat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "821140003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-23",
+    "municipio_id": "sant-feliu-de-llobregat",
+    "fecha": "2026-07-23",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/821140003/2026/8a5bf35e-9b74-41d0-b0ec-f53f043305eb/03.%20Extracte%20PLE%2023.07.2026.pdf",
+    "hash_contenido": "c6a3154ebd5df6405353e17fe91cd5e97bd6cd40596ba0af9314b00e0a5ad214",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T07:49:20.863Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-23#1",
+      "sesion_id": "2026-07-23",
+      "orden": 1,
+      "titulo": "Donar compte de l’informe d’Intervenció sobre l’avaluació del compliment dels",
+      "texto_redactado": "Donar compte de l’informe d’Intervenció sobre l’avaluació del compliment dels",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:20.863Z"
+      }
+    }
+  ]
+}

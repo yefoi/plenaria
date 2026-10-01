@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-vicenc-dels-horts",
+    "nombre": "Sant Vicenç dels Horts",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "826340003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-21",
+    "municipio_id": "sant-vicenc-dels-horts",
+    "fecha": "2026-05-21",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/826340003/2026/bdebedeb-b081-4a8e-b861-9aaa04f668d9/Acta%20Ple_20260521.pdf",
+    "hash_contenido": "807191e2ea549ab5074a5d2850112f13035c35934905cc1c22e3c589d00bef38",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-01T07:48:45.862Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-21#1",
+      "sesion_id": "2026-05-21",
+      "orden": 1,
+      "titulo": "1. Aprovació de l'esborrany de l'acta de la sessió anterior.",
+      "texto_redactado": "1. Aprovació de l'esborrany de l'acta de la sessió anterior.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "barcelona",
+    "nombre": "Barcelona",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "801930008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-24",
+    "municipio_id": "barcelona",
+    "fecha": "2026-07-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/801930008/2026/f755700c-f069-40bd-875d-aced812cb79b/P260724e0.pdf",
+    "hash_contenido": "e0abfcea807133b51a3b48edf523f6c7aaec62af5f4aed38cc7f1bfa62c9679e",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T07:49:00.204Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-24#2",
+      "sesion_id": "2026-07-24",
+      "orden": 2,
+      "titulo": "(FD 2026-07/11) ACCEPTAR la renovació del càrrec de patró de la Fundació Privada",
+      "texto_redactado": "(FD 2026-07/11) ACCEPTAR la renovació del càrrec de patró de la Fundació Privada",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:00.204Z"
+      }
+    },
+    {
+      "id": "2026-07-24#3",
+      "sesion_id": "2026-07-24",
+      "orden": 3,
+      "titulo": "(CO 2026-07/12) RATIFICAR inicialment la modificació dels estatuts del Consorci del",
+      "texto_redactado": "(CO 2026-07/12) RATIFICAR inicialment la modificació dels estatuts del Consorci del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:00.204Z"
+      }
+    },
+    {
+      "id": "2026-07-24#4",
+      "sesion_id": "2026-07-24",
+      "orden": 4,
+      "titulo": "(25XC0435) MODIFICAR el conveni interadministratiu, aprovat pel Plenari del Consell",
+      "texto_redactado": "(25XC0435) MODIFICAR el conveni interadministratiu, aprovat pel Plenari del Consell",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:00.204Z"
+      }
+    },
+    {
+      "id": "2026-07-24#5",
+      "sesion_id": "2026-07-24",
+      "orden": 5,
+      "titulo": "(26XD0032) APROVAR definitivament la modificació de crèdit, consistent en",
+      "texto_redactado": "(26XD0032) APROVAR definitivament la modificació de crèdit, consistent en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:00.204Z"
+      }
+    },
+    {
+      "id": "2026-07-24#6",
+      "sesion_id": "2026-07-24",
+      "orden": 6,
+      "titulo": "(26XD0033) APROVAR definitivament la modificació de crèdit, consistent en",
+      "texto_redactado": "(26XD0033) APROVAR definitivament la modificació de crèdit, consistent en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:00.204Z"
+      }
+    },
+    {
+      "id": "2026-07-24#7",
+      "sesion_id": "2026-07-24",
+      "orden": 7,
+      "titulo": "(26EP000X) APROVAR definitivament la modificació de crèdit consistent en suplement",
+      "texto_redactado": "(26EP000X) APROVAR definitivament la modificació de crèdit consistent en suplement",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:00.204Z"
+      }
+    },
+    {
+      "id": "2026-07-24#8",
+      "sesion_id": "2026-07-24",
+      "orden": 8,
+      "titulo": "(2026-2031) NOMENAR, de conformitat amb allò que estableix l’article 143.4 de la",
+      "texto_redactado": "(2026-2031) NOMENAR, de conformitat amb allò que estableix l’article 143.4 de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:00.204Z"
+      }
+    },
+    {
+      "id": "2026-07-24#9",
+      "sesion_id": "2026-07-24",
+      "orden": 9,
+      "titulo": "(2026_EXP_8046563) ATORGAR la Medalla d’Honor de Barcelona 2026 als ciutadans,",
+      "texto_redactado": "(2026_EXP_8046563) ATORGAR la Medalla d’Honor de Barcelona 2026 als ciutadans,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:00.204Z"
+      }
+    },
+    {
+      "id": "2026-07-24#10",
+      "sesion_id": "2026-07-24",
+      "orden": 10,
+      "titulo": "(26XF0813) DOTAR i habilitar el crèdit de 4.163,70 euros a les aplicacions",
+      "texto_redactado": "(26XF0813) DOTAR i habilitar el crèdit de 4.163,70 euros a les aplicacions",
+      "importe_eur": 4163.7,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:00.204Z"
+      }
+    },
+    {
+      "id": "2026-07-24#11",
+      "sesion_id": "2026-07-24",
+      "orden": 11,
+      "titulo": "(26XI0007) DOTAR i habilitar el crèdit de 5.900,00 euros a l'aplicació pressupostària",
+      "texto_redactado": "(26XI0007) DOTAR i habilitar el crèdit de 5.900,00 euros a l'aplicació pressupostària",
+      "importe_eur": 5900,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:00.204Z"
+      }
+    },
+    {
+      "id": "2026-07-24#12",
+      "sesion_id": "2026-07-24",
+      "orden": 12,
+      "titulo": "(17/2026) RECTIFICAR, a l’empara de l'article 109.2 de la Llei 39/2015, d’1 d’octubre,",
+      "texto_redactado": "(17/2026) RECTIFICAR, a l’empara de l'article 109.2 de la Llei 39/2015, d’1 d’octubre,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:00.204Z"
+      }
+    },
+    {
+      "id": "2026-07-24#13",
+      "sesion_id": "2026-07-24",
+      "orden": 13,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:00.204Z"
+      }
+    },
+    {
+      "id": "2026-07-24#14",
+      "sesion_id": "2026-07-24",
+      "orden": 14,
+      "titulo": "(EM 2026-07-13) RATIFICAR l’acord adoptat per la Junta General Ordinària de socis",
+      "texto_redactado": "(EM 2026-07-13) RATIFICAR l’acord adoptat per la Junta General Ordinària de socis",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:00.204Z"
+      }
+    }
+  ]
+}

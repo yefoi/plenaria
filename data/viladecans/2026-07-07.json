@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "viladecans",
+    "nombre": "Viladecans",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "830150006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-07",
+    "municipio_id": "viladecans",
+    "fecha": "2026-07-07",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/830150006/2026/eb69fa0a-183c-4df4-941d-6afb79bd0f28/PL%20070726.pdf",
+    "hash_contenido": "f14e407efd72c8c1d2b88b15860e2908516670a111083d711afb76e1620fffca",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T07:49:16.655Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-07#1",
+      "sesion_id": "2026-07-07",
+      "orden": 1,
+      "titulo": "ESTAT DE LA CIUTAT",
+      "texto_redactado": "ESTAT DE LA CIUTAT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:16.655Z"
+      }
+    }
+  ]
+}

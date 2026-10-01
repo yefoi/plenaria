@@ -1,0 +1,674 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vilassar-de-mar",
+    "nombre": "Vilassar de Mar",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "821910007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-18",
+    "municipio_id": "vilassar-de-mar",
+    "fecha": "2026-06-18",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/821910007/2026/d19c55a1-03c7-4973-9a7c-a3949538ca7e/ACTA%20PLE%20ORDINARI%2018-06-2026_ANONIMITZADA.pdf",
+    "hash_contenido": "c0554ca15ba70f00fe9b4b0b47f5778e41c1be7009ff1e9b122dc8ac8eac3e72",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T07:49:30.762Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-18#1",
+      "sesion_id": "2026-06-18",
+      "orden": 1,
+      "titulo": "APROVACIO DE L'ACTA DE LA SESSIÓ ANTERIOR DEL DIA 21-05-2026.",
+      "texto_redactado": "APROVACIO DE L'ACTA DE LA SESSIÓ ANTERIOR DEL DIA 21-05-2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#2",
+      "sesion_id": "2026-06-18",
+      "orden": 2,
+      "titulo": "DONAR COMPTE DE INFORME RESUM ANUAL DE VILASSAR DE MAR DELS RESULTATS DEL CONTROL INTERN, QUE S’ESTABLEIX A L’ARTICLE 213 DEL RDLEG",
+      "texto_redactado": "DONAR COMPTE DE INFORME RESUM ANUAL DE VILASSAR DE MAR DELS RESULTATS DEL CONTROL INTERN, QUE S’ESTABLEIX A L’ARTICLE 213 DEL RDLEG",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#3",
+      "sesion_id": "2026-06-18",
+      "orden": 3,
+      "titulo": "DONAR COMPTE DE L’INFORME ANUAL D’AUDITORIA DEL REGISTRE COMPTABLE DE FACTURES DE L’AJUNTAMENT DE VILASSAR DE MAR DE L’EXERCICI 2025.",
+      "texto_redactado": "DONAR COMPTE DE L’INFORME ANUAL D’AUDITORIA DEL REGISTRE COMPTABLE DE FACTURES DE L’AJUNTAMENT DE VILASSAR DE MAR DE L’EXERCICI 2025.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#4",
+      "sesion_id": "2026-06-18",
+      "orden": 4,
+      "titulo": "DONAR COMPTE DEL DECRET D'APROVACIÓ DE LA LIQUIDACIÓ DEL PRESSUPOST GENERAL DE L'AJUNTAMENT DE VDM DE L'EXERCICI 2025.",
+      "texto_redactado": "DONAR COMPTE DEL DECRET D'APROVACIÓ DE LA LIQUIDACIÓ DEL PRESSUPOST GENERAL DE L'AJUNTAMENT DE VDM DE L'EXERCICI 2025.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#5",
+      "sesion_id": "2026-06-18",
+      "orden": 5,
+      "titulo": "ACORD D'APROVACIÓ DE RECONEIXEMENT EXTRAJUDICIAL DE CREDIT D'OBLIGACIONS PLE DE JUNY.",
+      "texto_redactado": "ACORD D'APROVACIÓ DE RECONEIXEMENT EXTRAJUDICIAL DE CREDIT D'OBLIGACIONS PLE DE JUNY.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#6",
+      "sesion_id": "2026-06-18",
+      "orden": 6,
+      "titulo": "APROVACIÓ DEL PLA D'IGUALTAT INTERN 2026-2030.",
+      "texto_redactado": "APROVACIÓ DEL PLA D'IGUALTAT INTERN 2026-2030.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#7",
+      "sesion_id": "2026-06-18",
+      "orden": 7,
+      "titulo": "CONVENI D'ENCÀRREC DE GESTIÓ ENTRE EL CONSELL COMARCAL DEL MARESME I L'AJUNTAMENT DE VILASSAR DE MAR PER A LA CONTRACTACIÓ DEL SERVEI RULA, D'ATENCIÓ DELS USOS DE DROGUES I PANTALLES.",
+      "texto_redactado": "CONVENI D'ENCÀRREC DE GESTIÓ ENTRE EL CONSELL COMARCAL DEL MARESME I L'AJUNTAMENT DE VILASSAR DE MAR PER A LA CONTRACTACIÓ DEL SERVEI RULA, D'ATENCIÓ DELS USOS DE DROGUES I PANTALLES.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#8",
+      "sesion_id": "2026-06-18",
+      "orden": 8,
+      "titulo": "ADHESIÓ AL CONVENI DE COL·LABORACIÓ ENTRE L'AGÈNCIA DE RESIDUS DE CATALUNYA (ARC), LA FEDERACIÓ DE MUNICIPIS DE CATALUNYA (FMC), L'ASSOCIACIÓ CATALANA DE MUNICIPIS I COMARQUES (ACM),L'ÀREA METROPOLITANA DE BARCELONA (AMB), L'AGRUPACIÓ PER A LA RECOLLIDA SELECTIVA DE PAPER I CARTRÓ DE CATALUNYA (ARSPCC) I EL GREMI DE RECUPERACIÓ DE CATALUNYA (GRC) AMB ADDENDA.",
+      "texto_redactado": "ADHESIÓ AL CONVENI DE COL·LABORACIÓ ENTRE L'AGÈNCIA DE RESIDUS DE CATALUNYA (ARC), LA FEDERACIÓ DE MUNICIPIS DE CATALUNYA (FMC), L'ASSOCIACIÓ CATALANA DE MUNICIPIS I COMARQUES (ACM),L'ÀREA METROPOLITANA DE BARCELONA (AMB), L'AGRUPACIÓ PER A LA RECOLLIDA SELECTIVA DE PAPER I CARTRÓ DE CATALUNYA (ARSPCC) I EL GREMI DE RECUPERACIÓ DE CATALUNYA (GRC) AMB ADDENDA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#9",
+      "sesion_id": "2026-06-18",
+      "orden": 9,
+      "titulo": "ELECCIÓ DE FESTES LOCALS A VILASSAR DE MAR PER L'ANY 2027.",
+      "texto_redactado": "ELECCIÓ DE FESTES LOCALS A VILASSAR DE MAR PER L'ANY 2027.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#10",
+      "sesion_id": "2026-06-18",
+      "orden": 10,
+      "titulo": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DEL REGLAMENT DEL CONSELL DE LA VILA EN EL MARC DEL REGLAMENT DE PARTICIPACIÓ CIUTADANA DE VILASSAR",
+      "texto_redactado": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DEL REGLAMENT DEL CONSELL DE LA VILA EN EL MARC DEL REGLAMENT DE PARTICIPACIÓ CIUTADANA DE VILASSAR",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#11",
+      "sesion_id": "2026-06-18",
+      "orden": 11,
+      "titulo": "APROVACIÓ DEL PROJECTE DE CONCESSIÓ I DE L'ADJUDICACIÓ DEL DRET DE CONCESSIÓ DEMANIAL EN FINCA D'EQUIPAMENT A L'ÀMBIT \"LA MURALLA-MOSSÈN PERE RIBOT\" A FAVOR DE LA FUNDACIÓ PRIVADA SALAS, PER A DESTINAR-LA A LA PROMOCIÓ D'EDIFICI D'ALLOTJAMENT DOTACIONAL EN RÈGIM DE LLOGUER I AMB QUALIFICACIÓ D'HABITATGE DE PROTECCIÓ OFICIAL.",
+      "texto_redactado": "APROVACIÓ DEL PROJECTE DE CONCESSIÓ I DE L'ADJUDICACIÓ DEL DRET DE CONCESSIÓ DEMANIAL EN FINCA D'EQUIPAMENT A L'ÀMBIT \"LA MURALLA-MOSSÈN PERE RIBOT\" A FAVOR DE LA FUNDACIÓ PRIVADA SALAS, PER A DESTINAR-LA A LA PROMOCIÓ D'EDIFICI D'ALLOTJAMENT DOTACIONAL EN RÈGIM DE LLOGUER I AMB QUALIFICACIÓ D'HABITATGE DE PROTECCIÓ OFICIAL.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#12",
+      "sesion_id": "2026-06-18",
+      "orden": 12,
+      "titulo": "APROVACIÓ DEFINITIVA DEL DESNONAMENT ADMINISTRATIU HABITATGE",
+      "texto_redactado": "APROVACIÓ DEFINITIVA DEL DESNONAMENT ADMINISTRATIU HABITATGE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#13",
+      "sesion_id": "2026-06-18",
+      "orden": 13,
+      "titulo": "DONAR COMPTE DELS DECRETS DE L'ALCALDIA DES DEL 1791/2026 AL",
+      "texto_redactado": "DONAR COMPTE DELS DECRETS DE L'ALCALDIA DES DEL 1791/2026 AL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#14",
+      "sesion_id": "2026-06-18",
+      "orden": 14,
+      "titulo": "PRECS I PREGUNTES LECTURA DECLARACIÓ INSTITUCIONAL EN SUPORT A LA CAMPANYA CIUTADANA PER LA CREACIÓ D'UNA LÍNIA DIRECTA VILASSAR DE MAR-",
+      "texto_redactado": "PRECS I PREGUNTES LECTURA DECLARACIÓ INSTITUCIONAL EN SUPORT A LA CAMPANYA CIUTADANA PER LA CREACIÓ D'UNA LÍNIA DIRECTA VILASSAR DE MAR-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#15",
+      "sesion_id": "2026-06-18",
+      "orden": 15,
+      "titulo": "La gestió jurídico-administrativa i econòmico-financera de la promoció.",
+      "texto_redactado": "La gestió jurídico-administrativa i econòmico-financera de la promoció.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#16",
+      "sesion_id": "2026-06-18",
+      "orden": 16,
+      "titulo": "La comercialització i l’explotació dels allotjaments amb caràcter dotacional que",
+      "texto_redactado": "La comercialització i l’explotació dels allotjaments amb caràcter dotacional que",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#17",
+      "sesion_id": "2026-06-18",
+      "orden": 17,
+      "titulo": "La comercialització i explotació de les places d’aparcament i els trasters que",
+      "texto_redactado": "La comercialització i explotació de les places d’aparcament i els trasters que",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#18",
+      "sesion_id": "2026-06-18",
+      "orden": 18,
+      "titulo": "La conservació, manteniment i actualització de l’edificació de manera que",
+      "texto_redactado": "La conservació, manteniment i actualització de l’edificació de manera que",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#19",
+      "sesion_id": "2026-06-18",
+      "orden": 19,
+      "titulo": "L’execució de les actuacions de reposició i gran reparació que siguin exigibles,",
+      "texto_redactado": "L’execució de les actuacions de reposició i gran reparació que siguin exigibles,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#20",
+      "sesion_id": "2026-06-18",
+      "orden": 20,
+      "titulo": "La garantia de la qualitat de l’obra, amb el compliment de les disposicions",
+      "texto_redactado": "La garantia de la qualitat de l’obra, amb el compliment de les disposicions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#21",
+      "sesion_id": "2026-06-18",
+      "orden": 21,
+      "titulo": "La gestió del règim de garanties de l’edificació i la subscripció de les",
+      "texto_redactado": "La gestió del règim de garanties de l’edificació i la subscripció de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#22",
+      "sesion_id": "2026-06-18",
+      "orden": 22,
+      "titulo": "La protecció del domini públic que quedi vinculat a la concessió administrativa",
+      "texto_redactado": "La protecció del domini públic que quedi vinculat a la concessió administrativa",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#23",
+      "sesion_id": "2026-06-18",
+      "orden": 23,
+      "titulo": "La posada de l’edificació a disposició de l’Ajuntament quan es produeixi l'extinció",
+      "texto_redactado": "La posada de l’edificació a disposició de l’Ajuntament quan es produeixi l'extinció",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#24",
+      "sesion_id": "2026-06-18",
+      "orden": 24,
+      "titulo": "El compliment de les disposicions dels reglaments i ordenances fiscals i generals",
+      "texto_redactado": "El compliment de les disposicions dels reglaments i ordenances fiscals i generals",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#25",
+      "sesion_id": "2026-06-18",
+      "orden": 25,
+      "titulo": "La instal·lació dels cartells anunciadors de la promoció.",
+      "texto_redactado": "La instal·lació dels cartells anunciadors de la promoció.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#26",
+      "sesion_id": "2026-06-18",
+      "orden": 26,
+      "titulo": "El pagament dels tributs i despeses de qualsevol naturalesa que es derivin de la",
+      "texto_redactado": "El pagament dels tributs i despeses de qualsevol naturalesa que es derivin de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#27",
+      "sesion_id": "2026-06-18",
+      "orden": 27,
+      "titulo": "La sol·licitud de la cèdula de qualificació provisional i definitiva de tots els",
+      "texto_redactado": "La sol·licitud de la cèdula de qualificació provisional i definitiva de tots els",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    },
+    {
+      "id": "2026-06-18#28",
+      "sesion_id": "2026-06-18",
+      "orden": 28,
+      "titulo": "La sol·licitud de les llicències i permisos corresponents, en els terminis que es",
+      "texto_redactado": "La sol·licitud de les llicències i permisos corresponents, en els terminis que es",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:30.762Z"
+      }
+    }
+  ]
+}

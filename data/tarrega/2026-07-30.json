@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "tarrega",
+    "nombre": "Tàrrega",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2521730008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-30",
+    "municipio_id": "tarrega",
+    "fecha": "2026-07-30",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2521730008/2026/f9d8fec1-5936-461b-bbfe-1227c3a4c7f1/9.%20ACTA%20PLE%202026-07-30.pdf",
+    "hash_contenido": "0a1c148ccfb4c3050ff4e55e7bd2b92bd4a8bc22882eb584c45b1309acdea7a8",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T07:49:37.454Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-30#1",
+      "sesion_id": "2026-07-30",
+      "orden": 1,
+      "titulo": "Declarar inversió financerament sostenible, als efectes previstos a la disposició",
+      "texto_redactado": "Declarar inversió financerament sostenible, als efectes previstos a la disposició",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:37.454Z"
+      }
+    }
+  ]
+}

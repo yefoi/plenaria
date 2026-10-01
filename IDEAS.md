@@ -16,11 +16,15 @@ Ideas fuera del alcance actual. No implementar sin acordarlo antes.
 
 ## Fuentes
 
+- Cobertura catalana: hay ~170 ayuntamientos más con sesiones frescas en el
+  catálogo de la AOC; añadibles por lotes siguiendo el mismo criterio de
+  población (hoy hay 38 catalanes + Toledo).
 - Ampliar a otras comunidades autónomas con el adaptador `pdf-transparencia`
   (cada portal exige verificar listado, patrón de PDF y fechas).
 - Adaptadores para portales con plantilla común de la Diputación de Sevilla
-  (VideoActas) donde las actas no están en PDF sino en una aplicación.
-- OCR para PDFs sin capa de texto (marcados `requiere_ocr`).
+  (VideoActas) donde las actas no están en PDF sino en una aplicación o .docx.
+- Documentos .docx o sin capa de texto útil: hoy se saltan o se marcan
+  `requiere_ocr`; valorar extracción de .docx (mammoth) y OCR selectivo.
 - Comprobación automática de que `robots.txt` sigue permitiendo las rutas y
   aviso en `/fuentes` si cambia (hoy se comprueba en cada descarga).
 

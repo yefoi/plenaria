@@ -1,0 +1,304 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "manresa",
+    "nombre": "Manresa",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "811360009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-16",
+    "municipio_id": "manresa",
+    "fecha": "2026-07-16",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/811360009/2026/499fb4e4-b4e4-4d07-9e6d-c6383d79bb38/2026%2007%2016%20Acta%20Web%20Ple.pdf",
+    "hash_contenido": "16baa2a3b19082a635221ef0bce316f133329d5bd93b9129f010b683dd9b0687",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T07:49:05.345Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-16#1",
+      "sesion_id": "2026-07-16",
+      "orden": 1,
+      "titulo": "APROVACIÓ ACTA ANTERIOR",
+      "texto_redactado": "APROVACIÓ ACTA ANTERIOR",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.39,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:05.345Z"
+      }
+    },
+    {
+      "id": "2026-07-16#2",
+      "sesion_id": "2026-07-16",
+      "orden": 2,
+      "titulo": "QÜESTIONS DE PRESIDÈNCIA",
+      "texto_redactado": "QÜESTIONS DE PRESIDÈNCIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:05.345Z"
+      }
+    },
+    {
+      "id": "2026-07-16#3",
+      "sesion_id": "2026-07-16",
+      "orden": 3,
+      "titulo": "DICTÀMENS DE LA COMISSIÓ INFORMATIVA DE SERVEIS GENERALS",
+      "texto_redactado": "DICTÀMENS DE LA COMISSIÓ INFORMATIVA DE SERVEIS GENERALS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:05.345Z"
+      }
+    },
+    {
+      "id": "2026-07-16#4",
+      "sesion_id": "2026-07-16",
+      "orden": 4,
+      "titulo": "DICTÀMENS DE LA COMISSIÓ INFORMATIVA DE TERRITORI",
+      "texto_redactado": "DICTÀMENS DE LA COMISSIÓ INFORMATIVA DE TERRITORI",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:05.345Z"
+      }
+    },
+    {
+      "id": "2026-07-16#5",
+      "sesion_id": "2026-07-16",
+      "orden": 5,
+      "titulo": "DICTÀMENS DE LA COMISSIÓ INFORMATIVA DE DRETS I SERVEIS A LES",
+      "texto_redactado": "DICTÀMENS DE LA COMISSIÓ INFORMATIVA DE DRETS I SERVEIS A LES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:05.345Z"
+      }
+    },
+    {
+      "id": "2026-07-16#6",
+      "sesion_id": "2026-07-16",
+      "orden": 6,
+      "titulo": "ASSUMPTES SOBREVINGUTS",
+      "texto_redactado": "ASSUMPTES SOBREVINGUTS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:05.345Z"
+      }
+    },
+    {
+      "id": "2026-07-16#7",
+      "sesion_id": "2026-07-16",
+      "orden": 7,
+      "titulo": "1.- Moció de l’Associació Cultura l’Alternativa Manresa, per a la incorporació de la Festa",
+      "texto_redactado": "1.- Moció de l’Associació Cultura l’Alternativa Manresa, per a la incorporació de la Festa",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:05.345Z"
+      }
+    },
+    {
+      "id": "2026-07-16#8",
+      "sesion_id": "2026-07-16",
+      "orden": 8,
+      "titulo": "DONACIÓ DE COMPTE DE LES RESOLUCIONS DICTADES PER L’ALCALDIA",
+      "texto_redactado": "DONACIÓ DE COMPTE DE LES RESOLUCIONS DICTADES PER L’ALCALDIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:05.345Z"
+      }
+    },
+    {
+      "id": "2026-07-16#9",
+      "sesion_id": "2026-07-16",
+      "orden": 9,
+      "titulo": "DONACIÓ DE COMPTE DE LES ACTES DE LA JUNTA DE GOVERN LOCAL",
+      "texto_redactado": "DONACIÓ DE COMPTE DE LES ACTES DE LA JUNTA DE GOVERN LOCAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:05.345Z"
+      }
+    },
+    {
+      "id": "2026-07-16#10",
+      "sesion_id": "2026-07-16",
+      "orden": 10,
+      "titulo": "DONACIÓ DE COMPTE DE JUSTIFICANT DE RECEPCIÓ D’ESCRITS",
+      "texto_redactado": "DONACIÓ DE COMPTE DE JUSTIFICANT DE RECEPCIÓ D’ESCRITS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:05.345Z"
+      }
+    },
+    {
+      "id": "2026-07-16#11",
+      "sesion_id": "2026-07-16",
+      "orden": 11,
+      "titulo": "PRECS I PREGUNTES.-",
+      "texto_redactado": "PRECS I PREGUNTES.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:05.345Z"
+      }
+    },
+    {
+      "id": "2026-07-16#12",
+      "sesion_id": "2026-07-16",
+      "orden": 12,
+      "titulo": "Principis ètics i regles de conducta",
+      "texto_redactado": "Principis ètics i regles de conducta",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:05.345Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "torredembarra",
+    "nombre": "Torredembarra",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4315360009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-20",
+    "municipio_id": "torredembarra",
+    "fecha": "2026-07-20",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4315360009/2026/7a953eff-46fc-4fb1-a87e-e2e7f912aeda/06.%202026-07-20.%20Certificat%20Acta%20Ple.pdf",
+    "hash_contenido": "6cdfe5b67fc569149f459a9c7e52230ed8b31c065c5c616dc7ff0897e5cd12a1",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T07:49:40.245Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-20#1",
+      "sesion_id": "2026-07-20",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió anterior.",
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:40.245Z"
+      }
+    },
+    {
+      "id": "2026-07-20#2",
+      "sesion_id": "2026-07-20",
+      "orden": 2,
+      "titulo": "Dació de compte dels Decrets dictats per l'Alcaldia i les regidories delegades",
+      "texto_redactado": "Dació de compte dels Decrets dictats per l'Alcaldia i les regidories delegades",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:40.245Z"
+      }
+    },
+    {
+      "id": "2026-07-20#3",
+      "sesion_id": "2026-07-20",
+      "orden": 3,
+      "titulo": "Dació de compte dels acords adoptats per la Junta de Govern Local des de la",
+      "texto_redactado": "Dació de compte dels acords adoptats per la Junta de Govern Local des de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:40.245Z"
+      }
+    },
+    {
+      "id": "2026-07-20#4",
+      "sesion_id": "2026-07-20",
+      "orden": 4,
+      "titulo": "Expedient 6245/2026. Dictamen proposant la modificació de Crèdit 15",
+      "texto_redactado": "Expedient 6245/2026. Dictamen proposant la modificació de Crèdit 15",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:40.245Z"
+      }
+    },
+    {
+      "id": "2026-07-20#5",
+      "sesion_id": "2026-07-20",
+      "orden": 5,
+      "titulo": "Expedient 23/2026. Dictamen proposant l'aprovació d'un conveni de",
+      "texto_redactado": "Expedient 23/2026. Dictamen proposant l'aprovació d'un conveni de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:40.245Z"
+      }
+    },
+    {
+      "id": "2026-07-20#6",
+      "sesion_id": "2026-07-20",
+      "orden": 6,
+      "titulo": "En data 22 de juny de 2026 l’enginyer tècnic municipal emet informe tècnic respecte",
+      "texto_redactado": "En data 22 de juny de 2026 l’enginyer tècnic municipal emet informe tècnic respecte",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:40.245Z"
+      }
+    },
+    {
+      "id": "2026-07-20#7",
+      "sesion_id": "2026-07-20",
+      "orden": 7,
+      "titulo": "En data 30 de juny de 2026 la secretària accidental emet el seu informe jurídic.",
+      "texto_redactado": "En data 30 de juny de 2026 la secretària accidental emet el seu informe jurídic.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:40.245Z"
+      }
+    },
+    {
+      "id": "2026-07-20#8",
+      "sesion_id": "2026-07-20",
+      "orden": 8,
+      "titulo": "2.b) sobre els vocals del Consell Consultiu i Assessor d’Ona La Torre, per tal",
+      "texto_redactado": "2.b) sobre els vocals del Consell Consultiu i Assessor d’Ona La Torre, per tal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:40.245Z"
+      }
+    },
+    {
+      "id": "2026-07-20#9",
+      "sesion_id": "2026-07-20",
+      "orden": 9,
+      "titulo": "Expedient 6394/2026. Dictamen proposant la creació de la Comissió",
+      "texto_redactado": "Expedient 6394/2026. Dictamen proposant la creació de la Comissió",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:40.245Z"
+      }
+    },
+    {
+      "id": "2026-07-20#10",
+      "sesion_id": "2026-07-20",
+      "orden": 10,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:40.245Z"
+      }
+    },
+    {
+      "id": "2026-07-20#11",
+      "sesion_id": "2026-07-20",
+      "orden": 11,
+      "titulo": "Expedient 6324/2026. Moció, del grup municipal d'Alternativa",
+      "texto_redactado": "Expedient 6324/2026. Moció, del grup municipal d'Alternativa",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:40.245Z"
+      }
+    }
+  ]
+}

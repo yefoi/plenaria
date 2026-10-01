@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "roses",
+    "nombre": "Roses",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1715230008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-08-24",
+    "municipio_id": "roses",
+    "fecha": "2026-08-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1715230008/2026/667d477d-15c9-46f7-bfdc-177f0fd9f8b6/P24.08.2026.pdf",
+    "hash_contenido": "10a4f27745c5fad3f581c5cbbd640b06ec80be8a4a9e17f692c6804d1107c617",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T07:49:35.066Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-08-24#1",
+      "sesion_id": "2026-08-24",
+      "orden": 1,
+      "titulo": "Ratificar la inclusió del punt al qual s’ha fet referència als antecedents, a l’ordre del dia",
+      "texto_redactado": "Ratificar la inclusió del punt al qual s’ha fet referència als antecedents, a l’ordre del dia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:35.066Z"
+      }
+    }
+  ]
+}

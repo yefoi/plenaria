@@ -79,7 +79,7 @@ function unirTitulo(lineas: string[]): string {
   return lineas
     .join(' ')
     .replace(/\s+/g, ' ')
-    .replace(/^[\-•]\s*/, '')
+    .replace(/^[\-–—•]\s*/, '')
     .trim();
 }
 
@@ -142,41 +142,95 @@ export function segmentarExtracteAcords(texto: string): ResultadoSegmentacion {
 }
 
 const INICIO_PERSONA = /^(D\.|Dª|Dña|Doña|Don\b|Sr\.|Sra\.|Srta\.|Ilmo\.|Ilma\.)/;
+const FIRMA_MAYUSCULAS = /^[A-ZÀ-Ü][A-ZÀ-Ü\s.]{6,}\([A-ZÀ-Ü\s]+\)/;
+const ENCABEZADO_SECCION =
+  /^(antecedents|antecedentes|normativa|consideracions|consideraciones|fonaments|fundamentos|informes?|conclusions?|conclusiones|disposicions?|disposiciones|altre\s|otros?\s)/i;
 
 function esNumeroDePersona(titulo: string): boolean {
-  return INICIO_PERSONA.test(titulo);
+  const limpio = titulo.replace(/^[\-–—]\s*/, '');
+  return INICIO_PERSONA.test(limpio) || FIRMA_MAYUSCULAS.test(limpio);
+}
+
+function mejorIntervalo(
+  porNumero: Map<number, { idx: number; titulo: string }>,
+): { inicio: number; fin: number } | null {
+  let mejor: { inicio: number; fin: number } | null = null;
+  for (const inicio of [1, 2]) {
+    if (!porNumero.has(inicio)) continue;
+    let fin = inicio;
+    while (porNumero.has(fin + 1)) fin++;
+    if (!mejor || fin - inicio > mejor.fin - mejor.inicio) mejor = { inicio, fin };
+  }
+  if (mejor && mejor.inicio === 1) {
+    const c1 = porNumero.get(1)!;
+    const c2 = porNumero.get(2);
+    if (c2 && c1.idx > c2.idx) mejor = { inicio: 2, fin: mejor.fin };
+  }
+  return mejor;
+}
+
+function extenderTitulo(lines: string[], desde: number, limite = 6): string[] {
+  const partes: string[] = [];
+  for (let i = desde + 1; i < lines.length && partes.length < limite; i++) {
+    const linea = lines[i];
+    if (/^\d{1,3}\.(?!\d)\s*\S/.test(linea)) break;
+    if (/^Expedient:/i.test(linea)) continue;
+    if (
+      linea === linea.toUpperCase() ||
+      ENCABEZADO_SECCION.test(linea) ||
+      /^(dades|assist|acta\b|certific|document|signatures)/i.test(linea) ||
+      /^(favorable|desfavorable|abstenci|tipus de votaci|resultat|aprovat|rebutjat|unanimitat)/i.test(linea) ||
+      linea.length > 200
+    ) {
+      break;
+    }
+    partes.push(linea);
+  }
+  return partes;
 }
 
 export function segmentarActaNumerada(texto: string): ResultadoSegmentacion {
   const lineas = limpiarLineas(texto);
-
-  interface Candidato {
-    idx: number;
-    numero: number;
-    titulo: string;
-  }
-  const candidatos: Candidato[] = [];
+  const porNumero = new Map<number, { idx: number; titulo: string }>();
   for (let i = 0; i < lineas.length; i++) {
-    const m = lineas[i].match(/^(\d{1,3})\.\s*(.+)$/);
+    const m = lineas[i].match(/^(\d{1,3})\.(?!\d)\s*(.+)$/);
     if (!m) continue;
     const titulo = m[2].trim();
     if (titulo.length < 10) continue;
+    if (/^\d/.test(titulo)) continue;
     if (esNumeroDePersona(titulo)) continue;
+    if (ENCABEZADO_SECCION.test(titulo)) continue;
     if (/^(p[aá]gina|p[aà]g\.)/i.test(titulo)) continue;
-    candidatos.push({ idx: i, numero: Number(m[1]), titulo });
+    const numero = Number(m[1]);
+    if (numero < 1 || numero > 200) continue;
+    if (!porNumero.has(numero)) porNumero.set(numero, { idx: i, titulo });
   }
 
-  let mejorRun: Candidato[] = [];
-  for (let k = 0; k < candidatos.length; k++) {
-    if (candidatos[k].numero !== 1) continue;
-    const run: Candidato[] = [candidatos[k]];
-    for (let j = k + 1; j < candidatos.length; j++) {
-      if (candidatos[j].numero === run.at(-1)!.numero + 1) run.push(candidatos[j]);
+  const intervalo = mejorIntervalo(porNumero);
+  const esCorta = texto.length < 8000 && /extraordin/i.test(texto);
+  const longitud = intervalo ? intervalo.fin - intervalo.inicio + 1 : 0;
+  const aceptable = intervalo && (longitud >= 3 || (esCorta && longitud >= 2));
+
+  if (!aceptable) {
+    const c1 = porNumero.get(1);
+    const c2 = porNumero.get(2);
+    const saltoGrande = !c2 || c2.idx - (c1?.idx ?? 0) > 40;
+    const esSesionSingular = /ordre del dia|sessi[oó]|ple\b/i.test(texto) && texto.length > 1500;
+    if (c1 && saltoGrande && esSesionSingular) {
+      const partes = [c1.titulo, ...extenderTitulo(lineas, c1.idx)];
+      return {
+        puntos: [
+          {
+            orden: 1,
+            titulo: unirTitulo(partes).slice(0, 900),
+            resultado: null,
+            referencia: null,
+          },
+        ],
+        metodo: 'acta-numerada',
+        segmentacionPobre: false,
+      };
     }
-    if (run.length > mejorRun.length) mejorRun = run;
-  }
-
-  if (mejorRun.length < 3) {
     return {
       puntos: [
         {
@@ -191,22 +245,27 @@ export function segmentarActaNumerada(texto: string): ResultadoSegmentacion {
     };
   }
 
-  const indicesSeleccionados = new Map(mejorRun.map((c) => [c.idx, c]));
+  const seleccionados = new Map<number, { idx: number; titulo: string }>();
+  for (let n = intervalo!.inicio; n <= intervalo!.fin; n++) {
+    seleccionados.set(n, porNumero.get(n)!);
+  }
+  const indicesSeleccionados = new Set([...seleccionados.values()].map((c) => c.idx));
+
   const puntos: PuntoSegmentado[] = [];
-  for (let k = 0; k < mejorRun.length; k++) {
-    const actual = mejorRun[k];
-    const fin = k + 1 < mejorRun.length ? mejorRun[k + 1].idx : lineas.length;
+  for (let n = intervalo!.inicio; n <= intervalo!.fin; n++) {
+    const actual = seleccionados.get(n)!;
     const tituloPartes: string[] = [actual.titulo];
     let enTitulo = true;
-    for (let i = actual.idx + 1; i < fin; i++) {
+    for (let i = actual.idx + 1; i < lineas.length; i++) {
       const linea = lineas[i];
       if (indicesSeleccionados.has(i)) break;
       const sub = linea.match(/^(\d{1,3})\.[a-z]\)\s*(.+)$/i);
-      if (sub && Number(sub[1]) === actual.numero) {
+      if (sub && Number(sub[1]) === n) {
         tituloPartes.push(sub[2]);
         enTitulo = true;
         continue;
       }
+      if (/^\d{1,3}\.(?!\d)\s*\S/.test(linea)) continue;
       if (enTitulo && linea.length >= 14 && linea === linea.toUpperCase() && !/^\d/.test(linea)) {
         tituloPartes.push(linea);
         continue;
@@ -214,18 +273,14 @@ export function segmentarActaNumerada(texto: string): ResultadoSegmentacion {
       enTitulo = false;
     }
     puntos.push({
-      orden: actual.numero,
+      orden: n,
       titulo: unirTitulo(tituloPartes).slice(0, 900),
       resultado: null,
       referencia: null,
     });
   }
 
-  const consecutivos = puntos.every((p, idx) => p.orden === idx + 1);
-  if (puntos.length >= 3 && consecutivos) {
-    return { puntos, metodo: 'acta-numerada', segmentacionPobre: false };
-  }
-  return { puntos, metodo: 'acta-numerada', segmentacionPobre: true };
+  return { puntos, metodo: 'acta-numerada', segmentacionPobre: false };
 }
 
 const RESULTADOS_TABLA = new Set([
@@ -327,19 +382,31 @@ export function segmentarActaConGuiones(texto: string): ResultadoSegmentacion | 
     if (numero < 1 || numero > 200) continue;
     const titulo = m[2].trim();
     if (titulo.length < 10 || esNumeroDePersona(titulo)) continue;
+    if (ENCABEZADO_SECCION.test(titulo)) continue;
     if (!porNumero.has(numero)) porNumero.set(numero, { idx: i, titulo });
   }
 
-  const numeros = [...porNumero.keys()].sort((a, b) => a - b);
-  if (numeros.length === 1 && numeros[0] === 1) {
-    const unico = porNumero.get(1)!;
+  const c1 = porNumero.get(1);
+  const c2 = porNumero.get(2);
+  const inicio = c2 && (!c1 || c1.idx > c2.idx) ? 2 : 1;
+
+  const run: { numero: number; idx: number; titulo: string }[] = [];
+  let ultimoIdx = -1;
+  for (let n = inicio; porNumero.has(n); n++) {
+    const c = porNumero.get(n)!;
+    if (c.idx < ultimoIdx) break;
+    run.push({ numero: n, ...c });
+    ultimoIdx = c.idx;
+  }
+
+  if (run.length === 1 && run[0].numero === 1) {
     const pareceCertificado = /acord adoptat|acuerdo adoptado|sessi[oó]\s+extraordin/i.test(texto);
     if (pareceCertificado && texto.length < 5000) {
       return {
         puntos: [
           {
             orden: 1,
-            titulo: unirTitulo([unico.titulo]).slice(0, 600),
+            titulo: unirTitulo([run[0].titulo]).slice(0, 600),
             resultado: null,
             referencia: null,
           },
@@ -351,11 +418,10 @@ export function segmentarActaConGuiones(texto: string): ResultadoSegmentacion | 
     return null;
   }
 
-  const consecutivos = numeros.every((n, i) => n === i + 1);
-  if (!consecutivos || numeros.length < 3) return null;
+  const esCorta = texto.length < 8000 && /extraordin/i.test(texto);
+  if (run.length < 3 && !(esCorta && run.length >= 2)) return null;
 
-  const puntos = numeros.map((numero) => {
-    const actual = porNumero.get(numero)!;
+  const puntos = run.map((actual) => {
     const partes = [actual.titulo];
     for (let i = actual.idx + 1; i < Math.min(actual.idx + 6, lineas.length); i++) {
       const linea = lineas[i];
@@ -367,7 +433,7 @@ export function segmentarActaConGuiones(texto: string): ResultadoSegmentacion | 
       break;
     }
     return {
-      orden: numero,
+      orden: actual.numero,
       titulo: unirTitulo(partes).slice(0, 900),
       resultado: null,
       referencia: null,
@@ -377,8 +443,9 @@ export function segmentarActaConGuiones(texto: string): ResultadoSegmentacion | 
 }
 
 export function segmentarPuntoUnico(texto: string): ResultadoSegmentacion | null {
+  if (texto.length > 120000) return null;
   const lineas = limpiarLineas(texto);
-  const idx = lineas.findIndex((l) => /^[ÚU]nic\.\s*[-–—]\s+\S/i.test(l));
+  const idx = lineas.findIndex((l, i) => i < 120 && /^[ÚU]nic\.\s*[-–—]\s+\S/i.test(l));
   if (idx === -1) return null;
   const m = lineas[idx].match(/^[ÚU]nic\.\s*[-–—]\s+(.+)$/i)!;
   const partes = [m[1].trim()];
@@ -399,8 +466,35 @@ export function segmentarPuntoUnico(texto: string): ResultadoSegmentacion | null
   };
 }
 
+export function segmentarEpigrafeUnico(texto: string): ResultadoSegmentacion | null {
+  if (texto.length > 12000) return null;
+  if (!/sessi[oó]|ple\b|extraordin/i.test(texto)) return null;
+  const lineas = limpiarLineas(texto);
+  const epigrafes = lineas.filter((l) =>
+    /^[A-ZÀ-Ü0-9][A-ZÀ-Ü0-9 ,.'’()\-]{7,}?\.\-\s*$/.test(l),
+  );
+  if (epigrafes.length !== 1) return null;
+  const titulo = epigrafes[0].replace(/\.\-\s*$/, '').trim();
+  return {
+    puntos: [{ orden: 1, titulo: titulo.slice(0, 300), resultado: null, referencia: null }],
+    metodo: 'punto-unico',
+    segmentacionPobre: false,
+  };
+}
+
 function tituloRespaldo(lineas: string[]): string {
-  const numerada = lineas.find((l) => /^\d{1,3}\.\s*\S/.test(l));
+  const actaPle = lineas.find((l) => /^que el ple\b/i.test(l) && l.length > 20);
+  if (actaPle) return actaPle.slice(0, 300);
+  const epigrafe = lineas
+    .slice(0, 120)
+    .find((l) => /^[A-ZÀ-Ü0-9][A-ZÀ-Ü0-9 ,.'’()\-]{7,}?\.\-\s*$/.test(l));
+  if (epigrafe) return epigrafe.replace(/\.\-\s*$/, '').slice(0, 300);
+  const numerada = lineas.find((l) => {
+    const m = l.match(/^\d{1,3}\.\s*(.+)$/);
+    if (!m) return false;
+    const titulo = m[1].trim();
+    return titulo.length >= 12 && !esNumeroDePersona(titulo) && !ENCABEZADO_SECCION.test(titulo);
+  });
   return (numerada ?? lineas.slice(0, 3).join(' ')).slice(0, 300);
 }
 
@@ -417,14 +511,16 @@ export function segmentar(texto: string, formato?: string): ResultadoSegmentacio
     const porResultados = segmentarExtractePerResultats(texto);
     if (porResultados) return porResultados;
   } else {
-    const unico = segmentarPuntoUnico(texto);
-    if (unico) return unico;
     const numerada = segmentarActaNumerada(texto);
     if (!numerada.segmentacionPobre) return numerada;
     const conGuiones = segmentarActaConGuiones(texto);
     if (conGuiones) return conGuiones;
     const porResultados = segmentarExtractePerResultats(texto);
     if (porResultados) return porResultados;
+    const unico = segmentarPuntoUnico(texto);
+    if (unico) return unico;
+    const epigrafe = segmentarEpigrafeUnico(texto);
+    if (epigrafe) return epigrafe;
   }
 
   return {

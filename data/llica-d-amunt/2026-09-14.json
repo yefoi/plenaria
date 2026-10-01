@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "llica-d-amunt",
+    "nombre": "Lliçà d'Amunt",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "810750006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-14",
+    "municipio_id": "llica-d-amunt",
+    "fecha": "2026-09-14",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/810750006/2026/1ddf4e78-04fe-4252-87f5-a4e4c14352bf/28_ACTA%20JGL%20APROVADA%2014_09_2026.pdf",
+    "hash_contenido": "56429b7ca5d8628103ef4ac18d36b021a951da503c152348721ebb76f79affa0",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T07:49:44.046Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-14#1",
+      "sesion_id": "2026-09-14",
+      "orden": 1,
+      "titulo": "Ratificar el Decret d’Alcaldia de 28 de juliol de 2026 (RES2026/983) d’aprovació dels ajuts",
+      "texto_redactado": "Ratificar el Decret d’Alcaldia de 28 de juliol de 2026 (RES2026/983) d’aprovació dels ajuts",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:44.046Z"
+      }
+    }
+  ]
+}

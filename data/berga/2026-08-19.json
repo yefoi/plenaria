@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "berga",
+    "nombre": "Berga",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "802290004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-08-19",
+    "municipio_id": "berga",
+    "fecha": "2026-08-19",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/802290004/2026/2caa3127-ec87-4ac1-b988-d5c858ff396f/ACTA%20PL_2026_10%20de%2019-08-26%20ANON.pdf",
+    "hash_contenido": "492397a84159c622a504f9b0defb6e33b3b46b6359da9798921e1ec56e588659",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T07:50:29.120Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-08-19#1",
+      "sesion_id": "2026-08-19",
+      "orden": 1,
+      "titulo": "Expedient 2094/2026. Elaboració i Aprovació del Pressupost",
+      "texto_redactado": "Expedient 2094/2026. Elaboració i Aprovació del Pressupost",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:50:29.120Z"
+      }
+    }
+  ]
+}

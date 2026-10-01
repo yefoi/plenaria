@@ -95,12 +95,17 @@ export class CkanSeuEAdapter implements SourceAdapter {
       }
     }
     const referencias: ReferenciaSesion[] = [];
+    let noPdf = 0;
     for (const fila of filas) {
       if (fila.CODI_ENS !== this.codiEns) continue;
       const fecha = fila.DATA_ACORD.slice(0, 10);
       if (!/^\d{4}-\d{2}-\d{2}$/.test(fecha)) continue;
       const enlace = fila[COLUMNA_ENLACE];
       if (!enlace || !fila.CODI_ACTA) continue;
+      if (!/\.pdf($|[?#])/i.test(enlace)) {
+        noPdf++;
+        continue;
+      }
       referencias.push({
         id: fila.CODI_ACTA,
         fecha,
@@ -108,6 +113,9 @@ export class CkanSeuEAdapter implements SourceAdapter {
         urlDocumento: enlace,
         metadata: { tipus: fila.TIPUS ?? '' },
       });
+    }
+    if (noPdf > 0) {
+      log('aviso', `${noPdf} documentos sin extensión PDF omitidos en ${this.codiEns}`);
     }
     return referencias.sort((a, b) => (a.fecha < b.fecha ? 1 : a.fecha > b.fecha ? -1 : 0));
   }

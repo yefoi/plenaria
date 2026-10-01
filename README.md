@@ -14,12 +14,18 @@ y no inventa nada que no esté en el texto**.
 
 ## Estado
 
-14 municipios procesados, con **tipos de fuente distintos**:
+39 municipios procesados (unos 1,1 millones de habitantes), con **tipos de
+fuente distintos**:
 
-- **13 municipios catalanes** (`ckan-seu-e`): L'Hospitalet de Llobregat, Girona,
-  Tarragona, Salt, Martorell, El Masnou, Rubí, Cambrils, Vilafranca del Penedès,
-  Blanes, Vic, Reus y Sant Cugat del Vallès. Catálogo CSV de la AOC + actas o
-  extractos en PDF.
+- **38 municipios catalanes** (`ckan-seu-e`): los 13 iniciales (L'Hospitalet,
+  Girona, Tarragona, Salt, Martorell, El Masnou, Rubí, Cambrils, Vilafranca,
+  Blanes, Vic, Reus, Sant Cugat) más el **top 25 por población** del catálogo de
+  la AOC (Barcelona, Badalona, Lleida, Mataró, Manresa, Vilanova i la Geltrú,
+  Viladecans, Mollet del Vallès, Figueres, Sant Feliu de Llobregat, Salou, Sant
+  Vicenç dels Horts, Santa Perpètua de Mogoda, Valls, Manlleu, Vilassar de Mar,
+  Calella, Roses, Malgrat de Mar, Tàrrega, Palamós, Torredembarra, Berga,
+  Montornès del Vallès y Lliçà d'Amunt). Catálogo CSV de la AOC + actas o
+  extractos en PDF. Hay ~170 candidatos más con datos frescos por añadir.
 - **Toledo** (`pdf-transparencia`): listado HTML de actas del Ayuntamiento con
   PDFs.
 
@@ -27,11 +33,13 @@ Cada nuevo municipio solo necesita una entrada en `lib/config.ts`; el pipeline,
 los scripts y la web no cambian. La portada incluye un **mapa de España**
 navegable (provincias clicables + pines de los municipios con datos).
 
-El segmentador reconoce cinco formatos reales: extracto de acuerdos numerado
-(Hospitalet), extracto en tabla con resultados (El Masnou), actas numeradas
-(Girona, Rubí, Cambrils…), actas con puntos «N.-» que pueden aparecer
-desordenados (Martorell) y ple de punto único o certificado de acuerdo único
-(Sant Cugat, Tarragona).
+El segmentador reconoce los formatos reales encontrados: extracto de acuerdos
+numerado (Hospitalet), extracto en tabla con resultados (El Masnou), actas
+numeradas de varios estilos (Girona, Mataró…), actas con puntos «N.-»
+desordenados (Martorell), ple de punto único o certificado (Sant Cugat,
+Tarragona, Berga, Viladecans) y documentos con codificación rota o sin capa de
+texto útil, que se marcan `requiere_ocr` o `segmentacion_pobre` en vez de
+inventar contenido.
 
 - Fases 0 a 5 completadas (spike de datos, ingesta y redacción, clasificación y
   evaluación, web, automatización y generalización).

@@ -7,8 +7,37 @@ export interface TextoPdf {
   requiereOcr: boolean;
 }
 
+const MAPA_MOJIBAKE: Record<string, string> = {
+  '!': ' ',
+  'Û': 'ó',
+  'Ë': 'è',
+  '‡': 'à',
+  'Ú': 'ò',
+  '∑': '·',
+  'Ä': '€',
+  'Õ': 'í',
+  '˙': 'ú',
+  'Ì': 'í',
+  '”': 'Ó',
+  '“': 'Ò',
+};
+
+export function repararMojibake(texto: string): string {
+  const marcas = (texto.match(/[ÛË‡∑ÄÕ˙Ì“”]/g) ?? []).length;
+  const exclamaciones = (texto.match(/[A-Za-zÀ-ÿ]![A-Za-zÀ-ÿ]/g) ?? []).length;
+  if (marcas < 3 && exclamaciones < 10) return texto;
+  return texto.replace(/[!ÛË‡Ú∑ÄÕ˙Ì“”]/g, (c) => MAPA_MOJIBAKE[c] ?? c);
+}
+
+export function pareceTextoInutilizable(texto: string): boolean {
+  if (texto.length < 200) return true;
+  const utiles = (texto.match(/[A-Za-zÀ-ÖØ-öø-ÿ0-9 .,;:!?'"()\[\]{}\-\/&%€\n\t]/gu) ?? []).length;
+  return utiles / texto.length < 0.6;
+}
+
 export function normalizarTexto(raw: string): string {
-  return raw
+  const limpio = repararMojibake(raw);
+  return limpio
     .replace(/\r\n?/g, '\n')
     .replace(/\u00a0/g, ' ')
     .replace(/[ \t]+/g, ' ')
@@ -27,6 +56,6 @@ export async function extraerTextoPdf(buffer: Uint8Array): Promise<TextoPdf> {
     texto,
     paginas: totalPages,
     titulo,
-    requiereOcr: totalPages > 0 && texto.length < 200,
+    requiereOcr: totalPages > 0 && (texto.length < 200 || pareceTextoInutilizable(texto)),
   };
 }

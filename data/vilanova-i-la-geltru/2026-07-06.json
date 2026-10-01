@@ -1,0 +1,648 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vilanova-i-la-geltru",
+    "nombre": "Vilanova i la Geltrú",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "830730008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-06",
+    "municipio_id": "vilanova-i-la-geltru",
+    "fecha": "2026-07-06",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/830730008/2026/a4c3d77c-b020-4df7-9f48-343ae730958c/8.PLE%206%20JULIOL%202026.pdf",
+    "hash_contenido": "2759269dc198d0db6010ba8f9975fc92d694deefcab7bf70cf15c02086c76d3a",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T07:49:13.687Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-06#1",
+      "sesion_id": "2026-07-06",
+      "orden": 1,
+      "titulo": "Secretaria General.",
+      "texto_redactado": "Secretaria General.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#2",
+      "sesion_id": "2026-07-06",
+      "orden": 2,
+      "titulo": "Alcaldia i Protocol.",
+      "texto_redactado": "Alcaldia i Protocol.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#3",
+      "sesion_id": "2026-07-06",
+      "orden": 3,
+      "titulo": "Secretaria General.",
+      "texto_redactado": "Secretaria General.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#4",
+      "sesion_id": "2026-07-06",
+      "orden": 4,
+      "titulo": "Secretaria General.",
+      "texto_redactado": "Secretaria General.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#5",
+      "sesion_id": "2026-07-06",
+      "orden": 5,
+      "titulo": "Infància i Joventut.",
+      "texto_redactado": "Infància i Joventut.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#6",
+      "sesion_id": "2026-07-06",
+      "orden": 6,
+      "titulo": "Salut Pública.",
+      "texto_redactado": "Salut Pública.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#7",
+      "sesion_id": "2026-07-06",
+      "orden": 7,
+      "titulo": "Participació.",
+      "texto_redactado": "Participació.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#8",
+      "sesion_id": "2026-07-06",
+      "orden": 8,
+      "titulo": "Convivència.",
+      "texto_redactado": "Convivència.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#9",
+      "sesion_id": "2026-07-06",
+      "orden": 9,
+      "titulo": "Assistència Integral Social i Sanitària.",
+      "texto_redactado": "Assistència Integral Social i Sanitària.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#10",
+      "sesion_id": "2026-07-06",
+      "orden": 10,
+      "titulo": "Patrimoni.",
+      "texto_redactado": "Patrimoni.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.37,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#11",
+      "sesion_id": "2026-07-06",
+      "orden": 11,
+      "titulo": "Projecció de Ciutat, Capitalitat i Empresa.",
+      "texto_redactado": "Projecció de Ciutat, Capitalitat i Empresa.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#12",
+      "sesion_id": "2026-07-06",
+      "orden": 12,
+      "titulo": "Patrimoni.",
+      "texto_redactado": "Patrimoni.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.32,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#13",
+      "sesion_id": "2026-07-06",
+      "orden": 13,
+      "titulo": "Medi Ambient.",
+      "texto_redactado": "Medi Ambient.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#14",
+      "sesion_id": "2026-07-06",
+      "orden": 14,
+      "titulo": "Projectes i Obres.",
+      "texto_redactado": "Projectes i Obres.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#15",
+      "sesion_id": "2026-07-06",
+      "orden": 15,
+      "titulo": "Mobilitat.",
+      "texto_redactado": "Mobilitat.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#16",
+      "sesion_id": "2026-07-06",
+      "orden": 16,
+      "titulo": "Secretaria General.",
+      "texto_redactado": "Secretaria General.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#17",
+      "sesion_id": "2026-07-06",
+      "orden": 17,
+      "titulo": "Secretaria General.",
+      "texto_redactado": "Secretaria General.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#18",
+      "sesion_id": "2026-07-06",
+      "orden": 18,
+      "titulo": "Grup Municipal d’ERC.",
+      "texto_redactado": "Grup Municipal d’ERC.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#19",
+      "sesion_id": "2026-07-06",
+      "orden": 19,
+      "titulo": "Grup Municipal de la CUP.",
+      "texto_redactado": "Grup Municipal de la CUP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#20",
+      "sesion_id": "2026-07-06",
+      "orden": 20,
+      "titulo": "Grup Municipal de VEC.",
+      "texto_redactado": "Grup Municipal de VEC.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#21",
+      "sesion_id": "2026-07-06",
+      "orden": 21,
+      "titulo": "Grup Municipal de Transformem VNG. (RETIRADA)",
+      "texto_redactado": "Grup Municipal de Transformem VNG. (RETIRADA)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#22",
+      "sesion_id": "2026-07-06",
+      "orden": 22,
+      "titulo": "Grup Municipal de Transformem VNG. (RETIRADA)",
+      "texto_redactado": "Grup Municipal de Transformem VNG. (RETIRADA)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#23",
+      "sesion_id": "2026-07-06",
+      "orden": 23,
+      "titulo": "Grup Municipal del PP. (RETIRADA)",
+      "texto_redactado": "Grup Municipal del PP. (RETIRADA)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#24",
+      "sesion_id": "2026-07-06",
+      "orden": 24,
+      "titulo": "Grups Municipals de la CUP, JxC-EV, ERC i Transformem VNG.",
+      "texto_redactado": "Grups Municipals de la CUP, JxC-EV, ERC i Transformem VNG.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#25",
+      "sesion_id": "2026-07-06",
+      "orden": 25,
+      "titulo": "Grup Municipal de JxC-EV. (RETIRADA)",
+      "texto_redactado": "Grup Municipal de JxC-EV. (RETIRADA)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#26",
+      "sesion_id": "2026-07-06",
+      "orden": 26,
+      "titulo": "Preguntes Transformem VNG:",
+      "texto_redactado": "Preguntes Transformem VNG:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    },
+    {
+      "id": "2026-07-06#27",
+      "sesion_id": "2026-07-06",
+      "orden": 27,
+      "titulo": "Preguntes CUP:",
+      "texto_redactado": "Preguntes CUP:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:13.687Z"
+      }
+    }
+  ]
+}

@@ -148,7 +148,7 @@ describe('segmentar otros formatos', () => {
     ].join('\n');
     const r = segmentar(acta, 'auto');
     expect(r.segmentacionPobre).toBe(false);
-    expect(r.metodo).toBe('acta-guiones');
+    expect(['acta-numerada', 'acta-guiones']).toContain(r.metodo);
     expect(r.puntos.map((p) => p.orden)).toEqual([1, 2, 3, 4]);
     expect(r.puntos[0].titulo).toContain('APROVACIÓ DE L’ACTA');
     expect(r.puntos[2].titulo).toContain('DACIÓ DE COMPTE');

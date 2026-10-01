@@ -1,0 +1,326 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "figueres",
+    "nombre": "Figueres",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1706690004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-02",
+    "municipio_id": "figueres",
+    "fecha": "2026-07-02",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1706690004/2026/2548c223-3c78-4c0f-a43f-617cc5aa4180/anonimitzat_Acta%20del%20Ple%20de%20data%202%20de%20juliol%20de%202026.pdf",
+    "hash_contenido": "f819bbc5212f9f6384dee9fcc10ee0fc974ee4e3b8e6243f9c3bb6f6220b6415",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T07:49:20.434Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-02#1",
+      "sesion_id": "2026-07-02",
+      "orden": 1,
+      "titulo": "ALICIA VILA TORRENTS (SIG), 03/08/2026 13:28 AJUNTAMENT DE FIGUERES",
+      "texto_redactado": "ALICIA VILA TORRENTS (SIG), 03/08/2026 13:28 AJUNTAMENT DE FIGUERES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:20.434Z"
+      }
+    },
+    {
+      "id": "2026-07-02#2",
+      "sesion_id": "2026-07-02",
+      "orden": 2,
+      "titulo": "Atès que no ha estat possible la cobertura dels llocs de treball mitjançant les",
+      "texto_redactado": "Atès que no ha estat possible la cobertura dels llocs de treball mitjançant les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:20.434Z"
+      }
+    },
+    {
+      "id": "2026-07-02#3",
+      "sesion_id": "2026-07-02",
+      "orden": 3,
+      "titulo": "Atès que en data 3 de juny de 2026 es van celebrar les proves selectives",
+      "texto_redactado": "Atès que en data 3 de juny de 2026 es van celebrar les proves selectives",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:20.434Z"
+      }
+    },
+    {
+      "id": "2026-07-02#4",
+      "sesion_id": "2026-07-02",
+      "orden": 4,
+      "titulo": "Vist que en el mencionat informe del responsable del servei d’Esports",
+      "texto_redactado": "Vist que en el mencionat informe del responsable del servei d’Esports",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:20.434Z"
+      }
+    },
+    {
+      "id": "2026-07-02#5",
+      "sesion_id": "2026-07-02",
+      "orden": 5,
+      "titulo": "Vist que a les aplicacions pressupostàries que es relacionen compten amb",
+      "texto_redactado": "Vist que a les aplicacions pressupostàries que es relacionen compten amb",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:20.434Z"
+      }
+    },
+    {
+      "id": "2026-07-02#6",
+      "sesion_id": "2026-07-02",
+      "orden": 6,
+      "titulo": "L’Alcalde per Decret de 30 de juny de 2023, delega en el regidor Manel",
+      "texto_redactado": "L’Alcalde per Decret de 30 de juny de 2023, delega en el regidor Manel",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:20.434Z"
+      }
+    },
+    {
+      "id": "2026-07-02#7",
+      "sesion_id": "2026-07-02",
+      "orden": 7,
+      "titulo": "3.3.5 del PLATER.",
+      "texto_redactado": "3.3.5 del PLATER.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:20.434Z"
+      }
+    },
+    {
+      "id": "2026-07-02#8",
+      "sesion_id": "2026-07-02",
+      "orden": 8,
+      "titulo": "Dictamen per aprovar un reconeixement extrajudicial de crèdit de despeses",
+      "texto_redactado": "Dictamen per aprovar un reconeixement extrajudicial de crèdit de despeses",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:20.434Z"
+      }
+    },
+    {
+      "id": "2026-07-02#9",
+      "sesion_id": "2026-07-02",
+      "orden": 9,
+      "titulo": "Dictamen relatiu a proposar les festes locals del municipi de Figueres per a",
+      "texto_redactado": "Dictamen relatiu a proposar les festes locals del municipi de Figueres per a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:20.434Z"
+      }
+    },
+    {
+      "id": "2026-07-02#10",
+      "sesion_id": "2026-07-02",
+      "orden": 10,
+      "titulo": "Dictamen relatiu a l’aprovació provisional de la Modificació puntual núm. 3",
+      "texto_redactado": "Dictamen relatiu a l’aprovació provisional de la Modificació puntual núm. 3",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:20.434Z"
+      }
+    },
+    {
+      "id": "2026-07-02#11",
+      "sesion_id": "2026-07-02",
+      "orden": 11,
+      "titulo": "Dictamen per aprovar la formulació d’al·legacions al Pla Territorial sectorial",
+      "texto_redactado": "Dictamen per aprovar la formulació d’al·legacions al Pla Territorial sectorial",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:20.434Z"
+      }
+    },
+    {
+      "id": "2026-07-02#12",
+      "sesion_id": "2026-07-02",
+      "orden": 12,
+      "titulo": "Assumptes urgents.",
+      "texto_redactado": "Assumptes urgents.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:20.434Z"
+      }
+    },
+    {
+      "id": "2026-07-02#13",
+      "sesion_id": "2026-07-02",
+      "orden": 13,
+      "titulo": "Precs i preguntes.",
+      "texto_redactado": "Precs i preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:20.434Z"
+      }
+    }
+  ]
+}

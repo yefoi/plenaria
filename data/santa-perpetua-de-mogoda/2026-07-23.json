@@ -1,0 +1,349 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "santa-perpetua-de-mogoda",
+    "nombre": "Santa Perpètua de Mogoda",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "826060009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-23",
+    "municipio_id": "santa-perpetua-de-mogoda",
+    "fecha": "2026-07-23",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/826060009/2026/ed0a9f94-31e0-4581-a23a-11fe63323a56/Extracte%20Ple%2023.07.2026.pdf",
+    "hash_contenido": "0f3736af639d5228626e0e1ec647ee99bf1b651fef4b0262d0a3258249bcc61d",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T07:49:24.595Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-23#1",
+      "sesion_id": "2026-07-23",
+      "orden": 1,
+      "titulo": "Aprovació de l’esborrany de l’acta de la sessió anterior, de data 25.06.2026.",
+      "texto_redactado": "Aprovació de l’esborrany de l’acta de la sessió anterior, de data 25.06.2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:24.595Z"
+      }
+    },
+    {
+      "id": "2026-07-23#2",
+      "sesion_id": "2026-07-23",
+      "orden": 2,
+      "titulo": "Secretaria. Expedient: 2026/[DNI].",
+      "texto_redactado": "Secretaria. Expedient: 2026/[DNI].",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:24.595Z"
+      }
+    },
+    {
+      "id": "2026-07-23#3",
+      "sesion_id": "2026-07-23",
+      "orden": 3,
+      "titulo": "Secretaria. Expedient: 2026/[DNI].",
+      "texto_redactado": "Secretaria. Expedient: 2026/[DNI].",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:24.595Z"
+      }
+    },
+    {
+      "id": "2026-07-23#4",
+      "sesion_id": "2026-07-23",
+      "orden": 4,
+      "titulo": "Servei Recursos Humans i Organització. Expedient: 2026/[DNI].",
+      "texto_redactado": "Servei Recursos Humans i Organització. Expedient: 2026/[DNI].",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:24.595Z"
+      }
+    },
+    {
+      "id": "2026-07-23#5",
+      "sesion_id": "2026-07-23",
+      "orden": 5,
+      "titulo": "Serveis Econòmics. Expedient: 2026/[DNI].",
+      "texto_redactado": "Serveis Econòmics. Expedient: 2026/[DNI].",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:24.595Z"
+      }
+    },
+    {
+      "id": "2026-07-23#6",
+      "sesion_id": "2026-07-23",
+      "orden": 6,
+      "titulo": "Serveis Econòmics. Expedient: 2026/[DNI].",
+      "texto_redactado": "Serveis Econòmics. Expedient: 2026/[DNI].",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:24.595Z"
+      }
+    },
+    {
+      "id": "2026-07-23#7",
+      "sesion_id": "2026-07-23",
+      "orden": 7,
+      "titulo": "Serveis Econòmics. Expedient: 2025/[DNI].",
+      "texto_redactado": "Serveis Econòmics. Expedient: 2025/[DNI].",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:24.595Z"
+      }
+    },
+    {
+      "id": "2026-07-23#8",
+      "sesion_id": "2026-07-23",
+      "orden": 8,
+      "titulo": "Serveis Econòmics. Expedient: 2026/[DNI].",
+      "texto_redactado": "Serveis Econòmics. Expedient: 2026/[DNI].",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:24.595Z"
+      }
+    },
+    {
+      "id": "2026-07-23#9",
+      "sesion_id": "2026-07-23",
+      "orden": 9,
+      "titulo": "Alcaldia. Expedient: 2026/[DNI].",
+      "texto_redactado": "Alcaldia. Expedient: 2026/[DNI].",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:24.595Z"
+      }
+    },
+    {
+      "id": "2026-07-23#10",
+      "sesion_id": "2026-07-23",
+      "orden": 10,
+      "titulo": "Alcaldia. Expedient: 2026/[DNI].",
+      "texto_redactado": "Alcaldia. Expedient: 2026/[DNI].",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:24.595Z"
+      }
+    },
+    {
+      "id": "2026-07-23#11",
+      "sesion_id": "2026-07-23",
+      "orden": 11,
+      "titulo": "Alcaldia. Expedient: 2026/[DNI].",
+      "texto_redactado": "Alcaldia. Expedient: 2026/[DNI].",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:24.595Z"
+      }
+    },
+    {
+      "id": "2026-07-23#12",
+      "sesion_id": "2026-07-23",
+      "orden": 12,
+      "titulo": "Alcaldia. Expedient: 2026/[DNI].",
+      "texto_redactado": "Alcaldia. Expedient: 2026/[DNI].",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:24.595Z"
+      }
+    },
+    {
+      "id": "2026-07-23#13",
+      "sesion_id": "2026-07-23",
+      "orden": 13,
+      "titulo": "Secretaria. Expedient: 2026/[DNI].",
+      "texto_redactado": "Secretaria. Expedient: 2026/[DNI].",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:24.595Z"
+      }
+    },
+    {
+      "id": "2026-07-23#14",
+      "sesion_id": "2026-07-23",
+      "orden": 14,
+      "titulo": "Serveis Econòmics.",
+      "texto_redactado": "Serveis Econòmics.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:24.595Z"
+      }
+    }
+  ]
+}

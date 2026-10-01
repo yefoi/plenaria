@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "calella",
+    "nombre": "Calella",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "803510007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-15",
+    "municipio_id": "calella",
+    "fecha": "2026-07-15",
+    "tipo": "extraordinaria_urgente",
+    "fuente_url": "https://media.seu-e.cat/acteca/803510007/2026/913466b4-54b0-4449-a17b-beaea6345f6e/Acta%20n%fam.%207%20Ple%2015-7-2026%20extraordinari%20i%20urgent.pdf",
+    "hash_contenido": "6e3a876c68443a40d2516f4cd58fb992cbb9edb53f2359825e7730df2ebd8014",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T07:49:32.599Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-15#1",
+      "sesion_id": "2026-07-15",
+      "orden": 1,
+      "titulo": "Aprovació de la urgència de la sessió",
+      "texto_redactado": "Aprovació de la urgència de la sessió",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:32.599Z"
+      }
+    },
+    {
+      "id": "2026-07-15#2",
+      "sesion_id": "2026-07-15",
+      "orden": 2,
+      "titulo": "Expedient 5718/2026. Sol·licitud subvenció Pla de Barris i Viles de Catalunya 2026",
+      "texto_redactado": "Expedient 5718/2026. Sol·licitud subvenció Pla de Barris i Viles de Catalunya 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:32.599Z"
+      }
+    }
+  ]
+}

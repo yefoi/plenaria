@@ -1,0 +1,513 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "lleida",
+    "nombre": "Lleida",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2512070005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-24",
+    "municipio_id": "lleida",
+    "fecha": "2026-07-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2512070005/2026/8ab8bbff-4a56-4d6f-96ce-193f52354fdd/Acta%20Ple%20ordinari%20de%2024-07-2026_pendent%20aprovaci%f3.pdf",
+    "hash_contenido": "589178db6e5ec906c5d50794329dbddc888a7ff2bba8c769a7c71245d0e5cde4",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T07:49:01.179Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-24#1",
+      "sesion_id": "2026-07-24",
+      "orden": 1,
+      "titulo": "APROVAR L’ACTA DE LA SESSIÓ ORDINÀRIA DEL DIA 26 DE JUNY DE 2026.",
+      "texto_redactado": "APROVAR L’ACTA DE LA SESSIÓ ORDINÀRIA DEL DIA 26 DE JUNY DE 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:01.179Z"
+      }
+    },
+    {
+      "id": "2026-07-24#2",
+      "sesion_id": "2026-07-24",
+      "orden": 2,
+      "titulo": "DONAR COMPTE DELS DECRETS DICTATS PER L’ALCALDIA DES DEL DARRER PLE, QUE VAN DEL NÚM. 7.276 AL NÚM. 8.286 DE L’ANY 2026, AMBDÓS INCLOSOS. EN RELACIÓ AMB ELS DECRETS CORRESPONENTS A L’ÀREA ECONÒMICA, ELS QUE VAN DEL NÚM. 5.371 AL NÚM. 6.119 DE L’ANY 2026, AMBDÓS INCLOSOS.",
+      "texto_redactado": "DONAR COMPTE DELS DECRETS DICTATS PER L’ALCALDIA DES DEL DARRER PLE, QUE VAN DEL NÚM. 7.276 AL NÚM. 8.286 DE L’ANY 2026, AMBDÓS INCLOSOS. EN RELACIÓ AMB ELS DECRETS CORRESPONENTS A L’ÀREA ECONÒMICA, ELS QUE VAN DEL NÚM. 5.371 AL NÚM. 6.119 DE L’ANY 2026, AMBDÓS INCLOSOS.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:01.179Z"
+      }
+    },
+    {
+      "id": "2026-07-24#3",
+      "sesion_id": "2026-07-24",
+      "orden": 3,
+      "titulo": "DONAR COMPTE ESPECÍFIC DE DECRETS AL PLE.-",
+      "texto_redactado": "DONAR COMPTE ESPECÍFIC DE DECRETS AL PLE.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:01.179Z"
+      }
+    },
+    {
+      "id": "2026-07-24#4",
+      "sesion_id": "2026-07-24",
+      "orden": 4,
+      "titulo": "Proposta",
+      "texto_redactado": "Proposta",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:01.179Z"
+      }
+    },
+    {
+      "id": "2026-07-24#5",
+      "sesion_id": "2026-07-24",
+      "orden": 5,
+      "titulo": "La incorporació de nous ens consorciats implicarà la modificació del nombre de membres del",
+      "texto_redactado": "La incorporació de nous ens consorciats implicarà la modificació del nombre de membres del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:01.179Z"
+      }
+    },
+    {
+      "id": "2026-07-24#6",
+      "sesion_id": "2026-07-24",
+      "orden": 6,
+      "titulo": "La composició del Consell d’Administració haurà de garantir que els membres fundacionals",
+      "texto_redactado": "La composició del Consell d’Administració haurà de garantir que els membres fundacionals",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:01.179Z"
+      }
+    },
+    {
+      "id": "2026-07-24#7",
+      "sesion_id": "2026-07-24",
+      "orden": 7,
+      "titulo": "APROVAR EL PLEC DE CLÀUSULES ADMINISTRATIVES PARTICULARS I EL PLEC DE PRESCRIPCIONS TÈCNIQUES DEL CONTRACTE DEL SUBMINISTRAMENT, PER LOTS, DE TRES VEHICLES POLICIALS AMB TRACCIÓ 4X4 EN MODALITAT RÈNTING, TRAMITACIÓ ORDINÀRIA ANTICIPADA, SUBJECTA A REGULACIÓ HARMONITZADA MITJANÇANT PROCEDIMENT OBERT AMB DIVERSOS CRITERIS D’ADJUDICACIÓ, I INICIAR LA LICITACIÓ.",
+      "texto_redactado": "APROVAR EL PLEC DE CLÀUSULES ADMINISTRATIVES PARTICULARS I EL PLEC DE PRESCRIPCIONS TÈCNIQUES DEL CONTRACTE DEL SUBMINISTRAMENT, PER LOTS, DE TRES VEHICLES POLICIALS AMB TRACCIÓ 4X4 EN MODALITAT RÈNTING, TRAMITACIÓ ORDINÀRIA ANTICIPADA, SUBJECTA A REGULACIÓ HARMONITZADA MITJANÇANT PROCEDIMENT OBERT AMB DIVERSOS CRITERIS D’ADJUDICACIÓ, I INICIAR LA LICITACIÓ.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:01.179Z"
+      }
+    },
+    {
+      "id": "2026-07-24#8",
+      "sesion_id": "2026-07-24",
+      "orden": 8,
+      "titulo": "APROVAR EL COMPTE GENERAL CORRESPONENT A L’EXERCICI ECONÒMIC DE",
+      "texto_redactado": "APROVAR EL COMPTE GENERAL CORRESPONENT A L’EXERCICI ECONÒMIC DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:01.179Z"
+      }
+    },
+    {
+      "id": "2026-07-24#9",
+      "sesion_id": "2026-07-24",
+      "orden": 9,
+      "titulo": "APROVAR LA SUBVENCIÓ EXCEPCIONAL I EL CONVENI DE COL·LABORACIÓ AMB LA FUNDACIÓ SECRETARIADO GITANO PER PROMOURE LES ACTUACIONS AMB POBLACIÓ GITANA EN EL MARC DEL PROGRAMA D’OCUPACIÓ JUVENIL – FONS SOCIAL EUROPEU + (EXP. 51/2026 PARTI CGS).",
+      "texto_redactado": "APROVAR LA SUBVENCIÓ EXCEPCIONAL I EL CONVENI DE COL·LABORACIÓ AMB LA FUNDACIÓ SECRETARIADO GITANO PER PROMOURE LES ACTUACIONS AMB POBLACIÓ GITANA EN EL MARC DEL PROGRAMA D’OCUPACIÓ JUVENIL – FONS SOCIAL EUROPEU + (EXP. 51/2026 PARTI CGS).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:01.179Z"
+      }
+    },
+    {
+      "id": "2026-07-24#10",
+      "sesion_id": "2026-07-24",
+      "orden": 10,
+      "titulo": "APROVAR EL IV PLA LOCAL DE LA INFÀNCIA I L'ADOLESCÈNCIA DE LLEIDA (EXP. 08 009 2026).",
+      "texto_redactado": "APROVAR EL IV PLA LOCAL DE LA INFÀNCIA I L'ADOLESCÈNCIA DE LLEIDA (EXP. 08 009 2026).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:01.179Z"
+      }
+    },
+    {
+      "id": "2026-07-24#11",
+      "sesion_id": "2026-07-24",
+      "orden": 11,
+      "titulo": "APROVAR LA PRÒRROGA PER A L’ANY 2027 DEL CONVENI DE COL·LABORACIÓ INTERADMINISTRATIVA ENTRE EL DEPARTAMENT DE DRETS SOCIALS DE LA GENERALITAT DE CATALUNYA I L’AJUNTAMENT DE LLEIDA PER A LA PRESTACIÓ DEL SERVEI DEL CENTRE DE DIA “MAGRANERS” I DEL CENTRE DE DIA “SANTA CLARA” PER A GENT GRAN DEPENENT, A LLEIDA (EXP. GG.26.01).",
+      "texto_redactado": "APROVAR LA PRÒRROGA PER A L’ANY 2027 DEL CONVENI DE COL·LABORACIÓ INTERADMINISTRATIVA ENTRE EL DEPARTAMENT DE DRETS SOCIALS DE LA GENERALITAT DE CATALUNYA I L’AJUNTAMENT DE LLEIDA PER A LA PRESTACIÓ DEL SERVEI DEL CENTRE DE DIA “MAGRANERS” I DEL CENTRE DE DIA “SANTA CLARA” PER A GENT GRAN DEPENENT, A LLEIDA (EXP. GG.26.01).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:01.179Z"
+      }
+    },
+    {
+      "id": "2026-07-24#12",
+      "sesion_id": "2026-07-24",
+      "orden": 12,
+      "titulo": "APROVAR INICIALMENT LES BASES DEL PREMI MILA DE PERIODISME PER A LA IGUALTAT DE GÈNERE A LLEIDA (08 009 2026).",
+      "texto_redactado": "APROVAR INICIALMENT LES BASES DEL PREMI MILA DE PERIODISME PER A LA IGUALTAT DE GÈNERE A LLEIDA (08 009 2026).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:01.179Z"
+      }
+    },
+    {
+      "id": "2026-07-24#13",
+      "sesion_id": "2026-07-24",
+      "orden": 13,
+      "titulo": "APROVAR LA DESAFECTACIÓ DE L’ÚS I SERVEI PÚBLIC D’UN VEHICLE MUNICIPAL, QUE PRESTAVA SERVEI A LA GUÀRDIA URBANA, MARCA SEAT, MODEL ALTEA, MATRÍCULA [MATRÍCULA] (EXP. 62_2026).",
+      "texto_redactado": "APROVAR LA DESAFECTACIÓ DE L’ÚS I SERVEI PÚBLIC D’UN VEHICLE MUNICIPAL, QUE PRESTAVA SERVEI A LA GUÀRDIA URBANA, MARCA SEAT, MODEL ALTEA, MATRÍCULA [MATRÍCULA] (EXP. 62_2026).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:01.179Z"
+      }
+    },
+    {
+      "id": "2026-07-24#14",
+      "sesion_id": "2026-07-24",
+      "orden": 14,
+      "titulo": "APROVAR LA DESAFECTACIÓ DE L’ÚS I SERVEI PÚBLIC D’UN VEHICLE MUNICIPAL, QUE PRESTAVA SERVEI A LA GUÀRDIA URBANA, MARCA HONDA, MODEL NT700 DEUVILLE, MATRÍCULA [MATRÍCULA] (EXP. 63_2026).",
+      "texto_redactado": "APROVAR LA DESAFECTACIÓ DE L’ÚS I SERVEI PÚBLIC D’UN VEHICLE MUNICIPAL, QUE PRESTAVA SERVEI A LA GUÀRDIA URBANA, MARCA HONDA, MODEL NT700 DEUVILLE, MATRÍCULA [MATRÍCULA] (EXP. 63_2026).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:01.179Z"
+      }
+    },
+    {
+      "id": "2026-07-24#15",
+      "sesion_id": "2026-07-24",
+      "orden": 15,
+      "titulo": "APROVAR INICIALMENT LA MODIFICACIÓ PUNTUAL DEL PLA GENERAL D’ORDENACIÓ URBANA DE LLEIDA AMB ORDENACIÓ DETALLADA PER LA CREACIÓ D’UN SUD ALS TERRENYS DE L’EMPRESA HIDROLOGY (EXP. PGU 23-36 (X020112M/2023/0002)).",
+      "texto_redactado": "APROVAR INICIALMENT LA MODIFICACIÓ PUNTUAL DEL PLA GENERAL D’ORDENACIÓ URBANA DE LLEIDA AMB ORDENACIÓ DETALLADA PER LA CREACIÓ D’UN SUD ALS TERRENYS DE L’EMPRESA HIDROLOGY (EXP. PGU 23-36 (X020112M/2023/0002)).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:01.179Z"
+      }
+    },
+    {
+      "id": "2026-07-24#16",
+      "sesion_id": "2026-07-24",
+      "orden": 16,
+      "titulo": "APROVAR PROVISIONALMENT LA MODIFICACIÓ PUNTUAL DEL PLA GENERAL D'ORDENACIÓ URBANA DE LLEIDA PER AL CANVI DE QUALIFICACIÓ DE SISTEMA D'ESPAIS LLIURES, CLAU VJ, I SISTEMA D'EQUIPAMENT COMUNITARI, CLAU EC, EN L'ÀMBIT DISCONTINU COMPRÈS ENTRE L’AV. DEL DOCTOR FLEMING, EL PASSEIG DE L’ONZE DE SETEMBRE I EL CAMP D’ESPORTS, I ELS CARRERS CRISTÒFOL DE BOLEDA, DE L’ALCALDE PUJOL I SEGRIÀ ALS BARRIS DEL CAMP D’ESPORTS I DEL JOC DE LA BOLA (EXP. PGU 24-19 - (X020102M/2024/0004)).",
+      "texto_redactado": "APROVAR PROVISIONALMENT LA MODIFICACIÓ PUNTUAL DEL PLA GENERAL D'ORDENACIÓ URBANA DE LLEIDA PER AL CANVI DE QUALIFICACIÓ DE SISTEMA D'ESPAIS LLIURES, CLAU VJ, I SISTEMA D'EQUIPAMENT COMUNITARI, CLAU EC, EN L'ÀMBIT DISCONTINU COMPRÈS ENTRE L’AV. DEL DOCTOR FLEMING, EL PASSEIG DE L’ONZE DE SETEMBRE I EL CAMP D’ESPORTS, I ELS CARRERS CRISTÒFOL DE BOLEDA, DE L’ALCALDE PUJOL I SEGRIÀ ALS BARRIS DEL CAMP D’ESPORTS I DEL JOC DE LA BOLA (EXP. PGU 24-19 - (X020102M/2024/0004)).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:01.179Z"
+      }
+    },
+    {
+      "id": "2026-07-24#17",
+      "sesion_id": "2026-07-24",
+      "orden": 17,
+      "titulo": "APROVAR PROVISIONALMENT EL PLA DE MILLORA URBANA D’ORDENACIÓ VOLUMÈTRICA I FAÇANES DE L’EQUIPAMENT COMUNITARI, CLAU EC, UBICAT AL [DIRECCIÓN]-11 EN L'ÀMBIT DE LES TERMES ROMANES DE LLEIDA (EXP. PGU 25-32 (X020108M/2025/0001)).",
+      "texto_redactado": "APROVAR PROVISIONALMENT EL PLA DE MILLORA URBANA D’ORDENACIÓ VOLUMÈTRICA I FAÇANES DE L’EQUIPAMENT COMUNITARI, CLAU EC, UBICAT AL [DIRECCIÓN]-11 EN L'ÀMBIT DE LES TERMES ROMANES DE LLEIDA (EXP. PGU 25-32 (X020108M/2025/0001)).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:01.179Z"
+      }
+    },
+    {
+      "id": "2026-07-24#18",
+      "sesion_id": "2026-07-24",
+      "orden": 18,
+      "titulo": "APROVAR LA 5A ADDENDA AL CONTRACTE D’ARRENDAMENT, SIGNAT, EN DATA 11 DE GENER DE 2018, AMB ADDENDES FORMALITZADES EN DATA 17 DE MAIG DE 2019, D’1 D’ABRIL DE 2022, 30 DE NOVEMBRE DE 2022, I 31 D’OCTUBRE DE",
+      "texto_redactado": "APROVAR LA 5A ADDENDA AL CONTRACTE D’ARRENDAMENT, SIGNAT, EN DATA 11 DE GENER DE 2018, AMB ADDENDES FORMALITZADES EN DATA 17 DE MAIG DE 2019, D’1 D’ABRIL DE 2022, 30 DE NOVEMBRE DE 2022, I 31 D’OCTUBRE DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:01.179Z"
+      }
+    },
+    {
+      "id": "2026-07-24#19",
+      "sesion_id": "2026-07-24",
+      "orden": 19,
+      "titulo": "RESOLDRE ELS RECURSOS DE REPOSICIÓ INTERPOSATS PER LES EMPRESES ARNO CONCESIONES, SL I STS ARNÓ GESTIÓ DE SERVEIS SOCIOSANITARIS, SA, CONTRA L’ACORD PLENARI DE 25 DE JULIOL DE 2025 QUE VA APROVAR RESOLDRE LA CONCESSIÓ DE DOMINI PÚBLIC D’UN TERRENY MUNICIPAL, SITUAT A L’ÀMBIT DEL P.P. SUR-5, C/ ENGINYER ANTONI LLOBET, DESTINAT A LA CONSTRUCCIÓ I EXPLOTACIÓ D’UNA RESIDÈNCIA ASSISTIDA, CENTRE DE DIA I SERVEIS ADDICIONALS PER A PERSONES GRANS, AMB CONFISCACIÓ DE LA GARANTIA DEFINITIVA (EXP. 16/2010 DE PATRIMONI I PAT_CONC_2020_0001 DE CONTRACTACIÓ).",
+      "texto_redactado": "RESOLDRE ELS RECURSOS DE REPOSICIÓ INTERPOSATS PER LES EMPRESES ARNO CONCESIONES, SL I STS ARNÓ GESTIÓ DE SERVEIS SOCIOSANITARIS, SA, CONTRA L’ACORD PLENARI DE 25 DE JULIOL DE 2025 QUE VA APROVAR RESOLDRE LA CONCESSIÓ DE DOMINI PÚBLIC D’UN TERRENY MUNICIPAL, SITUAT A L’ÀMBIT DEL P.P. SUR-5, C/ ENGINYER ANTONI LLOBET, DESTINAT A LA CONSTRUCCIÓ I EXPLOTACIÓ D’UNA RESIDÈNCIA ASSISTIDA, CENTRE DE DIA I SERVEIS ADDICIONALS PER A PERSONES GRANS, AMB CONFISCACIÓ DE LA GARANTIA DEFINITIVA (EXP. 16/2010 DE PATRIMONI I PAT_CONC_2020_0001 DE CONTRACTACIÓ).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:01.179Z"
+      }
+    },
+    {
+      "id": "2026-07-24#20",
+      "sesion_id": "2026-07-24",
+      "orden": 20,
+      "titulo": "RESOLDRE LES AL·LEGACIONS INTERPOSADES CONTRA L’APROVACIÓ DE L’ESTRUCTURA DE COSTOS DEL CONTRACTE DEL SERVEI DE TRANSPORT URBÀ COL·LECTIU DE VIATGERS DEL MUNICIPI DE LLEIDA, APROVADA PER ACORD PLENARI DE 29 DE MAIG DE 2026, I APROVAR DEFINITIVAMENT L’ESTRUCTURA DE COSTOS (EXP. SER_OBE_2026_0001).",
+      "texto_redactado": "RESOLDRE LES AL·LEGACIONS INTERPOSADES CONTRA L’APROVACIÓ DE L’ESTRUCTURA DE COSTOS DEL CONTRACTE DEL SERVEI DE TRANSPORT URBÀ COL·LECTIU DE VIATGERS DEL MUNICIPI DE LLEIDA, APROVADA PER ACORD PLENARI DE 29 DE MAIG DE 2026, I APROVAR DEFINITIVAMENT L’ESTRUCTURA DE COSTOS (EXP. SER_OBE_2026_0001).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico",
+        "contratacion_obras",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:01.179Z"
+      }
+    },
+    {
+      "id": "2026-07-24#21",
+      "sesion_id": "2026-07-24",
+      "orden": 21,
+      "titulo": "MOCIÓ PROMOGUDA PER L’ASSOCIACIÓ DE CAPPONT, COMERÇ I SERVEIS, PER A REFORÇAR LA SEGURETAT I LA PROTECCIÓ DEL COMERÇ DE PROXIMITAT AL BARRI DE CAPPONT.",
+      "texto_redactado": "MOCIÓ PROMOGUDA PER L’ASSOCIACIÓ DE CAPPONT, COMERÇ I SERVEIS, PER A REFORÇAR LA SEGURETAT I LA PROTECCIÓ DEL COMERÇ DE PROXIMITAT AL BARRI DE CAPPONT.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:01.179Z"
+      }
+    }
+  ]
+}

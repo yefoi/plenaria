@@ -1,0 +1,535 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "montornes-del-valles",
+    "nombre": "Montornès del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "813630008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-09",
+    "municipio_id": "montornes-del-valles",
+    "fecha": "2026-07-09",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/813630008/2026/f01d39c5-5bac-4458-9c49-95e366e9e8f3/PLE%2009072026.pdf",
+    "hash_contenido": "f3b28bff29e0b0ee6855dba5e61c86949567f98d43f9550989443a31c281d068",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T07:49:43.609Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-09#1",
+      "sesion_id": "2026-07-09",
+      "orden": 1,
+      "titulo": "Aprovar, si s'escau, l'acta de la sessió anterior, de 4 de juny de 2026.-",
+      "texto_redactado": "Aprovar, si s'escau, l'acta de la sessió anterior, de 4 de juny de 2026.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:43.609Z"
+      }
+    },
+    {
+      "id": "2026-07-09#2",
+      "sesion_id": "2026-07-09",
+      "orden": 2,
+      "titulo": "Assabentat dels decrets dictats entre l'1 i el 30 de juny de 2026, corresponents",
+      "texto_redactado": "Assabentat dels decrets dictats entre l'1 i el 30 de juny de 2026, corresponents",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:43.609Z"
+      }
+    },
+    {
+      "id": "2026-07-09#3",
+      "sesion_id": "2026-07-09",
+      "orden": 3,
+      "titulo": "Assabentat al Ple del decret 20260001002456 de 10 de juny de 2026, per a les",
+      "texto_redactado": "Assabentat al Ple del decret 20260001002456 de 10 de juny de 2026, per a les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:43.609Z"
+      }
+    },
+    {
+      "id": "2026-07-09#4",
+      "sesion_id": "2026-07-09",
+      "orden": 4,
+      "titulo": "Assabentat al Ple del decret 20260001002807 de 2 de juliol de 2026, per deixar",
+      "texto_redactado": "Assabentat al Ple del decret 20260001002807 de 2 de juliol de 2026, per deixar",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:43.609Z"
+      }
+    },
+    {
+      "id": "2026-07-09#5",
+      "sesion_id": "2026-07-09",
+      "orden": 5,
+      "titulo": "Assabentat al Ple del decret 20260001002831 de 6 de juliol de 2026, per a la",
+      "texto_redactado": "Assabentat al Ple del decret 20260001002831 de 6 de juliol de 2026, per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:43.609Z"
+      }
+    },
+    {
+      "id": "2026-07-09#6",
+      "sesion_id": "2026-07-09",
+      "orden": 6,
+      "titulo": "Assabentat al Ple del decret 20260001002709 de 23 de juny de 2026, per a la",
+      "texto_redactado": "Assabentat al Ple del decret 20260001002709 de 23 de juny de 2026, per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:43.609Z"
+      }
+    },
+    {
+      "id": "2026-07-09#7",
+      "sesion_id": "2026-07-09",
+      "orden": 7,
+      "titulo": "Assabentat al Ple del decret 20260001002738 de 24 de juny de 2026, per a la",
+      "texto_redactado": "Assabentat al Ple del decret 20260001002738 de 24 de juny de 2026, per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:43.609Z"
+      }
+    },
+    {
+      "id": "2026-07-09#8",
+      "sesion_id": "2026-07-09",
+      "orden": 8,
+      "titulo": "Assabentat al Ple del decret 20260001002758 de 29 de juny de 2026, per a la",
+      "texto_redactado": "Assabentat al Ple del decret 20260001002758 de 29 de juny de 2026, per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:43.609Z"
+      }
+    },
+    {
+      "id": "2026-07-09#9",
+      "sesion_id": "2026-07-09",
+      "orden": 9,
+      "titulo": "Assabentat al Ple de les aportacions dels grups municipals l'any 2023.-",
+      "texto_redactado": "Assabentat al Ple de les aportacions dels grups municipals l'any 2023.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:43.609Z"
+      }
+    },
+    {
+      "id": "2026-07-09#10",
+      "sesion_id": "2026-07-09",
+      "orden": 10,
+      "titulo": "Assabentat al Ple de les aportacions dels grups municipals l'any 2024.-",
+      "texto_redactado": "Assabentat al Ple de les aportacions dels grups municipals l'any 2024.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:43.609Z"
+      }
+    },
+    {
+      "id": "2026-07-09#11",
+      "sesion_id": "2026-07-09",
+      "orden": 11,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:43.609Z"
+      }
+    },
+    {
+      "id": "2026-07-09#12",
+      "sesion_id": "2026-07-09",
+      "orden": 12,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:43.609Z"
+      }
+    },
+    {
+      "id": "2026-07-09#13",
+      "sesion_id": "2026-07-09",
+      "orden": 13,
+      "titulo": "Aprovar la sol·licitud de subvenció del Fons de Recuperació Urbana,",
+      "texto_redactado": "Aprovar la sol·licitud de subvenció del Fons de Recuperació Urbana,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:43.609Z"
+      }
+    },
+    {
+      "id": "2026-07-09#14",
+      "sesion_id": "2026-07-09",
+      "orden": 14,
+      "titulo": "Aprovar la modificació del pressupost núm. 33/2026 mitjançant suplement de",
+      "texto_redactado": "Aprovar la modificació del pressupost núm. 33/2026 mitjançant suplement de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:43.609Z"
+      }
+    },
+    {
+      "id": "2026-07-09#15",
+      "sesion_id": "2026-07-09",
+      "orden": 15,
+      "titulo": "Aprovar la suspensió de la tramitació de plans, projectes, atorgament de tot",
+      "texto_redactado": "Aprovar la suspensió de la tramitació de plans, projectes, atorgament de tot",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:43.609Z"
+      }
+    },
+    {
+      "id": "2026-07-09#16",
+      "sesion_id": "2026-07-09",
+      "orden": 16,
+      "titulo": "Aprovar la despesa derivada del servei de tractament de residus municipals",
+      "texto_redactado": "Aprovar la despesa derivada del servei de tractament de residus municipals",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:43.609Z"
+      }
+    },
+    {
+      "id": "2026-07-09#17",
+      "sesion_id": "2026-07-09",
+      "orden": 17,
+      "titulo": "Aprovar despeses del conveni de desplegament de l’atribució de l’exercici de",
+      "texto_redactado": "Aprovar despeses del conveni de desplegament de l’atribució de l’exercici de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:43.609Z"
+      }
+    },
+    {
+      "id": "2026-07-09#18",
+      "sesion_id": "2026-07-09",
+      "orden": 18,
+      "titulo": "Aprovar i formalitzar la signatura del conveni de col·laboració amb l'Agència",
+      "texto_redactado": "Aprovar i formalitzar la signatura del conveni de col·laboració amb l'Agència",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:43.609Z"
+      }
+    },
+    {
+      "id": "2026-07-09#19",
+      "sesion_id": "2026-07-09",
+      "orden": 19,
+      "titulo": "Exercir la reserva de la competència per a la primera fase del procediment",
+      "texto_redactado": "Exercir la reserva de la competència per a la primera fase del procediment",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:43.609Z"
+      }
+    },
+    {
+      "id": "2026-07-09#20",
+      "sesion_id": "2026-07-09",
+      "orden": 20,
+      "titulo": "Ratificar les bases per a l'adjudicació de 40 habitatges de protecció oficial en",
+      "texto_redactado": "Ratificar les bases per a l'adjudicació de 40 habitatges de protecció oficial en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:43.609Z"
+      }
+    },
+    {
+      "id": "2026-07-09#21",
+      "sesion_id": "2026-07-09",
+      "orden": 21,
+      "titulo": "Moció dels Ajuntaments de Catalunya afectats per urbanitzacions amb dèficits",
+      "texto_redactado": "Moció dels Ajuntaments de Catalunya afectats per urbanitzacions amb dèficits",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:43.609Z"
+      }
+    },
+    {
+      "id": "2026-07-09#22",
+      "sesion_id": "2026-07-09",
+      "orden": 22,
+      "titulo": "Sessió de control dels òrgans de govern.- ************************************************",
+      "texto_redactado": "Sessió de control dels òrgans de govern.- ************************************************",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:43.609Z"
+      }
+    }
+  ]
+}

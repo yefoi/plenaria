@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "valls",
+    "nombre": "Valls",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4316130008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-16",
+    "municipio_id": "valls",
+    "fecha": "2026-07-16",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4316130008/2026/646a0da3-83c5-4bf5-ac30-de97d7424942/Ple%202026-07-16%20extraordinari.pdf",
+    "hash_contenido": "213a68ca3d0fea50336bf5c2aa8943b8d06ebd13364e7bbd4389403899fd2207",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T07:49:25.185Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-16#1",
+      "sesion_id": "2026-07-16",
+      "orden": 1,
+      "titulo": "Aprovació definitiva pressupost 2026.-",
+      "texto_redactado": "Aprovació definitiva pressupost 2026.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:25.185Z"
+      }
+    },
+    {
+      "id": "2026-07-16#2",
+      "sesion_id": "2026-07-16",
+      "orden": 2,
+      "titulo": "Moció presentada pel grup municipal ERC, Junts per Valls, PSC i CUP-Valls per garantir",
+      "texto_redactado": "Moció presentada pel grup municipal ERC, Junts per Valls, PSC i CUP-Valls per garantir",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:25.185Z"
+      }
+    },
+    {
+      "id": "2026-07-16#3",
+      "sesion_id": "2026-07-16",
+      "orden": 3,
+      "titulo": "Moció presentada pels grups municipals ERC, Junts per Valls, PSC i la CUP amb motiu",
+      "texto_redactado": "Moció presentada pels grups municipals ERC, Junts per Valls, PSC i la CUP amb motiu",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:25.185Z"
+      }
+    }
+  ]
+}

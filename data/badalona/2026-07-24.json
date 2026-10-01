@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "badalona",
+    "nombre": "Badalona",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "801550006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-24",
+    "municipio_id": "badalona",
+    "fecha": "2026-07-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/801550006/2026/be8dd36b-61c2-4ac3-b88d-24aea6654743/ACTA_17_Ple_24-07-2026.pdf",
+    "hash_contenido": "ad2337454741e9b4f0faa0e7e580d64f752c9125bc64173ffcf43de478f5c16e",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T07:49:00.639Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-24#1",
+      "sesion_id": "2026-07-24",
+      "orden": 1,
+      "titulo": "Servei Jurídic i Administració General de Recursos Interns, Participació, Habitatge i Salut. Autoritzar a la Fundació Badalona Capital Europea del Bàsquet per cancel·lar íntegrament la hipoteca constituïda l’any 2007, posteriorment novada els anys 2011 i 2017, sobre el dret real administratiu d’aprofitament inscrit en la finca registral número 46.152 del Registre, i la fiança associada; i autoritzar de forma condicionada a constituir simultàniament una nova hipoteca de primer rang sobre el mateix dret real administratiu d’aprofitament, en garantia d’un préstec de 17.000.000 euros que Banco Santander, S.A. preveu concedir a Badalonès Inversions, S.L., amb",
+      "texto_redactado": "Servei Jurídic i Administració General de Recursos Interns, Participació, Habitatge i Salut. Autoritzar a la Fundació Badalona Capital Europea del Bàsquet per cancel·lar íntegrament la hipoteca constituïda l’any 2007, posteriorment novada els anys 2011 i 2017, sobre el dret real administratiu d’aprofitament inscrit en la finca registral número 46.152 del Registre, i la fiança associada; i autoritzar de forma condicionada a constituir simultàniament una nova hipoteca de primer rang sobre el mateix dret real administratiu d’aprofitament, en garantia d’un préstec de 17.000.000 euros que Banco Santander, S.A. preveu concedir a Badalonès Inversions, S.L., amb",
+      "importe_eur": 17000000,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:00.639Z"
+      }
+    }
+  ]
+}

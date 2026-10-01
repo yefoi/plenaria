@@ -1,0 +1,327 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "mollet-del-valles",
+    "nombre": "Mollet del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "812490004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-20",
+    "municipio_id": "mollet-del-valles",
+    "fecha": "2026-07-20",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/812490004/2026/ccd85995-8c52-4a51-ac33-5bf06d7fc81b/Acta_Ple_224589E_20.07.26.pdf",
+    "hash_contenido": "3ddc98b96f570e03130ff31d89ed23609520839eb7bf91315fac0fc54ccef326",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T07:49:17.138Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-20#1",
+      "sesion_id": "2026-07-20",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta de la sessió ordinària de data 29 de juny de 2026 (expedient 213208Y). DICTÀMENS DE LA COMISSIÓ INFORMATIVA DE SERVEIS GENERALS, DESENVOLUPAMENT ECONÒMIC I TERRITORI",
+      "texto_redactado": "Aprovació de l’acta de la sessió ordinària de data 29 de juny de 2026 (expedient 213208Y). DICTÀMENS DE LA COMISSIÓ INFORMATIVA DE SERVEIS GENERALS, DESENVOLUPAMENT ECONÒMIC I TERRITORI",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:17.138Z"
+      }
+    },
+    {
+      "id": "2026-07-20#2",
+      "sesion_id": "2026-07-20",
+      "orden": 2,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:17.138Z"
+      }
+    },
+    {
+      "id": "2026-07-20#3",
+      "sesion_id": "2026-07-20",
+      "orden": 3,
+      "titulo": "Dictamen sobre l’aprovació del Conveni entre l’Administració de la Generalitat de Catalunya,",
+      "texto_redactado": "Dictamen sobre l’aprovació del Conveni entre l’Administració de la Generalitat de Catalunya,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:17.138Z"
+      }
+    },
+    {
+      "id": "2026-07-20#4",
+      "sesion_id": "2026-07-20",
+      "orden": 4,
+      "titulo": "Dictamen sobre l’aprovació inicial de la Modificació de crèdit 13/2026 del pressupost 2026",
+      "texto_redactado": "Dictamen sobre l’aprovació inicial de la Modificació de crèdit 13/2026 del pressupost 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:17.138Z"
+      }
+    },
+    {
+      "id": "2026-07-20#5",
+      "sesion_id": "2026-07-20",
+      "orden": 5,
+      "titulo": "Dictamen sobre la declaració de diverses obres d’especial interès i utilitat municipal",
+      "texto_redactado": "Dictamen sobre la declaració de diverses obres d’especial interès i utilitat municipal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:17.138Z"
+      }
+    },
+    {
+      "id": "2026-07-20#6",
+      "sesion_id": "2026-07-20",
+      "orden": 6,
+      "titulo": "Moció que presenta el Grup ARA Mollet-ERC i EUiA per a l’impuls de climatització als",
+      "texto_redactado": "Moció que presenta el Grup ARA Mollet-ERC i EUiA per a l’impuls de climatització als",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:17.138Z"
+      }
+    },
+    {
+      "id": "2026-07-20#7",
+      "sesion_id": "2026-07-20",
+      "orden": 7,
+      "titulo": "Donació de compte de l’aprovació del Pla Local de Seguretat de Mollet del Vallès 2026-",
+      "texto_redactado": "Donació de compte de l’aprovació del Pla Local de Seguretat de Mollet del Vallès 2026-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:17.138Z"
+      }
+    },
+    {
+      "id": "2026-07-20#8",
+      "sesion_id": "2026-07-20",
+      "orden": 8,
+      "titulo": "Donació de compte dels informes definitius relatius a les auditories de comptes del exercici",
+      "texto_redactado": "Donació de compte dels informes definitius relatius a les auditories de comptes del exercici",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:17.138Z"
+      }
+    },
+    {
+      "id": "2026-07-20#9",
+      "sesion_id": "2026-07-20",
+      "orden": 9,
+      "titulo": "Donació de compte dels informes definitius relatius a l’avaluació del compliment de la",
+      "texto_redactado": "Donació de compte dels informes definitius relatius a l’avaluació del compliment de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:17.138Z"
+      }
+    },
+    {
+      "id": "2026-07-20#10",
+      "sesion_id": "2026-07-20",
+      "orden": 10,
+      "titulo": "Donació de compte de l’informe resum dels resultats del control intern de l’exercici 2025",
+      "texto_redactado": "Donació de compte de l’informe resum dels resultats del control intern de l’exercici 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:17.138Z"
+      }
+    },
+    {
+      "id": "2026-07-20#11",
+      "sesion_id": "2026-07-20",
+      "orden": 11,
+      "titulo": "Donació de compte dels decrets de l'alcaldia del número 3078/2026 de data 17 de juny de",
+      "texto_redactado": "Donació de compte dels decrets de l'alcaldia del número 3078/2026 de data 17 de juny de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:17.138Z"
+      }
+    },
+    {
+      "id": "2026-07-20#12",
+      "sesion_id": "2026-07-20",
+      "orden": 12,
+      "titulo": "Punts d’urgència.",
+      "texto_redactado": "Punts d’urgència.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:17.138Z"
+      }
+    },
+    {
+      "id": "2026-07-20#13",
+      "sesion_id": "2026-07-20",
+      "orden": 13,
+      "titulo": "Precs i preguntes.",
+      "texto_redactado": "Precs i preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T07:49:17.138Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "manlleu",
+    "nombre": "Manlleu",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "811200000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-28",
+    "municipio_id": "manlleu",
+    "fecha": "2026-07-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/811200000/2026/37f3c829-7b66-4358-8f74-0c157043daf1/ACTA%20PLE_8_2026%20DE%2028_07_2026.%20VERSI%d3%20LOPD.pdf",
+    "hash_contenido": "48cfc628dded173bca0c96f04a451a310b59bc000a701e45c5574f67bd77fb35",
+    "estado_ingesta": "requiere_ocr",
+    "actualizada_en": "2026-10-01T07:48:21.709Z"
+  },
+  "puntos": []
+}
