@@ -1,4 +1,5 @@
 import { Insignia } from '@/app/components/Insignia';
+import { EnlaceExterno } from '@/app/components/ui';
 import {
   ETIQUETA_TEMA,
   ETIQUETA_TIPO,
@@ -37,56 +38,70 @@ export function PuntoCard({
     ].join('\n'),
   );
 
+  const impacto = punto.impacto;
+  const destacado = impacto !== null && impacto >= 4;
+
   return (
     <article
       id={`punto-${punto.orden}`}
-      className="rounded-lg border border-stone-200 bg-white p-4 shadow-sm dark:border-stone-800 dark:bg-stone-900"
+      className={`tarjeta scroll-mt-24 p-5 transition-shadow hover:shadow-media ${
+        destacado ? 'border-l-4 border-l-aviso-linea' : ''
+      }`}
     >
-      <div className="flex flex-wrap items-start justify-between gap-2">
-        <h3 className="max-w-prose text-base font-semibold leading-snug">
-          <span className="mr-2 text-stone-500 dark:text-stone-400">{punto.orden}.</span>
-          {punto.titulo}
+      <div className="flex flex-wrap items-start justify-between gap-x-4 gap-y-2">
+        <h3 className="flex min-w-0 items-baseline gap-2.5 font-serif text-[1.0625rem] leading-snug text-marca-fuerte">
+          <span className="shrink-0 font-sans text-sm font-semibold tabular-nums text-tenue">
+            {punto.orden}.
+          </span>
+          <span className="max-w-prose">{punto.titulo}</span>
         </h3>
-        <div className="flex flex-wrap items-center gap-1">
-          {punto.impacto !== null && (
-            <Insignia tono={punto.impacto >= 4 ? 'aviso' : 'neutro'}>
-              Impacto vecinal {punto.impacto}/5
+        <div className="flex flex-wrap items-center gap-1.5">
+          {impacto !== null && (
+            <Insignia
+              tono={destacado ? 'aviso' : 'neutro'}
+              title={`Impacto vecinal estimado de 1 a 5 según los criterios de /metodologia`}
+            >
+              Impacto {impacto}/5
             </Insignia>
           )}
           {punto.tipo_punto !== null && <Insignia tono="info">{ETIQUETA_TIPO[punto.tipo_punto]}</Insignia>}
           {punto.resultado !== null && !punto.sensible && (
             <Insignia tono={tonoResultado(punto.resultado)}>{etiquetaResultado(punto.resultado)}</Insignia>
           )}
-          {punto.sensible && <Insignia tono="peligro">Punto reservado por privacidad</Insignia>}
-          {punto.revision_manual && <Insignia tono="aviso">Clasificación a revisar</Insignia>}
+          {punto.sensible && <Insignia tono="peligro">Reservado por privacidad</Insignia>}
+          {punto.revision_manual && <Insignia tono="aviso">A revisar</Insignia>}
         </div>
       </div>
 
       {!punto.sensible && punto.texto_redactado && punto.texto_redactado !== punto.titulo && (
-        <p className="mt-3 max-w-prose whitespace-pre-line text-sm text-stone-700 dark:text-stone-300">
+        <p className="mt-3.5 max-w-prose whitespace-pre-line text-[0.9375rem] leading-relaxed text-apagado">
           {punto.texto_redactado}
         </p>
       )}
 
       {punto.sensible && (
-        <p className="mt-3 text-sm text-stone-600 dark:text-stone-400">
+        <p className="mt-3.5 max-w-prose border-l-2 border-peligro-linea pl-3 text-sm leading-relaxed text-apagado">
           Este punto trata datos personales o casos individuales. Por privacidad solo se muestra su
           categoría general; el detalle consta en el documento oficial.
         </p>
       )}
 
-      <div className="mt-3 flex flex-wrap items-center gap-2 text-xs text-stone-600 dark:text-stone-400">
+      <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1.5 border-t border-linea pt-3 text-xs text-tenue">
         {punto.temas.map((tema) => (
-          <Insignia key={tema}>{ETIQUETA_TEMA[tema]}</Insignia>
+          <span
+            key={tema}
+            className="rounded bg-marca-tenue px-1.5 py-0.5 font-medium text-marca"
+          >
+            {ETIQUETA_TEMA[tema]}
+          </span>
         ))}
         {punto.afecta_vecinos_prob !== null && (
-          <Insignia tono={punto.afecta_vecinos_prob >= 0.5 ? 'ok' : 'neutro'}>
-            {punto.afecta_vecinos_prob >= 0.5 ? 'Afecta a vecinos' : 'No afecta directamente'}{' '}
-            (prob. {formatearPorcentaje(punto.afecta_vecinos_prob)})
-          </Insignia>
+          <span className="tabular-nums">
+            Afectación a vecinos {formatearPorcentaje(punto.afecta_vecinos_prob)}
+          </span>
         )}
         {punto.importe_eur !== null && (
-          <span className="font-medium">Importe detectado: {formatearImporte(punto.importe_eur)}</span>
+          <span className="font-semibold text-apagado">Importe {formatearImporte(punto.importe_eur)}</span>
         )}
         {punto.confianza_min !== null && (
           <span title="Confianza mínima de la clasificación automática">
@@ -96,17 +111,12 @@ export function PuntoCard({
         {punto.clasificado_con === null && <span>Pendiente de clasificación automática</span>}
       </div>
 
-      <div className="mt-3 flex flex-wrap gap-4 text-sm">
+      <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1 text-xs">
+        <EnlaceExterno href={fuenteUrl} className="font-medium">
+          Documento original
+        </EnlaceExterno>
         <a
-          className="underline underline-offset-2"
-          href={fuenteUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Ver documento original (PDF)
-        </a>
-        <a
-          className="underline underline-offset-2"
+          className="text-apagado hover:text-marca-fuerte hover:underline"
           href={reportar.toString()}
           target="_blank"
           rel="noopener noreferrer"

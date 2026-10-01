@@ -42,6 +42,22 @@ Antes de dar un cambio por terminado: `npm run typecheck && npm test && npm run 
 - Nombres de funciones y variables en español cuando son del dominio;
   identificadores de terceros se dejan como vienen.
 
+## Estilos
+
+- Todo el diseño visual está en `app/globals.css`: tokens `@theme inline`
+  (`fondo`, `superficie`, `linea`, `texto`, `apagado`, `tenue`, `marca`, `aviso-*`,
+  `info-*`, `ok-*`, `peligro-*`) y utilidades (`tarjeta`, `tarjeta-clic`, `chip`,
+  `chip-activo`, `eyebrow`, `enlace-subrayado`).
+- **Prohibido escribir colores literales ni familias de Tailwind sueltas**
+  (`bg-stone-100`, `text-sky-700`) en componentes o páginas. Si falta un token,
+  se añade a `@theme`; si falta una escala, a `:root`/`.dark`.
+- El tema (claro/oscuro/auto) se decide en servidor leyendo la cookie
+  `plenaria-tema` en `app/layout.tsx`. No reintroducir scripts en línea ni
+  escribir en `document.documentElement` desde el servidor: React gestiona ese
+  nodo. La lógica compartida está en `lib/web/tema.ts`.
+- Componentes reutilizables en `app/components/ui.tsx`; `Insignia` es el único
+  badge y `PuntoCard` es la única ficha de punto.
+
 ## Reglas de seguridad
 
 - Jamás llamar a classifier.dev, TypeSafe/u otro servicio con texto que no haya

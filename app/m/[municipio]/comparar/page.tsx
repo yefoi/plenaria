@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Insignia } from '@/app/components/Insignia';
+import { Migas, Seccion } from '@/app/components/ui';
 import { municipioPorId } from '@/lib/config';
 import { TEMAS, type DocumentoSesion, type Tema } from '@/lib/schemas';
 import { fechaLargaEspanol } from '@/lib/utils/dates';
@@ -37,15 +38,19 @@ function resumir(doc: DocumentoSesion): ResumenComparado {
 }
 
 function Diferencia({ valor }: { valor: number }) {
-  if (valor === 0) return <span className="text-stone-500 dark:text-stone-400">0</span>;
+  if (valor === 0) return <span className="text-tenue">0</span>;
   const signo = valor > 0 ? '+' : '';
   return (
-    <span className={valor > 0 ? 'text-amber-800 dark:text-amber-300' : 'text-sky-800 dark:text-sky-300'}>
+    <span
+      className={`font-semibold tabular-nums ${valor > 0 ? 'text-aviso-texto' : 'text-ok-texto'}`}
+    >
       {signo}
       {valor}
     </span>
   );
 }
+
+const CABECERA_TD = 'py-2.5 pr-4 align-top';
 
 export default async function PaginaComparar({
   params,
@@ -63,10 +68,21 @@ export default async function PaginaComparar({
   const sesiones = await repo.listarSesiones(municipio.id);
   if (sesiones.length < 2) {
     return (
-      <div>
-        <h1 className="text-2xl font-bold tracking-tight">Comparar sesiones</h1>
-        <p className="mt-3 text-sm text-stone-600 dark:text-stone-400">
-          Hacen falta al menos dos sesiones procesadas para comparar.
+      <div className="space-y-6">
+        <Migas
+          pasos={[
+            { texto: 'Inicio', href: '/' },
+            { texto: municipio.nombre, href: `/m/${municipio.id}` },
+            { texto: 'Comparar' },
+          ]}
+        />
+        <h1 className="text-3xl font-semibold text-marca-fuerte">Comparar sesiones</h1>
+        <p className="text-sm text-apagado">
+          Hacen falta al menos dos sesiones procesadas para comparar.{' '}
+          <Link className="enlace-subrayado text-marca" href={`/m/${municipio.id}`}>
+            Volver al municipio
+          </Link>
+          .
         </p>
       </div>
     );
@@ -80,22 +96,25 @@ export default async function PaginaComparar({
 
   const resumenA = resumir(docA);
   const resumenB = resumir(docB);
-  const temasPresentes = TEMAS.filter((t) => (resumenA.temas[t] ?? 0) > 0 || (resumenB.temas[t] ?? 0) > 0);
-  const puntosA = [...docA.puntos].filter((p) => (p.impacto ?? 0) >= 4).sort((x, y) => (y.impacto ?? 0) - (x.impacto ?? 0));
-  const puntosB = [...docB.puntos].filter((p) => (p.impacto ?? 0) >= 4).sort((x, y) => (y.impacto ?? 0) - (x.impacto ?? 0));
+  const temasPresentes = TEMAS.filter(
+    (t) => (resumenA.temas[t] ?? 0) > 0 || (resumenB.temas[t] ?? 0) > 0,
+  );
+  const puntosA = [...docA.puntos]
+    .filter((p) => (p.impacto ?? 0) >= 4)
+    .sort((x, y) => (y.impacto ?? 0) - (x.impacto ?? 0));
+  const puntosB = [...docB.puntos]
+    .filter((p) => (p.impacto ?? 0) >= 4)
+    .sort((x, y) => (y.impacto ?? 0) - (x.impacto ?? 0));
 
   const selector = (etiqueta: string, seleccionado: string, otro: string) => (
     <div>
-      <h2 className="text-sm font-medium">{etiqueta}</h2>
-      <ul className="mt-1 flex flex-wrap gap-2 text-xs">
+      <p className="eyebrow">{etiqueta}</p>
+      <ul className="mt-2 flex flex-wrap gap-1.5">
         {sesiones.slice(0, 6).map((s) => (
           <li key={s.id}>
             <Link
-              className={`rounded-full border px-3 py-1 ${
-                s.id === seleccionado
-                  ? 'border-sky-600 bg-sky-50 text-sky-900 dark:bg-sky-950 dark:text-sky-100'
-                  : 'border-stone-300 hover:bg-stone-100 dark:border-stone-700 dark:hover:bg-stone-800'
-              }`}
+              aria-pressed={s.id === seleccionado}
+              className={`chip ${s.id === seleccionado ? 'chip-activo' : ''}`}
               href={`/m/${municipio.id}/comparar?a=${s.id}&b=${otro}`}
             >
               {fechaLargaEspanol(s.fecha)}
@@ -106,161 +125,204 @@ export default async function PaginaComparar({
     </div>
   );
 
+  const METRICAS: { etiqueta: string; a: string; b: string; dif: number }[] = [
+    {
+      etiqueta: 'Puntos tratados',
+      a: String(resumenA.total),
+      b: String(resumenB.total),
+      dif: resumenB.total - resumenA.total,
+    },
+    {
+      etiqueta: 'Afectan a vecinos',
+      a: String(resumenA.afectan),
+      b: String(resumenB.afectan),
+      dif: resumenB.afectan - resumenA.afectan,
+    },
+    {
+      etiqueta: 'Impacto 4-5',
+      a: String(resumenA.altoImpacto),
+      b: String(resumenB.altoImpacto),
+      dif: resumenB.altoImpacto - resumenA.altoImpacto,
+    },
+    {
+      etiqueta: 'Puntos con importe',
+      a: String(resumenA.conImporte),
+      b: String(resumenB.conImporte),
+      dif: resumenB.conImporte - resumenA.conImporte,
+    },
+    {
+      etiqueta: 'Suma de importes',
+      a: formatearImporte(resumenA.sumaImportes),
+      b: formatearImporte(resumenB.sumaImportes),
+      dif: Math.round(resumenB.sumaImportes - resumenA.sumaImportes),
+    },
+  ];
+
+  const columnaDestacados = (
+    titulo: string,
+    puntos: typeof puntosA,
+    fecha: string,
+    idSesion: string,
+  ) => (
+    <div>
+      <p className="eyebrow">Impacto 4-5</p>
+      <h3 className="mt-1 font-serif text-lg font-semibold text-marca-fuerte">{titulo}</h3>
+      <p className="text-sm text-apagado">{fechaLargaEspanol(fecha)}</p>
+      {puntos.length === 0 ? (
+        <p className="mt-3 text-sm text-apagado">Ningún punto con impacto alto en esta sesión.</p>
+      ) : (
+        <ul className="mt-3 grid gap-1.5">
+          {puntos.map((p) => (
+            <li key={p.id} className="flex gap-2.5 border-b border-linea pb-1.5 text-sm last:border-0">
+              <span className="shrink-0">
+                <Insignia tono="aviso">{p.impacto}/5</Insignia>
+              </span>
+              <Link
+                className="text-marca hover:underline"
+                href={`/m/${municipio.id}/${idSesion}#punto-${p.orden}`}
+                title={p.titulo}
+              >
+                {p.titulo.length > 90 ? `${p.titulo.slice(0, 90)}…` : p.titulo}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+
   return (
-    <div className="space-y-6">
-      <nav aria-label="Migas de pan" className="text-sm">
-        <Link className="underline underline-offset-2" href="/">
-          Inicio
-        </Link>{' '}
-        /{' '}
-        <Link className="underline underline-offset-2" href={`/m/${municipio.id}`}>
-          {municipio.nombre}
-        </Link>{' '}
-        / <span>Comparar</span>
-      </nav>
+    <div className="space-y-10">
+      <Migas
+        pasos={[
+          { texto: 'Inicio', href: '/' },
+          { texto: municipio.nombre, href: `/m/${municipio.id}` },
+          { texto: 'Comparar' },
+        ]}
+      />
 
       <header>
-        <h1 className="text-2xl font-bold tracking-tight">Comparar sesiones</h1>
-        <p className="mt-2 max-w-2xl text-sm text-stone-600 dark:text-stone-400">
+        <p className="eyebrow">{municipio.provincia}</p>
+        <h1 className="mt-2 text-3xl font-semibold text-marca-fuerte sm:text-4xl">
+          Comparar sesiones
+        </h1>
+        <p className="mt-3 max-w-2xl leading-relaxed text-apagado">
           Comparación calculada sobre los puntos publicados: conteos por tema, puntos que afectan a
           vecinos, impacto alto e importes detectados. No valora políticamente ninguna sesión.
         </p>
       </header>
 
-      <div className="grid gap-4 sm:grid-cols-2">
+      <div className="tarjeta grid gap-5 p-5 sm:grid-cols-2">
         {selector('Sesión A', idA, idB)}
         {selector('Sesión B', idB, idA)}
       </div>
 
-      <section aria-labelledby="tabla" className="overflow-x-auto">
-        <h2 id="tabla" className="text-lg font-semibold">
-          Resumen
-        </h2>
-        <table className="mt-3 w-full min-w-[32rem] border-collapse text-sm">
-          <caption className="sr-only">
-            Comparación de métricas entre la sesión A y la sesión B
-          </caption>
-          <thead>
-            <tr className="border-b border-stone-300 text-left dark:border-stone-700">
-              <th scope="col" className="py-2 pr-4">Métrica</th>
-              <th scope="col" className="py-2 pr-4">
-                A · {fechaLargaEspanol(docA.sesion.fecha)}
-              </th>
-              <th scope="col" className="py-2 pr-4">
-                B · {fechaLargaEspanol(docB.sesion.fecha)}
-              </th>
-              <th scope="col" className="py-2">Diferencia (B−A)</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr className="border-b border-stone-200 dark:border-stone-800">
-              <th scope="row" className="py-2 pr-4 font-normal">Puntos tratados</th>
-              <td className="py-2 pr-4">{resumenA.total}</td>
-              <td className="py-2 pr-4">{resumenB.total}</td>
-              <td className="py-2"><Diferencia valor={resumenB.total - resumenA.total} /></td>
-            </tr>
-            <tr className="border-b border-stone-200 dark:border-stone-800">
-              <th scope="row" className="py-2 pr-4 font-normal">Afectan a vecinos</th>
-              <td className="py-2 pr-4">{resumenA.afectan}</td>
-              <td className="py-2 pr-4">{resumenB.afectan}</td>
-              <td className="py-2"><Diferencia valor={resumenB.afectan - resumenA.afectan} /></td>
-            </tr>
-            <tr className="border-b border-stone-200 dark:border-stone-800">
-              <th scope="row" className="py-2 pr-4 font-normal">Impacto 4-5</th>
-              <td className="py-2 pr-4">{resumenA.altoImpacto}</td>
-              <td className="py-2 pr-4">{resumenB.altoImpacto}</td>
-              <td className="py-2"><Diferencia valor={resumenB.altoImpacto - resumenA.altoImpacto} /></td>
-            </tr>
-            <tr className="border-b border-stone-200 dark:border-stone-800">
-              <th scope="row" className="py-2 pr-4 font-normal">Puntos con importe</th>
-              <td className="py-2 pr-4">{resumenA.conImporte}</td>
-              <td className="py-2 pr-4">{resumenB.conImporte}</td>
-              <td className="py-2"><Diferencia valor={resumenB.conImporte - resumenA.conImporte} /></td>
-            </tr>
-            <tr>
-              <th scope="row" className="py-2 pr-4 font-normal">Suma de importes detectados</th>
-              <td className="py-2 pr-4">{formatearImporte(resumenA.sumaImportes)}</td>
-              <td className="py-2 pr-4">{formatearImporte(resumenB.sumaImportes)}</td>
-              <td className="py-2">
-                <Diferencia valor={Math.round(resumenB.sumaImportes - resumenA.sumaImportes)} />
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-
-      <section aria-labelledby="temas" className="overflow-x-auto">
-        <h2 id="temas" className="text-lg font-semibold">
-          Puntos por tema
-        </h2>
-        {temasPresentes.length === 0 ? (
-          <p className="mt-2 text-sm text-stone-600 dark:text-stone-400">Sin temas clasificados.</p>
-        ) : (
-          <table className="mt-3 w-full min-w-[24rem] border-collapse text-sm">
+      <Seccion id="tabla" eyebrow="Agregado" titulo="Resumen de ambas sesiones">
+        <div className="tarjeta overflow-x-auto p-2 sm:p-4">
+          <table className="w-full min-w-[30rem] border-collapse text-sm">
+            <caption className="sr-only">
+              Comparación de métricas entre la sesión A y la sesión B
+            </caption>
             <thead>
-              <tr className="border-b border-stone-300 text-left dark:border-stone-700">
-                <th scope="col" className="py-2 pr-4">Tema</th>
-                <th scope="col" className="py-2 pr-4">A</th>
-                <th scope="col" className="py-2 pr-4">B</th>
-                <th scope="col" className="py-2">Diferencia</th>
+              <tr className="border-b-2 border-linea-fuerte text-left">
+                <th scope="col" className="py-2.5 pr-4 font-semibold text-apagado">
+                  Métrica
+                </th>
+                <th scope="col" className="py-2.5 pr-4 font-semibold text-marca-fuerte">
+                  A · {fechaLargaEspanol(docA.sesion.fecha)}
+                </th>
+                <th scope="col" className="py-2.5 pr-4 font-semibold text-marca-fuerte">
+                  B · {fechaLargaEspanol(docB.sesion.fecha)}
+                </th>
+                <th scope="col" className="py-2.5 font-semibold text-apagado">
+                  B−A
+                </th>
               </tr>
             </thead>
             <tbody>
-              {temasPresentes.map((tema: Tema) => (
-                <tr key={tema} className="border-b border-stone-200 dark:border-stone-800">
-                  <th scope="row" className="py-2 pr-4 font-normal">{ETIQUETA_TEMA[tema]}</th>
-                  <td className="py-2 pr-4">{resumenA.temas[tema] ?? 0}</td>
-                  <td className="py-2 pr-4">{resumenB.temas[tema] ?? 0}</td>
-                  <td className="py-2">
-                    <Diferencia valor={(resumenB.temas[tema] ?? 0) - (resumenA.temas[tema] ?? 0)} />
+              {METRICAS.map((fila, indice) => (
+                <tr
+                  key={fila.etiqueta}
+                  className={indice < METRICAS.length - 1 ? 'border-b border-linea' : ''}
+                >
+                  <th scope="row" className={`${CABECERA_TD} text-left font-medium text-texto`}>
+                    {fila.etiqueta}
+                  </th>
+                  <td className={`${CABECERA_TD} tabular-nums`}>{fila.a}</td>
+                  <td className={`${CABECERA_TD} tabular-nums`}>{fila.b}</td>
+                  <td className={`${CABECERA_TD} tabular-nums`}>
+                    <Diferencia valor={fila.dif} />
                   </td>
                 </tr>
               ))}
             </tbody>
           </table>
-        )}
-      </section>
+        </div>
+      </Seccion>
 
-      <section aria-labelledby="destacados" className="grid gap-6 lg:grid-cols-2">
-        <div>
-          <h2 id="destacados" className="text-lg font-semibold">
-            Impacto 4-5 en A · {fechaLargaEspanol(docA.sesion.fecha)}
-          </h2>
-          <ul className="mt-2 space-y-2 text-sm">
-            {puntosA.length === 0 ? (
-              <li className="text-stone-600 dark:text-stone-400">Ninguno.</li>
-            ) : (
-              puntosA.map((p) => (
-                <li key={p.id}>
-                  <Insignia tono="aviso">Impacto {p.impacto}/5</Insignia>{' '}
-                  <Link className="underline underline-offset-2" href={`/m/${municipio.id}/${docA.sesion.id}#punto-${p.orden}`}>
-                    {p.titulo.slice(0, 90)}
-                    {p.titulo.length > 90 ? '…' : ''}
-                  </Link>
-                </li>
-              ))
-            )}
-          </ul>
+      <Seccion id="temas" eyebrow="Distribución" titulo="Puntos por tema">
+        {temasPresentes.length === 0 ? (
+          <p className="tarjeta p-5 text-sm text-apagado">Sin temas clasificados.</p>
+        ) : (
+          <div className="tarjeta overflow-x-auto p-2 sm:p-4">
+            <table className="w-full min-w-[24rem] border-collapse text-sm">
+              <thead>
+                <tr className="border-b-2 border-linea-fuerte text-left">
+                  <th scope="col" className="py-2.5 pr-4 font-semibold text-apagado">
+                    Tema
+                  </th>
+                  <th scope="col" className="py-2.5 pr-4 font-semibold text-apagado">
+                    A
+                  </th>
+                  <th scope="col" className="py-2.5 pr-4 font-semibold text-apagado">
+                    B
+                  </th>
+                  <th scope="col" className="py-2.5 font-semibold text-apagado">
+                    B−A
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {temasPresentes.map((tema: Tema, indice) => (
+                  <tr
+                    key={tema}
+                    className={
+                      indice < temasPresentes.length - 1 ? 'border-b border-linea' : ''
+                    }
+                  >
+                    <th scope="row" className={`${CABECERA_TD} text-left font-normal`}>
+                      {ETIQUETA_TEMA[tema]}
+                    </th>
+                    <td className={`${CABECERA_TD} tabular-nums`}>{resumenA.temas[tema] ?? 0}</td>
+                    <td className={`${CABECERA_TD} tabular-nums`}>{resumenB.temas[tema] ?? 0}</td>
+                    <td className={`${CABECERA_TD} tabular-nums`}>
+                      <Diferencia
+                        valor={(resumenB.temas[tema] ?? 0) - (resumenA.temas[tema] ?? 0)}
+                      />
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </Seccion>
+
+      <Seccion
+        id="destacados"
+        eyebrow="Puntos destacados"
+        titulo="Impacto vecinal alto en cada sesión"
+        descripcion="Los cinco puntos con mayor puntuación de impacto de cada sesión."
+      >
+        <div className="grid gap-6 lg:grid-cols-2">
+          <div className="tarjeta p-5">
+            {columnaDestacados('Sesión A', puntosA, docA.sesion.fecha, docA.sesion.id)}
+          </div>
+          <div className="tarjeta p-5">
+            {columnaDestacados('Sesión B', puntosB, docB.sesion.fecha, docB.sesion.id)}
+          </div>
         </div>
-        <div>
-          <h2 className="text-lg font-semibold">Impacto 4-5 en B · {fechaLargaEspanol(docB.sesion.fecha)}</h2>
-          <ul className="mt-2 space-y-2 text-sm">
-            {puntosB.length === 0 ? (
-              <li className="text-stone-600 dark:text-stone-400">Ninguno.</li>
-            ) : (
-              puntosB.map((p) => (
-                <li key={p.id}>
-                  <Insignia tono="aviso">Impacto {p.impacto}/5</Insignia>{' '}
-                  <Link className="underline underline-offset-2" href={`/m/${municipio.id}/${docB.sesion.id}#punto-${p.orden}`}>
-                    {p.titulo.slice(0, 90)}
-                    {p.titulo.length > 90 ? '…' : ''}
-                  </Link>
-                </li>
-              ))
-            )}
-          </ul>
-        </div>
-      </section>
+      </Seccion>
     </div>
   );
 }

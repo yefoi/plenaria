@@ -104,6 +104,31 @@ descubrir → descargar → extraer texto → segmentar → redactar → clasifi
 - `/metodologia` y `/fuentes`: criterios, limitaciones y estado de la ingesta
   (incluida la comprobación de `robots.txt` por ruta).
 
+## Diseño visual
+
+Todo el sistema visual vive en `app/globals.css`, con tokens semánticos de
+Tailwind v4 (`@theme inline`). No hay colores literales en los componentes:
+
+| Token | Uso |
+| --- | --- |
+| `fondo`, `superficie`, `superficie-2` | Fondo de página y tarjetas |
+| `linea`, `linea-fuerte` | Bordes y separadores |
+| `texto`, `apagado`, `tenue` | Tres niveles de texto |
+| `marca`, `marca-fuerte`, `marca-tenue` | Azul tinta de marca |
+| `aviso-*`, `info-*`, `ok-*`, `peligro-*` | Estados y insignias |
+| `p-*`, `tinta-*`, `musgo-*`, `ambar-*`, `granate-*` | Rampas fijas |
+
+Utilidades propias: `tarjeta`, `tarjeta-clic`, `chip`, `chip-activo`, `eyebrow`,
+`enlace-subrayado`. Tipografías: Source Serif 4 (titulares) y Source Sans 3
+(texto), autoalojadas con `next/font` en `lib/fuentes-web.ts`.
+
+**Tema claro y oscuro.** La preferencia (`auto`, `claro`, `oscuro`) se guarda en
+la cookie `plenaria-tema` y el servidor la lee en `app/layout.tsx` para pintar
+la clase en `<html>`, así que no hay parpadeo ni script en línea. En `auto` decide
+la regla `@media (prefers-color-scheme: dark)` del propio CSS; el interruptor de
+la cabecera está en `app/components/InterruptorTema.tsx` y la lógica compartida en
+`lib/web/tema.ts`.
+
 ## Requisitos
 
 - Node.js 24 o superior.

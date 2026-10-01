@@ -25,7 +25,11 @@ export interface GrupoPines {
   pines: PinMapa[];
 }
 
-export function agruparPines(pines: PinMapa[], umbral: number, provinciaFiltro: string | null): GrupoPines[] {
+export function agruparPines(
+  pines: PinMapa[],
+  umbral: number,
+  provinciaFiltro: string | null,
+): GrupoPines[] {
   const visibles = provinciaFiltro ? pines.filter((p) => p.provincia_id === provinciaFiltro) : pines;
   const grupos: GrupoPines[] = [];
   for (const pin of visibles) {
@@ -50,16 +54,25 @@ function viewBoxDeProvincia(provincia: ProvinciaMapa): string {
   return `${Number((x0 - margenX).toFixed(1))} ${Number((y0 - margenY).toFixed(1))} ${Number(ancho.toFixed(1))} ${Number(alto.toFixed(1))}`;
 }
 
+const LEYENDA = [
+  { clase: 'bg-tinta-300 dark:bg-tinta-700', texto: 'Provincia con municipios procesados' },
+  { clase: 'bg-papel-200 dark:bg-[#232c38]', texto: 'Provincia sin datos todavía' },
+  { clase: 'bg-granate-600', texto: 'Municipio' },
+  { clase: 'bg-ambar-500', texto: 'Varios municipios agrupados' },
+];
+
 export function MapaEspana({
   provinciaActiva,
   provinciasConDatos,
   basePath = '/',
   municipioDestacado = null,
+  compacto = false,
 }: {
   provinciaActiva: string | null;
   provinciasConDatos: string[];
   basePath?: string;
   municipioDestacado?: string | null;
+  compacto?: boolean;
 }) {
   const conDatos = new Set(provinciasConDatos);
 
@@ -67,39 +80,43 @@ export function MapaEspana({
     ? PROVINCIAS_MAPA.find((p) => p.id === provinciaActiva) ?? null
     : null;
   const viewBox = zoom ? viewBoxDeProvincia(zoom) : mapa.viewBox;
-  const [minX, , anchoVista] = viewBox.split(' ').map(Number);
-  const escala = anchoVista / 964;
-  const radioPin = Math.min(10, Math.max(2.4, anchoVista / 96));
-  const radioGrupo = Math.min(16, Math.max(3.6, anchoVista / 64));
-  const tamanoTexto = Math.min(11, Math.max(3.4, anchoVista / 88));
+  const [, yVista, anchoVista] = viewBox.split(' ').map(Number);
 
-  const grupos = agruparPines(PINES_MAPA, anchoVista / 40, zoom ? zoom.id : null);
+  const anchoRender = compacto ? 300 : 860;
+  const unidadesPorPx = anchoVista / anchoRender;
+  const radioPin = Math.max(1.1, (compacto ? 4.5 : 7) * unidadesPorPx);
+  const radioGrupo = Math.max(1.8, (compacto ? 9 : 11) * unidadesPorPx);
+  const tamanoTexto = radioGrupo * (compacto ? 0.85 : 0.9);
+  const grosor = Math.max(0.4, unidadesPorPx * 1.5);
+  const agrupar = (compacto ? 22 : 30) * unidadesPorPx;
+
+  const grupos = agruparPines(PINES_MAPA, agrupar, zoom ? zoom.id : null);
 
   const enlaceProvincia = (id: string) =>
     provinciaActiva === id ? basePath : `${basePath}?provincia=${id}`;
 
   const claseProvincia = (id: string) => {
-    const base = 'stroke-white dark:stroke-stone-950 transition-colors';
+    const base = 'stroke-superficie transition-colors duration-200';
     if (provinciaActiva === id) {
-      return `${base} fill-sky-400 dark:fill-sky-700`;
+      return `${base} fill-tinta-500 hover:fill-tinta-600 dark:fill-tinta-500 dark:hover:fill-tinta-400`;
     }
     if (conDatos.has(id)) {
-      return `${base} fill-emerald-300 hover:fill-emerald-400 dark:fill-emerald-800 dark:hover:fill-emerald-700`;
+      return `${base} fill-tinta-300 hover:fill-tinta-400 dark:fill-tinta-700 dark:hover:fill-tinta-600`;
     }
-    return `${base} fill-stone-200 hover:fill-stone-300 dark:fill-stone-800 dark:hover:fill-stone-700`;
+    return `${base} fill-papel-200 hover:fill-papel-300 dark:fill-[#232c38] dark:hover:fill-[#2b3644]`;
   };
 
   return (
-    <figure className="mx-auto max-w-2xl">
+    <figure className="w-full">
       <svg
         viewBox={viewBox}
         role="img"
         aria-label={
           zoom
-            ? `Mapa de la provincia de ${zoom.nombre}. Muestra los municipios procesados y permite volver al mapa completo.`
-            : 'Mapa de España por provincias. Las provincias en verde tienen municipios con datos; haz clic para verlos ampliados.'
+            ? `Mapa de la provincia de ${zoom.nombre}. Cada círculo es un municipio con datos procesados; los grupos agrupan municipios cercanos.`
+            : 'Mapa de España por provincias. Las provincias resaltadas tienen municipios con datos procesados.'
         }
-        className="h-auto w-full"
+        className="h-auto w-full drop-shadow-sm"
       >
         {PROVINCIAS_MAPA.map((provincia) => (
           <a
@@ -107,7 +124,11 @@ export function MapaEspana({
             href={enlaceProvincia(provincia.id)}
             aria-label={`${provincia.nombre}${conDatos.has(provincia.id) ? ' (con datos)' : ''}`}
           >
-            <path d={provincia.d} className={claseProvincia(provincia.id)} strokeWidth={zoom ? 0.8 : 2}>
+            <path
+              d={provincia.d}
+              className={claseProvincia(provincia.id)}
+              strokeWidth={compacto ? grosor * 0.7 : grosor}
+            >
               <title>
                 {provincia.nombre}
                 {conDatos.has(provincia.id) ? ' · con datos' : ''}
@@ -115,6 +136,7 @@ export function MapaEspana({
             </path>
           </a>
         ))}
+
         {grupos.map((grupo) => {
           const clave = grupo.pines.map((p) => p.municipio_id).join('-');
           if (grupo.pines.length === 1) {
@@ -126,16 +148,27 @@ export function MapaEspana({
                 href={`/m/${pin.municipio_id}`}
                 aria-label={`${destacado ? 'Municipio actual: ' : 'Ir al municipio de '}${pin.nombre}`}
               >
+                {destacado && (
+                  <circle
+                    cx={pin.x}
+                    cy={pin.y}
+                    r={radioPin * 2.1}
+                    className="fill-marca/20 stroke-marca/40"
+                    strokeWidth={radioPin * 0.3}
+                  />
+                )}
                 <circle
                   cx={pin.x}
                   cy={pin.y}
-                  r={destacado ? radioPin * 1.5 : radioPin}
-                  strokeWidth={destacado ? radioPin * 0.4 : radioPin * 0.25}
-                  className={`stroke-white transition-colors dark:stroke-stone-950 ${
-                    destacado ? 'fill-sky-600' : 'fill-rose-600 hover:fill-rose-500'
+                  r={destacado ? radioPin * 1.35 : radioPin}
+                  strokeWidth={radioPin * 0.3}
+                  className={`stroke-superficie transition-colors ${
+                    destacado ? 'fill-marca' : 'fill-granate-600 hover:fill-granate-500'
                   }`}
                 >
-                  <title>{destacado ? `${pin.nombre} (municipio de esta página)` : pin.nombre}</title>
+                  <title>
+                    {destacado ? `${pin.nombre} (municipio de esta página)` : pin.nombre}
+                  </title>
                 </circle>
               </a>
             );
@@ -145,14 +178,14 @@ export function MapaEspana({
             <a
               key={clave}
               href={enlaceProvincia(grupo.provincia_id)}
-              aria-label={`${nombres.length} municipios en esta zona: ${nombres.join(', ')}. Ver en la lista.`}
+              aria-label={`${nombres.length} municipios agrupados aquí: ${nombres.join(', ')}. Ver en la lista.`}
             >
               <circle
                 cx={grupo.x}
                 cy={grupo.y}
                 r={radioGrupo}
-                strokeWidth={radioGrupo * 0.25}
-                className="fill-amber-500 stroke-white transition-colors hover:fill-amber-400 dark:stroke-stone-950"
+                strokeWidth={radioGrupo * 0.22}
+                className="fill-ambar-500 stroke-superficie transition-colors hover:fill-ambar-600"
               >
                 <title>{`${nombres.length} municipios: ${nombres.join(', ')}`}</title>
               </circle>
@@ -162,40 +195,59 @@ export function MapaEspana({
                 textAnchor="middle"
                 dominantBaseline="central"
                 fontSize={tamanoTexto}
-                className="pointer-events-none fill-white font-semibold"
+                className="pointer-events-none fill-ambar-950 font-bold tabular-nums"
               >
                 {nombres.length}
               </text>
             </a>
           );
         })}
+
         {zoom && (
           <a href={basePath} aria-label="Volver al mapa completo de España">
-            <g transform={`translate(${minX + anchoVista * 0.02}, ${Number(viewBox.split(' ')[1]) + anchoVista * 0.02})`}>
+            <g
+              transform={`translate(${
+                viewBox.split(' ').map(Number)[0] + anchoVista * 0.025
+              }, ${yVista + anchoVista * 0.025})`}
+            >
               <rect
-                width={anchoVista * 0.28}
-                height={anchoVista * 0.075}
-                rx={anchoVista * 0.012}
-                className="fill-white/90 stroke-stone-300 dark:fill-stone-900/90 dark:stroke-stone-700"
-                strokeWidth={anchoVista * 0.004}
+                width={anchoVista * 0.26}
+                height={anchoVista * 0.072}
+                rx={anchoVista * 0.036}
+                className="fill-superficie-2 stroke-linea-fuerte"
+                strokeWidth={grosor}
               />
               <text
-                x={anchoVista * 0.14}
-                y={anchoVista * 0.0455}
+                x={anchoVista * 0.13}
+                y={anchoVista * 0.037}
                 textAnchor="middle"
                 dominantBaseline="central"
-                fontSize={tamanoTexto * 0.95}
-                className="fill-stone-800 dark:fill-stone-100"
+                fontSize={tamanoTexto}
+                className="fill-marca font-semibold"
               >
-                ← España
+                {'← España'}
               </text>
             </g>
           </a>
         )}
       </svg>
-      <figcaption className="mt-2 text-center text-xs text-stone-500 dark:text-stone-400">
-        Cartografía: IGN (CC BY 4.0), vía es-atlas. Verde: provincia con datos; ámbar con número:
-        varios municipios agrupados. {zoom ? 'Haz clic en «← España» para alejar.' : 'Haz clic en una provincia para ampliarla.'}
+
+      {!compacto && (
+        <ul className="mt-4 flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
+          {LEYENDA.map((item) => (
+            <li key={item.texto} className="flex items-center gap-1.5 text-xs text-apagado">
+              <span aria-hidden="true" className={`size-3 rounded-full ${item.clase}`} />
+              {item.texto}
+            </li>
+          ))}
+        </ul>
+      )}
+
+      <figcaption className="mt-3 text-center text-xs text-tenue">
+        Cartografía: Instituto Geográfico Nacional (CC BY 4.0), vía es-atlas.{' '}
+        {zoom
+          ? 'Pulsa «← España» para volver al mapa completo.'
+          : 'Pulsa una provincia para ampliarla.'}
       </figcaption>
     </figure>
   );

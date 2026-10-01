@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { ListaMunicipios, type MunicipioLista } from '@/app/components/ListaMunicipios';
 import { MapaEspana, PINES_MAPA, PROVINCIAS_MAPA } from '@/app/components/MapaEspana';
+import { Aviso, Dato, EnlaceExterno, Seccion } from '@/app/components/ui';
 import { MUNICIPIOS } from '@/lib/config';
 import { repositorio } from '@/lib/web/data';
 import { REPO_URL } from '@/lib/web/repo';
@@ -22,6 +23,7 @@ export default async function PaginaInicio({
   const repo = repositorio();
   const municipios: MunicipioLista[] = [];
   const ultimos: { municipioId: string; municipioNombre: string; sesion: ResumenSesion }[] = [];
+  let puntosTotales = 0;
 
   for (const m of MUNICIPIOS) {
     const sesiones = await repo.listarSesiones(m.id);
@@ -32,6 +34,7 @@ export default async function PaginaInicio({
       sesiones: sesiones.length,
       ultimaFecha: sesiones[0]?.fecha ?? null,
     });
+    puntosTotales += sesiones.reduce((acc, s) => acc + s.num_puntos, 0);
     for (const s of sesiones.slice(0, 3)) {
       ultimos.push({ municipioId: m.id, municipioNombre: m.nombre, sesion: s });
     }
@@ -71,93 +74,112 @@ export default async function PaginaInicio({
   );
 
   return (
-    <div className="space-y-10">
+    <div className="space-y-16">
       <section aria-labelledby="titulo-intro">
-        <h1 id="titulo-intro" className="text-2xl font-bold tracking-tight">
+        <p className="eyebrow">Vigía de plenos municipales</p>
+        <h1
+          id="titulo-intro"
+          className="mt-3 max-w-3xl text-4xl leading-[1.08] font-semibold text-marca-fuerte sm:text-[2.75rem]"
+        >
           Los plenos municipales, punto por punto
         </h1>
-        <p className="mt-3 max-w-2xl text-stone-700 dark:text-stone-300">
+        <p className="mt-5 max-w-2xl text-lg leading-relaxed text-apagado">
           Resúmenes legibles y filtrables de las sesiones plenarias: qué se aprobó, qué temas
           trata y cuánto puede afectar a la vida diaria de los vecinos. Cada punto enlaza a su
-          documento original. Sin valoraciones políticas y con los datos personales redactados.
+          documento original.
         </p>
-        <p className="mt-2 text-sm text-stone-600 dark:text-stone-400">
-          Cobertura actual: {municipios.length} municipios, {totalSesiones} sesiones procesadas.
+        <p className="mt-4 max-w-2xl text-sm leading-relaxed text-apagado">
+          Sin valoraciones políticas y sin atribución de votos. Los datos personales se redactan
+          antes de publicar nada, y{' '}
+          <Link className="enlace-subrayado text-marca" href="/metodologia">
+            la metodología completa
+          </Link>{' '}
+          está publicada y es auditable.
         </p>
+
+        <div className="mt-8 grid max-w-2xl grid-cols-2 gap-3 sm:grid-cols-4">
+          <Dato valor={municipios.length} etiqueta="Municipios" detalle="con datos publicados" />
+          <Dato valor={totalSesiones} etiqueta="Sesiones" detalle="actas y extractos" />
+          <Dato valor={puntosTotales} etiqueta="Puntos" detalle="acuerdos indexados" />
+          <Dato valor={provinciasConDatos.length} etiqueta="Provincias" detalle="representadas" />
+        </div>
       </section>
 
-      <section aria-labelledby="titulo-mapa" className="space-y-4">
-        <h2 id="titulo-mapa" className="text-lg font-semibold">
-          Elige municipio en el mapa
-        </h2>
-        <MapaEspana provinciaActiva={provinciaActiva} provinciasConDatos={provinciasConDatos} />
+      <Seccion
+        id="mapa"
+        eyebrow="Cobertura geográfica"
+        titulo="Elige municipio en el mapa"
+        descripcion={`${provinciasConDatos.length} provincias con municipios procesados. Pulsa una provincia para ampliarla.`}
+      >
+        <div className="tarjeta p-4 sm:p-6">
+          <MapaEspana provinciaActiva={provinciaActiva} provinciasConDatos={provinciasConDatos} />
+        </div>
         {provinciaActiva && nombreProvincia && (
-          <p className="text-center text-sm">
-            Filtrando por la provincia de <strong>{nombreProvincia}</strong>.{' '}
-            <Link className="underline underline-offset-2" href="/">
-              Quitar filtro
+          <p className="mt-4 text-sm text-apagado">
+            Mostrando solo la provincia de <strong className="text-texto">{nombreProvincia}</strong>.{' '}
+            <Link className="enlace-subrayado text-marca" href="/">
+              Quitar el filtro
             </Link>
           </p>
         )}
-      </section>
+      </Seccion>
 
       <ListaMunicipios municipios={municipiosVisibles} />
 
       {provinciaActiva && municipiosVisibles.length === 0 && (
-        <div className="rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-amber-900 dark:border-amber-800 dark:bg-amber-950 dark:text-amber-200">
+        <Aviso tono="aviso">
           Todavía no hay municipios con datos en esta provincia.{' '}
-          <a
-            className="underline underline-offset-2"
-            href={solicitud.toString()}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <EnlaceExterno href={solicitud.toString()} className="font-medium">
             Solicita que añadamos uno
-          </a>
+          </EnlaceExterno>
           .
-        </div>
+        </Aviso>
       )}
 
-      <section aria-labelledby="titulo-ultimos">
-        <h2 id="titulo-ultimos" className="text-lg font-semibold">
-          Últimos plenos procesados
-        </h2>
+      <Seccion
+        id="ultimos"
+        eyebrow="Novedad"
+        titulo="Últimos plenos procesados"
+        descripcion="Sesiones más recientes, ordenadas por fecha de la sesión."
+      >
         {ultimos.length === 0 ? (
-          <p className="mt-3 text-sm text-stone-600 dark:text-stone-400">
+          <p className="tarjeta p-5 text-sm text-apagado">
             Todavía no hay plenos procesados. Ejecuta <code>npm run ingest</code> para empezar.
           </p>
         ) : (
-          <ul className="mt-3 space-y-2">
+          <ol className="grid gap-2">
             {ultimos.slice(0, 8).map(({ municipioId, municipioNombre, sesion }) => (
-              <li
-                key={`${municipioId}-${sesion.id}`}
-                className="flex flex-wrap items-center justify-between gap-2 rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm dark:border-stone-800 dark:bg-stone-900"
-              >
-                <div className="flex flex-wrap items-center gap-3">
-                  <Link
-                    className="font-medium underline underline-offset-2"
-                    href={`/m/${municipioId}/${sesion.id}`}
-                  >
-                    {municipioNombre}
-                  </Link>
-                  <span>{fechaLargaEspanol(sesion.fecha)}</span>
-                  <span className="text-stone-600 dark:text-stone-400">
-                    {sesion.num_puntos} puntos
-                  </span>
-                  {sesion.max_impacto !== null && sesion.max_impacto >= 4 && (
-                    <span className="text-amber-800 dark:text-amber-300">
-                      impacto destacado {sesion.max_impacto}/5
+              <li key={`${municipioId}-${sesion.id}`}>
+                <div className="tarjeta-clic flex flex-wrap items-center justify-between gap-x-4 gap-y-1.5 px-4 py-3 text-sm">
+                  <div className="flex min-w-0 flex-wrap items-baseline gap-x-2.5 gap-y-1">
+                    <Link
+                      href={`/m/${municipioId}/${sesion.id}`}
+                      className="font-serif font-semibold text-marca-fuerte hover:underline"
+                    >
+                      {municipioNombre}
+                    </Link>
+                    <span className="text-apagado">{fechaLargaEspanol(sesion.fecha)}</span>
+                    <span className="tabular-nums text-tenue">
+                      {sesion.num_puntos} {sesion.num_puntos === 1 ? 'punto' : 'puntos'}
                     </span>
-                  )}
+                    {sesion.max_impacto !== null && sesion.max_impacto >= 4 && (
+                      <span className="rounded-full bg-aviso-fondo px-2 py-0.5 text-xs font-medium text-aviso-texto">
+                        impacto destacado {sesion.max_impacto}/5
+                      </span>
+                    )}
+                  </div>
+                  <Link
+                    className="shrink-0 text-xs text-apagado hover:text-marca-fuerte hover:underline"
+                    href={`/m/${municipioId}`}
+                  >
+                    Ficha del municipio
+                  </Link>
                 </div>
-                <Link className="underline underline-offset-2" href={`/m/${municipioId}`}>
-                  Ver municipio
-                </Link>
               </li>
             ))}
-          </ul>
+          </ol>
         )}
-      </section>
+      </Seccion>
     </div>
   );
 }

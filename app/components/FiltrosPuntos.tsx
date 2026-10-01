@@ -22,30 +22,31 @@ export function FiltrosPuntos({
   };
 
   return (
-    <nav aria-label="Filtros de puntos" className="space-y-2">
-      <div className="flex flex-wrap items-center gap-2 text-sm">
-        <span className="font-medium">Filtrar:</span>
+    <nav aria-label="Filtros de puntos" className="space-y-3">
+      <div className="flex flex-wrap items-center gap-2">
+        <span className="eyebrow pr-1">Filtrar</span>
         <Link
           href={url(null, afectaActivo)}
-          className={`rounded-full border px-3 py-1 ${temaActivo === null ? 'border-sky-600 bg-sky-50 text-sky-900 dark:bg-sky-950 dark:text-sky-100' : 'border-stone-300 hover:bg-stone-100 dark:border-stone-700 dark:hover:bg-stone-800'}`}
+          aria-pressed={temaActivo === null}
+          className={`chip ${temaActivo === null ? 'chip-activo' : ''}`}
         >
           Todos los temas
         </Link>
         <Link
           href={url(temaActivo, !afectaActivo)}
-          className={`rounded-full border px-3 py-1 ${afectaActivo ? 'border-emerald-600 bg-emerald-50 text-emerald-900 dark:bg-emerald-950 dark:text-emerald-100' : 'border-stone-300 hover:bg-stone-100 dark:border-stone-700 dark:hover:bg-stone-800'}`}
           aria-pressed={afectaActivo}
+          className={`chip ${afectaActivo ? 'border-ok-linea bg-ok-fondo font-medium text-ok-texto' : ''}`}
         >
           Solo afecta a vecinos
         </Link>
       </div>
-      <ul className="flex flex-wrap gap-2 text-sm">
+      <ul className="flex flex-wrap gap-1.5">
         {temasDisponibles.map((tema) => (
           <li key={tema}>
             <Link
               href={url(tema === temaActivo ? null : tema, afectaActivo)}
-              className={`rounded-full border px-3 py-1 ${tema === temaActivo ? 'border-sky-600 bg-sky-50 text-sky-900 dark:bg-sky-950 dark:text-sky-100' : 'border-stone-300 hover:bg-stone-100 dark:border-stone-700 dark:hover:bg-stone-800'}`}
               aria-pressed={tema === temaActivo}
+              className={`chip ${tema === temaActivo ? 'chip-activo' : ''}`}
             >
               {ETIQUETA_TEMA[tema]}
             </Link>

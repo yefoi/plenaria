@@ -13,6 +13,10 @@ export function construirResumen(municipioNombre: string, municipioId: string, s
   }
   const lineas: string[] = [];
   const totalPuntos = sesiones.reduce((acc, s) => acc + s.puntos.length, 0);
+  const evaluados = sesiones.reduce(
+    (acc, s) => acc + s.puntos.filter((p) => p.afecta_vecinos_prob !== null).length,
+    0,
+  );
   const totalAfectan = sesiones.reduce(
     (acc, s) => acc + s.puntos.filter((p) => (p.afecta_vecinos_prob ?? 0) >= 0.5).length,
     0,
@@ -20,17 +24,23 @@ export function construirResumen(municipioNombre: string, municipioId: string, s
 
   lineas.push(
     `${municipioNombre}: ${sesiones.length} ${sesiones.length === 1 ? 'pleno procesado' : 'plenos procesados'}, ` +
-      `${totalPuntos} puntos en total, de los que ${totalAfectan} afectan directamente a vecinos.`,
+      `${totalPuntos} puntos en total` +
+      (evaluados > 0
+        ? `, de los que ${totalAfectan} afectan directamente a vecinos.`
+        : '. La afectación a vecinos no se ha evaluado en estas sesiones.'),
   );
 
   const ordenadas = [...sesiones].sort((a, b) => (a.fecha < b.fecha ? -1 : 1));
   for (const sesion of ordenadas) {
     const afectan = sesion.puntos.filter((p) => (p.afecta_vecinos_prob ?? 0) >= 0.5).length;
+    const evaluadosSesion = sesion.puntos.filter((p) => p.afecta_vecinos_prob !== null).length;
     const base = `${sesion.puntos.length} ${sesion.puntos.length === 1 ? 'punto' : 'puntos'}`;
     const destacados = destacadosDeSesion(sesion);
-    let parrafo =
-      `El pleno del ${fechaLargaEspanol(sesion.fecha)} trató ${base}; ` +
-      `${afectan} ${afectan === 1 ? 'afecta' : 'afectan'} directamente a vecinos.`;
+    let parrafo = `El pleno del ${fechaLargaEspanol(sesion.fecha)} trató ${base}`;
+    parrafo +=
+      evaluadosSesion > 0
+        ? `; ${afectan} ${afectan === 1 ? 'afecta' : 'afectan'} directamente a vecinos.`
+        : '.';
     if (destacados.length > 0) {
       const lista = destacados
         .map(
