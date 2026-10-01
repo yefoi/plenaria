@@ -1,0 +1,763 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "cambrils",
+    "nombre": "Cambrils",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4303850006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-31",
+    "municipio_id": "cambrils",
+    "fecha": "2026-07-31",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4303850006/2026/8826d7f8-3c75-4bd4-ad42-21dcac8d1aa8/09_Ple_ordinari_31.07.26.pdf",
+    "hash_contenido": "6df580107786bafdd972f859834e24d26fac7c89dd91d903dfefb12fc3f52292",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T11:41:49.629Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-31#1",
+      "sesion_id": "2026-07-31",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta del Ple ordinari del dia 26 de juny de 2026",
+      "texto_redactado": "Aprovació de l’acta del Ple ordinari del dia 26 de juny de 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#2",
+      "sesion_id": "2026-07-31",
+      "orden": 2,
+      "titulo": "Ratificació del Decret d’Alcaldia núm. 1414 de data 9-7-2026 d’incorporació",
+      "texto_redactado": "Ratificació del Decret d’Alcaldia núm. 1414 de data 9-7-2026 d’incorporació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#3",
+      "sesion_id": "2026-07-31",
+      "orden": 3,
+      "titulo": "Trametre al Registre de planejament urbanístic de Catalunya l’actualització de",
+      "texto_redactado": "Trametre al Registre de planejament urbanístic de Catalunya l’actualització de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#4",
+      "sesion_id": "2026-07-31",
+      "orden": 4,
+      "titulo": "Elevar aquest Decret a ratificació del Ple de l’Ajuntament.”",
+      "texto_redactado": "Elevar aquest Decret a ratificació del Ple de l’Ajuntament.”",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#5",
+      "sesion_id": "2026-07-31",
+      "orden": 5,
+      "titulo": "Aprovació inicial de l'expedient de modificació de crèdits núm. 30/2026, en",
+      "texto_redactado": "Aprovació inicial de l'expedient de modificació de crèdits núm. 30/2026, en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#6",
+      "sesion_id": "2026-07-31",
+      "orden": 6,
+      "titulo": "Aprovació del canvi de la font de finançament i afectació del romanent de",
+      "texto_redactado": "Aprovació del canvi de la font de finançament i afectació del romanent de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0.21,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#7",
+      "sesion_id": "2026-07-31",
+      "orden": 7,
+      "titulo": "L’article 22.2.e) de la LRBRL atribueix al Ple l’aprovació del pressupost i de les",
+      "texto_redactado": "L’article 22.2.e) de la LRBRL atribueix al Ple l’aprovació del pressupost i de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.51,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#8",
+      "sesion_id": "2026-07-31",
+      "orden": 8,
+      "titulo": "Els articles 213 i 220 del TRLRHL, els articles 29, 32, 35 i 36 del Reial decret 424/2017",
+      "texto_redactado": "Els articles 213 i 220 del TRLRHL, els articles 29, 32, 35 i 36 del Reial decret 424/2017",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.48,
+      "impacto": 2,
+      "confianza_min": 0.25,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#9",
+      "sesion_id": "2026-07-31",
+      "orden": 9,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits de factures del",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits de factures del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#10",
+      "sesion_id": "2026-07-31",
+      "orden": 10,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits d'una factura del",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits d'una factura del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#11",
+      "sesion_id": "2026-07-31",
+      "orden": 11,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits d'una factura del",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits d'una factura del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#12",
+      "sesion_id": "2026-07-31",
+      "orden": 12,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#13",
+      "sesion_id": "2026-07-31",
+      "orden": 13,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits de factures del",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits de factures del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#14",
+      "sesion_id": "2026-07-31",
+      "orden": 14,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#15",
+      "sesion_id": "2026-07-31",
+      "orden": 15,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#16",
+      "sesion_id": "2026-07-31",
+      "orden": 16,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#17",
+      "sesion_id": "2026-07-31",
+      "orden": 17,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdit d'unes factures del",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdit d'unes factures del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#18",
+      "sesion_id": "2026-07-31",
+      "orden": 18,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits d'una factura del",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits d'una factura del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#19",
+      "sesion_id": "2026-07-31",
+      "orden": 19,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#20",
+      "sesion_id": "2026-07-31",
+      "orden": 20,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#21",
+      "sesion_id": "2026-07-31",
+      "orden": 21,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#22",
+      "sesion_id": "2026-07-31",
+      "orden": 22,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#23",
+      "sesion_id": "2026-07-31",
+      "orden": 23,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#24",
+      "sesion_id": "2026-07-31",
+      "orden": 24,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#25",
+      "sesion_id": "2026-07-31",
+      "orden": 25,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#26",
+      "sesion_id": "2026-07-31",
+      "orden": 26,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#27",
+      "sesion_id": "2026-07-31",
+      "orden": 27,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#28",
+      "sesion_id": "2026-07-31",
+      "orden": 28,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#29",
+      "sesion_id": "2026-07-31",
+      "orden": 29,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#30",
+      "sesion_id": "2026-07-31",
+      "orden": 30,
+      "titulo": "Donar compte de l’informe de la tresorera municipal de data 20 de juliol de",
+      "texto_redactado": "Donar compte de l’informe de la tresorera municipal de data 20 de juliol de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#31",
+      "sesion_id": "2026-07-31",
+      "orden": 31,
+      "titulo": "Donar compte de les relacions de decrets d’alcaldia del dia 8 de juny al",
+      "texto_redactado": "Donar compte de les relacions de decrets d’alcaldia del dia 8 de juny al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    },
+    {
+      "id": "2026-07-31#32",
+      "sesion_id": "2026-07-31",
+      "orden": 32,
+      "titulo": "Control de l’acció de govern, precs, preguntes i mocions",
+      "texto_redactado": "Control de l’acció de govern, precs, preguntes i mocions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:49.629Z"
+      }
+    }
+  ]
+}

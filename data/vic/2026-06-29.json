@@ -1,0 +1,350 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vic",
+    "nombre": "Vic",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "829810007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-29",
+    "municipio_id": "vic",
+    "fecha": "2026-06-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/829810007/2026/b332b8fa-5c1a-4391-beb6-5892ab6a3591/PLE_290626.pdf",
+    "hash_contenido": "83f67a7bb0ae3fec2fb16ae38d5492b0547cc89ea84c97bb1feb133be2e960e1",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T11:41:59.627Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-29#1",
+      "sesion_id": "2026-06-29",
+      "orden": 1,
+      "titulo": "En data 5/5/2026 la Sra. [NOMBRE] va presentar escrit en el",
+      "texto_redactado": "En data 5/5/2026 la Sra. [NOMBRE] va presentar escrit en el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:59.627Z"
+      }
+    },
+    {
+      "id": "2026-06-29#2",
+      "sesion_id": "2026-06-29",
+      "orden": 2,
+      "titulo": "Per decret de l’Alcaldia de data 29/6/2023 se li va atribuir una delegació",
+      "texto_redactado": "Per decret de l’Alcaldia de data 29/6/2023 se li va atribuir una delegació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:59.627Z"
+      }
+    },
+    {
+      "id": "2026-06-29#3",
+      "sesion_id": "2026-06-29",
+      "orden": 3,
+      "titulo": "Per decret de l’Alcaldia de data 6 de maig de 2026 es va acordar la revocació de",
+      "texto_redactado": "Per decret de l’Alcaldia de data 6 de maig de 2026 es va acordar la revocació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 1,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:59.627Z"
+      }
+    },
+    {
+      "id": "2026-06-29#4",
+      "sesion_id": "2026-06-29",
+      "orden": 4,
+      "titulo": "En data de 5/5/2026 la Sra. Carrera no percebia retribució per dedicació parcial i",
+      "texto_redactado": "En data de 5/5/2026 la Sra. Carrera no percebia retribució per dedicació parcial i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.91,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:59.627Z"
+      }
+    },
+    {
+      "id": "2026-06-29#5",
+      "sesion_id": "2026-06-29",
+      "orden": 5,
+      "titulo": "Alhora l’Ajuntament de Vic, com qualsevol administració moderna, ha iniciat una",
+      "texto_redactado": "Alhora l’Ajuntament de Vic, com qualsevol administració moderna, ha iniciat una",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.95,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:59.627Z"
+      }
+    },
+    {
+      "id": "2026-06-29#6",
+      "sesion_id": "2026-06-29",
+      "orden": 6,
+      "titulo": "Aquest nou càrrec se situaria per sota de la Gerència, però amb una vinculació",
+      "texto_redactado": "Aquest nou càrrec se situaria per sota de la Gerència, però amb una vinculació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 0.97,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:59.627Z"
+      }
+    },
+    {
+      "id": "2026-06-29#7",
+      "sesion_id": "2026-06-29",
+      "orden": 7,
+      "titulo": "Amb aquesta nova figura, es pretén garantir una estructura de comandament",
+      "texto_redactado": "Amb aquesta nova figura, es pretén garantir una estructura de comandament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.91,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:59.627Z"
+      }
+    },
+    {
+      "id": "2026-06-29#8",
+      "sesion_id": "2026-06-29",
+      "orden": 8,
+      "titulo": "La creació d’aquest lloc de Directiu Públic es farà mantenint la definició",
+      "texto_redactado": "La creació d’aquest lloc de Directiu Públic es farà mantenint la definició",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:59.627Z"
+      }
+    },
+    {
+      "id": "2026-06-29#9",
+      "sesion_id": "2026-06-29",
+      "orden": 9,
+      "titulo": "Deixar sense efectes el punt resolutiu segon de l’acord plenari de 28 de juliol de",
+      "texto_redactado": "Deixar sense efectes el punt resolutiu segon de l’acord plenari de 28 de juliol de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:59.627Z"
+      }
+    },
+    {
+      "id": "2026-06-29#10",
+      "sesion_id": "2026-06-29",
+      "orden": 10,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:59.627Z"
+      }
+    },
+    {
+      "id": "2026-06-29#11",
+      "sesion_id": "2026-06-29",
+      "orden": 11,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:59.627Z"
+      }
+    },
+    {
+      "id": "2026-06-29#12",
+      "sesion_id": "2026-06-29",
+      "orden": 12,
+      "titulo": "Aquest nou lloc de treball de personal Directiu Públic Professional, no serà",
+      "texto_redactado": "Aquest nou lloc de treball de personal Directiu Públic Professional, no serà",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:59.627Z"
+      }
+    },
+    {
+      "id": "2026-06-29#13",
+      "sesion_id": "2026-06-29",
+      "orden": 13,
+      "titulo": "La creació d'aquest nou lloc de treball de personal Directiu Professional, no",
+      "texto_redactado": "La creació d'aquest nou lloc de treball de personal Directiu Professional, no",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:59.627Z"
+      }
+    },
+    {
+      "id": "2026-06-29#14",
+      "sesion_id": "2026-06-29",
+      "orden": 14,
+      "titulo": "Alhora es publica la refosa de la RLT de Directius Públics Professionals, amb",
+      "texto_redactado": "Alhora es publica la refosa de la RLT de Directius Públics Professionals, amb",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.87,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:59.627Z"
+      }
+    }
+  ]
+}

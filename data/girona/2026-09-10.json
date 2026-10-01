@@ -1,0 +1,304 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "girona",
+    "nombre": "Girona",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1707920002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-10",
+    "municipio_id": "girona",
+    "fecha": "2026-09-10",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1707920002/2026/0c9c5ffe-63c2-4a85-9796-3888af2646d4/Acords%20Junta%20de%20Govern%20Local%2010.09.26.pdf",
+    "hash_contenido": "f4c1471f8fa2950691b9db2b78ec30d1f26f601645567c7ecfe6f9c73580fe6e",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T11:41:29.272Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-10#1",
+      "sesion_id": "2026-09-10",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L'ACTA DE LA SESSIÓ ANTERIOR, DE DATA 4 DE SETEMBRE D'ENGUANY (EXPEDIENT NÚM. 2026046195).",
+      "texto_redactado": "APROVACIÓ DE L'ACTA DE LA SESSIÓ ANTERIOR, DE DATA 4 DE SETEMBRE D'ENGUANY (EXPEDIENT NÚM. 2026046195).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:29.272Z"
+      }
+    },
+    {
+      "id": "2026-09-10#2",
+      "sesion_id": "2026-09-10",
+      "orden": 2,
+      "titulo": "ACORDS ADOPTATS",
+      "texto_redactado": "ACORDS ADOPTATS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.91,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:29.272Z"
+      }
+    },
+    {
+      "id": "2026-09-10#3",
+      "sesion_id": "2026-09-10",
+      "orden": 3,
+      "titulo": "Resolució sobre el requeriment d'esmena de la documentació de la reclamació de",
+      "texto_redactado": "Resolució sobre el requeriment d'esmena de la documentació de la reclamació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:29.272Z"
+      }
+    },
+    {
+      "id": "2026-09-10#4",
+      "sesion_id": "2026-09-10",
+      "orden": 4,
+      "titulo": "Modificació de la resolució definitiva de la convocatòria de subvencions en règim de",
+      "texto_redactado": "Modificació de la resolució definitiva de la convocatòria de subvencions en règim de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 1,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:29.272Z"
+      }
+    },
+    {
+      "id": "2026-09-10#5",
+      "sesion_id": "2026-09-10",
+      "orden": 5,
+      "titulo": "Denegar la sol·licitud presentada per l'empresa Excavacions i Transports Andreu Juanals",
+      "texto_redactado": "Denegar la sol·licitud presentada per l'empresa Excavacions i Transports Andreu Juanals",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:29.272Z"
+      }
+    },
+    {
+      "id": "2026-09-10#6",
+      "sesion_id": "2026-09-10",
+      "orden": 6,
+      "titulo": "Retornar la garantia definitiva del contracte del servei de gestió executiva del cicle de petit",
+      "texto_redactado": "Retornar la garantia definitiva del contracte del servei de gestió executiva del cicle de petit",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:29.272Z"
+      }
+    },
+    {
+      "id": "2026-09-10#7",
+      "sesion_id": "2026-09-10",
+      "orden": 7,
+      "titulo": "Aprovar l'expedient de contractació mixta de subministrament i obres auxiliars per la",
+      "texto_redactado": "Aprovar l'expedient de contractació mixta de subministrament i obres auxiliars per la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.39,
+      "impacto": 2,
+      "confianza_min": 0.3,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:29.272Z"
+      }
+    },
+    {
+      "id": "2026-09-10#8",
+      "sesion_id": "2026-09-10",
+      "orden": 8,
+      "titulo": "Aprovar l'expedient de contractació del subministrament de material d'oficina per a",
+      "texto_redactado": "Aprovar l'expedient de contractació del subministrament de material d'oficina per a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:29.272Z"
+      }
+    },
+    {
+      "id": "2026-09-10#9",
+      "sesion_id": "2026-09-10",
+      "orden": 9,
+      "titulo": "Modificar el LOT 5 (Subministrament de peces i/o materials per a recanvis), de la",
+      "texto_redactado": "Modificar el LOT 5 (Subministrament de peces i/o materials per a recanvis), de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:29.272Z"
+      }
+    },
+    {
+      "id": "2026-09-10#10",
+      "sesion_id": "2026-09-10",
+      "orden": 10,
+      "titulo": "Acceptació de la renúncia i reintegrament de la subvenció atorgada a Associació Eurisca en",
+      "texto_redactado": "Acceptació de la renúncia i reintegrament de la subvenció atorgada a Associació Eurisca en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:29.272Z"
+      }
+    },
+    {
+      "id": "2026-09-10#11",
+      "sesion_id": "2026-09-10",
+      "orden": 11,
+      "titulo": "Proposta definitiva de la resolució de la convocatòria de la subvenció per a desplaçaments",
+      "texto_redactado": "Proposta definitiva de la resolució de la convocatòria de la subvenció per a desplaçaments",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.49,
+      "impacto": 2,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:29.272Z"
+      }
+    },
+    {
+      "id": "2026-09-10#12",
+      "sesion_id": "2026-09-10",
+      "orden": 12,
+      "titulo": "Modificar l'Annex V - Quadre de subrogació de personal del PCAP, aprovar el PCAP",
+      "texto_redactado": "Modificar l'Annex V - Quadre de subrogació de personal del PCAP, aprovar el PCAP",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 2,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:29.272Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vilafranca-del-penedes",
+    "nombre": "Vilafranca del Penedès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "830540003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-16",
+    "municipio_id": "vilafranca-del-penedes",
+    "fecha": "2026-06-16",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/830540003/2026/e9daa051-1ae0-46e6-a58c-c7263cb93d3d/Acta_16_06_2026_Formalitzada.pdf",
+    "hash_contenido": "42cbaded3eeed8270961556effe069cc0143586c6c2efe29f2271dd1747d37e3",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T11:41:53.424Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-16#1",
+      "sesion_id": "2026-06-16",
+      "orden": 1,
+      "titulo": "Aprovar l’acta de la sessió anterior.",
+      "texto_redactado": "Aprovar l’acta de la sessió anterior.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:53.424Z"
+      }
+    },
+    {
+      "id": "2026-06-16#2",
+      "sesion_id": "2026-06-16",
+      "orden": 2,
+      "titulo": "ÀREA D'ALCALDIA Expedient: 5/2026/1014 : Donar compte del decret de clavaris actualitzat",
+      "texto_redactado": "ÀREA D'ALCALDIA Expedient: 5/2026/1014 : Donar compte del decret de clavaris actualitzat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:53.424Z"
+      }
+    },
+    {
+      "id": "2026-06-16#3",
+      "sesion_id": "2026-06-16",
+      "orden": 3,
+      "titulo": "ÀREA DE SERVEIS GENERALS Expedient: 1/2026/1641 : Donar compte de l’informe de",
+      "texto_redactado": "ÀREA DE SERVEIS GENERALS Expedient: 1/2026/1641 : Donar compte de l’informe de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:53.424Z"
+      }
+    },
+    {
+      "id": "2026-06-16#4",
+      "sesion_id": "2026-06-16",
+      "orden": 4,
+      "titulo": "ÀREA DE SERVEIS GENERALS Expedient: 9/2026/1627 : Expedient de modificació de",
+      "texto_redactado": "ÀREA DE SERVEIS GENERALS Expedient: 9/2026/1627 : Expedient de modificació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.94,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:53.424Z"
+      }
+    },
+    {
+      "id": "2026-06-16#5",
+      "sesion_id": "2026-06-16",
+      "orden": 5,
+      "titulo": "33600.61900 Rehabilitació muralla c/Ponent 45.000,00",
+      "texto_redactado": "33600.61900 Rehabilitació muralla c/Ponent 45.000,00",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.69,
+      "impacto": 3,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:53.424Z"
+      }
+    },
+    {
+      "id": "2026-06-16#6",
+      "sesion_id": "2026-06-16",
+      "orden": 6,
+      "titulo": "24122.14300 Plans ocupació mpals. 125.000,00 0,00 -120.995,50 4.004,50",
+      "texto_redactado": "24122.14300 Plans ocupació mpals. 125.000,00 0,00 -120.995,50 4.004,50",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.44,
+      "impacto": 3,
+      "confianza_min": 0.15,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:53.424Z"
+      }
+    },
+    {
+      "id": "2026-06-16#7",
+      "sesion_id": "2026-06-16",
+      "orden": 7,
+      "titulo": "ÀREA DE SERVEIS GENERALS Expedient: 5/2025/1217 : Resolució al·legacions i aprovació",
+      "texto_redactado": "ÀREA DE SERVEIS GENERALS Expedient: 5/2025/1217 : Resolució al·legacions i aprovació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.42,
+      "impacto": 2,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:53.424Z"
+      }
+    },
+    {
+      "id": "2026-06-16#8",
+      "sesion_id": "2026-06-16",
+      "orden": 8,
+      "titulo": "La fase d’actuacions prèvies finalitzarà amb un informe que determinarà si l’habitatge o edifici",
+      "texto_redactado": "La fase d’actuacions prèvies finalitzarà amb un informe que determinarà si l’habitatge o edifici",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:53.424Z"
+      }
+    },
+    {
+      "id": "2026-06-16#9",
+      "sesion_id": "2026-06-16",
+      "orden": 9,
+      "titulo": "Un cop determinada la situació en què es troba l’habitatge o edifici d’habitatges, tal com es",
+      "texto_redactado": "Un cop determinada la situació en què es troba l’habitatge o edifici d’habitatges, tal com es",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 1,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:53.424Z"
+      }
+    },
+    {
+      "id": "2026-06-16#10",
+      "sesion_id": "2026-06-16",
+      "orden": 10,
+      "titulo": "S’arxivaran les diligències prèvies, en els següents supòsits:",
+      "texto_redactado": "S’arxivaran les diligències prèvies, en els següents supòsits:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.94,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:53.424Z"
+      }
+    },
+    {
+      "id": "2026-06-16#11",
+      "sesion_id": "2026-06-16",
+      "orden": 11,
+      "titulo": "Pel supòsit d’habitatges desocupats, de l’apartat 1.c, per un període inferior al que estableix la",
+      "texto_redactado": "Pel supòsit d’habitatges desocupats, de l’apartat 1.c, per un període inferior al que estableix la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.71,
+      "impacto": 2,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:53.424Z"
+      }
+    },
+    {
+      "id": "2026-06-16#12",
+      "sesion_id": "2026-06-16",
+      "orden": 12,
+      "titulo": "En cas que, arribat el termini indicat per la LDH, aquest romangui desocupat, l’Ajuntament",
+      "texto_redactado": "En cas que, arribat el termini indicat per la LDH, aquest romangui desocupat, l’Ajuntament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.58,
+      "impacto": 2,
+      "confianza_min": 0.11,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:53.424Z"
+      }
+    },
+    {
+      "id": "2026-06-16#13",
+      "sesion_id": "2026-06-16",
+      "orden": 13,
+      "titulo": "Finalment, l’Ajuntament incoarà expedient administratiu, en els termes i amb la finalitat",
+      "texto_redactado": "Finalment, l’Ajuntament incoarà expedient administratiu, en els termes i amb la finalitat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.88,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:53.424Z"
+      }
+    },
+    {
+      "id": "2026-06-16#14",
+      "sesion_id": "2026-06-16",
+      "orden": 14,
+      "titulo": "A la vegada, se l’advertirà de les possibles mesures aplicables previstes als articles 108 a 131",
+      "texto_redactado": "A la vegada, se l’advertirà de les possibles mesures aplicables previstes als articles 108 a 131",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.48,
+      "impacto": 2,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:53.424Z"
+      }
+    },
+    {
+      "id": "2026-06-16#15",
+      "sesion_id": "2026-06-16",
+      "orden": 15,
+      "titulo": "En els altres casos, per a la resolució definitiva del procediment, seran d’aplicació les",
+      "texto_redactado": "En els altres casos, per a la resolució definitiva del procediment, seran d’aplicació les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:53.424Z"
+      }
+    },
+    {
+      "id": "2026-06-16#16",
+      "sesion_id": "2026-06-16",
+      "orden": 16,
+      "titulo": "El termini màxim per dictar i notificar la resolució, que posi fi al procediment de declaració de",
+      "texto_redactado": "El termini màxim per dictar i notificar la resolució, que posi fi al procediment de declaració de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.3,
+      "impacto": 1,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:53.424Z"
+      }
+    }
+  ]
+}

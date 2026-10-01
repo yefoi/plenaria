@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "blanes",
+    "nombre": "Blanes",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1702370005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-25",
+    "municipio_id": "blanes",
+    "fecha": "2026-06-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1702370005/2026/913e70b1-22e2-4fdb-a90b-48123265146d/Acta_formalitzada_Ple_250626.pdf",
+    "hash_contenido": "7b04fa4a7e4ea6e1fc5d5e53d49f25284816b3bf31230ae2446e311dea2c3fca",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T11:41:53.761Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-25#1",
+      "sesion_id": "2026-06-25",
+      "orden": 1,
+      "titulo": "Es dona compte al Ple municipal de l’informe resum anual sobre el control intern de l’exercici",
+      "texto_redactado": "Es dona compte al Ple municipal de l’informe resum anual sobre el control intern de l’exercici",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:53.761Z"
+      }
+    }
+  ]
+}
