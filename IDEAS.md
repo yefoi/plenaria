@@ -16,6 +16,14 @@ Ideas fuera del alcance actual. No implementar sin acordarlo antes.
 
 ## Fuentes
 
+- Área metropolitana de Madrid, siguientes candidatos verificados a medias:
+  Alcalá de Henares (portal `sesionesplenos` sin PDFs; las actas están en su
+  sede), Alcorcón (directorio con pocos documentos públicos), Leganés (carga
+  los PDFs por JavaScript en Liferay), Getafe (`robots.txt` bloquea
+  `/wp-content/uploads`, donde están los PDFs), Fuenlabrada (actas en sede
+  electrónica, no en el portal de transparencia).
+- Rivas-Vaciamadrid: sus actas son escaneos sin capa de texto
+  (`requiere_ocr`); quedaría pendiente de OCR selectivo.
 - Cobertura catalana: hay ~170 ayuntamientos más con sesiones frescas en el
   catálogo de la AOC; añadibles por lotes siguiendo el mismo criterio de
   población (hoy hay 38 catalanes + Toledo).

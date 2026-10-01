@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "mostoles",
+    "nombre": "Móstoles",
+    "provincia": "Madrid",
+    "fuente_tipo": "portal-sesiones",
+    "fuente_config": {
+      "listado_url": "https://www.mostoles.es/es/ayuntamiento/organizacion-municipal-organos-gobierno-personal/plenos-municipales/sesiones-pleno-municipal",
+      "patron_sesion": "sesion-pleno-[^/]+$",
+      "patrones_pdf": [
+        "Acta de Pleno",
+        "Extracto de Pleno"
+      ],
+      "tipo_por_defecto": "ordinaria",
+      "max_sesiones": 3,
+      "idioma": "es"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-10",
+    "municipio_id": "mostoles",
+    "fecha": "2026-09-10",
+    "tipo": "extraordinaria",
+    "fuente_url": "https://www.mostoles.es/es/ayuntamiento/organizacion-municipal-organos-gobierno-personal/plenos-municipales/sesiones-pleno-municipal/sesion-pleno-extraordinario-ayuntamiento-mostoles-10-septie.ficheros/1489971-Acta%20de%20Pleno%20extraordinario%20del%20Ayuntamiento%20de%20M%C3%B3stoles%20del%2010%20de%20septiembre%20de%202026.pdf",
+    "hash_contenido": "716f80291234a95e9ba63a0518744d3ae64cda491ca4ba8f0219b5198a9b849a",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T14:40:46.910Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-10#1",
+      "sesion_id": "2026-09-10",
+      "orden": 1,
+      "titulo": "PROPUESTA DE RESOLUCIÓN SOBRE MODIFICACIÓN DE CRÉDITO EN LA MODALIDAD DE CRÉDITO EXTRAORDINARIO Y SUPLEMENTO DE CRÉDITO FINANCIADO CON REMANENTE DE TESORERÍA PARA GASTOS GENERALES. EXPTE H004/DGP/2026- 011.",
+      "texto_redactado": "PROPUESTA DE RESOLUCIÓN SOBRE MODIFICACIÓN DE CRÉDITO EN LA MODALIDAD DE CRÉDITO EXTRAORDINARIO Y SUPLEMENTO DE CRÉDITO FINANCIADO CON REMANENTE DE TESORERÍA PARA GASTOS GENERALES. EXPTE H004/DGP/2026- 011.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T14:40:46.910Z"
+      }
+    },
+    {
+      "id": "2026-09-10#2",
+      "sesion_id": "2026-09-10",
+      "orden": 2,
+      "titulo": "PROPUESTA DE RESOLUCIÓN SOBRE MODIFICACIÓN DE CRÉDITO EN LA MODALIDAD DE CRÉDITO EXTRAORDINARIO Y SUPLEMENTO DE CRÉDITO FINANCIADO CON REMANENTE DE TESORERÍA PARA GASTOS GENERALES Y MODIFICACIÓN DE BAJA POR ANULACIÓN. EXPTE H004/DGP/2026-018.",
+      "texto_redactado": "PROPUESTA DE RESOLUCIÓN SOBRE MODIFICACIÓN DE CRÉDITO EN LA MODALIDAD DE CRÉDITO EXTRAORDINARIO Y SUPLEMENTO DE CRÉDITO FINANCIADO CON REMANENTE DE TESORERÍA PARA GASTOS GENERALES Y MODIFICACIÓN DE BAJA POR ANULACIÓN. EXPTE H004/DGP/2026-018.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T14:40:46.910Z"
+      }
+    }
+  ]
+}

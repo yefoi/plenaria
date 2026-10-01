@@ -54,6 +54,10 @@ export function fechaDesdeUrl(url: string, patronFecha?: RegExp): string | null 
   if (m0 && MESES_ES[m0[2].toLowerCase()]) {
     return `${m0[3]}-${MESES_ES[m0[2].toLowerCase()]}-${m0[1].padStart(2, '0')}`;
   }
+  const m0b = url.match(/(\d{1,2})[-_ ]([a-záéíóúñ]+)[-_ ](\d{4})/i);
+  if (m0b && MESES_ES[m0b[2].toLowerCase()]) {
+    return `${m0b[3]}-${MESES_ES[m0b[2].toLowerCase()]}-${m0b[1].padStart(2, '0')}`;
+  }
   const m1 = url.match(/(\d{4})-(\d{2})-(\d{2})/);
   if (m1) return `${m1[1]}-${m1[2]}-${m1[3]}`;
   const m2 = url.match(/(\d{2})[._-](\d{2})[._-](\d{4})/);

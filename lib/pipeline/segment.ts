@@ -8,9 +8,11 @@ export interface PuntoSegmentado {
 export type MetodoSegmentacion =
   | 'extracte-acords'
   | 'extracte-resultats'
+  | 'extracto-vinetas'
   | 'acta-numerada'
   | 'acta-guiones'
   | 'puntos-numerados'
+  | 'puntos-barra'
   | 'punto-unico'
   | 'documento-unico';
 
@@ -443,6 +445,79 @@ export function segmentarActaConGuiones(texto: string): ResultadoSegmentacion | 
   return { puntos, metodo: 'acta-guiones', segmentacionPobre: false };
 }
 
+const PATRON_VINETA = /^[•·▪◦‣\-–—]\s+/;
+
+export function segmentarExtractoVinetas(texto: string): ResultadoSegmentacion | null {
+  if (!/extracto de (los )?acuerdos/i.test(texto.slice(0, 3000))) return null;
+  const lineas = limpiarLineas(texto);
+  const items: string[][] = [];
+  let actual: string[] | null = null;
+  for (const linea of lineas) {
+    if (/^(PLENO \d|EXTRACTO DE|CELEBRADO EN SESI)/i.test(linea)) continue;
+    if (/^\d{1,2}$/.test(linea)) continue;
+    if (PATRON_VINETA.test(linea)) {
+      if (actual && actual.length > 0) items.push(actual);
+      actual = [linea.replace(PATRON_VINETA, '')];
+      continue;
+    }
+    if (actual) actual.push(linea);
+  }
+  if (actual && actual.length > 0) items.push(actual);
+  if (items.length < 3) return null;
+  return {
+    puntos: items.map((partes, i) => ({
+      orden: i + 1,
+      titulo: unirTitulo(partes).slice(0, 900),
+      resultado: null,
+      referencia: null,
+    })),
+    metodo: 'extracto-vinetas',
+    segmentacionPobre: false,
+  };
+}
+
+const PATRON_BARRA = /^(\d{1,2})\/\s*\d{1,4}\.-\s*(.+)$/;
+const RUIDO_ACTA = /^(Pleno -|Pág\.|Página \d|SRES\. ASISTENTES)/i;
+
+export function segmentarPuntosBarra(texto: string): ResultadoSegmentacion | null {
+  if (!/ACTA DE LA SESI[OÓ]N/i.test(texto) || !/ORDEN DEL D[IÍ]A/i.test(texto)) return null;
+  const lineas = limpiarLineas(texto).filter((l) => !RUIDO_ACTA.test(l));
+  const porNumero = new Map<number, { idx: number; titulo: string }>();
+  for (let i = 0; i < lineas.length; i++) {
+    const m = lineas[i].match(PATRON_BARRA);
+    if (!m) continue;
+    const numero = Number(m[1]);
+    if (!porNumero.has(numero)) porNumero.set(numero, { idx: i, titulo: m[2].trim() });
+  }
+  let fin = 0;
+  while (porNumero.has(fin + 1)) fin++;
+  if (fin < 1) return null;
+
+  const puntos: PuntoSegmentado[] = [];
+  for (let n = 1; n <= fin; n++) {
+    const actual = porNumero.get(n)!;
+    const siguiente = porNumero.get(n + 1);
+    const limite = siguiente ? siguiente.idx : Math.min(lineas.length, actual.idx + 30);
+    const partes = [actual.titulo];
+    for (let i = actual.idx + 1; i < limite; i++) {
+      const linea = lineas[i];
+      if (!/^[A-ZÁÉÍÓÚÜÑ0-9]/.test(linea)) break;
+      if (linea === linea.toUpperCase()) {
+        partes.push(linea);
+        continue;
+      }
+      break;
+    }
+    puntos.push({
+      orden: n,
+      titulo: unirTitulo(partes).slice(0, 900),
+      resultado: null,
+      referencia: null,
+    });
+  }
+  return { puntos, metodo: 'puntos-barra', segmentacionPobre: false };
+}
+
 const PATRON_PUNTO = /^Punto\s+(\d{1,3})\.\s*(.+)$/i;
 const RUIDO_PAGINA = /^(ACUERDOS ADOPTADOS|Secretaría General|Pleno sesión \()/i;
 const CABECERA_SECCION = /^(§|\(Subapartado|Preguntas$|Mociones$|Declaraciones|Interpelaciones|Ruegos)/i;
@@ -556,6 +631,10 @@ export function segmentar(texto: string, formato?: string): ResultadoSegmentacio
     const porResultados = segmentarExtractePerResultats(texto);
     if (porResultados) return porResultados;
   } else {
+    const vinetas = segmentarExtractoVinetas(texto);
+    if (vinetas) return vinetas;
+    const barra = segmentarPuntosBarra(texto);
+    if (barra) return barra;
     const puntos = segmentarPuntos(texto);
     if (puntos) return puntos;
     const numerada = segmentarActaNumerada(texto);

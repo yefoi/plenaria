@@ -90,11 +90,29 @@ export const MUNICIPIOS: Municipio[] = [
     id: 'madrid',
     nombre: 'Madrid',
     provincia: 'Madrid',
-    fuente_tipo: 'madrid-pleno',
+    fuente_tipo: 'portal-sesiones',
     fuente_config: {
       listado_url:
         'https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/El-Pleno/Actividad-del-Pleno-y-las-Comisiones/Pleno/Sesiones-del-Pleno/?vgnextchannel=8e9858f5c050e210VgnVCM2000000c205a0aRCRD&vgnextfmt=default&vgnextoid=122481276d58c010VgnVCM100000d90ca8c0RCRD',
+      patron_sesion: 'Pleno/\\d{1,2}-de-[a-z]+-de-\\d{4}',
+      patrones_pdf: ['AC_[^/]*\\.pdf$', 'DS_[^/]*\\.pdf$'],
+      tipo_por_defecto: 'ordinaria',
       url_base_pdf: 'https://transparencia.madrid.es',
+      max_sesiones: 3,
+      idioma: 'es',
+    },
+  },
+  {
+    id: 'mostoles',
+    nombre: 'Móstoles',
+    provincia: 'Madrid',
+    fuente_tipo: 'portal-sesiones',
+    fuente_config: {
+      listado_url:
+        'https://www.mostoles.es/es/ayuntamiento/organizacion-municipal-organos-gobierno-personal/plenos-municipales/sesiones-pleno-municipal',
+      patron_sesion: 'sesion-pleno-[^/]+$',
+      patrones_pdf: ['Acta de Pleno', 'Extracto de Pleno'],
+      tipo_por_defecto: 'ordinaria',
       max_sesiones: 3,
       idioma: 'es',
     },

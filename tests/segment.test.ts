@@ -189,6 +189,55 @@ describe('segmentar otros formatos', () => {
     expect(r.puntos[0].titulo).toContain('L’ESTAT DE LA CIUTAT');
   });
 
+  it('segmenta un extracto con viñetas (estilo Móstoles)', () => {
+    const extracto = [
+      'PLENO 24 DE SEPTIEMBRE DE 2026',
+      'EXTRACTO DE LOS ACUERDOS ADOPTADOS EN EL PLENO',
+      'CELEBRADO EN SESIÓN ORDINARIA DE FECHA 24 DE SEPTIEMBRE',
+      'DE 2026',
+      '• Se aprueban de las actas de las sesiones anteriores, de fecha, 23 de julio,',
+      '30 de julio, 7 de septiembre y 10 de septiembre de 2026.',
+      '• La Corporación Pleno queda enterada de las Resoluciones de Alcaldía',
+      'desde la 2.353/26 hasta la 2.959/26.',
+      '• Se aprueba la petición del Grupo Municipal Socialista para aprobar la',
+      'comparecencia de la Consejera delegada de Móstoles Desarrollo.',
+      '• Se sustanciaron las siguientes preguntas de respuesta oral:',
+      'a) Pregunta nº. 60/26 presentada por el Grupo Municipal MM-Móstoles.',
+    ].join('\n');
+    const r = segmentar(extracto, 'auto');
+    expect(r.segmentacionPobre).toBe(false);
+    expect(r.metodo).toBe('extracto-vinetas');
+    expect(r.puntos).toHaveLength(4);
+    expect(r.puntos[0].titulo).toContain('actas de las sesiones anteriores');
+    expect(r.puntos[3].titulo).toContain('Pregunta nº. 60/26');
+  });
+
+  it('segmenta un acta extraordinaria con «N/ MMM.-» (estilo Móstoles)', () => {
+    const acta = [
+      'ACTA DE LA SESION EXTRAORDINARIA CELEBRADA POR',
+      'LA CORPORACIÓN PLENO DE ESTE AYUNTAMIENTO',
+      'Pleno - 10/09/26',
+      'Pág. 2/9',
+      'ORDEN DEL DIA',
+      '1/ 171.- PROPUESTA DE RESOLUCIÓN SOBRE MODIFICACIÓN DE CRÉDITO',
+      'EN LA MODALIDAD DE CRÉDITO EXTRAORDINARIO Y',
+      'SUPLEMENTO DE CRÉDITO FINANCIADO CON REMANENTE DE',
+      'TESORERÍA PARA GASTOS GENERALES. EXPTE H004/DGP/2026-',
+      '011.',
+      'Vista la propuesta de resolución presentada por la Directora General.',
+      '2/ 172.- PROPUESTA DE RESOLUCIÓN SOBRE MODIFICACIÓN DE CRÉDITO',
+      'EN LA MODALIDAD DE SUPLEMENTO DE CRÉDITO.',
+      'Vista la propuesta.',
+    ].join('\n');
+    const r = segmentar(acta, 'auto');
+    expect(r.segmentacionPobre).toBe(false);
+    expect(r.metodo).toBe('puntos-barra');
+    expect(r.puntos).toHaveLength(2);
+    expect(r.puntos[0].titulo).toContain('PROPUESTA DE RESOLUCIÓN');
+    expect(r.puntos[0].titulo).toContain('TESORERÍA PARA GASTOS GENERALES');
+    expect(r.puntos[0].titulo).not.toContain('Vista la propuesta');
+  });
+
   it('segmenta un acta de acuerdos con «Punto N.» (estilo Madrid)', () => {
     const acta = [
       'Secretaría General',

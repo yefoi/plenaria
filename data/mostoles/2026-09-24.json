@@ -1,0 +1,452 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "mostoles",
+    "nombre": "Móstoles",
+    "provincia": "Madrid",
+    "fuente_tipo": "portal-sesiones",
+    "fuente_config": {
+      "listado_url": "https://www.mostoles.es/es/ayuntamiento/organizacion-municipal-organos-gobierno-personal/plenos-municipales/sesiones-pleno-municipal",
+      "patron_sesion": "sesion-pleno-[^/]+$",
+      "patrones_pdf": [
+        "Acta de Pleno",
+        "Extracto de Pleno"
+      ],
+      "tipo_por_defecto": "ordinaria",
+      "max_sesiones": 3,
+      "idioma": "es"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-24",
+    "municipio_id": "mostoles",
+    "fecha": "2026-09-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://www.mostoles.es/es/ayuntamiento/organizacion-municipal-organos-gobierno-personal/plenos-municipales/sesiones-pleno-municipal/sesion-pleno-ordinario-ayuntamiento-mostoles-24-septiembre.ficheros/1490627-Extracto%20de%20Pleno%20ordinario%20del%20Ayuntamiento%20de%20M%C3%B3stoles%20del%2024%20de%20septiembre%20de%202026.pdf",
+    "hash_contenido": "c237b12c10b2f5470741eb255ec185b6b1ba9965de3d3c0c7620e07477ab0d43",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T14:40:46.476Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-24#1",
+      "sesion_id": "2026-09-24",
+      "orden": 1,
+      "titulo": "Se aprueban de las actas de las sesiones anteriores, de fecha, 23 de julio, 30 de julio, 7 de septiembre y 10 de septiembre de 2026.",
+      "texto_redactado": "Se aprueban de las actas de las sesiones anteriores, de fecha, 23 de julio, 30 de julio, 7 de septiembre y 10 de septiembre de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T14:40:46.476Z"
+      }
+    },
+    {
+      "id": "2026-09-24#2",
+      "sesion_id": "2026-09-24",
+      "orden": 2,
+      "titulo": "La Corporación Pleno queda enterada de las Resoluciones de Alcaldía desde la 2.353/26 hasta la 2.959/26. Así mismo, se da cuenta de las Resoluciones firmadas digitalmente por el Concejal delegado de Hacienda, Presidencia y Recursos Humanos desde la 37/2026 hasta la",
+      "texto_redactado": "La Corporación Pleno queda enterada de las Resoluciones de Alcaldía desde la 2.353/26 hasta la 2.959/26. Así mismo, se da cuenta de las Resoluciones firmadas digitalmente por el Concejal delegado de Hacienda, Presidencia y Recursos Humanos desde la 37/2026 hasta la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T14:40:46.476Z"
+      }
+    },
+    {
+      "id": "2026-09-24#3",
+      "sesion_id": "2026-09-24",
+      "orden": 3,
+      "titulo": "La Corporación Pleno queda enterada de los Acuerdos de la Junta de Gobierno Local desde el 23 de junio de 2026 hasta el 9 de septiembre de 2026.",
+      "texto_redactado": "La Corporación Pleno queda enterada de los Acuerdos de la Junta de Gobierno Local desde el 23 de junio de 2026 hasta el 9 de septiembre de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T14:40:46.476Z"
+      }
+    },
+    {
+      "id": "2026-09-24#4",
+      "sesion_id": "2026-09-24",
+      "orden": 4,
+      "titulo": "Se aprueba la petición del Grupo Municipal Socialista para aprobar de conformidad con el artículo 114 del ROM la comparecencia de la Consejera delegada de Móstoles Desarrollo (Concejala de Economía, Industria, Empleo, Desarrollo y Promoción Turística) al objeto de informar sobre la licitación del contrato de servicios de catering por lotes y sobre la legalidad de destinar dinero público a despidos improcedentes.",
+      "texto_redactado": "Se aprueba la petición del Grupo Municipal Socialista para aprobar de conformidad con el artículo 114 del ROM la comparecencia de la Consejera delegada de Móstoles Desarrollo (Concejala de Economía, Industria, Empleo, Desarrollo y Promoción Turística) al objeto de informar sobre la licitación del contrato de servicios de catering por lotes y sobre la legalidad de destinar dinero público a despidos improcedentes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "organizacion_institucional",
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T14:40:46.476Z"
+      }
+    },
+    {
+      "id": "2026-09-24#5",
+      "sesion_id": "2026-09-24",
+      "orden": 5,
+      "titulo": "Se sustanciaron las siguientes preguntas de respuesta oral presentadas por los Grupos Municipales en Secretaría General: a) Pregunta nº. 60/26 presentada por el Grupo Municipal MM-Móstoles, sobre qué valoración hace el Gobierno de Móstoles del inicio de las obras del plan de asfaltado 2026. b) Pregunta nº. 61/26 presentada por el Grupo Municipal MM_Móstoles, sobre qué valoración hace el Gobierno de Móstoles del inicio de las obras de mantenimiento ordinario en los colegios de Móstoles. c) Pregunta nº. 62/26 presentada por el Grupo Municipal Mixto, sobre qué valoración hace el Gobierno municipal de la puesta en marcha de la Red Municipal de Refugios Climáticos aprobada por este Pleno en marzo de 2026. d) Pregunta nº. 63/26 presentada por el Grupo Municipal Mixto, sobre qué valoración hace el Gobierno municipal de que una mayoría del Pleno, como máxima expresión de la representación políti",
+      "texto_redactado": "Se sustanciaron las siguientes preguntas de respuesta oral presentadas por los Grupos Municipales en Secretaría General: a) Pregunta nº. 60/26 presentada por el Grupo Municipal MM-Móstoles, sobre qué valoración hace el Gobierno de Móstoles del inicio de las obras del plan de asfaltado 2026. b) Pregunta nº. 61/26 presentada por el Grupo Municipal MM_Móstoles, sobre qué valoración hace el Gobierno de Móstoles del inicio de las obras de mantenimiento ordinario en los colegios de Móstoles. c) Pregunta nº. 62/26 presentada por el Grupo Municipal Mixto, sobre qué valoración hace el Gobierno municipal de la puesta en marcha de la Red Municipal de Refugios Climáticos aprobada por este Pleno en marzo de 2026. d) Pregunta nº. 63/26 presentada por el Grupo Municipal Mixto, sobre qué valoración hace el Gobierno municipal de que una mayoría del Pleno, como máxima expresión de la representación políti",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "medio_ambiente",
+        "movilidad_trafico",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T14:40:46.476Z"
+      }
+    },
+    {
+      "id": "2026-09-24#6",
+      "sesion_id": "2026-09-24",
+      "orden": 6,
+      "titulo": "La Corporación Pleno queda enterada de la remisión al Ministerio de Hacienda y Función Pública de la información de ejecución presupuestaria, para el cumplimiento de las obligaciones de remisión de información impuestas por la ley orgánica 2/2012, de 27 de abril, de estabilidad presupuestaria y sostenibilidad financiera (datos provisionales a fin segundo trimestre de 2026).",
+      "texto_redactado": "La Corporación Pleno queda enterada de la remisión al Ministerio de Hacienda y Función Pública de la información de ejecución presupuestaria, para el cumplimiento de las obligaciones de remisión de información impuestas por la ley orgánica 2/2012, de 27 de abril, de estabilidad presupuestaria y sostenibilidad financiera (datos provisionales a fin segundo trimestre de 2026).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T14:40:46.476Z"
+      }
+    },
+    {
+      "id": "2026-09-24#7",
+      "sesion_id": "2026-09-24",
+      "orden": 7,
+      "titulo": "La Corporación Pleno queda enterada del informe del segundo trimestre de morosidad del ejercicio 2026, Ley 15/2010.",
+      "texto_redactado": "La Corporación Pleno queda enterada del informe del segundo trimestre de morosidad del ejercicio 2026, Ley 15/2010.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T14:40:46.476Z"
+      }
+    },
+    {
+      "id": "2026-09-24#8",
+      "sesion_id": "2026-09-24",
+      "orden": 8,
+      "titulo": "La Corporación Pleno queda enterada del cálculo del período medio de pago global a proveedores del Ayuntamiento de Móstoles y sus entes dependientes, según el RD 635/2014, de 25 de julio, modificado por el RD 1040/2017, de 22 de diciembre, correspondiente al segundo trimestre 2026.",
+      "texto_redactado": "La Corporación Pleno queda enterada del cálculo del período medio de pago global a proveedores del Ayuntamiento de Móstoles y sus entes dependientes, según el RD 635/2014, de 25 de julio, modificado por el RD 1040/2017, de 22 de diciembre, correspondiente al segundo trimestre 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T14:40:46.476Z"
+      }
+    },
+    {
+      "id": "2026-09-24#9",
+      "sesion_id": "2026-09-24",
+      "orden": 9,
+      "titulo": "La Corporación Pleno queda enterada de la aprobación del Plan Anual de Control Financiero para el ejercicio 2026, en virtud de lo dispuesto en el R.D. 424/2017 por el que se regula el régimen jurídico del control interno de las entidades del sector público local.",
+      "texto_redactado": "La Corporación Pleno queda enterada de la aprobación del Plan Anual de Control Financiero para el ejercicio 2026, en virtud de lo dispuesto en el R.D. 424/2017 por el que se regula el régimen jurídico del control interno de las entidades del sector público local.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T14:40:46.476Z"
+      }
+    },
+    {
+      "id": "2026-09-24#10",
+      "sesion_id": "2026-09-24",
+      "orden": 10,
+      "titulo": "La Corporación Pleno queda enterada de las Líneas Fundamentales del Presupuesto 2027 del Ayuntamiento de Móstoles y sus entes dependientes.",
+      "texto_redactado": "La Corporación Pleno queda enterada de las Líneas Fundamentales del Presupuesto 2027 del Ayuntamiento de Móstoles y sus entes dependientes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T14:40:46.476Z"
+      }
+    },
+    {
+      "id": "2026-09-24#11",
+      "sesion_id": "2026-09-24",
+      "orden": 11,
+      "titulo": "Se aprueba la propuesta de regularización de gasto en la modalidad del reconocimiento extrajudicial de crédito de la factura 25/80 emitida por ÒVisual Events Comunicación y Producciones S.L.Ó por importe de 6.655,00 euros IVA incluido correspondiente a la actuación ÒTributo Musical EscándaloÓ.",
+      "texto_redactado": "Se aprueba la propuesta de regularización de gasto en la modalidad del reconocimiento extrajudicial de crédito de la factura 25/80 emitida por ÒVisual Events Comunicación y Producciones S.L.Ó por importe de 6.655,00 euros IVA incluido correspondiente a la actuación ÒTributo Musical EscándaloÓ.",
+      "importe_eur": 6655,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T14:40:46.476Z"
+      }
+    },
+    {
+      "id": "2026-09-24#12",
+      "sesion_id": "2026-09-24",
+      "orden": 12,
+      "titulo": "Se aprueba la moción presentada por el Grupo Municipal Vox, relativa a la soberanía española y la invasión de Ceuta y se rechaza la enmienda de modificación parcial del Grupo Municipal Socialista.",
+      "texto_redactado": "Se aprueba la moción presentada por el Grupo Municipal Vox, relativa a la soberanía española y la invasión de Ceuta y se rechaza la enmienda de modificación parcial del Grupo Municipal Socialista.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T14:40:46.476Z"
+      }
+    },
+    {
+      "id": "2026-09-24#13",
+      "sesion_id": "2026-09-24",
+      "orden": 13,
+      "titulo": "Se aprueba la moción presentada por el Grupo Municipal Popular, relativa a la defensa y soberanía española de Ceuta y Melilla y para exigir al Gobierno de España la adopción de medidas extraordinarias ane los graves acontecimientos producidos en Ceuta.",
+      "texto_redactado": "Se aprueba la moción presentada por el Grupo Municipal Popular, relativa a la defensa y soberanía española de Ceuta y Melilla y para exigir al Gobierno de España la adopción de medidas extraordinarias ane los graves acontecimientos producidos en Ceuta.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T14:40:46.476Z"
+      }
+    },
+    {
+      "id": "2026-09-24#14",
+      "sesion_id": "2026-09-24",
+      "orden": 14,
+      "titulo": "Se rechaza la moción presentada por el Grupo Municipal MM-Móstoles, relativa al cambio de Estatutos en Móstoles Desarrollo. Se aprueba la enmienda de modificación parcial presentada por el Grupo Municipal Vox, al decaer ésta como consecuencia del resultado de la moción.",
+      "texto_redactado": "Se rechaza la moción presentada por el Grupo Municipal MM-Móstoles, relativa al cambio de Estatutos en Móstoles Desarrollo. Se aprueba la enmienda de modificación parcial presentada por el Grupo Municipal Vox, al decaer ésta como consecuencia del resultado de la moción.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T14:40:46.476Z"
+      }
+    },
+    {
+      "id": "2026-09-24#15",
+      "sesion_id": "2026-09-24",
+      "orden": 15,
+      "titulo": "Se rechaza la moción presentada por el Grupo Municipal MM-Móstoles, relativa al reconocimiento al centro social okupado y autogestionado ÒLa CasikaÓ y de defensa del derecho a los espacios de organización autónoma en Móstoles.",
+      "texto_redactado": "Se rechaza la moción presentada por el Grupo Municipal MM-Móstoles, relativa al reconocimiento al centro social okupado y autogestionado ÒLa CasikaÓ y de defensa del derecho a los espacios de organización autónoma en Móstoles.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T14:40:46.476Z"
+      }
+    },
+    {
+      "id": "2026-09-24#16",
+      "sesion_id": "2026-09-24",
+      "orden": 16,
+      "titulo": "Se rechaza moción presentada por el Grupo Municipal Mixto, relativa a la incorporación de dispositivos preventivos para detectar posibles casos de sumisión química en las fiestas de Móstoles y así mismo, se rechaza también las enmiendas de modificación parcial presentadas por los Grupos Municipales Socialista y MM-Móstoles.",
+      "texto_redactado": "Se rechaza moción presentada por el Grupo Municipal Mixto, relativa a la incorporación de dispositivos preventivos para detectar posibles casos de sumisión química en las fiestas de Móstoles y así mismo, se rechaza también las enmiendas de modificación parcial presentadas por los Grupos Municipales Socialista y MM-Móstoles.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T14:40:46.476Z"
+      }
+    },
+    {
+      "id": "2026-09-24#17",
+      "sesion_id": "2026-09-24",
+      "orden": 17,
+      "titulo": "Se aprueba la moción presentada por el Grupo Municipal Socialista, relativa a la Reducción de la lista de espera de mamografías y la mejora de la detección precoz del cáncer de mama en la Comunidad de Madrid, con la incorporación de la enmienda de modificación parcial presentada por el Grupo Municipal MM-Móstoles.",
+      "texto_redactado": "Se aprueba la moción presentada por el Grupo Municipal Socialista, relativa a la Reducción de la lista de espera de mamografías y la mejora de la detección precoz del cáncer de mama en la Comunidad de Madrid, con la incorporación de la enmienda de modificación parcial presentada por el Grupo Municipal MM-Móstoles.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T14:40:46.476Z"
+      }
+    },
+    {
+      "id": "2026-09-24#18",
+      "sesion_id": "2026-09-24",
+      "orden": 18,
+      "titulo": "Se rechaza la moción presentada por el Grupo Municipal Socialista, relativa al apoyo y solidaridad con Ceuta. Móstoles, a fecha de la firma digital EL SECRETARIO GENERAL DEL PLENO Fdo. Pedro Daniel Rey Fernández",
+      "texto_redactado": "Se rechaza la moción presentada por el Grupo Municipal Socialista, relativa al apoyo y solidaridad con Ceuta. Móstoles, a fecha de la firma digital EL SECRETARIO GENERAL DEL PLENO Fdo. Pedro Daniel Rey Fernández",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T14:40:46.476Z"
+      }
+    }
+  ]
+}

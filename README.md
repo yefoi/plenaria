@@ -14,7 +14,7 @@ y no inventa nada que no esté en el texto**.
 
 ## Estado
 
-40 municipios procesados (más de 4,4 millones de habitantes), con **tipos de
+41 municipios procesados (más de 4,6 millones de habitantes), con **tipos de
 fuente distintos**:
 
 - **38 municipios catalanes** (`ckan-seu-e`): los 13 iniciales (L'Hospitalet,
@@ -28,23 +28,28 @@ fuente distintos**:
   extractos en PDF. Hay ~170 candidatos más con datos frescos por añadir.
 - **Toledo** (`pdf-transparencia`): listado HTML de actas del Ayuntamiento con
   PDFs.
-- **Madrid** (`madrid-pleno`): listado de sesiones del Pleno, actas de acuerdos
-  en PDF con formato «Punto N.». El portal `www.madrid.es` reserva en su
+- **Área de Madrid** (`portal-sesiones`): **Madrid** y **Móstoles**. El
+  adaptador descubre el listado de sesiones de cada portal, entra en la página
+  de cada sesión y localiza el documento (acta, extracto de acuerdos, diario…)
+  según una lista de patrones. En Madrid, `www.madrid.es` reserva en su
   `robots.txt` la ruta de los PDFs (`/UnidadesDescentralizadas/UDCPleno/Actividad`),
-  así que el adaptador usa el espejo público en `transparencia.madrid.es`, cuyo
-  `robots.txt` sí lo permite.
+  así que se usa el espejo público en `transparencia.madrid.es`, cuyo
+  `robots.txt` sí lo permite. Móstoles publica actas («N/ MMM.-»), extractos
+  con viñetas y, en sesiones recientes, solo el extracto hasta que se aprueba
+  el acta.
 
 Cada nuevo municipio solo necesita una entrada en `lib/config.ts`; el pipeline,
 los scripts y la web no cambian. La portada incluye un **mapa de España**
 navegable (provincias clicables + pines de los municipios con datos).
 
 El segmentador reconoce los formatos reales encontrados: extracto de acuerdos
-numerado (Hospitalet), extracto en tabla con resultados (El Masnou), actas
-numeradas de varios estilos (Girona, Mataró…), actas con puntos «N.-»
-desordenados (Martorell), ple de punto único o certificado (Sant Cugat,
-Tarragona, Berga, Viladecans) y documentos con codificación rota o sin capa de
-texto útil, que se marcan `requiere_ocr` o `segmentacion_pobre` en vez de
-inventar contenido.
+numerado (Hospitalet), extracto en tabla con resultados (El Masnou), extracto
+con viñetas (Móstoles), actas numeradas de varios estilos (Girona, Mataró…),
+actas con «Punto N.» (Madrid), actas con «N/ MMM.-» (Móstoles), actas con
+puntos «N.-» desordenados (Martorell), ple de punto único o certificado (Sant
+Cugat, Tarragona, Berga, Viladecans) y documentos con codificación rota o sin
+capa de texto útil, que se marcan `requiere_ocr` o `segmentacion_pobre` en vez
+de inventar contenido.
 
 - Fases 0 a 5 completadas (spike de datos, ingesta y redacción, clasificación y
   evaluación, web, automatización y generalización).

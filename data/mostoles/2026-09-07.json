@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "mostoles",
+    "nombre": "Móstoles",
+    "provincia": "Madrid",
+    "fuente_tipo": "portal-sesiones",
+    "fuente_config": {
+      "listado_url": "https://www.mostoles.es/es/ayuntamiento/organizacion-municipal-organos-gobierno-personal/plenos-municipales/sesiones-pleno-municipal",
+      "patron_sesion": "sesion-pleno-[^/]+$",
+      "patrones_pdf": [
+        "Acta de Pleno",
+        "Extracto de Pleno"
+      ],
+      "tipo_por_defecto": "ordinaria",
+      "max_sesiones": 3,
+      "idioma": "es"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-07",
+    "municipio_id": "mostoles",
+    "fecha": "2026-09-07",
+    "tipo": "extraordinaria",
+    "fuente_url": "https://www.mostoles.es/es/ayuntamiento/organizacion-municipal-organos-gobierno-personal/plenos-municipales/sesiones-pleno-municipal/sesion-pleno-extraordinario-ayuntamiento-mostoles-7-septiem.ficheros/1489970-Acta%20de%20Pleno%20extraordinario%20del%20Ayuntamiento%20de%20M%C3%B3stoles%20del%207%20de%20septiembre%20de%202026.pdf",
+    "hash_contenido": "d33c6179f7a41711a677307e3ba0178b7060cf6db6b04a3d849057af86afb450",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T14:40:47.370Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-07#1",
+      "sesion_id": "2026-09-07",
+      "orden": 1,
+      "titulo": "DACIÓN DE CUENTA DE LA RESOLUCIÓN 2713/2026 DE 27 DE AGOSTO, POR LA QUE SE INADMITEN LAS ALEGACIONES DE D. SANTIAGO CARRASCO (Nº. 58.025) Y DEL GRUPO SOCIALISTA (Nº. 58.767). ALEGACIONES PRESENTADAS EN EL TRÁMITE DE",
+      "texto_redactado": "DACIÓN DE CUENTA DE LA RESOLUCIÓN 2713/2026 DE 27 DE AGOSTO, POR LA QUE SE INADMITEN LAS ALEGACIONES DE D. SANTIAGO CARRASCO (Nº. 58.025) Y DEL GRUPO SOCIALISTA (Nº. 58.767). ALEGACIONES PRESENTADAS EN EL TRÁMITE DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T14:40:47.370Z"
+      }
+    }
+  ]
+}

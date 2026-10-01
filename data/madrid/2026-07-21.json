@@ -4,9 +4,15 @@
     "id": "madrid",
     "nombre": "Madrid",
     "provincia": "Madrid",
-    "fuente_tipo": "madrid-pleno",
+    "fuente_tipo": "portal-sesiones",
     "fuente_config": {
       "listado_url": "https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/El-Pleno/Actividad-del-Pleno-y-las-Comisiones/Pleno/Sesiones-del-Pleno/?vgnextchannel=8e9858f5c050e210VgnVCM2000000c205a0aRCRD&vgnextfmt=default&vgnextoid=122481276d58c010VgnVCM100000d90ca8c0RCRD",
+      "patron_sesion": "Pleno/\\d{1,2}-de-[a-z]+-de-\\d{4}",
+      "patrones_pdf": [
+        "AC_[^/]*\\.pdf$",
+        "DS_[^/]*\\.pdf$"
+      ],
+      "tipo_por_defecto": "ordinaria",
       "url_base_pdf": "https://transparencia.madrid.es",
       "max_sesiones": 3,
       "idioma": "es"
@@ -19,8 +25,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://transparencia.madrid.es/UnidadesDescentralizadas/UDCPleno/Actividad/Pleno/2026/2026-07-21/AC_PO_21_07_26.pdf",
     "hash_contenido": "99318cc98dc8c1b4706c6b6bdf5d6aef57ab401cb110e151503436b4f2503d06",
-    "estado_ingesta": "clasificada",
-    "actualizada_en": "2026-10-01T13:14:40.878Z"
+    "estado_ingesta": "redactada",
+    "actualizada_en": "2026-10-01T14:33:27.962Z"
   },
   "puntos": [
     {
@@ -31,20 +37,13 @@
       "texto_redactado": "Se da cuenta de la Resolución de la Presidencia del Pleno, de 3 de julio de 2026, por la que se toma razón de la expulsión del partido político VOX del concejal don Francisco Javier Ortega Smith-Molina, que pasa a tener la condición de concejal no adscrito del Ayuntamiento de Madrid.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "dacion_cuenta",
-      "temas": [
-        "organizacion_institucional"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.85,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#2",
@@ -54,20 +53,13 @@
       "texto_redactado": "Se da cuenta de la Resolución de la Presidencia del Pleno, de 8 de julio de 2026, sobre aspectos organizativos y de funcionamiento a considerar como consecuencia de la adquisición de la condición de concejal no adscrito por parte de un miembro de la corporación local.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "dacion_cuenta",
-      "temas": [
-        "organizacion_institucional"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.96,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#3",
@@ -77,20 +69,13 @@
       "texto_redactado": "Se da cuenta de la Resolución de la Presidencia del Pleno, de 8 de julio de 2026, por la que se modifica la composición de las Comisiones Permanentes Ordinarias del Pleno del Ayuntamiento.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "dacion_cuenta",
-      "temas": [
-        "organizacion_institucional"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.89,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#4",
@@ -100,20 +85,13 @@
       "texto_redactado": "Se da cuenta de la Resolución de la Presidencia del Pleno, de 9 de julio de 2026, por la que se modifica la composición de las Comisiones Permanentes Especiales del Pleno del Ayuntamiento.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "dacion_cuenta",
-      "temas": [
-        "organizacion_institucional"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.93,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#5",
@@ -123,20 +101,13 @@
       "texto_redactado": "Aprobar las actas de las sesiones anteriores que seguidamente se relacionan: -Sesión (6/2026), extraordinaria de 30 de junio de 2026. -Sesión (7/2026), ordinaria de 30 de junio de 2026.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "aprobacion_acta",
-      "temas": [
-        "otros"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.64,
-      "revision_manual": true,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#6",
@@ -146,20 +117,13 @@
       "texto_redactado": "Se sustancia la pregunta n.º 20268000664, formulada por la concejala doña Reyes Maroto Illera, portavoz del Grupo Municipal Socialista de Madrid, dirigida al alcalde, interesando conocer si piensa Òcorregir las decisiones de su Gobierno que suponen un retroceso en igualdad y en los derechos de las mujeres madrileñasÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "ruego_pregunta",
-      "temas": [
-        "servicios_sociales"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.89,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#7",
@@ -169,20 +133,13 @@
       "texto_redactado": "Se sustancia la pregunta n.º 20268000667, formulada por la concejala doña Rita Maestre Fernández, portavoz del Grupo Municipal Más Madrid, dirigida al alcalde, interesando conocer Òcómo valora la situación del mercado laboral de la ciudad de MadridÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "ruego_pregunta",
-      "temas": [
-        "otros"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.51,
-      "revision_manual": true,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#8",
@@ -192,20 +149,13 @@
       "texto_redactado": "Se sustancia la pregunta n.º 20268000651, formulada por el concejal don Miguel Montejo Bombín, del Grupo Municipal Más Madrid, con el visto bueno de su portavoz, dirigida a la vicealcaldesa, interesando conocer, ante la ruptura de la paz social entre el Ayuntamiento y el Cuerpo de Bomberos, qué medidas tiene previstas Òpara recuperar la necesaria e imprescindible normalidad del Cuerpo de Bomberos especialmente en este periodo estival con alto riesgo de incendiosÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "ruego_pregunta",
-      "temas": [
-        "seguridad"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.8,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#9",
@@ -215,20 +165,13 @@
       "texto_redactado": "Se sustancia la pregunta n.º 20268000652, formulada por la concejala doña María Pilar Sánchez Álvarez, del Grupo Municipal Más Madrid, con el visto bueno de su portavoz, interesando conocer si Òconsidera el equipo de gobierno municipal que llamar ‘chiringuito’ a Casa Árabe y desalojarla de un edificio municipal contribuye a la proyección internacional de la ciudad y al fortalecimiento de sus relaciones económicas, culturales y educativas con el mundo árabe y musulmánÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "ruego_pregunta",
-      "temas": [
-        "cultura_deporte_educacion"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.83,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#10",
@@ -238,20 +181,13 @@
       "texto_redactado": "Se sustancia la pregunta n.º 20268000653, formulada por el concejal don José Luis Nieto Bueno, del Grupo Municipal Más Madrid, con el visto bueno de su portavoz, dirigida al delegado del Área de Gobierno de Urbanismo, Medio Ambiente y Movilidad, interesando conocer qué valoración hace Òde los continuos reveses judiciales que está sufriendo su ÁreaÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "ruego_pregunta",
-      "temas": [
-        "otros"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.55,
-      "revision_manual": true,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#11",
@@ -261,20 +197,13 @@
       "texto_redactado": "Se sustancia la pregunta n.º 20268000654, formulada por el concejal don Pedro Esteban Barrero Cuadrado, del Grupo Municipal Socialista de Madrid, con el visto bueno de su portavoz, interesando conocer Òcómo van a evitar el impacto negativo que tendrá en la proyección cultural e internacional de Madrid la decisión del Gobierno municipal de desalojar a Casa Árabe de las Escuelas AguirreÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "ruego_pregunta",
-      "temas": [
-        "cultura_deporte_educacion"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.84,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#12",
@@ -284,20 +213,13 @@
       "texto_redactado": "Se sustancia la pregunta n.º 20268000655, formulada por la concejala doña Emilia Martínez Garrido, del Grupo Municipal Socialista de Madrid, con el visto bueno de su portavoz, dirigida al delegado del Área de Gobierno de Urbanismo, Medio Ambiente y Movilidad, interesando conocer si considera Òque son adecuadas y suficientes las medidas municipales para hacer frente al impacto de las olas de calor en la calidad de vida y en la salud de la población madrileñaÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "ruego_pregunta",
-      "temas": [
-        "medio_ambiente"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.93,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#13",
@@ -307,20 +229,13 @@
       "texto_redactado": "Se sustancia la pregunta n.º 20268000656, formulada por la concejala doña Sara Ladra Álvarez, del Grupo Municipal Más Madrid, con el visto bueno de su portavoz, dirigida a la delegada del Área de Gobierno de Economía, Innovación y Hacienda, interesando conocer si puede explicar Òlas razones que le llevan a no querer instaurar una tasa turística igual que tienen ya 137 ciudades solo en EuropaÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "ruego_pregunta",
-      "temas": [
-        "presupuesto_impuestos"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.93,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#14",
@@ -330,20 +245,13 @@
       "texto_redactado": "",
       "importe_eur": null,
       "sensible": true,
-      "tipo_punto": "otro",
-      "temas": [
-        "servicios_sociales"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.93,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#15",
@@ -353,20 +261,13 @@
       "texto_redactado": "Se sustancia la pregunta n.º 20268000659, formulada por la concejala doña Arantzazu Purificación Cabello López, del Grupo Municipal VOX, dirigida a la delegada del Área de Gobierno de Economía, Innovación y Hacienda, interesando conocer si tiene previsto Òen el marco de la elaboración del presupuesto, un plan de contingencia para afrontar las devoluciones y demás consecuencias económicas derivadas de las resoluciones judiciales adversasÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "ruego_pregunta",
-      "temas": [
-        "presupuesto_impuestos"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.93,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#16",
@@ -376,20 +277,13 @@
       "texto_redactado": "Se sustancia la pregunta n.º 20268000663, formulada por el concejal don Ignacio Benito Pérez, del Grupo Municipal Socialista de Madrid, con el visto bueno de su portavoz, dirigida al delegado del Área de Gobierno de Urbanismo, Medio Ambiente y Movilidad, interesando conocer si considera Òque la anunciada ampliación de la línea 11 de Metro atiende las necesidades de movilidad de la ciudadanía madrileñaÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "ruego_pregunta",
-      "temas": [
-        "movilidad_trafico"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.97,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#17",
@@ -399,20 +293,13 @@
       "texto_redactado": "Se sustancia la pregunta n.º 20268000666, formulada por el concejal don Ignacio Ansaldo Adriaensens, del Grupo Municipal VOX, dirigida al delegado del Área de Gobierno de Urbanismo, Medio Ambiente y Movilidad, interesando conocer Òqué criterio sigue en esta área para determinar cuando debe actuar ante una resolución judicial y cuando considera prudente esperar a que exista una sentencia firme, como ha sucedido por ejemplo en el ámbito de las cocheras de Cuatro CaminosÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "ruego_pregunta",
-      "temas": [
-        "otros"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.51,
-      "revision_manual": true,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#18",
@@ -422,20 +309,13 @@
       "texto_redactado": "Aprobar la modificación del acuerdo del Pleno de 30 de junio de 2023, de creación de las Comisiones Permanentes Ordinarias. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO. Modificar el apartado Cuarto del acuerdo del Pleno de 30 de junio de 2023, por el que se crean las Comisiones Permanentes Ordinarias del Pleno, que quedará redactado en los siguientes términos: ÒCuarto. Composición y nombramientos de las Comisiones Permanentes Ordinarias. Las Comisiones Permanentes Ordinarias se integran por once (11) concejales en representación de los Grupos Municipales, de los cuales seis (6) representarán al Grupo Municipal del Partido Popular; dos (2) al Grupo Municipal Más Madrid; dos (2) al Grupo Municipal Socialista de Madrid; y uno (1) al Grupo Municipal VOX. No obstante, el número de miembros de la Comisión se incrementará cuando existan además concejales no adscritos, confo",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "acuerdo",
-      "temas": [
-        "organizacion_institucional"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.98,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#19",
@@ -445,20 +325,13 @@
       "texto_redactado": "Aprobar la modificación del acuerdo del Pleno de 30 de junio de 2023, de creación de la Comisión Permanente Especial de Vigilancia de la Contratación. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO. Modificar el apartado Tercero del acuerdo del Pleno de 30 de junio de 2023, por el que se crea la Comisión Permanente Especial de Vigilancia de la Contratación, que quedará redactado en los siguientes términos: ÒTercero. Composición y nombramientos. La Comisión Especial de Vigilancia de la Contratación se integra por once (11) concejales en representación de los Grupos Municipales, de los cuales seis (6) representarán al Grupo Municipal del Partido Popular; dos (2) al Grupo Municipal Más Madrid; dos (2) al Grupo Municipal Socialista de Madrid; y uno (1) al Grupo Municipal VOX. No obstante, el número de miembros de la Comisión se incrementará cuando existan además concejales ",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "acuerdo",
-      "temas": [
-        "organizacion_institucional"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.96,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#20",
@@ -468,20 +341,13 @@
       "texto_redactado": "Aprobar la modificación del acuerdo del Pleno de 30 de junio de 2023, de creación de la Comisión Permanente Especial de Cuentas. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO. Modificar el apartado Tercero del acuerdo del Pleno de 30 de junio de 2023, por el que se crea la Comisión Permanente Especial de Cuentas, que quedará redactado en los siguientes términos: ÒTercero. Composición y nombramientos. La Comisión Especial de Cuentas se integra por once (11) concejales en representación de los Grupos Municipales, de los cuales seis (6) representarán al Grupo Municipal del Partido Popular; dos (2) al Grupo Municipal Más Madrid; dos (2) al Grupo Municipal Socialista de Madrid; y uno (1) al Grupo Municipal VOX. No obstante, el número de miembros de la Comisión se incrementará cuando existan además concejales no adscritos, conforme a lo dispuesto en el apartado Sexto del pre",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "acuerdo",
-      "temas": [
-        "organizacion_institucional"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.96,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#21",
@@ -491,20 +357,13 @@
       "texto_redactado": "Aprobar la modificación del acuerdo del Pleno de 30 de junio de 2023, de creación de la Comisión Permanente Especial de Sugerencias y Reclamaciones. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO. Modificar el apartado Tercero del acuerdo del Pleno de 30 de junio de 2023, por el que se crea la Comisión Permanente Especial de Sugerencias y Reclamaciones, que quedará redactado en los siguientes términos: ÒTercero. Composición y nombramientos. La Comisión Especial de Sugerencias y Reclamaciones se integra por once (11) concejales en representación de los Grupos Municipales, de los cuales seis (6) representarán al Grupo Municipal del Partido Popular; dos (2) al Grupo Municipal Más Madrid; dos (2) al Grupo Municipal Socialista de Madrid; y uno (1) al Grupo Municipal VOX. No obstante, el número de miembros de la Comisión se incrementará cuando existan además concejales no ads",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "acuerdo",
-      "temas": [
-        "organizacion_institucional"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.97,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#22",
@@ -514,20 +373,13 @@
       "texto_redactado": "Aprobar definitivamente, una vez transcurrido el trámite de información pública sin que se hayan presentado alegaciones, el Estudio de Detalle para el edificio situado en la [DIRECCIÓN], promovido por la Dirección General del Patrimonio del Estado, dependiente del Ministerio de Hacienda. Distrito de Chamberí. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO.- Aprobar definitivamente el Estudio de Detalle para el edificio existente en la calle de Doménico Scarlatti, número 6, distrito de Chamberí, promovido por la Dirección General del Patrimonio del Estado, dependiente del Ministerio de Hacienda, de conformidad con lo dispuesto en el artículo 60 de la Ley 9/2001, de 17 de julio, del Suelo de la Comunidad de Madrid, en relación con los artículos 61.5 y 62.2 de la citada Ley. SEGUNDO.- Publicar el presente acuerdo en el ÒBoletín Oficial de la Comuni",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "acuerdo",
-      "temas": [
-        "urbanismo_licencias"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.96,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#23",
@@ -537,20 +389,13 @@
       "texto_redactado": "Aprobar definitivamente, una vez transcurrido el trámite de información pública sin que se hayan presentado alegaciones, la modificación del Estudio de Detalle para las parcelas situadas en la [DIRECCIÓN] a 122, promovida por Pintor Velázquez Sociedad Cooperativa Madrileña. Distrito de Hortaleza. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO.- Aprobar definitivamente la modificación del Estudio de Detalle para las parcelas situadas en la [DIRECCIÓN] a 122, distrito de Hortaleza, promovida por Pintor Velázquez Sociedad Cooperativa Madrileña, de conformidad con lo dispuesto en el artículo 60 de la Ley 9/2001, de 17 de julio, del Suelo de la Comunidad de Madrid, en relación con los artículos 61.5 y 62.2 de la citada Ley. SEGUNDO.- Publicar el presente acuerdo en el ÒBoletín Oficial de la Comunidad de MadridÓ, en cumplimi",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "acuerdo",
-      "temas": [
-        "urbanismo_licencias"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.97,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#24",
@@ -560,20 +405,13 @@
       "texto_redactado": "Aprobar definitivamente, con estimación parcial y desestimación de las alegaciones presentadas durante el trámite de información pública, el Plan Especial para el edificio situado en la [DIRECCIÓN], promovido por Lutuenas S.L. Distrito de Centro. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO.- Estimar parcialmente y desestimar las alegaciones presentadas durante el periodo de información pública, por las razones y en los términos señalados en el informe técnico jurídico de la Dirección General de Planeamiento de 3 de julio de 2026. Dicho informe estará a disposición de los alegantes y de los ciudadanos en general, formando parte de la documentación que se publique en la página de transparencia del Ayuntamiento, una vez que el planeamiento se apruebe definitivamente. SEGUNDO.- Aprobar definitivamente el Plan Especial para el edificio situado en la calle Mayor n",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "acuerdo",
-      "temas": [
-        "urbanismo_licencias"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.97,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#25",
@@ -583,20 +421,13 @@
       "texto_redactado": "Aprobar definitivamente, con desestimación de la alegación presentada durante el trámite de información pública, el Plan Especial para la parcela situada en la [DIRECCIÓN], promovido por particular. Distrito de Chamartín. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO.- Desestimar la alegación presentada durante el período de información pública, por las razones y en los términos señalados en el informe de la Dirección General de Planeamiento de 3 de julio de 2026. Dicho informe estará a disposición de los alegantes y de los ciudadanos en general, formando parte de la documentación que se publique en la página de transparencia del Ayuntamiento de Madrid, una vez que el planeamiento se apruebe definitivamente. SEGUNDO.- Aprobar definitivamente el Plan Especial para la parcela situada en la [DIRECCIÓN], ubicada en el Área de P",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "acuerdo",
-      "temas": [
-        "urbanismo_licencias"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.97,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#26",
@@ -606,20 +437,13 @@
       "texto_redactado": "Aprobar definitivamente, con desestimación de la alegación presentada durante el trámite de información pública, el Plan Especial para la parcela situada en la [DIRECCIÓN]-6, promovido por Rockfield Property II S.L. Distrito de Ciudad Lineal. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO.- Desestimar la alegación presentada durante el período de información pública, por las razones y en los términos señalados en el informe de la Dirección General de Planeamiento de 30 de junio de 2026. Dicho informe estará a disposición de los alegantes y de los ciudadanos en general, formando parte de la documentación que se publique en la página de transparencia del Ayuntamiento de Madrid, una vez que el planeamiento se apruebe definitivamente. SEGUNDO.- Aprobar definitivamente el Plan Especial para la parcela situada en la [DIRECCIÓN] y 6, distrito de Ciuda",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "acuerdo",
-      "temas": [
-        "urbanismo_licencias"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.99,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#27",
@@ -629,20 +453,13 @@
       "texto_redactado": "Aprobar definitivamente, con desestimación de las alegaciones presentadas durante el trámite de información pública, el Plan Especial para la parcela situada en el [DIRECCIÓN] (M), donde se ubica el antiguo Edificio de Viajeros (actual Museo del Ferrocarril) y la Nave de Fomento de la Estación Madrid-Delicias. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO.- Desestimar las alegaciones presentadas durante el trámite de información pública, por las razones y en los términos recogidos en los informes de la Dirección General de Planeamiento de 30 de junio y 14 de julio de 2026. Dichos informes estarán a disposición de los alegantes y de los ciudadanos en general, formando parte de la documentación que se publique en la página de transparencia del Ayuntamiento de Madrid, una vez que el planeamiento se apruebe definitivamente. SEGUNDO.- Aprobar definitivam",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "acuerdo",
-      "temas": [
-        "urbanismo_licencias"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.99,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#28",
@@ -652,20 +469,13 @@
       "texto_redactado": "Solicitar a la Comunidad de Madrid la declaración de la Semana Santa madrileña como Fiesta de Interés Turístico Regional. Siendo el acuerdo adoptado del siguiente tenor literal: Ò1. Solicitar a la Comunidad de Madrid la declaración de la Semana Santa madrileña como Fiesta de Interés Turístico Regional. 2. Mostrar el apoyo del Ayuntamiento de Madrid a la celebración de la Semana Santa madrileña y a las entidades que la hacen posible. 3. Asumir el compromiso de promover, proteger y garantizar su continuidad como manifestación cultural y turística de la ciudad. 4. Habilitar a la Concejal Delegada de Turismo para la realización de cuantas actuaciones y gestiones resulten necesarias para la tramitación y ejecución del presente acuerdoÓ. COMISIÓN PERMANENTE ORDINARIA DE ECONOMÍA, INNOVACIÓN Y HACIENDA",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "acuerdo",
-      "temas": [
-        "cultura_deporte_educacion"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.82,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#29",
@@ -675,20 +485,13 @@
       "texto_redactado": "Conceder, en cincuenta expedientes, otras tantas solicitudes de declaración de especial interés o utilidad municipal, a los efectos de la obtención de las correspondientes bonificaciones en el Impuesto sobre Construcciones, Instalaciones y Obras. Siendo los acuerdos adoptados del siguiente tenor literal: Ò1) Conceder la declaración de especial interés o utilidad municipal, solicitada por D. CARLOS GARCÍA DE LA CALLE, en representación de BDO AUDITORES, S.L.P., con NIF ****8757*, en el expediente número 205/2026/21631, a los efectos de lo dispuesto en el artículo 12.1 de la Ordenanza Fiscal reguladora del Impuesto sobre Construcciones, Instalaciones y Obras, por concurrir los requisitos objetivos que el citado precepto establece para que pueda tener lugar esa declaración. 2) Conceder la declaración de especial interés o utilidad municipal, solicitada por D. MANUEL PUEYO FERNÁNDEZ, en repr",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "acuerdo",
-      "temas": [
-        "presupuesto_impuestos"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.97,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#30",
@@ -698,20 +501,13 @@
       "texto_redactado": "Denegar, en veinticinco expedientes, otras tantas solicitudes de declaración de especial interés o utilidad municipal, a los efectos de la obtención de las correspondientes bonificaciones en el Impuesto sobre Construcciones, Instalaciones y Obras. Siendo los acuerdos adoptados del siguiente tenor literal: Ò1) Denegar la declaración de especial interés o utilidad municipal, solicitada el 25/01/2024 por D. RICARDO AGUIRRE PASTOR, en representación de TECHNIP ENERGIES IBERIA, S.A.U., con NIF ****8044*, en el expediente número 205/2026/27064, a los efectos de lo dispuesto en el artículo 12 de la Ordenanza Fiscal reguladora del Impuesto sobre Construcciones, Instalaciones y Obras, por no concurrir los requisitos objetivos que el citado precepto establece para que pueda tener lugar esa declaración. 2) Denegar la declaración de especial interés o utilidad municipal, solicitada el 15/09/2023 por",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "acuerdo",
-      "temas": [
-        "presupuesto_impuestos"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.97,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#31",
@@ -721,20 +517,13 @@
       "texto_redactado": "Quedar enterado del informe de la Comisión Permanente Especial de Sugerencias y Reclamaciones, constituido por la Memoria Anual de la Comisión, correspondiente al año 2025, y aprobar el informe detallado de áreas de mejora al que se refiere el Acuerdo del Pleno del Ayuntamiento de Madrid de 23 de diciembre de 2016. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO: Quedar enterado del informe de la Comisión Permanente Especial de Sugerencias y Reclamaciones correspondiente al año 2025, constituido por la Memoria anual relativa a las Sugerencias y Reclamaciones referidas al citado año, elaborada por la Dirección General de Transparencia y Calidad, elevado a este Pleno por la citada Comisión, en cumplimiento del art. 136.2 del Reglamento Orgánico del Pleno. SEGUNDO: Aprobar el informe detallado de áreas de mejora incluido en la Memoria citada en el apartado primero que antec",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "acuerdo",
-      "temas": [
-        "organizacion_institucional"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.72,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#32",
@@ -744,20 +533,13 @@
       "texto_redactado": "Rechazar la proposición n.º 20268000650, presentada por el concejal don Ignacio Murgui Parra, del Grupo Municipal Más Madrid, con el visto bueno de su portavoz, interesando que se adopten las medidas que se indican en la iniciativa en relación Òcon la sentencia judicial que devuelve el expediente de los presupuestos participativos de las anualidades 2016, 2017, 2018 y 2019 al momento de las alegaciones de Más MadridÓ, la cual ha sido refrendada por Òel Tribunal Supremo y el Tribunal Superior de JusticiaÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "acuerdo",
-      "temas": [
-        "mociones_grupos"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.71,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#33",
@@ -767,21 +549,13 @@
       "texto_redactado": "Rechazar la proposición n.º 20268000658, presentada por el concejal don Jorge Donaire Huertas, del Grupo Municipal Socialista de Madrid, con el visto bueno de su portavoz, interesando que el Área de Gobierno de Cultura, Turismo y Deporte constituya un Grupo de Trabajo con el Gremio de Libreros de Madrid y otros representantes del ámbito del libro para diseñar una nueva línea de subvenciones de libre concurrencia para el año 2027 que incorpore, como ya ocurre con otros espacios culturales, el pago de parte de los alquileres de este tipo de establecimientos y otros gastos de personal y de gestoría.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "mocion",
-      "temas": [
-        "cultura_deporte_educacion",
-        "mociones_grupos"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
       "confianza_min": null,
-      "revision_manual": true,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "revision_manual": false,
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#34",
@@ -791,21 +565,13 @@
       "texto_redactado": "Se da cuenta del Acuerdo de 18 de junio de 2026 de la Junta de Gobierno de la Ciudad de Madrid, por el que se constituye el Patrimonio Especial de la Vivienda Pública del Ayuntamiento de Madrid, se aprueba su contenido inicial y se modifica el Acuerdo de 29 de junio de 2023, de organización y competencias del Área de Gobierno de Políticas de Vivienda.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "dacion_cuenta",
-      "temas": [
-        "vivienda",
-        "organizacion_institucional"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.97,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#35",
@@ -815,20 +581,13 @@
       "texto_redactado": "Se da cuenta del Acuerdo de 18 de junio de 2026 de la Junta de Gobierno de la Ciudad de Madrid, por el que se avocan las competencias para la redacción de los proyectos y posterior ejecución de obras de remodelación del área infantil situada en la zona verde de la [DIRECCIÓN] y de las obras de remodelación del área infantil situada en la zona verde de la calle Manuel de Falla, y se delegan en la Concejal Presidente del Distrito de Chamartín.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "dacion_cuenta",
-      "temas": [
-        "organizacion_institucional"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.71,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#36",
@@ -838,20 +597,13 @@
       "texto_redactado": "Se da cuenta del Acuerdo de 18 de junio de 2026 de la Junta de Gobierno de la Ciudad de Madrid, por el que se avocan las competencias para la ejecución de obras de mejora del espacio público en la calle San Nicomedes, y se delegan en la Concejala Presidenta del Distrito de Usera.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "dacion_cuenta",
-      "temas": [
-        "otros"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.63,
-      "revision_manual": true,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#37",
@@ -861,21 +613,13 @@
       "texto_redactado": "Se da cuenta del informe, de 25 de junio de 2026, emitido por la coordinadora general de Presupuestos y Recursos Humanos, sobre el cumplimiento de lo previsto en el artículo 104 bis de la Ley 7/1985, de 2 de abril, reguladora de las Bases de Régimen Local, relativo al segundo trimestre de 2026, remitido por Decreto de 25 de junio de 2026 de la delegada del Área de Gobierno de Economía, Innovación y Hacienda.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "dacion_cuenta",
-      "temas": [
-        "presupuesto_impuestos",
-        "personal"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.9,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     },
     {
       "id": "2026-07-21#38",
@@ -885,20 +629,13 @@
       "texto_redactado": "Se da cuenta del informe de control financiero, de 1 de julio de 2026, emitido por la Intervención General, sobre el seguimiento del cumplimiento del equilibrio financiero en el ejercicio 2025 por las entidades a que se refiere el artículo 4.2 del Reglamento de desarrollo de la normativa de estabilidad presupuestaria en su aplicación a las entidades locales, aprobado por el Real Decreto 1463/2007, de 2 de noviembre, remitido por Decreto de 6 de julio de 2026 de la delegada del Área de Gobierno de Economía, Innovación y Hacienda. Se levanta la sesión por el presidente del Pleno a las doce horas y diez minutos. El acta de la presente sesión ha sido aprobada por el Pleno en su sesión (9/2026), ordinaria de 29 de septiembre de 2026 Madrid, a 29 de septiembre de 2026.- El secretario general del Pleno en funciones, el vicesecretario general del Pleno, Juan José Orquín Serrano.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": "dacion_cuenta",
-      "temas": [
-        "presupuesto_impuestos"
-      ],
+      "tipo_punto": null,
+      "temas": [],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.88,
+      "confianza_min": null,
       "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T13:14:40.878Z"
-      }
+      "clasificado_con": null
     }
   ]
 }

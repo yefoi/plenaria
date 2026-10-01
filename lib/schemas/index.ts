@@ -47,7 +47,7 @@ export const ESTADOS_INGESTA = [
   'error',
 ] as const;
 
-export const FUENTES_TIPO = ['ckan-seu-e', 'pdf-transparencia', 'madrid-pleno', 'manual'] as const;
+export const FUENTES_TIPO = ['ckan-seu-e', 'pdf-transparencia', 'portal-sesiones', 'manual'] as const;
 
 export const temaSchema = z.enum(TEMAS);
 export const tipoPuntoSchema = z.enum(TIPOS_PUNTO);

@@ -38,6 +38,7 @@ export function pareceTextoInutilizable(texto: string): boolean {
 export function normalizarTexto(raw: string): string {
   const limpio = repararMojibake(raw);
   return limpio
+    .replace(/\uf0b7/g, '•')
     .replace(/\r\n?/g, '\n')
     .replace(/\u00a0/g, ' ')
     .replace(/[ \t]+/g, ' ')
