@@ -20,7 +20,7 @@
     "fuente_url": "https://media.seu-e.cat/acteca/810170005/2026/9c8e5e84-25be-44e5-849d-b41ff894541a/20260923%20Extracte%20acords%20del%20Ple%20signat.pdf",
     "hash_contenido": "a6161395e8f4b097ff3137b2fff7fe4985c19549a8eb1d4019e69e7b334df13c",
     "estado_ingesta": "clasificada",
-    "actualizada_en": "2026-09-30T07:57:50.288Z"
+    "actualizada_en": "2026-10-01T15:14:55.873Z"
   },
   "puntos": [
     {
@@ -28,6 +28,7 @@
       "sesion_id": "2026-09-23",
       "orden": 1,
       "titulo": "LECTURA I APROVACIÓ DE L'ESBORRANY DE L'ACTA DE LA SESSIÓ ORDINÀRIA DEL 29 DE JULIOL DE 2026.",
+      "resultado": "aprovada",
       "texto_redactado": "LECTURA I APROVACIÓ DE L'ESBORRANY DE L'ACTA DE LA SESSIÓ ORDINÀRIA DEL 29 DE JULIOL DE 2026.",
       "importe_eur": null,
       "sensible": false,
@@ -37,13 +38,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.47,
+      "confianza_min": 0.52,
       "revision_manual": true,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -51,6 +52,7 @@
       "sesion_id": "2026-09-23",
       "orden": 2,
       "titulo": "DONAR COMPTE DEL DECRET DE L'ALCALDIA NÚM 10666/2026, DE 30 DE JULIOL, PEL QUAL ES NOMENA REGIDOR ADJUNT I REGIDOR PRESIDENT DEL DISTRICTE III I ES DELEGA EN AQUEST DIFERENTS FACULTATS DE L'ALCALDIA.",
+      "resultado": "assabentat",
       "texto_redactado": "DONAR COMPTE DEL DECRET DE L'ALCALDIA NÚM 10666/2026, DE 30 DE JULIOL, PEL QUAL ES NOMENA REGIDOR ADJUNT I REGIDOR PRESIDENT DEL DISTRICTE III I ES DELEGA EN AQUEST DIFERENTS FACULTATS DE L'ALCALDIA.",
       "importe_eur": null,
       "sensible": false,
@@ -66,7 +68,7 @@
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -74,6 +76,7 @@
       "sesion_id": "2026-09-23",
       "orden": 3,
       "titulo": "DONAR COMPTE DE L'INFORME D'AVALUACIÓ NORMATIVA 2026, RELATIU A LA NORMATIVA MUNICIPAL PROGRAMADA I/O APROVADA ELS ANYS 2024 I 2025.",
+      "resultado": "assabentat",
       "texto_redactado": "DONAR COMPTE DE L'INFORME D'AVALUACIÓ NORMATIVA 2026, RELATIU A LA NORMATIVA MUNICIPAL PROGRAMADA I/O APROVADA ELS ANYS 2024 I 2025.",
       "importe_eur": null,
       "sensible": false,
@@ -83,13 +86,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.85,
+      "confianza_min": 0.86,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -97,6 +100,7 @@
       "sesion_id": "2026-09-23",
       "orden": 4,
       "titulo": "DONAR COMPTE DE LA RESOLUCIÓ DE LA SÍNDICA DE GREUGES DE L'HOSPITALET DE LLOBREGAT, SIN/215/2026, DE 22 DE JULIOL DE 2026, PER LA QUAL S'APROVA LA SIGNATURA DE LA PRÒRROGA DEL CONVENI DE COL·LABORACIÓ ENTRE EL SINDIC DE GREUGES DE CATALUNYA I EL SINDIC DE GREUGES DE L'HOSPITALET.",
+      "resultado": "assabentat",
       "texto_redactado": "DONAR COMPTE DE LA RESOLUCIÓ DE LA SÍNDICA DE GREUGES DE L'HOSPITALET DE LLOBREGAT, SIN/215/2026, DE 22 DE JULIOL DE 2026, PER LA QUAL S'APROVA LA SIGNATURA DE LA PRÒRROGA DEL CONVENI DE COL·LABORACIÓ ENTRE EL SINDIC DE GREUGES DE CATALUNYA I EL SINDIC DE GREUGES DE L'HOSPITALET.",
       "importe_eur": null,
       "sensible": false,
@@ -106,13 +110,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.83,
+      "confianza_min": 0.84,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -120,29 +124,7 @@
       "sesion_id": "2026-09-23",
       "orden": 5,
       "titulo": "Punto de personal",
-      "texto_redactado": "",
-      "importe_eur": null,
-      "sensible": true,
-      "tipo_punto": "otro",
-      "temas": [
-        "personal"
-      ],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": 0.84,
-      "revision_manual": false,
-      "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
-        "version": "taxonomia 2026-09-30.1",
-        "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
-      }
-    },
-    {
-      "id": "2026-09-23#6",
-      "sesion_id": "2026-09-23",
-      "orden": 6,
-      "titulo": "Punto de personal",
+      "resultado": null,
       "texto_redactado": "",
       "importe_eur": null,
       "sensible": true,
@@ -158,14 +140,15 @@
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
-      "id": "2026-09-23#7",
+      "id": "2026-09-23#6",
       "sesion_id": "2026-09-23",
-      "orden": 7,
+      "orden": 6,
       "titulo": "Punto de personal",
+      "resultado": null,
       "texto_redactado": "",
       "importe_eur": null,
       "sensible": true,
@@ -175,13 +158,37 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.84,
+      "confianza_min": 0.85,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
+      }
+    },
+    {
+      "id": "2026-09-23#7",
+      "sesion_id": "2026-09-23",
+      "orden": 7,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -189,6 +196,7 @@
       "sesion_id": "2026-09-23",
       "orden": 8,
       "titulo": "DONAR COMPTE DELS INFORMES DE LA TRESORERIA I LA INTERVENCIÓ GENERAL, D'ACORD AMB L'ART. 4 DE LA LLEI 15/2010, DE 5 DE JULIOL, I L'ART. 10 DE LA LLEI 25/2013 EN RELACIÓ ALS TERMINIS DE PAGAMENTALS PROVEIDORS I LA GESTIÓ DE",
+      "resultado": null,
       "texto_redactado": "DONAR COMPTE DELS INFORMES DE LA TRESORERIA I LA INTERVENCIÓ GENERAL, D'ACORD AMB L'ART. 4 DE LA LLEI 15/2010, DE 5 DE JULIOL, I L'ART. 10 DE LA LLEI 25/2013 EN RELACIÓ ALS TERMINIS DE PAGAMENTALS PROVEIDORS I LA GESTIÓ DE",
       "importe_eur": null,
       "sensible": false,
@@ -198,13 +206,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.86,
+      "confianza_min": 0.84,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -212,6 +220,7 @@
       "sesion_id": "2026-09-23",
       "orden": 9,
       "titulo": "Punto de personal",
+      "resultado": null,
       "texto_redactado": "",
       "importe_eur": null,
       "sensible": true,
@@ -221,13 +230,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.92,
+      "confianza_min": 0.85,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -235,6 +244,7 @@
       "sesion_id": "2026-09-23",
       "orden": 10,
       "titulo": "Punto de personal",
+      "resultado": null,
       "texto_redactado": "",
       "importe_eur": null,
       "sensible": true,
@@ -244,13 +254,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.91,
+      "confianza_min": 0.85,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -258,6 +268,7 @@
       "sesion_id": "2026-09-23",
       "orden": 11,
       "titulo": "APROVAR LA MODIFICACIÓ DE CRÈDIT NÚMERO 28 DEL PRESSUPOST MUNICIPAL DE L'EXERCICI 2026, CORRESPONENT A L'EXPEDIENT 115/2026 EN LA MODALITAT DE CRÈDIT EXTRAORDINARI FINANÇAT AMB ROMANENT DE TRESORERIA PER A DESPESES GENERALS PROCEDENT DE LA LIQUIDACIÓ DE L'EXERCICI 2025 I 112/2026 DE BAIXA PER ANUL.LACIÓ/CRÈDIT EXTRAORDINARI.",
+      "resultado": "aprovat",
       "texto_redactado": "APROVAR LA MODIFICACIÓ DE CRÈDIT NÚMERO 28 DEL PRESSUPOST MUNICIPAL DE L'EXERCICI 2026, CORRESPONENT A L'EXPEDIENT 115/2026 EN LA MODALITAT DE CRÈDIT EXTRAORDINARI FINANÇAT AMB ROMANENT DE TRESORERIA PER A DESPESES GENERALS PROCEDENT DE LA LIQUIDACIÓ DE L'EXERCICI 2025 I 112/2026 DE BAIXA PER ANUL.LACIÓ/CRÈDIT EXTRAORDINARI.",
       "importe_eur": null,
       "sensible": false,
@@ -273,7 +284,7 @@
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -281,6 +292,7 @@
       "sesion_id": "2026-09-23",
       "orden": 12,
       "titulo": "APROVAR LA MODIFICACIÓ DE CRÈDIT NÚMERO 29 DEL PRESSUPOST MUNICIPAL DE L'EXERCICI 2026, CORRESPONENT ALS EXPEDIENTS 133/2026 I 135/2026 EN LA MODALITAT DE BAIXA PER ANUL.LACIÓ/CRÈDIT EXTRAORDINARI I 132/2026 I 134/2026 DE BAIXA PER ANUL.LACIÓ/SUPLEMENT DE CRÈDIT.",
+      "resultado": "aprovat",
       "texto_redactado": "APROVAR LA MODIFICACIÓ DE CRÈDIT NÚMERO 29 DEL PRESSUPOST MUNICIPAL DE L'EXERCICI 2026, CORRESPONENT ALS EXPEDIENTS 133/2026 I 135/2026 EN LA MODALITAT DE BAIXA PER ANUL.LACIÓ/CRÈDIT EXTRAORDINARI I 132/2026 I 134/2026 DE BAIXA PER ANUL.LACIÓ/SUPLEMENT DE CRÈDIT.",
       "importe_eur": null,
       "sensible": false,
@@ -290,13 +302,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.99,
+      "confianza_min": 0.98,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -304,6 +316,7 @@
       "sesion_id": "2026-09-23",
       "orden": 13,
       "titulo": "APROVAR DEFINITIVAMENT L'ESTABLIMENT I L'ORDENANÇA FISCAL NÚM. 1.06 DEL RECÀRREC DE L'IMPOST SOBRE LES ESTADES EN ESTABLIMENTS TURÍSTICS.",
+      "resultado": "aprovat",
       "texto_redactado": "APROVAR DEFINITIVAMENT L'ESTABLIMENT I L'ORDENANÇA FISCAL NÚM. 1.06 DEL RECÀRREC DE L'IMPOST SOBRE LES ESTADES EN ESTABLIMENTS TURÍSTICS.",
       "importe_eur": null,
       "sensible": false,
@@ -313,13 +326,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.97,
+      "confianza_min": 0.98,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -327,22 +340,23 @@
       "sesion_id": "2026-09-23",
       "orden": 14,
       "titulo": "Punto sancionador",
+      "resultado": null,
       "texto_redactado": "",
       "importe_eur": null,
       "sensible": true,
-      "tipo_punto": "acuerdo",
+      "tipo_punto": "otro",
       "temas": [
         "otros"
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.69,
       "revision_manual": true,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -350,22 +364,23 @@
       "sesion_id": "2026-09-23",
       "orden": 15,
       "titulo": "Punto sancionador",
+      "resultado": null,
       "texto_redactado": "",
       "importe_eur": null,
       "sensible": true,
-      "tipo_punto": "acuerdo",
+      "tipo_punto": "otro",
       "temas": [
         "otros"
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.68,
       "revision_manual": true,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -373,6 +388,7 @@
       "sesion_id": "2026-09-23",
       "orden": 16,
       "titulo": "APROVAR EL COMPTE GENERAL DE L'AJUNTAMENT, CORRESPONENT A L'EXERCICI 2025.",
+      "resultado": "aprovat",
       "texto_redactado": "APROVAR EL COMPTE GENERAL DE L'AJUNTAMENT, CORRESPONENT A L'EXERCICI 2025.",
       "importe_eur": null,
       "sensible": false,
@@ -382,13 +398,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.9,
+      "confianza_min": 0.89,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -396,6 +412,7 @@
       "sesion_id": "2026-09-23",
       "orden": 17,
       "titulo": "DONAR COMPTE DELS DECRETS D'ALCALDIA I LES RESOLUCIONS DICTADES PER DELEGACIÓ CORRESPONENTS AL PERIODE DEL 20 DE JULIOL AL 13 DE SETEMBRE DE",
+      "resultado": null,
       "texto_redactado": "DONAR COMPTE DELS DECRETS D'ALCALDIA I LES RESOLUCIONS DICTADES PER DELEGACIÓ CORRESPONENTS AL PERIODE DEL 20 DE JULIOL AL 13 DE SETEMBRE DE",
       "importe_eur": null,
       "sensible": false,
@@ -411,7 +428,7 @@
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -419,6 +436,7 @@
       "sesion_id": "2026-09-23",
       "orden": 18,
       "titulo": "DONAR COMPTE DELS ACORDS ADOPTATS PER LA JUNTA DE GOVERN LOCAL",
+      "resultado": null,
       "texto_redactado": "DONAR COMPTE DELS ACORDS ADOPTATS PER LA JUNTA DE GOVERN LOCAL",
       "importe_eur": null,
       "sensible": false,
@@ -428,13 +446,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.84,
+      "confianza_min": 0.86,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -442,6 +460,7 @@
       "sesion_id": "2026-09-23",
       "orden": 19,
       "titulo": "PETICIÓ DE PARAULA DE L'ENTITAT FOMENT DE LA INFORMACIÓ CRÍTICA (FIC), PER RECLAMAR L'ATENCIÓ NECESSÀRIA AL PLE MUNICIPAL SOBRE LES GREUS ACTUACIONS DE LA PRESIDÈNCIA DEL CONSELL EXECUTIU DELS SCM EN LA TRAMITACIÓ D'ESMENES AL CONTRACTE-PROGRAMA.",
+      "resultado": "assabentat",
       "texto_redactado": "PETICIÓ DE PARAULA DE L'ENTITAT FOMENT DE LA INFORMACIÓ CRÍTICA (FIC), PER RECLAMAR L'ATENCIÓ NECESSÀRIA AL PLE MUNICIPAL SOBRE LES GREUS ACTUACIONS DE LA PRESIDÈNCIA DEL CONSELL EXECUTIU DELS SCM EN LA TRAMITACIÓ D'ESMENES AL CONTRACTE-PROGRAMA.",
       "importe_eur": null,
       "sensible": false,
@@ -457,7 +476,7 @@
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -465,6 +484,7 @@
       "sesion_id": "2026-09-23",
       "orden": 20,
       "titulo": "MOCIÓ PER RECLAMAR MESURES URGENTS DAVANT LA DEGRADACIÓ I ELS PROBLEMES D'INSEGURETAT A LA PORTA NORD I L'ENTORN DE CAN RIGAL.",
+      "resultado": "aprovada",
       "texto_redactado": "MOCIÓ PER RECLAMAR MESURES URGENTS DAVANT LA DEGRADACIÓ I ELS PROBLEMES D'INSEGURETAT A LA PORTA NORD I L'ENTORN DE CAN RIGAL.",
       "importe_eur": null,
       "sensible": false,
@@ -475,13 +495,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.96,
+      "confianza_min": 0.97,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -489,6 +509,7 @@
       "sesion_id": "2026-09-23",
       "orden": 21,
       "titulo": "MOCIÓ SOBRE EL FUTUR CAMPUS DE SALUT CLÍNIC-UB, EL FUTUR DE CAN RIGAL I LES NECESSITATS DE LA ZONA NORD DE L'HOSPITALET.",
+      "resultado": "aprovada parcialment per punts",
       "texto_redactado": "MOCIÓ SOBRE EL FUTUR CAMPUS DE SALUT CLÍNIC-UB, EL FUTUR DE CAN RIGAL I LES NECESSITATS DE LA ZONA NORD DE L'HOSPITALET.",
       "importe_eur": null,
       "sensible": false,
@@ -499,13 +520,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.95,
+      "confianza_min": 0.93,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -513,6 +534,7 @@
       "sesion_id": "2026-09-23",
       "orden": 22,
       "titulo": "MOCIÓ PER LA MILLORA DELS PARCS I ZONES DE JOC INFANTILS.",
+      "resultado": "aprovada",
       "texto_redactado": "MOCIÓ PER LA MILLORA DELS PARCS I ZONES DE JOC INFANTILS.",
       "importe_eur": null,
       "sensible": false,
@@ -523,13 +545,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.94,
+      "confianza_min": 0.87,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -537,6 +559,7 @@
       "sesion_id": "2026-09-23",
       "orden": 23,
       "titulo": "MOCIÓN EN DEFENSA DE LA SOBERANÍA ESPAÑOLA DE CEUTA Y MELILLA Y PARA EXIGIR AL GOBIERNO DE ESPAÑA LA ADOPCIÓN DE MEDIDAS EXTRAORDINARIAS ANTE LOS GRAVES ACONTECIMIENTOS PRODUCIDOS EN CEUTA.",
+      "resultado": "rebutjada",
       "texto_redactado": "MOCIÓN EN DEFENSA DE LA SOBERANÍA ESPAÑOLA DE CEUTA Y MELILLA Y PARA EXIGIR AL GOBIERNO DE ESPAÑA LA ADOPCIÓN DE MEDIDAS EXTRAORDINARIAS ANTE LOS GRAVES ACONTECIMIENTOS PRODUCIDOS EN CEUTA.",
       "importe_eur": null,
       "sensible": false,
@@ -546,13 +569,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.96,
+      "confianza_min": 0.93,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -560,6 +583,7 @@
       "sesion_id": "2026-09-23",
       "orden": 24,
       "titulo": "MOCIÓN PARA PLANIFICAR LA CONVOCATORIA DE NUEVAS PLAZAS DE AGENTES DE LA GUARDIA URBANA Y RECUPERAR SU TELÉFONO DE ATENCIÓN DIRECTA.",
+      "resultado": "aprovada",
       "texto_redactado": "MOCIÓN PARA PLANIFICAR LA CONVOCATORIA DE NUEVAS PLAZAS DE AGENTES DE LA GUARDIA URBANA Y RECUPERAR SU TELÉFONO DE ATENCIÓN DIRECTA.",
       "importe_eur": null,
       "sensible": false,
@@ -571,13 +595,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.95,
+      "confianza_min": 0.94,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -585,23 +609,24 @@
       "sesion_id": "2026-09-23",
       "orden": 25,
       "titulo": "MOCIÓN PARA GARANTIZAR LOS INTERESES DE L'HOSPITALET EN LA TRAMITACIÓN DEL PDU PORTA DIAGONAL-CAMPUS CLÍNIC.",
+      "resultado": "aprovada",
       "texto_redactado": "MOCIÓN PARA GARANTIZAR LOS INTERESES DE L'HOSPITALET EN LA TRAMITACIÓN DEL PDU PORTA DIAGONAL-CAMPUS CLÍNIC.",
       "importe_eur": null,
       "sensible": false,
       "tipo_punto": "mocion",
       "temas": [
-        "mociones_grupos",
-        "urbanismo_licencias"
+        "urbanismo_licencias",
+        "mociones_grupos"
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.93,
+      "confianza_min": 0.92,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -609,22 +634,24 @@
       "sesion_id": "2026-09-23",
       "orden": 26,
       "titulo": "MOCIÓN PARA GARANTIZAR LA TRANSPARENCIA, EL CONTROL Y LA LEGALIDAD EN LOS EMPADRONAMIENTOS Y LA LUCHA CONTRA LA SOBREOCUPACIÓN DE VIVIENDAS EN L'HOSPITALET.",
+      "resultado": "rebutjada",
       "texto_redactado": "MOCIÓN PARA GARANTIZAR LA TRANSPARENCIA, EL CONTROL Y LA LEGALIDAD EN LOS EMPADRONAMIENTOS Y LA LUCHA CONTRA LA SOBREOCUPACIÓN DE VIVIENDAS EN L'HOSPITALET.",
       "importe_eur": null,
       "sensible": false,
       "tipo_punto": "mocion",
       "temas": [
-        "vivienda"
+        "vivienda",
+        "mociones_grupos"
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.96,
+      "confianza_min": 0.94,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -632,22 +659,24 @@
       "sesion_id": "2026-09-23",
       "orden": 27,
       "titulo": "MOCIÓN PARA SOLUCIONAR LOS PROBLEMAS DE INCIVISMO, LA MEJORA DE LA CONVIVENCIA Y EL ESPACIO PÚBLICO EN EL ENTORNO DE LA PLAZA LIBERTAD.",
+      "resultado": "aprovada parcialment per punts",
       "texto_redactado": "MOCIÓN PARA SOLUCIONAR LOS PROBLEMAS DE INCIVISMO, LA MEJORA DE LA CONVIVENCIA Y EL ESPACIO PÚBLICO EN EL ENTORNO DE LA PLAZA LIBERTAD.",
       "importe_eur": null,
       "sensible": false,
       "tipo_punto": "mocion",
       "temas": [
+        "mociones_grupos",
         "seguridad"
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.7,
+      "confianza_min": 0.9,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -655,6 +684,7 @@
       "sesion_id": "2026-09-23",
       "orden": 28,
       "titulo": "MOCIÓ PER EXPRESSAR EL SUPORT DE L'HOSPITALET DE LLOBREGAT A LA CIUTAT I EL POBLE DE CEUTA.",
+      "resultado": "rebutjada",
       "texto_redactado": "MOCIÓ PER EXPRESSAR EL SUPORT DE L'HOSPITALET DE LLOBREGAT A LA CIUTAT I EL POBLE DE CEUTA.",
       "importe_eur": null,
       "sensible": false,
@@ -664,13 +694,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.7,
+      "confianza_min": 0.95,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -678,22 +708,25 @@
       "sesion_id": "2026-09-23",
       "orden": 29,
       "titulo": "MOCIÓN PARA LA APROBACIÓN DE UN PROGRAMA MUNICIPAL DE INVENTARIO, RETIRADA Y SUSTITUCIÓN PROGRESIVA DEL AILANTO EN LOS ESPACIOS PÚBLICOS.",
+      "resultado": "rebutjada",
       "texto_redactado": "MOCIÓN PARA LA APROBACIÓN DE UN PROGRAMA MUNICIPAL DE INVENTARIO, RETIRADA Y SUSTITUCIÓN PROGRESIVA DEL AILANTO EN LOS ESPACIOS PÚBLICOS.",
       "importe_eur": null,
       "sensible": false,
       "tipo_punto": "mocion",
       "temas": [
-        "medio_ambiente"
+        "medio_ambiente",
+        "mociones_grupos",
+        "servicios_publicos"
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.93,
+      "confianza_min": 0.98,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -701,22 +734,24 @@
       "sesion_id": "2026-09-23",
       "orden": 30,
       "titulo": "MOCIÓN PARA POTENCIAR LA ACTIVIDAD POLICIAL DE REPRESIÓN ACTIVA DE LA DELINCUENCIA POR PARTE DE LA GUARDIA URBANA DE L'HOSPITALET DE LLOBREGAT.",
+      "resultado": "rebutjada",
       "texto_redactado": "MOCIÓN PARA POTENCIAR LA ACTIVIDAD POLICIAL DE REPRESIÓN ACTIVA DE LA DELINCUENCIA POR PARTE DE LA GUARDIA URBANA DE L'HOSPITALET DE LLOBREGAT.",
       "importe_eur": null,
       "sensible": false,
       "tipo_punto": "mocion",
       "temas": [
-        "seguridad"
+        "seguridad",
+        "mociones_grupos"
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.99,
+      "confianza_min": 0.98,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -724,6 +759,7 @@
       "sesion_id": "2026-09-23",
       "orden": 31,
       "titulo": "MOCIÓN PARA COMBATIR LA SOBREOCUPACIÓN DE VIVIENDAS DE USO RESIDENCIAL.",
+      "resultado": "rebutjada",
       "texto_redactado": "MOCIÓN PARA COMBATIR LA SOBREOCUPACIÓN DE VIVIENDAS DE USO RESIDENCIAL.",
       "importe_eur": null,
       "sensible": false,
@@ -739,7 +775,7 @@
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -747,22 +783,23 @@
       "sesion_id": "2026-09-23",
       "orden": 32,
       "titulo": "MOCIÓ SOBRE LA PROTECCIÓ DE LES PENSIONS DE LES PERSONES QUE HAN COTITZAT MÉS DE 40 ANYS.",
+      "resultado": "aprovada",
       "texto_redactado": "MOCIÓ SOBRE LA PROTECCIÓ DE LES PENSIONS DE LES PERSONES QUE HAN COTITZAT MÉS DE 40 ANYS.",
       "importe_eur": null,
       "sensible": false,
       "tipo_punto": "mocion",
       "temas": [
-        "servicios_sociales"
+        "otros"
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.77,
+      "confianza_min": 0.7,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -770,6 +807,7 @@
       "sesion_id": "2026-09-23",
       "orden": 33,
       "titulo": "MOCIÓ PER A EVITAR ELS TALLS DE SUBMINISTRAMENT ELÈCTRIC A L'HOSPITALET DE LLOBREGAT.",
+      "resultado": "rebutjada",
       "texto_redactado": "MOCIÓ PER A EVITAR ELS TALLS DE SUBMINISTRAMENT ELÈCTRIC A L'HOSPITALET DE LLOBREGAT.",
       "importe_eur": null,
       "sensible": false,
@@ -779,13 +817,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.86,
+      "confianza_min": 0.83,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -793,6 +831,7 @@
       "sesion_id": "2026-09-23",
       "orden": 34,
       "titulo": "MOCIÓ PER A LA ELABORACIÓ D'UN NOU PLA D'ADAPTACIÓ AL CANVI CLIMÀTIC.",
+      "resultado": "rebutjada",
       "texto_redactado": "MOCIÓ PER A LA ELABORACIÓ D'UN NOU PLA D'ADAPTACIÓ AL CANVI CLIMÀTIC.",
       "importe_eur": null,
       "sensible": false,
@@ -808,7 +847,7 @@
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     },
     {
@@ -816,6 +855,7 @@
       "sesion_id": "2026-09-23",
       "orden": 35,
       "titulo": "PRECS I PREGUNTES.",
+      "resultado": null,
       "texto_redactado": "PRECS I PREGUNTES.",
       "importe_eur": null,
       "sensible": false,
@@ -825,13 +865,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.68,
-      "revision_manual": true,
+      "confianza_min": 0.75,
+      "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-09-30T07:57:50.288Z"
+        "fecha": "2026-10-01T15:14:55.873Z"
       }
     }
   ]

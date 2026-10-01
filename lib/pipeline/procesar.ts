@@ -20,6 +20,7 @@ export function redactarPunto(
   sesionId: string,
   orden: number,
   tituloCrudo: string,
+  resultado: string | null = null,
 ): Punto {
   const sensible = esSensible(tituloCrudo);
   const { texto: tituloRedactado } = redactar(tituloCrudo);
@@ -35,6 +36,7 @@ export function redactarPunto(
     sesion_id: sesionId,
     orden,
     titulo,
+    resultado: sensible ? null : resultado,
     texto_redactado: textoRedactado,
     importe_eur: importe,
     sensible,
@@ -57,7 +59,7 @@ export function procesarSesion(entrada: EntradaProceso): DocumentoSesion {
   if (parseado.requiereOcr) {
     estado = 'requiere_ocr';
   } else {
-    puntos = parseado.puntos.map((p) => redactarPunto(sesionId, p.orden, p.titulo));
+    puntos = parseado.puntos.map((p) => redactarPunto(sesionId, p.orden, p.titulo, p.resultado));
     estado = parseado.segmentacionPobre ? 'segmentacion_pobre' : 'redactada';
   }
 

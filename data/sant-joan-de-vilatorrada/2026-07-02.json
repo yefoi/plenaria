@@ -1,0 +1,339 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-joan-de-vilatorrada",
+    "nombre": "Sant Joan de Vilatorrada",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "821880001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-02",
+    "municipio_id": "sant-joan-de-vilatorrada",
+    "fecha": "2026-07-02",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/821880001/2026/49c6e55d-1f71-4fa2-b0f0-fb2945d6c3d6/Acta%20Ple%2002072026.pdf",
+    "hash_contenido": "82df51717914aa936c33c4219021bca4c069ad2683a57a00153f47acb6129cc6",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T15:12:28.183Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-02#1",
+      "sesion_id": "2026-07-02",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió ordinària del Ple de la Corporació de 28 de",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió ordinària del Ple de la Corporació de 28 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:28.183Z"
+      }
+    },
+    {
+      "id": "2026-07-02#2",
+      "sesion_id": "2026-07-02",
+      "orden": 2,
+      "titulo": "Aprovació de la bonificació del 95% de l'ICIO corresponent a una obra",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la bonificació del 95% de l'ICIO corresponent a una obra",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:28.183Z"
+      }
+    },
+    {
+      "id": "2026-07-02#3",
+      "sesion_id": "2026-07-02",
+      "orden": 3,
+      "titulo": "Notificar aquest acord a la persona interessada.",
+      "resultado": null,
+      "texto_redactado": "Notificar aquest acord a la persona interessada.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:28.183Z"
+      }
+    },
+    {
+      "id": "2026-07-02#4",
+      "sesion_id": "2026-07-02",
+      "orden": 4,
+      "titulo": "La competència per a la resolució d’aquest expedient correspon legalment al Ple de",
+      "resultado": null,
+      "texto_redactado": "La competència per a la resolució d’aquest expedient correspon legalment al Ple de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:28.183Z"
+      }
+    },
+    {
+      "id": "2026-07-02#5",
+      "sesion_id": "2026-07-02",
+      "orden": 5,
+      "titulo": "En data 2 de juny de 2026, la tècnica superior d’administració especial, amb la",
+      "resultado": null,
+      "texto_redactado": "En data 2 de juny de 2026, la tècnica superior d’administració especial, amb la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:28.183Z"
+      }
+    },
+    {
+      "id": "2026-07-02#6",
+      "sesion_id": "2026-07-02",
+      "orden": 6,
+      "titulo": "Aprovació de la convalidació del Projecte de millora dels Polígons industrials:",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la convalidació del Projecte de millora dels Polígons industrials:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:28.183Z"
+      }
+    },
+    {
+      "id": "2026-07-02#7",
+      "sesion_id": "2026-07-02",
+      "orden": 7,
+      "titulo": "Aprovació definitiva del Projecte bàsic i executiu d'obres d'instal·lació d'un",
+      "resultado": null,
+      "texto_redactado": "Aprovació definitiva del Projecte bàsic i executiu d'obres d'instal·lació d'un",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:28.183Z"
+      }
+    },
+    {
+      "id": "2026-07-02#8",
+      "sesion_id": "2026-07-02",
+      "orden": 8,
+      "titulo": "En data 5 de juny de 2026, el cap d’àrea de Serveis Territorials ha emès informe",
+      "resultado": null,
+      "texto_redactado": "En data 5 de juny de 2026, el cap d’àrea de Serveis Territorials ha emès informe",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:28.183Z"
+      }
+    },
+    {
+      "id": "2026-07-02#9",
+      "sesion_id": "2026-07-02",
+      "orden": 9,
+      "titulo": "Aprovació de la proposta de presentació d'al·legacions al Pla Territorial",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la proposta de presentació d'al·legacions al Pla Territorial",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:28.183Z"
+      }
+    },
+    {
+      "id": "2026-07-02#10",
+      "sesion_id": "2026-07-02",
+      "orden": 10,
+      "titulo": "Assumptes sobrevinguts.",
+      "resultado": null,
+      "texto_redactado": "Assumptes sobrevinguts.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:28.183Z"
+      }
+    },
+    {
+      "id": "2026-07-02#11",
+      "sesion_id": "2026-07-02",
+      "orden": 11,
+      "titulo": "Donació de compte dels Decrets d'Alcaldia dictats des del núm. 765 al 987",
+      "resultado": null,
+      "texto_redactado": "Donació de compte dels Decrets d'Alcaldia dictats des del núm. 765 al 987",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:28.183Z"
+      }
+    },
+    {
+      "id": "2026-07-02#12",
+      "sesion_id": "2026-07-02",
+      "orden": 12,
+      "titulo": "Informes de Presidència i/o Regidories.",
+      "resultado": null,
+      "texto_redactado": "Informes de Presidència i/o Regidories.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:28.183Z"
+      }
+    },
+    {
+      "id": "2026-07-02#13",
+      "sesion_id": "2026-07-02",
+      "orden": 13,
+      "titulo": "Precs i preguntes.",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:28.183Z"
+      }
+    }
+  ]
+}

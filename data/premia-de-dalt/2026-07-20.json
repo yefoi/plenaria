@@ -1,0 +1,652 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "premia-de-dalt",
+    "nombre": "Premià de Dalt",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "823030008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-20",
+    "municipio_id": "premia-de-dalt",
+    "fecha": "2026-07-20",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/823030008/2026/a82f7686-275b-4efd-a52b-29ec9e9f00de/acta%20n%fam.%204%20ple%20ordinari%20juliol%20pdf.pdf",
+    "hash_contenido": "1fa1cf9b55763b50bce467a4f0acc1de09ae62de7ca5cbc863580181d1057ce4",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T15:12:31.642Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-20#1",
+      "sesion_id": "2026-07-20",
+      "orden": 1,
+      "titulo": "Mireia Boté Massagué (TCAT) (Secretària General), 23/09/2026 13:30",
+      "resultado": null,
+      "texto_redactado": "Mireia Boté Massagué (TCAT) (Secretària General), 23/09/2026 13:30",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#2",
+      "sesion_id": "2026-07-20",
+      "orden": 2,
+      "titulo": "Alejandro Costa Urigoitia (TCAT) (President), 24/09/2026 15:38 AJUNTAMENT DE PREMIÀ DE DALT",
+      "resultado": null,
+      "texto_redactado": "Alejandro Costa Urigoitia (TCAT) (President), 24/09/2026 15:38 AJUNTAMENT DE PREMIÀ DE DALT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#3",
+      "sesion_id": "2026-07-20",
+      "orden": 3,
+      "titulo": "Despatx Oficial.-",
+      "resultado": null,
+      "texto_redactado": "Despatx Oficial.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#4",
+      "sesion_id": "2026-07-20",
+      "orden": 4,
+      "titulo": "Aprovació de l'adhesió a la Comissió Consultiva Comarcal de la Taula de Rieres del",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'adhesió a la Comissió Consultiva Comarcal de la Taula de Rieres del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#5",
+      "sesion_id": "2026-07-20",
+      "orden": 5,
+      "titulo": "Aprovació de la modificació de pressupost núm. 5/2026.-",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la modificació de pressupost núm. 5/2026.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#6",
+      "sesion_id": "2026-07-20",
+      "orden": 6,
+      "titulo": "Aprovació de la modificació de pressupost núm. 12/2026.-",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la modificació de pressupost núm. 12/2026.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#7",
+      "sesion_id": "2026-07-20",
+      "orden": 7,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits.- SEGURETAT CIUTADANA I CONVIVÈNCIA",
+      "resultado": null,
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits.- SEGURETAT CIUTADANA I CONVIVÈNCIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#8",
+      "sesion_id": "2026-07-20",
+      "orden": 8,
+      "titulo": "Aprovació de la xifra anual de població a data 1 de gener de 2026.-",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la xifra anual de població a data 1 de gener de 2026.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#9",
+      "sesion_id": "2026-07-20",
+      "orden": 9,
+      "titulo": "Aprovació de les festes locals de Premià de Dalt, per a l'any 2027.-",
+      "resultado": null,
+      "texto_redactado": "Aprovació de les festes locals de Premià de Dalt, per a l'any 2027.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#10",
+      "sesion_id": "2026-07-20",
+      "orden": 10,
+      "titulo": "Aprovació definitiva de la modificació de l'ordenança reguladora de l'estacionament",
+      "resultado": null,
+      "texto_redactado": "Aprovació definitiva de la modificació de l'ordenança reguladora de l'estacionament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#11",
+      "sesion_id": "2026-07-20",
+      "orden": 11,
+      "titulo": "Moció per reclamar a la Generalitat de Catalunya el finançament suficient i equitatiu",
+      "resultado": null,
+      "texto_redactado": "Moció per reclamar a la Generalitat de Catalunya el finançament suficient i equitatiu",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#12",
+      "sesion_id": "2026-07-20",
+      "orden": 12,
+      "titulo": "Moció en commemoració dels 50 anys de la fi de la dictadura franquista i pel",
+      "resultado": null,
+      "texto_redactado": "Moció en commemoració dels 50 anys de la fi de la dictadura franquista i pel",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#13",
+      "sesion_id": "2026-07-20",
+      "orden": 13,
+      "titulo": "Moció per a la implantació d'un registre d'ADN caní com a eina de civisme i",
+      "resultado": null,
+      "texto_redactado": "Moció per a la implantació d'un registre d'ADN caní com a eina de civisme i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#14",
+      "sesion_id": "2026-07-20",
+      "orden": 14,
+      "titulo": "Preguntes relatives a les subvencions del Pla de Barris.-",
+      "resultado": null,
+      "texto_redactado": "Preguntes relatives a les subvencions del Pla de Barris.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#15",
+      "sesion_id": "2026-07-20",
+      "orden": 15,
+      "titulo": "Preguntes relatives al transport públic.-",
+      "resultado": null,
+      "texto_redactado": "Preguntes relatives al transport públic.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#16",
+      "sesion_id": "2026-07-20",
+      "orden": 16,
+      "titulo": "Preguntes relatives als refugis climàtics.- PREGUNTES PRESENTADES PEL GRUP MUNICIPAL DE VEÏNS PER PREMIÀ DE DALT",
+      "resultado": null,
+      "texto_redactado": "Preguntes relatives als refugis climàtics.- PREGUNTES PRESENTADES PEL GRUP MUNICIPAL DE VEÏNS PER PREMIÀ DE DALT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#17",
+      "sesion_id": "2026-07-20",
+      "orden": 17,
+      "titulo": "PREGUNTES RELATIVES A LA NETEJA DELS CARRERS DEL MUNICIPI",
+      "resultado": null,
+      "texto_redactado": "PREGUNTES RELATIVES A LA NETEJA DELS CARRERS DEL MUNICIPI",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#18",
+      "sesion_id": "2026-07-20",
+      "orden": 18,
+      "titulo": "Preguntes relatives al manteniment de l'asfaltat dels carrers.-",
+      "resultado": null,
+      "texto_redactado": "Preguntes relatives al manteniment de l'asfaltat dels carrers.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#19",
+      "sesion_id": "2026-07-20",
+      "orden": 19,
+      "titulo": "Preguntes relatives als tractaments de fumigació.-",
+      "resultado": null,
+      "texto_redactado": "Preguntes relatives als tractaments de fumigació.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#20",
+      "sesion_id": "2026-07-20",
+      "orden": 20,
+      "titulo": "Preguntes relatives a l'Institut escola Santa Anna.-",
+      "resultado": null,
+      "texto_redactado": "Preguntes relatives a l'Institut escola Santa Anna.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#21",
+      "sesion_id": "2026-07-20",
+      "orden": 21,
+      "titulo": "Preguntes relatives a la ludoteca municipal.-",
+      "resultado": null,
+      "texto_redactado": "Preguntes relatives a la ludoteca municipal.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#22",
+      "sesion_id": "2026-07-20",
+      "orden": 22,
+      "titulo": "Pregunta relativa a la neteja del parc forestal.-",
+      "resultado": null,
+      "texto_redactado": "Pregunta relativa a la neteja del parc forestal.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#23",
+      "sesion_id": "2026-07-20",
+      "orden": 23,
+      "titulo": "Preguntes relatives al Pla parcial de la Cisa.-",
+      "resultado": null,
+      "texto_redactado": "Preguntes relatives al Pla parcial de la Cisa.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#24",
+      "sesion_id": "2026-07-20",
+      "orden": 24,
+      "titulo": "Preguntes relatives a l'Espai de Salut.-",
+      "resultado": null,
+      "texto_redactado": "Preguntes relatives a l'Espai de Salut.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#25",
+      "sesion_id": "2026-07-20",
+      "orden": 25,
+      "titulo": "Preguntes relatives a les pistes de vòlei platja.-",
+      "resultado": null,
+      "texto_redactado": "Preguntes relatives a les pistes de vòlei platja.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    },
+    {
+      "id": "2026-07-20#26",
+      "sesion_id": "2026-07-20",
+      "orden": 26,
+      "titulo": "Pregunta relativa al dèficit democràtic.- DESENVOLUPAMENT DE LA SESSIÓ",
+      "resultado": null,
+      "texto_redactado": "Pregunta relativa al dèficit democràtic.- DESENVOLUPAMENT DE LA SESSIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:31.642Z"
+      }
+    }
+  ]
+}

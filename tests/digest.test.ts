@@ -21,6 +21,7 @@ function punto(parcial: Partial<Punto> & { id: string; orden: number; titulo: st
     revision_manual: false,
     clasificado_con: null,
     ...parcial,
+    resultado: parcial.resultado ?? null,
   };
 }
 

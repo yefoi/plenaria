@@ -1,5 +1,5 @@
 import * as cheerio from 'cheerio';
-import { parsearDocumentoPdf } from '@/lib/adapters/parse';
+import { parsearDocumento } from '@/lib/adapters/parse';
 import { descargar } from '@/lib/http/fetcher';
 import type { Municipio } from '@/lib/schemas';
 import { hashCorto } from '@/lib/utils/hash';
@@ -128,6 +128,6 @@ export class PdfTransparenciaAdapter implements SourceAdapter {
   }
 
   async parse(contenido: ContenidoSesion): Promise<DocumentoParseado> {
-    return parsearDocumentoPdf(contenido.buffer, this.formato);
+    return parsearDocumento(contenido.buffer, this.formato);
   }
 }

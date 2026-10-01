@@ -1,5 +1,5 @@
 import * as cheerio from 'cheerio';
-import { parsearDocumentoPdf } from '@/lib/adapters/parse';
+import { parsearDocumento } from '@/lib/adapters/parse';
 import { descargar } from '@/lib/http/fetcher';
 import { fechaDesdeUrl } from '@/lib/adapters/pdf-transparencia';
 import type { Municipio, TipoSesion } from '@/lib/schemas';
@@ -148,6 +148,6 @@ export class PortalSesionesAdapter implements SourceAdapter {
   }
 
   async parse(contenido: ContenidoSesion): Promise<DocumentoParseado> {
-    return parsearDocumentoPdf(contenido.buffer, 'auto');
+    return parsearDocumento(contenido.buffer, 'auto');
   }
 }

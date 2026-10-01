@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "caldes-de-malavella",
+    "nombre": "Caldes de Malavella",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1703350006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-14",
+    "municipio_id": "caldes-de-malavella",
+    "fecha": "2026-07-14",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1703350006/2026/590451f0-fb20-406e-adb2-ab8c0e9ed184/ACTA%20DEL%20PLE%202026-0006%20[ACTA%20DEL%20PLE%2020260714].pdf",
+    "hash_contenido": "e7160cf91556f951dd49b61cd9a2e38605a2d5c75a3b0281a7de70c8c2c8aaa3",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T15:12:49.659Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-14#1",
+      "sesion_id": "2026-07-14",
+      "orden": 1,
+      "titulo": "Legislació de caràcter general.",
+      "resultado": null,
+      "texto_redactado": "Legislació de caràcter general.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:49.659Z"
+      }
+    },
+    {
+      "id": "2026-07-14#2",
+      "sesion_id": "2026-07-14",
+      "orden": 2,
+      "titulo": "Planejament territorial vigent (escala supramunicipal)",
+      "resultado": null,
+      "texto_redactado": "Planejament territorial vigent (escala supramunicipal)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:49.659Z"
+      }
+    },
+    {
+      "id": "2026-07-14#3",
+      "sesion_id": "2026-07-14",
+      "orden": 3,
+      "titulo": "Planejament municipal de Caldes de Malavella.",
+      "resultado": null,
+      "texto_redactado": "Planejament municipal de Caldes de Malavella.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:49.659Z"
+      }
+    }
+  ]
+}

@@ -7,6 +7,7 @@ import { tipoDesdeTexto } from '@/lib/adapters/types';
 import { MUNICIPIOS, municipioPorId } from '@/lib/config';
 import { cargarRobots } from '@/lib/http/fetcher';
 import { descargar } from '@/lib/http/fetcher';
+import { rutaPermitida } from '@/lib/http/robots';
 import { procesarSesion } from '@/lib/pipeline/procesar';
 import { crearRepositorio } from '@/lib/repo/repository';
 import { parsearArgs } from '@/lib/utils/args';
@@ -158,11 +159,20 @@ async function ingestaAutomatica(
   }
 
   const robots: Record<string, string> = {};
-  const csvUrl = municipio.fuente_config.csv_url as string | undefined;
-  for (const url of [csvUrl, candidatas[0]?.urlDocumento].filter((u): u is string => Boolean(u))) {
+  const urlsMuestra = [
+    municipio.fuente_config.csv_url,
+    municipio.fuente_config.listado_url,
+    candidatas[0]?.urlDocumento,
+  ].filter((u): u is string => typeof u === 'string' && u.length > 0);
+  for (const url of urlsMuestra) {
     const u = new URL(url);
     const reglas = await cargarRobots(u.origin);
-    robots[u.origin] = reglas ? 'robots.txt leído con parser estándar' : 'robots.txt no disponible';
+    const ruta = u.pathname + u.search;
+    robots[`${u.origin}${ruta}`] = reglas
+      ? rutaPermitida(reglas, ruta)
+        ? 'permitido por robots.txt'
+        : 'BLOQUEADO por robots.txt (revisar adaptador)'
+      : 'robots.txt no disponible';
   }
 
   const status: FuentesStatus = {

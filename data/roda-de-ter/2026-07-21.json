@@ -1,0 +1,293 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "roda-de-ter",
+    "nombre": "Roda de Ter",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "818310007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-21",
+    "municipio_id": "roda-de-ter",
+    "fecha": "2026-07-21",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/818310007/2026/17380a0e-366d-4288-bc1e-9996a1d1e3d7/ACTA%20PLE%2021%20JULIOL%202026.pdf",
+    "hash_contenido": "2680afc05c4b993d1532b03197be789800bd0b8821c061607570645d49464419",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T15:14:35.607Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-21#1",
+      "sesion_id": "2026-07-21",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L'ACTA DE LA SESSIÓ ORDINÀRIA DEL DIA 16 DE JUNY DE 2026.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L'ACTA DE LA SESSIÓ ORDINÀRIA DEL DIA 16 DE JUNY DE 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:14:35.607Z"
+      }
+    },
+    {
+      "id": "2026-07-21#2",
+      "sesion_id": "2026-07-21",
+      "orden": 2,
+      "titulo": "DICTAMEN RELATIU A L'APROVACIÓ INICIAL DE LA MODIFICACIÓ DE CRÈDIT PER DOCUMENT ACTA_PLE ÒRGAN ALCALDIA EXPEDIENT 1032-000008-2026",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN RELATIU A L'APROVACIÓ INICIAL DE LA MODIFICACIÓ DE CRÈDIT PER DOCUMENT ACTA_PLE ÒRGAN ALCALDIA EXPEDIENT 1032-000008-2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:14:35.607Z"
+      }
+    },
+    {
+      "id": "2026-07-21#3",
+      "sesion_id": "2026-07-21",
+      "orden": 3,
+      "titulo": "DICTAMEN RELATIU A L’APROVACIÓ DE LA CONCERTACIÓ D’UNA OPERACIÓ DE PRÉSTEC AMB EL BANC SABADELL S.A. PER FINANÇAR INVERSIONS PER UN IMPORT DE",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN RELATIU A L’APROVACIÓ DE LA CONCERTACIÓ D’UNA OPERACIÓ DE PRÉSTEC AMB EL BANC SABADELL S.A. PER FINANÇAR INVERSIONS PER UN IMPORT DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:14:35.607Z"
+      }
+    },
+    {
+      "id": "2026-07-21#4",
+      "sesion_id": "2026-07-21",
+      "orden": 4,
+      "titulo": "DICTAMEN RELATIU A L’ADJUDICACIÓ DEL CONTRACTE DEL SERVEI DE CONSERVACIÓ I MANTENIMENT DE LES ZONES VERDES, EQUIPAMENTS MUNICIPALS I ESPAIS LLIURES I LA CONSERVACIÓ I MANTENIMENT DELS JOCS INFANTIL DEL MUNICIPI DE RODA DE TER",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN RELATIU A L’ADJUDICACIÓ DEL CONTRACTE DEL SERVEI DE CONSERVACIÓ I MANTENIMENT DE LES ZONES VERDES, EQUIPAMENTS MUNICIPALS I ESPAIS LLIURES I LA CONSERVACIÓ I MANTENIMENT DELS JOCS INFANTIL DEL MUNICIPI DE RODA DE TER",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:14:35.607Z"
+      }
+    },
+    {
+      "id": "2026-07-21#5",
+      "sesion_id": "2026-07-21",
+      "orden": 5,
+      "titulo": "DICTAMEN RELATIU A L’APROVACIÓ DE L’EXPEDIENT DE LICITACIÓ DEL CONTRACTE D’OBRES PER A L’EXECUCIÓ DE LES OBRES CONTEMPLADES EN EL PROJECTE D’OBRES DE RECONSTRUCCIÓ DE LA PORXADA DE CAN PLANOLES",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN RELATIU A L’APROVACIÓ DE L’EXPEDIENT DE LICITACIÓ DEL CONTRACTE D’OBRES PER A L’EXECUCIÓ DE LES OBRES CONTEMPLADES EN EL PROJECTE D’OBRES DE RECONSTRUCCIÓ DE LA PORXADA DE CAN PLANOLES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:14:35.607Z"
+      }
+    },
+    {
+      "id": "2026-07-21#6",
+      "sesion_id": "2026-07-21",
+      "orden": 6,
+      "titulo": "DICTAMEN RELATIU A L'APROVACIÓ DEL PROTOCOL D'INTERVENCIÓ EN OCUPACIONS D'IMMOBLES QUE GENEREN ALTERACIÓ DE LA CONVIVÈNCIA VEÏNAL DE L'AJUNTAMENT DE RODA DE TER",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN RELATIU A L'APROVACIÓ DEL PROTOCOL D'INTERVENCIÓ EN OCUPACIONS D'IMMOBLES QUE GENEREN ALTERACIÓ DE LA CONVIVÈNCIA VEÏNAL DE L'AJUNTAMENT DE RODA DE TER",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:14:35.607Z"
+      }
+    },
+    {
+      "id": "2026-07-21#7",
+      "sesion_id": "2026-07-21",
+      "orden": 7,
+      "titulo": "DICTAMEN RELATIU A L’APROVACIÓ INICIAL DEL PROJECTE EXECUTIU DE BOMBA DE CALOR AEROTÈRMICA PER A SUBSTITUIR EL GAS NATURAL EN LA PRODUCCIÓ DE L’AIGUA CALENTA SANITÀRIA A L’EDIFICI DEL PAVELLÓ MUNICIPAL DE RODA DE TER",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN RELATIU A L’APROVACIÓ INICIAL DEL PROJECTE EXECUTIU DE BOMBA DE CALOR AEROTÈRMICA PER A SUBSTITUIR EL GAS NATURAL EN LA PRODUCCIÓ DE L’AIGUA CALENTA SANITÀRIA A L’EDIFICI DEL PAVELLÓ MUNICIPAL DE RODA DE TER",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:14:35.607Z"
+      }
+    },
+    {
+      "id": "2026-07-21#8",
+      "sesion_id": "2026-07-21",
+      "orden": 8,
+      "titulo": "DICTAMEN RELATIU A L’APROVACIO FESTES LOCALS PER A L’ANY 2027",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN RELATIU A L’APROVACIO FESTES LOCALS PER A L’ANY 2027",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:14:35.607Z"
+      }
+    },
+    {
+      "id": "2026-07-21#9",
+      "sesion_id": "2026-07-21",
+      "orden": 9,
+      "titulo": "Donar compte de les resolucions de l'alcalde",
+      "resultado": null,
+      "texto_redactado": "Donar compte de les resolucions de l'alcalde",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:14:35.607Z"
+      }
+    },
+    {
+      "id": "2026-07-21#10",
+      "sesion_id": "2026-07-21",
+      "orden": 10,
+      "titulo": "Donar compte dels acords de la Junta de Govern Local",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels acords de la Junta de Govern Local",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:14:35.607Z"
+      }
+    },
+    {
+      "id": "2026-07-21#11",
+      "sesion_id": "2026-07-21",
+      "orden": 11,
+      "titulo": "MOCIO DEL GRUP MUNICIPAL RODEM PER IMPULSAR MESURES DE BENESTAR ANIMAL I MILLORA DE LA CONVIVENCIA URBANA A RODA DE TER",
+      "resultado": null,
+      "texto_redactado": "MOCIO DEL GRUP MUNICIPAL RODEM PER IMPULSAR MESURES DE BENESTAR ANIMAL I MILLORA DE LA CONVIVENCIA URBANA A RODA DE TER",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:14:35.607Z"
+      }
+    }
+  ]
+}

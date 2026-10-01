@@ -1,0 +1,342 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-vicenc-de-castellet",
+    "nombre": "Sant Vicenç de Castellet",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "826280001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-01",
+    "municipio_id": "sant-vicenc-de-castellet",
+    "fecha": "2026-07-01",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/826280001/2026/f77a61ab-91ec-4fa3-9eae-1c3c771ca414/ACTA%20LOPD%20PLE06-2026%201%20JULIOL.pdf",
+    "hash_contenido": "863a0ee7c048c2b8ca8d111c1e9ef6405e85bc92f904f9ece740e44b89b2a79c",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T15:12:36.931Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-01#1",
+      "sesion_id": "2026-07-01",
+      "orden": 1,
+      "titulo": "LECTURA I APROVACIÓ, SI PROCEDEIX, DE LA MINUTA DE L'ACTA DE LA SESSIÓ ANTERIOR ....................................................................................................................................... 6",
+      "resultado": null,
+      "texto_redactado": "LECTURA I APROVACIÓ, SI PROCEDEIX, DE LA MINUTA DE L'ACTA DE LA SESSIÓ ANTERIOR ....................................................................................................................................... 6",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:36.931Z"
+      }
+    },
+    {
+      "id": "2026-07-01#2",
+      "sesion_id": "2026-07-01",
+      "orden": 2,
+      "titulo": "DESPATX D'OFICI ...................................................................................................................... 6",
+      "resultado": null,
+      "texto_redactado": "DESPATX D'OFICI ...................................................................................................................... 6",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:36.931Z"
+      }
+    },
+    {
+      "id": "2026-07-01#3",
+      "sesion_id": "2026-07-01",
+      "orden": 3,
+      "titulo": "ALCALDIA - PRESIDÈNCIA ........................................................................................................ 6",
+      "resultado": null,
+      "texto_redactado": "ALCALDIA - PRESIDÈNCIA ........................................................................................................ 6",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:36.931Z"
+      }
+    },
+    {
+      "id": "2026-07-01#4",
+      "sesion_id": "2026-07-01",
+      "orden": 4,
+      "titulo": "REGIDORIA DE GOVERNACIÓ I HISENDA ............................................................................. 11",
+      "resultado": null,
+      "texto_redactado": "REGIDORIA DE GOVERNACIÓ I HISENDA ............................................................................. 11",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:36.931Z"
+      }
+    },
+    {
+      "id": "2026-07-01#5",
+      "sesion_id": "2026-07-01",
+      "orden": 5,
+      "titulo": "REGIDORIA DE CULTURA, VIA PòBLICA, ADMINISTRACIÓ, ORGANITZACIÓ I RECURSOS HUMANS . ...................................................................................................................................... 33",
+      "resultado": null,
+      "texto_redactado": "REGIDORIA DE CULTURA, VIA PòBLICA, ADMINISTRACIÓ, ORGANITZACIÓ I RECURSOS HUMANS . ...................................................................................................................................... 33",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:36.931Z"
+      }
+    },
+    {
+      "id": "2026-07-01#6",
+      "sesion_id": "2026-07-01",
+      "orden": 6,
+      "titulo": "REGIDORIA DE PARTICIPACIÓ CIUTADANA, PROMOCIÓ ECONÒMICA, COMERÇ I TURISME I HABITATGE. ............................................................................................................... 36",
+      "resultado": null,
+      "texto_redactado": "REGIDORIA DE PARTICIPACIÓ CIUTADANA, PROMOCIÓ ECONÒMICA, COMERÇ I TURISME I HABITATGE. ............................................................................................................... 36",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:36.931Z"
+      }
+    },
+    {
+      "id": "2026-07-01#7",
+      "sesion_id": "2026-07-01",
+      "orden": 7,
+      "titulo": "REGIDORIA D’URBANISME I ESPORTS ................................................................................. 49",
+      "resultado": null,
+      "texto_redactado": "REGIDORIA D’URBANISME I ESPORTS ................................................................................. 49",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion",
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:36.931Z"
+      }
+    },
+    {
+      "id": "2026-07-01#8",
+      "sesion_id": "2026-07-01",
+      "orden": 8,
+      "titulo": "REGIDORIA DE SALUT, EDUCACIÓ I MOBILITAT. ................................................................. 55",
+      "resultado": null,
+      "texto_redactado": "REGIDORIA DE SALUT, EDUCACIÓ I MOBILITAT. ................................................................. 55",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion",
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:36.931Z"
+      }
+    },
+    {
+      "id": "2026-07-01#9",
+      "sesion_id": "2026-07-01",
+      "orden": 9,
+      "titulo": "DONAR COMPTE DECRETS ................................................................................................... 57",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DECRETS ................................................................................................... 57",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:36.931Z"
+      }
+    },
+    {
+      "id": "2026-07-01#10",
+      "sesion_id": "2026-07-01",
+      "orden": 10,
+      "titulo": "MOCIONS ............................................................................................................................... 58",
+      "resultado": null,
+      "texto_redactado": "MOCIONS ............................................................................................................................... 58",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:36.931Z"
+      }
+    },
+    {
+      "id": "2026-07-01#11",
+      "sesion_id": "2026-07-01",
+      "orden": 11,
+      "titulo": "TEMES SOBREVINGUTS ....................................................................................................... 58",
+      "resultado": null,
+      "texto_redactado": "TEMES SOBREVINGUTS ....................................................................................................... 58",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:36.931Z"
+      }
+    },
+    {
+      "id": "2026-07-01#12",
+      "sesion_id": "2026-07-01",
+      "orden": 12,
+      "titulo": "PRECS I PREGUNTES ......................................................................................................... 114",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES ......................................................................................................... 114",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:36.931Z"
+      }
+    },
+    {
+      "id": "2026-07-01#13",
+      "sesion_id": "2026-07-01",
+      "orden": 13,
+      "titulo": "Obligacions de les persones beneficiàries.",
+      "resultado": null,
+      "texto_redactado": "Obligacions de les persones beneficiàries.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:36.931Z"
+      }
+    }
+  ]
+}

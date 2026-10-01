@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { FiltrosPuntos } from '@/app/components/FiltrosPuntos';
 import { Insignia } from '@/app/components/Insignia';
+import { MapaEspana, PINES_MAPA } from '@/app/components/MapaEspana';
 import { PuntoCard } from '@/app/components/PuntoCard';
 import { TimelineSesiones } from '@/app/components/TimelineSesiones';
 import { municipioPorId } from '@/lib/config';
@@ -29,6 +30,7 @@ export default async function PaginaMunicipio({
   const ultima = sesiones[0] ?? null;
   const doc = ultima ? await repo.obtenerSesion(municipio.id, ultima.id) : null;
   const digest = await repo.obtenerUltimoDigest(municipio.id);
+  const pinMunicipio = PINES_MAPA.find((p) => p.municipio_id === municipio.id) ?? null;
 
   const temaActivo = tema && (TEMAS as readonly string[]).includes(tema) ? (tema as Tema) : null;
   const afectaActivo = afecta === '1';
@@ -56,12 +58,35 @@ export default async function PaginaMunicipio({
         / <span>{municipio.nombre}</span>
       </nav>
 
-      <header className="mt-3">
-        <h1 className="text-2xl font-bold tracking-tight">{municipio.nombre}</h1>
-        <p className="mt-1 text-sm text-stone-600 dark:text-stone-400">
-          {municipio.provincia} · fuente: {municipio.fuente_tipo}
-        </p>
+      <header className="mt-3 flex flex-wrap items-start justify-between gap-4">
+        <div>
+          <h1 className="text-2xl font-bold tracking-tight">{municipio.nombre}</h1>
+          <p className="mt-1 text-sm text-stone-600 dark:text-stone-400">
+            {municipio.provincia} · fuente: {municipio.fuente_tipo}
+          </p>
+        </div>
+        {sesiones.length >= 2 && (
+          <Link
+            className="rounded-lg border border-stone-300 px-3 py-2 text-sm hover:bg-stone-100 dark:border-stone-700 dark:hover:bg-stone-800"
+            href={`/m/${municipio.id}/comparar`}
+          >
+            Comparar sesiones
+          </Link>
+        )}
       </header>
+
+      {pinMunicipio && (
+        <section aria-labelledby="ubicacion" className="mt-6 max-w-sm">
+          <h2 id="ubicacion" className="text-sm font-medium text-stone-600 dark:text-stone-400">
+            Dónde está
+          </h2>
+          <MapaEspana
+            provinciaActiva={pinMunicipio.provincia_id}
+            provinciasConDatos={[...new Set(PINES_MAPA.map((p) => p.provincia_id))]}
+            municipioDestacado={municipio.id}
+          />
+        </section>
+      )}
 
       {digest && (
         <section

@@ -1,0 +1,316 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "alcarras",
+    "nombre": "Alcarràs",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2501170005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-02",
+    "municipio_id": "alcarras",
+    "fecha": "2026-07-02",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2501170005/2026/8e62be55-2b8b-4ff9-a526-7c95c6ed651b/20260914_Acta_Acta%20ple_20260702_ACTA_PLE_APROVADA.pdf",
+    "hash_contenido": "731cadebbf64b11c5ad60ece4d2b20c31e0502989e9e9fd17156638543079e74",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T15:12:33.736Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-02#1",
+      "sesion_id": "2026-07-02",
+      "orden": 1,
+      "titulo": "Aprovació dels esborranys d’actes de les sessions anteriors",
+      "resultado": null,
+      "texto_redactado": "Aprovació dels esborranys d’actes de les sessions anteriors",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:33.736Z"
+      }
+    },
+    {
+      "id": "2026-07-02#2",
+      "sesion_id": "2026-07-02",
+      "orden": 2,
+      "titulo": "Inici de la revisió d’ofici de l’Ordenança reguladora de les activitats ramaderes i",
+      "resultado": null,
+      "texto_redactado": "Inici de la revisió d’ofici de l’Ordenança reguladora de les activitats ramaderes i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:33.736Z"
+      }
+    },
+    {
+      "id": "2026-07-02#3",
+      "sesion_id": "2026-07-02",
+      "orden": 3,
+      "titulo": "Aprovació inicial de la derogació d'ordenances sobre activitats",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial de la derogació d'ordenances sobre activitats",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:33.736Z"
+      }
+    },
+    {
+      "id": "2026-07-02#4",
+      "sesion_id": "2026-07-02",
+      "orden": 4,
+      "titulo": "Aprovació de la delimitació del terme amb Saidí",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la delimitació del terme amb Saidí",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:33.736Z"
+      }
+    },
+    {
+      "id": "2026-07-02#5",
+      "sesion_id": "2026-07-02",
+      "orden": 5,
+      "titulo": "Ratificació dels canvis a l'annex al contracte de compromís amb DESIMPACTE DE PURINS ALCARRAS, SAU",
+      "resultado": null,
+      "texto_redactado": "Ratificació dels canvis a l'annex al contracte de compromís amb DESIMPACTE DE PURINS ALCARRAS, SAU",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:33.736Z"
+      }
+    },
+    {
+      "id": "2026-07-02#6",
+      "sesion_id": "2026-07-02",
+      "orden": 6,
+      "titulo": "Convalidació del canvi en la forma de gestió del servei de l'escola de música",
+      "resultado": null,
+      "texto_redactado": "Convalidació del canvi en la forma de gestió del servei de l'escola de música",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:33.736Z"
+      }
+    },
+    {
+      "id": "2026-07-02#7",
+      "sesion_id": "2026-07-02",
+      "orden": 7,
+      "titulo": "Aprovació inicial de les ordenances reguladores de prestacions patrimonials",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial de les ordenances reguladores de prestacions patrimonials",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:33.736Z"
+      }
+    },
+    {
+      "id": "2026-07-02#8",
+      "sesion_id": "2026-07-02",
+      "orden": 8,
+      "titulo": "Aprovació de la repercussió del cànon de l'aigua del 2024",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la repercussió del cànon de l'aigua del 2024",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:33.736Z"
+      }
+    },
+    {
+      "id": "2026-07-02#9",
+      "sesion_id": "2026-07-02",
+      "orden": 9,
+      "titulo": "Donar compte dels decrets d'Alcaldia",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels decrets d'Alcaldia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:33.736Z"
+      }
+    },
+    {
+      "id": "2026-07-02#10",
+      "sesion_id": "2026-07-02",
+      "orden": 10,
+      "titulo": "Donar compte dels acords de la Junta de Govern Local",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels acords de la Junta de Govern Local",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:33.736Z"
+      }
+    },
+    {
+      "id": "2026-07-02#11",
+      "sesion_id": "2026-07-02",
+      "orden": 11,
+      "titulo": "Assumptes d’urgència",
+      "resultado": null,
+      "texto_redactado": "Assumptes d’urgència",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:33.736Z"
+      }
+    },
+    {
+      "id": "2026-07-02#12",
+      "sesion_id": "2026-07-02",
+      "orden": 12,
+      "titulo": "Precs i preguntes",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:33.736Z"
+      }
+    }
+  ]
+}

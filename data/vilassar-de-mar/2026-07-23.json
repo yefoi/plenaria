@@ -1,0 +1,268 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vilassar-de-mar",
+    "nombre": "Vilassar de Mar",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "821910007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-23",
+    "municipio_id": "vilassar-de-mar",
+    "fecha": "2026-07-23",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/821910007/2026/8787a52f-97f5-465e-89b7-7cd10f0ef6cf/ACTA%20PLE%20ORDINARI%2023-07-2026_ANONIMITZADA.docx",
+    "hash_contenido": "561150cedd298d3fa438fe3a72652c01490f878eea87994f9b1571bd61a8139b",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T15:12:58.109Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-23#1",
+      "sesion_id": "2026-07-23",
+      "orden": 1,
+      "titulo": "APROVACIO DE L'ACTA DE LA SESSIÓ ANTERIOR DEL DIA 18-06-2026.",
+      "resultado": null,
+      "texto_redactado": "APROVACIO DE L'ACTA DE LA SESSIÓ ANTERIOR DEL DIA 18-06-2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:58.109Z"
+      }
+    },
+    {
+      "id": "2026-07-23#2",
+      "sesion_id": "2026-07-23",
+      "orden": 2,
+      "titulo": "DONAR COMPTE DE L’INFORME DE CONTROL PERMANENT PLANIFICABLE OBLIGATORI SOBRE L’EXISTÈNCIA D’OBLIGACIONS DERIVADES DE DESPESES REALITZADES O BÉNS I SERVEIS REBUTS SENSE IMPUTACIÓ PRESSUPOSTÀRIA (COMPTE 413) DE L’EXERCICI 2025.",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE L’INFORME DE CONTROL PERMANENT PLANIFICABLE OBLIGATORI SOBRE L’EXISTÈNCIA D’OBLIGACIONS DERIVADES DE DESPESES REALITZADES O BÉNS I SERVEIS REBUTS SENSE IMPUTACIÓ PRESSUPOSTÀRIA (COMPTE 413) DE L’EXERCICI 2025.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:58.109Z"
+      }
+    },
+    {
+      "id": "2026-07-23#3",
+      "sesion_id": "2026-07-23",
+      "orden": 3,
+      "titulo": "APROVACIÓ INICIAL MC.09/2026 MITJANÇANT CRÈDIT EXTRAORDINARI I TRANSFERÈNCIA DE CRÈDIT DE DIFERENT ÀREA DE DESPESA.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ INICIAL MC.09/2026 MITJANÇANT CRÈDIT EXTRAORDINARI I TRANSFERÈNCIA DE CRÈDIT DE DIFERENT ÀREA DE DESPESA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:58.109Z"
+      }
+    },
+    {
+      "id": "2026-07-23#4",
+      "sesion_id": "2026-07-23",
+      "orden": 4,
+      "titulo": "RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT PLE JULIOL 2026.",
+      "resultado": null,
+      "texto_redactado": "RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT PLE JULIOL 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:58.109Z"
+      }
+    },
+    {
+      "id": "2026-07-23#5",
+      "sesion_id": "2026-07-23",
+      "orden": 5,
+      "titulo": "CONVENI DE COL·LABORACIÓ ENTRE EL CONSELL COMARCAL DEL MARESME I L’AJUNTAMENT DE VILASSAR DE MAR PER A L’ORGANITZACIÓ D’ESPAIS D’OCI ADAPTATS PER A JOVES AMB DISCAPACITAT INTEL·LECTUAL.",
+      "resultado": null,
+      "texto_redactado": "CONVENI DE COL·LABORACIÓ ENTRE EL CONSELL COMARCAL DEL MARESME I L’AJUNTAMENT DE VILASSAR DE MAR PER A L’ORGANITZACIÓ D’ESPAIS D’OCI ADAPTATS PER A JOVES AMB DISCAPACITAT INTEL·LECTUAL.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:58.109Z"
+      }
+    },
+    {
+      "id": "2026-07-23#6",
+      "sesion_id": "2026-07-23",
+      "orden": 6,
+      "titulo": "ADHESIÓ I FORMALITZACIÓ DEL CONVENI MARC DE COL·LABORACIÓ ENTRE EL CONSELL COMARCAL DEL MARESME I L’AJUNTAMENT DE VILASSAR DE MAR PER L’òS I GESTIÓ DE LES BORSES DE PERSONAL D’ÀMBIT COMARCAL PER OCUPAR TEMPORALMENT LLOCS DE TREBALL",
+      "resultado": null,
+      "texto_redactado": "ADHESIÓ I FORMALITZACIÓ DEL CONVENI MARC DE COL·LABORACIÓ ENTRE EL CONSELL COMARCAL DEL MARESME I L’AJUNTAMENT DE VILASSAR DE MAR PER L’òS I GESTIÓ DE LES BORSES DE PERSONAL D’ÀMBIT COMARCAL PER OCUPAR TEMPORALMENT LLOCS DE TREBALL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:58.109Z"
+      }
+    },
+    {
+      "id": "2026-07-23#7",
+      "sesion_id": "2026-07-23",
+      "orden": 7,
+      "titulo": "RESOLUCIÓ DEL RECURS DE REPOSICIÓ INTERPOSAT PEL SENYOR F.W. CONTRA L’ACORD ADOPTAT PEL PLE DE L’AJUNTAMENT EN DATA 18 DE JUNY DE 2026, D’APROVACIÓ DEFINITIVA DEL DESNONAMENT ADMINISTRATIU DE L’HABITATGE SITUAT AL CARRER NOU NòMERO xxx.",
+      "resultado": null,
+      "texto_redactado": "RESOLUCIÓ DEL RECURS DE REPOSICIÓ INTERPOSAT PEL SENYOR F.W. CONTRA L’ACORD ADOPTAT PEL PLE DE L’AJUNTAMENT EN DATA 18 DE JUNY DE 2026, D’APROVACIÓ DEFINITIVA DEL DESNONAMENT ADMINISTRATIU DE L’HABITATGE SITUAT AL CARRER NOU NòMERO xxx.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:58.109Z"
+      }
+    },
+    {
+      "id": "2026-07-23#8",
+      "sesion_id": "2026-07-23",
+      "orden": 8,
+      "titulo": "REVOCACIÓ DELEGACIÓ A FAVOR DE SOCIETAT MUNICIPAL DE PROMOCIONS URBANES, S.A. DE LA GESTIÓ D'ESTACIONAMENT DE VEHICLES SOTA CONTROL HORARI.",
+      "resultado": null,
+      "texto_redactado": "REVOCACIÓ DELEGACIÓ A FAVOR DE SOCIETAT MUNICIPAL DE PROMOCIONS URBANES, S.A. DE LA GESTIÓ D'ESTACIONAMENT DE VEHICLES SOTA CONTROL HORARI.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:58.109Z"
+      }
+    },
+    {
+      "id": "2026-07-23#9",
+      "sesion_id": "2026-07-23",
+      "orden": 9,
+      "titulo": "DONAR COMPTE DELS DECRETS DE L'ALCALDIA DES DEL 2242/2026 FINS EL 2644/2026.",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DELS DECRETS DE L'ALCALDIA DES DEL 2242/2026 FINS EL 2644/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:58.109Z"
+      }
+    },
+    {
+      "id": "2026-07-23#10",
+      "sesion_id": "2026-07-23",
+      "orden": 10,
+      "titulo": "PRECS I PREGUNTES",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:58.109Z"
+      }
+    }
+  ]
+}

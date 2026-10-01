@@ -40,6 +40,28 @@ export const ETIQUETA_ESTADO: Record<string, string> = {
   error: 'Error',
 };
 
+export function etiquetaResultado(resultado: string): string {
+  const r = resultado.toLowerCase();
+  if (r.includes('parcialment')) return 'Aprobado parcialmente';
+  if (r.startsWith('aprov') || r.startsWith('aprob')) return 'Aprobado';
+  if (r.startsWith('rebutj') || r.startsWith('rechaz')) return 'Rechazado';
+  if (r.includes('assabent')) return 'Dado por enterado';
+  if (r.startsWith('retirat') || r.startsWith('retirad')) return 'Retirado';
+  if (r.startsWith('acceptat') || r.startsWith('aceptad')) return 'Aceptado';
+  if (r.startsWith('desistit') || r.startsWith('desistid')) return 'Desistido';
+  if (r.includes('pendent') || r.includes('pendiente')) return 'Pendiente';
+  return resultado.charAt(0).toUpperCase() + resultado.slice(1);
+}
+
+export function tonoResultado(resultado: string): 'ok' | 'peligro' | 'neutro' {
+  const r = resultado.toLowerCase();
+  if (r.startsWith('aprov') || r.startsWith('aprob') || r.startsWith('acceptat') || r.startsWith('aceptad')) {
+    return 'ok';
+  }
+  if (r.startsWith('rebutj') || r.startsWith('rechaz') || r.startsWith('no aprov')) return 'peligro';
+  return 'neutro';
+}
+
 export function formatearImporte(valor: number): string {
   return new Intl.NumberFormat('es-ES', {
     style: 'currency',

@@ -85,6 +85,7 @@ export const puntoSchema = z.object({
   sesion_id: z.string().min(1),
   orden: z.number().int().min(1),
   titulo: z.string().min(1),
+  resultado: z.string().nullable().default(null),
   texto_redactado: z.string(),
   importe_eur: z.number().nullable(),
   sensible: z.boolean(),

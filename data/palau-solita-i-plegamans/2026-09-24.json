@@ -1,0 +1,339 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "palau-solita-i-plegamans",
+    "nombre": "Palau-solità i Plegamans",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "815680001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-24",
+    "municipio_id": "palau-solita-i-plegamans",
+    "fecha": "2026-09-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/815680001/2026/9c08bd17-f465-4338-b2cc-afdaff6b599b/Extracte%20d%27acords%2024.9.2026.pdf",
+    "hash_contenido": "b36d8748c9c94ca03de27ad09b436a16243df68b50712c14cdb27c797d87a632",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T15:12:10.785Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-24#1",
+      "sesion_id": "2026-09-24",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L’ACTA DE LA SESSIÓ DEL PLE MUNICIPAL DE DATA 30/07/2026",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’ACTA DE LA SESSIÓ DEL PLE MUNICIPAL DE DATA 30/07/2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:10.785Z"
+      }
+    },
+    {
+      "id": "2026-09-24#2",
+      "sesion_id": "2026-09-24",
+      "orden": 2,
+      "titulo": "PRP2026/835 APROVACIÓ MC13/2026 INCORP ROMANENT TRESOR EN APLICACIÓ ART.32 LLEI ESTABIL PRESSUP - TRANSF ENTRE PARTIDES DE DIFERENT ÀREA I CRED. EXTRA. PER BAIXA EN D'ALTRES PARTIDES. ACTUALITZACIÓ PLA ESTRATÈGIC DE SUBVENCIONS.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/835 APROVACIÓ MC13/2026 INCORP ROMANENT TRESOR EN APLICACIÓ ART.32 LLEI ESTABIL PRESSUP - TRANSF ENTRE PARTIDES DE DIFERENT ÀREA I CRED. EXTRA. PER BAIXA EN D'ALTRES PARTIDES. ACTUALITZACIÓ PLA ESTRATÈGIC DE SUBVENCIONS.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:10.785Z"
+      }
+    },
+    {
+      "id": "2026-09-24#3",
+      "sesion_id": "2026-09-24",
+      "orden": 3,
+      "titulo": "MODALITAT: Crèdit extraordinari per baixa altres partides d’acord amb el següent",
+      "resultado": null,
+      "texto_redactado": "MODALITAT: Crèdit extraordinari per baixa altres partides d’acord amb el següent",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:10.785Z"
+      }
+    },
+    {
+      "id": "2026-09-24#4",
+      "sesion_id": "2026-09-24",
+      "orden": 4,
+      "titulo": "PRP2026/820 APROVACIÓ DEL COMPTE ANUAL DE L’EXERCICI 2025",
+      "resultado": null,
+      "texto_redactado": "PRP2026/820 APROVACIÓ DEL COMPTE ANUAL DE L’EXERCICI 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:10.785Z"
+      }
+    },
+    {
+      "id": "2026-09-24#5",
+      "sesion_id": "2026-09-24",
+      "orden": 5,
+      "titulo": "PRP2026/772 DONAR COMPTE DE LA MOROSITAT I DEL PERÍODE MIG DE PAGAMENT DEL 2T 2026",
+      "resultado": null,
+      "texto_redactado": "PRP2026/772 DONAR COMPTE DE LA MOROSITAT I DEL PERÍODE MIG DE PAGAMENT DEL 2T 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:10.785Z"
+      }
+    },
+    {
+      "id": "2026-09-24#6",
+      "sesion_id": "2026-09-24",
+      "orden": 6,
+      "titulo": "PRP2026/773 DONAR COMPTE SOBRE L’ESTAT L’EXECUCIÓ DEL 2T 2026 I DE LA TRAMESA MINISTERI D'HISENDA I ADMINISTRACIONS PÚBLIQUES",
+      "resultado": null,
+      "texto_redactado": "PRP2026/773 DONAR COMPTE SOBRE L’ESTAT L’EXECUCIÓ DEL 2T 2026 I DE LA TRAMESA MINISTERI D'HISENDA I ADMINISTRACIONS PÚBLIQUES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:10.785Z"
+      }
+    },
+    {
+      "id": "2026-09-24#7",
+      "sesion_id": "2026-09-24",
+      "orden": 7,
+      "titulo": "PRP2026/845 INICI EXPEDIENT I APROVACIÓ CONVENI DE CESSIÓ D’ÚS DE PART DE FINCA MUNICIPAL UBICADA A LA PLAÇA RATAPINYADA A E- DISTRIBUCIÓN REDES DIGITALES SLU PER A LA IMPLANTACIÓ D’UN CENTRE DE TRANFORMACIÓ ELÈCTRICA",
+      "resultado": null,
+      "texto_redactado": "PRP2026/845 INICI EXPEDIENT I APROVACIÓ CONVENI DE CESSIÓ D’ÚS DE PART DE FINCA MUNICIPAL UBICADA A LA PLAÇA RATAPINYADA A E- DISTRIBUCIÓN REDES DIGITALES SLU PER A LA IMPLANTACIÓ D’UN CENTRE DE TRANFORMACIÓ ELÈCTRICA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:10.785Z"
+      }
+    },
+    {
+      "id": "2026-09-24#8",
+      "sesion_id": "2026-09-24",
+      "orden": 8,
+      "titulo": "PRP2026/849 INICI EXPEDIENT I APROVACIÓ CONVENI DE CESSIÓ D’ÚS DE PART DE FINCA MUNICIPAL UBICADA A CAN TORRENTS A E-DISTRIBUCIÓN REDES DIGITALES SLU PER A LA IMPLANTACIÓ D’UN CENTRE DE TRANFORMACIÓ ELÈCTRICA",
+      "resultado": null,
+      "texto_redactado": "PRP2026/849 INICI EXPEDIENT I APROVACIÓ CONVENI DE CESSIÓ D’ÚS DE PART DE FINCA MUNICIPAL UBICADA A CAN TORRENTS A E-DISTRIBUCIÓN REDES DIGITALES SLU PER A LA IMPLANTACIÓ D’UN CENTRE DE TRANFORMACIÓ ELÈCTRICA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:10.785Z"
+      }
+    },
+    {
+      "id": "2026-09-24#9",
+      "sesion_id": "2026-09-24",
+      "orden": 9,
+      "titulo": "PRP2026/839 APROVACIÓ DEL CONVENI DE CESSIÓ DELS GEGANTS MUNICIPALS A L'ASSOCIACIÓ COLLA DE GEGANTERS I GRALLERS DE PALAU- SOLITÀ I PLEGAMANS",
+      "resultado": null,
+      "texto_redactado": "PRP2026/839 APROVACIÓ DEL CONVENI DE CESSIÓ DELS GEGANTS MUNICIPALS A L'ASSOCIACIÓ COLLA DE GEGANTERS I GRALLERS DE PALAU- SOLITÀ I PLEGAMANS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:10.785Z"
+      }
+    },
+    {
+      "id": "2026-09-24#10",
+      "sesion_id": "2026-09-24",
+      "orden": 10,
+      "titulo": "PRP2026/846 PENDRE CONEIXEMENT DE L’APROVACIÓ PER PART DE LA JUNTA LOCAL DE SEGURERAT DEL PLA DE SEGURETAT LOCAL DE L'AJUNTAMENT DE PALAU-SOLITÀ I PLEGAMANS",
+      "resultado": null,
+      "texto_redactado": "PRP2026/846 PENDRE CONEIXEMENT DE L’APROVACIÓ PER PART DE LA JUNTA LOCAL DE SEGURERAT DEL PLA DE SEGURETAT LOCAL DE L'AJUNTAMENT DE PALAU-SOLITÀ I PLEGAMANS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:10.785Z"
+      }
+    },
+    {
+      "id": "2026-09-24#11",
+      "sesion_id": "2026-09-24",
+      "orden": 11,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:10.785Z"
+      }
+    },
+    {
+      "id": "2026-09-24#12",
+      "sesion_id": "2026-09-24",
+      "orden": 12,
+      "titulo": "PRP2026/842 RENÚNCIA DEL CÀRREC DE REGIDORA DEL GRUP MUNICIPAL",
+      "resultado": null,
+      "texto_redactado": "PRP2026/842 RENÚNCIA DEL CÀRREC DE REGIDORA DEL GRUP MUNICIPAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:10.785Z"
+      }
+    },
+    {
+      "id": "2026-09-24#13",
+      "sesion_id": "2026-09-24",
+      "orden": 13,
+      "titulo": "PRP2026/844 DONAR COMPTE DE LES RESOLUCIONS EMESES PER L'ALCALDIA I ACORDS DE LA JUNTA DE GOVERN LOCAL DES DE L'ÚLTIMA SESSIÓ PLENÀRIA",
+      "resultado": null,
+      "texto_redactado": "PRP2026/844 DONAR COMPTE DE LES RESOLUCIONS EMESES PER L'ALCALDIA I ACORDS DE LA JUNTA DE GOVERN LOCAL DES DE L'ÚLTIMA SESSIÓ PLENÀRIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:10.785Z"
+      }
+    }
+  ]
+}

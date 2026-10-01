@@ -1,4 +1,4 @@
-import { parsearDocumentoPdf } from '@/lib/adapters/parse';
+import { parsearDocumento } from '@/lib/adapters/parse';
 import type {
   ContenidoSesion,
   DocumentoParseado,
@@ -36,6 +36,6 @@ export class ManualAdapter implements SourceAdapter {
   }
 
   async parse(contenido: ContenidoSesion): Promise<DocumentoParseado> {
-    return parsearDocumentoPdf(contenido.buffer, this.formato);
+    return parsearDocumento(contenido.buffer, this.formato);
   }
 }

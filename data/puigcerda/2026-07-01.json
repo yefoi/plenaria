@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "puigcerda",
+    "nombre": "Puigcerdà",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1714110007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-01",
+    "municipio_id": "puigcerda",
+    "fecha": "2026-07-01",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1714110007/2026/5b983f6a-6f08-4357-9675-a80ba2052465/20260803_Acta_Acta%20ple_ACTA%20DE%20PLE%202026-0004%20[Acta%20Ple%20extraordinari%2001_07_2026].pdf",
+    "hash_contenido": "cdd1aad71a76959658cb3a1a9b86fa6efb0144e2a0800a5e3bea1ba05c838a53",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T15:12:47.094Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-01#1",
+      "sesion_id": "2026-07-01",
+      "orden": 1,
+      "titulo": "APROVAR la verificació del text refós de la la modificació puntual del Pla d’Ordenació",
+      "resultado": null,
+      "texto_redactado": "APROVAR la verificació del text refós de la la modificació puntual del Pla d’Ordenació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:47.094Z"
+      }
+    },
+    {
+      "id": "2026-07-01#2",
+      "sesion_id": "2026-07-01",
+      "orden": 2,
+      "titulo": "DECLARAR la innecessarietat de sotmetiment de l’expedient a nova informació",
+      "resultado": null,
+      "texto_redactado": "DECLARAR la innecessarietat de sotmetiment de l’expedient a nova informació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:47.094Z"
+      }
+    },
+    {
+      "id": "2026-07-01#3",
+      "sesion_id": "2026-07-01",
+      "orden": 3,
+      "titulo": "TRAMETRE a la Comissió Territorial d’Urbanisme de l’Alt Pirineu el present acord,",
+      "resultado": null,
+      "texto_redactado": "TRAMETRE a la Comissió Territorial d’Urbanisme de l’Alt Pirineu el present acord,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:47.094Z"
+      }
+    },
+    {
+      "id": "2026-07-01#4",
+      "sesion_id": "2026-07-01",
+      "orden": 4,
+      "titulo": "NOTIFICAR aquest acord a les persones interessades.",
+      "resultado": null,
+      "texto_redactado": "NOTIFICAR aquest acord a les persones interessades.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:47.094Z"
+      }
+    },
+    {
+      "id": "2026-07-01#5",
+      "sesion_id": "2026-07-01",
+      "orden": 5,
+      "titulo": "DECLARAR el règim de recursos aplicables: Declarar que contra aquest acte de",
+      "resultado": null,
+      "texto_redactado": "DECLARAR el règim de recursos aplicables: Declarar que contra aquest acte de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:47.094Z"
+      }
+    }
+  ]
+}

@@ -14,18 +14,15 @@ y no inventa nada que no esté en el texto**.
 
 ## Estado
 
-41 municipios procesados (más de 4,6 millones de habitantes), con **tipos de
+61 municipios procesados (más de 4,8 millones de habitantes), con **tipos de
 fuente distintos**:
 
-- **38 municipios catalanes** (`ckan-seu-e`): los 13 iniciales (L'Hospitalet,
-  Girona, Tarragona, Salt, Martorell, El Masnou, Rubí, Cambrils, Vilafranca,
-  Blanes, Vic, Reus, Sant Cugat) más el **top 25 por población** del catálogo de
-  la AOC (Barcelona, Badalona, Lleida, Mataró, Manresa, Vilanova i la Geltrú,
-  Viladecans, Mollet del Vallès, Figueres, Sant Feliu de Llobregat, Salou, Sant
-  Vicenç dels Horts, Santa Perpètua de Mogoda, Valls, Manlleu, Vilassar de Mar,
-  Calella, Roses, Malgrat de Mar, Tàrrega, Palamós, Torredembarra, Berga,
-  Montornès del Vallès y Lliçà d'Amunt). Catálogo CSV de la AOC + actas o
-  extractos en PDF. Hay ~170 candidatos más con datos frescos por añadir.
+- **58 municipios catalanes** (`ckan-seu-e`): los 58 con mayor población y
+  datos frescos del catálogo de la AOC (Barcelona, L'Hospitalet, Badalona,
+  Lleida, Tarragona, Mataró, Manresa, Girona, Reus, Sant Cugat, Vilanova i la
+  Geltrú, Viladecans, Figueres, Blanes, Vic y 43 más; la lista completa está en
+  `lib/config.ts`). Catálogo CSV de la AOC + actas, extractos o `.docx`.
+  Hay ~125 candidatos más con datos frescos.
 - **Toledo** (`pdf-transparencia`): listado HTML de actas del Ayuntamiento con
   PDFs.
 - **Área de Madrid** (`portal-sesiones`): **Madrid** y **Móstoles**. El
@@ -65,10 +62,12 @@ descubrir → descargar → extraer texto → segmentar → redactar → clasifi
 
 1. **Adaptadores de fuente** (`lib/adapters/`): `ckan-seu-e` (municipios
    catalanes vía catálogo CSV de AOC), `pdf-transparencia` (listados HTML con
-   PDFs) y `manual` (PDF local o URL para cualquier ayuntamiento).
-2. **Segmentación determinista** (`lib/pipeline/segment.ts`): reconoce el
-   formato «extracte d'acords» (puntos numerados 1..N sin ruido) y actas
-   numeradas; si no reconoce el formato, marca `segmentacion_pobre`.
+   PDFs), `portal-sesiones` (listado → página de sesión → documento; Madrid y
+   Móstoles) y `manual` (PDF local o URL para cualquier ayuntamiento).
+2. **Segmentación determinista** (`lib/pipeline/segment.ts`): reconoce los
+   formatos reales descritos en «Estado»; si no reconoce ninguno, marca
+   `segmentacion_pobre`. Los documentos `.docx` y los PDF con capa de texto se
+   extraen con `unpdf`/`mammoth`; los escaneos se marcan `requiere_ocr`.
 3. **Redacción de datos personales** (`lib/redact/`): DNI, NIE, CIF, correos,
    teléfonos, IBAN, matrículas, direcciones y nombres de particulares se
    sustituyen por marcadores **antes** de cualquier llamada a un modelo. Un
@@ -76,7 +75,8 @@ descubrir → descargar → extraer texto → segmentar → redactar → clasifi
 4. **Clasificación en dos pasadas** (`lib/classify/`):
    - Pasada 1, barata en lote con [classifier.dev](https://classifier.dev):
      tema (multi-etiqueta) y tipo de punto. Los puntos con confianza baja se
-     reescalan a `smart`.
+     reescalan a `smart`. Hay **caché por hash del texto** en
+     `data/_clasificaciones.json`, así que repetir una sesión no gasta llamadas.
    - Pasada 2, con **jev** (TypeSafe AI) vía AI SDK y
      `@ai-sdk/typesafe-ai`: probabilidad de que el punto afecte a vecinos,
      impacto 1-5 con criterios explícitos y si abre plazo de acción ciudadana.
@@ -87,6 +87,22 @@ descubrir → descargar → extraer texto → segmentar → redactar → clasifi
    cifra aparece en el texto fuente (`lib/digest/modelo.ts`).
 6. **Publicación**: JSON versionado en `data/<municipio>/` y web Next.js que lo
    lee. La ingesta en GitHub Actions hace commit de los datos.
+
+## Web pública
+
+- `/`: buscador de municipios y **mapa de España** con zoom por provincia y
+  agrupación de pines cercanos.
+- `/m/[municipio]`: último pleno con filtros por tema y afectación vecinal,
+  mini-mapa de localización, resumen semanal y línea temporal de sesiones.
+- `/m/[municipio]/[sesion]`: todos los puntos, con resultado (aprobado,
+  rechazado, dado por enterado…), etiquetas, confianza, importe y enlace al
+  documento original.
+- `/m/[municipio]/comparar`: comparación determinista entre dos sesiones
+  (conteos por tema, afectación, impacto e importes).
+- `/m/[municipio]/rss.xml`: RSS de impacto alto, filtrable por tema
+  (`?tema=vivienda`).
+- `/metodologia` y `/fuentes`: criterios, limitaciones y estado de la ingesta
+  (incluida la comprobación de `robots.txt` por ruta).
 
 ## Requisitos
 

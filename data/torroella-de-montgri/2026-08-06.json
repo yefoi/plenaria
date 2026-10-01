@@ -1,0 +1,243 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "torroella-de-montgri",
+    "nombre": "Torroella de Montgrí",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1719970005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-08-06",
+    "municipio_id": "torroella-de-montgri",
+    "fecha": "2026-08-06",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1719970005/2026/3881232d-7fbf-4b72-be0e-3d7ac4fdc791/9_Acta_Ple_06082026_SENSE%20DADES.pdf",
+    "hash_contenido": "27d80f3c6a2ac054a7d6fc21af3311148ac0abeaa38c887096b2ed3741ee30a5",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T15:12:20.430Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-08-06#1",
+      "sesion_id": "2026-08-06",
+      "orden": 1,
+      "titulo": "Lectura i aprovació de l’acta de la sessió ordinària del 2 dE JULIOL de 2026. // Exp. 222238P",
+      "resultado": null,
+      "texto_redactado": "Lectura i aprovació de l’acta de la sessió ordinària del 2 dE JULIOL de 2026. // Exp. 222238P",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:20.430Z"
+      }
+    },
+    {
+      "id": "2026-08-06#2",
+      "sesion_id": "2026-08-06",
+      "orden": 2,
+      "titulo": "Lectura i aprovació de l’acta de la sessió extraordinària del 23 de juliol de 2026. // Exp. 228244F",
+      "resultado": null,
+      "texto_redactado": "Lectura i aprovació de l’acta de la sessió extraordinària del 23 de juliol de 2026. // Exp. 228244F",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:20.430Z"
+      }
+    },
+    {
+      "id": "2026-08-06#3",
+      "sesion_id": "2026-08-06",
+      "orden": 3,
+      "titulo": "Aprovació inicial de la modificació de l'Ordenança de mobilitat de l'Ajuntament de Torroella de",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial de la modificació de l'Ordenança de mobilitat de l'Ajuntament de Torroella de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:20.430Z"
+      }
+    },
+    {
+      "id": "2026-08-06#4",
+      "sesion_id": "2026-08-06",
+      "orden": 4,
+      "titulo": "Aprovació del Plec de condicions del Departament d'Educació i Formació Professional per a la",
+      "resultado": null,
+      "texto_redactado": "Aprovació del Plec de condicions del Departament d'Educació i Formació Professional per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:20.430Z"
+      }
+    },
+    {
+      "id": "2026-08-06#5",
+      "sesion_id": "2026-08-06",
+      "orden": 5,
+      "titulo": "Sol·licitud de subvenció i adhesió al Programa de cooperació financera específica per a la",
+      "resultado": null,
+      "texto_redactado": "Sol·licitud de subvenció i adhesió al Programa de cooperació financera específica per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:20.430Z"
+      }
+    },
+    {
+      "id": "2026-08-06#6",
+      "sesion_id": "2026-08-06",
+      "orden": 6,
+      "titulo": "Dació de compte de la contractació de màxima URGÈNCIA de S.B.O. com a operari de Montgrí",
+      "resultado": null,
+      "texto_redactado": "Dació de compte de la contractació de màxima URGÈNCIA de S.B.O. com a operari de Montgrí",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:20.430Z"
+      }
+    },
+    {
+      "id": "2026-08-06#7",
+      "sesion_id": "2026-08-06",
+      "orden": 7,
+      "titulo": "Assumptes urgents. .......................................................................................... 32",
+      "resultado": null,
+      "texto_redactado": "Assumptes urgents. .......................................................................................... 32",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:20.430Z"
+      }
+    },
+    {
+      "id": "2026-08-06#8",
+      "sesion_id": "2026-08-06",
+      "orden": 8,
+      "titulo": "Dació de compte dels decrets d’Alcaldia i de les regidories delegades corresponents al període",
+      "resultado": null,
+      "texto_redactado": "Dació de compte dels decrets d’Alcaldia i de les regidories delegades corresponents al període",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:20.430Z"
+      }
+    },
+    {
+      "id": "2026-08-06#9",
+      "sesion_id": "2026-08-06",
+      "orden": 9,
+      "titulo": "Precs i preguntes. ............................................................................................. 35 DESENVOLUPAMENT DE LA SESSIÓ A) PART RESOLUTIVA EXP. 222238P (SECRETARIA)",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes. ............................................................................................. 35 DESENVOLUPAMENT DE LA SESSIÓ A) PART RESOLUTIVA EXP. 222238P (SECRETARIA)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:20.430Z"
+      }
+    }
+  ]
+}

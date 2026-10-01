@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "la-seu-d-urgell",
+    "nombre": "La Seu d'Urgell",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2520380001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-13",
+    "municipio_id": "la-seu-d-urgell",
+    "fecha": "2026-07-13",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2520380001/2026/81ddab7a-5665-40e2-a26a-2a18e57cf1fb/ple%202026.07.13_signat.pdf",
+    "hash_contenido": "2312e4a2ca486ba6835461028b9de7511fc352da592eedb1003f09c0fff72a9d",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T15:12:13.634Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-13#1",
+      "sesion_id": "2026-07-13",
+      "orden": 1,
+      "titulo": "Aprovació de les actes de les sessions anteriors PLN/2026/6 ordinària i PLN/2026",
+      "resultado": null,
+      "texto_redactado": "Aprovació de les actes de les sessions anteriors PLN/2026/6 ordinària i PLN/2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:13.634Z"
+      }
+    },
+    {
+      "id": "2026-07-13#2",
+      "sesion_id": "2026-07-13",
+      "orden": 2,
+      "titulo": "Expedient 2874/2026. Modificació de Crèdits",
+      "resultado": null,
+      "texto_redactado": "Expedient 2874/2026. Modificació de Crèdits",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:13.634Z"
+      }
+    },
+    {
+      "id": "2026-07-13#3",
+      "sesion_id": "2026-07-13",
+      "orden": 3,
+      "titulo": "Expedient 2342/2026. Operacions de Crèdit",
+      "resultado": null,
+      "texto_redactado": "Expedient 2342/2026. Operacions de Crèdit",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:13.634Z"
+      }
+    },
+    {
+      "id": "2026-07-13#4",
+      "sesion_id": "2026-07-13",
+      "orden": 4,
+      "titulo": "Aspectes procedimentals",
+      "resultado": null,
+      "texto_redactado": "Aspectes procedimentals",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:13.634Z"
+      }
+    },
+    {
+      "id": "2026-07-13#5",
+      "sesion_id": "2026-07-13",
+      "orden": 5,
+      "titulo": "S’ha detectat un error material en el grup de classificació de la plaça de coordinador i",
+      "resultado": null,
+      "texto_redactado": "S’ha detectat un error material en el grup de classificació de la plaça de coordinador i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:13.634Z"
+      }
+    },
+    {
+      "id": "2026-07-13#6",
+      "sesion_id": "2026-07-13",
+      "orden": 6,
+      "titulo": "Es constata que, per error, s'ha assignat a la plaça de Coordinador un grup de",
+      "resultado": null,
+      "texto_redactado": "Es constata que, per error, s'ha assignat a la plaça de Coordinador un grup de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:13.634Z"
+      }
+    },
+    {
+      "id": "2026-07-13#7",
+      "sesion_id": "2026-07-13",
+      "orden": 7,
+      "titulo": "S’ha detectat la necessitat d’homogeneïtzar i unificar els criteris de nomenclatura de",
+      "resultado": null,
+      "texto_redactado": "S’ha detectat la necessitat d’homogeneïtzar i unificar els criteris de nomenclatura de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:13.634Z"
+      }
+    },
+    {
+      "id": "2026-07-13#8",
+      "sesion_id": "2026-07-13",
+      "orden": 8,
+      "titulo": "Consta a l’expedient l’informe amb la identificació de les places.",
+      "resultado": null,
+      "texto_redactado": "Consta a l’expedient l’informe amb la identificació de les places.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:13.634Z"
+      }
+    },
+    {
+      "id": "2026-07-13#9",
+      "sesion_id": "2026-07-13",
+      "orden": 9,
+      "titulo": "Cal fer constar que aquesta modificació té caràcter merament formal, atès que no implica",
+      "resultado": null,
+      "texto_redactado": "Cal fer constar que aquesta modificació té caràcter merament formal, atès que no implica",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:13.634Z"
+      }
+    },
+    {
+      "id": "2026-07-13#10",
+      "sesion_id": "2026-07-13",
+      "orden": 10,
+      "titulo": "La proposta de plantilla per al 2026 amb la incorporació de les modificacions consta a",
+      "resultado": null,
+      "texto_redactado": "La proposta de plantilla per al 2026 amb la incorporació de les modificacions consta a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:13.634Z"
+      }
+    },
+    {
+      "id": "2026-07-13#11",
+      "sesion_id": "2026-07-13",
+      "orden": 11,
+      "titulo": "L’article 27 del Reglament de personal al servei de les entitats locals preveu el següent:",
+      "resultado": null,
+      "texto_redactado": "L’article 27 del Reglament de personal al servei de les entitats locals preveu el següent:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:13.634Z"
+      }
+    }
+  ]
+}

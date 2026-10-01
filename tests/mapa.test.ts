@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+import { agruparPines, type PinMapa } from '@/app/components/MapaEspana';
 import { MUNICIPIOS } from '@/lib/config';
 import mapa from '@/lib/mapa/espana.json';
 
@@ -33,5 +34,35 @@ describe('mapa de España', () => {
       expect(pin.y).toBeGreaterThanOrEqual(y);
       expect(pin.y).toBeLessThanOrEqual(y + alto);
     }
+  });
+
+  it('cada provincia tiene bbox para el zoom', () => {
+    for (const provincia of mapa.provincias) {
+      expect(provincia.bbox).toHaveLength(4);
+      const [x0, y0, x1, y1] = provincia.bbox;
+      expect(x1).toBeGreaterThan(x0);
+      expect(y1).toBeGreaterThan(y0);
+    }
+  });
+});
+
+describe('agruparPines', () => {
+  const pines: PinMapa[] = [
+    { municipio_id: 'a', nombre: 'A', provincia_id: '08', x: 10, y: 10 },
+    { municipio_id: 'b', nombre: 'B', provincia_id: '08', x: 12, y: 11 },
+    { municipio_id: 'c', nombre: 'C', provincia_id: '08', x: 50, y: 50 },
+    { municipio_id: 'd', nombre: 'D', provincia_id: '28', x: 200, y: 200 },
+  ];
+
+  it('agrupa los pines cercanos y deja sueltos los lejanos', () => {
+    const grupos = agruparPines(pines, 10, null);
+    expect(grupos).toHaveLength(3);
+    expect(grupos.find((g) => g.pines.length === 2)?.pines.map((p) => p.municipio_id).sort()).toEqual(['a', 'b']);
+  });
+
+  it('filtra por provincia cuando hay zoom', () => {
+    const grupos = agruparPines(pines, 10, '28');
+    expect(grupos).toHaveLength(1);
+    expect(grupos[0].pines[0].municipio_id).toBe('d');
   });
 });

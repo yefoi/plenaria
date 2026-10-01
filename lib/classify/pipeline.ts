@@ -1,7 +1,9 @@
 import {
   ClienteClassifier,
+  type ItemClasificable,
   type ResultadoClasificacionItem,
 } from '@/lib/classify/classifier';
+import { CacheClasificaciones, claveCache } from '@/lib/classify/cache';
 import { type EvaluadorJev, type JuicioJev } from '@/lib/classify/jev';
 import { hashInstrucciones, VERSION_TAXONOMIA } from '@/lib/classify/taxonomy';
 import { MAX_LLAMADAS_CLASIFICACION, UMBRAL_CONFIANZA } from '@/lib/config';
@@ -17,6 +19,7 @@ export interface OpcionesClasificar {
   usarJev?: boolean;
   umbralConfianza?: number;
   maxJevPorSesion?: number;
+  cache?: CacheClasificaciones;
 }
 
 export interface ResultadoClasificacion {
@@ -71,7 +74,54 @@ export async function clasificarDocumento(
   }
 
   const items = doc.puntos.map((p) => ({ id: p.id, texto: textoParaClasificar(p) }));
-  const clasificaciones = await clientes.classifier.clasificarLote(items, umbral);
+  const hash = hashInstrucciones();
+  const clasificaciones = new Map<string, ResultadoClasificacionItem>();
+  const pendientes: ItemClasificable[] = [];
+  let desdeCache = 0;
+
+  for (const item of items) {
+    const entrada = opciones.cache?.obtener(claveCache(item.texto, hash));
+    if (entrada) {
+      clasificaciones.set(item.id, {
+        temas: { temas: entrada.temas, scores: entrada.scores },
+        tipo: {
+          tipo: entrada.tipo,
+          confianza: entrada.confianza,
+          escalado: entrada.confianza === null,
+        },
+        modelo: entrada.modelo,
+      });
+      desdeCache++;
+    } else {
+      pendientes.push(item);
+    }
+  }
+
+  if (pendientes.length > 0) {
+    const nuevas = await clientes.classifier.clasificarLote(pendientes, umbral);
+    for (const [id, resultado] of nuevas) {
+      clasificaciones.set(id, resultado);
+    }
+    if (opciones.cache) {
+      const fecha = new Date().toISOString();
+      for (const item of pendientes) {
+        const resultado = clasificaciones.get(item.id);
+        if (!resultado) continue;
+        opciones.cache.guardar(claveCache(item.texto, hash), {
+          temas: resultado.temas.temas,
+          scores: resultado.temas.scores,
+          tipo: resultado.tipo.tipo,
+          confianza: resultado.tipo.confianza,
+          modelo: resultado.modelo,
+          fecha,
+        });
+      }
+    }
+  }
+
+  if (desdeCache > 0) {
+    log('info', `Caché de clasificaciones: ${desdeCache} puntos reutilizados, ${pendientes.length} enviados a la API`);
+  }
   const modelosClassifier = new Set<string>();
 
   for (const punto of doc.puntos) {

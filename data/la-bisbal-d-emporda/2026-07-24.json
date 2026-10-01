@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "la-bisbal-d-emporda",
+    "nombre": "La Bisbal d'Empordà",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1702210007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-24",
+    "municipio_id": "la-bisbal-d-emporda",
+    "fecha": "2026-07-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1702210007/2026/acd05932-421e-44ef-ad45-b64de0fd299e/12%20PLE%2024.07.2023_Censurado.pdf",
+    "hash_contenido": "1eeea1d3b32680d81a5dcdb93907b683f0c45ade7c8cee0ae6b749bb4c180eee",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T15:12:26.202Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-24#1",
+      "sesion_id": "2026-07-24",
+      "orden": 1,
+      "titulo": "Yolanda Cuenca Bermúdez (TCAT) (Secretària), 15/11/2023 15:29",
+      "resultado": null,
+      "texto_redactado": "Yolanda Cuenca Bermúdez (TCAT) (Secretària), 15/11/2023 15:29",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:26.202Z"
+      }
+    },
+    {
+      "id": "2026-07-24#2",
+      "sesion_id": "2026-07-24",
+      "orden": 2,
+      "titulo": "Oscar Aparicio Pedrosa (TCAT) (Alcalde), 15/11/2023 16:37 AJUNTAMENT DE LA BISBAL D'EMPORDA",
+      "resultado": null,
+      "texto_redactado": "Oscar Aparicio Pedrosa (TCAT) (Alcalde), 15/11/2023 16:37 AJUNTAMENT DE LA BISBAL D'EMPORDA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:26.202Z"
+      }
+    },
+    {
+      "id": "2026-07-24#3",
+      "sesion_id": "2026-07-24",
+      "orden": 3,
+      "titulo": "DICTAMENS",
+      "resultado": null,
+      "texto_redactado": "DICTAMENS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:26.202Z"
+      }
+    },
+    {
+      "id": "2026-07-24#4",
+      "sesion_id": "2026-07-24",
+      "orden": 4,
+      "titulo": "ACORDS D'URGENCIA",
+      "resultado": null,
+      "texto_redactado": "ACORDS D'URGENCIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:26.202Z"
+      }
+    },
+    {
+      "id": "2026-07-24#5",
+      "sesion_id": "2026-07-24",
+      "orden": 5,
+      "titulo": "DONAR COMPTE",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:26.202Z"
+      }
+    },
+    {
+      "id": "2026-07-24#6",
+      "sesion_id": "2026-07-24",
+      "orden": 6,
+      "titulo": "PRECS I PREGUNTES DESENVOLUPAMENT DE LA SESSIÓ I ACORDS",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES DESENVOLUPAMENT DE LA SESSIÓ I ACORDS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:26.202Z"
+      }
+    },
+    {
+      "id": "2026-07-24#7",
+      "sesion_id": "2026-07-24",
+      "orden": 7,
+      "titulo": "Administracions i organismes de caràcter públic.",
+      "resultado": null,
+      "texto_redactado": "Administracions i organismes de caràcter públic.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:26.202Z"
+      }
+    },
+    {
+      "id": "2026-07-24#8",
+      "sesion_id": "2026-07-24",
+      "orden": 8,
+      "titulo": "Partits polítics amb representació a l’Ajuntament",
+      "resultado": null,
+      "texto_redactado": "Partits polítics amb representació a l’Ajuntament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:26.202Z"
+      }
+    },
+    {
+      "id": "2026-07-24#9",
+      "sesion_id": "2026-07-24",
+      "orden": 9,
+      "titulo": "Entitats no culturals sense afany de lucre domiciliades a la",
+      "resultado": null,
+      "texto_redactado": "Entitats no culturals sense afany de lucre domiciliades a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:26.202Z"
+      }
+    },
+    {
+      "id": "2026-07-24#10",
+      "sesion_id": "2026-07-24",
+      "orden": 10,
+      "titulo": "Entitats culturals sense afany de lucre no domiciliades a la",
+      "resultado": null,
+      "texto_redactado": "Entitats culturals sense afany de lucre no domiciliades a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:26.202Z"
+      }
+    },
+    {
+      "id": "2026-07-24#11",
+      "sesion_id": "2026-07-24",
+      "orden": 11,
+      "titulo": "Empreses privades amb seu a la Bisbal relacionades amb la",
+      "resultado": null,
+      "texto_redactado": "Empreses privades amb seu a la Bisbal relacionades amb la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:26.202Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "moia",
+    "nombre": "Moià",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "813850006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-29",
+    "municipio_id": "moia",
+    "fecha": "2026-07-29",
+    "tipo": "otra",
+    "fuente_url": "https://media.seu-e.cat/acteca/813850006/2026/218469b2-6476-45e2-a41a-0fb384e29e1a/20260730%20-DILIG%c8NCIA%20SUSPENSI%d3%20PLN_2026_7%20de%2029%20juliol%20de%202026_signada.pdf",
+    "hash_contenido": "a657c80d5b77adff96dc91442a2cc926fd4870d74df0449cc2f63409d09b1b20",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T15:12:57.210Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-29#1",
+      "sesion_id": "2026-07-29",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió anterior ordinària PLN/2026/6, de data 17 de",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior ordinària PLN/2026/6, de data 17 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:57.210Z"
+      }
+    },
+    {
+      "id": "2026-07-29#2",
+      "sesion_id": "2026-07-29",
+      "orden": 2,
+      "titulo": "Expedient 2071/2026. Aprovació, si escau, de la modificació de crèdit núm.",
+      "resultado": null,
+      "texto_redactado": "Expedient 2071/2026. Aprovació, si escau, de la modificació de crèdit núm.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:57.210Z"
+      }
+    },
+    {
+      "id": "2026-07-29#3",
+      "sesion_id": "2026-07-29",
+      "orden": 3,
+      "titulo": "Expedient 1047/2026. Aprovació de la xifra oficial de població del municipi de",
+      "resultado": null,
+      "texto_redactado": "Expedient 1047/2026. Aprovació de la xifra oficial de població del municipi de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:57.210Z"
+      }
+    },
+    {
+      "id": "2026-07-29#4",
+      "sesion_id": "2026-07-29",
+      "orden": 4,
+      "titulo": "Expedient 1729/2025. 2ª Aprovació Inicial MP PGO en l'àmbit del sector X",
+      "resultado": null,
+      "texto_redactado": "Expedient 1729/2025. 2ª Aprovació Inicial MP PGO en l'àmbit del sector X",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:57.210Z"
+      }
+    },
+    {
+      "id": "2026-07-29#5",
+      "sesion_id": "2026-07-29",
+      "orden": 5,
+      "titulo": "Expedient 3833/2024. Aprovació del Conveni de cessió de terrenys destinats",
+      "resultado": null,
+      "texto_redactado": "Expedient 3833/2024. Aprovació del Conveni de cessió de terrenys destinats",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:57.210Z"
+      }
+    },
+    {
+      "id": "2026-07-29#6",
+      "sesion_id": "2026-07-29",
+      "orden": 6,
+      "titulo": "Expedient 834/2026. Aprovació, si escau, del compte general consolidat del",
+      "resultado": null,
+      "texto_redactado": "Expedient 834/2026. Aprovació, si escau, del compte general consolidat del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:57.210Z"
+      }
+    },
+    {
+      "id": "2026-07-29#7",
+      "sesion_id": "2026-07-29",
+      "orden": 7,
+      "titulo": "PUNT D'URGÈNCIA. Expedient 2746/2026. Moció sobre el Pla territorial",
+      "resultado": null,
+      "texto_redactado": "PUNT D'URGÈNCIA. Expedient 2746/2026. Moció sobre el Pla territorial",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:57.210Z"
+      }
+    },
+    {
+      "id": "2026-07-29#8",
+      "sesion_id": "2026-07-29",
+      "orden": 8,
+      "titulo": "Expedient 2249/2026. Dació de compte del Pla anual de control financer 2026",
+      "resultado": null,
+      "texto_redactado": "Expedient 2249/2026. Dació de compte del Pla anual de control financer 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:57.210Z"
+      }
+    },
+    {
+      "id": "2026-07-29#9",
+      "sesion_id": "2026-07-29",
+      "orden": 9,
+      "titulo": "Expedient 1948/2025. Dació de compte dels Informes referents al Pla anual",
+      "resultado": null,
+      "texto_redactado": "Expedient 1948/2025. Dació de compte dels Informes referents al Pla anual",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:57.210Z"
+      }
+    },
+    {
+      "id": "2026-07-29#10",
+      "sesion_id": "2026-07-29",
+      "orden": 10,
+      "titulo": "Expedient 2833/2024. Dació de compte del Decret 2026-0996 de data 7 de",
+      "resultado": null,
+      "texto_redactado": "Expedient 2833/2024. Dació de compte del Decret 2026-0996 de data 7 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:57.210Z"
+      }
+    },
+    {
+      "id": "2026-07-29#11",
+      "sesion_id": "2026-07-29",
+      "orden": 11,
+      "titulo": "Dació de compte dels Decrets d'Alcaldia dictats des de la darrera sessió",
+      "resultado": null,
+      "texto_redactado": "Dació de compte dels Decrets d'Alcaldia dictats des de la darrera sessió",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:57.210Z"
+      }
+    },
+    {
+      "id": "2026-07-29#12",
+      "sesion_id": "2026-07-29",
+      "orden": 12,
+      "titulo": "Dació de compte de les actes de les sessions de Junta de Govern Local",
+      "resultado": null,
+      "texto_redactado": "Dació de compte de les actes de les sessions de Junta de Govern Local",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:57.210Z"
+      }
+    },
+    {
+      "id": "2026-07-29#13",
+      "sesion_id": "2026-07-29",
+      "orden": 13,
+      "titulo": "Precs i preguntes.",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:57.210Z"
+      }
+    }
+  ]
+}

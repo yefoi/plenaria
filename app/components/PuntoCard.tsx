@@ -1,5 +1,12 @@
 import { Insignia } from '@/app/components/Insignia';
-import { ETIQUETA_TEMA, ETIQUETA_TIPO, formatearImporte, formatearPorcentaje } from '@/lib/web/labels';
+import {
+  ETIQUETA_TEMA,
+  ETIQUETA_TIPO,
+  etiquetaResultado,
+  formatearImporte,
+  formatearPorcentaje,
+  tonoResultado,
+} from '@/lib/web/labels';
 import { REPO_URL } from '@/lib/web/repo';
 import type { Punto } from '@/lib/schemas';
 
@@ -47,6 +54,9 @@ export function PuntoCard({
             </Insignia>
           )}
           {punto.tipo_punto !== null && <Insignia tono="info">{ETIQUETA_TIPO[punto.tipo_punto]}</Insignia>}
+          {punto.resultado !== null && !punto.sensible && (
+            <Insignia tono={tonoResultado(punto.resultado)}>{etiquetaResultado(punto.resultado)}</Insignia>
+          )}
           {punto.sensible && <Insignia tono="peligro">Punto reservado por privacidad</Insignia>}
           {punto.revision_manual && <Insignia tono="aviso">Clasificación a revisar</Insignia>}
         </div>

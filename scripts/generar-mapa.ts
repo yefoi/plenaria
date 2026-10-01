@@ -54,11 +54,20 @@ function main(): void {
     Math.ceil(y1 - y0 + 2 * MARGEN),
   ].join(' ');
 
-  const provincias = provFc.features.map((f, i) => ({
-    id: idsProvincia[i] ?? String(f.id ?? ''),
-    nombre: (f.properties as { name?: string } | null)?.name ?? '',
-    d: redondearTrazos(trazador(f) ?? ''),
-  }));
+  const provincias = provFc.features.map((f, i) => {
+    const [[bx0, by0], [bx1, by1]] = trazador.bounds(f);
+    return {
+      id: idsProvincia[i] ?? String(f.id ?? ''),
+      nombre: (f.properties as { name?: string } | null)?.name ?? '',
+      d: redondearTrazos(trazador(f) ?? ''),
+      bbox: [
+        Number(bx0.toFixed(1)),
+        Number(by0.toFixed(1)),
+        Number(bx1.toFixed(1)),
+        Number(by1.toFixed(1)),
+      ],
+    };
+  });
 
   const porNombre = new Map<string, Feature>();
   for (const f of munFc.features) {

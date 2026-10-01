@@ -1,3 +1,4 @@
+import { CacheClasificaciones } from '@/lib/classify/cache';
 import { ClienteClassifier } from '@/lib/classify/classifier';
 import { crearEvaluadorJev, jevConfigurado } from '@/lib/classify/jev';
 import { clasificarDocumento, type ClientesClasificacion } from '@/lib/classify/pipeline';
@@ -12,6 +13,7 @@ async function procesarMunicipio(
   clientes: ClientesClasificacion,
   args: Record<string, string | boolean>,
   limite: number,
+  cache: CacheClasificaciones,
 ): Promise<number> {
   const repo = crearRepositorio();
   const resumenes = await repo.listarSesiones(municipio.id);
@@ -32,7 +34,9 @@ async function procesarMunicipio(
     const doc = await repo.obtenerSesion(municipio.id, sesionId);
     if (!doc) continue;
     try {
-      const { doc: clasificado, avisos, llamadasJev } = await clasificarDocumento(doc, clientes);
+      const { doc: clasificado, avisos, llamadasJev } = await clasificarDocumento(doc, clientes, {
+        cache,
+      });
       await repo.guardarSesion(clasificado);
       total += clasificado.puntos.length;
       log(
@@ -83,16 +87,19 @@ async function main(): Promise<void> {
     classifier: new ClienteClassifier(),
     jev: usarJev ? crearEvaluadorJev() : undefined,
   };
+  const cache = CacheClasificaciones.porDefecto();
+  await cache.cargar();
 
   let totalPuntos = 0;
   for (const municipio of objetivos) {
     try {
-      totalPuntos += await procesarMunicipio(municipio, clientes, args, limite);
+      totalPuntos += await procesarMunicipio(municipio, clientes, args, limite, cache);
     } catch (err) {
       log('error', `Clasificación de ${municipio.id} fallida`, (err as Error).message);
     }
   }
 
+  await cache.persistir();
   if (totalPuntos === 0) log('info', 'No hay sesiones pendientes de clasificar');
 
   const stats = clientes.classifier.estadisticas;

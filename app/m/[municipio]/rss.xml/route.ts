@@ -1,8 +1,8 @@
 import { MARCA } from '@/lib/brand';
 import { municipioPorId } from '@/lib/config';
 import { repositorio } from '@/lib/web/data';
-import { formatearImporte } from '@/lib/web/labels';
-import type { Punto, Sesion } from '@/lib/schemas';
+import { ETIQUETA_TEMA, formatearImporte } from '@/lib/web/labels';
+import { TEMAS, type Punto, type Sesion, type Tema } from '@/lib/schemas';
 
 function escaparXml(valor: string): string {
   return valor
@@ -25,6 +25,9 @@ export async function GET(
     return new Response('Municipio no encontrado', { status: 404 });
   }
 
+  const temaParam = new URL(request.url).searchParams.get('tema');
+  const tema = temaParam && (TEMAS as readonly string[]).includes(temaParam) ? (temaParam as Tema) : null;
+
   const repo = repositorio();
   const sesiones = await repo.listarSesiones(municipio.id);
   const items: { punto: Punto; sesion: Sesion }[] = [];
@@ -32,7 +35,9 @@ export async function GET(
     const doc = await repo.obtenerSesion(municipio.id, resumen.id);
     if (!doc) continue;
     for (const punto of doc.puntos) {
-      if ((punto.impacto ?? 0) >= 4) items.push({ punto, sesion: doc.sesion });
+      if ((punto.impacto ?? 0) < 4) continue;
+      if (tema && !punto.temas.includes(tema)) continue;
+      items.push({ punto, sesion: doc.sesion });
     }
     if (items.length >= 40) break;
   }
@@ -62,9 +67,17 @@ export async function GET(
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<rss version="2.0">',
     '  <channel>',
-    `    <title>${escaparXml(`${MARCA.global} — ${municipio.nombre}`)}</title>`,
-    `    <link>${escaparXml(`${base}/m/${municipio.id}`)}</link>`,
-    `    <description>${escaparXml('Puntos con impacto vecinal alto (4 o 5 sobre 5) de los plenos municipales. No es fuente oficial.')}</description>`,
+    `    <title>${escaparXml(
+      tema
+        ? `${MARCA.global} — ${municipio.nombre} · ${ETIQUETA_TEMA[tema]}`
+        : `${MARCA.global} — ${municipio.nombre}`,
+    )}</title>`,
+    `    <link>${escaparXml(tema ? `${base}/m/${municipio.id}?tema=${tema}` : `${base}/m/${municipio.id}`)}</link>`,
+    `    <description>${escaparXml(
+      tema
+        ? `Puntos de ${ETIQUETA_TEMA[tema].toLowerCase()} con impacto vecinal alto (4 o 5 sobre 5) de los plenos municipales. No es fuente oficial.`
+        : 'Puntos con impacto vecinal alto (4 o 5 sobre 5) de los plenos municipales. No es fuente oficial.',
+    )}</description>`,
     '    <language>es</language>',
     `    <generator>${escaparXml(MARCA.global)}</generator>`,
     enlaces,

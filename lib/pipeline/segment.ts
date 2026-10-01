@@ -13,6 +13,7 @@ export type MetodoSegmentacion =
   | 'acta-guiones'
   | 'puntos-numerados'
   | 'puntos-barra'
+  | 'puntos-doble-numero'
   | 'punto-unico'
   | 'documento-unico';
 
@@ -146,12 +147,22 @@ export function segmentarExtracteAcords(texto: string): ResultadoSegmentacion {
 
 const INICIO_PERSONA = /^(D\.|Dª|Dña|Doña|Don\b|Sr\.|Sra\.|Srta\.|Ilmo\.|Ilma\.)/;
 const FIRMA_MAYUSCULAS = /^[A-ZÀ-Ü][A-ZÀ-Ü\s.]{6,}\([A-ZÀ-Ü\s]+\)/;
+const FIRMA_TCAT = /\(TCAT\)/i;
+const FIRMA_FECHA_HORA = /\d{2}\/\d{2}\/\d{4}\s+\d{1,2}:\d{2}/;
+const NOMBRE_DOS_PUNTOS =
+  /^[A-ZÁÉÍÓÚÜÑ][a-záéíóúüñ]+(?:\s+[A-ZÁÉÍÓÚÜÑ][a-záéíóúüñ]+){1,3}:\s*$/;
 const ENCABEZADO_SECCION =
   /^(antecedents|antecedentes|normativa|consideracions|consideraciones|fonaments|fundamentos|informes?|conclusions?|conclusiones|disposicions?|disposiciones|altre\s|otros?\s)/i;
 
 function esNumeroDePersona(titulo: string): boolean {
   const limpio = titulo.replace(/^[\-–—]\s*/, '');
-  return INICIO_PERSONA.test(limpio) || FIRMA_MAYUSCULAS.test(limpio);
+  return (
+    INICIO_PERSONA.test(limpio) ||
+    FIRMA_MAYUSCULAS.test(limpio) ||
+    FIRMA_TCAT.test(limpio) ||
+    FIRMA_FECHA_HORA.test(limpio) ||
+    NOMBRE_DOS_PUNTOS.test(limpio)
+  );
 }
 
 function mejorIntervalo(
@@ -476,6 +487,42 @@ export function segmentarExtractoVinetas(texto: string): ResultadoSegmentacion |
   };
 }
 
+const PATRON_DOBLE_NUMERO = /^(\d{1,2})\.(\d{1,2})\.-\s*(.+)$/;
+
+export function segmentarPuntosDobleNumero(texto: string): ResultadoSegmentacion | null {
+  const lineas = limpiarLineas(texto);
+  const vistos = new Set<string>();
+  const puntos: PuntoSegmentado[] = [];
+  for (let i = 0; i < lineas.length; i++) {
+    const m = lineas[i].match(PATRON_DOBLE_NUMERO);
+    if (!m) continue;
+    const menor = Number(m[2]);
+    if (menor === 0) continue;
+    if (esNumeroDePersona(m[3].trim())) continue;
+    const clave = `${m[1]}.${m[2]}`;
+    if (vistos.has(clave)) continue;
+    vistos.add(clave);
+    const partes = [m[3].trim()];
+    for (let j = i + 1; j < Math.min(i + 5, lineas.length); j++) {
+      const linea = lineas[j];
+      if (PATRON_DOBLE_NUMERO.test(linea) || /^\d{1,3}\./.test(linea)) break;
+      if (linea === linea.toUpperCase()) {
+        partes.push(linea);
+        continue;
+      }
+      break;
+    }
+    puntos.push({
+      orden: puntos.length + 1,
+      titulo: unirTitulo(partes).slice(0, 900),
+      resultado: null,
+      referencia: null,
+    });
+  }
+  if (puntos.length < 3) return null;
+  return { puntos, metodo: 'puntos-doble-numero', segmentacionPobre: false };
+}
+
 const PATRON_BARRA = /^(\d{1,2})\/\s*\d{1,4}\.-\s*(.+)$/;
 const RUIDO_ACTA = /^(Pleno -|Pág\.|Página \d|SRES\. ASISTENTES)/i;
 
@@ -633,6 +680,8 @@ export function segmentar(texto: string, formato?: string): ResultadoSegmentacio
   } else {
     const vinetas = segmentarExtractoVinetas(texto);
     if (vinetas) return vinetas;
+    const dobleNumero = segmentarPuntosDobleNumero(texto);
+    if (dobleNumero) return dobleNumero;
     const barra = segmentarPuntosBarra(texto);
     if (barra) return barra;
     const puntos = segmentarPuntos(texto);

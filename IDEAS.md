@@ -4,15 +4,10 @@ Ideas fuera del alcance actual. No implementar sin acordarlo antes.
 
 ## Datos y modelo
 
-- Campo `resultado` por punto (aprovat / rebutjat / assabentat). Hoy el
-  segmentador lo detecta y se usa en tests y en el golden, pero no se publica
-  porque el modelo de datos del MVP no lo contempla.
 - Importes que solo aparecen en los expedientes anexos (no en el extracto):
   habría que enlazar el expediente completo.
-- Detección de PDFs duplicados en el catálogo con contenidos auxiliares
-  (p. ej. `aprovavio_definitiva_xarxa_bressol.pdf` repetido).
 - Traducción de títulos catalán→castellano en la interfaz, manteniendo el
-  original como fuente.
+  original como fuente (requiere proveedor de traducción).
 
 ## Fuentes
 
@@ -24,26 +19,27 @@ Ideas fuera del alcance actual. No implementar sin acordarlo antes.
   electrónica, no en el portal de transparencia).
 - Rivas-Vaciamadrid: sus actas son escaneos sin capa de texto
   (`requiere_ocr`); quedaría pendiente de OCR selectivo.
-- Cobertura catalana: hay ~170 ayuntamientos más con sesiones frescas en el
+- Cobertura catalana: hay ~125 ayuntamientos más con sesiones frescas en el
   catálogo de la AOC; añadibles por lotes siguiendo el mismo criterio de
-  población (hoy hay 38 catalanes + Toledo).
+  población (hoy hay 61 municipios: 58 catalanes + Toledo + Madrid + Móstoles).
 - Ampliar a otras comunidades autónomas con el adaptador `pdf-transparencia`
-  (cada portal exige verificar listado, patrón de PDF y fechas).
+  o `portal-sesiones` (cada portal exige verificar listado, patrón de PDF y
+  fechas).
 - Adaptadores para portales con plantilla común de la Diputación de Sevilla
-  (VideoActas) donde las actas no están en PDF sino en una aplicación o .docx.
-- Documentos .docx o sin capa de texto útil: hoy se saltan o se marcan
-  `requiere_ocr`; valorar extracción de .docx (mammoth) y OCR selectivo.
-- Comprobación automática de que `robots.txt` sigue permitiendo las rutas y
-  aviso en `/fuentes` si cambia (hoy se comprueba en cada descarga).
+  (VideoActas) donde las actas no están en PDF sino en una aplicación.
+- OCR selectivo para escaneos (tesseract.js u equivalente, en servidor).
 
 ## Producto
 
 - Panel de revisión manual: marcar puntos como revisados y anotar la corrección
-  (alimentaría el golden set).
-- Alertas por email o RSS filtrado por tema.
-- Página de comparación entre sesiones (qué cambió de una a otra).
+  (alimentaría el golden set). Requiere backend o almacenamiento en el repo.
+- Alertas por email (requiere backend/proveedor). El RSS por tema ya existe.
+- Página de comparación de municipios entre sí (la comparación entre sesiones
+  del mismo municipio ya existe en `/m/[municipio]/comparar`).
 - Formulario de reporte con almacenamiento propio en vez de issues de GitHub.
 - Suscripción por palabras clave.
+- Mostrar en el mapa los municipios «en cartera» sin datos todavía, con estado
+  diferenciado.
 
 ## Clasificación
 
@@ -51,23 +47,13 @@ Ideas fuera del alcance actual. No implementar sin acordarlo antes.
   verificación de cifras ya existen (`lib/digest/modelo.ts`), falta conectar un
   proveedor de generación (AI SDK `generateText`) y su clave.
 - Recalibrar el umbral de confianza con datos reales acumulados.
-- Caché de clasificaciones por hash del texto para no repetir llamadas cuando
-  solo cambia el título de la web.
 - Evaluar `laya`/`kev` de classifier.dev como alternativa más barata a jev en
   corpus largos.
-
-## Mapa y cobertura
-
-- Agrupar pines cercanos (clustering) y hacer zoom por comunidad autónoma para
-  cuando haya muchos municipios en la misma zona.
-- Mini-mapa localizador en la página de cada municipio.
-- Comparador entre municipios (temas e impacto por sesión).
-- Mostrar en el mapa los municipios «en cartera» sin datos todavía, con estado
-  diferenciado.
+- Caché de la pasada jev (la caché actual cubre la pasada de classifier.dev).
 
 ## Infraestructura
 
-- Con 14 municipios el JSON versionado sigue yendo bien; reconsiderar una base
+- Con 61 municipios el JSON versionado sigue yendo bien; reconsiderar una base
   de datos si la cobertura crece mucho más (la interfaz `Repository` ya lo
   aísla).
 - Ingesta incremental del CSV por ETag a nivel de fila (hoy se filtra en

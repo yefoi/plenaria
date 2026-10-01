@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { parsearDocumentoPdf } from '@/lib/adapters/parse';
+import { parsearDocumento } from '@/lib/adapters/parse';
 import { descargar } from '@/lib/http/fetcher';
 import type { Municipio } from '@/lib/schemas';
 import { csvAFilasObjeto } from '@/lib/utils/csv';
@@ -95,17 +95,24 @@ export class CkanSeuEAdapter implements SourceAdapter {
       }
     }
     const referencias: ReferenciaSesion[] = [];
+    const urlsVistas = new Set<string>();
     let noPdf = 0;
+    let duplicados = 0;
     for (const fila of filas) {
       if (fila.CODI_ENS !== this.codiEns) continue;
       const fecha = fila.DATA_ACORD.slice(0, 10);
       if (!/^\d{4}-\d{2}-\d{2}$/.test(fecha)) continue;
       const enlace = fila[COLUMNA_ENLACE];
       if (!enlace || !fila.CODI_ACTA) continue;
-      if (!/\.pdf($|[?#])/i.test(enlace)) {
+      if (!/\.(pdf|docx?)($|[?#])/i.test(enlace)) {
         noPdf++;
         continue;
       }
+      if (urlsVistas.has(enlace)) {
+        duplicados++;
+        continue;
+      }
+      urlsVistas.add(enlace);
       referencias.push({
         id: fila.CODI_ACTA,
         fecha,
@@ -115,7 +122,10 @@ export class CkanSeuEAdapter implements SourceAdapter {
       });
     }
     if (noPdf > 0) {
-      log('aviso', `${noPdf} documentos sin extensión PDF omitidos en ${this.codiEns}`);
+      log('aviso', `${noPdf} documentos con formato no soportado omitidos en ${this.codiEns}`);
+    }
+    if (duplicados > 0) {
+      log('info', `${duplicados} documentos duplicados omitidos en ${this.codiEns}`);
     }
     return referencias.sort((a, b) => (a.fecha < b.fecha ? 1 : a.fecha > b.fecha ? -1 : 0));
   }
@@ -139,6 +149,6 @@ export class CkanSeuEAdapter implements SourceAdapter {
   }
 
   async parse(contenido: ContenidoSesion): Promise<DocumentoParseado> {
-    return parsearDocumentoPdf(contenido.buffer, this.formato);
+    return parsearDocumento(contenido.buffer, this.formato);
   }
 }

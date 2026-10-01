@@ -1,0 +1,415 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "masquefa",
+    "nombre": "Masquefa",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "811920002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-10",
+    "municipio_id": "masquefa",
+    "fecha": "2026-09-10",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/811920002/2026/3865e940-a1d1-40c0-83c4-f4276c07c7d2/PE260910.pdf",
+    "hash_contenido": "61f7e88f174451e9fb0794b57ba0b5bd97c8034048040901d8bbb866b9519495",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T15:12:43.315Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-10#1",
+      "sesion_id": "2026-09-10",
+      "orden": 1,
+      "titulo": "Ramon Rigol Nutó (TCAT) (Secretari acctal.), 25/09/2026 10:35 AJUNTAMENT DE MASQUEFA",
+      "resultado": null,
+      "texto_redactado": "Ramon Rigol Nutó (TCAT) (Secretari acctal.), 25/09/2026 10:35 AJUNTAMENT DE MASQUEFA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:43.315Z"
+      }
+    },
+    {
+      "id": "2026-09-10#2",
+      "sesion_id": "2026-09-10",
+      "orden": 2,
+      "titulo": "APROVACIÓ DEFINITIVA DEL PROJECTE EXECUTIU DE CENTRE DE DIA PER A LA GENT",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEFINITIVA DEL PROJECTE EXECUTIU DE CENTRE DE DIA PER A LA GENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:43.315Z"
+      }
+    },
+    {
+      "id": "2026-09-10#3",
+      "sesion_id": "2026-09-10",
+      "orden": 3,
+      "titulo": "ADJUDICACIÓ DEL CONTRACTE D’OBRES DEL PROJECTE EXECUTIU CENTRE DE DIA PER A LA GENT GRAN A MASQUEFA",
+      "resultado": null,
+      "texto_redactado": "ADJUDICACIÓ DEL CONTRACTE D’OBRES DEL PROJECTE EXECUTIU CENTRE DE DIA PER A LA GENT GRAN A MASQUEFA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:43.315Z"
+      }
+    },
+    {
+      "id": "2026-09-10#4",
+      "sesion_id": "2026-09-10",
+      "orden": 4,
+      "titulo": "El 15 de juny de 2026 finalitzades les Comissions Informatives es va dictar Decret d’Alcaldia amb núm.",
+      "resultado": null,
+      "texto_redactado": "El 15 de juny de 2026 finalitzades les Comissions Informatives es va dictar Decret d’Alcaldia amb núm.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:43.315Z"
+      }
+    },
+    {
+      "id": "2026-09-10#5",
+      "sesion_id": "2026-09-10",
+      "orden": 5,
+      "titulo": "Aprovació, si s’escau, de l’aprovació, si s’escau, del reconeixement extrajudicial de crèdit (REC) número 05/2026.",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si s’escau, de l’aprovació, si s’escau, del reconeixement extrajudicial de crèdit (REC) número 05/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:43.315Z"
+      }
+    },
+    {
+      "id": "2026-09-10#6",
+      "sesion_id": "2026-09-10",
+      "orden": 6,
+      "titulo": "Aprovació, si s’escau, de la bonificació a favor del Departament d’Educació i Formació Professional de l’ICIO de la llicència d’obres per",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si s’escau, de la bonificació a favor del Departament d’Educació i Formació Professional de l’ICIO de la llicència d’obres per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias",
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:43.315Z"
+      }
+    },
+    {
+      "id": "2026-09-10#7",
+      "sesion_id": "2026-09-10",
+      "orden": 7,
+      "titulo": "Aprovació inicial, si s’escau, del projecte executiu ÒCentre de dia per a gent gran a MasquefaÓ. – (exp. URB-PJ-OR-2024015).",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial, si s’escau, del projecte executiu ÒCentre de dia per a gent gran a MasquefaÓ. – (exp. URB-PJ-OR-2024015).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:43.315Z"
+      }
+    },
+    {
+      "id": "2026-09-10#8",
+      "sesion_id": "2026-09-10",
+      "orden": 8,
+      "titulo": "Aprovació, si s’escau, de l’inici de l’expedient de contractació de les obres del Projecte executiu centre de dia per a gent gran a",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si s’escau, de l’inici de l’expedient de contractació de les obres del Projecte executiu centre de dia per a gent gran a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:43.315Z"
+      }
+    },
+    {
+      "id": "2026-09-10#9",
+      "sesion_id": "2026-09-10",
+      "orden": 9,
+      "titulo": "Donar compte al ple municipal de la correspondència de tràmit i Decrets de l’Alcaldia.",
+      "resultado": null,
+      "texto_redactado": "Donar compte al ple municipal de la correspondència de tràmit i Decrets de l’Alcaldia.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:43.315Z"
+      }
+    },
+    {
+      "id": "2026-09-10#10",
+      "sesion_id": "2026-09-10",
+      "orden": 10,
+      "titulo": "Donar compte al ple municipal dels assumptes tractats a la Junta de Govern Local.",
+      "resultado": null,
+      "texto_redactado": "Donar compte al ple municipal dels assumptes tractats a la Junta de Govern Local.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:43.315Z"
+      }
+    },
+    {
+      "id": "2026-09-10#11",
+      "sesion_id": "2026-09-10",
+      "orden": 11,
+      "titulo": "Ratificar l’absència de mocions presentades.",
+      "resultado": null,
+      "texto_redactado": "Ratificar l’absència de mocions presentades.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "mociones_grupos",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:43.315Z"
+      }
+    },
+    {
+      "id": "2026-09-10#12",
+      "sesion_id": "2026-09-10",
+      "orden": 12,
+      "titulo": "Precs i preguntes.",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:43.315Z"
+      }
+    },
+    {
+      "id": "2026-09-10#13",
+      "sesion_id": "2026-09-10",
+      "orden": 13,
+      "titulo": "El 19 d’agost de 2026 es publica al BOE l’anunci de notificació infructuosa del requeriment d’esmena de",
+      "resultado": null,
+      "texto_redactado": "El 19 d’agost de 2026 es publica al BOE l’anunci de notificació infructuosa del requeriment d’esmena de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:43.315Z"
+      }
+    },
+    {
+      "id": "2026-09-10#14",
+      "sesion_id": "2026-09-10",
+      "orden": 14,
+      "titulo": "El 20 d’agost de 2026 consta diligència del secretari actal. on deixa constància de la informació",
+      "resultado": null,
+      "texto_redactado": "El 20 d’agost de 2026 consta diligència del secretari actal. on deixa constància de la informació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:43.315Z"
+      }
+    },
+    {
+      "id": "2026-09-10#15",
+      "sesion_id": "2026-09-10",
+      "orden": 15,
+      "titulo": "El 31 d’agost de 2026 s’emet Certificat d’al·legacions amb el resultat que consta en el mateix.",
+      "resultado": null,
+      "texto_redactado": "El 31 d’agost de 2026 s’emet Certificat d’al·legacions amb el resultat que consta en el mateix.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:43.315Z"
+      }
+    },
+    {
+      "id": "2026-09-10#16",
+      "sesion_id": "2026-09-10",
+      "orden": 16,
+      "titulo": "El 02 de setembre de 2026 s’emet informe tècnic en resposta a les al·legacions presentades pel Sr. IQBAL EHTISHAM.",
+      "resultado": null,
+      "texto_redactado": "El 02 de setembre de 2026 s’emet informe tècnic en resposta a les al·legacions presentades pel Sr. IQBAL EHTISHAM.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T15:12:43.315Z"
+      }
+    }
+  ]
+}
