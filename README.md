@@ -14,7 +14,7 @@ y no inventa nada que no esté en el texto**.
 
 ## Estado
 
-39 municipios procesados (unos 1,1 millones de habitantes), con **tipos de
+40 municipios procesados (más de 4,4 millones de habitantes), con **tipos de
 fuente distintos**:
 
 - **38 municipios catalanes** (`ckan-seu-e`): los 13 iniciales (L'Hospitalet,
@@ -28,6 +28,11 @@ fuente distintos**:
   extractos en PDF. Hay ~170 candidatos más con datos frescos por añadir.
 - **Toledo** (`pdf-transparencia`): listado HTML de actas del Ayuntamiento con
   PDFs.
+- **Madrid** (`madrid-pleno`): listado de sesiones del Pleno, actas de acuerdos
+  en PDF con formato «Punto N.». El portal `www.madrid.es` reserva en su
+  `robots.txt` la ruta de los PDFs (`/UnidadesDescentralizadas/UDCPleno/Actividad`),
+  así que el adaptador usa el espejo público en `transparencia.madrid.es`, cuyo
+  `robots.txt` sí lo permite.
 
 Cada nuevo municipio solo necesita una entrada en `lib/config.ts`; el pipeline,
 los scripts y la web no cambian. La portada incluye un **mapa de España**

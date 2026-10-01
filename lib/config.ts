@@ -86,6 +86,19 @@ export const MUNICIPIOS: Municipio[] = [
       idioma: 'es',
     },
   },
+  {
+    id: 'madrid',
+    nombre: 'Madrid',
+    provincia: 'Madrid',
+    fuente_tipo: 'madrid-pleno',
+    fuente_config: {
+      listado_url:
+        'https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/El-Pleno/Actividad-del-Pleno-y-las-Comisiones/Pleno/Sesiones-del-Pleno/?vgnextchannel=8e9858f5c050e210VgnVCM2000000c205a0aRCRD&vgnextfmt=default&vgnextoid=122481276d58c010VgnVCM100000d90ca8c0RCRD',
+      url_base_pdf: 'https://transparencia.madrid.es',
+      max_sesiones: 3,
+      idioma: 'es',
+    },
+  },
 ];
 
 export function municipioPorId(id: string): Municipio | undefined {

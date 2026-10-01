@@ -1,5 +1,6 @@
 import path from 'node:path';
 import { CkanSeuEAdapter } from '@/lib/adapters/ckan-seu-e';
+import { MadridPlenoAdapter } from '@/lib/adapters/madrid-pleno';
 import { ManualAdapter } from '@/lib/adapters/manual';
 import { PdfTransparenciaAdapter } from '@/lib/adapters/pdf-transparencia';
 import type { SourceAdapter } from '@/lib/adapters/types';
@@ -14,6 +15,8 @@ export function crearAdaptador(
       return new CkanSeuEAdapter(municipio, cacheDir);
     case 'pdf-transparencia':
       return new PdfTransparenciaAdapter(municipio);
+    case 'madrid-pleno':
+      return new MadridPlenoAdapter(municipio);
     case 'manual':
       return new ManualAdapter((municipio.fuente_config.formato as string) ?? 'auto');
     default:

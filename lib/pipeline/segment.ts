@@ -10,6 +10,7 @@ export type MetodoSegmentacion =
   | 'extracte-resultats'
   | 'acta-numerada'
   | 'acta-guiones'
+  | 'puntos-numerados'
   | 'punto-unico'
   | 'documento-unico';
 
@@ -442,6 +443,50 @@ export function segmentarActaConGuiones(texto: string): ResultadoSegmentacion | 
   return { puntos, metodo: 'acta-guiones', segmentacionPobre: false };
 }
 
+const PATRON_PUNTO = /^Punto\s+(\d{1,3})\.\s*(.+)$/i;
+const RUIDO_PAGINA = /^(ACUERDOS ADOPTADOS|Secretaría General|Pleno sesión \()/i;
+const CABECERA_SECCION = /^(§|\(Subapartado|Preguntas$|Mociones$|Declaraciones|Interpelaciones|Ruegos)/i;
+
+export function segmentarPuntos(texto: string): ResultadoSegmentacion | null {
+  const lineas = limpiarLineas(texto);
+  const porNumero = new Map<number, { idx: number; titulo: string }>();
+  for (let i = 0; i < lineas.length; i++) {
+    const m = lineas[i].match(PATRON_PUNTO);
+    if (!m) continue;
+    const numero = Number(m[1]);
+    if (numero < 1 || numero > 400) continue;
+    if (!porNumero.has(numero)) porNumero.set(numero, { idx: i, titulo: m[2].trim() });
+  }
+
+  let fin = 0;
+  while (porNumero.has(fin + 1)) fin++;
+  if (fin < 3) return null;
+
+  const puntos: PuntoSegmentado[] = [];
+  for (let n = 1; n <= fin; n++) {
+    const actual = porNumero.get(n)!;
+    const siguiente = porNumero.get(n + 1);
+    const limite = siguiente ? siguiente.idx : lineas.length;
+    const partes = [actual.titulo];
+    let longitud = actual.titulo.length;
+    for (let i = actual.idx + 1; i < limite && longitud < 900; i++) {
+      const linea = lineas[i];
+      if (RUIDO_PAGINA.test(linea)) continue;
+      if (CABECERA_SECCION.test(linea)) break;
+      partes.push(linea);
+      longitud += linea.length + 1;
+    }
+    puntos.push({
+      orden: n,
+      titulo: unirTitulo(partes).slice(0, 900),
+      resultado: null,
+      referencia: null,
+    });
+  }
+
+  return { puntos, metodo: 'puntos-numerados', segmentacionPobre: false };
+}
+
 export function segmentarPuntoUnico(texto: string): ResultadoSegmentacion | null {
   if (texto.length > 120000) return null;
   const lineas = limpiarLineas(texto);
@@ -511,6 +556,8 @@ export function segmentar(texto: string, formato?: string): ResultadoSegmentacio
     const porResultados = segmentarExtractePerResultats(texto);
     if (porResultados) return porResultados;
   } else {
+    const puntos = segmentarPuntos(texto);
+    if (puntos) return puntos;
     const numerada = segmentarActaNumerada(texto);
     if (!numerada.segmentacionPobre) return numerada;
     const conGuiones = segmentarActaConGuiones(texto);

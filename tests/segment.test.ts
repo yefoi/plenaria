@@ -189,6 +189,32 @@ describe('segmentar otros formatos', () => {
     expect(r.puntos[0].titulo).toContain('L’ESTAT DE LA CIUTAT');
   });
 
+  it('segmenta un acta de acuerdos con «Punto N.» (estilo Madrid)', () => {
+    const acta = [
+      'Secretaría General',
+      'Pleno sesión (5/2026), ordinaria 26-05-2026',
+      'ACUERDOS ADOPTADOS Página 1 de 26',
+      'Punto 1. Aprobar el acta de la sesión anterior (4/2026), ordinaria, celebrada el',
+      'día 29 de abril de 2026.',
+      '§2. PARTE DE INFORMACIÓN, IMPULSO Y CONTROL',
+      '(Subapartado 1)',
+      'Preguntas',
+      'Punto 2. Se sustancia la pregunta n.º 20268000470, formulada por el concejal',
+      'don Francisco Javier Ortega Smith-Molina, dirigida al alcalde.',
+      'ACUERDOS ADOPTADOS Página 2 de 26',
+      'Punto 3. Aprobar un suplemento de crédito por importe de 41.075.518,50 euros en',
+      'el Presupuesto del Ayuntamiento de Madrid.',
+      'Punto 4. Declarar la procedencia del debate y aprobar el contenido de la moción.',
+    ].join('\n');
+    const r = segmentar(acta, 'auto');
+    expect(r.segmentacionPobre).toBe(false);
+    expect(r.metodo).toBe('puntos-numerados');
+    expect(r.puntos).toHaveLength(4);
+    expect(r.puntos[0].titulo).toContain('Aprobar el acta de la sesión anterior');
+    expect(r.puntos[0].titulo).not.toContain('PARTE DE INFORMACIÓN');
+    expect(r.puntos[2].titulo).toContain('41.075.518,50 euros');
+  });
+
   it('marca segmentacion_pobre y un punto único cuando no reconoce el formato', () => {
     const r = segmentar('Un text qualsevol sense estructura numerada reconeixible.', 'auto');
     expect(r.segmentacionPobre).toBe(true);
