@@ -27,14 +27,14 @@ jobs:
           cache: npm
       - run: npm ci
       - name: Descubrir y procesar sesiones nuevas
-        run: npm run ingest -- --municipio hospitalet-de-llobregat --limit 3
+        run: npm run ingest -- --todos --limit 2
       - name: Clasificar sesiones pendientes
         run: |
           if [ -n "$TYPESAFE_AI_API_KEY" ]; then
-            npm run classify -- --municipio hospitalet-de-llobregat
+            npm run classify -- --todos --limit 1
           else
             echo "Sin TYPESAFE_AI_API_KEY: se clasifica sin la pasada de impacto (jev)"
-            npm run classify -- --municipio hospitalet-de-llobregat --sin-jev
+            npm run classify -- --todos --limit 1 --sin-jev
           fi
       - name: Resúmenes semanales
         run: npm run digest -- --todas

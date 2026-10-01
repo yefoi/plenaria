@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "salt",
+    "nombre": "Salt",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1715570005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-21",
+    "municipio_id": "salt",
+    "fecha": "2026-09-21",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1715570005/2026/face077f-d844-4698-b20d-d2e6e96da64b/08.-%20ACTA%20PO%2021.09.2026-E.pdf",
+    "hash_contenido": "f4e15fc45d2bbeb7b9b24636aa52c6a35d651bf5902100aaa78cf98a981d5972",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T02:51:02.659Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-21#1",
+      "sesion_id": "2026-09-21",
+      "orden": 1,
+      "titulo": "En data 27 de març de 2017, el Ple de l’Ajuntament de Salt, va aprovar la",
+      "texto_redactado": "En data 27 de març de 2017, el Ple de l’Ajuntament de Salt, va aprovar la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:02.659Z"
+      }
+    },
+    {
+      "id": "2026-09-21#2",
+      "sesion_id": "2026-09-21",
+      "orden": 2,
+      "titulo": "En data 25 de novembre de 2025 (R.S. S2025014754) es va comunicar a la",
+      "texto_redactado": "En data 25 de novembre de 2025 (R.S. S2025014754) es va comunicar a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:02.659Z"
+      }
+    },
+    {
+      "id": "2026-09-21#3",
+      "sesion_id": "2026-09-21",
+      "orden": 3,
+      "titulo": "En data 24 de desembre de 2025, l’Alcaldia-Presidència, 2025LLDA004765, va",
+      "texto_redactado": "En data 24 de desembre de 2025, l’Alcaldia-Presidència, 2025LLDA004765, va",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:02.659Z"
+      }
+    },
+    {
+      "id": "2026-09-21#4",
+      "sesion_id": "2026-09-21",
+      "orden": 4,
+      "titulo": "En data 18 de juny de 2026, l’Alcaldia-Presidència, 2026LLDA002107, va resoldre",
+      "texto_redactado": "En data 18 de juny de 2026, l’Alcaldia-Presidència, 2026LLDA002107, va resoldre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:02.659Z"
+      }
+    },
+    {
+      "id": "2026-09-21#5",
+      "sesion_id": "2026-09-21",
+      "orden": 5,
+      "titulo": "En data 3 de setembre de 2026, la enginyera tècnica municipal, emet informe",
+      "texto_redactado": "En data 3 de setembre de 2026, la enginyera tècnica municipal, emet informe",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:02.659Z"
+      }
+    },
+    {
+      "id": "2026-09-21#6",
+      "sesion_id": "2026-09-21",
+      "orden": 6,
+      "titulo": "En data 3 de setembre de 2026, l’assessora jurídica de Serveis Territorials emet",
+      "texto_redactado": "En data 3 de setembre de 2026, l’assessora jurídica de Serveis Territorials emet",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:02.659Z"
+      }
+    }
+  ]
+}

@@ -13,19 +13,41 @@ export function userAgent(): string {
   return process.env.PLENARIA_USER_AGENT?.trim() || USER_AGENT_POR_DEFECTO;
 }
 
-export const MUNICIPIOS: Municipio[] = [
-  {
-    id: 'hospitalet-de-llobregat',
-    nombre: "L'Hospitalet de Llobregat",
-    provincia: 'Barcelona',
+function ckanSeuE(
+  id: string,
+  nombre: string,
+  provincia: string,
+  codiEns: string,
+  formato = 'auto',
+): Municipio {
+  return {
+    id,
+    nombre,
+    provincia,
     fuente_tipo: 'ckan-seu-e',
     fuente_config: {
-      codi_ens: '810170005',
+      codi_ens: codiEns,
       csv_url: 'https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv',
-      formato: 'extracte-acords',
+      formato,
       idioma: 'ca',
     },
-  },
+  };
+}
+
+export const MUNICIPIOS: Municipio[] = [
+  ckanSeuE('hospitalet-de-llobregat', "L'Hospitalet de Llobregat", 'Barcelona', '810170005', 'extracte-acords'),
+  ckanSeuE('girona', 'Girona', 'Girona', '1707920002'),
+  ckanSeuE('tarragona', 'Tarragona', 'Tarragona', '4314820002'),
+  ckanSeuE('salt', 'Salt', 'Girona', '1715570005'),
+  ckanSeuE('martorell', 'Martorell', 'Barcelona', '811410007'),
+  ckanSeuE('el-masnou', 'El Masnou', 'Barcelona', '811890004'),
+  ckanSeuE('rubi', 'Rubí', 'Barcelona', '818460009'),
+  ckanSeuE('cambrils', 'Cambrils', 'Tarragona', '4303850006'),
+  ckanSeuE('vilafranca-del-penedes', 'Vilafranca del Penedès', 'Barcelona', '830540003'),
+  ckanSeuE('blanes', 'Blanes', 'Girona', '1702370005'),
+  ckanSeuE('vic', 'Vic', 'Barcelona', '829810007'),
+  ckanSeuE('reus', 'Reus', 'Tarragona', '4312330008'),
+  ckanSeuE('sant-cugat-del-valles', 'Sant Cugat del Vallès', 'Barcelona', '820550006'),
   {
     id: 'toledo',
     nombre: 'Toledo',

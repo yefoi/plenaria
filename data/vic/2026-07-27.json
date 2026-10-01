@@ -1,0 +1,326 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vic",
+    "nombre": "Vic",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "829810007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-27",
+    "municipio_id": "vic",
+    "fecha": "2026-07-27",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/829810007/2026/14d1e35a-5f02-49cf-a006-d9a610172abd/Ple_270726%20(Ple%20d%27agost).pdf",
+    "hash_contenido": "271a763979081922b2205d3cd78104f2e3906877ff10e125a4c1cf777164e2db",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T02:51:20.503Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-27#1",
+      "sesion_id": "2026-07-27",
+      "orden": 1,
+      "titulo": "El Ple de l’Ajuntament de Vic, en la sessió del dia 1 de juny de 2026, va acordar-",
+      "texto_redactado": "El Ple de l’Ajuntament de Vic, en la sessió del dia 1 de juny de 2026, va acordar-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:20.503Z"
+      }
+    },
+    {
+      "id": "2026-07-27#2",
+      "sesion_id": "2026-07-27",
+      "orden": 2,
+      "titulo": "En data 30 de juny de 2026, Càritas Diocesana de Vic va interposar recurs",
+      "texto_redactado": "En data 30 de juny de 2026, Càritas Diocesana de Vic va interposar recurs",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:20.503Z"
+      }
+    },
+    {
+      "id": "2026-07-27#3",
+      "sesion_id": "2026-07-27",
+      "orden": 3,
+      "titulo": "Consten a l’expedient els següents informes:",
+      "texto_redactado": "Consten a l’expedient els següents informes:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:20.503Z"
+      }
+    },
+    {
+      "id": "2026-07-27#4",
+      "sesion_id": "2026-07-27",
+      "orden": 4,
+      "titulo": "Consta a l’expedient 14837/2026 comunicació adreçada a la Delegada",
+      "texto_redactado": "Consta a l’expedient 14837/2026 comunicació adreçada a la Delegada",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:20.503Z"
+      }
+    },
+    {
+      "id": "2026-07-27#5",
+      "sesion_id": "2026-07-27",
+      "orden": 5,
+      "titulo": "Vist l’informe emès per la tècnica d’administració general en data 14 de juliol",
+      "texto_redactado": "Vist l’informe emès per la tècnica d’administració general en data 14 de juliol",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:20.503Z"
+      }
+    },
+    {
+      "id": "2026-07-27#6",
+      "sesion_id": "2026-07-27",
+      "orden": 6,
+      "titulo": "Taules de ping-pong.",
+      "texto_redactado": "Taules de ping-pong.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:20.503Z"
+      }
+    },
+    {
+      "id": "2026-07-27#7",
+      "sesion_id": "2026-07-27",
+      "orden": 7,
+      "titulo": "Altres sol·licituds.",
+      "texto_redactado": "Altres sol·licituds.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:20.503Z"
+      }
+    },
+    {
+      "id": "2026-07-27#8",
+      "sesion_id": "2026-07-27",
+      "orden": 8,
+      "titulo": "Senyalització relativa al bany a la font.",
+      "texto_redactado": "Senyalització relativa al bany a la font.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:20.503Z"
+      }
+    },
+    {
+      "id": "2026-07-27#9",
+      "sesion_id": "2026-07-27",
+      "orden": 9,
+      "titulo": "Ajustar la zonificació en l’àmbit del PAU 12. Baumann.",
+      "texto_redactado": "Ajustar la zonificació en l’àmbit del PAU 12. Baumann.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:20.503Z"
+      }
+    },
+    {
+      "id": "2026-07-27#10",
+      "sesion_id": "2026-07-27",
+      "orden": 10,
+      "titulo": "Corregir la delimitació dels Conjunts històrics C i E del Catàleg de béns",
+      "texto_redactado": "Corregir la delimitació dels Conjunts històrics C i E del Catàleg de béns",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:20.503Z"
+      }
+    },
+    {
+      "id": "2026-07-27#11",
+      "sesion_id": "2026-07-27",
+      "orden": 11,
+      "titulo": "Eliminar l’asterisc que indica BCIL en la masia El Maset Cumulada.",
+      "texto_redactado": "Eliminar l’asterisc que indica BCIL en la masia El Maset Cumulada.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:20.503Z"
+      }
+    },
+    {
+      "id": "2026-07-27#12",
+      "sesion_id": "2026-07-27",
+      "orden": 12,
+      "titulo": "Corregir el nom de la masia La Torre del Coll - La Torre de les Pusses.",
+      "texto_redactado": "Corregir el nom de la masia La Torre del Coll - La Torre de les Pusses.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:20.503Z"
+      }
+    },
+    {
+      "id": "2026-07-27#13",
+      "sesion_id": "2026-07-27",
+      "orden": 13,
+      "titulo": "Corregir l’error detectat en l’article 239 de les Normes urbanístiques.",
+      "texto_redactado": "Corregir l’error detectat en l’article 239 de les Normes urbanístiques.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:20.503Z"
+      }
+    }
+  ]
+}

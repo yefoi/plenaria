@@ -1,0 +1,559 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "rubi",
+    "nombre": "Rubí",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "818460009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-09",
+    "municipio_id": "rubi",
+    "fecha": "2026-09-09",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/818460009/2026/5785b04b-6f84-4994-a1e8-1a5e197950e4/8_Acta%20Ple%2009.09.2026_anonimitzada.pdf",
+    "hash_contenido": "8b0e8fc53afb17117ee5b5bff583f9e58297a1aa11c03878dbbab7a5c9d7e9e8",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T02:51:06.295Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-09#1",
+      "sesion_id": "2026-09-09",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L’ACTA DE LA SESSIÓ ANTERIOR 09/2026, DE 23 DE JULIOL DE 2026, DEL PLE ORDINARI.",
+      "texto_redactado": "APROVACIÓ DE L’ACTA DE LA SESSIÓ ANTERIOR 09/2026, DE 23 DE JULIOL DE 2026, DEL PLE ORDINARI.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    },
+    {
+      "id": "2026-09-09#2",
+      "sesion_id": "2026-09-09",
+      "orden": 2,
+      "titulo": "PRESA DE CONEIXEMENT DELS DECRETS D'ALCALDIA I DE LES RESOLUCIONS DE LES REGIDORIES DELEGADES DICTATS ENTRE ELS DIES 1 AL 31 DE JULIOL DE 2026. EXP. 8/2026/PCDA.",
+      "texto_redactado": "PRESA DE CONEIXEMENT DELS DECRETS D'ALCALDIA I DE LES RESOLUCIONS DE LES REGIDORIES DELEGADES DICTATS ENTRE ELS DIES 1 AL 31 DE JULIOL DE 2026. EXP. 8/2026/PCDA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    },
+    {
+      "id": "2026-09-09#3",
+      "sesion_id": "2026-09-09",
+      "orden": 3,
+      "titulo": "DONAR A COMPTE AL PLE DEL TEXT REFÓS QUE INCORPORA TOTES LES DELEGACIONS D’ALCALDIA A ELS/LES REGIDORS/ES. EXP. 4/2023/CM.",
+      "texto_redactado": "DONAR A COMPTE AL PLE DEL TEXT REFÓS QUE INCORPORA TOTES LES DELEGACIONS D’ALCALDIA A ELS/LES REGIDORS/ES. EXP. 4/2023/CM.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    },
+    {
+      "id": "2026-09-09#4",
+      "sesion_id": "2026-09-09",
+      "orden": 4,
+      "titulo": "Efectuar a favor del Regidor de Manteniment d’Urbanitzacions i Relacions",
+      "texto_redactado": "Efectuar a favor del Regidor de Manteniment d’Urbanitzacions i Relacions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    },
+    {
+      "id": "2026-09-09#5",
+      "sesion_id": "2026-09-09",
+      "orden": 5,
+      "titulo": "DONAR A COMPTE AL PLE DE L’APROVACIÓ DE LA TERCERA MODIFICACIÓ DEL PLA NORMATIU MUNICIPAL 2026. EXP. 10/2026/APP.",
+      "texto_redactado": "DONAR A COMPTE AL PLE DE L’APROVACIÓ DE LA TERCERA MODIFICACIÓ DEL PLA NORMATIU MUNICIPAL 2026. EXP. 10/2026/APP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    },
+    {
+      "id": "2026-09-09#6",
+      "sesion_id": "2026-09-09",
+      "orden": 6,
+      "titulo": "DONAR COMPTE AL PLE DE LA INFORMACIÓ REMESA AL MINISTERI D’ECONOMIA I HISENDA RELATIVA A L’EXECUCIÓ PRESSUPOSTARIA DEL SEGON TRIMESTRE DE L’EXERCICI 2026. EXP. 57/2026/PM.",
+      "texto_redactado": "DONAR COMPTE AL PLE DE LA INFORMACIÓ REMESA AL MINISTERI D’ECONOMIA I HISENDA RELATIVA A L’EXECUCIÓ PRESSUPOSTARIA DEL SEGON TRIMESTRE DE L’EXERCICI 2026. EXP. 57/2026/PM.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    },
+    {
+      "id": "2026-09-09#7",
+      "sesion_id": "2026-09-09",
+      "orden": 7,
+      "titulo": "DONAR COMPTE DE LA MOROSITAT I PMP 2026. EXP. 7/2026/IFEL.",
+      "texto_redactado": "DONAR COMPTE DE LA MOROSITAT I PMP 2026. EXP. 7/2026/IFEL.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    },
+    {
+      "id": "2026-09-09#8",
+      "sesion_id": "2026-09-09",
+      "orden": 8,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    },
+    {
+      "id": "2026-09-09#9",
+      "sesion_id": "2026-09-09",
+      "orden": 9,
+      "titulo": "MODIFICACIÓ RLT I PLANTILLA. EXP. 165/2026/RRHH-E.",
+      "texto_redactado": "MODIFICACIÓ RLT I PLANTILLA. EXP. 165/2026/RRHH-E.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    },
+    {
+      "id": "2026-09-09#10",
+      "sesion_id": "2026-09-09",
+      "orden": 10,
+      "titulo": "El dia 8 de juliol de 2026 la tècnica del Servei de Recursos Humans emet",
+      "texto_redactado": "El dia 8 de juliol de 2026 la tècnica del Servei de Recursos Humans emet",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    },
+    {
+      "id": "2026-09-09#11",
+      "sesion_id": "2026-09-09",
+      "orden": 11,
+      "titulo": "El dia 28 de juliol de 2026 es reuneix la Mesa General de Negociació amb",
+      "texto_redactado": "El dia 28 de juliol de 2026 es reuneix la Mesa General de Negociació amb",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    },
+    {
+      "id": "2026-09-09#12",
+      "sesion_id": "2026-09-09",
+      "orden": 12,
+      "titulo": "El dia 6 d’agost de 2026 la cap de l’Àrea de Personal emet nou informe per a",
+      "texto_redactado": "El dia 6 d’agost de 2026 la cap de l’Àrea de Personal emet nou informe per a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    },
+    {
+      "id": "2026-09-09#13",
+      "sesion_id": "2026-09-09",
+      "orden": 13,
+      "titulo": "Vist el nou informe emès per la Secretaria Municipal que consta a l’expedient.",
+      "texto_redactado": "Vist el nou informe emès per la Secretaria Municipal que consta a l’expedient.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    },
+    {
+      "id": "2026-09-09#14",
+      "sesion_id": "2026-09-09",
+      "orden": 14,
+      "titulo": "El dia 6 d’agost de 2026 l’Àrea de Personal emet nou informe econòmic",
+      "texto_redactado": "El dia 6 d’agost de 2026 l’Àrea de Personal emet nou informe econòmic",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "personal",
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    },
+    {
+      "id": "2026-09-09#15",
+      "sesion_id": "2026-09-09",
+      "orden": 15,
+      "titulo": "Per tal de fer front a l’increment de la despesa que suposa aquesta proposta s’ha",
+      "texto_redactado": "Per tal de fer front a l’increment de la despesa que suposa aquesta proposta s’ha",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    },
+    {
+      "id": "2026-09-09#16",
+      "sesion_id": "2026-09-09",
+      "orden": 16,
+      "titulo": "DENEGAR LA SOL·LICITUD DE DECLARACIÓ D’ESPECIAL INTERÈS DE LES OBRES PER INTERVENCIÓ D’URGÈNCIA CONSISTENTS EN NETEJA I DESENRUNAT DE PATI DE LLUMS I ESCALA, AMB SUBSTITUCIÓ DE XARXA DE SANEJAMENT AFECTADA EN UN EDIFICI QUE HA ESTAT AFECTAT PER UN INCENDI SITUAT AL C PINTOR COELLO 37, DE RUBÍ, 359/2025/CPO. EXP.",
+      "texto_redactado": "DENEGAR LA SOL·LICITUD DE DECLARACIÓ D’ESPECIAL INTERÈS DE LES OBRES PER INTERVENCIÓ D’URGÈNCIA CONSISTENTS EN NETEJA I DESENRUNAT DE PATI DE LLUMS I ESCALA, AMB SUBSTITUCIÓ DE XARXA DE SANEJAMENT AFECTADA EN UN EDIFICI QUE HA ESTAT AFECTAT PER UN INCENDI SITUAT AL C PINTOR COELLO 37, DE RUBÍ, 359/2025/CPO. EXP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    },
+    {
+      "id": "2026-09-09#17",
+      "sesion_id": "2026-09-09",
+      "orden": 17,
+      "titulo": "TANCAMENT DE LES INVERSIONS DEL CICLE DE L'AIGUA, EXERCICI 2024. EXP. 31/2026/CSP.",
+      "texto_redactado": "TANCAMENT DE LES INVERSIONS DEL CICLE DE L'AIGUA, EXERCICI 2024. EXP. 31/2026/CSP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    },
+    {
+      "id": "2026-09-09#18",
+      "sesion_id": "2026-09-09",
+      "orden": 18,
+      "titulo": "REGULARITZACIÓ DOCUMENTS COMPTABLES DEL CONTRACTE NETEJA DEPENDÈNCIES MUNICIPALS. EXP. 93/2026/ADOP.",
+      "texto_redactado": "REGULARITZACIÓ DOCUMENTS COMPTABLES DEL CONTRACTE NETEJA DEPENDÈNCIES MUNICIPALS. EXP. 93/2026/ADOP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    },
+    {
+      "id": "2026-09-09#19",
+      "sesion_id": "2026-09-09",
+      "orden": 19,
+      "titulo": "ASSUMPTES URGENTS",
+      "texto_redactado": "ASSUMPTES URGENTS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    },
+    {
+      "id": "2026-09-09#20",
+      "sesion_id": "2026-09-09",
+      "orden": 20,
+      "titulo": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL ALTERNATIVA D’UNITAT POPULAR (AUP-AMUNT), PER LA RECUPERACIÓ I LA GESTIÓ 100% PÚBLICA DELS PISOS I SOLARS DE LA SAREB A LA NOSTRA CIUTAT. EXP.",
+      "texto_redactado": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL ALTERNATIVA D’UNITAT POPULAR (AUP-AMUNT), PER LA RECUPERACIÓ I LA GESTIÓ 100% PÚBLICA DELS PISOS I SOLARS DE LA SAREB A LA NOSTRA CIUTAT. EXP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    },
+    {
+      "id": "2026-09-09#21",
+      "sesion_id": "2026-09-09",
+      "orden": 21,
+      "titulo": "ASSUMPTES URGENTS",
+      "texto_redactado": "ASSUMPTES URGENTS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    },
+    {
+      "id": "2026-09-09#22",
+      "sesion_id": "2026-09-09",
+      "orden": 22,
+      "titulo": "PRECS I PREGUNTES",
+      "texto_redactado": "PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    },
+    {
+      "id": "2026-09-09#23",
+      "sesion_id": "2026-09-09",
+      "orden": 23,
+      "titulo": "VIDEOACTA DE LA SESSIÓ",
+      "texto_redactado": "VIDEOACTA DE LA SESSIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:06.295Z"
+      }
+    }
+  ]
+}

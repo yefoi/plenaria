@@ -16,10 +16,10 @@ Ideas fuera del alcance actual. No implementar sin acordarlo antes.
 
 ## Fuentes
 
-- Segundo municipio con acta completa (Vilafranca del Penedès): necesita un
-  segmentador específico para actas largas con numeración anidada.
-- Adaptadores para portales de transparencia con plantilla común
-  (`transparencia.<municipio>.es/.../indicador/...`) por confirmar.
+- Ampliar a otras comunidades autónomas con el adaptador `pdf-transparencia`
+  (cada portal exige verificar listado, patrón de PDF y fechas).
+- Adaptadores para portales con plantilla común de la Diputación de Sevilla
+  (VideoActas) donde las actas no están en PDF sino en una aplicación.
 - OCR para PDFs sin capa de texto (marcados `requiere_ocr`).
 - Comprobación automática de que `robots.txt` sigue permitiendo las rutas y
   aviso en `/fuentes` si cambia (hoy se comprueba en cada descarga).
@@ -44,9 +44,19 @@ Ideas fuera del alcance actual. No implementar sin acordarlo antes.
 - Evaluar `laya`/`kev` de classifier.dev como alternativa más barata a jev en
   corpus largos.
 
+## Mapa y cobertura
+
+- Agrupar pines cercanos (clustering) y hacer zoom por comunidad autónoma para
+  cuando haya muchos municipios en la misma zona.
+- Mini-mapa localizador en la página de cada municipio.
+- Comparador entre municipios (temas e impacto por sesión).
+- Mostrar en el mapa los municipios «en cartera» sin datos todavía, con estado
+  diferenciado.
+
 ## Infraestructura
 
-- Migrar de JSON versionado a base de datos cuando haya más de 2-3 municipios
-  (la interfaz `Repository` ya lo aísla).
+- Con 14 municipios el JSON versionado sigue yendo bien; reconsiderar una base
+  de datos si la cobertura crece mucho más (la interfaz `Repository` ya lo
+  aísla).
 - Ingesta incremental del CSV por ETag a nivel de fila (hoy se filtra en
-  memoria tras descargar el catálogo completo).
+  memoria tras descargar el catálogo completo, ~32 MB).

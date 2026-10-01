@@ -14,16 +14,24 @@ y no inventa nada que no esté en el texto**.
 
 ## Estado
 
-Dos municipios procesados de punta a punta, con **tipos de fuente distintos**
-para demostrar la arquitectura de adaptadores:
+14 municipios procesados, con **tipos de fuente distintos**:
 
-- **L'Hospitalet de Llobregat** (`ckan-seu-e`): catálogo CSV de la AOC con
-  enlaces a los extractos de acuerdos en PDF. Dos sesiones reales (julio y
-  septiembre de 2026) en `data/` y clasificadas.
+- **13 municipios catalanes** (`ckan-seu-e`): L'Hospitalet de Llobregat, Girona,
+  Tarragona, Salt, Martorell, El Masnou, Rubí, Cambrils, Vilafranca del Penedès,
+  Blanes, Vic, Reus y Sant Cugat del Vallès. Catálogo CSV de la AOC + actas o
+  extractos en PDF.
 - **Toledo** (`pdf-transparencia`): listado HTML de actas del Ayuntamiento con
-  PDFs. Dos sesiones reales (junio y julio de 2026) en `data/` y clasificadas.
-  Añadirlo no requirió cambios en el pipeline ni en la web, solo una entrada en
-  `lib/config.ts`.
+  PDFs.
+
+Cada nuevo municipio solo necesita una entrada en `lib/config.ts`; el pipeline,
+los scripts y la web no cambian. La portada incluye un **mapa de España**
+navegable (provincias clicables + pines de los municipios con datos).
+
+El segmentador reconoce cinco formatos reales: extracto de acuerdos numerado
+(Hospitalet), extracto en tabla con resultados (El Masnou), actas numeradas
+(Girona, Rubí, Cambrils…), actas con puntos «N.-» que pueden aparecer
+desordenados (Martorell) y ple de punto único o certificado de acuerdo único
+(Sant Cugat, Tarragona).
 
 - Fases 0 a 5 completadas (spike de datos, ingesta y redacción, clasificación y
   evaluación, web, automatización y generalización).
@@ -106,6 +114,7 @@ peticiones y el User-Agent es identificable (configurable con
 | `npm run digest -- --todas` | Resúmenes semanales deterministas |
 | `npm run eval` | Evaluación contra el conjunto dorado (`--ci` para umbrales) |
 | `npm run golden` | Regenera `eval/golden.json` desde los fixtures |
+| `npm run mapa` | Regenera el SVG de provincias y los pines en `lib/mapa/espana.json` |
 
 ## Estructura
 
@@ -118,6 +127,7 @@ lib/classify/         Taxonomía, cliente classifier.dev, cliente jev, pipeline
 lib/digest/           Resumen semanal determinista y verificación del de modelo
 lib/repo/             Interfaz Repository + implementación JSON (data/)
 lib/schemas/          Esquemas Zod y tipos del modelo de datos
+lib/mapa/             SVG de provincias y pines generados (npm run mapa)
 lib/http/             Descargador respetuoso (robots, pausas, reintentos)
 scripts/              ingest, classify, digest, eval, generar-golden
 tests/                Tests con Vitest
@@ -158,6 +168,10 @@ Resultados de la última ejecución (sin pasada jev): tipo 98 %, tema F1 micro
   regla válida que excluya los PDFs, el adaptador dejará de descargarlos y lo
   indicará en `/fuentes`.
 - No se hace OCR: los PDFs sin capa de texto se marcan y se omiten.
+- El mapa usa la cartografía de provincias del **IGN** (licencia CC BY 4.0) a
+  través de `es-atlas`, y se pre-genera como SVG con `npm run mapa`: no carga
+  teselas ni scripts de terceros. Al añadir un municipio hay que regenerarlo (un
+  test lo verifica).
 - Las clasificaciones pueden fallar; por eso se publica la confianza y hay un
   canal de reporte. Ver `/metodologia` en la web.
 

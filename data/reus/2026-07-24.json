@@ -1,0 +1,464 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "reus",
+    "nombre": "Reus",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4312330008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-24",
+    "municipio_id": "reus",
+    "fecha": "2026-07-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4312330008/2026/2f27f2ad-f17c-4128-8b21-d832878e59de/20260918-Copia_Acta_Copia_Ple_MunicipalORD_acta-1705.pdf",
+    "hash_contenido": "2a7f9c4968e31977f37ebbdedcd9bbc2046e1903e91564bee63fa15258b8e194",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T02:51:23.923Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-24#1",
+      "sesion_id": "2026-07-24",
+      "orden": 1,
+      "titulo": "Aprovació de les actes del Ple de les sessions dels dies 19 de juny i 16 de juliol de",
+      "texto_redactado": "Aprovació de les actes del Ple de les sessions dels dies 19 de juny i 16 de juliol de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:23.923Z"
+      }
+    },
+    {
+      "id": "2026-07-24#2",
+      "sesion_id": "2026-07-24",
+      "orden": 2,
+      "titulo": "Informació de l’Alcaldia.",
+      "texto_redactado": "Informació de l’Alcaldia.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:23.923Z"
+      }
+    },
+    {
+      "id": "2026-07-24#3",
+      "sesion_id": "2026-07-24",
+      "orden": 3,
+      "titulo": "Menció Honorífica Municipal, a títol pòstum, a la Sra. [NOMBRE]",
+      "texto_redactado": "Menció Honorífica Municipal, a títol pòstum, a la Sra. [NOMBRE]",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:23.923Z"
+      }
+    },
+    {
+      "id": "2026-07-24#4",
+      "sesion_id": "2026-07-24",
+      "orden": 4,
+      "titulo": "Menció Honorífica Municipal a la Coordinadora d’Escoles de Dansa de la Ciutat.",
+      "texto_redactado": "Menció Honorífica Municipal a la Coordinadora d’Escoles de Dansa de la Ciutat.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:23.923Z"
+      }
+    },
+    {
+      "id": "2026-07-24#5",
+      "sesion_id": "2026-07-24",
+      "orden": 5,
+      "titulo": "Menció Honorífica Municipal a l’entitat Ball de Galeres.",
+      "texto_redactado": "Menció Honorífica Municipal a l’entitat Ball de Galeres.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:23.923Z"
+      }
+    },
+    {
+      "id": "2026-07-24#6",
+      "sesion_id": "2026-07-24",
+      "orden": 6,
+      "titulo": "Menció Honorífica Municipal a la Fundació Esclerosi Múltiple Mas Sabater. MOCIONS DE L'ALCALDIA",
+      "texto_redactado": "Menció Honorífica Municipal a la Fundació Esclerosi Múltiple Mas Sabater. MOCIONS DE L'ALCALDIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:23.923Z"
+      }
+    },
+    {
+      "id": "2026-07-24#7",
+      "sesion_id": "2026-07-24",
+      "orden": 7,
+      "titulo": "Alcaldia. Donar compte del Decret de l’Alcaldia pel qual es modifica el règim de",
+      "texto_redactado": "Alcaldia. Donar compte del Decret de l’Alcaldia pel qual es modifica el règim de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:23.923Z"
+      }
+    },
+    {
+      "id": "2026-07-24#8",
+      "sesion_id": "2026-07-24",
+      "orden": 8,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:23.923Z"
+      }
+    },
+    {
+      "id": "2026-07-24#9",
+      "sesion_id": "2026-07-24",
+      "orden": 9,
+      "titulo": "Gestió Urbanística. Aprovació del Text refós de la Modificació puntual de la",
+      "texto_redactado": "Gestió Urbanística. Aprovació del Text refós de la Modificació puntual de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:23.923Z"
+      }
+    },
+    {
+      "id": "2026-07-24#10",
+      "sesion_id": "2026-07-24",
+      "orden": 10,
+      "titulo": "Gestió Urbanística. Aprovació inicial de la Modificació puntual de la Revisió del",
+      "texto_redactado": "Gestió Urbanística. Aprovació inicial de la Modificació puntual de la Revisió del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:23.923Z"
+      }
+    },
+    {
+      "id": "2026-07-24#11",
+      "sesion_id": "2026-07-24",
+      "orden": 11,
+      "titulo": "Habitatge. Aprovació inicial de les bases per l'adjudicació de 48 habitatges amb",
+      "texto_redactado": "Habitatge. Aprovació inicial de les bases per l'adjudicació de 48 habitatges amb",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:23.923Z"
+      }
+    },
+    {
+      "id": "2026-07-24#12",
+      "sesion_id": "2026-07-24",
+      "orden": 12,
+      "titulo": "GEP-Unitat de Patrimoni. Aprovació saldo del comptes dels béns del PMSH, del",
+      "texto_redactado": "GEP-Unitat de Patrimoni. Aprovació saldo del comptes dels béns del PMSH, del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:23.923Z"
+      }
+    },
+    {
+      "id": "2026-07-24#13",
+      "sesion_id": "2026-07-24",
+      "orden": 13,
+      "titulo": "Intervenció. Modificació de les Bases d'Execució del Pressupost exercici 2026.",
+      "texto_redactado": "Intervenció. Modificació de les Bases d'Execució del Pressupost exercici 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:23.923Z"
+      }
+    },
+    {
+      "id": "2026-07-24#14",
+      "sesion_id": "2026-07-24",
+      "orden": 14,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:23.923Z"
+      }
+    },
+    {
+      "id": "2026-07-24#15",
+      "sesion_id": "2026-07-24",
+      "orden": 15,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:23.923Z"
+      }
+    },
+    {
+      "id": "2026-07-24#16",
+      "sesion_id": "2026-07-24",
+      "orden": 16,
+      "titulo": "Moció del GRUP MUNICIPAL del grup municipal PARTIT POPULAR en",
+      "texto_redactado": "Moció del GRUP MUNICIPAL del grup municipal PARTIT POPULAR en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:23.923Z"
+      }
+    },
+    {
+      "id": "2026-07-24#17",
+      "sesion_id": "2026-07-24",
+      "orden": 17,
+      "titulo": "Moció del GRUP MUNICIPAL del grup municipal CANDIDATURA D'UNITAT",
+      "texto_redactado": "Moció del GRUP MUNICIPAL del grup municipal CANDIDATURA D'UNITAT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:23.923Z"
+      }
+    },
+    {
+      "id": "2026-07-24#18",
+      "sesion_id": "2026-07-24",
+      "orden": 18,
+      "titulo": "Moció del GRUP MUNICIPAL del grup municipal JUNTS PER REUS - CM",
+      "texto_redactado": "Moció del GRUP MUNICIPAL del grup municipal JUNTS PER REUS - CM",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:23.923Z"
+      }
+    },
+    {
+      "id": "2026-07-24#19",
+      "sesion_id": "2026-07-24",
+      "orden": 19,
+      "titulo": "Precs i preguntes.",
+      "texto_redactado": "Precs i preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:23.923Z"
+      }
+    }
+  ]
+}

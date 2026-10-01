@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-cugat-del-valles",
+    "nombre": "Sant Cugat del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "820550006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-27",
+    "municipio_id": "sant-cugat-del-valles",
+    "fecha": "2026-07-27",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/820550006/2026/07d49079-f125-4d59-9091-6570e5d756ff/p20260727extra_144.pdf",
+    "hash_contenido": "37cc7f95222b2c7166d062a988e47d337385e5ae654f5493428f0a54da2c5164",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T02:51:25.893Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-27#1",
+      "sesion_id": "2026-07-27",
+      "orden": 1,
+      "titulo": "POSICIONAMENT DEL GOVERN I DELS GRUPS MUNICIPALS SOBRE L'ESTAT DE LA CIUTAT.",
+      "texto_redactado": "POSICIONAMENT DEL GOVERN I DELS GRUPS MUNICIPALS SOBRE L'ESTAT DE LA CIUTAT.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:25.893Z"
+      }
+    }
+  ]
+}

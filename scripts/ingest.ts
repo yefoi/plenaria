@@ -19,7 +19,8 @@ function uso(): never {
   console.error(
     [
       'Uso:',
-      '  npm run ingest -- --municipio <id> [--limit 3] [--desde AAAA-MM-DD]',
+      '  npm run ingest -- --municipio <id> [--limit 3] [--desde AAAA-MM-DD] [--reprocesar]',
+      '  npm run ingest -- --todos [--limit 2] [--desde AAAA-MM-DD] [--reprocesar]',
       '  npm run ingest -- --municipio <id> --pdf <ruta> [--fecha AAAA-MM-DD] [--tipo ordinaria] [--formato auto]',
       '  npm run ingest -- --municipio <id> --url <url>   [--fecha AAAA-MM-DD] [--tipo ordinaria]',
       '',
@@ -182,6 +183,24 @@ async function ingestaAutomatica(
 
 async function main(): Promise<void> {
   const args = parsearArgs(process.argv.slice(2));
+
+  if (args.todos) {
+    const fallos: string[] = [];
+    for (const municipio of MUNICIPIOS) {
+      try {
+        await ingestaAutomatica(municipio, args);
+      } catch (err) {
+        fallos.push(`${municipio.id}: ${(err as Error).message}`);
+        log('error', `Ingesta de ${municipio.id} fallida`, (err as Error).message);
+      }
+    }
+    if (fallos.length > 0) {
+      log('aviso', `Municipios con error: ${fallos.join('; ')}`);
+      if (args.estricto) process.exit(1);
+    }
+    return;
+  }
+
   const municipio = await municipioDeArgumentos(args);
   if (args.pdf || args.url) {
     await ingestaManual(municipio, args);

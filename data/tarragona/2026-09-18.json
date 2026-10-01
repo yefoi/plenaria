@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "tarragona",
+    "nombre": "Tarragona",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4314820002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-18",
+    "municipio_id": "tarragona",
+    "fecha": "2026-09-18",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4314820002/2026/af6485db-8af8-40df-a0f6-7c0b45694383/CP-%202026-09-18%20extra.pdf",
+    "hash_contenido": "c2f8cc77977a145babbe265fb52c95d3a774317b47e2ea30b55a371a9da3520b",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T02:50:59.400Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-18#1",
+      "sesion_id": "2026-09-18",
+      "orden": 1,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient 2026/1-G212_1",
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient 2026/1-G212_1",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:59.400Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "el-masnou",
+    "nombre": "El Masnou",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "811890004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-17",
+    "municipio_id": "el-masnou",
+    "fecha": "2026-09-17",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/811890004/2026/fc212de6-ce31-499d-8d85-08ddca234cad/Extractes%20Ple%20170926.pdf",
+    "hash_contenido": "9b4c7a4420f0cb519743078699102c4577e8fb2018af0d9e066a4a664db538b2",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T02:51:03.979Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-17#1",
+      "sesion_id": "2026-09-17",
+      "orden": 1,
+      "titulo": "Aprovació de l’esborrany de l’acta del Ple ordinari del 16 de juliol de 2026.",
+      "texto_redactado": "Aprovació de l’esborrany de l’acta del Ple ordinari del 16 de juliol de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:03.979Z"
+      }
+    },
+    {
+      "id": "2026-09-17#2",
+      "sesion_id": "2026-09-17",
+      "orden": 2,
+      "titulo": "Informacions de l’Alcaldia.",
+      "texto_redactado": "Informacions de l’Alcaldia.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:03.979Z"
+      }
+    },
+    {
+      "id": "2026-09-17#3",
+      "sesion_id": "2026-09-17",
+      "orden": 3,
+      "titulo": "Donar compte de l'informe sobre el compliment dels terminis previstos de pagament de les obligacions de l’Ajuntament del Masnou corresponent al segon trimestre de 2026 i càlcul del període mig de pagament.",
+      "texto_redactado": "Donar compte de l'informe sobre el compliment dels terminis previstos de pagament de les obligacions de l’Ajuntament del Masnou corresponent al segon trimestre de 2026 i càlcul del període mig de pagament.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:03.979Z"
+      }
+    },
+    {
+      "id": "2026-09-17#4",
+      "sesion_id": "2026-09-17",
+      "orden": 4,
+      "titulo": "Donar compte de l'informe d'Intervenció d'avaluació de compliment d'objectius de la LO 2/2012 respecte al seguiment del segon trimestre del pressupost 2026 amb motiu de la seva remissió al Ministeri d’Hisenda.",
+      "texto_redactado": "Donar compte de l'informe d'Intervenció d'avaluació de compliment d'objectius de la LO 2/2012 respecte al seguiment del segon trimestre del pressupost 2026 amb motiu de la seva remissió al Ministeri d’Hisenda.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:03.979Z"
+      }
+    },
+    {
+      "id": "2026-09-17#5",
+      "sesion_id": "2026-09-17",
+      "orden": 5,
+      "titulo": "Modificació puntual del Pla estratègic de subvencions 2025- 2027.",
+      "texto_redactado": "Modificació puntual del Pla estratègic de subvencions 2025- 2027.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:03.979Z"
+      }
+    },
+    {
+      "id": "2026-09-17#6",
+      "sesion_id": "2026-09-17",
+      "orden": 6,
+      "titulo": "Ratificació del Decret d’alcaldia número 2026LLDA003208 de data 28 d'agost de 2026 sobre la suspensió del Manual de valoració de llocs de treball i política retributiva.",
+      "texto_redactado": "Ratificació del Decret d’alcaldia número 2026LLDA003208 de data 28 d'agost de 2026 sobre la suspensió del Manual de valoració de llocs de treball i política retributiva.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:03.979Z"
+      }
+    },
+    {
+      "id": "2026-09-17#7",
+      "sesion_id": "2026-09-17",
+      "orden": 7,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:03.979Z"
+      }
+    },
+    {
+      "id": "2026-09-17#8",
+      "sesion_id": "2026-09-17",
+      "orden": 8,
+      "titulo": "Inadmissió a tràmit de la sol·licitud de revisió d'ofici de l'acord d'adjudicació de 19 de març de 2020 del contracte de serveis de neteja dels edificis municipals i del contracte formalitzat en data 22 d'abril de 2020 (LIC 19/2019).",
+      "texto_redactado": "Inadmissió a tràmit de la sol·licitud de revisió d'ofici de l'acord d'adjudicació de 19 de març de 2020 del contracte de serveis de neteja dels edificis municipals i del contracte formalitzat en data 22 d'abril de 2020 (LIC 19/2019).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:03.979Z"
+      }
+    },
+    {
+      "id": "2026-09-17#9",
+      "sesion_id": "2026-09-17",
+      "orden": 9,
+      "titulo": "Ratificació de la modificació dels Estatuts del Consorci per a la Normalització Lingüística.",
+      "texto_redactado": "Ratificació de la modificació dels Estatuts del Consorci per a la Normalització Lingüística.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:03.979Z"
+      }
+    },
+    {
+      "id": "2026-09-17#10",
+      "sesion_id": "2026-09-17",
+      "orden": 10,
+      "titulo": "Aprovació inicial del projecte d’urbanització de la fase 6 del Parc Vallmora per a la implantació d’un pump track.",
+      "texto_redactado": "Aprovació inicial del projecte d’urbanització de la fase 6 del Parc Vallmora per a la implantació d’un pump track.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:03.979Z"
+      }
+    },
+    {
+      "id": "2026-09-17#11",
+      "sesion_id": "2026-09-17",
+      "orden": 11,
+      "titulo": "Donar compte dels decrets d'Alcaldia i de les regidories delegades del mes de juliol i agost de 2026.",
+      "texto_redactado": "Donar compte dels decrets d'Alcaldia i de les regidories delegades del mes de juliol i agost de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:03.979Z"
+      }
+    },
+    {
+      "id": "2026-09-17#12",
+      "sesion_id": "2026-09-17",
+      "orden": 12,
+      "titulo": "Donar compte de les actes de la Junta de Govern Local del mes de juliol de 2026.",
+      "texto_redactado": "Donar compte de les actes de la Junta de Govern Local del mes de juliol de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:03.979Z"
+      }
+    },
+    {
+      "id": "2026-09-17#13",
+      "sesion_id": "2026-09-17",
+      "orden": 13,
+      "titulo": "Moció presentada pel Grup Municipal de Junts pel Masnou de suport a la proposta de resolució presentada pel Grup Parlamentari de Junts al Parlament de Catalunya per a la rehabilitació del Teatre del Casino del Masnou i per impulsar un acord institucional que en faci possible la seva recuperació. No",
+      "texto_redactado": "Moció presentada pel Grup Municipal de Junts pel Masnou de suport a la proposta de resolució presentada pel Grup Parlamentari de Junts al Parlament de Catalunya per a la rehabilitació del Teatre del Casino del Masnou i per impulsar un acord institucional que en faci possible la seva recuperació. No",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:03.979Z"
+      }
+    }
+  ]
+}

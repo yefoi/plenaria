@@ -20,8 +20,11 @@
 ## Comandos
 
 - `npm test` · `npm run typecheck` · `npm run lint` · `npm run build`
-- `npm run ingest -- --municipio <id>` · `npm run classify` · `npm run digest`
-- `npm run eval` · `npm run golden`
+- `npm run ingest -- --todos` · `npm run classify -- --todos` · `npm run digest`
+- `npm run eval` · `npm run golden` · `npm run mapa`
+
+Al añadir un municipio a `MUNICIPIOS` hay que ejecutar `npm run mapa` para
+situarlo en el mapa; `tests/mapa.test.ts` falla si falta el pin.
 
 Antes de dar un cambio por terminado: `npm run typecheck && npm test && npm run lint && npm run build`.
 

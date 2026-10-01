@@ -54,6 +54,12 @@ export default function PaginaMetodologia() {
           caché por hash y reintentos con espera. La API interna del portal no se usa: el catálogo
           se obtiene por la ruta pública de descarga masiva.
         </p>
+        <p>
+          El mapa de España usa la cartografía de provincias del Instituto Geográfico Nacional
+          (licencia <a className="underline" href="https://www.ign.es/" rel="noopener noreferrer" target="_blank">CC BY 4.0</a>)
+          a través del proyecto <code>es-atlas</code>. Se genera en tiempo de compilación como SVG
+          y no carga teselas ni scripts de terceros.
+        </p>
       </section>
 
       <section className="space-y-2">

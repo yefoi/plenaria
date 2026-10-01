@@ -1,0 +1,556 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vilafranca-del-penedes",
+    "nombre": "Vilafranca del Penedès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "830540003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-21",
+    "municipio_id": "vilafranca-del-penedes",
+    "fecha": "2026-07-21",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/830540003/2026/c6b069ae-c7f2-4fa0-9f76-9ad886cf8ec9/Acta_formalitzada_APROVADA.pdf",
+    "hash_contenido": "97e22ba9678d2b438b0b6922a5964018dfec006d69117b7dad3b53e2f88eb11e",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T02:51:16.764Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-21#1",
+      "sesion_id": "2026-07-21",
+      "orden": 1,
+      "titulo": "Aprovar l’acta de la sessió anterior.",
+      "texto_redactado": "Aprovar l’acta de la sessió anterior.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    },
+    {
+      "id": "2026-07-21#2",
+      "sesion_id": "2026-07-21",
+      "orden": 2,
+      "titulo": "ÀREA D'ALCALDIA Expedient: 33/2026/1029 : Moció presentada conjuntament pels grups",
+      "texto_redactado": "ÀREA D'ALCALDIA Expedient: 33/2026/1029 : Moció presentada conjuntament pels grups",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    },
+    {
+      "id": "2026-07-21#3",
+      "sesion_id": "2026-07-21",
+      "orden": 3,
+      "titulo": "Instar, reclamar i, si cal, exigir pels mitjans necessaris al Departament de Salut de la",
+      "texto_redactado": "Instar, reclamar i, si cal, exigir pels mitjans necessaris al Departament de Salut de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    },
+    {
+      "id": "2026-07-21#4",
+      "sesion_id": "2026-07-21",
+      "orden": 4,
+      "titulo": "Que l’Ajuntament de Vilafranca del Penedès procedeixi, tenint en compte que és la població cap",
+      "texto_redactado": "Que l’Ajuntament de Vilafranca del Penedès procedeixi, tenint en compte que és la població cap",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    },
+    {
+      "id": "2026-07-21#5",
+      "sesion_id": "2026-07-21",
+      "orden": 5,
+      "titulo": "Addicionalment",
+      "texto_redactado": "Addicionalment",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    },
+    {
+      "id": "2026-07-21#6",
+      "sesion_id": "2026-07-21",
+      "orden": 6,
+      "titulo": "Com a conclusió",
+      "texto_redactado": "Com a conclusió",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    },
+    {
+      "id": "2026-07-21#7",
+      "sesion_id": "2026-07-21",
+      "orden": 7,
+      "titulo": "A la Mesa General de Negociació de Matèries Comuns del passat 7 juliol de 2026, amb presència",
+      "texto_redactado": "A la Mesa General de Negociació de Matèries Comuns del passat 7 juliol de 2026, amb presència",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    },
+    {
+      "id": "2026-07-21#8",
+      "sesion_id": "2026-07-21",
+      "orden": 8,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    },
+    {
+      "id": "2026-07-21#9",
+      "sesion_id": "2026-07-21",
+      "orden": 9,
+      "titulo": "Per valorar els llocs de treballs s’ha utilitzat un mètode valoratiu, que s’ha concretat en l’aplicació",
+      "texto_redactado": "Per valorar els llocs de treballs s’ha utilitzat un mètode valoratiu, que s’ha concretat en l’aplicació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    },
+    {
+      "id": "2026-07-21#10",
+      "sesion_id": "2026-07-21",
+      "orden": 10,
+      "titulo": "Per valorar els llocs de treball, s’ha seguit un organigrama d’estructura (Annex II) present en totes",
+      "texto_redactado": "Per valorar els llocs de treball, s’ha seguit un organigrama d’estructura (Annex II) present en totes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    },
+    {
+      "id": "2026-07-21#11",
+      "sesion_id": "2026-07-21",
+      "orden": 11,
+      "titulo": "Amb les fitxes descriptives dels llocs de treball es va obrir un procés participatiu a tota la plantilla",
+      "texto_redactado": "Amb les fitxes descriptives dels llocs de treball es va obrir un procés participatiu a tota la plantilla",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    },
+    {
+      "id": "2026-07-21#12",
+      "sesion_id": "2026-07-21",
+      "orden": 12,
+      "titulo": "Posteriorment, amb una primera valoració consensuada per la Comissió Tècnica de Valoració de",
+      "texto_redactado": "Posteriorment, amb una primera valoració consensuada per la Comissió Tècnica de Valoració de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    },
+    {
+      "id": "2026-07-21#13",
+      "sesion_id": "2026-07-21",
+      "orden": 13,
+      "titulo": "També s’ha de tenir present que abans d’obrir aquest procés participatiu la CTVLLT es va reunir en",
+      "texto_redactado": "També s’ha de tenir present que abans d’obrir aquest procés participatiu la CTVLLT es va reunir en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    },
+    {
+      "id": "2026-07-21#14",
+      "sesion_id": "2026-07-21",
+      "orden": 14,
+      "titulo": "Durant els dies 17 i 22 de juny i 6 i 7 de juliol de 2026 la CTVLLT es va reunir per estudiar les",
+      "texto_redactado": "Durant els dies 17 i 22 de juny i 6 i 7 de juliol de 2026 la CTVLLT es va reunir per estudiar les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    },
+    {
+      "id": "2026-07-21#15",
+      "sesion_id": "2026-07-21",
+      "orden": 15,
+      "titulo": "Les actes d’aquestes sessions de la CTVLLT es troben incorporades al corresponent expedient",
+      "texto_redactado": "Les actes d’aquestes sessions de la CTVLLT es troben incorporades al corresponent expedient",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    },
+    {
+      "id": "2026-07-21#16",
+      "sesion_id": "2026-07-21",
+      "orden": 16,
+      "titulo": "Després d’aquest procés participatiu i d’un posterior treball d’anàlisi final de coherència es va",
+      "texto_redactado": "Després d’aquest procés participatiu i d’un posterior treball d’anàlisi final de coherència es va",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    },
+    {
+      "id": "2026-07-21#17",
+      "sesion_id": "2026-07-21",
+      "orden": 17,
+      "titulo": "L’estudi econòmic realitzat per negociar i aprovar un valor punt, i la RLT, ha comportat realitzar un",
+      "texto_redactado": "L’estudi econòmic realitzat per negociar i aprovar un valor punt, i la RLT, ha comportat realitzar un",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    },
+    {
+      "id": "2026-07-21#18",
+      "sesion_id": "2026-07-21",
+      "orden": 18,
+      "titulo": "Alhora durant el procés de negociació s’ha acordat l’establiment d’un valor punt a partir de l’equitat",
+      "texto_redactado": "Alhora durant el procés de negociació s’ha acordat l’establiment d’un valor punt a partir de l’equitat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    },
+    {
+      "id": "2026-07-21#19",
+      "sesion_id": "2026-07-21",
+      "orden": 19,
+      "titulo": "El Capítol 1 del Pressupost Municipal 2026 assoleix la xifra de 24.730.635,00€, als efectes de",
+      "texto_redactado": "El Capítol 1 del Pressupost Municipal 2026 assoleix la xifra de 24.730.635,00€, als efectes de",
+      "importe_eur": 24730635,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    },
+    {
+      "id": "2026-07-21#20",
+      "sesion_id": "2026-07-21",
+      "orden": 20,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    },
+    {
+      "id": "2026-07-21#21",
+      "sesion_id": "2026-07-21",
+      "orden": 21,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    },
+    {
+      "id": "2026-07-21#22",
+      "sesion_id": "2026-07-21",
+      "orden": 22,
+      "titulo": "Existeix informe – memòria tècnica de la Cap del servei de Recursos Humans i Organització a",
+      "texto_redactado": "Existeix informe – memòria tècnica de la Cap del servei de Recursos Humans i Organització a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    },
+    {
+      "id": "2026-07-21#23",
+      "sesion_id": "2026-07-21",
+      "orden": 23,
+      "titulo": "De manera que, atesos els antecedents, es considera que l’expedient s’ha tramitat d’acord amb la",
+      "texto_redactado": "De manera que, atesos els antecedents, es considera que l’expedient s’ha tramitat d’acord amb la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:16.764Z"
+      }
+    }
+  ]
+}

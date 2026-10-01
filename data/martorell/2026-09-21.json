@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "martorell",
+    "nombre": "Martorell",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "811410007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-21",
+    "municipio_id": "martorell",
+    "fecha": "2026-09-21",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/811410007/2026/9f40ed68-8937-4bb5-b99d-5464c1584063/Ex_acta_ple_9_2026.pdf",
+    "hash_contenido": "1750822c87338ce23b5859d9cff2bcc74f3ad73faf8423dbd8d23cdda75d7c29",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T02:51:03.114Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-21#1",
+      "sesion_id": "2026-09-21",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L'ACTA DE LA SESSIÓ ORDINÀRIA (20-07-26).",
+      "texto_redactado": "APROVACIÓ DE L'ACTA DE LA SESSIÓ ORDINÀRIA (20-07-26).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:03.114Z"
+      }
+    },
+    {
+      "id": "2026-09-21#2",
+      "sesion_id": "2026-09-21",
+      "orden": 2,
+      "titulo": "APROVACIÓ DE L'ACTA DE LA SESSIÓ EXTRAORDINÀRIA (10-09-26).",
+      "texto_redactado": "APROVACIÓ DE L'ACTA DE LA SESSIÓ EXTRAORDINÀRIA (10-09-26).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:03.114Z"
+      }
+    },
+    {
+      "id": "2026-09-21#3",
+      "sesion_id": "2026-09-21",
+      "orden": 3,
+      "titulo": "DACIÓ DE COMPTE DE LES RESOLUCIONS DE L'ALCALDIA I REGIDORIES DELEGADES DELS MESOS DE JULIOL I AGOST 2026",
+      "texto_redactado": "DACIÓ DE COMPTE DE LES RESOLUCIONS DE L'ALCALDIA I REGIDORIES DELEGADES DELS MESOS DE JULIOL I AGOST 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:03.114Z"
+      }
+    },
+    {
+      "id": "2026-09-21#4",
+      "sesion_id": "2026-09-21",
+      "orden": 4,
+      "titulo": "DACIÓ DE COMPTE DE LES ACTES DE LA JUNTA DE GOVERN LOCAL.",
+      "texto_redactado": "DACIÓ DE COMPTE DE LES ACTES DE LA JUNTA DE GOVERN LOCAL.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:03.114Z"
+      }
+    },
+    {
+      "id": "2026-09-21#5",
+      "sesion_id": "2026-09-21",
+      "orden": 5,
+      "titulo": "INTERPEL·LACIONS.",
+      "texto_redactado": "INTERPEL·LACIONS.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:03.114Z"
+      }
+    },
+    {
+      "id": "2026-09-21#6",
+      "sesion_id": "2026-09-21",
+      "orden": 6,
+      "titulo": "PREGUNTES.",
+      "texto_redactado": "PREGUNTES.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:03.114Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,717 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "cambrils",
+    "nombre": "Cambrils",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4303850006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-04",
+    "municipio_id": "cambrils",
+    "fecha": "2026-09-04",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4303850006/2026/dcf4fc7c-02a3-4c84-9522-469a6c31f5e0/10_Ple_extraordinari_04.09.26.pdf",
+    "hash_contenido": "933cc3ef1c382f2961cfd84bd50fe70e10bd618d688e9fd26ad61c7c2095de58",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T02:51:11.130Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-04#1",
+      "sesion_id": "2026-09-04",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta del Ple ordinari del dia 31 de juliol de 2026",
+      "texto_redactado": "Aprovació de l’acta del Ple ordinari del dia 31 de juliol de 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#2",
+      "sesion_id": "2026-09-04",
+      "orden": 2,
+      "titulo": "Aprovació de l'encàrrec de gestió i la subscripció del conveni de col·laboració",
+      "texto_redactado": "Aprovació de l'encàrrec de gestió i la subscripció del conveni de col·laboració",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#3",
+      "sesion_id": "2026-09-04",
+      "orden": 3,
+      "titulo": "Un cop subscrit el conveni per les parts, cal publicar-lo en el Registre de convenis",
+      "texto_redactado": "Un cop subscrit el conveni per les parts, cal publicar-lo en el Registre de convenis",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#4",
+      "sesion_id": "2026-09-04",
+      "orden": 4,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#5",
+      "sesion_id": "2026-09-04",
+      "orden": 5,
+      "titulo": "Publicació: de conformitat amb l'article 283.4 del text refós de la Llei municipal i de",
+      "texto_redactado": "Publicació: de conformitat amb l'article 283.4 del text refós de la Llei municipal i de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#6",
+      "sesion_id": "2026-09-04",
+      "orden": 6,
+      "titulo": "Tramesa a l’Administració General de l’Estat i a l’Administració de la Generalitat de",
+      "texto_redactado": "Tramesa a l’Administració General de l’Estat i a l’Administració de la Generalitat de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#7",
+      "sesion_id": "2026-09-04",
+      "orden": 7,
+      "titulo": "Publicació al Portal de transparència de l’Ajuntament: tal i com disposa la normativa",
+      "texto_redactado": "Publicació al Portal de transparència de l’Ajuntament: tal i com disposa la normativa",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#8",
+      "sesion_id": "2026-09-04",
+      "orden": 8,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits d'una factura del",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits d'una factura del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#9",
+      "sesion_id": "2026-09-04",
+      "orden": 9,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#10",
+      "sesion_id": "2026-09-04",
+      "orden": 10,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#11",
+      "sesion_id": "2026-09-04",
+      "orden": 11,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#12",
+      "sesion_id": "2026-09-04",
+      "orden": 12,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#13",
+      "sesion_id": "2026-09-04",
+      "orden": 13,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#14",
+      "sesion_id": "2026-09-04",
+      "orden": 14,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#15",
+      "sesion_id": "2026-09-04",
+      "orden": 15,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#16",
+      "sesion_id": "2026-09-04",
+      "orden": 16,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#17",
+      "sesion_id": "2026-09-04",
+      "orden": 17,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#18",
+      "sesion_id": "2026-09-04",
+      "orden": 18,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#19",
+      "sesion_id": "2026-09-04",
+      "orden": 19,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#20",
+      "sesion_id": "2026-09-04",
+      "orden": 20,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#21",
+      "sesion_id": "2026-09-04",
+      "orden": 21,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits corresponent a factures",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#22",
+      "sesion_id": "2026-09-04",
+      "orden": 22,
+      "titulo": "Aprovar el reconeixement extrajudicial de crèdits corresponent a factures del",
+      "texto_redactado": "Aprovar el reconeixement extrajudicial de crèdits corresponent a factures del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#23",
+      "sesion_id": "2026-09-04",
+      "orden": 23,
+      "titulo": "Aprovar el reconeixement extrajudicial de crèdits corresponent a factures del",
+      "texto_redactado": "Aprovar el reconeixement extrajudicial de crèdits corresponent a factures del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#24",
+      "sesion_id": "2026-09-04",
+      "orden": 24,
+      "titulo": "Aprovar el reconeixement extrajudicial de crèdits corresponent a factures del",
+      "texto_redactado": "Aprovar el reconeixement extrajudicial de crèdits corresponent a factures del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#25",
+      "sesion_id": "2026-09-04",
+      "orden": 25,
+      "titulo": "Aprovar el reconeixement extrajudicial de crèdits corresponent a factures del",
+      "texto_redactado": "Aprovar el reconeixement extrajudicial de crèdits corresponent a factures del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#26",
+      "sesion_id": "2026-09-04",
+      "orden": 26,
+      "titulo": "Aprovar el reconeixement extrajudicial de crèdits corresponent a factures del",
+      "texto_redactado": "Aprovar el reconeixement extrajudicial de crèdits corresponent a factures del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#27",
+      "sesion_id": "2026-09-04",
+      "orden": 27,
+      "titulo": "Aprovar el reconeixement extrajudicial de crèdits corresponent a factures del",
+      "texto_redactado": "Aprovar el reconeixement extrajudicial de crèdits corresponent a factures del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#28",
+      "sesion_id": "2026-09-04",
+      "orden": 28,
+      "titulo": "Aprovar el reconeixement extrajudicial de crèdits corresponent a factures del",
+      "texto_redactado": "Aprovar el reconeixement extrajudicial de crèdits corresponent a factures del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#29",
+      "sesion_id": "2026-09-04",
+      "orden": 29,
+      "titulo": "Aprovació de la reducció del capital social, modificació art. 5 dels Estatuts de",
+      "texto_redactado": "Aprovació de la reducció del capital social, modificació art. 5 dels Estatuts de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    },
+    {
+      "id": "2026-09-04#30",
+      "sesion_id": "2026-09-04",
+      "orden": 30,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:51:11.130Z"
+      }
+    }
+  ]
+}

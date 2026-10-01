@@ -5,7 +5,13 @@ export interface PuntoSegmentado {
   referencia: string | null;
 }
 
-export type MetodoSegmentacion = 'extracte-acords' | 'acta-numerada' | 'documento-unico';
+export type MetodoSegmentacion =
+  | 'extracte-acords'
+  | 'extracte-resultats'
+  | 'acta-numerada'
+  | 'acta-guiones'
+  | 'punto-unico'
+  | 'documento-unico';
 
 export interface ResultadoSegmentacion {
   puntos: PuntoSegmentado[];
@@ -222,22 +228,214 @@ export function segmentarActaNumerada(texto: string): ResultadoSegmentacion {
   return { puntos, metodo: 'acta-numerada', segmentacionPobre: true };
 }
 
-export function segmentar(texto: string, formato?: string): ResultadoSegmentacion {
-  if (formato === 'extracte-acords' || /extracte dels acords/i.test(texto.slice(0, 2000))) {
-    const r = segmentarExtracteAcords(texto);
-    if (!r.segmentacionPobre) return r;
-    const alt = segmentarActaNumerada(texto);
-    if (!alt.segmentacionPobre) return alt;
-    return {
-      puntos: [{ orden: 1, titulo: texto.split('\n').slice(0, 3).join(' ').slice(0, 300), resultado: null, referencia: null }],
-      metodo: 'documento-unico',
-      segmentacionPobre: true,
-    };
+const RESULTADOS_TABLA = new Set([
+  'aprovat',
+  'aprovada',
+  'aprovat per unanimitat',
+  'en resten assabentats',
+  'assabentat',
+  'assabentada',
+  'rebutjat',
+  'rebutjada',
+  'retirat',
+  'retirada',
+  'desistit',
+  'acceptat',
+  'acceptada',
+  'aprobado',
+  'aprobada',
+  'rechazado',
+  'rechazada',
+  'no aprovat',
+  'pendent',
+]);
+
+const RUIDO_TABLA =
+  /^(expedient n[uú]m\.|codi de verificaci[oó]|actsextr|v\.\s*\d{4}\/\d{2}|assumptes tractats|resultat|extractes? del ple\b|extractos? del pleno\b)/i;
+
+function esResultadoTabla(linea: string): string | null {
+  const limpia = linea.trim().replace(/[.·]+$/, '').toLowerCase();
+  return RESULTADOS_TABLA.has(limpia) ? limpia : null;
+}
+
+const RESULTADO_AL_FINAL = new RegExp(
+  `^(.*\\S)\\s+(${[...RESULTADOS_TABLA].sort((a, b) => b.length - a.length).join('|')})\\s*[.·]*$`,
+  'i',
+);
+
+function partirResultadoAlFinal(linea: string): { texto: string; resultado: string } | null {
+  const m = linea.match(RESULTADO_AL_FINAL);
+  if (!m) return null;
+  return { texto: m[1].trim(), resultado: m[2].toLowerCase() };
+}
+
+export function segmentarExtractePerResultats(texto: string): ResultadoSegmentacion | null {
+  const lineas = limpiarLineas(texto);
+  const inicio = lineas.findIndex((l) => /assumptes tractats|resultat\b/i.test(l));
+  if (inicio === -1) return null;
+
+  const puntos: PuntoSegmentado[] = [];
+  let acumulado: string[] = [];
+
+  const cerrar = (resultado: string): void => {
+    if (acumulado.length > 0) {
+      const titulo = unirTitulo(acumulado);
+      if (titulo.length >= 10) {
+        puntos.push({
+          orden: puntos.length + 1,
+          titulo: titulo.slice(0, 600),
+          resultado,
+          referencia: null,
+        });
+      }
+    }
+    acumulado = [];
+  };
+
+  for (let i = inicio + 1; i < lineas.length; i++) {
+    const linea = lineas[i];
+    if (RUIDO_TABLA.test(linea)) continue;
+    const alFinal = partirResultadoAlFinal(linea);
+    if (alFinal) {
+      if (alFinal.texto.length > 0) acumulado.push(alFinal.texto);
+      cerrar(alFinal.resultado);
+      continue;
+    }
+    const resultado = esResultadoTabla(linea);
+    if (resultado) {
+      cerrar(resultado);
+      continue;
+    }
+    acumulado.push(linea);
   }
-  const r = segmentarActaNumerada(texto);
-  if (!r.segmentacionPobre) return r;
+
+  if (puntos.length >= 3) {
+    return { puntos, metodo: 'extracte-resultats', segmentacionPobre: false };
+  }
+  return null;
+}
+
+const PATRON_GUION = /^(\d{1,3})\.\s*[-–—]\s+(.+)$/;
+
+export function segmentarActaConGuiones(texto: string): ResultadoSegmentacion | null {
+  const lineas = limpiarLineas(texto);
+  const porNumero = new Map<number, { idx: number; titulo: string }>();
+  for (let i = 0; i < lineas.length; i++) {
+    const m = lineas[i].match(PATRON_GUION);
+    if (!m) continue;
+    const numero = Number(m[1]);
+    if (numero < 1 || numero > 200) continue;
+    const titulo = m[2].trim();
+    if (titulo.length < 10 || esNumeroDePersona(titulo)) continue;
+    if (!porNumero.has(numero)) porNumero.set(numero, { idx: i, titulo });
+  }
+
+  const numeros = [...porNumero.keys()].sort((a, b) => a - b);
+  if (numeros.length === 1 && numeros[0] === 1) {
+    const unico = porNumero.get(1)!;
+    const pareceCertificado = /acord adoptat|acuerdo adoptado|sessi[oó]\s+extraordin/i.test(texto);
+    if (pareceCertificado && texto.length < 5000) {
+      return {
+        puntos: [
+          {
+            orden: 1,
+            titulo: unirTitulo([unico.titulo]).slice(0, 600),
+            resultado: null,
+            referencia: null,
+          },
+        ],
+        metodo: 'acta-guiones',
+        segmentacionPobre: false,
+      };
+    }
+    return null;
+  }
+
+  const consecutivos = numeros.every((n, i) => n === i + 1);
+  if (!consecutivos || numeros.length < 3) return null;
+
+  const puntos = numeros.map((numero) => {
+    const actual = porNumero.get(numero)!;
+    const partes = [actual.titulo];
+    for (let i = actual.idx + 1; i < Math.min(actual.idx + 6, lineas.length); i++) {
+      const linea = lineas[i];
+      if (PATRON_GUION.test(linea) || /^\d{1,3}\.\s+\S/.test(linea)) break;
+      if (linea.length >= 14 && linea === linea.toUpperCase() && !/^\d/.test(linea)) {
+        partes.push(linea);
+        continue;
+      }
+      break;
+    }
+    return {
+      orden: numero,
+      titulo: unirTitulo(partes).slice(0, 900),
+      resultado: null,
+      referencia: null,
+    };
+  });
+  return { puntos, metodo: 'acta-guiones', segmentacionPobre: false };
+}
+
+export function segmentarPuntoUnico(texto: string): ResultadoSegmentacion | null {
+  const lineas = limpiarLineas(texto);
+  const idx = lineas.findIndex((l) => /^[ÚU]nic\.\s*[-–—]\s+\S/i.test(l));
+  if (idx === -1) return null;
+  const m = lineas[idx].match(/^[ÚU]nic\.\s*[-–—]\s+(.+)$/i)!;
+  const partes = [m[1].trim()];
+  for (let i = idx + 1; i < Math.min(idx + 8, lineas.length); i++) {
+    const linea = lineas[i];
+    if (linea.length >= 8 && linea === linea.toUpperCase() && !/^\d/.test(linea)) {
+      partes.push(linea);
+      continue;
+    }
+    break;
+  }
+  const titulo = unirTitulo(partes).slice(0, 900);
+  if (titulo.length < 15) return null;
   return {
-    puntos: [{ orden: 1, titulo: texto.split('\n').slice(0, 3).join(' ').slice(0, 300), resultado: null, referencia: null }],
+    puntos: [{ orden: 1, titulo, resultado: null, referencia: null }],
+    metodo: 'punto-unico',
+    segmentacionPobre: false,
+  };
+}
+
+function tituloRespaldo(lineas: string[]): string {
+  const numerada = lineas.find((l) => /^\d{1,3}\.\s*\S/.test(l));
+  return (numerada ?? lineas.slice(0, 3).join(' ')).slice(0, 300);
+}
+
+export function segmentar(texto: string, formato?: string): ResultadoSegmentacion {
+  const esExtracte =
+    formato === 'extracte-acords' ||
+    /extracte dels acords|extractes? del ple|extractos? del pleno/i.test(texto.slice(0, 2000));
+
+  if (esExtracte) {
+    const extracte = segmentarExtracteAcords(texto);
+    if (!extracte.segmentacionPobre) return extracte;
+    const conGuiones = segmentarActaConGuiones(texto);
+    if (conGuiones) return conGuiones;
+    const porResultados = segmentarExtractePerResultats(texto);
+    if (porResultados) return porResultados;
+  } else {
+    const unico = segmentarPuntoUnico(texto);
+    if (unico) return unico;
+    const numerada = segmentarActaNumerada(texto);
+    if (!numerada.segmentacionPobre) return numerada;
+    const conGuiones = segmentarActaConGuiones(texto);
+    if (conGuiones) return conGuiones;
+    const porResultados = segmentarExtractePerResultats(texto);
+    if (porResultados) return porResultados;
+  }
+
+  return {
+    puntos: [
+      {
+        orden: 1,
+        titulo: tituloRespaldo(limpiarLineas(texto)),
+        resultado: null,
+        referencia: null,
+      },
+    ],
     metodo: 'documento-unico',
     segmentacionPobre: true,
   };

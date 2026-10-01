@@ -1,0 +1,786 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "girona",
+    "nombre": "Girona",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1707920002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-14",
+    "municipio_id": "girona",
+    "fecha": "2026-09-14",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1707920002/2026/d251dc15-65db-4702-8649-df956d3d5182/Acords%20Ple%20ordinari%2014.09.26.pdf",
+    "hash_contenido": "3225c48c7576b8fec66e3907cd2967372e46c50b4ed5072e71526266f37f739c",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T02:50:57.594Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-14#1",
+      "sesion_id": "2026-09-14",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió del Ple ordinari de data 27 de juliol de 2026",
+      "texto_redactado": "Aprovació de l'acta de la sessió del Ple ordinari de data 27 de juliol de 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#2",
+      "sesion_id": "2026-09-14",
+      "orden": 2,
+      "titulo": "INFORMES DE PRESIDÈNCIA",
+      "texto_redactado": "INFORMES DE PRESIDÈNCIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#3",
+      "sesion_id": "2026-09-14",
+      "orden": 3,
+      "titulo": "DECRETS A DONAR COMPTE AL PLE",
+      "texto_redactado": "DECRETS A DONAR COMPTE AL PLE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#4",
+      "sesion_id": "2026-09-14",
+      "orden": 4,
+      "titulo": "Matrimonis civils: atenció presencial i telefònica contraents, preparació",
+      "texto_redactado": "Matrimonis civils: atenció presencial i telefònica contraents, preparació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#5",
+      "sesion_id": "2026-09-14",
+      "orden": 5,
+      "titulo": "Gabinet d'Estudis Socials Europeus",
+      "texto_redactado": "Gabinet d'Estudis Socials Europeus",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#6",
+      "sesion_id": "2026-09-14",
+      "orden": 6,
+      "titulo": "Relacions amb el Síndic de Greuges i el Defensor del Pueblo:",
+      "texto_redactado": "Relacions amb el Síndic de Greuges i el Defensor del Pueblo:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#7",
+      "sesion_id": "2026-09-14",
+      "orden": 7,
+      "titulo": "Agenda Institucional:",
+      "texto_redactado": "Agenda Institucional:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#8",
+      "sesion_id": "2026-09-14",
+      "orden": 8,
+      "titulo": "1) Atenció Ciutadana",
+      "texto_redactado": "1) Atenció Ciutadana",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#9",
+      "sesion_id": "2026-09-14",
+      "orden": 9,
+      "titulo": "Gestió del Registre Municipal d'Entitats Ciutadanes",
+      "texto_redactado": "Gestió del Registre Municipal d'Entitats Ciutadanes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#10",
+      "sesion_id": "2026-09-14",
+      "orden": 10,
+      "titulo": "Gestió d'activitats cíviques, Festes Majors de barri i festivitats similars",
+      "texto_redactado": "Gestió d'activitats cíviques, Festes Majors de barri i festivitats similars",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#11",
+      "sesion_id": "2026-09-14",
+      "orden": 11,
+      "titulo": "Gestió activitats de cultura popular als barris: Carnestoltes, activitats de Nadal i",
+      "texto_redactado": "Gestió activitats de cultura popular als barris: Carnestoltes, activitats de Nadal i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#12",
+      "sesion_id": "2026-09-14",
+      "orden": 12,
+      "titulo": "Gestió de les autoritzacions i coordinació del suport musical en la processó de",
+      "texto_redactado": "Gestió de les autoritzacions i coordinació del suport musical en la processó de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#13",
+      "sesion_id": "2026-09-14",
+      "orden": 13,
+      "titulo": "Acció investigadora de béns i drets.",
+      "texto_redactado": "Acció investigadora de béns i drets.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#14",
+      "sesion_id": "2026-09-14",
+      "orden": 14,
+      "titulo": "Recuperació d'ofici de béns.",
+      "texto_redactado": "Recuperació d'ofici de béns.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#15",
+      "sesion_id": "2026-09-14",
+      "orden": 15,
+      "titulo": "Desnonament administratiu.",
+      "texto_redactado": "Desnonament administratiu.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#16",
+      "sesion_id": "2026-09-14",
+      "orden": 16,
+      "titulo": "Gestió de les mesures de conciliació amb la vida personal familiar i laboral",
+      "texto_redactado": "Gestió de les mesures de conciliació amb la vida personal familiar i laboral",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#17",
+      "sesion_id": "2026-09-14",
+      "orden": 17,
+      "titulo": "Gestió de les mesures d'acció social contemplades a l'Acord/Conveni ( ajudes",
+      "texto_redactado": "Gestió de les mesures d'acció social contemplades a l'Acord/Conveni ( ajudes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#18",
+      "sesion_id": "2026-09-14",
+      "orden": 18,
+      "titulo": "Gestió de la pòlissa assegurança per mort, incapacitat ... (comunicació altes i baixes",
+      "texto_redactado": "Gestió de la pòlissa assegurança per mort, incapacitat ... (comunicació altes i baixes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#19",
+      "sesion_id": "2026-09-14",
+      "orden": 19,
+      "titulo": "Tramitació de bestretes i avançaments de nòmina.",
+      "texto_redactado": "Tramitació de bestretes i avançaments de nòmina.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#20",
+      "sesion_id": "2026-09-14",
+      "orden": 20,
+      "titulo": "Gestió del Convenis administratius en pràctiques, en execució dels Convenis marc",
+      "texto_redactado": "Gestió del Convenis administratius en pràctiques, en execució dels Convenis marc",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#21",
+      "sesion_id": "2026-09-14",
+      "orden": 21,
+      "titulo": "Tramitació dels procediments administratius relatius als expedients disciplinaris de",
+      "texto_redactado": "Tramitació dels procediments administratius relatius als expedients disciplinaris de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#22",
+      "sesion_id": "2026-09-14",
+      "orden": 22,
+      "titulo": "Incompatibilitats",
+      "texto_redactado": "Incompatibilitats",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#23",
+      "sesion_id": "2026-09-14",
+      "orden": 23,
+      "titulo": "Elaboració i gestió del Pla de Formació.",
+      "texto_redactado": "Elaboració i gestió del Pla de Formació.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#24",
+      "sesion_id": "2026-09-14",
+      "orden": 24,
+      "titulo": "Emissió d'informes tècnics propis de l'àmbit de RRHH",
+      "texto_redactado": "Emissió d'informes tècnics propis de l'àmbit de RRHH",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#25",
+      "sesion_id": "2026-09-14",
+      "orden": 25,
+      "titulo": "Presentar i proposar millores, instruccions ...",
+      "texto_redactado": "Presentar i proposar millores, instruccions ...",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#26",
+      "sesion_id": "2026-09-14",
+      "orden": 26,
+      "titulo": "Gestió de les relacions laborals, interlocució amb les representants dels treballadors",
+      "texto_redactado": "Gestió de les relacions laborals, interlocució amb les representants dels treballadors",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#27",
+      "sesion_id": "2026-09-14",
+      "orden": 27,
+      "titulo": "Assessorament jurídic (Assistència judicis)",
+      "texto_redactado": "Assessorament jurídic (Assistència judicis)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#28",
+      "sesion_id": "2026-09-14",
+      "orden": 28,
+      "titulo": "395,75€ (que és la part corresponent a la rehabilitació integral de façanes), quedant un",
+      "texto_redactado": "395,75€ (que és la part corresponent a la rehabilitació integral de façanes), quedant un",
+      "importe_eur": 395.75,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#29",
+      "sesion_id": "2026-09-14",
+      "orden": 29,
+      "titulo": "Primer.- El Ple de l'Ajuntament de Girona en sessió ordinària celebrada el dia 8 de juny de",
+      "texto_redactado": "Primer.- El Ple de l'Ajuntament de Girona en sessió ordinària celebrada el dia 8 de juny de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#30",
+      "sesion_id": "2026-09-14",
+      "orden": 30,
+      "titulo": "Els parcs infantils constitueixen una part essencial de l'espai públic de qualsevol ciutat. Són",
+      "texto_redactado": "Els parcs infantils constitueixen una part essencial de l'espai públic de qualsevol ciutat. Són",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#31",
+      "sesion_id": "2026-09-14",
+      "orden": 31,
+      "titulo": "EXPOSICIÓ DE MOTIUS",
+      "texto_redactado": "EXPOSICIÓ DE MOTIUS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#32",
+      "sesion_id": "2026-09-14",
+      "orden": 32,
+      "titulo": "EXPOSICIÓ DE MOTIUS",
+      "texto_redactado": "EXPOSICIÓ DE MOTIUS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    },
+    {
+      "id": "2026-09-14#33",
+      "sesion_id": "2026-09-14",
+      "orden": 33,
+      "titulo": "Ceuta y Melilla son parte integrante e inseparable de España. También forman parte del",
+      "texto_redactado": "Ceuta y Melilla son parte integrante e inseparable de España. También forman parte del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T02:50:57.594Z"
+      }
+    }
+  ]
+}

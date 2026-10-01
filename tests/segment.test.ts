@@ -108,6 +108,87 @@ describe('segmentar otros formatos', () => {
     }
   });
 
+  it('segmenta un extracto en tabla con resultados (estilo El Masnou)', () => {
+    const extracto = [
+      'Expedient núm. PLE2026000008',
+      'Codi de verificació electrònic: 1a733547-ed06-4572-abb5-b1716a81e9a2',
+      'ACTSEXTR',
+      'v. 2023/03',
+      'Extractes del Ple Municipal en sessió ordinària de l’Ajuntament del Masnou del',
+      '17 de setembre de 2026',
+      'Assumptes tractats Resultat',
+      'Aprovació de l’esborrany de l’acta del Ple ordinari del 16 de juliol de 2026. Aprovat',
+      'Informacions de l’Alcaldia.',
+      'En resten assabentats',
+      'Aprovació inicial del projecte d’urbanització de la fase 6 del Parc Vallmora.',
+      'Aprovat',
+      'Compatibilitat de l’empleada 255.',
+      'Aprovat',
+    ].join('\n');
+    const r = segmentar(extracto, 'auto');
+    expect(r.segmentacionPobre).toBe(false);
+    expect(r.metodo).toBe('extracte-resultats');
+    expect(r.puntos).toHaveLength(4);
+    expect(r.puntos[0].titulo).toContain('esborrany');
+    expect(r.puntos[0].resultado).toBe('aprovat');
+    expect(r.puntos[1].resultado).toBe('en resten assabentats');
+  });
+
+  it('segmenta un acta con puntos «N.-» desordenados (estilo Martorell)', () => {
+    const acta = [
+      'ACTA DEL PLE',
+      '3.- DACIÓ DE COMPTE DE LES RESOLUCIONS DE L’ALCALDIA.',
+      'Text del punt tres.',
+      '1.- APROVACIÓ DE L’ACTA DE LA SESSIÓ ORDINÀRIA (20-07-26).',
+      'Text del punt un.',
+      '2.- APROVACIÓ DE L’ACTA DE LA SESSIÓ EXTRAORDINÀRIA (10-09-26).',
+      'Text del punt dos.',
+      '4.- MOCIÓ SOBRE HABITATGE.',
+      'Text del punt quatre.',
+    ].join('\n');
+    const r = segmentar(acta, 'auto');
+    expect(r.segmentacionPobre).toBe(false);
+    expect(r.metodo).toBe('acta-guiones');
+    expect(r.puntos.map((p) => p.orden)).toEqual([1, 2, 3, 4]);
+    expect(r.puntos[0].titulo).toContain('APROVACIÓ DE L’ACTA');
+    expect(r.puntos[2].titulo).toContain('DACIÓ DE COMPTE');
+  });
+
+  it('acepta un certificado de acuerdo único (estilo Tarragona)', () => {
+    const certificado = [
+      'MTC_SES_EXT Document electrònic garantit amb signatura electrònica.',
+      'Sessió extraordinària del Consell Plenari de 18 de setembre de 2026.',
+      'ACORD ADOPTAT A LA SESSIÓ EXTRAORDINÀRIA DEL CONSELL PLENARI QUE TINGUÉ LLOC',
+      'EL DIA 18 DE SETEMBRE DE 2026.',
+      '1.- Ordenació Corporativa i Administrativa. Expedient 2026/1-G212_1',
+      'Presa de possessió del conseller municipal.',
+    ].join('\n');
+    const r = segmentar(certificado, 'auto');
+    expect(r.segmentacionPobre).toBe(false);
+    expect(r.puntos).toHaveLength(1);
+    expect(r.puntos[0].titulo).toContain('Ordenació Corporativa');
+  });
+
+  it('segmenta un ple de punt únic «Únic.» (estilo Sant Cugat)', () => {
+    const acta = [
+      'ACTA DEL PLE DE 27-07-2026',
+      'Srs. Assistents:',
+      'Presidència:',
+      'JOSEP MARIA VALLES NAVARRO',
+      '2/5',
+      'DESPATX INSTITUCIONAL',
+      'Únic. - POSICIONAMENT DEL GOVERN I DELS GRUPS MUNICIPALS SOBRE L’ESTAT DE',
+      'LA CIUTAT.',
+      'Obertura de la sessió',
+      'El Sr. alcalde-president dona la benvinguda als assistents.',
+    ].join('\n');
+    const r = segmentar(acta, 'auto');
+    expect(r.segmentacionPobre).toBe(false);
+    expect(r.metodo).toBe('punto-unico');
+    expect(r.puntos).toHaveLength(1);
+    expect(r.puntos[0].titulo).toContain('L’ESTAT DE LA CIUTAT');
+  });
+
   it('marca segmentacion_pobre y un punto único cuando no reconoce el formato', () => {
     const r = segmentar('Un text qualsevol sense estructura numerada reconeixible.', 'auto');
     expect(r.segmentacionPobre).toBe(true);
