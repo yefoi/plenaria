@@ -1,0 +1,674 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "rubi",
+    "nombre": "Rubí",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "818460009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-23",
+    "municipio_id": "rubi",
+    "fecha": "2026-07-23",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/818460009/2026/66fb9d28-0d44-4cd7-90f4-095ab09de330/7_Acta%20Ple%2023.07.2026%20-%20anonimitzada.pdf",
+    "hash_contenido": "ea25bbf7a700175879baa02b21386d66c0e77cbed5403064f3ed09aa05dcabdf",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T11:41:47.775Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-23#1",
+      "sesion_id": "2026-07-23",
+      "orden": 1,
+      "titulo": "PRESSA DE POSSESSIÓ DEL REGIDOR SR. RAFAEL CUESTA CORREDERAS. EXP. 9/2026/CM.",
+      "texto_redactado": "PRESSA DE POSSESSIÓ DEL REGIDOR SR. RAFAEL CUESTA CORREDERAS. EXP. 9/2026/CM.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.05,
+      "impacto": 1,
+      "confianza_min": 0.98,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#2",
+      "sesion_id": "2026-07-23",
+      "orden": 2,
+      "titulo": "APROVACIÓ DE L’ACTA DE LA SESSIÓ ANTERIOR 07/2026, DE 20 DE JUNY DE",
+      "texto_redactado": "APROVACIÓ DE L’ACTA DE LA SESSIÓ ANTERIOR 07/2026, DE 20 DE JUNY DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#3",
+      "sesion_id": "2026-07-23",
+      "orden": 3,
+      "titulo": "PRESA DE CONEIXEMENT DELS DECRETS D'ALCALDIA I DE LES RESOLUCIONS DE LES REGIDORIES DELEGADES DICTATS ENTRE ELS DIES 1 AL 30 DE JUNY DE 2026. EXP. 7/2026/PCDA.",
+      "texto_redactado": "PRESA DE CONEIXEMENT DELS DECRETS D'ALCALDIA I DE LES RESOLUCIONS DE LES REGIDORIES DELEGADES DICTATS ENTRE ELS DIES 1 AL 30 DE JUNY DE 2026. EXP. 7/2026/PCDA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#4",
+      "sesion_id": "2026-07-23",
+      "orden": 4,
+      "titulo": "DONAR A COMPTE AL PLE DE LA MODIFICACIÓ LA COMPOSICIÓ DE LA JUNTA DE GOVERN LOCAL ESTABLERTA PEL DECRET D’ALCALDIA NÚM. 63/2025, DE DATA 10 DE GENER DE 2025, AMB EFECTES A DIA 23 DE JUNY DE 2026. EXP.",
+      "texto_redactado": "DONAR A COMPTE AL PLE DE LA MODIFICACIÓ LA COMPOSICIÓ DE LA JUNTA DE GOVERN LOCAL ESTABLERTA PEL DECRET D’ALCALDIA NÚM. 63/2025, DE DATA 10 DE GENER DE 2025, AMB EFECTES A DIA 23 DE JUNY DE 2026. EXP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#5",
+      "sesion_id": "2026-07-23",
+      "orden": 5,
+      "titulo": "DONAR A COMPTE AL PLE DE LA MODIFICACIÓ DE LA COMPOSICIÓ DELS TINENTS/ES D’ALCALDE ESTABLERTA PER DECRET D’ALCALDIA NÚM.",
+      "texto_redactado": "DONAR A COMPTE AL PLE DE LA MODIFICACIÓ DE LA COMPOSICIÓ DELS TINENTS/ES D’ALCALDE ESTABLERTA PER DECRET D’ALCALDIA NÚM.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#6",
+      "sesion_id": "2026-07-23",
+      "orden": 6,
+      "titulo": "DONAR A COMPTE AL PLE SOBRE LA MODIFICACIÓ DEL DECRET DE L’ALCALDIA NÚM. 497/2025, DE DATA 4 DE FEBRER DE 2025, MITJANÇANT EL PRESENT TEXT REFÓS QUE INCORPORA TOTES LES DELEGACIONS D’ALCALDIA A ELS/LES REGIDORS/ORES, AMB EFECTES A DIA 23 DE JUNY DE 2026. EXP. 4/2023/CM.",
+      "texto_redactado": "DONAR A COMPTE AL PLE SOBRE LA MODIFICACIÓ DEL DECRET DE L’ALCALDIA NÚM. 497/2025, DE DATA 4 DE FEBRER DE 2025, MITJANÇANT EL PRESENT TEXT REFÓS QUE INCORPORA TOTES LES DELEGACIONS D’ALCALDIA A ELS/LES REGIDORS/ORES, AMB EFECTES A DIA 23 DE JUNY DE 2026. EXP. 4/2023/CM.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#7",
+      "sesion_id": "2026-07-23",
+      "orden": 7,
+      "titulo": "DONAR A COMPTE AL PLE SOBRE L’ALCALDIA ACCIDENTAL PEL PERÍODE D’ESTIU 2026. EXP. 3/2026/CM.",
+      "texto_redactado": "DONAR A COMPTE AL PLE SOBRE L’ALCALDIA ACCIDENTAL PEL PERÍODE D’ESTIU 2026. EXP. 3/2026/CM.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#8",
+      "sesion_id": "2026-07-23",
+      "orden": 8,
+      "titulo": "DONAR A COMPTE AL PLE DEL DECRET D’ALCALDIA NÚM. 3470/2026, DE DATA 15 DE JUNY DE 2026, SOBRE LA DECLARACIÓ D’EMERGÈNCIA DE LES OBRES DE L’APARCAMENT DE LA PLAÇA SALVADOR ALLENDE, DEL DECRET D’ALCALDIA NÚM. 3516/2026, DE DATA 16 DE JUNY DE 2026, SOBRE L’ADJUDICACIÓ PER A LA REDACCIÓ D’ESTUDIS INFORMES I PROJECTES CONSULTIUS, DEL DECRET D’ALCALDIA NÚM. 3990/2026, DE DATA 13 DE JULIOL DE 2026, SOBRE L’ADJUDICACIÓ DE LES OBRES, DE LA DIRECCIÓ FACULTATIVA DE L’APARCAMENT SITUAT A LA PLAÇA DE SALVADOR ALLENDE. EXP. 2/2026/DBAP. DECRET D'ALCALDIA NÚM: 3470/2026",
+      "texto_redactado": "DONAR A COMPTE AL PLE DEL DECRET D’ALCALDIA NÚM. 3470/2026, DE DATA 15 DE JUNY DE 2026, SOBRE LA DECLARACIÓ D’EMERGÈNCIA DE LES OBRES DE L’APARCAMENT DE LA PLAÇA SALVADOR ALLENDE, DEL DECRET D’ALCALDIA NÚM. 3516/2026, DE DATA 16 DE JUNY DE 2026, SOBRE L’ADJUDICACIÓ PER A LA REDACCIÓ D’ESTUDIS INFORMES I PROJECTES CONSULTIUS, DEL DECRET D’ALCALDIA NÚM. 3990/2026, DE DATA 13 DE JULIOL DE 2026, SOBRE L’ADJUDICACIÓ DE LES OBRES, DE LA DIRECCIÓ FACULTATIVA DE L’APARCAMENT SITUAT A LA PLAÇA DE SALVADOR ALLENDE. EXP. 2/2026/DBAP. DECRET D'ALCALDIA NÚM: 3470/2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "contratacion_obras",
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#9",
+      "sesion_id": "2026-07-23",
+      "orden": 9,
+      "titulo": "Responsable del contracte: Carlos Freire de la Corte o persona que li substitueixi",
+      "texto_redactado": "Responsable del contracte: Carlos Freire de la Corte o persona que li substitueixi",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.89,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#10",
+      "sesion_id": "2026-07-23",
+      "orden": 10,
+      "titulo": "El procediment d’aprovació d’ordenances i reglaments es troba regulat bàsicament",
+      "texto_redactado": "El procediment d’aprovació d’ordenances i reglaments es troba regulat bàsicament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#11",
+      "sesion_id": "2026-07-23",
+      "orden": 11,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#12",
+      "sesion_id": "2026-07-23",
+      "orden": 12,
+      "titulo": "MODIFICACIÓ DE LA RELACIÓ DE LLOCS DE TREBALLS (RLT) I PLANTILLA. EXP. 165/2026/RRHH-E.",
+      "texto_redactado": "MODIFICACIÓ DE LA RELACIÓ DE LLOCS DE TREBALLS (RLT) I PLANTILLA. EXP. 165/2026/RRHH-E.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#13",
+      "sesion_id": "2026-07-23",
+      "orden": 13,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#14",
+      "sesion_id": "2026-07-23",
+      "orden": 14,
+      "titulo": "Punto de personal",
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#15",
+      "sesion_id": "2026-07-23",
+      "orden": 15,
+      "titulo": "MODIFICACIÓ PRESSUPOSTÀRIA NÚM. 34/2026 PER CRÈDIT EXTRAORDINARI. APARCAMENT SALVADOR ALLENDE. EXP. 39/2026/PM.",
+      "texto_redactado": "MODIFICACIÓ PRESSUPOSTÀRIA NÚM. 34/2026 PER CRÈDIT EXTRAORDINARI. APARCAMENT SALVADOR ALLENDE. EXP. 39/2026/PM.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.47,
+      "impacto": 3,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#16",
+      "sesion_id": "2026-07-23",
+      "orden": 16,
+      "titulo": "MODIFICACIÓ PRESSUPOSTÀRIA NÚM. 43/2026 PER TRANSFERÈNCIA DE CRÈDIT. SUBVENCIÓ NOMINATIVA. EXP. 48/2026/PM.",
+      "texto_redactado": "MODIFICACIÓ PRESSUPOSTÀRIA NÚM. 43/2026 PER TRANSFERÈNCIA DE CRÈDIT. SUBVENCIÓ NOMINATIVA. EXP. 48/2026/PM.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#17",
+      "sesion_id": "2026-07-23",
+      "orden": 17,
+      "titulo": "MODIFICACIÓ PRESSUPOSTÀRIA NÚM. 41/2026 PER SUPLEMENT DE CRÈDIT DEL DESTÍ DEL ROMANENT 2025 PER AMORTITZAR DEUTE. EXP. 49/2026/PM.",
+      "texto_redactado": "MODIFICACIÓ PRESSUPOSTÀRIA NÚM. 41/2026 PER SUPLEMENT DE CRÈDIT DEL DESTÍ DEL ROMANENT 2025 PER AMORTITZAR DEUTE. EXP. 49/2026/PM.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 2,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#18",
+      "sesion_id": "2026-07-23",
+      "orden": 18,
+      "titulo": "MODIFICACIÓ PRESSUPOSTÀRIA NÚM. 42/2026 PER SUPLEMENT DE CRÈDIT PER A PROJECTES MANCA FINANÇAMENT EN PRESSUPOST PRORROGAT. EXP. 50/2026/PM",
+      "texto_redactado": "MODIFICACIÓ PRESSUPOSTÀRIA NÚM. 42/2026 PER SUPLEMENT DE CRÈDIT PER A PROJECTES MANCA FINANÇAMENT EN PRESSUPOST PRORROGAT. EXP. 50/2026/PM",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.35,
+      "impacto": 2,
+      "confianza_min": 0.19,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#19",
+      "sesion_id": "2026-07-23",
+      "orden": 19,
+      "titulo": "CORRECCIÓ D’ERROR MATERIAL DE LA MODIFICACIÓ PRESSUPOSTÀRIA NÚM.26/2026 PER SUPLEMENT DE CRÈDIT I CRÈDIT EXTRAORDINARI. DESTÍ ROMANENT 2025. EXP. 30/2026/PM.",
+      "texto_redactado": "CORRECCIÓ D’ERROR MATERIAL DE LA MODIFICACIÓ PRESSUPOSTÀRIA NÚM.26/2026 PER SUPLEMENT DE CRÈDIT I CRÈDIT EXTRAORDINARI. DESTÍ ROMANENT 2025. EXP. 30/2026/PM.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#20",
+      "sesion_id": "2026-07-23",
+      "orden": 20,
+      "titulo": "IMPUTACIÓ PRESSUPOSTÀRIA A L'EXERCICI CORRENT DE DESPESES MERITADES EN ANYS ANTERIORS. EXP. 163/2026/EXJUD.",
+      "texto_redactado": "IMPUTACIÓ PRESSUPOSTÀRIA A L'EXERCICI CORRENT DE DESPESES MERITADES EN ANYS ANTERIORS. EXP. 163/2026/EXJUD.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#21",
+      "sesion_id": "2026-07-23",
+      "orden": 21,
+      "titulo": "RENÚNCIA DE L’AJUNTAMENT DE RUBÍ A LA SERVITUD DE PAS EXISTENT A LES ESCALES QUE COMUNIQUEN L’EDIFICI SITUAT AL [DIRECCIÓN] AMB LA PLAÇA LOUIS BRAILLE. EXP. 4/2026/GP. I.-ANTECEDENTS",
+      "texto_redactado": "RENÚNCIA DE L’AJUNTAMENT DE RUBÍ A LA SERVITUD DE PAS EXISTENT A LES ESCALES QUE COMUNIQUEN L’EDIFICI SITUAT AL [DIRECCIÓN] AMB LA PLAÇA LOUIS BRAILLE. EXP. 4/2026/GP. I.-ANTECEDENTS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.42,
+      "impacto": 3,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#22",
+      "sesion_id": "2026-07-23",
+      "orden": 22,
+      "titulo": "ASSUPMTES URGENTS",
+      "texto_redactado": "ASSUPMTES URGENTS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.39,
+      "impacto": 2,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#23",
+      "sesion_id": "2026-07-23",
+      "orden": 23,
+      "titulo": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL ESQUERRA REPUBLICANA RUBÍ (ERC-AM), PER REIVINDICAR LA NECESSITAT D'UNA NOVA PISCINA MUNICIPAL EXTERIOR D'ESTIU A RUBÍ. EXP. 36/2026/MOC.",
+      "texto_redactado": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL ESQUERRA REPUBLICANA RUBÍ (ERC-AM), PER REIVINDICAR LA NECESSITAT D'UNA NOVA PISCINA MUNICIPAL EXTERIOR D'ESTIU A RUBÍ. EXP. 36/2026/MOC.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.51,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#24",
+      "sesion_id": "2026-07-23",
+      "orden": 24,
+      "titulo": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL ALTERNATIVA D'UNITAT POPULAR (AUP-AMUNT), PER LA CREACIÓ D'UNA ORDENANÇA QUE DETECTI, REGULI SANCIONI LES MALES OLORS. EXP. 37/2026/MOC.",
+      "texto_redactado": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL ALTERNATIVA D'UNITAT POPULAR (AUP-AMUNT), PER LA CREACIÓ D'UNA ORDENANÇA QUE DETECTI, REGULI SANCIONI LES MALES OLORS. EXP. 37/2026/MOC.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.72,
+      "impacto": 3,
+      "confianza_min": 0.21,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#25",
+      "sesion_id": "2026-07-23",
+      "orden": 25,
+      "titulo": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL PARTIT POPULAR DE RUBÍ (PP), PER SOL·LICITAR A LA UPC LA CESSIÓ PATRIMONIAL DE L’EDIFICI RESSÒ A FAVOR DE L’AJUNTAMENT DE RUBÍ I DESTINAR-LO A UN NOU EQUIPAMENT AL DISTRICTE 2. EXPOSICIÓ DE MOTIUS",
+      "texto_redactado": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL PARTIT POPULAR DE RUBÍ (PP), PER SOL·LICITAR A LA UPC LA CESSIÓ PATRIMONIAL DE L’EDIFICI RESSÒ A FAVOR DE L’AJUNTAMENT DE RUBÍ I DESTINAR-LO A UN NOU EQUIPAMENT AL DISTRICTE 2. EXPOSICIÓ DE MOTIUS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.45,
+      "impacto": 3,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#26",
+      "sesion_id": "2026-07-23",
+      "orden": 26,
+      "titulo": "ASSUMPTES URGENTS",
+      "texto_redactado": "ASSUMPTES URGENTS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#27",
+      "sesion_id": "2026-07-23",
+      "orden": 27,
+      "titulo": "PRECS I PREGUNTES",
+      "texto_redactado": "PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    },
+    {
+      "id": "2026-07-23#28",
+      "sesion_id": "2026-07-23",
+      "orden": 28,
+      "titulo": "VIDEOACTA DE LA SESSIÓ",
+      "texto_redactado": "VIDEOACTA DE LA SESSIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.99,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:47.775Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-cugat-del-valles",
+    "nombre": "Sant Cugat del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "820550006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-24",
+    "municipio_id": "sant-cugat-del-valles",
+    "fecha": "2026-07-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/820550006/2026/848a5045-2db4-4b80-831c-c7379a5506fc/p20260724_143%20-%20Part%20II.pdf",
+    "hash_contenido": "b848b0bf1ea6ff3ea5a569be642b4ce2e04c3a671740f35394048cd18e6f43cd",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T11:42:03.310Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-24#1",
+      "sesion_id": "2026-07-24",
+      "orden": 1,
+      "titulo": "RESTAR ASSABENTATS de l’acord adoptat per la Junta de Govern local de data",
+      "texto_redactado": "RESTAR ASSABENTATS de l’acord adoptat per la Junta de Govern local de data",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:42:03.310Z"
+      }
+    }
+  ]
+}

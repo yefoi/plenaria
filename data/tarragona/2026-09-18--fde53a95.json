@@ -1,0 +1,878 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "tarragona",
+    "nombre": "Tarragona",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4314820002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-18--fde53a95",
+    "municipio_id": "tarragona",
+    "fecha": "2026-09-18",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4314820002/2026/a5952532-1b37-4d95-8558-22bca35c7429/CP-%202026-09-18.pdf",
+    "hash_contenido": "6cdef591ab55e8abefc21f01c6d28f5e5df6e96cebdf4bde21db74c142fd8967",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T11:41:36.499Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-18--fde53a95#1",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 1,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/7-G104; Expedient: 2026/9-G104:",
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/7-G104; Expedient: 2026/9-G104:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.96,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#2",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 2,
+      "titulo": "Cultura. Expedient: 2026/1-G426:",
+      "texto_redactado": "Cultura. Expedient: 2026/1-G426:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#3",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 3,
+      "titulo": "Cultura. Expedient: 2026/2-C154:",
+      "texto_redactado": "Cultura. Expedient: 2026/2-C154:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#4",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 4,
+      "titulo": "Béns. Expedient: 2023/2-G731:",
+      "texto_redactado": "Béns. Expedient: 2023/2-G731:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#5",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 5,
+      "titulo": "Béns. Expedient: 2026/3-G741:",
+      "texto_redactado": "Béns. Expedient: 2026/3-G741:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#6",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 6,
+      "titulo": "Domini Públic. Expedient: 2026/2-O278_8:",
+      "texto_redactado": "Domini Públic. Expedient: 2026/2-O278_8:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.94,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#7",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 7,
+      "titulo": "Llicència d’Obertures d’Establiments. Expedient: 2025/47-O252:",
+      "texto_redactado": "Llicència d’Obertures d’Establiments. Expedient: 2025/47-O252:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.37,
+      "impacto": 2,
+      "confianza_min": 0.16,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#8",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 8,
+      "titulo": "Planejament Urbanístic. Expedient: 2026/6-O126:",
+      "texto_redactado": "Planejament Urbanístic. Expedient: 2026/6-O126:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.42,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#9",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 9,
+      "titulo": "Contractació d'Obres, Béns i Serveis. Expedient: 2025/15-G632 :",
+      "texto_redactado": "Contractació d'Obres, Béns i Serveis. Expedient: 2025/15-G632 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 1,
+      "confianza_min": 0.79,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#10",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 10,
+      "titulo": "Contractació d'Obres, Béns i Serveis. Expedient: 2026/524-G626 :",
+      "texto_redactado": "Contractació d'Obres, Béns i Serveis. Expedient: 2026/524-G626 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 1,
+      "confianza_min": 0.8,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#11",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 11,
+      "titulo": "Control Previ i Assessorament Intervenció. Expedient: 2026/2-G606_1:",
+      "texto_redactado": "Control Previ i Assessorament Intervenció. Expedient: 2026/2-G606_1:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#12",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 12,
+      "titulo": "Control Previ i Assessorament Intervenció. Expedient: 2026/3-G606_1:",
+      "texto_redactado": "Control Previ i Assessorament Intervenció. Expedient: 2026/3-G606_1:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#13",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 13,
+      "titulo": "Gestió Econòmica. Expedient: 2026/90-G605 :",
+      "texto_redactado": "Gestió Econòmica. Expedient: 2026/90-G605 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 1,
+      "confianza_min": 0.76,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#14",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 14,
+      "titulo": "Gestió Econòmica. Expedient: 2026/46-G607_1 :",
+      "texto_redactado": "Gestió Econòmica. Expedient: 2026/46-G607_1 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#15",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 15,
+      "titulo": "Tresoreria. Expedient: 2026/2-G107 :",
+      "texto_redactado": "Tresoreria. Expedient: 2026/2-G107 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.99,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#16",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 16,
+      "titulo": "Tresoreria. Expedient: 2026/6-G107_1 :",
+      "texto_redactado": "Tresoreria. Expedient: 2026/6-G107_1 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#17",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 17,
+      "titulo": "Gestió Econòmica. Expedient: 2026/1-G606:",
+      "texto_redactado": "Gestió Econòmica. Expedient: 2026/1-G606:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#18",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 18,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/8-G274 :",
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/8-G274 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.93,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#19",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 19,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/3-G233 :",
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/3-G233 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#20",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 20,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/4-G233 :",
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/4-G233 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#21",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 21,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/6-G274 :",
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/6-G274 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#22",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 22,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/3-G233 :",
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/3-G233 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#23",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 23,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/1-G537 :",
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/1-G537 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#24",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 24,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/3-G233 :",
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/3-G233 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#25",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 25,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/7-G274 :",
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/7-G274 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#26",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 26,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/3-G233 :",
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/3-G233 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#27",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 27,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/3-G233 :",
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/3-G233 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#28",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 28,
+      "titulo": "Personal. Expedient: 2026/9-G501 :",
+      "texto_redactado": "Personal. Expedient: 2026/9-G501 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#29",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 29,
+      "titulo": "Relacions Ciutadanes i Protocol. Expedient: 2026/32-G423 :",
+      "texto_redactado": "Relacions Ciutadanes i Protocol. Expedient: 2026/32-G423 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#30",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 30,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/54-G124",
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/54-G124",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#31",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 31,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/49-G124",
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/49-G124",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#32",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 32,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/50-G124",
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/50-G124",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#33",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 33,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/56-G124",
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/56-G124",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#34",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 34,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/53-G124",
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/53-G124",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#35",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 35,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/52-G124",
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/52-G124",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#36",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 36,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/51-G124",
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/51-G124",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    },
+    {
+      "id": "2026-09-18--fde53a95#37",
+      "sesion_id": "2026-09-18--fde53a95",
+      "orden": 37,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/55-G124",
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/55-G124",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:36.499Z"
+      }
+    }
+  ]
+}

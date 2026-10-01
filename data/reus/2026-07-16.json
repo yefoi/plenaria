@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "reus",
+    "nombre": "Reus",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4312330008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-16",
+    "municipio_id": "reus",
+    "fecha": "2026-07-16",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4312330008/2026/d0a25cae-ca83-462d-a155-e7cece87a7f6/20260724-Copia_Acta_Copia_Ple_MunicipalEXTR_acta-1459.pdf",
+    "hash_contenido": "1e9a963e389d190f78c56af9864a341bdaf4addd4369a8b5c190c22d7afce3cf",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T11:42:01.664Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-16#1",
+      "sesion_id": "2026-07-16",
+      "orden": 1,
+      "titulo": "1. Debat sobre l'Estat de la Ciutat.",
+      "texto_redactado": "1. Debat sobre l'Estat de la Ciutat.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.9,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:42:01.664Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,469 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "el-masnou",
+    "nombre": "El Masnou",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "811890004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-16",
+    "municipio_id": "el-masnou",
+    "fecha": "2026-07-16",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/811890004/2026/b083d829-dc21-4a34-9684-645b05953404/Extractes%20Ple%20160726.pdf",
+    "hash_contenido": "d71fd79edcd0d362d5f21f64794dbee6b94f37a93edb1a67940e54ccde8383d9",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-01T11:41:44.565Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-16#1",
+      "sesion_id": "2026-07-16",
+      "orden": 1,
+      "titulo": "Aprovació de l’esborrany de l’acta del Ple ordinari del 18 de juny de 2026.",
+      "texto_redactado": "Aprovació de l’esborrany de l’acta del Ple ordinari del 18 de juny de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:44.565Z"
+      }
+    },
+    {
+      "id": "2026-07-16#2",
+      "sesion_id": "2026-07-16",
+      "orden": 2,
+      "titulo": "Informacions de l’Alcaldia.",
+      "texto_redactado": "Informacions de l’Alcaldia.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:44.565Z"
+      }
+    },
+    {
+      "id": "2026-07-16#3",
+      "sesion_id": "2026-07-16",
+      "orden": 3,
+      "titulo": "Aprovació inicial Pla de Salut del Masnou 2026-2029.",
+      "texto_redactado": "Aprovació inicial Pla de Salut del Masnou 2026-2029.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.3,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:44.565Z"
+      }
+    },
+    {
+      "id": "2026-07-16#4",
+      "sesion_id": "2026-07-16",
+      "orden": 4,
+      "titulo": "Aprovació del compte justificatiu corresponent a l’assignació econòmica de l’exercici 2025 al Grup Municipal Junts pel Masnou i aprovació de la dotació corresponent a 2026.",
+      "texto_redactado": "Aprovació del compte justificatiu corresponent a l’assignació econòmica de l’exercici 2025 al Grup Municipal Junts pel Masnou i aprovació de la dotació corresponent a 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:44.565Z"
+      }
+    },
+    {
+      "id": "2026-07-16#5",
+      "sesion_id": "2026-07-16",
+      "orden": 5,
+      "titulo": "Aprovació del compte justificatiu corresponent a la dotació econòmica pel 2025 al Grup Municipal Partit Popular del Masnou i aprovació de la dotació econòmica pel 2026.",
+      "texto_redactado": "Aprovació del compte justificatiu corresponent a la dotació econòmica pel 2025 al Grup Municipal Partit Popular del Masnou i aprovació de la dotació econòmica pel 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:44.565Z"
+      }
+    },
+    {
+      "id": "2026-07-16#6",
+      "sesion_id": "2026-07-16",
+      "orden": 6,
+      "titulo": "Aprovació inicial de l'expedient de Modificació de Crèdit 22/2026 sota la Modalitat de Crèdit Extraordinari i Suplement de Crèdit finançat amb Fons de contingència i Romanent de Tresoreria Afectat.",
+      "texto_redactado": "Aprovació inicial de l'expedient de Modificació de Crèdit 22/2026 sota la Modalitat de Crèdit Extraordinari i Suplement de Crèdit finançat amb Fons de contingència i Romanent de Tresoreria Afectat.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:44.565Z"
+      }
+    },
+    {
+      "id": "2026-07-16#7",
+      "sesion_id": "2026-07-16",
+      "orden": 7,
+      "titulo": "Festes locals per a l’any 2027.",
+      "texto_redactado": "Festes locals per a l’any 2027.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.45,
+      "impacto": 2,
+      "confianza_min": 0.3,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:44.565Z"
+      }
+    },
+    {
+      "id": "2026-07-16#8",
+      "sesion_id": "2026-07-16",
+      "orden": 8,
+      "titulo": "Adhesió de l’Ajuntament del Masnou al Sistema per a l’optimització de la compra pública local de la Diputació de Barcelona.",
+      "texto_redactado": "Adhesió de l’Ajuntament del Masnou al Sistema per a l’optimització de la compra pública local de la Diputació de Barcelona.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 2,
+      "confianza_min": 0.4,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:44.565Z"
+      }
+    },
+    {
+      "id": "2026-07-16#9",
+      "sesion_id": "2026-07-16",
+      "orden": 9,
+      "titulo": "Aprovar la designació dels membres a la Junta General a la Xarxa de Municipis per l’Economia Social i Solidària (XMESS).",
+      "texto_redactado": "Aprovar la designació dels membres a la Junta General a la Xarxa de Municipis per l’Economia Social i Solidària (XMESS).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:44.565Z"
+      }
+    },
+    {
+      "id": "2026-07-16#10",
+      "sesion_id": "2026-07-16",
+      "orden": 10,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits de la Regidoria de Serveis Urbans i Manteniment número 2/2026.",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits de la Regidoria de Serveis Urbans i Manteniment número 2/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:44.565Z"
+      }
+    },
+    {
+      "id": "2026-07-16#11",
+      "sesion_id": "2026-07-16",
+      "orden": 11,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdits de les factures d’FCC MEDIO AMBIENTE, S A U de gener, febrer i març de 2026.",
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdits de les factures d’FCC MEDIO AMBIENTE, S A U de gener, febrer i març de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:44.565Z"
+      }
+    },
+    {
+      "id": "2026-07-16#12",
+      "sesion_id": "2026-07-16",
+      "orden": 12,
+      "titulo": "Sol·licitud de subvenció i adhesió de l’Ajuntament del Masnou a l’ajut atorgat provisionalment per la Generalitat de Catalunya en el marc del Programa de cooperació financera específica per a la realització d’obres de reforma, adequació i millora (RAM) de centres educatius públics.",
+      "texto_redactado": "Sol·licitud de subvenció i adhesió de l’Ajuntament del Masnou a l’ajut atorgat provisionalment per la Generalitat de Catalunya en el marc del Programa de cooperació financera específica per a la realització d’obres de reforma, adequació i millora (RAM) de centres educatius públics.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 3,
+      "confianza_min": 0.32,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:44.565Z"
+      }
+    },
+    {
+      "id": "2026-07-16#13",
+      "sesion_id": "2026-07-16",
+      "orden": 13,
+      "titulo": "Verificar el Text refós del Pla Especial de Protecció de la Torre Josep Martí, coneguda com Can Patatetes, situada en la [DIRECCIÓN]-13 del Masnou.",
+      "texto_redactado": "Verificar el Text refós del Pla Especial de Protecció de la Torre Josep Martí, coneguda com Can Patatetes, situada en la [DIRECCIÓN]-13 del Masnou.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:44.565Z"
+      }
+    },
+    {
+      "id": "2026-07-16#14",
+      "sesion_id": "2026-07-16",
+      "orden": 14,
+      "titulo": "Aprovació definitiva del Projecte de les actuacions d’ampliació necessàries per al nou nucli de comunicacions verticals, ascensor i escala fins a gimnàs de planta coberta, incloses en la fase 1.3 prevista en el pla director del complex esportiu municipal.",
+      "texto_redactado": "Aprovació definitiva del Projecte de les actuacions d’ampliació necessàries per al nou nucli de comunicacions verticals, ascensor i escala fins a gimnàs de planta coberta, incloses en la fase 1.3 prevista en el pla director del complex esportiu municipal.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.52,
+      "impacto": 3,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:44.565Z"
+      }
+    },
+    {
+      "id": "2026-07-16#15",
+      "sesion_id": "2026-07-16",
+      "orden": 15,
+      "titulo": "Aprovació inicial de l'expedient de Modificació de Crèdit 23/2026 sota la modalitat de Crèdit Extraordinari finançat amb baixes.",
+      "texto_redactado": "Aprovació inicial de l'expedient de Modificació de Crèdit 23/2026 sota la modalitat de Crèdit Extraordinari finançat amb baixes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:44.565Z"
+      }
+    },
+    {
+      "id": "2026-07-16#16",
+      "sesion_id": "2026-07-16",
+      "orden": 16,
+      "titulo": "Donar compte dels decrets d'Alcaldia i de les regidories delegades del mes de juny de 2026.",
+      "texto_redactado": "Donar compte dels decrets d'Alcaldia i de les regidories delegades del mes de juny de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:44.565Z"
+      }
+    },
+    {
+      "id": "2026-07-16#17",
+      "sesion_id": "2026-07-16",
+      "orden": 17,
+      "titulo": "Donar compte de les actes de la Junta de Govern Local del mes de juny de 2026.",
+      "texto_redactado": "Donar compte de les actes de la Junta de Govern Local del mes de juny de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:44.565Z"
+      }
+    },
+    {
+      "id": "2026-07-16#18",
+      "sesion_id": "2026-07-16",
+      "orden": 18,
+      "titulo": "Moció presentada pel Grup Municipal del PP per impulsar una actuació urgent, social, sanitària, urbanística i de seguretat a l'entorn d'Ocata, de l'antic Càmping Hispano i dels assentaments precaris existents a la zona. No",
+      "texto_redactado": "Moció presentada pel Grup Municipal del PP per impulsar una actuació urgent, social, sanitària, urbanística i de seguretat a l'entorn d'Ocata, de l'antic Càmping Hispano i dels assentaments precaris existents a la zona. No",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "seguridad",
+        "servicios_sociales",
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.62,
+      "impacto": 3,
+      "confianza_min": 0.41,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:44.565Z"
+      }
+    },
+    {
+      "id": "2026-07-16#19",
+      "sesion_id": "2026-07-16",
+      "orden": 19,
+      "titulo": "Moció presentada pel Grup Municipal del PP per instar el Govern municipal a organitzar la retransmissió pública de la final de la Copa del Mundial de la FIFA 2026, en cas de classificació de la selecció espanyola de futbol. No",
+      "texto_redactado": "Moció presentada pel Grup Municipal del PP per instar el Govern municipal a organitzar la retransmissió pública de la final de la Copa del Mundial de la FIFA 2026, en cas de classificació de la selecció espanyola de futbol. No",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 3,
+      "confianza_min": 0.37,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-01T11:41:44.565Z"
+      }
+    }
+  ]
+}
