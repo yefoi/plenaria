@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "lleida",
+    "nombre": "Lleida",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2512070005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-26",
+    "municipio_id": "lleida",
+    "fecha": "2026-06-26",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2512070005/2026/16194769-4477-4554-b826-afe2e5b915d9/Acta%20Ple%20ordinari%20de%2026-06-2026_pendent%20aprovaci%f3.pdf",
+    "hash_contenido": "1ee16bfe59df765de4e6113858ba0c42b56942362ccab36fa84c573ff27fe508",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:19:13.056Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-26#1",
+      "sesion_id": "2026-06-26",
+      "orden": 1,
+      "titulo": "Amb data 27 de febrer de 2026, el Ple de l’Ajuntament de Lleida va aprovar inicialment el projecte",
+      "resultado": null,
+      "texto_redactado": "Amb data 27 de febrer de 2026, el Ple de l’Ajuntament de Lleida va aprovar inicialment el projecte",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.48,
+      "impacto": 2,
+      "confianza_min": 0.37,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:13.056Z"
+      }
+    },
+    {
+      "id": "2026-06-26#2",
+      "sesion_id": "2026-06-26",
+      "orden": 2,
+      "titulo": "S’ha realitzat l’exposició pública, tal i com es va acordar, de la següent manera:",
+      "resultado": null,
+      "texto_redactado": "S’ha realitzat l’exposició pública, tal i com es va acordar, de la següent manera:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:13.056Z"
+      }
+    },
+    {
+      "id": "2026-06-26#3",
+      "sesion_id": "2026-06-26",
+      "orden": 3,
+      "titulo": "Atès que El termini d’al·legacions va finalitzar el dia 25 de maig de 2026, inclòs, havent comptat",
+      "resultado": null,
+      "texto_redactado": "Atès que El termini d’al·legacions va finalitzar el dia 25 de maig de 2026, inclòs, havent comptat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:13.056Z"
+      }
+    },
+    {
+      "id": "2026-06-26#4",
+      "sesion_id": "2026-06-26",
+      "orden": 4,
+      "titulo": "Tanmateix, prèvia redacció d’un Estudi de Detall, es permet l’edificació de vivenda",
+      "resultado": null,
+      "texto_redactado": "Tanmateix, prèvia redacció d’un Estudi de Detall, es permet l’edificació de vivenda",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias",
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.71,
+      "impacto": 3,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:13.056Z"
+      }
+    }
+  ]
+}

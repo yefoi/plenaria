@@ -1,0 +1,920 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "manresa",
+    "nombre": "Manresa",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "811360009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-18",
+    "municipio_id": "manresa",
+    "fecha": "2026-06-18",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/811360009/2026/be62d764-606d-443e-b140-1bd92f853a7d/2026%2006%2018%20Acta%20Web%20Ple.pdf",
+    "hash_contenido": "bab862281233e682e200b112ef4e361034a9b94fd7244d57c38c59651f50c353",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:19:19.911Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-18#1",
+      "sesion_id": "2026-06-18",
+      "orden": 1,
+      "titulo": "Informe d’Intervenció relatiu al període mitjà de pagament a proveïdors – Abril 2026. (INT.DON 2026000016).-",
+      "resultado": null,
+      "texto_redactado": "Informe d’Intervenció relatiu al període mitjà de pagament a proveïdors – Abril 2026. (INT.DON 2026000016).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#2",
+      "sesion_id": "2026-06-18",
+      "orden": 2,
+      "titulo": "Informe d’Intervenció relatiu al càlcul de l’estabilitat pressupostària relacionat amb",
+      "resultado": null,
+      "texto_redactado": "Informe d’Intervenció relatiu al càlcul de l’estabilitat pressupostària relacionat amb",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#3",
+      "sesion_id": "2026-06-18",
+      "orden": 3,
+      "titulo": "Resolució de l’alcalde, núm. 8029, de 13 de maig de 2026, sobre aprovació de",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde, núm. 8029, de 13 de maig de 2026, sobre aprovació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#4",
+      "sesion_id": "2026-06-18",
+      "orden": 4,
+      "titulo": "Resolució de l’alcalde, núm. 8479, de 18 de maig de 2026, sobre aprovació de",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde, núm. 8479, de 18 de maig de 2026, sobre aprovació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 1,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#5",
+      "sesion_id": "2026-06-18",
+      "orden": 5,
+      "titulo": "Resolució de l’alcalde, núm. 9008, de 25 de maig de 2026, sobre aprovació de",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde, núm. 9008, de 25 de maig de 2026, sobre aprovació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#6",
+      "sesion_id": "2026-06-18",
+      "orden": 6,
+      "titulo": "Resolució de l’alcalde, núm. 9427, d’1 de juny de 2026, sobre aprovació de",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde, núm. 9427, d’1 de juny de 2026, sobre aprovació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#7",
+      "sesion_id": "2026-06-18",
+      "orden": 7,
+      "titulo": "Resolució de l’alcalde, núm. 8541, de 19 de maig de 2026, sobre personació",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde, núm. 8541, de 19 de maig de 2026, sobre personació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#8",
+      "sesion_id": "2026-06-18",
+      "orden": 8,
+      "titulo": "Resolució de l’alcalde, núm. 8058, de 13 de maig de 2026, per la qual es declara",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde, núm. 8058, de 13 de maig de 2026, per la qual es declara",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#9",
+      "sesion_id": "2026-06-18",
+      "orden": 9,
+      "titulo": "Resolució de l’alcalde, núm. 8736, de 20 de maig de 2026, per la qual es declara",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde, núm. 8736, de 20 de maig de 2026, per la qual es declara",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 1,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#10",
+      "sesion_id": "2026-06-18",
+      "orden": 10,
+      "titulo": "Resolució de l’alcalde, núm. 9472, d’1 de juny de 2026, per la qual es declara",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde, núm. 9472, d’1 de juny de 2026, per la qual es declara",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#11",
+      "sesion_id": "2026-06-18",
+      "orden": 11,
+      "titulo": "Aprovació inicial, si escau, de l’expedient de modificació de crèdits núm. P27/2026,",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial, si escau, de l’expedient de modificació de crèdits núm. P27/2026,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#12",
+      "sesion_id": "2026-06-18",
+      "orden": 12,
+      "titulo": "Aprovació inicial, si escau, del Pla d’accessibilitat de l’espai públic de Manresa. (AJT.DIC 2026000074).-",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial, si escau, del Pla d’accessibilitat de l’espai públic de Manresa. (AJT.DIC 2026000074).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico",
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.6,
+      "impacto": 4,
+      "confianza_min": 0.18,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#13",
+      "sesion_id": "2026-06-18",
+      "orden": 13,
+      "titulo": "Aprovació, si escau, de la designació amb el nom de Plaça de Mercè Angla Escaler,",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de la designació amb el nom de Plaça de Mercè Angla Escaler,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 2,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#14",
+      "sesion_id": "2026-06-18",
+      "orden": 14,
+      "titulo": "Aprovació, si escau, de la designació amb el nom de Plaça de Jaume Casacuberta",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de la designació amb el nom de Plaça de Jaume Casacuberta",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#15",
+      "sesion_id": "2026-06-18",
+      "orden": 15,
+      "titulo": "Aprovació, si escau, de la proposta de les festes locals de Manresa per a l’any 2027. (OSC.CUL 2026000009).-",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de la proposta de les festes locals de Manresa per a l’any 2027. (OSC.CUL 2026000009).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.37,
+      "impacto": 4,
+      "confianza_min": 0.34,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#16",
+      "sesion_id": "2026-06-18",
+      "orden": 16,
+      "titulo": "Aprovació inicial, si escau, de les bases reguladores de les subvencions destinades a",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial, si escau, de les bases reguladores de les subvencions destinades a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 1,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#17",
+      "sesion_id": "2026-06-18",
+      "orden": 17,
+      "titulo": "Prèvia ratificació de la seva inclusió a l’ordre del dia per no haver estat sotmès a",
+      "resultado": null,
+      "texto_redactado": "Prèvia ratificació de la seva inclusió a l’ordre del dia per no haver estat sotmès a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#18",
+      "sesion_id": "2026-06-18",
+      "orden": 18,
+      "titulo": "Prèvia ratificació de la seva inclusió a l’ordre del dia per no haver estat sotmès a",
+      "resultado": null,
+      "texto_redactado": "Prèvia ratificació de la seva inclusió a l’ordre del dia per no haver estat sotmès a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#19",
+      "sesion_id": "2026-06-18",
+      "orden": 19,
+      "titulo": "Aprovació, si escau, de la modificació de la concessió administrativa que consisteix",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de la modificació de la concessió administrativa que consisteix",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.3,
+      "impacto": 2,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#20",
+      "sesion_id": "2026-06-18",
+      "orden": 20,
+      "titulo": "Moció dels Grups municipals de Junts, Fem Manresa i Nacionalista d’adhesió a",
+      "resultado": null,
+      "texto_redactado": "Moció dels Grups municipals de Junts, Fem Manresa i Nacionalista d’adhesió a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#21",
+      "sesion_id": "2026-06-18",
+      "orden": 21,
+      "titulo": "Moció del Grup municipal de Fem Manresa, a petició del sindicat Acció Sindical del",
+      "resultado": null,
+      "texto_redactado": "Moció del Grup municipal de Fem Manresa, a petició del sindicat Acció Sindical del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 1,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#22",
+      "sesion_id": "2026-06-18",
+      "orden": 22,
+      "titulo": "Moció del Grup municipal de Fem Manresa per a l’adaptació de l’espai públic a les",
+      "resultado": null,
+      "texto_redactado": "Moció del Grup municipal de Fem Manresa per a l’adaptació de l’espai públic a les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.66,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#23",
+      "sesion_id": "2026-06-18",
+      "orden": 23,
+      "titulo": "Moció del Grup Municipal de VOX contra la corrupció de Pedro Sánchez.-",
+      "resultado": null,
+      "texto_redactado": "Moció del Grup Municipal de VOX contra la corrupció de Pedro Sánchez.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#24",
+      "sesion_id": "2026-06-18",
+      "orden": 24,
+      "titulo": "Moció del Grup Municipal de Junts per a la millora del manteniment de les zones",
+      "resultado": null,
+      "texto_redactado": "Moció del Grup Municipal de Junts per a la millora del manteniment de les zones",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.58,
+      "impacto": 2,
+      "confianza_min": 0.2,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#25",
+      "sesion_id": "2026-06-18",
+      "orden": 25,
+      "titulo": "Moció del Grup Municipal de Junts per garantir condicions dignes d’entrenament i",
+      "resultado": null,
+      "texto_redactado": "Moció del Grup Municipal de Junts per garantir condicions dignes d’entrenament i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.44,
+      "impacto": 2,
+      "confianza_min": 0.35,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#26",
+      "sesion_id": "2026-06-18",
+      "orden": 26,
+      "titulo": "Escrit de la Sindicatura de Comptes de Catalunya sobre la Moció de flexibilització de",
+      "resultado": null,
+      "texto_redactado": "Escrit de la Sindicatura de Comptes de Catalunya sobre la Moció de flexibilització de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#27",
+      "sesion_id": "2026-06-18",
+      "orden": 27,
+      "titulo": "Pregunta del GM de Fem Manresa sobre el funcionament i la gestió de la línia L-8 de",
+      "resultado": null,
+      "texto_redactado": "Pregunta del GM de Fem Manresa sobre el funcionament i la gestió de la línia L-8 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.76,
+      "impacto": 2,
+      "confianza_min": 0.34,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#28",
+      "sesion_id": "2026-06-18",
+      "orden": 28,
+      "titulo": "Pregunta del GM Nacionalista sobre la pavimentació amb asfalt de la Plaça Neus",
+      "resultado": null,
+      "texto_redactado": "Pregunta del GM Nacionalista sobre la pavimentació amb asfalt de la Plaça Neus",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.77,
+      "impacto": 3,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#29",
+      "sesion_id": "2026-06-18",
+      "orden": 29,
+      "titulo": "Pregunta del GM de Junts en relació amb la Casa Llisach.",
+      "resultado": null,
+      "texto_redactado": "Pregunta del GM de Junts en relació amb la Casa Llisach.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#30",
+      "sesion_id": "2026-06-18",
+      "orden": 30,
+      "titulo": "Pregunta del GM de Junts en relació amb la seguretat viària a l’indret de la",
+      "resultado": null,
+      "texto_redactado": "Pregunta del GM de Junts en relació amb la seguretat viària a l’indret de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "movilidad_trafico",
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.72,
+      "impacto": 1,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#31",
+      "sesion_id": "2026-06-18",
+      "orden": 31,
+      "titulo": "Pregunta del GM de Junts sobre la situació del mercat de la Mion.",
+      "resultado": null,
+      "texto_redactado": "Pregunta del GM de Junts sobre la situació del mercat de la Mion.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.45,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#32",
+      "sesion_id": "2026-06-18",
+      "orden": 32,
+      "titulo": "Pregunta del GM de Junts en relació amb el mural aparegut a la Bonavista.",
+      "resultado": null,
+      "texto_redactado": "Pregunta del GM de Junts en relació amb el mural aparegut a la Bonavista.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#33",
+      "sesion_id": "2026-06-18",
+      "orden": 33,
+      "titulo": "Pregunta del GM de Fem Manresa sobre la col·laboració de l’Ajuntament de Manresa",
+      "resultado": null,
+      "texto_redactado": "Pregunta del GM de Fem Manresa sobre la col·laboració de l’Ajuntament de Manresa",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.32,
+      "impacto": 1,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#34",
+      "sesion_id": "2026-06-18",
+      "orden": 34,
+      "titulo": "Pregunta del GM de Fem Manresa sobre el compliment de la moció del seu grup",
+      "resultado": null,
+      "texto_redactado": "Pregunta del GM de Fem Manresa sobre el compliment de la moció del seu grup",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#35",
+      "sesion_id": "2026-06-18",
+      "orden": 35,
+      "titulo": "Pregunta del GM de Fem Manresa sobre la gestió de la fracció de paper i cartró",
+      "resultado": null,
+      "texto_redactado": "Pregunta del GM de Fem Manresa sobre la gestió de la fracció de paper i cartró",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.71,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#36",
+      "sesion_id": "2026-06-18",
+      "orden": 36,
+      "titulo": "Aclariment del regidor Ramon Bacardit Reguant, del GM de Junts, en relació amb",
+      "resultado": null,
+      "texto_redactado": "Aclariment del regidor Ramon Bacardit Reguant, del GM de Junts, en relació amb",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.97,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    },
+    {
+      "id": "2026-06-18#37",
+      "sesion_id": "2026-06-18",
+      "orden": 37,
+      "titulo": "Prec formulat per la regidora Inmaculada Cervilla Galera, del GM de VOX, per",
+      "resultado": null,
+      "texto_redactado": "Prec formulat per la regidora Inmaculada Cervilla Galera, del GM de VOX, per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:19.911Z"
+      }
+    }
+  ]
+}

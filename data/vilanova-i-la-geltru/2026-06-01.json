@@ -1,0 +1,315 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vilanova-i-la-geltru",
+    "nombre": "Vilanova i la Geltrú",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "830730008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-01",
+    "municipio_id": "vilanova-i-la-geltru",
+    "fecha": "2026-06-01",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/830730008/2026/adf592c3-7980-4bcb-a77d-8d674649651b/7.PLE%201%20JUNY%202026.pdf",
+    "hash_contenido": "e0e66647acb4be43fa9dd27747c4cbf3634b3d712fde83eda549b53bd5065009",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:19:22.673Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-01#1",
+      "sesion_id": "2026-06-01",
+      "orden": 1,
+      "titulo": "Contingut del Pla",
+      "resultado": null,
+      "texto_redactado": "Contingut del Pla",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:22.673Z"
+      }
+    },
+    {
+      "id": "2026-06-01#2",
+      "sesion_id": "2026-06-01",
+      "orden": 2,
+      "titulo": "Àmbit objectiu",
+      "resultado": null,
+      "texto_redactado": "Àmbit objectiu",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:22.673Z"
+      }
+    },
+    {
+      "id": "2026-06-01#3",
+      "sesion_id": "2026-06-01",
+      "orden": 3,
+      "titulo": "Àmbit subjectiu",
+      "resultado": null,
+      "texto_redactado": "Àmbit subjectiu",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:22.673Z"
+      }
+    },
+    {
+      "id": "2026-06-01#4",
+      "sesion_id": "2026-06-01",
+      "orden": 4,
+      "titulo": "Àmbit temporal",
+      "resultado": null,
+      "texto_redactado": "Àmbit temporal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:22.673Z"
+      }
+    },
+    {
+      "id": "2026-06-01#5",
+      "sesion_id": "2026-06-01",
+      "orden": 5,
+      "titulo": "Actuacions de control permanent que deriven d’una obligació legal.",
+      "resultado": null,
+      "texto_redactado": "Actuacions de control permanent que deriven d’una obligació legal.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:22.673Z"
+      }
+    },
+    {
+      "id": "2026-06-01#6",
+      "sesion_id": "2026-06-01",
+      "orden": 6,
+      "titulo": "Actuacions a desenvolupar a través d’una anàlisi de riscos.",
+      "resultado": null,
+      "texto_redactado": "Actuacions a desenvolupar a través d’una anàlisi de riscos.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:22.673Z"
+      }
+    },
+    {
+      "id": "2026-06-01#7",
+      "sesion_id": "2026-06-01",
+      "orden": 7,
+      "titulo": "Mitjans disponibles",
+      "resultado": null,
+      "texto_redactado": "Mitjans disponibles",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 1,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:22.673Z"
+      }
+    },
+    {
+      "id": "2026-06-01#8",
+      "sesion_id": "2026-06-01",
+      "orden": 8,
+      "titulo": "Auditoria de comptes",
+      "resultado": null,
+      "texto_redactado": "Auditoria de comptes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:22.673Z"
+      }
+    },
+    {
+      "id": "2026-06-01#9",
+      "sesion_id": "2026-06-01",
+      "orden": 9,
+      "titulo": "Auditoria de compliment",
+      "resultado": null,
+      "texto_redactado": "Auditoria de compliment",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:22.673Z"
+      }
+    },
+    {
+      "id": "2026-06-01#10",
+      "sesion_id": "2026-06-01",
+      "orden": 10,
+      "titulo": "Auditoria operativa",
+      "resultado": null,
+      "texto_redactado": "Auditoria operativa",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:22.673Z"
+      }
+    },
+    {
+      "id": "2026-06-01#11",
+      "sesion_id": "2026-06-01",
+      "orden": 11,
+      "titulo": "Informes",
+      "resultado": null,
+      "texto_redactado": "Informes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:22.673Z"
+      }
+    },
+    {
+      "id": "2026-06-01#12",
+      "sesion_id": "2026-06-01",
+      "orden": 12,
+      "titulo": "Pla d’Acció",
+      "resultado": null,
+      "texto_redactado": "Pla d’Acció",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.87,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:22.673Z"
+      }
+    }
+  ]
+}

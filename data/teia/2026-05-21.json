@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "teia",
+    "nombre": "Teià",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "828190004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-21",
+    "municipio_id": "teia",
+    "fecha": "2026-05-21",
+    "tipo": "otra",
+    "fuente_url": "https://media.seu-e.cat/acteca/828190004/2026/04708c0f-c0af-4fe0-a32a-0d7b285a3df0/ACTA%20DEL%20PLE%202026-0003%20[Acta%20Ple%20ordinari%2021.05.2026].pdf",
+    "hash_contenido": "81c50eb6201db896049d40a855198fae18a4147c4c2b959442bda018424cb23a",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:19:07.830Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-21#1",
+      "sesion_id": "2026-05-21",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió anterior de 19.03.2026",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior de 19.03.2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:07.830Z"
+      }
+    },
+    {
+      "id": "2026-05-21#2",
+      "sesion_id": "2026-05-21",
+      "orden": 2,
+      "titulo": "Expedient 1586/2026. Expedient Extrajudicial 003/2026",
+      "resultado": null,
+      "texto_redactado": "Expedient 1586/2026. Expedient Extrajudicial 003/2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:07.830Z"
+      }
+    },
+    {
+      "id": "2026-05-21#3",
+      "sesion_id": "2026-05-21",
+      "orden": 3,
+      "titulo": "Expedient 1460/2026. Aprovació de les Bases reguladores de pressupostos",
+      "resultado": null,
+      "texto_redactado": "Expedient 1460/2026. Aprovació de les Bases reguladores de pressupostos",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:07.830Z"
+      }
+    },
+    {
+      "id": "2026-05-21#4",
+      "sesion_id": "2026-05-21",
+      "orden": 4,
+      "titulo": "De l’1 al 25 de setembre: Fase de Valoració tècnica i econòmica de les propostes",
+      "resultado": null,
+      "texto_redactado": "De l’1 al 25 de setembre: Fase de Valoració tècnica i econòmica de les propostes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:07.830Z"
+      }
+    },
+    {
+      "id": "2026-05-21#5",
+      "sesion_id": "2026-05-21",
+      "orden": 5,
+      "titulo": "El 2 d’octubre es fan públiques les propostes validades per la comissió tècnica i la de",
+      "resultado": null,
+      "texto_redactado": "El 2 d’octubre es fan públiques les propostes validades per la comissió tècnica i la de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:07.830Z"
+      }
+    },
+    {
+      "id": "2026-05-21#6",
+      "sesion_id": "2026-05-21",
+      "orden": 6,
+      "titulo": "Del 5 d’octubre al 6 de novembre: Fase de votacions (persones empadronades a Teià",
+      "resultado": null,
+      "texto_redactado": "Del 5 d’octubre al 6 de novembre: Fase de votacions (persones empadronades a Teià",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:07.830Z"
+      }
+    },
+    {
+      "id": "2026-05-21#7",
+      "sesion_id": "2026-05-21",
+      "orden": 7,
+      "titulo": "El 13 de novembre es fan públics els resultats finals de les votacions.",
+      "resultado": null,
+      "texto_redactado": "El 13 de novembre es fan públics els resultats finals de les votacions.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:07.830Z"
+      }
+    },
+    {
+      "id": "2026-05-21#8",
+      "sesion_id": "2026-05-21",
+      "orden": 8,
+      "titulo": "Donar compte dels acords adoptats per la Junta de Govern Local en les sessions",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels acords adoptats per la Junta de Govern Local en les sessions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:07.830Z"
+      }
+    },
+    {
+      "id": "2026-05-21#9",
+      "sesion_id": "2026-05-21",
+      "orden": 9,
+      "titulo": "Donar compte particular dels acords de la Junta de Govern expedients 1073/2026,",
+      "resultado": null,
+      "texto_redactado": "Donar compte particular dels acords de la Junta de Govern expedients 1073/2026,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:07.830Z"
+      }
+    },
+    {
+      "id": "2026-05-21#10",
+      "sesion_id": "2026-05-21",
+      "orden": 10,
+      "titulo": "Donar compte particular dels decrets d'alcaldia 2026/0213, 2026/0243, 2026/0309 i",
+      "resultado": null,
+      "texto_redactado": "Donar compte particular dels decrets d'alcaldia 2026/0213, 2026/0243, 2026/0309 i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:07.830Z"
+      }
+    },
+    {
+      "id": "2026-05-21#11",
+      "sesion_id": "2026-05-21",
+      "orden": 11,
+      "titulo": "Expedient 1801/2026. Modificació de Crèdits 03/2026 DE CRÈDITS EXTRAODINARIS I SUPLEMENTS DE CRÈDITS",
+      "resultado": null,
+      "texto_redactado": "Expedient 1801/2026. Modificació de Crèdits 03/2026 DE CRÈDITS EXTRAODINARIS I SUPLEMENTS DE CRÈDITS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 2,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:07.830Z"
+      }
+    }
+  ]
+}

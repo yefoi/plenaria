@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "puigcerda",
+    "nombre": "Puigcerdà",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1714110007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-08",
+    "municipio_id": "puigcerda",
+    "fecha": "2026-06-08",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1714110007/2026/dd566fa3-0522-408a-9466-19d910298f8c/ACTA%20DE%20PLE%202026-0003%20[Acta%20Ple%2008_06_2026%20(SA)].pdf",
+    "hash_contenido": "d93dff956974deb0299c7a1af4c3fb3f99688d8b8629c20d9bf8c356228c55b5",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:19:00.364Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-08#1",
+      "sesion_id": "2026-06-08",
+      "orden": 1,
+      "titulo": "NOMENAR els membres de la Junta del Patronat de Turisme de Puigcerdà, per part",
+      "resultado": null,
+      "texto_redactado": "NOMENAR els membres de la Junta del Patronat de Turisme de Puigcerdà, per part",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:00.364Z"
+      }
+    },
+    {
+      "id": "2026-06-08#2",
+      "sesion_id": "2026-06-08",
+      "orden": 2,
+      "titulo": "Àngel Llobell Martorell",
+      "resultado": null,
+      "texto_redactado": "Àngel Llobell Martorell",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:00.364Z"
+      }
+    },
+    {
+      "id": "2026-06-08#3",
+      "sesion_id": "2026-06-08",
+      "orden": 3,
+      "titulo": "Cristina Deulofeu Castelló",
+      "resultado": null,
+      "texto_redactado": "Cristina Deulofeu Castelló",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:00.364Z"
+      }
+    },
+    {
+      "id": "2026-06-08#4",
+      "sesion_id": "2026-06-08",
+      "orden": 4,
+      "titulo": "Núria Laura Muñoz Ginesta",
+      "resultado": null,
+      "texto_redactado": "Núria Laura Muñoz Ginesta",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:00.364Z"
+      }
+    },
+    {
+      "id": "2026-06-08#5",
+      "sesion_id": "2026-06-08",
+      "orden": 5,
+      "titulo": "Nerea Espada Badia",
+      "resultado": null,
+      "texto_redactado": "Nerea Espada Badia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:00.364Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "malgrat-de-mar",
+    "nombre": "Malgrat de Mar",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "811080001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2025-09-18",
+    "municipio_id": "malgrat-de-mar",
+    "fecha": "2025-09-18",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/811080001/2025/3fc292d5-f79c-429a-83c4-9784b47b0073/20250918PLE.pdf",
+    "hash_contenido": "f26c0579ea3c2b91028e5bd04a361474220cca5fdf00ba352cc393e789494d11",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:20:19.271Z"
+  },
+  "puntos": [
+    {
+      "id": "2025-09-18#1",
+      "sesion_id": "2025-09-18",
+      "orden": 1,
+      "titulo": "Aprovar l’acta de la sessió anterior celebrada el dia 24 de juliol de 2025.",
+      "resultado": null,
+      "texto_redactado": "Aprovar l’acta de la sessió anterior celebrada el dia 24 de juliol de 2025.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:19.271Z"
+      }
+    },
+    {
+      "id": "2025-09-18#2",
+      "sesion_id": "2025-09-18",
+      "orden": 2,
+      "titulo": "Aprovar la rectificació de l’Inventari de Béns i Drets de l’Ajuntament de Malgrat de",
+      "resultado": null,
+      "texto_redactado": "Aprovar la rectificació de l’Inventari de Béns i Drets de l’Ajuntament de Malgrat de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:19.271Z"
+      }
+    },
+    {
+      "id": "2025-09-18#3",
+      "sesion_id": "2025-09-18",
+      "orden": 3,
+      "titulo": "Aprovar Òl’Avanç de Modificació puntual del POUM PA 17 Ciutat SanitàriaÓ, promogut",
+      "resultado": null,
+      "texto_redactado": "Aprovar Òl’Avanç de Modificació puntual del POUM PA 17 Ciutat SanitàriaÓ, promogut",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 3,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:19.271Z"
+      }
+    },
+    {
+      "id": "2025-09-18#4",
+      "sesion_id": "2025-09-18",
+      "orden": 4,
+      "titulo": "Aprovar la indemnització de la superfície de terreny afectada en el ÒProjecte",
+      "resultado": null,
+      "texto_redactado": "Aprovar la indemnització de la superfície de terreny afectada en el ÒProjecte",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.47,
+      "impacto": 3,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:19.271Z"
+      }
+    },
+    {
+      "id": "2025-09-18#5",
+      "sesion_id": "2025-09-18",
+      "orden": 5,
+      "titulo": "Delegar a favor de la Diputació de Barcelona la competència de selecció per constituir",
+      "resultado": null,
+      "texto_redactado": "Delegar a favor de la Diputació de Barcelona la competència de selecció per constituir",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:19.271Z"
+      }
+    },
+    {
+      "id": "2025-09-18#6",
+      "sesion_id": "2025-09-18",
+      "orden": 6,
+      "titulo": "Donar compte de l’informe d’Intervenció sobre el compliment dels terminis que preveu",
+      "resultado": null,
+      "texto_redactado": "Donar compte de l’informe d’Intervenció sobre el compliment dels terminis que preveu",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:19.271Z"
+      }
+    },
+    {
+      "id": "2025-09-18#7",
+      "sesion_id": "2025-09-18",
+      "orden": 7,
+      "titulo": "Donar compte de l’informe d’Intervenció sobre el compliment de les obligacions de",
+      "resultado": null,
+      "texto_redactado": "Donar compte de l’informe d’Intervenció sobre el compliment de les obligacions de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:19.271Z"
+      }
+    },
+    {
+      "id": "2025-09-18#8",
+      "sesion_id": "2025-09-18",
+      "orden": 8,
+      "titulo": "Moció presenta pel GPM de la CUP per l'accés universal a la pràctica esportiva a",
+      "resultado": null,
+      "texto_redactado": "Moció presenta pel GPM de la CUP per l'accés universal a la pràctica esportiva a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "cultura_deporte_educacion",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.58,
+      "impacto": 2,
+      "confianza_min": 0.05,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:19.271Z"
+      }
+    },
+    {
+      "id": "2025-09-18#9",
+      "sesion_id": "2025-09-18",
+      "orden": 9,
+      "titulo": "Moció presentada pels GPM d’ERC i la CUP relativa a la rescissió del contracte de",
+      "resultado": null,
+      "texto_redactado": "Moció presentada pels GPM d’ERC i la CUP relativa a la rescissió del contracte de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.57,
+      "impacto": 2,
+      "confianza_min": 0.19,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:19.271Z"
+      }
+    },
+    {
+      "id": "2025-09-18#10",
+      "sesion_id": "2025-09-18",
+      "orden": 10,
+      "titulo": "Moció presentada pel GPM d' ERC per a la protecció integral del Patrimoni de",
+      "resultado": null,
+      "texto_redactado": "Moció presentada pel GPM d' ERC per a la protecció integral del Patrimoni de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.3,
+      "impacto": 2,
+      "confianza_min": 0.36,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:19.271Z"
+      }
+    },
+    {
+      "id": "2025-09-18#11",
+      "sesion_id": "2025-09-18",
+      "orden": 11,
+      "titulo": "Resolucions dictades per l’Alcaldia de la 2025/2215 a la 2025/2788.",
+      "resultado": null,
+      "texto_redactado": "Resolucions dictades per l’Alcaldia de la 2025/2215 a la 2025/2788.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:19.271Z"
+      }
+    },
+    {
+      "id": "2025-09-18#12",
+      "sesion_id": "2025-09-18",
+      "orden": 12,
+      "titulo": "Precs i preguntes.",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:19.271Z"
+      }
+    },
+    {
+      "id": "2025-09-18#13",
+      "sesion_id": "2025-09-18",
+      "orden": 13,
+      "titulo": "CERCLE AVENTURA, SL (platja-escola nautica) 1.687,95 € 1.507,50 €",
+      "resultado": null,
+      "texto_redactado": "CERCLE AVENTURA, SL (platja-escola nautica) 1.687,95 € 1.507,50 €",
+      "importe_eur": 1687.95,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.51,
+      "impacto": 3,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:19.271Z"
+      }
+    },
+    {
+      "id": "2025-09-18#14",
+      "sesion_id": "2025-09-18",
+      "orden": 14,
+      "titulo": "Mireia lópez Fernández (Bar-Campassol) 6.600,00 € 6.750,00 €",
+      "resultado": null,
+      "texto_redactado": "Mireia lópez Fernández (Bar-Campassol) 6.600,00 € 6.750,00 €",
+      "importe_eur": 6750,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 2,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:19.271Z"
+      }
+    },
+    {
+      "id": "2025-09-18#15",
+      "sesion_id": "2025-09-18",
+      "orden": 15,
+      "titulo": "Mireia López Fernández (Bar-Camp Futbol) 9.000,00 € 2.200,00 €16.- Atanasio Jesús Roman Garcia Bar-Polisportiu G. Margall) 5.820,00 € 4.734,34 € TOTAL 172.716,55 € 122.777,66 €",
+      "resultado": null,
+      "texto_redactado": "Mireia López Fernández (Bar-Camp Futbol) 9.000,00 € 2.200,00 €16.- Atanasio Jesús Roman Garcia Bar-Polisportiu G. Margall) 5.820,00 € 4.734,34 € TOTAL 172.716,55 € 122.777,66 €",
+      "importe_eur": 172716.55,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion",
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.43,
+      "impacto": 4,
+      "confianza_min": 0.39,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:19.271Z"
+      }
+    }
+  ]
+}

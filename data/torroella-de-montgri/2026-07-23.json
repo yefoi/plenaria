@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "torroella-de-montgri",
+    "nombre": "Torroella de Montgrí",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1719970005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-23",
+    "municipio_id": "torroella-de-montgri",
+    "fecha": "2026-07-23",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1719970005/2026/17b0f709-8042-415a-98da-3f99d4a6b44f/8_Acta_Ple_extraordin%e0ri_23072026.pdf",
+    "hash_contenido": "db83f351c93ef7fd1d19c8ff2f53db6d86ef212396c313b7ece084b1523d0edf",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:18:39.308Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-23#1",
+      "sesion_id": "2026-07-23",
+      "orden": 1,
+      "titulo": "ACTA DE LA SESSIÓ DEL PLE DE L’AJUNTAMENT DE TORROELLA DE MONTGRÍ IDENTIFICACIÓ DE LA SESSIÓ",
+      "resultado": null,
+      "texto_redactado": "ACTA DE LA SESSIÓ DEL PLE DE L’AJUNTAMENT DE TORROELLA DE MONTGRÍ IDENTIFICACIÓ DE LA SESSIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:39.308Z"
+      }
+    }
+  ]
+}

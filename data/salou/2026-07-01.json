@@ -1,0 +1,292 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "salou",
+    "nombre": "Salou",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4390570005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-01",
+    "municipio_id": "salou",
+    "fecha": "2026-07-01",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4390570005/2026/3f33901f-a296-4dfa-a1c7-e043a6969d3c/ACTA%20PLEO%2001072026.pdf",
+    "hash_contenido": "bf929d77e723ae7dd2530872d6ee4b7c51751ea2756c4db3a34767d01ff5b7b7",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:20:01.201Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-01#1",
+      "sesion_id": "2026-07-01",
+      "orden": 1,
+      "titulo": "En data 28 de gener de 2026, el Ple de l’Ajuntament de Salou va aprovar la Relació de",
+      "resultado": null,
+      "texto_redactado": "En data 28 de gener de 2026, el Ple de l’Ajuntament de Salou va aprovar la Relació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:01.201Z"
+      }
+    },
+    {
+      "id": "2026-07-01#2",
+      "sesion_id": "2026-07-01",
+      "orden": 2,
+      "titulo": "El Sr. [NOMBRE] ocupa el lloc de treball de Sotscap de la Policia Local, amb",
+      "resultado": null,
+      "texto_redactado": "El Sr. [NOMBRE] ocupa el lloc de treball de Sotscap de la Policia Local, amb",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal",
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:01.201Z"
+      }
+    },
+    {
+      "id": "2026-07-01#3",
+      "sesion_id": "2026-07-01",
+      "orden": 3,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:01.201Z"
+      }
+    },
+    {
+      "id": "2026-07-01#4",
+      "sesion_id": "2026-07-01",
+      "orden": 4,
+      "titulo": "Posteriorment, el Sr. [NOMBRE] va interposar recurs potestatiu de reposició",
+      "resultado": null,
+      "texto_redactado": "Posteriorment, el Sr. [NOMBRE] va interposar recurs potestatiu de reposició",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:01.201Z"
+      }
+    },
+    {
+      "id": "2026-07-01#5",
+      "sesion_id": "2026-07-01",
+      "orden": 5,
+      "titulo": "En data 4 de juny de 2026 s’ha emès informe tècnic per part del Departament de",
+      "resultado": null,
+      "texto_redactado": "En data 4 de juny de 2026 s’ha emès informe tècnic per part del Departament de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:01.201Z"
+      }
+    },
+    {
+      "id": "2026-07-01#6",
+      "sesion_id": "2026-07-01",
+      "orden": 6,
+      "titulo": "Consta a l’expedient la sol·licitud dels informes preceptius de Secretaria i, si escau, de",
+      "resultado": null,
+      "texto_redactado": "Consta a l’expedient la sol·licitud dels informes preceptius de Secretaria i, si escau, de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.06,
+      "impacto": 1,
+      "confianza_min": 1,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:01.201Z"
+      }
+    },
+    {
+      "id": "2026-07-01#7",
+      "sesion_id": "2026-07-01",
+      "orden": 7,
+      "titulo": "Consta a l’expedient informe tècnic pel qual s’assumeixen les conclusions proposades i en",
+      "resultado": null,
+      "texto_redactado": "Consta a l’expedient informe tècnic pel qual s’assumeixen les conclusions proposades i en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.98,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:01.201Z"
+      }
+    },
+    {
+      "id": "2026-07-01#8",
+      "sesion_id": "2026-07-01",
+      "orden": 8,
+      "titulo": "Pla d’implantació",
+      "resultado": null,
+      "texto_redactado": "Pla d’implantació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.74,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:01.201Z"
+      }
+    },
+    {
+      "id": "2026-07-01#9",
+      "sesion_id": "2026-07-01",
+      "orden": 9,
+      "titulo": "Increment dels recursos de transició envers l'autonomia, complementaris",
+      "resultado": null,
+      "texto_redactado": "Increment dels recursos de transició envers l'autonomia, complementaris",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 2,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:01.201Z"
+      }
+    },
+    {
+      "id": "2026-07-01#10",
+      "sesion_id": "2026-07-01",
+      "orden": 10,
+      "titulo": "Vinculació amb l’Agenda 2030 i els Objectius de Desenvolupament",
+      "resultado": null,
+      "texto_redactado": "Vinculació amb l’Agenda 2030 i els Objectius de Desenvolupament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.89,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:01.201Z"
+      }
+    },
+    {
+      "id": "2026-07-01#11",
+      "sesion_id": "2026-07-01",
+      "orden": 11,
+      "titulo": "Ciutats i comunitats sostenibles",
+      "resultado": null,
+      "texto_redactado": "Ciutats i comunitats sostenibles",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.45,
+      "impacto": 2,
+      "confianza_min": 0.32,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:01.201Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "la-bisbal-d-emporda",
+    "nombre": "La Bisbal d'Empordà",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1702210007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2023-12-28",
+    "municipio_id": "la-bisbal-d-emporda",
+    "fecha": "2023-12-28",
+    "tipo": "extraordinaria_urgente",
+    "fuente_url": "https://media.seu-e.cat/acteca/1702210007/2023/c6aec864-805d-4add-ad84-70f158777e92/19%20PLE%2028.12.2023%20EXTRA-URG_Censurado.pdf",
+    "hash_contenido": "c0c3a3df7474a92d6205b4c63df45b535f7b6bad687ec0cf36abef8e368222a4",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:18:41.274Z"
+  },
+  "puntos": [
+    {
+      "id": "2023-12-28#1",
+      "sesion_id": "2023-12-28",
+      "orden": 1,
+      "titulo": "RATIFICACIÓ del caràcter urgent de la sessió.",
+      "resultado": null,
+      "texto_redactado": "RATIFICACIÓ del caràcter urgent de la sessió.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.05,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:41.274Z"
+      }
+    },
+    {
+      "id": "2023-12-28#2",
+      "sesion_id": "2023-12-28",
+      "orden": 2,
+      "titulo": "Proposta al ple de reconeixement extrajudicial de crèdit d'obligacions indegudament",
+      "resultado": null,
+      "texto_redactado": "Proposta al ple de reconeixement extrajudicial de crèdit d'obligacions indegudament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 2,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:41.274Z"
+      }
+    },
+    {
+      "id": "2023-12-28#3",
+      "sesion_id": "2023-12-28",
+      "orden": 3,
+      "titulo": "Proposta al ple de reconeixement extrajudicial de crèdit d'obligacions indegudament",
+      "resultado": null,
+      "texto_redactado": "Proposta al ple de reconeixement extrajudicial de crèdit d'obligacions indegudament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0.41,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:41.274Z"
+      }
+    },
+    {
+      "id": "2023-12-28#4",
+      "sesion_id": "2023-12-28",
+      "orden": 4,
+      "titulo": "Proposta al ple de reconeixement extrajudicial de crèdit d'obligacions indegudament",
+      "resultado": null,
+      "texto_redactado": "Proposta al ple de reconeixement extrajudicial de crèdit d'obligacions indegudament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 2,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:41.274Z"
+      }
+    },
+    {
+      "id": "2023-12-28#5",
+      "sesion_id": "2023-12-28",
+      "orden": 5,
+      "titulo": "Proposta al ple de reconeixement extrajudicial de crèdit d'obligacions indegudament",
+      "resultado": null,
+      "texto_redactado": "Proposta al ple de reconeixement extrajudicial de crèdit d'obligacions indegudament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 2,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:41.274Z"
+      }
+    },
+    {
+      "id": "2023-12-28#6",
+      "sesion_id": "2023-12-28",
+      "orden": 6,
+      "titulo": "Proposta d'acord relativa a la resolució d’al·legacions i aprovació definitiva de les",
+      "resultado": null,
+      "texto_redactado": "Proposta d'acord relativa a la resolució d’al·legacions i aprovació definitiva de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:41.274Z"
+      }
+    },
+    {
+      "id": "2023-12-28#7",
+      "sesion_id": "2023-12-28",
+      "orden": 7,
+      "titulo": "Proposta d'acord relativa a la resolució d’al·legacions i aprovació definitiva de",
+      "resultado": null,
+      "texto_redactado": "Proposta d'acord relativa a la resolució d’al·legacions i aprovació definitiva de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:41.274Z"
+      }
+    }
+  ]
+}

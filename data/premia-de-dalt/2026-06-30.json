@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "premia-de-dalt",
+    "nombre": "Premià de Dalt",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "823030008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-30",
+    "municipio_id": "premia-de-dalt",
+    "fecha": "2026-06-30",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/823030008/2026/3b8b0e16-3a40-495d-81cc-ac8edc5b8b7b/acta%20n%fam.%2013%20JGL%20pdf.pdf",
+    "hash_contenido": "555c6e8e84b714acdbcef9d3a1a57acca8e82cdf6efbf0ec3d029aad938fd6d4",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:18:48.274Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-30#1",
+      "sesion_id": "2026-06-30",
+      "orden": 1,
+      "titulo": "Lectura i aprovació de l'acta de la sessió anterior (acta núm. 12).",
+      "resultado": null,
+      "texto_redactado": "Lectura i aprovació de l'acta de la sessió anterior (acta núm. 12).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:48.274Z"
+      }
+    },
+    {
+      "id": "2026-06-30#2",
+      "sesion_id": "2026-06-30",
+      "orden": 2,
+      "titulo": "Atorgament de forma definitiva de l'autorització per a l'exercici de la venda al mercat",
+      "resultado": null,
+      "texto_redactado": "Atorgament de forma definitiva de l'autorització per a l'exercici de la venda al mercat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:48.274Z"
+      }
+    },
+    {
+      "id": "2026-06-30#3",
+      "sesion_id": "2026-06-30",
+      "orden": 3,
+      "titulo": "Aprovació de la primera pròrroga del contracte del servei de suport al gabinet d'imatge",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la primera pròrroga del contracte del servei de suport al gabinet d'imatge",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 2,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:48.274Z"
+      }
+    },
+    {
+      "id": "2026-06-30#4",
+      "sesion_id": "2026-06-30",
+      "orden": 4,
+      "titulo": "Aprovació de l'expedient administratiu relatiu a la celebració de l'activitat",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'expedient administratiu relatiu a la celebració de l'activitat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:48.274Z"
+      }
+    },
+    {
+      "id": "2026-06-30#5",
+      "sesion_id": "2026-06-30",
+      "orden": 5,
+      "titulo": "Donar compte del Decret d'Alcaldia de data 19 de juny de 2026, relatiu a la",
+      "resultado": null,
+      "texto_redactado": "Donar compte del Decret d'Alcaldia de data 19 de juny de 2026, relatiu a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:48.274Z"
+      }
+    },
+    {
+      "id": "2026-06-30#6",
+      "sesion_id": "2026-06-30",
+      "orden": 6,
+      "titulo": "Donar compte del Decret d'Alcaldia de data 19 de juny de 2026, relatiu a la",
+      "resultado": null,
+      "texto_redactado": "Donar compte del Decret d'Alcaldia de data 19 de juny de 2026, relatiu a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:48.274Z"
+      }
+    },
+    {
+      "id": "2026-06-30#7",
+      "sesion_id": "2026-06-30",
+      "orden": 7,
+      "titulo": "Donar compte del Decret d'Alcaldia de data 19 de juny de 2026, relatiu al reingrés en el",
+      "resultado": null,
+      "texto_redactado": "Donar compte del Decret d'Alcaldia de data 19 de juny de 2026, relatiu al reingrés en el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:48.274Z"
+      }
+    },
+    {
+      "id": "2026-06-30#8",
+      "sesion_id": "2026-06-30",
+      "orden": 8,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:48.274Z"
+      }
+    },
+    {
+      "id": "2026-06-30#9",
+      "sesion_id": "2026-06-30",
+      "orden": 9,
+      "titulo": "Autorització per a la prestació del servei en modalitat de teletreball de la Sra. Belén",
+      "resultado": null,
+      "texto_redactado": "Autorització per a la prestació del servei en modalitat de teletreball de la Sra. Belén",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:48.274Z"
+      }
+    },
+    {
+      "id": "2026-06-30#10",
+      "sesion_id": "2026-06-30",
+      "orden": 10,
+      "titulo": "Aprovació del Conveni de col·laboració a subscriure amb l'Ajuntament d'Argentona,",
+      "resultado": null,
+      "texto_redactado": "Aprovació del Conveni de col·laboració a subscriure amb l'Ajuntament d'Argentona,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 2,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:48.274Z"
+      }
+    },
+    {
+      "id": "2026-06-30#11",
+      "sesion_id": "2026-06-30",
+      "orden": 11,
+      "titulo": "Aprovació de la primera pròrroga del contracte del servei d'assessorament jurídic en",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la primera pròrroga del contracte del servei d'assessorament jurídic en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:48.274Z"
+      }
+    }
+  ]
+}

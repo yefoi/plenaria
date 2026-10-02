@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "deltebre",
+    "nombre": "Deltebre",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4390180001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-18",
+    "municipio_id": "deltebre",
+    "fecha": "2026-06-18",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4390180001/2026/804b7041-90d4-4c51-8d9d-6b6d847f5e7d/Acta%20PM%2006182026.pdf",
+    "hash_contenido": "6b9e2335f2c1359d0fe201ff273340b142fce66668c6a2bc76bd58f4819e81a7",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:18:39.987Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-18#1",
+      "sesion_id": "2026-06-18",
+      "orden": 1,
+      "titulo": "Aprovar el Conveni que figura com a Annex 1 al present Acord, amb totes les seves",
+      "resultado": null,
+      "texto_redactado": "Aprovar el Conveni que figura com a Annex 1 al present Acord, amb totes les seves",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:39.987Z"
+      }
+    },
+    {
+      "id": "2026-06-18#2",
+      "sesion_id": "2026-06-18",
+      "orden": 2,
+      "titulo": "Facultar l'Alcalde de l’Ajuntament de Deltebre i el President de la Junta de Govern de la",
+      "resultado": null,
+      "texto_redactado": "Facultar l'Alcalde de l’Ajuntament de Deltebre i el President de la Junta de Govern de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:39.987Z"
+      }
+    },
+    {
+      "id": "2026-06-18#3",
+      "sesion_id": "2026-06-18",
+      "orden": 3,
+      "titulo": "Procedir a ratificar el conveni el Plenari de l’Ajuntament de Deltebre i la Junta General de la",
+      "resultado": null,
+      "texto_redactado": "Procedir a ratificar el conveni el Plenari de l’Ajuntament de Deltebre i la Junta General de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:39.987Z"
+      }
+    },
+    {
+      "id": "2026-06-18#4",
+      "sesion_id": "2026-06-18",
+      "orden": 4,
+      "titulo": "Suspendre els procediments contenciosos administratius en tramitació a la data de signatura",
+      "resultado": null,
+      "texto_redactado": "Suspendre els procediments contenciosos administratius en tramitació a la data de signatura",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 2,
+      "confianza_min": 0.22,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:39.987Z"
+      }
+    },
+    {
+      "id": "2026-06-18#5",
+      "sesion_id": "2026-06-18",
+      "orden": 5,
+      "titulo": "Desistir de tots els procediments contenciosos administratius anteriorment esmentats, per",
+      "resultado": null,
+      "texto_redactado": "Desistir de tots els procediments contenciosos administratius anteriorment esmentats, per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:39.987Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,772 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "mollet-del-valles",
+    "nombre": "Mollet del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "812490004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-29",
+    "municipio_id": "mollet-del-valles",
+    "fecha": "2026-06-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/812490004/2026/a18b6617-9b37-4d07-8ac8-9a9260d0e563/Acta%20Ple_Exp220348P_sessi%f3%20ordinaria%2029-06-26.pdf",
+    "hash_contenido": "415a45c0e348cbe6ba4cfb208603617719459a5a961a5dfd8a6a601ad7ee2ebc",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:19:29.352Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-29#1",
+      "sesion_id": "2026-06-29",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta de la sessió ordinària de data 25 de maig de 2026 (expedient 213208Y). DICTÀMENS DE LA COMISSIÓ INFORMATIVA DE GOVERN OBERT, SERVEIS PERSONALS I DRETS SOCIALS",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’acta de la sessió ordinària de data 25 de maig de 2026 (expedient 213208Y). DICTÀMENS DE LA COMISSIÓ INFORMATIVA DE GOVERN OBERT, SERVEIS PERSONALS I DRETS SOCIALS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "servicios_sociales",
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#2",
+      "sesion_id": "2026-06-29",
+      "orden": 2,
+      "titulo": "Dictamen sobre l’aprovació de les festes locals del municipi de l’any 2027 (expedient",
+      "resultado": null,
+      "texto_redactado": "Dictamen sobre l’aprovació de les festes locals del municipi de l’any 2027 (expedient",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.48,
+      "impacto": 4,
+      "confianza_min": 0.33,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#3",
+      "sesion_id": "2026-06-29",
+      "orden": 3,
+      "titulo": "Dictamen sobre la declaració de l’Institut Municipal de Serveis a les Persones amb",
+      "resultado": null,
+      "texto_redactado": "Dictamen sobre la declaració de l’Institut Municipal de Serveis a les Persones amb",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 2,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#4",
+      "sesion_id": "2026-06-29",
+      "orden": 4,
+      "titulo": "Dictamen de ratificació resolució d’Alcaldia número 2759, de 3 de juny de 2026, sobre la",
+      "resultado": null,
+      "texto_redactado": "Dictamen de ratificació resolució d’Alcaldia número 2759, de 3 de juny de 2026, sobre la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#5",
+      "sesion_id": "2026-06-29",
+      "orden": 5,
+      "titulo": "Dictamen sobre l’aprovació del Pacte Local per la Llengua de Mollet del Vallès (expedient",
+      "resultado": null,
+      "texto_redactado": "Dictamen sobre l’aprovació del Pacte Local per la Llengua de Mollet del Vallès (expedient",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0.04,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#6",
+      "sesion_id": "2026-06-29",
+      "orden": 6,
+      "titulo": "Lectura del manifest del Consell de la Gent Gran de Catalunya amb motiu del 15 de juny",
+      "resultado": null,
+      "texto_redactado": "Lectura del manifest del Consell de la Gent Gran de Catalunya amb motiu del 15 de juny",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#7",
+      "sesion_id": "2026-06-29",
+      "orden": 7,
+      "titulo": "Lectura del manifest amb motiu del 28 de juny Dia Internacional per l’Alliberament",
+      "resultado": null,
+      "texto_redactado": "Lectura del manifest amb motiu del 28 de juny Dia Internacional per l’Alliberament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.93,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#8",
+      "sesion_id": "2026-06-29",
+      "orden": 8,
+      "titulo": "Donació de compte de decrets de l'alcaldia del número 2317/2026 de data 14 de maig de",
+      "resultado": null,
+      "texto_redactado": "Donació de compte de decrets de l'alcaldia del número 2317/2026 de data 14 de maig de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#9",
+      "sesion_id": "2026-06-29",
+      "orden": 9,
+      "titulo": "Punts d’urgència.",
+      "resultado": null,
+      "texto_redactado": "Punts d’urgència.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 2,
+      "confianza_min": 0.3,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#10",
+      "sesion_id": "2026-06-29",
+      "orden": 10,
+      "titulo": "Precs i preguntes.",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#11",
+      "sesion_id": "2026-06-29",
+      "orden": 11,
+      "titulo": "Punto de servicios sociales",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#12",
+      "sesion_id": "2026-06-29",
+      "orden": 12,
+      "titulo": "Llei 19/2014, de 29 de desembre, de transparència, accés a la informació pública i bon govern.",
+      "resultado": null,
+      "texto_redactado": "Llei 19/2014, de 29 de desembre, de transparència, accés a la informació pública i bon govern.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 4,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#13",
+      "sesion_id": "2026-06-29",
+      "orden": 13,
+      "titulo": "Decret 179/1995, de 13 de juny, pel qual s'aprova el Reglament d'obres, activitats i serveis",
+      "resultado": null,
+      "texto_redactado": "Decret 179/1995, de 13 de juny, pel qual s'aprova el Reglament d'obres, activitats i serveis",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.82,
+      "impacto": 4,
+      "confianza_min": 0.35,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#14",
+      "sesion_id": "2026-06-29",
+      "orden": 14,
+      "titulo": "Resolució d’alcaldia de data 29 d’octubre de 2024 de delegació de competències en regidors",
+      "resultado": null,
+      "texto_redactado": "Resolució d’alcaldia de data 29 d’octubre de 2024 de delegació de competències en regidors",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#15",
+      "sesion_id": "2026-06-29",
+      "orden": 15,
+      "titulo": "Bases d’Execució del pressupost.",
+      "resultado": null,
+      "texto_redactado": "Bases d’Execució del pressupost.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.35,
+      "impacto": 2,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#16",
+      "sesion_id": "2026-06-29",
+      "orden": 16,
+      "titulo": "Bases reguladores generals de subvencions de l’Ajuntament de Mollet del Vallès.",
+      "resultado": null,
+      "texto_redactado": "Bases reguladores generals de subvencions de l’Ajuntament de Mollet del Vallès.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.56,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#17",
+      "sesion_id": "2026-06-29",
+      "orden": 17,
+      "titulo": "Bases específiques reguladores de la concessió de subvencions i ajuts per a l’exercici 2026.",
+      "resultado": null,
+      "texto_redactado": "Bases específiques reguladores de la concessió de subvencions i ajuts per a l’exercici 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.51,
+      "impacto": 2,
+      "confianza_min": 0.24,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#18",
+      "sesion_id": "2026-06-29",
+      "orden": 18,
+      "titulo": "Qualsevol altra que pugui resultar d’aplicació.",
+      "resultado": null,
+      "texto_redactado": "Qualsevol altra que pugui resultar d’aplicació.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#19",
+      "sesion_id": "2026-06-29",
+      "orden": 19,
+      "titulo": "Indicació, si es té coneixement, de què el menor beneficiari ha rebut altres ajudes pel mateix",
+      "resultado": null,
+      "texto_redactado": "Indicació, si es té coneixement, de què el menor beneficiari ha rebut altres ajudes pel mateix",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#20",
+      "sesion_id": "2026-06-29",
+      "orden": 20,
+      "titulo": "Incompleixi alguna de les obligacions imposades en els instruments reguladors de la",
+      "resultado": null,
+      "texto_redactado": "Incompleixi alguna de les obligacions imposades en els instruments reguladors de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 1,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#21",
+      "sesion_id": "2026-06-29",
+      "orden": 21,
+      "titulo": "Hagi obtingut per a la mateixa actuació altres subvencions, ajuts o aportacions de qualsevol",
+      "resultado": null,
+      "texto_redactado": "Hagi obtingut per a la mateixa actuació altres subvencions, ajuts o aportacions de qualsevol",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#22",
+      "sesion_id": "2026-06-29",
+      "orden": 22,
+      "titulo": "No assistir a l’activitat, sense cap causa que ho justifiqui, durant quinze dies o més en el",
+      "resultado": null,
+      "texto_redactado": "No assistir a l’activitat, sense cap causa que ho justifiqui, durant quinze dies o més en el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.42,
+      "impacto": 1,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#23",
+      "sesion_id": "2026-06-29",
+      "orden": 23,
+      "titulo": "No hagi justificat adequadament en temps i forma la inscripció i realització de l’activitat",
+      "resultado": null,
+      "texto_redactado": "No hagi justificat adequadament en temps i forma la inscripció i realització de l’activitat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#24",
+      "sesion_id": "2026-06-29",
+      "orden": 24,
+      "titulo": "Obtenció de la subvenció falsejant les condicions exigides o amagant les que n'haurien",
+      "resultado": null,
+      "texto_redactado": "Obtenció de la subvenció falsejant les condicions exigides o amagant les que n'haurien",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.55,
+      "impacto": 2,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#25",
+      "sesion_id": "2026-06-29",
+      "orden": 25,
+      "titulo": "Obtenir la subvenció sense reunir les condicions requerides per això.",
+      "resultado": null,
+      "texto_redactado": "Obtenir la subvenció sense reunir les condicions requerides per això.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.58,
+      "impacto": 2,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#26",
+      "sesion_id": "2026-06-29",
+      "orden": 26,
+      "titulo": "Incompliment total o parcial de la finalitat per a la qual la subvenció va ser concedida.",
+      "resultado": null,
+      "texto_redactado": "Incompliment total o parcial de la finalitat per a la qual la subvenció va ser concedida.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 2,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#27",
+      "sesion_id": "2026-06-29",
+      "orden": 27,
+      "titulo": "Incompliment de les condicions imposades amb motiu de la concessió de la subvenció. Entre",
+      "resultado": null,
+      "texto_redactado": "Incompliment de les condicions imposades amb motiu de la concessió de la subvenció. Entre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#28",
+      "sesion_id": "2026-06-29",
+      "orden": 28,
+      "titulo": "Incompliment de l’obligació de justificar o justificació insuficient en els terminis establerts.",
+      "resultado": null,
+      "texto_redactado": "Incompliment de l’obligació de justificar o justificació insuficient en els terminis establerts.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.8,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#29",
+      "sesion_id": "2026-06-29",
+      "orden": 29,
+      "titulo": "Incompliment de l’obligació d’adoptar mesures de difusió.",
+      "resultado": null,
+      "texto_redactado": "Incompliment de l’obligació d’adoptar mesures de difusió.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 2,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#30",
+      "sesion_id": "2026-06-29",
+      "orden": 30,
+      "titulo": "Resistència, excusa, obstrucció o negativa a les actuacions de comprovació i control financer,",
+      "resultado": null,
+      "texto_redactado": "Resistència, excusa, obstrucció o negativa a les actuacions de comprovació i control financer,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    },
+    {
+      "id": "2026-06-29#31",
+      "sesion_id": "2026-06-29",
+      "orden": 31,
+      "titulo": "Altres supòsits previstos en la normativa de la LGS i la resta de legislació.",
+      "resultado": null,
+      "texto_redactado": "Altres supòsits previstos en la normativa de la LGS i la resta de legislació.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:29.352Z"
+      }
+    }
+  ]
+}

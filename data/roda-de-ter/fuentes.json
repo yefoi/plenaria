@@ -1,11 +1,13 @@
 {
   "municipio_id": "roda-de-ter",
   "fuente_tipo": "ckan-seu-e",
-  "actualizado_en": "2026-10-01T15:14:20.476Z",
-  "ultima_descarga": "2026-10-01T15:14:20.118Z",
+  "actualizado_en": "2026-10-02T11:12:43.907Z",
+  "ultima_descarga": "2026-10-02T11:12:43.766Z",
   "ultima_sesion_fecha": "2026-07-21",
-  "sesiones_procesadas": 1,
-  "errores": [],
+  "sesiones_procesadas": 0,
+  "errores": [
+    "2026-07-21 https://media.seu-e.cat/acteca/818310007/2026/ba6306d1-0b0d-469c-9903-7772a4fdc0eb/ACTA%20PLE%2021%20JULIOL%202026.pdf: HTTP 404 al descargar https://media.seu-e.cat/acteca/818310007/2026/ba6306d1-0b0d-469c-9903-7772a4fdc0eb/ACTA%20PLE%2021%20JULIOL%202026.pdf"
+  ],
   "robots": {
     "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv": "permitido por robots.txt",
     "https://media.seu-e.cat/acteca/818310007/2026/17380a0e-366d-4288-bc1e-9996a1d1e3d7/ACTA%20PLE%2021%20JULIOL%202026.pdf": "permitido por robots.txt"

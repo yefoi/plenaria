@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "viladecans",
+    "nombre": "Viladecans",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "830150006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-25",
+    "municipio_id": "viladecans",
+    "fecha": "2026-06-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/830150006/2026/ae6a0006-4fa1-436b-868b-9775ca885200/VIGEM%20250626.pdf",
+    "hash_contenido": "c1d9aa42ad17488f64c0a9f141b864a5f46b3c53f31636b89c89cab9351350ae",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:19:24.636Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-25#1",
+      "sesion_id": "2026-06-25",
+      "orden": 1,
+      "titulo": "CORRESPONENTS A L’EXERCICI 2025",
+      "resultado": null,
+      "texto_redactado": "CORRESPONENTS A L’EXERCICI 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.95,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:24.636Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "ripoll",
+    "nombre": "Ripoll",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1714790004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-28",
+    "municipio_id": "ripoll",
+    "fecha": "2026-07-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1714790004/2026/03e39df9-0e1d-41f0-8225-292a6ac17fe1/Acta%20Ple.pdf",
+    "hash_contenido": "36af96a41f5c468018ab4c49faff7f35f742798807629f90f44ee267a0361775",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:18:47.516Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-28#1",
+      "sesion_id": "2026-07-28",
+      "orden": 1,
+      "titulo": "El senyor David Camps Soler manifesta que és el propietari del ple domini de la finca ubicada",
+      "resultado": null,
+      "texto_redactado": "El senyor David Camps Soler manifesta que és el propietari del ple domini de la finca ubicada",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.94,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:47.516Z"
+      }
+    },
+    {
+      "id": "2026-07-28#2",
+      "sesion_id": "2026-07-28",
+      "orden": 2,
+      "titulo": "El Pla d’Ordenació Urbanística Municipal de Ripoll, aprovat definitivament per la Comissió",
+      "resultado": null,
+      "texto_redactado": "El Pla d’Ordenació Urbanística Municipal de Ripoll, aprovat definitivament per la Comissió",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.75,
+      "impacto": 5,
+      "confianza_min": 0.85,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:47.516Z"
+      }
+    },
+    {
+      "id": "2026-07-28#3",
+      "sesion_id": "2026-07-28",
+      "orden": 3,
+      "titulo": "Punto de expropiación",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:47.516Z"
+      }
+    },
+    {
+      "id": "2026-07-28#4",
+      "sesion_id": "2026-07-28",
+      "orden": 4,
+      "titulo": "Punto de expropiación",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:47.516Z"
+      }
+    },
+    {
+      "id": "2026-07-28#5",
+      "sesion_id": "2026-07-28",
+      "orden": 5,
+      "titulo": "Que les parts es reconeixen mútuament i recíprocament la capacitat legal necessària per a",
+      "resultado": null,
+      "texto_redactado": "Que les parts es reconeixen mútuament i recíprocament la capacitat legal necessària per a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:47.516Z"
+      }
+    }
+  ]
+}

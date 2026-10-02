@@ -1,0 +1,435 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "torredembarra",
+    "nombre": "Torredembarra",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4315360009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-22",
+    "municipio_id": "torredembarra",
+    "fecha": "2026-06-22",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4315360009/2026/6e316b83-df4f-431b-9d81-f14e856b98d6/05.%202026-06-22.%20Certificat%20acta%20Ple.pdf",
+    "hash_contenido": "fa8c64cec2702a8978ca36d38d32e04027771092c3032685cbf40f9903786b6c",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:20:28.144Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-22#1",
+      "sesion_id": "2026-06-22",
+      "orden": 1,
+      "titulo": "a) Aprovació si s’escau, de l’acta del Ple corresponent a la sessió ordinària Aprovació si s’escau, de l’acta del Ple corresponent a la sessió Aprovació si s’escau, de l’acta del Ple corresponent a la sessió",
+      "resultado": null,
+      "texto_redactado": "a) Aprovació si s’escau, de l’acta del Ple corresponent a la sessió ordinària Aprovació si s’escau, de l’acta del Ple corresponent a la sessió Aprovació si s’escau, de l’acta del Ple corresponent a la sessió",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:28.144Z"
+      }
+    },
+    {
+      "id": "2026-06-22#2",
+      "sesion_id": "2026-06-22",
+      "orden": 2,
+      "titulo": "Dació de compte dels Decrets dictats per l'Alcaldia i les regidories delegades",
+      "resultado": null,
+      "texto_redactado": "Dació de compte dels Decrets dictats per l'Alcaldia i les regidories delegades",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:28.144Z"
+      }
+    },
+    {
+      "id": "2026-06-22#3",
+      "sesion_id": "2026-06-22",
+      "orden": 3,
+      "titulo": "Dació de compte dels acords adoptats per la Junta de Govern Local des de",
+      "resultado": null,
+      "texto_redactado": "Dació de compte dels acords adoptats per la Junta de Govern Local des de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:28.144Z"
+      }
+    },
+    {
+      "id": "2026-06-22#4",
+      "sesion_id": "2026-06-22",
+      "orden": 4,
+      "titulo": "Expedient 5475/2026. Dació de compte del Decret 2026-1539, de de",
+      "resultado": null,
+      "texto_redactado": "Expedient 5475/2026. Dació de compte del Decret 2026-1539, de de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:28.144Z"
+      }
+    },
+    {
+      "id": "2026-06-22#5",
+      "sesion_id": "2026-06-22",
+      "orden": 5,
+      "titulo": "Expedient 5476/2026. Dació de compte del Decret 2026-1544, de delegació",
+      "resultado": null,
+      "texto_redactado": "Expedient 5476/2026. Dació de compte del Decret 2026-1544, de delegació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:28.144Z"
+      }
+    },
+    {
+      "id": "2026-06-22#6",
+      "sesion_id": "2026-06-22",
+      "orden": 6,
+      "titulo": "Expedient 5590/2026. Dació de compte del Decret 2026-1555,",
+      "resultado": null,
+      "texto_redactado": "Expedient 5590/2026. Dació de compte del Decret 2026-1555,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:28.144Z"
+      }
+    },
+    {
+      "id": "2026-06-22#7",
+      "sesion_id": "2026-06-22",
+      "orden": 7,
+      "titulo": "Expedient 4061/2026. Dictamen proposant la modificació del Reglament",
+      "resultado": null,
+      "texto_redactado": "Expedient 4061/2026. Dictamen proposant la modificació del Reglament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:28.144Z"
+      }
+    },
+    {
+      "id": "2026-06-22#8",
+      "sesion_id": "2026-06-22",
+      "orden": 8,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:28.144Z"
+      }
+    },
+    {
+      "id": "2026-06-22#9",
+      "sesion_id": "2026-06-22",
+      "orden": 9,
+      "titulo": "Expedient 4343/2026. Dictamen proposant la ratificació de l'acord",
+      "resultado": null,
+      "texto_redactado": "Expedient 4343/2026. Dictamen proposant la ratificació de l'acord",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:28.144Z"
+      }
+    },
+    {
+      "id": "2026-06-22#10",
+      "sesion_id": "2026-06-22",
+      "orden": 10,
+      "titulo": "Expedient 4722/2026. Dictamen proposant l’establiment de les dues",
+      "resultado": null,
+      "texto_redactado": "Expedient 4722/2026. Dictamen proposant l’establiment de les dues",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:28.144Z"
+      }
+    },
+    {
+      "id": "2026-06-22#11",
+      "sesion_id": "2026-06-22",
+      "orden": 11,
+      "titulo": "Expedient 5431/2026. Moció, dels grups municipals d'ERC-AM, PSC-CP i",
+      "resultado": null,
+      "texto_redactado": "Expedient 5431/2026. Moció, dels grups municipals d'ERC-AM, PSC-CP i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:28.144Z"
+      }
+    },
+    {
+      "id": "2026-06-22#12",
+      "sesion_id": "2026-06-22",
+      "orden": 12,
+      "titulo": "Expedient 5685/2026. Moció, del grup municipal d'Alternativa",
+      "resultado": null,
+      "texto_redactado": "Expedient 5685/2026. Moció, del grup municipal d'Alternativa",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:28.144Z"
+      }
+    },
+    {
+      "id": "2026-06-22#13",
+      "sesion_id": "2026-06-22",
+      "orden": 13,
+      "titulo": "Atribucions delegades en matèria de SERVEIS TÈCNICS:",
+      "resultado": null,
+      "texto_redactado": "Atribucions delegades en matèria de SERVEIS TÈCNICS:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:28.144Z"
+      }
+    },
+    {
+      "id": "2026-06-22#14",
+      "sesion_id": "2026-06-22",
+      "orden": 14,
+      "titulo": "Atribucions delegades en matèria de SERVEIS, VIA PòBLICA I PLATGES:",
+      "resultado": null,
+      "texto_redactado": "Atribucions delegades en matèria de SERVEIS, VIA PòBLICA I PLATGES:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.38,
+      "impacto": 2,
+      "confianza_min": 0.17,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:28.144Z"
+      }
+    },
+    {
+      "id": "2026-06-22#15",
+      "sesion_id": "2026-06-22",
+      "orden": 15,
+      "titulo": "Col·laborar amb els òrgans superiors de l’Ajuntament de Torredembarra.",
+      "resultado": null,
+      "texto_redactado": "Col·laborar amb els òrgans superiors de l’Ajuntament de Torredembarra.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:28.144Z"
+      }
+    },
+    {
+      "id": "2026-06-22#16",
+      "sesion_id": "2026-06-22",
+      "orden": 16,
+      "titulo": "Aquelles altres funcions que puguin ser atribuïdes al Director/a de l’EMMT, o pels",
+      "resultado": null,
+      "texto_redactado": "Aquelles altres funcions que puguin ser atribuïdes al Director/a de l’EMMT, o pels",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:28.144Z"
+      }
+    },
+    {
+      "id": "2026-06-22#17",
+      "sesion_id": "2026-06-22",
+      "orden": 17,
+      "titulo": "En cas d’empat a les votacions del Consell Escolar o del Claustre de",
+      "resultado": null,
+      "texto_redactado": "En cas d’empat a les votacions del Consell Escolar o del Claustre de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:28.144Z"
+      }
+    }
+  ]
+}

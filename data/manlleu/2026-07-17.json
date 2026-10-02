@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "manlleu",
+    "nombre": "Manlleu",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "811200000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-17",
+    "municipio_id": "manlleu",
+    "fecha": "2026-07-17",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/811200000/2026/1e46427e-286e-4498-9ca3-41917fae882f/ACTA%20PLE_7_2026%20DE%2010_07_2026.%20SESSI%d3%20EXTRAORDIN%c0RIA%20-%20SEFYCU%20248936.pdf",
+    "hash_contenido": "60e79e0299b8a03fd39af31891e56d1d54a2729bc20e1b805383c460344ad9bb",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:20:06.518Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-17#1",
+      "sesion_id": "2026-07-17",
+      "orden": 1,
+      "titulo": "SOL·LICITUD DE SUBVENCIÓ PER EL PROJECTE ÒOBRIM MANLLEU AL RIU: Regulació",
+      "resultado": null,
+      "texto_redactado": "SOL·LICITUD DE SUBVENCIÓ PER EL PROJECTE ÒOBRIM MANLLEU AL RIU: Regulació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.39,
+      "impacto": 2,
+      "confianza_min": 0.06,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:06.518Z"
+      }
+    },
+    {
+      "id": "2026-07-17#2",
+      "sesion_id": "2026-07-17",
+      "orden": 2,
+      "titulo": "Dins del Programa per al millorament urbà, ambiental i social dels barris i viles d'atenció",
+      "resultado": null,
+      "texto_redactado": "Dins del Programa per al millorament urbà, ambiental i social dels barris i viles d'atenció",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.58,
+      "impacto": 2,
+      "confianza_min": 0.23,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:06.518Z"
+      }
+    },
+    {
+      "id": "2026-07-17#3",
+      "sesion_id": "2026-07-17",
+      "orden": 3,
+      "titulo": "L’Ajuntament de Manlleu reuneix les condicions establertes a la Resolució",
+      "resultado": null,
+      "texto_redactado": "L’Ajuntament de Manlleu reuneix les condicions establertes a la Resolució",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.95,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:06.518Z"
+      }
+    },
+    {
+      "id": "2026-07-17#4",
+      "sesion_id": "2026-07-17",
+      "orden": 4,
+      "titulo": "Per tal de definir les accions del projecte s’ha seguit una metodologia de treball",
+      "resultado": null,
+      "texto_redactado": "Per tal de definir les accions del projecte s’ha seguit una metodologia de treball",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:06.518Z"
+      }
+    },
+    {
+      "id": "2026-07-17#5",
+      "sesion_id": "2026-07-17",
+      "orden": 5,
+      "titulo": "El termini per a presentar les sol·licituds finalitza el proper 17 de juliol de 2026.",
+      "resultado": null,
+      "texto_redactado": "El termini per a presentar les sol·licituds finalitza el proper 17 de juliol de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.47,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:06.518Z"
+      }
+    }
+  ]
+}

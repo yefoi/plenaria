@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "santpedor",
+    "nombre": "Santpedor",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "819230008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-09",
+    "municipio_id": "santpedor",
+    "fecha": "2026-06-09",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/819230008/2026/8579882e-4498-4fd5-8b73-0a301d263d7d/ACTA%20PLE%2009062026.pdf",
+    "hash_contenido": "a23bd7bf788a718495dec7642ec62d2b60c348eb57ab5eec8d2f3e4f55c6a190",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:19:05.437Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-09#1",
+      "sesion_id": "2026-06-09",
+      "orden": 1,
+      "titulo": "DICTAMEN APROVACIÓ FESTIUS LOCALS 2027 (X2026002415)",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN APROVACIÓ FESTIUS LOCALS 2027 (X2026002415)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 3,
+      "confianza_min": 0.24,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:05.437Z"
+      }
+    },
+    {
+      "id": "2026-06-09#2",
+      "sesion_id": "2026-06-09",
+      "orden": 2,
+      "titulo": "DICTAMEN APROVACIÓ XIFRA FINAL DE POBLACIÓ A 1 DE GENER DE 2026 (X2026001672)",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN APROVACIÓ XIFRA FINAL DE POBLACIÓ A 1 DE GENER DE 2026 (X2026001672)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:05.437Z"
+      }
+    },
+    {
+      "id": "2026-06-09#3",
+      "sesion_id": "2026-06-09",
+      "orden": 3,
+      "titulo": "DICTAMEN PER A L’APROVACIÓ DE LA SEGONA PRÒRROGA PER A",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN PER A L’APROVACIÓ DE LA SEGONA PRÒRROGA PER A",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.76,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:05.437Z"
+      }
+    },
+    {
+      "id": "2026-06-09#4",
+      "sesion_id": "2026-06-09",
+      "orden": 4,
+      "titulo": "DICTAMEN APROVACIÓ PRÒRROGA 2027 DEL CONVENI PER A LA PRESTACIÓ DEL SERVEI DE RESIDÈNCIA ASSISTIDA I CENTRE DE DIA PER A GENT GRAN DEPENENT \"RESIDÈNCIA MUNICIPAL DE SANTPEDOR I CENTRE DE DIA CAN JORBAÓ, A SANTPEDOR (X2025002267)",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN APROVACIÓ PRÒRROGA 2027 DEL CONVENI PER A LA PRESTACIÓ DEL SERVEI DE RESIDÈNCIA ASSISTIDA I CENTRE DE DIA PER A GENT GRAN DEPENENT \"RESIDÈNCIA MUNICIPAL DE SANTPEDOR I CENTRE DE DIA CAN JORBAÓ, A SANTPEDOR (X2025002267)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.58,
+      "impacto": 3,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:05.437Z"
+      }
+    },
+    {
+      "id": "2026-06-09#5",
+      "sesion_id": "2026-06-09",
+      "orden": 5,
+      "titulo": "DICTAMEN APROVACIÓ INICI PROCEDIMENT D’IMPOSICIÓ DE PENALITATS PER INCOMPLIMENTS A L’EMPRESA AMPANS MEDI AMBIENT, S.L. (X2024000819)",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN APROVACIÓ INICI PROCEDIMENT D’IMPOSICIÓ DE PENALITATS PER INCOMPLIMENTS A L’EMPRESA AMPANS MEDI AMBIENT, S.L. (X2024000819)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:05.437Z"
+      }
+    }
+  ]
+}

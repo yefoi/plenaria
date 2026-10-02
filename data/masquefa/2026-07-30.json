@@ -1,0 +1,318 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "masquefa",
+    "nombre": "Masquefa",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "811920002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-30",
+    "municipio_id": "masquefa",
+    "fecha": "2026-07-30",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/811920002/2026/4cb93007-476d-4f22-9b16-7b4fdd9ed040/PO260730.pdf",
+    "hash_contenido": "610cb9089fd72c87f2df41a64e1683b911d9bc2dd4d487d2e44d8f1bc40f518f",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:18:56.887Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-30#1",
+      "sesion_id": "2026-07-30",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE LES ACTES DEL PLE DE SESSIONS ANTERIORS",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE LES ACTES DEL PLE DE SESSIONS ANTERIORS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:56.887Z"
+      }
+    },
+    {
+      "id": "2026-07-30#2",
+      "sesion_id": "2026-07-30",
+      "orden": 2,
+      "titulo": "DESPATX ALCALDIA",
+      "resultado": null,
+      "texto_redactado": "DESPATX ALCALDIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:56.887Z"
+      }
+    },
+    {
+      "id": "2026-07-30#3",
+      "sesion_id": "2026-07-30",
+      "orden": 3,
+      "titulo": "APROVACIÓ DE L’AUTORITZACIÓ I DISPOSICIÓ DE LA DESPESA A FAVOR DE CORPORACIÓN CLD S.U.T.R., SL PER LA CONTINUÏTAT DE LA PRESTACIÓ DEL SERVEI DE RECOLLIDA DE RESIDUS MUNICIPALS DEL MUNICIPI DE MASQUEFA PERÍODE SETEMBRE 2026 A AGOST 2027 AMBDÓS INCLOSOS",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’AUTORITZACIÓ I DISPOSICIÓ DE LA DESPESA A FAVOR DE CORPORACIÓN CLD S.U.T.R., SL PER LA CONTINUÏTAT DE LA PRESTACIÓ DEL SERVEI DE RECOLLIDA DE RESIDUS MUNICIPALS DEL MUNICIPI DE MASQUEFA PERÍODE SETEMBRE 2026 A AGOST 2027 AMBDÓS INCLOSOS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "contratacion_obras",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.75,
+      "impacto": 4,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:56.887Z"
+      }
+    },
+    {
+      "id": "2026-07-30#4",
+      "sesion_id": "2026-07-30",
+      "orden": 4,
+      "titulo": "APROVACIÓ FINALITZACIÓ CONTRACTE I DEVOLUCIÓ GARANTIA DEFINITIVA DELS SERVEIS DE NETEJA DELS EDIFICIS I ESPAIS MUNICIPALS DE L’AJUNTAMENT DE MASQUEFA",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ FINALITZACIÓ CONTRACTE I DEVOLUCIÓ GARANTIA DEFINITIVA DELS SERVEIS DE NETEJA DELS EDIFICIS I ESPAIS MUNICIPALS DE L’AJUNTAMENT DE MASQUEFA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 2,
+      "confianza_min": 0.36,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:56.887Z"
+      }
+    },
+    {
+      "id": "2026-07-30#5",
+      "sesion_id": "2026-07-30",
+      "orden": 5,
+      "titulo": "MODIFICACIÓ DE PRESSUPOST 06_2026 DE SUPLEMENT DE CRÈDIT I CRÈDIT",
+      "resultado": null,
+      "texto_redactado": "MODIFICACIÓ DE PRESSUPOST 06_2026 DE SUPLEMENT DE CRÈDIT I CRÈDIT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:56.887Z"
+      }
+    },
+    {
+      "id": "2026-07-30#6",
+      "sesion_id": "2026-07-30",
+      "orden": 6,
+      "titulo": "El 03 de juny de 2024 per Acord de la Junta de Govern Local procedit a la contractació de la consultora",
+      "resultado": null,
+      "texto_redactado": "El 03 de juny de 2024 per Acord de la Junta de Govern Local procedit a la contractació de la consultora",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:56.887Z"
+      }
+    },
+    {
+      "id": "2026-07-30#7",
+      "sesion_id": "2026-07-30",
+      "orden": 7,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:56.887Z"
+      }
+    },
+    {
+      "id": "2026-07-30#8",
+      "sesion_id": "2026-07-30",
+      "orden": 8,
+      "titulo": "ASSABENTAT DECRET APROVACIÓ DE LA LIQUIDACIÓ PRESSUPOST AJUNTAMENT DE MASQUEFA, EXERCICI 2025",
+      "resultado": null,
+      "texto_redactado": "ASSABENTAT DECRET APROVACIÓ DE LA LIQUIDACIÓ PRESSUPOST AJUNTAMENT DE MASQUEFA, EXERCICI 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:56.887Z"
+      }
+    },
+    {
+      "id": "2026-07-30#9",
+      "sesion_id": "2026-07-30",
+      "orden": 9,
+      "titulo": "ASSABENTAT AL PLE DE LA CORPORACIÓ DE L’INFORME ANUAL DE L’AJUNTAMENT DE MASQUEFA RELATIU A LES RESOLUCIONS ADOPTADES PER L’ALCALDE DE L’ENTITAT LOCAL CONTRÀRIES A LES OBJECCIONS EFECTUADES O, SI S’ESCAU, A L’OPINIÓ DE LA INTERVENCIÓ GENERAL DE LA GENERALITAT DE CATALUNYA, LES PRINCIPALS ANOMALIES EN MATÈRIA D’INGRESSOS, ELS INFORMES D’OMISSIÓ DE LA FUNCIÓ INTERVENTORA I ELS RESULTATS DEL CONTROL DELS COMPTES A JUSTIFICAR I DE LES BESTRETES DE CAIXA FIXA DE L’EXERCICI 2025",
+      "resultado": null,
+      "texto_redactado": "ASSABENTAT AL PLE DE LA CORPORACIÓ DE L’INFORME ANUAL DE L’AJUNTAMENT DE MASQUEFA RELATIU A LES RESOLUCIONS ADOPTADES PER L’ALCALDE DE L’ENTITAT LOCAL CONTRÀRIES A LES OBJECCIONS EFECTUADES O, SI S’ESCAU, A L’OPINIÓ DE LA INTERVENCIÓ GENERAL DE LA GENERALITAT DE CATALUNYA, LES PRINCIPALS ANOMALIES EN MATÈRIA D’INGRESSOS, ELS INFORMES D’OMISSIÓ DE LA FUNCIÓ INTERVENTORA I ELS RESULTATS DEL CONTROL DELS COMPTES A JUSTIFICAR I DE LES BESTRETES DE CAIXA FIXA DE L’EXERCICI 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:56.887Z"
+      }
+    },
+    {
+      "id": "2026-07-30#10",
+      "sesion_id": "2026-07-30",
+      "orden": 10,
+      "titulo": "BONIFICACIÓ A FAVOR DE LA ENTITAT ASSOCIACIÓ DE PARES IGUALADINS DE NENS I ADOLESCENTS SUBDOTATS (APINAS) DE L’ICIO DE LA LLICÈNCIA D’OBRES PER A LA REFORMA ESTABLIMENT COMERCIAL PER A NOU CENTRE DE DESENVOLUPAMENT",
+      "resultado": null,
+      "texto_redactado": "BONIFICACIÓ A FAVOR DE LA ENTITAT ASSOCIACIÓ DE PARES IGUALADINS DE NENS I ADOLESCENTS SUBDOTATS (APINAS) DE L’ICIO DE LA LLICÈNCIA D’OBRES PER A LA REFORMA ESTABLIMENT COMERCIAL PER A NOU CENTRE DE DESENVOLUPAMENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 3,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:56.887Z"
+      }
+    },
+    {
+      "id": "2026-07-30#11",
+      "sesion_id": "2026-07-30",
+      "orden": 11,
+      "titulo": "DONAR COMPTE AL PLE MUNICIPAL DE LA CORRESPONDÈNCIA DE TRÀMIT I DECRETS",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE MUNICIPAL DE LA CORRESPONDÈNCIA DE TRÀMIT I DECRETS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:56.887Z"
+      }
+    },
+    {
+      "id": "2026-07-30#12",
+      "sesion_id": "2026-07-30",
+      "orden": 12,
+      "titulo": "DONAR COMPTE AL PLE MUNICIPAL DELS ASSUMPTES TRACTATS A LA JUNTA DE",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE MUNICIPAL DELS ASSUMPTES TRACTATS A LA JUNTA DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:56.887Z"
+      }
+    }
+  ]
+}

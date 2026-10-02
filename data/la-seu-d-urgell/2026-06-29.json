@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "la-seu-d-urgell",
+    "nombre": "La Seu d'Urgell",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2520380001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-29",
+    "municipio_id": "la-seu-d-urgell",
+    "fecha": "2026-06-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2520380001/2026/d1ef3b25-95e9-45bf-a794-b91020de6480/ple%202026.06.29_extraordinari_urgent_signat.pdf",
+    "hash_contenido": "6af6338b8d82c52e5036d8ba1cadecb8114fbf0a45f7b295e105055f9c496ac8",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:18:36.296Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-29#1",
+      "sesion_id": "2026-06-29",
+      "orden": 1,
+      "titulo": "Declaració d'urgència de la sessió",
+      "resultado": null,
+      "texto_redactado": "Declaració d'urgència de la sessió",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.97,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:36.296Z"
+      }
+    },
+    {
+      "id": "2026-06-29#2",
+      "sesion_id": "2026-06-29",
+      "orden": 2,
+      "titulo": "L'article 79.2 del Reglament d'Organització, Funcionament i Règim Jurídic de les Entitats",
+      "resultado": null,
+      "texto_redactado": "L'article 79.2 del Reglament d'Organització, Funcionament i Règim Jurídic de les Entitats",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:36.296Z"
+      }
+    },
+    {
+      "id": "2026-06-29#3",
+      "sesion_id": "2026-06-29",
+      "orden": 3,
+      "titulo": "L'article 79 del Reglamento de Organitzación, Funcionamiento i Régimen Jurídico de las",
+      "resultado": null,
+      "texto_redactado": "L'article 79 del Reglamento de Organitzación, Funcionamiento i Régimen Jurídico de las",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:36.296Z"
+      }
+    }
+  ]
+}

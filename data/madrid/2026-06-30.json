@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "madrid",
+    "nombre": "Madrid",
+    "provincia": "Madrid",
+    "fuente_tipo": "portal-sesiones",
+    "fuente_config": {
+      "listado_url": "https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/El-Pleno/Actividad-del-Pleno-y-las-Comisiones/Pleno/Sesiones-del-Pleno/?vgnextchannel=8e9858f5c050e210VgnVCM2000000c205a0aRCRD&vgnextfmt=default&vgnextoid=122481276d58c010VgnVCM100000d90ca8c0RCRD",
+      "patron_sesion": "Pleno/\\d{1,2}-de-[a-z]+-de-\\d{4}",
+      "patrones_pdf": [
+        "AC_[^/]*\\.pdf$",
+        "DS_[^/]*\\.pdf$"
+      ],
+      "tipo_por_defecto": "ordinaria",
+      "url_base_pdf": "https://transparencia.madrid.es",
+      "max_sesiones": 3,
+      "idioma": "es"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-30",
+    "municipio_id": "madrid",
+    "fecha": "2026-06-30",
+    "tipo": "extraordinaria",
+    "fuente_url": "https://transparencia.madrid.es/UnidadesDescentralizadas/UDCPleno/Actividad/Pleno/2026/2026-06-30%20E/AC_PE_30_06_26.pdf",
+    "hash_contenido": "5c595abf7171b06bc13b8fd5e86128f3916355404705d47d03ec343ad357e4fb",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:20:34.125Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-30#1",
+      "sesion_id": "2026-06-30",
+      "orden": 1,
+      "titulo": "Secretaría General Pleno sesión (6/2026), extraordinaria 30-06-2026 CONVOCATORIA Y ORDEN DEL DÍA Página 1 de 1",
+      "resultado": null,
+      "texto_redactado": "Secretaría General Pleno sesión (6/2026), extraordinaria 30-06-2026 CONVOCATORIA Y ORDEN DEL DÍA Página 1 de 1",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:34.125Z"
+      }
+    }
+  ]
+}

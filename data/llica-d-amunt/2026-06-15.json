@@ -1,0 +1,464 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "llica-d-amunt",
+    "nombre": "Lliçà d'Amunt",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "810750006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-15",
+    "municipio_id": "llica-d-amunt",
+    "fecha": "2026-06-15",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/810750006/2026/d8ce9fe9-54ec-4abf-a3c4-bbe822093e3d/22_ACTA%20JGL%20APROVADA%2015_06.pdf",
+    "hash_contenido": "e5dfbd46dd966bc097244f0df4b2a22c70994d2665c4eb0e7b0b1d56cba0b927",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:20:33.633Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-15#1",
+      "sesion_id": "2026-06-15",
+      "orden": 1,
+      "titulo": "PRP2026/486 SORTIDA AL TIBIDABO, PER LA CLOENDA DEL 3R TRIMESTRE CAN GODANYA.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/486 SORTIDA AL TIBIDABO, PER LA CLOENDA DEL 3R TRIMESTRE CAN GODANYA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.73,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:33.633Z"
+      }
+    },
+    {
+      "id": "2026-06-15#2",
+      "sesion_id": "2026-06-15",
+      "orden": 2,
+      "titulo": "PRP2026/525 CONTRACTACIÓ DE DIVERSES ACTUACIONS MUSICALS DINS LA PROGRAMACIÓ DE LA FESTA MAJOR DE LLIÇÀ D'AMUNT 2026",
+      "resultado": null,
+      "texto_redactado": "PRP2026/525 CONTRACTACIÓ DE DIVERSES ACTUACIONS MUSICALS DINS LA PROGRAMACIÓ DE LA FESTA MAJOR DE LLIÇÀ D'AMUNT 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.51,
+      "impacto": 4,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:33.633Z"
+      }
+    },
+    {
+      "id": "2026-06-15#3",
+      "sesion_id": "2026-06-15",
+      "orden": 3,
+      "titulo": "PRP2026/531 ADJUDICACIÓ DE LA GESTIÓ DE LES 8 BARRAQUES DE L'ESPAI EMBARRACA'T DE LA FESTA MAJOR 2026",
+      "resultado": null,
+      "texto_redactado": "PRP2026/531 ADJUDICACIÓ DE LA GESTIÓ DE LES 8 BARRAQUES DE L'ESPAI EMBARRACA'T DE LA FESTA MAJOR 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.4,
+      "impacto": 3,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:33.633Z"
+      }
+    },
+    {
+      "id": "2026-06-15#4",
+      "sesion_id": "2026-06-15",
+      "orden": 4,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:33.633Z"
+      }
+    },
+    {
+      "id": "2026-06-15#5",
+      "sesion_id": "2026-06-15",
+      "orden": 5,
+      "titulo": "PRP2026/503 ADHESIÓ A L’ACORD MARC DE SUBMINISTRAMENT D’UNIFORMITAT DE POLICIA LOCAL I VESTUARI DE LA BRIGADA MUNICIPAL I D’ALTRE PERSONAL AMB DESTINACIÓ A LES ENTITATS LOCALS DE CATALUNYA (EXP. 2023.08).",
+      "resultado": null,
+      "texto_redactado": "PRP2026/503 ADHESIÓ A L’ACORD MARC DE SUBMINISTRAMENT D’UNIFORMITAT DE POLICIA LOCAL I VESTUARI DE LA BRIGADA MUNICIPAL I D’ALTRE PERSONAL AMB DESTINACIÓ A LES ENTITATS LOCALS DE CATALUNYA (EXP. 2023.08).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 2,
+      "confianza_min": 0.31,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:33.633Z"
+      }
+    },
+    {
+      "id": "2026-06-15#6",
+      "sesion_id": "2026-06-15",
+      "orden": 6,
+      "titulo": "PRP2026/519 APROVACIÓ DEL PROJECTE D'ENDERROC DE CONSTRUCCIONS EN SÒL NO URBANITZABLE (CAN CABOT)",
+      "resultado": null,
+      "texto_redactado": "PRP2026/519 APROVACIÓ DEL PROJECTE D'ENDERROC DE CONSTRUCCIONS EN SÒL NO URBANITZABLE (CAN CABOT)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.32,
+      "impacto": 2,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:33.633Z"
+      }
+    },
+    {
+      "id": "2026-06-15#7",
+      "sesion_id": "2026-06-15",
+      "orden": 7,
+      "titulo": "PRP2026/520 PROJECTE TANATORI MUNICIPAL - CERTIFICACIÓ 1",
+      "resultado": null,
+      "texto_redactado": "PRP2026/520 PROJECTE TANATORI MUNICIPAL - CERTIFICACIÓ 1",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:33.633Z"
+      }
+    },
+    {
+      "id": "2026-06-15#8",
+      "sesion_id": "2026-06-15",
+      "orden": 8,
+      "titulo": "PRP2026/523 CONTRACTE MENOR. REPARACIÓ DEL VEHICLE [MATRÍCULA]",
+      "resultado": null,
+      "texto_redactado": "PRP2026/523 CONTRACTE MENOR. REPARACIÓ DEL VEHICLE [MATRÍCULA]",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:33.633Z"
+      }
+    },
+    {
+      "id": "2026-06-15#9",
+      "sesion_id": "2026-06-15",
+      "orden": 9,
+      "titulo": "PRP2026/526 ADJUDICACIÓ CONTRACTE DEL SERVEI DE CÀTERING DE MENJADOR DELS CASALS MUNICIPALS PER L’ANY 2026 EN EL PROGRAMA VIU L’ESTIU",
+      "resultado": null,
+      "texto_redactado": "PRP2026/526 ADJUDICACIÓ CONTRACTE DEL SERVEI DE CÀTERING DE MENJADOR DELS CASALS MUNICIPALS PER L’ANY 2026 EN EL PROGRAMA VIU L’ESTIU",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.58,
+      "impacto": 3,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:33.633Z"
+      }
+    },
+    {
+      "id": "2026-06-15#10",
+      "sesion_id": "2026-06-15",
+      "orden": 10,
+      "titulo": "PRP2026/530 CONCESSIONS DEL FONS DE PRESTACIÓ ÒPLANS LOCALS D’OCUPACIÓÓ EN EL MARC DE LA CONVOCATÒRIA DEL CATÀLEG 2026 DEL PLA DE",
+      "resultado": null,
+      "texto_redactado": "PRP2026/530 CONCESSIONS DEL FONS DE PRESTACIÓ ÒPLANS LOCALS D’OCUPACIÓÓ EN EL MARC DE LA CONVOCATÒRIA DEL CATÀLEG 2026 DEL PLA DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.44,
+      "impacto": 2,
+      "confianza_min": 0.06,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:33.633Z"
+      }
+    },
+    {
+      "id": "2026-06-15#11",
+      "sesion_id": "2026-06-15",
+      "orden": 11,
+      "titulo": "PRP2026/518 AUTORITZACIÓ REGISTRE NUCLI ZOOLÒGIC PER A LA CRIA FAMILIAR DE GOSSOS",
+      "resultado": null,
+      "texto_redactado": "PRP2026/518 AUTORITZACIÓ REGISTRE NUCLI ZOOLÒGIC PER A LA CRIA FAMILIAR DE GOSSOS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 2,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:33.633Z"
+      }
+    },
+    {
+      "id": "2026-06-15#12",
+      "sesion_id": "2026-06-15",
+      "orden": 12,
+      "titulo": "PRP2026/540 APM, un ajut per sad dependencia.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/540 APM, un ajut per sad dependencia.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.77,
+      "impacto": 3,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:33.633Z"
+      }
+    },
+    {
+      "id": "2026-06-15#13",
+      "sesion_id": "2026-06-15",
+      "orden": 13,
+      "titulo": "PRP2026/508 VES, un ajut per sad neteja amb copagament de 117,72€",
+      "resultado": null,
+      "texto_redactado": "PRP2026/508 VES, un ajut per sad neteja amb copagament de 117,72€",
+      "importe_eur": 117.72,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.84,
+      "impacto": 2,
+      "confianza_min": 0.77,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:33.633Z"
+      }
+    },
+    {
+      "id": "2026-06-15#14",
+      "sesion_id": "2026-06-15",
+      "orden": 14,
+      "titulo": "PRP2026/496 MMR, un ajut per sad neteja amb copagament de 78,48€",
+      "resultado": null,
+      "texto_redactado": "PRP2026/496 MMR, un ajut per sad neteja amb copagament de 78,48€",
+      "importe_eur": 78.48,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.87,
+      "impacto": 2,
+      "confianza_min": 0.88,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:33.633Z"
+      }
+    },
+    {
+      "id": "2026-06-15#15",
+      "sesion_id": "2026-06-15",
+      "orden": 15,
+      "titulo": "PRP2026/535 BASES AJUTS ESCOLES BRESSOL MUNICIPALS CURS 2026/27",
+      "resultado": null,
+      "texto_redactado": "PRP2026/535 BASES AJUTS ESCOLES BRESSOL MUNICIPALS CURS 2026/27",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.7,
+      "impacto": 3,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:33.633Z"
+      }
+    },
+    {
+      "id": "2026-06-15#16",
+      "sesion_id": "2026-06-15",
+      "orden": 16,
+      "titulo": "PRP2026/539 RENòNCIA A L’AJUT ATORGAT PER LA DIPUTACIÓ DE BARCELONA PER A L’ACTUACIÓ CONSOLIDACIÓ D'UN PUNT CRÍTIC AL [DIRECCIÓN], SEGONS PPI (XGL 26/Y/405101), DINS EL CATÀLEG DE SERVEIS 2026.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/539 RENòNCIA A L’AJUT ATORGAT PER LA DIPUTACIÓ DE BARCELONA PER A L’ACTUACIÓ CONSOLIDACIÓ D'UN PUNT CRÍTIC AL [DIRECCIÓN], SEGONS PPI (XGL 26/Y/405101), DINS EL CATÀLEG DE SERVEIS 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.36,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:33.633Z"
+      }
+    },
+    {
+      "id": "2026-06-15#17",
+      "sesion_id": "2026-06-15",
+      "orden": 17,
+      "titulo": "PRP2026/534 DEVOLUCIÓ GARANTIA DEFINITIVA DEL CONTRACTE DE GESTIÓ DEL SERVEI INTEGRAL DE LA PISCINA MUNICIPAL DE LLIÇÀ D’AMUNT",
+      "resultado": null,
+      "texto_redactado": "PRP2026/534 DEVOLUCIÓ GARANTIA DEFINITIVA DEL CONTRACTE DE GESTIÓ DEL SERVEI INTEGRAL DE LA PISCINA MUNICIPAL DE LLIÇÀ D’AMUNT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:33.633Z"
+      }
+    },
+    {
+      "id": "2026-06-15#18",
+      "sesion_id": "2026-06-15",
+      "orden": 18,
+      "titulo": "PRP2026/524 CONTRACTACIÓ DE L'ACTUACIÓ MUSICAL DEL GRUP 31 FAM DINS LA PROGRAMACIÓ DE LA FESTA MAJOR DE LLIÇÀ D'AMUNT 2026 MITJANÇANT",
+      "resultado": null,
+      "texto_redactado": "PRP2026/524 CONTRACTACIÓ DE L'ACTUACIÓ MUSICAL DEL GRUP 31 FAM DINS LA PROGRAMACIÓ DE LA FESTA MAJOR DE LLIÇÀ D'AMUNT 2026 MITJANÇANT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.45,
+      "impacto": 3,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:33.633Z"
+      }
+    }
+  ]
+}
