@@ -1,0 +1,461 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-feliu-de-llobregat",
+    "nombre": "Sant Feliu de Llobregat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "821140003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-24",
+    "municipio_id": "sant-feliu-de-llobregat",
+    "fecha": "2026-09-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/821140003/2026/ef0a71f7-57f9-4da1-bdda-253b5b3a101f/12%20Extracte%20Ple%2024092026.pdf",
+    "hash_contenido": "3c67a22a29ef2037dd54278ca0c68148a771c6c8bdd1c00e9c7478d6af75fe6b",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-03T10:35:59.602Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-24#1",
+      "sesion_id": "2026-09-24",
+      "orden": 1,
+      "titulo": "Lectura i aprovació de l’acta anterior, de data 23 de juliol de 2026",
+      "resultado": null,
+      "texto_redactado": "Lectura i aprovació de l’acta anterior, de data 23 de juliol de 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-03T10:35:59.602Z"
+      }
+    },
+    {
+      "id": "2026-09-24#2",
+      "sesion_id": "2026-09-24",
+      "orden": 2,
+      "titulo": "Guardar un minut de silencia com a mostra de solidaritat amb el poble de",
+      "resultado": null,
+      "texto_redactado": "Guardar un minut de silencia com a mostra de solidaritat amb el poble de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.05,
+      "impacto": 1,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-03T10:35:59.602Z"
+      }
+    },
+    {
+      "id": "2026-09-24#3",
+      "sesion_id": "2026-09-24",
+      "orden": 3,
+      "titulo": "Denúncia contra la violència masclista solidaritat amb les víctimes de la",
+      "resultado": null,
+      "texto_redactado": "Denúncia contra la violència masclista solidaritat amb les víctimes de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales",
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-03T10:35:59.602Z"
+      }
+    },
+    {
+      "id": "2026-09-24#4",
+      "sesion_id": "2026-09-24",
+      "orden": 4,
+      "titulo": "Moció presentada pel grup municipal d'Esquerra Republicana de Catalunya-",
+      "resultado": null,
+      "texto_redactado": "Moció presentada pel grup municipal d'Esquerra Republicana de Catalunya-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-03T10:35:59.602Z"
+      }
+    },
+    {
+      "id": "2026-09-24#5",
+      "sesion_id": "2026-09-24",
+      "orden": 5,
+      "titulo": "Modificar les plurianualitats per l'addenda al conveni prestació del servei de",
+      "resultado": null,
+      "texto_redactado": "Modificar les plurianualitats per l'addenda al conveni prestació del servei de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 2,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-03T10:35:59.602Z"
+      }
+    },
+    {
+      "id": "2026-09-24#6",
+      "sesion_id": "2026-09-24",
+      "orden": 6,
+      "titulo": "Modificar els Preus públics prestació d'altres serveis públics, Complex",
+      "resultado": null,
+      "texto_redactado": "Modificar els Preus públics prestació d'altres serveis públics, Complex",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.73,
+      "impacto": 3,
+      "confianza_min": 0.4,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-03T10:35:59.602Z"
+      }
+    },
+    {
+      "id": "2026-09-24#7",
+      "sesion_id": "2026-09-24",
+      "orden": 7,
+      "titulo": "Declarar d'especial interès o utilitat municipal obres adequació coberta",
+      "resultado": null,
+      "texto_redactado": "Declarar d'especial interès o utilitat municipal obres adequació coberta",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.49,
+      "impacto": 3,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-03T10:35:59.602Z"
+      }
+    },
+    {
+      "id": "2026-09-24#8",
+      "sesion_id": "2026-09-24",
+      "orden": 8,
+      "titulo": "Cedir l'ús gratuït al CatSalut de l'immoble situat al carrer Compte de",
+      "resultado": null,
+      "texto_redactado": "Cedir l'ús gratuït al CatSalut de l'immoble situat al carrer Compte de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 3,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-03T10:35:59.602Z"
+      }
+    },
+    {
+      "id": "2026-09-24#9",
+      "sesion_id": "2026-09-24",
+      "orden": 9,
+      "titulo": "Aprovar el Pla Estratègic de Subvencions 2027-2029 (G0422026000005)",
+      "resultado": null,
+      "texto_redactado": "Aprovar el Pla Estratègic de Subvencions 2027-2029 (G0422026000005)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 3,
+      "confianza_min": 0.1,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-03T10:35:59.602Z"
+      }
+    },
+    {
+      "id": "2026-09-24#10",
+      "sesion_id": "2026-09-24",
+      "orden": 10,
+      "titulo": "Respondre a les al·legacions presentades pel Club Natació Sant Feliu a",
+      "resultado": null,
+      "texto_redactado": "Respondre a les al·legacions presentades pel Club Natació Sant Feliu a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-03T10:35:59.602Z"
+      }
+    },
+    {
+      "id": "2026-09-24#11",
+      "sesion_id": "2026-09-24",
+      "orden": 11,
+      "titulo": "Donar compte de les alcaldies i regidories accidentals d'estiu 2026 (DELE2026000017)",
+      "resultado": null,
+      "texto_redactado": "Donar compte de les alcaldies i regidories accidentals d'estiu 2026 (DELE2026000017)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-03T10:35:59.602Z"
+      }
+    },
+    {
+      "id": "2026-09-24#12",
+      "sesion_id": "2026-09-24",
+      "orden": 12,
+      "titulo": "Donar compte de la regidoria accidental d'estiu 2026 (DELE2026000020)",
+      "resultado": null,
+      "texto_redactado": "Donar compte de la regidoria accidental d'estiu 2026 (DELE2026000020)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-03T10:35:59.602Z"
+      }
+    },
+    {
+      "id": "2026-09-24#13",
+      "sesion_id": "2026-09-24",
+      "orden": 13,
+      "titulo": "Donar compte de la modificació de l'alcaldia accidental d'estiu 2026 (DELE2026000021)",
+      "resultado": null,
+      "texto_redactado": "Donar compte de la modificació de l'alcaldia accidental d'estiu 2026 (DELE2026000021)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-03T10:35:59.602Z"
+      }
+    },
+    {
+      "id": "2026-09-24#14",
+      "sesion_id": "2026-09-24",
+      "orden": 14,
+      "titulo": "Donar compte de les resolucions d'Alcaldia i Regidors/es delegats/des des",
+      "resultado": null,
+      "texto_redactado": "Donar compte de les resolucions d'Alcaldia i Regidors/es delegats/des des",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-03T10:35:59.602Z"
+      }
+    },
+    {
+      "id": "2026-09-24#15",
+      "sesion_id": "2026-09-24",
+      "orden": 15,
+      "titulo": "Donar compte de les actes de la Junta de Govern local de dates 15, 22 i 29",
+      "resultado": null,
+      "texto_redactado": "Donar compte de les actes de la Junta de Govern local de dates 15, 22 i 29",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-03T10:35:59.602Z"
+      }
+    },
+    {
+      "id": "2026-09-24#16",
+      "sesion_id": "2026-09-24",
+      "orden": 16,
+      "titulo": "Moció presentada pel grup municipal VOX en suport i solidaritat al poble de",
+      "resultado": null,
+      "texto_redactado": "Moció presentada pel grup municipal VOX en suport i solidaritat al poble de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-03T10:35:59.602Z"
+      }
+    },
+    {
+      "id": "2026-09-24#17",
+      "sesion_id": "2026-09-24",
+      "orden": 17,
+      "titulo": "Moció presentada pel grup municipal Sant Feliu en Comú Podem per la",
+      "resultado": null,
+      "texto_redactado": "Moció presentada pel grup municipal Sant Feliu en Comú Podem per la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-03T10:35:59.602Z"
+      }
+    },
+    {
+      "id": "2026-09-24#18",
+      "sesion_id": "2026-09-24",
+      "orden": 18,
+      "titulo": "PRECS I PREGUNTES:",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-03T10:35:59.602Z"
+      }
+    }
+  ]
+}
