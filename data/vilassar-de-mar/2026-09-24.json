@@ -1,0 +1,555 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vilassar-de-mar",
+    "nombre": "Vilassar de Mar",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "821910007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-24",
+    "municipio_id": "vilassar-de-mar",
+    "fecha": "2026-09-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/821910007/2026/0e1d2ac3-ca35-4fbd-9417-54be3fe87e44/ACTA%20JUNTA%20DE%20GOVERN%2024-09-2026.pdf",
+    "hash_contenido": "cdd8332b8c44b01310be7db53199241c2eb6354881fa04dd4560ea68fa3c96e2",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-04T11:21:55.099Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-24#1",
+      "sesion_id": "2026-09-24",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L'ACTA ANTERIOR DEL DIA 17-09-2026",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L'ACTA ANTERIOR DEL DIA 17-09-2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-04T11:21:55.099Z"
+      }
+    },
+    {
+      "id": "2026-09-24#2",
+      "sesion_id": "2026-09-24",
+      "orden": 2,
+      "titulo": "CONVENI DE COL·LABORACIÓ AMB L’ASSOCIACIÓ AMICS DELS ANIMALS DE VILASSAR DE MAR PER A L’ANY 2026",
+      "resultado": null,
+      "texto_redactado": "CONVENI DE COL·LABORACIÓ AMB L’ASSOCIACIÓ AMICS DELS ANIMALS DE VILASSAR DE MAR PER A L’ANY 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 2,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-04T11:21:55.099Z"
+      }
+    },
+    {
+      "id": "2026-09-24#3",
+      "sesion_id": "2026-09-24",
+      "orden": 3,
+      "titulo": "Punto sancionador",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-04T11:21:55.099Z"
+      }
+    },
+    {
+      "id": "2026-09-24#4",
+      "sesion_id": "2026-09-24",
+      "orden": 4,
+      "titulo": "Punto sancionador",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-04T11:21:55.099Z"
+      }
+    },
+    {
+      "id": "2026-09-24#5",
+      "sesion_id": "2026-09-24",
+      "orden": 5,
+      "titulo": "DESESTIMACIÓ D’AL·LEGACIONS AMB IMPOSICIÓ DE SANCIÓ BUTLLETÍ",
+      "resultado": null,
+      "texto_redactado": "DESESTIMACIÓ D’AL·LEGACIONS AMB IMPOSICIÓ DE SANCIÓ BUTLLETÍ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.43,
+      "impacto": 2,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-04T11:21:55.099Z"
+      }
+    },
+    {
+      "id": "2026-09-24#6",
+      "sesion_id": "2026-09-24",
+      "orden": 6,
+      "titulo": "DESESTIMACIÓ D’AL·LEGACIONS AMB IMPOSICIÓ DE SANCIÓ BUTLLETÍ",
+      "resultado": null,
+      "texto_redactado": "DESESTIMACIÓ D’AL·LEGACIONS AMB IMPOSICIÓ DE SANCIÓ BUTLLETÍ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 2,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-04T11:21:55.099Z"
+      }
+    },
+    {
+      "id": "2026-09-24#7",
+      "sesion_id": "2026-09-24",
+      "orden": 7,
+      "titulo": "DESESTIMACIÓ D’AL·LEGACIONS AMB IMPOSICIÓ DE SANCIÓ BUTLLETÍ",
+      "resultado": null,
+      "texto_redactado": "DESESTIMACIÓ D’AL·LEGACIONS AMB IMPOSICIÓ DE SANCIÓ BUTLLETÍ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.43,
+      "impacto": 2,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-04T11:21:55.099Z"
+      }
+    },
+    {
+      "id": "2026-09-24#8",
+      "sesion_id": "2026-09-24",
+      "orden": 8,
+      "titulo": "DESESTIMACIÓ D’AL·LEGACIONS AMB IMPOSICIÓ DE SANCIÓ BUTLLETÍ",
+      "resultado": null,
+      "texto_redactado": "DESESTIMACIÓ D’AL·LEGACIONS AMB IMPOSICIÓ DE SANCIÓ BUTLLETÍ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.43,
+      "impacto": 2,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-04T11:21:55.099Z"
+      }
+    },
+    {
+      "id": "2026-09-24#9",
+      "sesion_id": "2026-09-24",
+      "orden": 9,
+      "titulo": "Punto sancionador",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-04T11:21:55.099Z"
+      }
+    },
+    {
+      "id": "2026-09-24#10",
+      "sesion_id": "2026-09-24",
+      "orden": 10,
+      "titulo": "Punto sancionador",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-04T11:21:55.099Z"
+      }
+    },
+    {
+      "id": "2026-09-24#11",
+      "sesion_id": "2026-09-24",
+      "orden": 11,
+      "titulo": "PROPOSTA DE SANCIÓ D’EXPEDIENTS SANCIONADORS DE TRÀNSIT DE LA RELACIÓ 26040498 DE L’ORGT",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA DE SANCIÓ D’EXPEDIENTS SANCIONADORS DE TRÀNSIT DE LA RELACIÓ 26040498 DE L’ORGT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.45,
+      "impacto": 2,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-04T11:21:55.099Z"
+      }
+    },
+    {
+      "id": "2026-09-24#12",
+      "sesion_id": "2026-09-24",
+      "orden": 12,
+      "titulo": "PROPOSTA DE SANCIÓ D’EXPEDIENTS SANCIONADORS DE TRÀNSIT DE LA RELACIÓ 26041660 DE L’ORGT",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA DE SANCIÓ D’EXPEDIENTS SANCIONADORS DE TRÀNSIT DE LA RELACIÓ 26041660 DE L’ORGT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 1,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-04T11:21:55.099Z"
+      }
+    },
+    {
+      "id": "2026-09-24#13",
+      "sesion_id": "2026-09-24",
+      "orden": 13,
+      "titulo": "CREACIÓ D’UNA PLAÇA D’ESTACIONAMENT PERSONALITZADA DE MOBILITAT REDUÏDA AL [DIRECCIÓN]",
+      "resultado": null,
+      "texto_redactado": "CREACIÓ D’UNA PLAÇA D’ESTACIONAMENT PERSONALITZADA DE MOBILITAT REDUÏDA AL [DIRECCIÓN]",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.71,
+      "impacto": 2,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-04T11:21:55.099Z"
+      }
+    },
+    {
+      "id": "2026-09-24#14",
+      "sesion_id": "2026-09-24",
+      "orden": 14,
+      "titulo": "AUTORITZACIÓ PER A ACCEDIR A ZONES RESTRINGIDES, CR D’EN ROIG",
+      "resultado": null,
+      "texto_redactado": "AUTORITZACIÓ PER A ACCEDIR A ZONES RESTRINGIDES, CR D’EN ROIG",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.47,
+      "impacto": 2,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-04T11:21:55.099Z"
+      }
+    },
+    {
+      "id": "2026-09-24#15",
+      "sesion_id": "2026-09-24",
+      "orden": 15,
+      "titulo": "TARGETA PROVISIONAL 67/26 D’ESTACIONAMENT INDIVIDUAL PER A PERSONES AMB DISMINUCIÓ DE LA MOBILITAT PER A F.D.S.",
+      "resultado": null,
+      "texto_redactado": "TARGETA PROVISIONAL 67/26 D’ESTACIONAMENT INDIVIDUAL PER A PERSONES AMB DISMINUCIÓ DE LA MOBILITAT PER A F.D.S.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.68,
+      "impacto": 2,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-04T11:21:55.099Z"
+      }
+    },
+    {
+      "id": "2026-09-24#16",
+      "sesion_id": "2026-09-24",
+      "orden": 16,
+      "titulo": "TARGETA NòM 93/26 D’ESTACIONAMENT INDIVIDUAL PER A PERSONES AMB DISMINUCIÓ DE LA MOBILITAT PER A J.P.P.",
+      "resultado": null,
+      "texto_redactado": "TARGETA NòM 93/26 D’ESTACIONAMENT INDIVIDUAL PER A PERSONES AMB DISMINUCIÓ DE LA MOBILITAT PER A J.P.P.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.67,
+      "impacto": 2,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-04T11:21:55.099Z"
+      }
+    },
+    {
+      "id": "2026-09-24#17",
+      "sesion_id": "2026-09-24",
+      "orden": 17,
+      "titulo": "APROVACIÓ DEFINITIVA DEL PROJECTE EXECUTIU PER A LA RENOVACIÓ DE DIFERENTS TRAMS DE LA XARXA DE DISTRIBUCIÓ D'AIGUA POTABLE DEL TERME MUNICIPAL DE VILASSAR DE MAR",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEFINITIVA DEL PROJECTE EXECUTIU PER A LA RENOVACIÓ DE DIFERENTS TRAMS DE LA XARXA DE DISTRIBUCIÓ D'AIGUA POTABLE DEL TERME MUNICIPAL DE VILASSAR DE MAR",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.7,
+      "impacto": 4,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-04T11:21:55.099Z"
+      }
+    },
+    {
+      "id": "2026-09-24#18",
+      "sesion_id": "2026-09-24",
+      "orden": 18,
+      "titulo": "DEVOLUCIO FIANÇA LLICENCIA OBRES REFORMA I OBERTURA FINESTRA CARRER TRAFALGAR_10",
+      "resultado": null,
+      "texto_redactado": "DEVOLUCIO FIANÇA LLICENCIA OBRES REFORMA I OBERTURA FINESTRA CARRER TRAFALGAR_10",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.38,
+      "impacto": 1,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-04T11:21:55.099Z"
+      }
+    },
+    {
+      "id": "2026-09-24#19",
+      "sesion_id": "2026-09-24",
+      "orden": 19,
+      "titulo": "LLICÈNCIA D’OBRES D’OBERTURA DE RASA PER ACCEDIR A LA XARXA DE DISTRIBUCIÓ DE GAS NATURAL I REPOSICIÓ DELS PAVIMENTS AFECTATS AL CARRER AV. MONTEVIDEO, 131. EXP. X2026003668",
+      "resultado": null,
+      "texto_redactado": "LLICÈNCIA D’OBRES D’OBERTURA DE RASA PER ACCEDIR A LA XARXA DE DISTRIBUCIÓ DE GAS NATURAL I REPOSICIÓ DELS PAVIMENTS AFECTATS AL CARRER AV. MONTEVIDEO, 131. EXP. X2026003668",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.74,
+      "impacto": 3,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-04T11:21:55.099Z"
+      }
+    },
+    {
+      "id": "2026-09-24#20",
+      "sesion_id": "2026-09-24",
+      "orden": 20,
+      "titulo": "FINALITZACIO OBRES I DEVOLUCIO FIANÇA LLICENCIA OBRES JOSEPANSELM CLAVE_10",
+      "resultado": null,
+      "texto_redactado": "FINALITZACIO OBRES I DEVOLUCIO FIANÇA LLICENCIA OBRES JOSEPANSELM CLAVE_10",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.3,
+      "impacto": 2,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-04T11:21:55.099Z"
+      }
+    },
+    {
+      "id": "2026-09-24#21",
+      "sesion_id": "2026-09-24",
+      "orden": 21,
+      "titulo": "EXPEDIENT:X2026003678. ABONAMENT DESPESES EN CONCEPTE D’INDEMNITZACIO PER L’ASSISTÈNCIA A LA COMISSIÓ MUNICIPAL DE PATRIMONI CULTURAL DELS MEMBRES ALIENS A L’AJUNTAMENT DE VILASSAR",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT:X2026003678. ABONAMENT DESPESES EN CONCEPTE D’INDEMNITZACIO PER L’ASSISTÈNCIA A LA COMISSIÓ MUNICIPAL DE PATRIMONI CULTURAL DELS MEMBRES ALIENS A L’AJUNTAMENT DE VILASSAR",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 2,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-04T11:21:55.099Z"
+      }
+    },
+    {
+      "id": "2026-09-24#22",
+      "sesion_id": "2026-09-24",
+      "orden": 22,
+      "titulo": "DONAR COMPTE DELS DECRETS D'ALCALDIA DES DEL NòM. 3322/2026 AL",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DELS DECRETS D'ALCALDIA DES DEL NòM. 3322/2026 AL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-04T11:21:55.099Z"
+      }
+    }
+  ]
+}
