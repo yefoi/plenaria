@@ -1,0 +1,341 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "blanes",
+    "nombre": "Blanes",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1702370005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-08-27",
+    "municipio_id": "blanes",
+    "fecha": "2026-08-27",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1702370005/2026/6ea0adc8-78f3-4b38-8a25-72df30f49e09/Acta_formalitzada_Ple_270826.pdf",
+    "hash_contenido": "6323f5f9a921c5d5b3e95d9a9729d49bc795a574aa32f1b675d7817284c8357d",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-07T11:58:47.818Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-08-27#1",
+      "sesion_id": "2026-08-27",
+      "orden": 1,
+      "titulo": "Aprovar l’acta corresponent a la sessió ordinària del dia 30 de juliol de 2026.",
+      "resultado": null,
+      "texto_redactado": "Aprovar l’acta corresponent a la sessió ordinària del dia 30 de juliol de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:47.818Z"
+      }
+    },
+    {
+      "id": "2026-08-27#2",
+      "sesion_id": "2026-08-27",
+      "orden": 2,
+      "titulo": "Donar compte de resolucions d’Alcaldia i altres òrgans delegats des del 16 de juliol de 2026 al 16",
+      "resultado": null,
+      "texto_redactado": "Donar compte de resolucions d’Alcaldia i altres òrgans delegats des del 16 de juliol de 2026 al 16",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:47.818Z"
+      }
+    },
+    {
+      "id": "2026-08-27#3",
+      "sesion_id": "2026-08-27",
+      "orden": 3,
+      "titulo": "Donar compte de resolucions de la Junta de Govern Local de les sessions celebrades entre el 16",
+      "resultado": null,
+      "texto_redactado": "Donar compte de resolucions de la Junta de Govern Local de les sessions celebrades entre el 16",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:47.818Z"
+      }
+    },
+    {
+      "id": "2026-08-27#4",
+      "sesion_id": "2026-08-27",
+      "orden": 4,
+      "titulo": "Expedient: 2026/[DNI] : Iniciar i aprovar l’expedient de contractació, autoritzar despesa, i",
+      "resultado": null,
+      "texto_redactado": "Expedient: 2026/[DNI] : Iniciar i aprovar l’expedient de contractació, autoritzar despesa, i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:47.818Z"
+      }
+    },
+    {
+      "id": "2026-08-27#5",
+      "sesion_id": "2026-08-27",
+      "orden": 5,
+      "titulo": "Expedient: 2026/[DNI] : Iniciar i aprovar l’expedient de contractació, i aprovar el Plec de",
+      "resultado": null,
+      "texto_redactado": "Expedient: 2026/[DNI] : Iniciar i aprovar l’expedient de contractació, i aprovar el Plec de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 1,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:47.818Z"
+      }
+    },
+    {
+      "id": "2026-08-27#6",
+      "sesion_id": "2026-08-27",
+      "orden": 6,
+      "titulo": "Expedient: 2026/[DNI] : Iniciar i aprovar l’expedient de contractació, autoritzar despesa, i",
+      "resultado": null,
+      "texto_redactado": "Expedient: 2026/[DNI] : Iniciar i aprovar l’expedient de contractació, autoritzar despesa, i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 1,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:47.818Z"
+      }
+    },
+    {
+      "id": "2026-08-27#7",
+      "sesion_id": "2026-08-27",
+      "orden": 7,
+      "titulo": "Expedient: 2026/[DNI] : Declarar d’interès públic la celebració de la Fira Expocasió",
+      "resultado": null,
+      "texto_redactado": "Expedient: 2026/[DNI] : Declarar d’interès públic la celebració de la Fira Expocasió",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.32,
+      "impacto": 3,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:47.818Z"
+      }
+    },
+    {
+      "id": "2026-08-27#8",
+      "sesion_id": "2026-08-27",
+      "orden": 8,
+      "titulo": "Expedient: 2026/[DNI] : MODIFICACIÓ DE CRÈDIT 029/2026 PER SUPLEMENT DE CRÈDIT (ENGINYERIA: LLUM I RESIDUS)",
+      "resultado": null,
+      "texto_redactado": "Expedient: 2026/[DNI] : MODIFICACIÓ DE CRÈDIT 029/2026 PER SUPLEMENT DE CRÈDIT (ENGINYERIA: LLUM I RESIDUS)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:47.818Z"
+      }
+    },
+    {
+      "id": "2026-08-27#9",
+      "sesion_id": "2026-08-27",
+      "orden": 9,
+      "titulo": "Expedient: 2026/[DNI] : PROPOSTA AL PLE PER APROVAR el RECONEIXEMENT",
+      "resultado": null,
+      "texto_redactado": "Expedient: 2026/[DNI] : PROPOSTA AL PLE PER APROVAR el RECONEIXEMENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:47.818Z"
+      }
+    },
+    {
+      "id": "2026-08-27#10",
+      "sesion_id": "2026-08-27",
+      "orden": 10,
+      "titulo": "Expedient: 2026/[DNI] : Aprovar les bases reguladores de les subvencions destinades a les",
+      "resultado": null,
+      "texto_redactado": "Expedient: 2026/[DNI] : Aprovar les bases reguladores de les subvencions destinades a les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.52,
+      "impacto": 2,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:47.818Z"
+      }
+    },
+    {
+      "id": "2026-08-27#11",
+      "sesion_id": "2026-08-27",
+      "orden": 11,
+      "titulo": "Expedient: 2026/[DNI] : Aprovació de les addendes als convenis reguladors de la constitució",
+      "resultado": null,
+      "texto_redactado": "Expedient: 2026/[DNI] : Aprovació de les addendes als convenis reguladors de la constitució",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0.24,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:47.818Z"
+      }
+    },
+    {
+      "id": "2026-08-27#12",
+      "sesion_id": "2026-08-27",
+      "orden": 12,
+      "titulo": "Expedient: 2026/[DNI] : Moció presentada pels grups municipals ERC, BCP i CUP per a la",
+      "resultado": null,
+      "texto_redactado": "Expedient: 2026/[DNI] : Moció presentada pels grups municipals ERC, BCP i CUP per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 1,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:47.818Z"
+      }
+    },
+    {
+      "id": "2026-08-27#13",
+      "sesion_id": "2026-08-27",
+      "orden": 13,
+      "titulo": "Precs i preguntes. DESENVOLUPAMENT DE LA SESSIÓ",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes. DESENVOLUPAMENT DE LA SESSIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:47.818Z"
+      }
+    }
+  ]
+}

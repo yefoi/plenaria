@@ -1,0 +1,436 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "montornes-del-valles",
+    "nombre": "Montornès del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "813630008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-10",
+    "municipio_id": "montornes-del-valles",
+    "fecha": "2026-09-10",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/813630008/2026/ec1a49d3-c078-42a9-bf3f-a82e574c30fc/PLE%2010092026.pdf",
+    "hash_contenido": "3ff5875e4d3976c753b41a27b52f611a6ec6fc6c3823a8002a8df085fac1e774",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-07T11:58:49.154Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-10#1",
+      "sesion_id": "2026-09-10",
+      "orden": 1,
+      "titulo": "Aprovar, si s'escau, l'acta de la sessió anterior, de 9 de juliol de 2026.-",
+      "resultado": null,
+      "texto_redactado": "Aprovar, si s'escau, l'acta de la sessió anterior, de 9 de juliol de 2026.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:49.154Z"
+      }
+    },
+    {
+      "id": "2026-09-10#2",
+      "sesion_id": "2026-09-10",
+      "orden": 2,
+      "titulo": "Assabentat dels decrets dictats entre l'1 de juliol i el 31 d'agost de 2026,",
+      "resultado": null,
+      "texto_redactado": "Assabentat dels decrets dictats entre l'1 de juliol i el 31 d'agost de 2026,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:49.154Z"
+      }
+    },
+    {
+      "id": "2026-09-10#3",
+      "sesion_id": "2026-09-10",
+      "orden": 3,
+      "titulo": "Assabentat del Decret 20260001002852, de 7 de juliol de 2026, de la",
+      "resultado": null,
+      "texto_redactado": "Assabentat del Decret 20260001002852, de 7 de juliol de 2026, de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:49.154Z"
+      }
+    },
+    {
+      "id": "2026-09-10#4",
+      "sesion_id": "2026-09-10",
+      "orden": 4,
+      "titulo": "Assabentat de l'execució del Pressupost, del període mig de pagament, i la",
+      "resultado": null,
+      "texto_redactado": "Assabentat de l'execució del Pressupost, del període mig de pagament, i la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:49.154Z"
+      }
+    },
+    {
+      "id": "2026-09-10#5",
+      "sesion_id": "2026-09-10",
+      "orden": 5,
+      "titulo": "Prendre coneixement de l'informe de seguiment del Pla Local de Seguretat",
+      "resultado": null,
+      "texto_redactado": "Prendre coneixement de l'informe de seguiment del Pla Local de Seguretat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:49.154Z"
+      }
+    },
+    {
+      "id": "2026-09-10#6",
+      "sesion_id": "2026-09-10",
+      "orden": 6,
+      "titulo": "Ratificar la modificació dels Estatuts del Consorci per a la Normalització",
+      "resultado": null,
+      "texto_redactado": "Ratificar la modificació dels Estatuts del Consorci per a la Normalització",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:49.154Z"
+      }
+    },
+    {
+      "id": "2026-09-10#7",
+      "sesion_id": "2026-09-10",
+      "orden": 7,
+      "titulo": "Aprovar la modificació de l’Ordenança núm. 42 reguladora del preu públic per la",
+      "resultado": null,
+      "texto_redactado": "Aprovar la modificació de l’Ordenança núm. 42 reguladora del preu públic per la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.74,
+      "impacto": 3,
+      "confianza_min": 0.31,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:49.154Z"
+      }
+    },
+    {
+      "id": "2026-09-10#8",
+      "sesion_id": "2026-09-10",
+      "orden": 8,
+      "titulo": "Aprovar la modificació de pressupost 39/2026 en la modalitat de baixa de",
+      "resultado": null,
+      "texto_redactado": "Aprovar la modificació de pressupost 39/2026 en la modalitat de baixa de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 1,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:49.154Z"
+      }
+    },
+    {
+      "id": "2026-09-10#9",
+      "sesion_id": "2026-09-10",
+      "orden": 9,
+      "titulo": "Aprovar la modificació de pressupost 40/2026 en la modalitat de crèdit",
+      "resultado": null,
+      "texto_redactado": "Aprovar la modificació de pressupost 40/2026 en la modalitat de crèdit",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 2,
+      "confianza_min": 0.33,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:49.154Z"
+      }
+    },
+    {
+      "id": "2026-09-10#10",
+      "sesion_id": "2026-09-10",
+      "orden": 10,
+      "titulo": "Aprovar la modificació de pressupost 43/2026 en la modalitat de suplement de",
+      "resultado": null,
+      "texto_redactado": "Aprovar la modificació de pressupost 43/2026 en la modalitat de suplement de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 1,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:49.154Z"
+      }
+    },
+    {
+      "id": "2026-09-10#11",
+      "sesion_id": "2026-09-10",
+      "orden": 11,
+      "titulo": "Aprovar la modificació de pressupost 44/2026 en la modalitat de suplement de",
+      "resultado": null,
+      "texto_redactado": "Aprovar la modificació de pressupost 44/2026 en la modalitat de suplement de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.36,
+      "impacto": 1,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:49.154Z"
+      }
+    },
+    {
+      "id": "2026-09-10#12",
+      "sesion_id": "2026-09-10",
+      "orden": 12,
+      "titulo": "Aprovar la proposta de Pla Econòmic Financer 2026-2027.-",
+      "resultado": null,
+      "texto_redactado": "Aprovar la proposta de Pla Econòmic Financer 2026-2027.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.64,
+      "impacto": 4,
+      "confianza_min": 0.19,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:49.154Z"
+      }
+    },
+    {
+      "id": "2026-09-10#13",
+      "sesion_id": "2026-09-10",
+      "orden": 13,
+      "titulo": "Aprovar definitivament el Compte General corresponent a l’exercici econòmic",
+      "resultado": null,
+      "texto_redactado": "Aprovar definitivament el Compte General corresponent a l’exercici econòmic",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:49.154Z"
+      }
+    },
+    {
+      "id": "2026-09-10#14",
+      "sesion_id": "2026-09-10",
+      "orden": 14,
+      "titulo": "Aprovar la devolució de la garantia del contracte del servei de neteja viària,",
+      "resultado": null,
+      "texto_redactado": "Aprovar la devolució de la garantia del contracte del servei de neteja viària,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:49.154Z"
+      }
+    },
+    {
+      "id": "2026-09-10#15",
+      "sesion_id": "2026-09-10",
+      "orden": 15,
+      "titulo": "Moció en suport al Correllengua 2026.-",
+      "resultado": null,
+      "texto_redactado": "Moció en suport al Correllengua 2026.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:49.154Z"
+      }
+    },
+    {
+      "id": "2026-09-10#16",
+      "sesion_id": "2026-09-10",
+      "orden": 16,
+      "titulo": "Moció en defensa de la sobirania espanyola de Ceuta i Melilla.-",
+      "resultado": null,
+      "texto_redactado": "Moció en defensa de la sobirania espanyola de Ceuta i Melilla.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.06,
+      "impacto": 1,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:49.154Z"
+      }
+    },
+    {
+      "id": "2026-09-10#17",
+      "sesion_id": "2026-09-10",
+      "orden": 17,
+      "titulo": "Sessió de control dels òrgans de govern.- ************************************************",
+      "resultado": null,
+      "texto_redactado": "Sessió de control dels òrgans de govern.- ************************************************",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.98,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-07T11:58:49.154Z"
+      }
+    }
+  ]
+}
