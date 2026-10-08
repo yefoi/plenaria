@@ -1,0 +1,618 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "lleida",
+    "nombre": "Lleida",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2512070005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-25",
+    "municipio_id": "lleida",
+    "fecha": "2026-09-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2512070005/2026/34d7d408-adb8-437e-b247-e18c2ee43b9d/Acta%20Ple%20ordinari%20de%2025-09-2026_pendent%20aprovaci%f3.pdf",
+    "hash_contenido": "3bcafb065f544bb930c1cf7eb4ce037f448d555795e27bec5425bdffb391ac9a",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-08T12:18:26.182Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-25#1",
+      "sesion_id": "2026-09-25",
+      "orden": 1,
+      "titulo": "APROVAR L’ACTA DE LA SESSIÓ ORDINÀRIA DEL DIA 24 DE JULIOL DE 2026.",
+      "resultado": null,
+      "texto_redactado": "APROVAR L’ACTA DE LA SESSIÓ ORDINÀRIA DEL DIA 24 DE JULIOL DE 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#2",
+      "sesion_id": "2026-09-25",
+      "orden": 2,
+      "titulo": "DONAR COMPTE DELS DECRETS DICTATS PER L’ALCALDIA DES DEL DARRER",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DELS DECRETS DICTATS PER L’ALCALDIA DES DEL DARRER",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#3",
+      "sesion_id": "2026-09-25",
+      "orden": 3,
+      "titulo": "DONAR COMPTE ESPECÍFIC DE DECRETS AL PLE.-",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE ESPECÍFIC DE DECRETS AL PLE.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "seguridad",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#4",
+      "sesion_id": "2026-09-25",
+      "orden": 4,
+      "titulo": "DONAR COMPTE DELS ESTATS D’EXECUCIÓ DELS PRESSUPOSTOS DE L’AJUNTAMENT, ORGANISMES AUTÒNOMS I EMPRESES A 30/06/2026.",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DELS ESTATS D’EXECUCIÓ DELS PRESSUPOSTOS DE L’AJUNTAMENT, ORGANISMES AUTÒNOMS I EMPRESES A 30/06/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#5",
+      "sesion_id": "2026-09-25",
+      "orden": 5,
+      "titulo": "DONAR COMPTE DE LA TRAMESA DE DADES AL MINISTERI D’HISENDA I FUNCIÓ",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE LA TRAMESA DE DADES AL MINISTERI D’HISENDA I FUNCIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos",
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#6",
+      "sesion_id": "2026-09-25",
+      "orden": 6,
+      "titulo": "APROVAR INICIALMENT L’EXPEDIENT DE MODIFICACIÓ DE CRÈDITS AL PRESSUPOST DE L’AJUNTAMENT DE LLEIDA 2026 (II).",
+      "resultado": null,
+      "texto_redactado": "APROVAR INICIALMENT L’EXPEDIENT DE MODIFICACIÓ DE CRÈDITS AL PRESSUPOST DE L’AJUNTAMENT DE LLEIDA 2026 (II).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.35,
+      "impacto": 2,
+      "confianza_min": 0.23,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#7",
+      "sesion_id": "2026-09-25",
+      "orden": 7,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#8",
+      "sesion_id": "2026-09-25",
+      "orden": 8,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#9",
+      "sesion_id": "2026-09-25",
+      "orden": 9,
+      "titulo": "APROVAR EL CONVENI DE COL·LABORACIÓ ENTRE L’AJUNTAMENT DE GIRONA",
+      "resultado": null,
+      "texto_redactado": "APROVAR EL CONVENI DE COL·LABORACIÓ ENTRE L’AJUNTAMENT DE GIRONA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#10",
+      "sesion_id": "2026-09-25",
+      "orden": 10,
+      "titulo": "APROVAR L’ADHESIÓ AL MANIFEST DEL MIL·LENARI DE LES ASSEMBLEES DE PAU I TREVA (1027-2027).",
+      "resultado": null,
+      "texto_redactado": "APROVAR L’ADHESIÓ AL MANIFEST DEL MIL·LENARI DE LES ASSEMBLEES DE PAU I TREVA (1027-2027).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.84,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#11",
+      "sesion_id": "2026-09-25",
+      "orden": 11,
+      "titulo": "MESURES DE PUBLICITAT",
+      "resultado": null,
+      "texto_redactado": "MESURES DE PUBLICITAT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "servicios_publicos",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#12",
+      "sesion_id": "2026-09-25",
+      "orden": 12,
+      "titulo": "APROVAR INICIALMENT EL REGLAMENT REGULADOR DE L’òS SOCIAL DELS EDIFICIS INSTAL·LACIONS I SERVEIS DE LES ESCOLES BRESSOL MUNICIPALS I",
+      "resultado": null,
+      "texto_redactado": "APROVAR INICIALMENT EL REGLAMENT REGULADOR DE L’òS SOCIAL DELS EDIFICIS INSTAL·LACIONS I SERVEIS DE LES ESCOLES BRESSOL MUNICIPALS I",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 2,
+      "confianza_min": 0.2,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#13",
+      "sesion_id": "2026-09-25",
+      "orden": 13,
+      "titulo": "APROVAR L’ÓADENDA II AL ACUERDO Nº 100 (PROGRAMA 6) DE LA COMISIÓN BILATERAL, CELEBRADA EL 22 DE MARZO DE 2024, RELATIVO A LA PROMOCIÓN, EN RÉGIMEN DE CESIÓN DE DERECHOS DE SUPERFICIE, DE 25 VIVIENDAS DE PROTECCIÓN OFICIAL ENERGÉTICAMENTE EFICIENTES CON DESTINO AL ALQUILER SOCIAL EN LLEIDA, EN RELACIÓN CON LA EJECUCIÓN DE LOS PROGRAMAS DE AYUDA EN MATERIA DE REHABILITACIÓN RESIDENCIAL Y VIVIENDA SOCIAL DEL PLAN DE RECUPERACIÓN, TRANSFORMACIÓN Y RESILIENCIA –FINANCIADO POR LA UNIÓN EUROPEA – NEXTGENERATIONEU – EN LA COMUNIDAD AUTÓNOMA DE CATALUNYA, MEDIANTE LA CUAL SE AUTORIZA LA PRÓRROGA DEL PLAZO PARA LA EJECUCIÓN Y JUSTIFICACIÓN DE LA ACTUACIÓNÓ (EXP. PAT 87_2024).",
+      "resultado": null,
+      "texto_redactado": "APROVAR L’ÓADENDA II AL ACUERDO Nº 100 (PROGRAMA 6) DE LA COMISIÓN BILATERAL, CELEBRADA EL 22 DE MARZO DE 2024, RELATIVO A LA PROMOCIÓN, EN RÉGIMEN DE CESIÓN DE DERECHOS DE SUPERFICIE, DE 25 VIVIENDAS DE PROTECCIÓN OFICIAL ENERGÉTICAMENTE EFICIENTES CON DESTINO AL ALQUILER SOCIAL EN LLEIDA, EN RELACIÓN CON LA EJECUCIÓN DE LOS PROGRAMAS DE AYUDA EN MATERIA DE REHABILITACIÓN RESIDENCIAL Y VIVIENDA SOCIAL DEL PLAN DE RECUPERACIÓN, TRANSFORMACIÓN Y RESILIENCIA –FINANCIADO POR LA UNIÓN EUROPEA – NEXTGENERATIONEU – EN LA COMUNIDAD AUTÓNOMA DE CATALUNYA, MEDIANTE LA CUAL SE AUTORIZA LA PRÓRROGA DEL PLAZO PARA LA EJECUCIÓN Y JUSTIFICACIÓN DE LA ACTUACIÓNÓ (EXP. PAT 87_2024).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda",
+        "presupuesto_impuestos",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.51,
+      "impacto": 3,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#14",
+      "sesion_id": "2026-09-25",
+      "orden": 14,
+      "titulo": "APROVAR LA DESAFECTACIÓ DE L’òS I SERVEI PòBLIC D’UN VEHICLE MUNICIPAL, QUE PRESTAVA SERVEI A LA GUÀRDIA URBANA, MARCA RENAULT, MODEL MASTER, MATRÍCULA [MATRÍCULA] (EXP. PAT 105_2026).",
+      "resultado": null,
+      "texto_redactado": "APROVAR LA DESAFECTACIÓ DE L’òS I SERVEI PòBLIC D’UN VEHICLE MUNICIPAL, QUE PRESTAVA SERVEI A LA GUÀRDIA URBANA, MARCA RENAULT, MODEL MASTER, MATRÍCULA [MATRÍCULA] (EXP. PAT 105_2026).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 2,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#15",
+      "sesion_id": "2026-09-25",
+      "orden": 15,
+      "titulo": "APROVAR LA DESAFECTACIÓ DE L’òS I SERVEI PòBLIC D’UN VEHICLE MUNICIPAL, QUE PRESTAVA SERVEI A LA GUÀRDIA URBANA, MARCA HONDA, MODEL NT700V, MATRÍCULA [MATRÍCULA] (EXP. PAT 115_2026).",
+      "resultado": null,
+      "texto_redactado": "APROVAR LA DESAFECTACIÓ DE L’òS I SERVEI PòBLIC D’UN VEHICLE MUNICIPAL, QUE PRESTAVA SERVEI A LA GUÀRDIA URBANA, MARCA HONDA, MODEL NT700V, MATRÍCULA [MATRÍCULA] (EXP. PAT 115_2026).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 2,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#16",
+      "sesion_id": "2026-09-25",
+      "orden": 16,
+      "titulo": "APROVAR L’ADDENDA DE MODIFICACIÓ DEL ÒCONVENI DE COL·LABORACIÓ I D’ENCÀRREC DE GESTIÓ, ENTRE L’AGÈNCIA DE L’HABITATGE DE CATALUNYA I L’AJUNTAMENT DE LLEIDA, RELATIU A L’OFICINA LOCAL D’HABITATGE SITUADA EN AQUEST MUNICIPI, PELS ANYS 2024-2027Ó (EXP. [CIF]/2023/0830).",
+      "resultado": null,
+      "texto_redactado": "APROVAR L’ADDENDA DE MODIFICACIÓ DEL ÒCONVENI DE COL·LABORACIÓ I D’ENCÀRREC DE GESTIÓ, ENTRE L’AGÈNCIA DE L’HABITATGE DE CATALUNYA I L’AJUNTAMENT DE LLEIDA, RELATIU A L’OFICINA LOCAL D’HABITATGE SITUADA EN AQUEST MUNICIPI, PELS ANYS 2024-2027Ó (EXP. [CIF]/2023/0830).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 3,
+      "confianza_min": 0.35,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#17",
+      "sesion_id": "2026-09-25",
+      "orden": 17,
+      "titulo": "APROVAR EL PLEC DE CLÀUSULES ADMINISTRATIVES PARTICULARS I PLEC DE PRESCRIPCIONS TÈCNIQUES DEL CONTRACTE DE SUBMINISTRAMENT EN MODALITAT RENTING, D’UN VEHICLE NOU TIPUS FURGONETA, AMB EQUIPAMENT",
+      "resultado": null,
+      "texto_redactado": "APROVAR EL PLEC DE CLÀUSULES ADMINISTRATIVES PARTICULARS I PLEC DE PRESCRIPCIONS TÈCNIQUES DEL CONTRACTE DE SUBMINISTRAMENT EN MODALITAT RENTING, D’UN VEHICLE NOU TIPUS FURGONETA, AMB EQUIPAMENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 2,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#18",
+      "sesion_id": "2026-09-25",
+      "orden": 18,
+      "titulo": "APROVAR EL CONVENI DE CONTRACTACIÓ CONJUNTA ENTRE L’AJUNTAMENT DE LLEIDA I LA UNIVERSITAT DE LLEIDA PER LA URBANITZACIÓ DE LA VORERA CONTÍNUA A LA TANCA DE SEPARACIÓ DEL CAMPUS DE L’ETSEA AMB LA CARRETERA D’OSCA, (CARRER ROVIRA ROURE) AIXÍ COM PER L’ADEQUACIÓ I REPARACIÓ DE LA VORERA DELS EDIFICIS DEL CAMPUS DE CAP PONT EN LA PART CORRESPONENT AL CARRER JAUME II (EXP. OBR_OBE_2026_0021).",
+      "resultado": null,
+      "texto_redactado": "APROVAR EL CONVENI DE CONTRACTACIÓ CONJUNTA ENTRE L’AJUNTAMENT DE LLEIDA I LA UNIVERSITAT DE LLEIDA PER LA URBANITZACIÓ DE LA VORERA CONTÍNUA A LA TANCA DE SEPARACIÓ DEL CAMPUS DE L’ETSEA AMB LA CARRETERA D’OSCA, (CARRER ROVIRA ROURE) AIXÍ COM PER L’ADEQUACIÓ I REPARACIÓ DE LA VORERA DELS EDIFICIS DEL CAMPUS DE CAP PONT EN LA PART CORRESPONENT AL CARRER JAUME II (EXP. OBR_OBE_2026_0021).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.65,
+      "impacto": 3,
+      "confianza_min": 0.7,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#19",
+      "sesion_id": "2026-09-25",
+      "orden": 19,
+      "titulo": "APROVAR DEFINITIVAMENT LA DELIMITACIÓ DE L’ÀREA DESTINADA AL",
+      "resultado": null,
+      "texto_redactado": "APROVAR DEFINITIVAMENT LA DELIMITACIÓ DE L’ÀREA DESTINADA AL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 3,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#20",
+      "sesion_id": "2026-09-25",
+      "orden": 20,
+      "titulo": "APROVAR INICIALMENT LA MODIFICACIÓ DE L’ORDENANÇA MUNICIPAL DE CIVISME I CONVIVÈNCIA DE LA CIUTAT DE LLEIDA (EXP. 2/2024 SEGURETAT CIUTADANA I CONVIVÈNCIA).",
+      "resultado": null,
+      "texto_redactado": "APROVAR INICIALMENT LA MODIFICACIÓ DE L’ORDENANÇA MUNICIPAL DE CIVISME I CONVIVÈNCIA DE LA CIUTAT DE LLEIDA (EXP. 2/2024 SEGURETAT CIUTADANA I CONVIVÈNCIA).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.75,
+      "impacto": 4,
+      "confianza_min": 0.22,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#21",
+      "sesion_id": "2026-09-25",
+      "orden": 21,
+      "titulo": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL ERC-AM PER A LA RETIRADA DE LA DENOMINACIÓ \"LÉRIDA\" DE LA SENYALITZACIÓ VIÀRIA I PEL RESPECTE A LA TOPONÍMIA OFICIAL DE LLEIDA.",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL ERC-AM PER A LA RETIRADA DE LA DENOMINACIÓ \"LÉRIDA\" DE LA SENYALITZACIÓ VIÀRIA I PEL RESPECTE A LA TOPONÍMIA OFICIAL DE LLEIDA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "movilidad_trafico",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.45,
+      "impacto": 3,
+      "confianza_min": 0.35,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#22",
+      "sesion_id": "2026-09-25",
+      "orden": 22,
+      "titulo": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL VOX PARA LA INICIATIVA COORDINADA SOBRE LA SOBERANÍA ESPAÑOLA Y LA INVASIÓN DE CEUTA.",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL VOX PARA LA INICIATIVA COORDINADA SOBRE LA SOBERANÍA ESPAÑOLA Y LA INVASIÓN DE CEUTA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "seguridad",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.88,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#23",
+      "sesion_id": "2026-09-25",
+      "orden": 23,
+      "titulo": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL JXCAT LLEIDA-AM PER A LA",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL JXCAT LLEIDA-AM PER A LA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.96,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    },
+    {
+      "id": "2026-09-25#24",
+      "sesion_id": "2026-09-25",
+      "orden": 24,
+      "titulo": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL COMòDELLEIDA PER A LA",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL COMòDELLEIDA PER A LA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.95,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,ibm-granite/granite-4.2-8b,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:18:26.182Z"
+      }
+    }
+  ]
+}
