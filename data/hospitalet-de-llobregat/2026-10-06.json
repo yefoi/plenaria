@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "hospitalet-de-llobregat",
+    "nombre": "L'Hospitalet de Llobregat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "810170005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "extracte-acords",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-06",
+    "municipio_id": "hospitalet-de-llobregat",
+    "fecha": "2026-10-06",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/810170005/2026/aa0c654b-8327-4c99-b4fb-f433de61f6cd/20261006%20Extracte%20acords%20del%20Ple%20extraordinari.pdf",
+    "hash_contenido": "63568f9435fc68d7d50f2b2a11e7594e1d8931d6a43e3379fd222c3c5a14caa6",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-09T12:06:19.407Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-06#1",
+      "sesion_id": "2026-10-06",
+      "orden": 1,
+      "titulo": "1. APROVAR LA DECLARACIÓ DE PROJECTES D'INVERSIÓ COM A FINANCERAMENT",
+      "resultado": null,
+      "texto_redactado": "1. APROVAR LA DECLARACIÓ DE PROJECTES D'INVERSIÓ COM A FINANCERAMENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.36,
+      "impacto": 2,
+      "confianza_min": 0.17,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-09T12:06:19.407Z"
+      }
+    }
+  ]
+}
