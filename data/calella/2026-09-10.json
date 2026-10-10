@@ -1,0 +1,387 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "calella",
+    "nombre": "Calella",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "803510007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-10",
+    "municipio_id": "calella",
+    "fecha": "2026-09-10",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/803510007/2026/5c23a209-6858-4ec6-8cd7-c780c58b8daf/Acta%20n%fam.%208%20Ple%2010-09-2026.pdf",
+    "hash_contenido": "e42bb855e756c981f356118eb5883026687b0899c68746199f8e7a46b9033af0",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-10T11:22:52.907Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-10#1",
+      "sesion_id": "2026-09-10",
+      "orden": 1,
+      "titulo": "EXPOSICIÓ DE MOTIUS",
+      "resultado": null,
+      "texto_redactado": "EXPOSICIÓ DE MOTIUS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-10T11:22:52.907Z"
+      }
+    },
+    {
+      "id": "2026-09-10#2",
+      "sesion_id": "2026-09-10",
+      "orden": 2,
+      "titulo": "quines actuacions ha realitzat l'Ajuntament des de 2016;",
+      "resultado": null,
+      "texto_redactado": "quines actuacions ha realitzat l'Ajuntament des de 2016;",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 1,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-10T11:22:52.907Z"
+      }
+    },
+    {
+      "id": "2026-09-10#3",
+      "sesion_id": "2026-09-10",
+      "orden": 3,
+      "titulo": "quines dates de muntatge i desmuntatge han estat comunicades o autoritzades anualment;",
+      "resultado": null,
+      "texto_redactado": "quines dates de muntatge i desmuntatge han estat comunicades o autoritzades anualment;",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 1,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-10T11:22:52.907Z"
+      }
+    },
+    {
+      "id": "2026-09-10#4",
+      "sesion_id": "2026-09-10",
+      "orden": 4,
+      "titulo": "quines guinguetes han estat efectivament instal·lades;",
+      "resultado": null,
+      "texto_redactado": "quines guinguetes han estat efectivament instal·lades;",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.49,
+      "impacto": 2,
+      "confianza_min": 0.36,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-10T11:22:52.907Z"
+      }
+    },
+    {
+      "id": "2026-09-10#5",
+      "sesion_id": "2026-09-10",
+      "orden": 5,
+      "titulo": "quines no ho han estat;",
+      "resultado": null,
+      "texto_redactado": "quines no ho han estat;",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-10T11:22:52.907Z"
+      }
+    },
+    {
+      "id": "2026-09-10#6",
+      "sesion_id": "2026-09-10",
+      "orden": 6,
+      "titulo": "quines raons han justificat la seva no instal·lació;",
+      "resultado": null,
+      "texto_redactado": "quines raons han justificat la seva no instal·lació;",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.51,
+      "impacto": 1,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-10T11:22:52.907Z"
+      }
+    },
+    {
+      "id": "2026-09-10#7",
+      "sesion_id": "2026-09-10",
+      "orden": 7,
+      "titulo": "si aquestes raons constitueixen jurídicament una justa causa;",
+      "resultado": null,
+      "texto_redactado": "si aquestes raons constitueixen jurídicament una justa causa;",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-10T11:22:52.907Z"
+      }
+    },
+    {
+      "id": "2026-09-10#8",
+      "sesion_id": "2026-09-10",
+      "orden": 8,
+      "titulo": "i quines conseqüències pot tenir la situació actual respecte de la concessió.",
+      "resultado": null,
+      "texto_redactado": "i quines conseqüències pot tenir la situació actual respecte de la concessió.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.57,
+      "impacto": 2,
+      "confianza_min": 0.39,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-10T11:22:52.907Z"
+      }
+    },
+    {
+      "id": "2026-09-10#9",
+      "sesion_id": "2026-09-10",
+      "orden": 9,
+      "titulo": "Llei 33/2003, de 3 de novembre, del patrimoni de les administracions públiques, en allò que",
+      "resultado": null,
+      "texto_redactado": "Llei 33/2003, de 3 de novembre, del patrimoni de les administracions públiques, en allò que",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-10T11:22:52.907Z"
+      }
+    },
+    {
+      "id": "2026-09-10#10",
+      "sesion_id": "2026-09-10",
+      "orden": 10,
+      "titulo": "Llei 15/2007, de 3 de juliol, de defensa de la competència, en allò que resulti aplicable.",
+      "resultado": null,
+      "texto_redactado": "Llei 15/2007, de 3 de juliol, de defensa de la competència, en allò que resulti aplicable.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 2,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-10T11:22:52.907Z"
+      }
+    },
+    {
+      "id": "2026-09-10#11",
+      "sesion_id": "2026-09-10",
+      "orden": 11,
+      "titulo": "Llei orgànica 10/1995, de 23 de novembre, del Codi Penal, únicament pel que fa a eventuals",
+      "resultado": null,
+      "texto_redactado": "Llei orgànica 10/1995, de 23 de novembre, del Codi Penal, únicament pel que fa a eventuals",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.38,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-10T11:22:52.907Z"
+      }
+    },
+    {
+      "id": "2026-09-10#12",
+      "sesion_id": "2026-09-10",
+      "orden": 12,
+      "titulo": "Resolució de 19 de gener de 2016 de la Direcció General d'Ordenació del Territori i",
+      "resultado": null,
+      "texto_redactado": "Resolució de 19 de gener de 2016 de la Direcció General d'Ordenació del Territori i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-10T11:22:52.907Z"
+      }
+    },
+    {
+      "id": "2026-09-10#13",
+      "sesion_id": "2026-09-10",
+      "orden": 13,
+      "titulo": "Dictamen núm. 325/2017, de 23 de novembre, de la Comissió Jurídica Assessora de",
+      "resultado": null,
+      "texto_redactado": "Dictamen núm. 325/2017, de 23 de novembre, de la Comissió Jurídica Assessora de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-10T11:22:52.907Z"
+      }
+    },
+    {
+      "id": "2026-09-10#14",
+      "sesion_id": "2026-09-10",
+      "orden": 14,
+      "titulo": "Sentència de l'Audiència Nacional de 25 de juny de 2024, relativa al càlcul del cànon de la",
+      "resultado": null,
+      "texto_redactado": "Sentència de l'Audiència Nacional de 25 de juny de 2024, relativa al càlcul del cànon de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-10T11:22:52.907Z"
+      }
+    },
+    {
+      "id": "2026-09-10#15",
+      "sesion_id": "2026-09-10",
+      "orden": 15,
+      "titulo": "Resolució judicial de 2026 relativa a l'execució de la Sentència de 25 de juny de 2024 i al",
+      "resultado": null,
+      "texto_redactado": "Resolució judicial de 2026 relativa a l'execució de la Sentència de 25 de juny de 2024 i al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-10T11:22:52.907Z"
+      }
+    }
+  ]
+}
