@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vic",
+    "nombre": "Vic",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "829810007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-14",
+    "municipio_id": "vic",
+    "fecha": "2026-09-14",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/829810007/2026/4215b0ea-351f-4e6a-9584-fa3c9d88f7f8/PLE_140926.pdf",
+    "hash_contenido": "64298ff8f577d7ab2a9283900a110e4ccf590abe57fb2be1b5d58c010a846cb3",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-11T11:36:41.758Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-14#1",
+      "sesion_id": "2026-09-14",
+      "orden": 1,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-11T11:36:41.758Z"
+      }
+    },
+    {
+      "id": "2026-09-14#2",
+      "sesion_id": "2026-09-14",
+      "orden": 2,
+      "titulo": "Des d’aquella data han sorgit noves necessitats que requereixen la modificació",
+      "resultado": null,
+      "texto_redactado": "Des d’aquella data han sorgit noves necessitats que requereixen la modificació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.74,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-11T11:36:41.758Z"
+      }
+    },
+    {
+      "id": "2026-09-14#3",
+      "sesion_id": "2026-09-14",
+      "orden": 3,
+      "titulo": "D’acord amb la vigent graella de puntuacions dels diferents llocs de treball de",
+      "resultado": null,
+      "texto_redactado": "D’acord amb la vigent graella de puntuacions dels diferents llocs de treball de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.88,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-11T11:36:41.758Z"
+      }
+    },
+    {
+      "id": "2026-09-14#4",
+      "sesion_id": "2026-09-14",
+      "orden": 4,
+      "titulo": "D’acord amb les reivindicacions del col·lectiu, del procés deliberatiu a la",
+      "resultado": null,
+      "texto_redactado": "D’acord amb les reivindicacions del col·lectiu, del procés deliberatiu a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.88,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-11T11:36:41.758Z"
+      }
+    },
+    {
+      "id": "2026-09-14#5",
+      "sesion_id": "2026-09-14",
+      "orden": 5,
+      "titulo": "Queda clar que en el desenvolupament de les seves competències no",
+      "resultado": null,
+      "texto_redactado": "Queda clar que en el desenvolupament de les seves competències no",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.97,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-11T11:36:41.758Z"
+      }
+    },
+    {
+      "id": "2026-09-14#6",
+      "sesion_id": "2026-09-14",
+      "orden": 6,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-11T11:36:41.758Z"
+      }
+    },
+    {
+      "id": "2026-09-14#7",
+      "sesion_id": "2026-09-14",
+      "orden": 7,
+      "titulo": "En quant a la modificació de puntuació i retribució establerta en la graella",
+      "resultado": null,
+      "texto_redactado": "En quant a la modificació de puntuació i retribució establerta en la graella",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-11T11:36:41.758Z"
+      }
+    },
+    {
+      "id": "2026-09-14#8",
+      "sesion_id": "2026-09-14",
+      "orden": 8,
+      "titulo": "Tenint en compte la modificació del subfactor D3. Compromís de signatura en",
+      "resultado": null,
+      "texto_redactado": "Tenint en compte la modificació del subfactor D3. Compromís de signatura en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.91,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-11T11:36:41.758Z"
+      }
+    },
+    {
+      "id": "2026-09-14#9",
+      "sesion_id": "2026-09-14",
+      "orden": 9,
+      "titulo": "D’acord amb la vigent graella de puntuacions dels diferents llocs de treball de",
+      "resultado": null,
+      "texto_redactado": "D’acord amb la vigent graella de puntuacions dels diferents llocs de treball de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.88,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-11T11:36:41.758Z"
+      }
+    },
+    {
+      "id": "2026-09-14#10",
+      "sesion_id": "2026-09-14",
+      "orden": 10,
+      "titulo": "Aquesta modificació del subfactor D3. Compromís de signatura en projectes",
+      "resultado": null,
+      "texto_redactado": "Aquesta modificació del subfactor D3. Compromís de signatura en projectes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.88,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-11T11:36:41.758Z"
+      }
+    },
+    {
+      "id": "2026-09-14#11",
+      "sesion_id": "2026-09-14",
+      "orden": 11,
+      "titulo": "En quant a la modificació de puntuació i retribució establerta en la graella",
+      "resultado": null,
+      "texto_redactado": "En quant a la modificació de puntuació i retribució establerta en la graella",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-11T11:36:41.758Z"
+      }
+    }
+  ]
+}
