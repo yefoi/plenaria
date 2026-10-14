@@ -27,6 +27,7 @@ export interface Repository {
   listarSesiones(municipioId: string): Promise<ResumenSesion[]>;
   obtenerSesion(municipioId: string, sesionId: string): Promise<DocumentoSesion | null>;
   guardarSesion(doc: DocumentoSesion): Promise<void>;
+  eliminarSesion(municipioId: string, sesionId: string): Promise<void>;
   guardarDigest(digest: Digest): Promise<void>;
   obtenerUltimoDigest(municipioId: string): Promise<Digest | null>;
   guardarFuentes(status: FuentesStatus): Promise<void>;
@@ -98,6 +99,14 @@ export class JsonRepository implements Repository {
       JSON.stringify(doc, null, 2) + '\n',
       'utf8',
     );
+  }
+
+  async eliminarSesion(municipioId: string, sesionId: string): Promise<void> {
+    try {
+      await fs.unlink(this.archivoSesion(municipioId, sesionId));
+    } catch {
+      // La sesión ya no existía.
+    }
   }
 
   async guardarDigest(digest: Digest): Promise<void> {

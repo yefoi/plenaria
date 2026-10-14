@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "barbera-del-valles",
+    "nombre": "Barberà del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "825200000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-22",
+    "municipio_id": "barbera-del-valles",
+    "fecha": "2026-07-22",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/825200000/2026/ce4f8294-7041-481f-b590-011bf75ad3ee/07.6%20Acta%20Ple%20%20(22.07.2026).pdf",
+    "hash_contenido": "90ad446e62d59c1f20ad7208218a408fb4eddb9160aebc6f43506141639b8410",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-14T22:47:41.289Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-22#1",
+      "sesion_id": "2026-07-22",
+      "orden": 1,
+      "titulo": "1.- ANTECEDENTS:",
+      "resultado": null,
+      "texto_redactado": "1.- ANTECEDENTS:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:41.289Z"
+      }
+    }
+  ]
+}

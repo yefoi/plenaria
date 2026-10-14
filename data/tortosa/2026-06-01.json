@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "tortosa",
+    "nombre": "Tortosa",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4315540003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-01",
+    "municipio_id": "tortosa",
+    "fecha": "2026-06-01",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4315540003/2026/742c5f04-36a0-404e-8536-8a355609d937/02532026-06-01%20Acta%2010%20-%20O%20(dades).pdf",
+    "hash_contenido": "b6aaec53de44884007c86970a595a265b823aba00de4fc3235bf1bc6bdf371a9",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-14T22:49:34.162Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-01#1",
+      "sesion_id": "2026-06-01",
+      "orden": 1,
+      "titulo": "1. Constitució Espanyola, de 27 de desembre de 1978.",
+      "resultado": null,
+      "texto_redactado": "1. Constitució Espanyola, de 27 de desembre de 1978.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:34.162Z"
+      }
+    }
+  ]
+}

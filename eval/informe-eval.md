@@ -1,12 +1,12 @@
-# Informe de evaluación (2026-09-30)
+# Informe de evaluación (2026-10-14)
 
 Conjunto: v2026-09-30.1 (provisional). 51 puntos.
 
 ## Resultados
 
 - Tipo de punto: exactitud 98.0% (50/51)
-- Tema: F1 micro 83.9% · precisión 92.9% · recall 76.5%
-- Tema principal acertado: 76.5%
+- Tema: F1 micro 82.9% · precisión 92.7% · recall 75.0%
+- Tema principal acertado: 74.5%
 - Conjunto de temas exacto: 33/51
 - Afecta a vecinos e impacto: no evaluados (falta TYPESAFE_AI_API_KEY)
 

@@ -1,0 +1,411 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sabadell",
+    "nombre": "Sabadell",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "818780001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-25",
+    "municipio_id": "sabadell",
+    "fecha": "2026-05-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/818780001/2026/ad2e26c9-7efe-4241-87f2-a5d0fbd04265/5-2026%20Ple%20ordinari%202026-05-25.pdf",
+    "hash_contenido": "208ed020b055f3f1351557a037e499172732668e2992c8338abf49e39795c267",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-14T22:33:26.685Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-25#1",
+      "sesion_id": "2026-05-25",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió ordinària número 4/2026, de 27 d'abril.",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió ordinària número 4/2026, de 27 d'abril.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:26.685Z"
+      }
+    },
+    {
+      "id": "2026-05-25#2",
+      "sesion_id": "2026-05-25",
+      "orden": 2,
+      "titulo": "Establiment del preu públic de venda d'un catàleg/llibre d'artista editat pel Museu",
+      "resultado": null,
+      "texto_redactado": "Establiment del preu públic de venda d'un catàleg/llibre d'artista editat pel Museu",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:26.685Z"
+      }
+    },
+    {
+      "id": "2026-05-25#3",
+      "sesion_id": "2026-05-25",
+      "orden": 3,
+      "titulo": "L’Ajuntament de Sabadell va encarregar la realització dels treballs de disseny,",
+      "resultado": null,
+      "texto_redactado": "L’Ajuntament de Sabadell va encarregar la realització dels treballs de disseny,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:26.685Z"
+      }
+    },
+    {
+      "id": "2026-05-25#4",
+      "sesion_id": "2026-05-25",
+      "orden": 4,
+      "titulo": "La coordinació tècnica d’aquestes tasques ha estat assumida per l’equip tècnic del MAS.",
+      "resultado": null,
+      "texto_redactado": "La coordinació tècnica d’aquestes tasques ha estat assumida per l’equip tècnic del MAS.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:26.685Z"
+      }
+    },
+    {
+      "id": "2026-05-25#5",
+      "sesion_id": "2026-05-25",
+      "orden": 5,
+      "titulo": "L’Ajuntament de Sabadell, i concretament el MAS disposa de 175 exemplars del",
+      "resultado": null,
+      "texto_redactado": "L’Ajuntament de Sabadell, i concretament el MAS disposa de 175 exemplars del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:26.685Z"
+      }
+    },
+    {
+      "id": "2026-05-25#6",
+      "sesion_id": "2026-05-25",
+      "orden": 6,
+      "titulo": "En data 9 d’abril de 2026, la directora del MAS i la cap del Servei de Cultura emeten un",
+      "resultado": null,
+      "texto_redactado": "En data 9 d’abril de 2026, la directora del MAS i la cap del Servei de Cultura emeten un",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:26.685Z"
+      }
+    },
+    {
+      "id": "2026-05-25#7",
+      "sesion_id": "2026-05-25",
+      "orden": 7,
+      "titulo": "En data 14 d’abril de 2026 s’ha emès informe tècnic jurídic, subscrit per la cap del Servei",
+      "resultado": null,
+      "texto_redactado": "En data 14 d’abril de 2026 s’ha emès informe tècnic jurídic, subscrit per la cap del Servei",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:26.685Z"
+      }
+    },
+    {
+      "id": "2026-05-25#8",
+      "sesion_id": "2026-05-25",
+      "orden": 8,
+      "titulo": "Aquesta proposta es justifica atès el seu interès públic. Es pretén fer accessibles el",
+      "resultado": null,
+      "texto_redactado": "Aquesta proposta es justifica atès el seu interès públic. Es pretén fer accessibles el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:26.685Z"
+      }
+    },
+    {
+      "id": "2026-05-25#9",
+      "sesion_id": "2026-05-25",
+      "orden": 9,
+      "titulo": "La proposta es formula en base al previst a l’article 44.2 del Reial decret Legislatiu 2/2004,",
+      "resultado": null,
+      "texto_redactado": "La proposta es formula en base al previst a l’article 44.2 del Reial decret Legislatiu 2/2004,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:26.685Z"
+      }
+    },
+    {
+      "id": "2026-05-25#10",
+      "sesion_id": "2026-05-25",
+      "orden": 10,
+      "titulo": "Al pressupost municipal existeix dotació pressupostària suficient per fer front a la",
+      "resultado": null,
+      "texto_redactado": "Al pressupost municipal existeix dotació pressupostària suficient per fer front a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:26.685Z"
+      }
+    },
+    {
+      "id": "2026-05-25#11",
+      "sesion_id": "2026-05-25",
+      "orden": 11,
+      "titulo": "Aquest expedient no està subjecte a fiscalització prèvia ja que no comporta cap fase",
+      "resultado": null,
+      "texto_redactado": "Aquest expedient no està subjecte a fiscalització prèvia ja que no comporta cap fase",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:26.685Z"
+      }
+    },
+    {
+      "id": "2026-05-25#12",
+      "sesion_id": "2026-05-25",
+      "orden": 12,
+      "titulo": "L’article 46 (Projectes de depesa) de les BePAS26 regula el règim d’aplicació de l’excés",
+      "resultado": null,
+      "texto_redactado": "L’article 46 (Projectes de depesa) de les BePAS26 regula el règim d’aplicació de l’excés",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:26.685Z"
+      }
+    },
+    {
+      "id": "2026-05-25#13",
+      "sesion_id": "2026-05-25",
+      "orden": 13,
+      "titulo": "L’article 4.1.b.2 del RD 128/2018 estableix que l’exercici del control financer de la funció",
+      "resultado": null,
+      "texto_redactado": "L’article 4.1.b.2 del RD 128/2018 estableix que l’exercici del control financer de la funció",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:26.685Z"
+      }
+    },
+    {
+      "id": "2026-05-25#14",
+      "sesion_id": "2026-05-25",
+      "orden": 14,
+      "titulo": "L’òrgan competent per aprovar aquesta modificació de crèdit és el Ple de la corporació,",
+      "resultado": null,
+      "texto_redactado": "L’òrgan competent per aprovar aquesta modificació de crèdit és el Ple de la corporació,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:26.685Z"
+      }
+    },
+    {
+      "id": "2026-05-25#15",
+      "sesion_id": "2026-05-25",
+      "orden": 15,
+      "titulo": "Comunicacions diverses.",
+      "resultado": null,
+      "texto_redactado": "Comunicacions diverses.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:26.685Z"
+      }
+    },
+    {
+      "id": "2026-05-25#16",
+      "sesion_id": "2026-05-25",
+      "orden": 16,
+      "titulo": "Precs i preguntes.",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:26.685Z"
+      }
+    }
+  ]
+}

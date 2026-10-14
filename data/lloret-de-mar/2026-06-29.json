@@ -1,0 +1,460 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "lloret-de-mar",
+    "nombre": "Lloret de Mar",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1709500000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-29",
+    "municipio_id": "lloret-de-mar",
+    "fecha": "2026-06-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1709500000/2026/8b735ed4-1de4-4dff-be54-9854548b0e14/08.%202026%200629%20PLE.pdf",
+    "hash_contenido": "fb9fdd2c00b5288e7689772b2451a315dff18af1a633344955f137b1eefa3893",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-14T22:34:30.184Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-29#1",
+      "sesion_id": "2026-06-29",
+      "orden": 1,
+      "titulo": "APROVACIÓ ACTES SESSIONS ANTERIORS (25/05/2026 i",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ ACTES SESSIONS ANTERIORS (25/05/2026 i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:30.184Z"
+      }
+    },
+    {
+      "id": "2026-06-29#2",
+      "sesion_id": "2026-06-29",
+      "orden": 2,
+      "titulo": "DESPATX ALCALDIA.",
+      "resultado": null,
+      "texto_redactado": "DESPATX ALCALDIA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:30.184Z"
+      }
+    },
+    {
+      "id": "2026-06-29#3",
+      "sesion_id": "2026-06-29",
+      "orden": 3,
+      "titulo": "INFORME DEL SÍNDIC DEL CIUTADÀ ANY 2025.",
+      "resultado": null,
+      "texto_redactado": "INFORME DEL SÍNDIC DEL CIUTADÀ ANY 2025.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:30.184Z"
+      }
+    },
+    {
+      "id": "2026-06-29#4",
+      "sesion_id": "2026-06-29",
+      "orden": 4,
+      "titulo": "DONAR COMPTE DECRET D'ALCALDIA (exp. 30102026000003)",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DECRET D'ALCALDIA (exp. 30102026000003)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:30.184Z"
+      }
+    },
+    {
+      "id": "2026-06-29#5",
+      "sesion_id": "2026-06-29",
+      "orden": 5,
+      "titulo": "DONAR COMPTE DELS EXPEDIENTS DE MODIFICACIÓ DE CRÈDIT 09",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DELS EXPEDIENTS DE MODIFICACIÓ DE CRÈDIT 09",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:30.184Z"
+      }
+    },
+    {
+      "id": "2026-06-29#6",
+      "sesion_id": "2026-06-29",
+      "orden": 6,
+      "titulo": "DONAR COMPTE DELS EXPEDIENTS DE RECONEIXEMENT DE CRÈDIT",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DELS EXPEDIENTS DE RECONEIXEMENT DE CRÈDIT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:30.184Z"
+      }
+    },
+    {
+      "id": "2026-06-29#7",
+      "sesion_id": "2026-06-29",
+      "orden": 7,
+      "titulo": "APROVACIÓ DEL COMPTE GENERAL DE L’EXERCICI 2025 QUE INTEGRA EL PRESSUPOST DE LA PROPIA CORPORACIÓ I DE LA",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEL COMPTE GENERAL DE L’EXERCICI 2025 QUE INTEGRA EL PRESSUPOST DE LA PROPIA CORPORACIÓ I DE LA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:30.184Z"
+      }
+    },
+    {
+      "id": "2026-06-29#8",
+      "sesion_id": "2026-06-29",
+      "orden": 8,
+      "titulo": "APROVACIÓ PROVISIONAL DE LA MODIFICACIÓ DE LES ORDENANCES FISCALS Nº 25 REGULADORA DE LA TAXA D’ESTACIONAMENT DE VEHICLES I L’OF. NUM. 33 REGULADORA DE LA",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ PROVISIONAL DE LA MODIFICACIÓ DE LES ORDENANCES FISCALS Nº 25 REGULADORA DE LA TAXA D’ESTACIONAMENT DE VEHICLES I L’OF. NUM. 33 REGULADORA DE LA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:30.184Z"
+      }
+    },
+    {
+      "id": "2026-06-29#9",
+      "sesion_id": "2026-06-29",
+      "orden": 9,
+      "titulo": "ESTABLIMENT DEL SERVEI DE LA RESIDÈNCIA DE LA GENT GRAN I",
+      "resultado": null,
+      "texto_redactado": "ESTABLIMENT DEL SERVEI DE LA RESIDÈNCIA DE LA GENT GRAN I",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:30.184Z"
+      }
+    },
+    {
+      "id": "2026-06-29#10",
+      "sesion_id": "2026-06-29",
+      "orden": 10,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:30.184Z"
+      }
+    },
+    {
+      "id": "2026-06-29#11",
+      "sesion_id": "2026-06-29",
+      "orden": 11,
+      "titulo": "DESIGNACIÓ FESTES LOCALS ANY 2027 (exp. 14922026000002)",
+      "resultado": null,
+      "texto_redactado": "DESIGNACIÓ FESTES LOCALS ANY 2027 (exp. 14922026000002)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:30.184Z"
+      }
+    },
+    {
+      "id": "2026-06-29#12",
+      "sesion_id": "2026-06-29",
+      "orden": 12,
+      "titulo": "RESOLUCIÓ D’AL·LEGACIONS I APROVACIÓ DEFINITIVA DEL PLA",
+      "resultado": null,
+      "texto_redactado": "RESOLUCIÓ D’AL·LEGACIONS I APROVACIÓ DEFINITIVA DEL PLA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:30.184Z"
+      }
+    },
+    {
+      "id": "2026-06-29#13",
+      "sesion_id": "2026-06-29",
+      "orden": 13,
+      "titulo": "APROVACIÓ PROVISIONAL DE LA MODIFICACIÓ PUNTUAL DEL PLA D’ORDENACIÓ URBANÍSTICA MUNICIPAL (POUM) DE LLORET DE",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ PROVISIONAL DE LA MODIFICACIÓ PUNTUAL DEL PLA D’ORDENACIÓ URBANÍSTICA MUNICIPAL (POUM) DE LLORET DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:30.184Z"
+      }
+    },
+    {
+      "id": "2026-06-29#14",
+      "sesion_id": "2026-06-29",
+      "orden": 14,
+      "titulo": "Punto de expropiación",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:30.184Z"
+      }
+    },
+    {
+      "id": "2026-06-29#15",
+      "sesion_id": "2026-06-29",
+      "orden": 15,
+      "titulo": "Punto de expropiación",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:30.184Z"
+      }
+    },
+    {
+      "id": "2026-06-29#16",
+      "sesion_id": "2026-06-29",
+      "orden": 16,
+      "titulo": "PROPOSTES D’URGÈNCIA.",
+      "resultado": null,
+      "texto_redactado": "PROPOSTES D’URGÈNCIA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:30.184Z"
+      }
+    },
+    {
+      "id": "2026-06-29#17",
+      "sesion_id": "2026-06-29",
+      "orden": 17,
+      "titulo": "DONAR COMPTE DE LES RESOLUCIONS DE L’ALCALDIA,",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE LES RESOLUCIONS DE L’ALCALDIA,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:30.184Z"
+      }
+    },
+    {
+      "id": "2026-06-29#18",
+      "sesion_id": "2026-06-29",
+      "orden": 18,
+      "titulo": "PRECS i PREGUNTES. PRECS/PREGUNTES DE VOX:",
+      "resultado": null,
+      "texto_redactado": "PRECS i PREGUNTES. PRECS/PREGUNTES DE VOX:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:30.184Z"
+      }
+    }
+  ]
+}

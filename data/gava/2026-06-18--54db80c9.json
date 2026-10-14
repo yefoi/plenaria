@@ -1,0 +1,342 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "gava",
+    "nombre": "Gavà",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "808980001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-18--54db80c9",
+    "municipio_id": "gava",
+    "fecha": "2026-06-18",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/808980001/2026/b20d8f47-1377-459b-8bbb-3f6ed29251dd/Acta_formalitzada%2018062026.pdf",
+    "hash_contenido": "c834465657ab1a4eaafc063483343409e6b9eac436fc02edfd5be3924cc63de4",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-14T22:47:52.975Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-18--54db80c9#1",
+      "sesion_id": "2026-06-18--54db80c9",
+      "orden": 1,
+      "titulo": "DECLARACIÓ INSTITUCIONAL AMB MOTIU DEL DIA INTERNACIONAL DE",
+      "resultado": null,
+      "texto_redactado": "DECLARACIÓ INSTITUCIONAL AMB MOTIU DEL DIA INTERNACIONAL DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:52.975Z"
+      }
+    },
+    {
+      "id": "2026-06-18--54db80c9#2",
+      "sesion_id": "2026-06-18--54db80c9",
+      "orden": 2,
+      "titulo": "DECLARACIÓ INSTITUCIONAL DEL DIA DE L’ORGULL AUTISTA 2026 18 de juny de",
+      "resultado": null,
+      "texto_redactado": "DECLARACIÓ INSTITUCIONAL DEL DIA DE L’ORGULL AUTISTA 2026 18 de juny de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:52.975Z"
+      }
+    },
+    {
+      "id": "2026-06-18--54db80c9#3",
+      "sesion_id": "2026-06-18--54db80c9",
+      "orden": 3,
+      "titulo": "Impulsar espais de participació i escolta activa on les persones autistes i les seves",
+      "resultado": null,
+      "texto_redactado": "Impulsar espais de participació i escolta activa on les persones autistes i les seves",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:52.975Z"
+      }
+    },
+    {
+      "id": "2026-06-18--54db80c9#4",
+      "sesion_id": "2026-06-18--54db80c9",
+      "orden": 4,
+      "titulo": "Fomentar una cultura comunitària basada en el respecte a la neurodiversitat,",
+      "resultado": null,
+      "texto_redactado": "Fomentar una cultura comunitària basada en el respecte a la neurodiversitat,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:52.975Z"
+      }
+    },
+    {
+      "id": "2026-06-18--54db80c9#5",
+      "sesion_id": "2026-06-18--54db80c9",
+      "orden": 5,
+      "titulo": "Afavorir oportunitats d’accés a l’ocupació, la formació i la vida independent,",
+      "resultado": null,
+      "texto_redactado": "Afavorir oportunitats d’accés a l’ocupació, la formació i la vida independent,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:52.975Z"
+      }
+    },
+    {
+      "id": "2026-06-18--54db80c9#6",
+      "sesion_id": "2026-06-18--54db80c9",
+      "orden": 6,
+      "titulo": "Col·laborar amb les entitats i associacions que treballen en defensa dels drets de les",
+      "resultado": null,
+      "texto_redactado": "Col·laborar amb les entitats i associacions que treballen en defensa dels drets de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:52.975Z"
+      }
+    },
+    {
+      "id": "2026-06-18--54db80c9#7",
+      "sesion_id": "2026-06-18--54db80c9",
+      "orden": 7,
+      "titulo": "APROVACIÓ INICIAL DEL PROJECTE ÀREA DE JOC DE GAVÀ MAR (OMO 02/26) I DELEGACIÓ DE L’APROVACIÓ DEFINITIVA EN L’ALCALDESSA.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ INICIAL DEL PROJECTE ÀREA DE JOC DE GAVÀ MAR (OMO 02/26) I DELEGACIÓ DE L’APROVACIÓ DEFINITIVA EN L’ALCALDESSA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:52.975Z"
+      }
+    },
+    {
+      "id": "2026-06-18--54db80c9#8",
+      "sesion_id": "2026-06-18--54db80c9",
+      "orden": 8,
+      "titulo": "APROVACIÓ DEFINITIVA DE LA MODIFICACIÓ DE L’ESTUDI DE VIABILITAT ECONÒMIC FINANCER DE LA CONSTRUCCIÓ I EXPLOTACIÓ DE LES OBRES, EN MODALITAT DE CONCESSIÓ, DE LA NOVA INSTAL·LACIÓ ESPORTIVA MUNICIPAL ÒESPAI CA N’HORTA. PISCINA I ESPORTÓ",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEFINITIVA DE LA MODIFICACIÓ DE L’ESTUDI DE VIABILITAT ECONÒMIC FINANCER DE LA CONSTRUCCIÓ I EXPLOTACIÓ DE LES OBRES, EN MODALITAT DE CONCESSIÓ, DE LA NOVA INSTAL·LACIÓ ESPORTIVA MUNICIPAL ÒESPAI CA N’HORTA. PISCINA I ESPORTÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:52.975Z"
+      }
+    },
+    {
+      "id": "2026-06-18--54db80c9#9",
+      "sesion_id": "2026-06-18--54db80c9",
+      "orden": 9,
+      "titulo": "APROVACIÓ DEFINITIVA DE LA MEMÒRIA RELATIVA A LA CONVENIÈNCIA I",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEFINITIVA DE LA MEMÒRIA RELATIVA A LA CONVENIÈNCIA I",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:52.975Z"
+      }
+    },
+    {
+      "id": "2026-06-18--54db80c9#10",
+      "sesion_id": "2026-06-18--54db80c9",
+      "orden": 10,
+      "titulo": "APROVACIÓ INICIAL DE L’EXPEDIENT PER A LA CONTRACTACIÓ DE CONCESSIÓ D'OBRA PER A LA CONSTRUCCIÓ I EXPLOTACIÓ DE LA INSTAL·LACIÓ ESPORTIVA MUNICIPAL \"ESPAI CA N'HORTA, PISCINA I ESPORT\".",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ INICIAL DE L’EXPEDIENT PER A LA CONTRACTACIÓ DE CONCESSIÓ D'OBRA PER A LA CONSTRUCCIÓ I EXPLOTACIÓ DE LA INSTAL·LACIÓ ESPORTIVA MUNICIPAL \"ESPAI CA N'HORTA, PISCINA I ESPORT\".",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:52.975Z"
+      }
+    },
+    {
+      "id": "2026-06-18--54db80c9#11",
+      "sesion_id": "2026-06-18--54db80c9",
+      "orden": 11,
+      "titulo": "DONAR COMPTE DE LA RELACIÓ DELS DECRETS, DELS ACORDS DE LA JUNTA DE GOVERN LOCAL, I SI S’ESCAU, D’ALTRES RESOLUCIONS D’INTERÈS",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE LA RELACIÓ DELS DECRETS, DELS ACORDS DE LA JUNTA DE GOVERN LOCAL, I SI S’ESCAU, D’ALTRES RESOLUCIONS D’INTERÈS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:52.975Z"
+      }
+    },
+    {
+      "id": "2026-06-18--54db80c9#12",
+      "sesion_id": "2026-06-18--54db80c9",
+      "orden": 12,
+      "titulo": "DECLARACIÓ POLÍTICA PRESENTADA PEL GRUP MUNICIPAL D’EN COMò PODEM PER LA PRESERVACIÓ DE LA NATURA DEL DELTA, EL PARC AGRARI, EL GARRAF, I ALTRES ZONES NATURALS.",
+      "resultado": null,
+      "texto_redactado": "DECLARACIÓ POLÍTICA PRESENTADA PEL GRUP MUNICIPAL D’EN COMò PODEM PER LA PRESERVACIÓ DE LA NATURA DEL DELTA, EL PARC AGRARI, EL GARRAF, I ALTRES ZONES NATURALS.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "medio_ambiente",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:52.975Z"
+      }
+    },
+    {
+      "id": "2026-06-18--54db80c9#13",
+      "sesion_id": "2026-06-18--54db80c9",
+      "orden": 13,
+      "titulo": "PRECS I PREGUNTES",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:52.975Z"
+      }
+    }
+  ]
+}

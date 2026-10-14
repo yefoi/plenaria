@@ -1,0 +1,435 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sabadell",
+    "nombre": "Sabadell",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "818780001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-22",
+    "municipio_id": "sabadell",
+    "fecha": "2026-06-22",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/818780001/2026/921e4e54-6015-413a-92b3-161fea35e491/6-2026%20Ple%20ordinari%202026-06-22.pdf",
+    "hash_contenido": "35d87ba955ad68cbc3f992b22c1a19aa7cef884fe6ef86acc5651a843c4cc8cc",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-14T22:33:20.585Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-22#1",
+      "sesion_id": "2026-06-22",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió ordinària número 5/2026 de 25 de maig.",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió ordinària número 5/2026 de 25 de maig.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:20.585Z"
+      }
+    },
+    {
+      "id": "2026-06-22#2",
+      "sesion_id": "2026-06-22",
+      "orden": 2,
+      "titulo": "Aprovació de la proposta sobre les dues festes locals, corresponents al municipi,",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la proposta sobre les dues festes locals, corresponents al municipi,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:20.585Z"
+      }
+    },
+    {
+      "id": "2026-06-22#3",
+      "sesion_id": "2026-06-22",
+      "orden": 3,
+      "titulo": "A Sabadell és norma establerta per la tradició que les dues festes locals es",
+      "resultado": null,
+      "texto_redactado": "A Sabadell és norma establerta per la tradició que les dues festes locals es",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:20.585Z"
+      }
+    },
+    {
+      "id": "2026-06-22#4",
+      "sesion_id": "2026-06-22",
+      "orden": 4,
+      "titulo": "Es proposa l’aprovació de les dates de les dues festes locals a Sabadell per a l’any 2027",
+      "resultado": null,
+      "texto_redactado": "Es proposa l’aprovació de les dates de les dues festes locals a Sabadell per a l’any 2027",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:20.585Z"
+      }
+    },
+    {
+      "id": "2026-06-22#5",
+      "sesion_id": "2026-06-22",
+      "orden": 5,
+      "titulo": "El Gerent de l’Ajuntament segons informe de 28 de maig de 2026 proposa l’aprovació de",
+      "resultado": null,
+      "texto_redactado": "El Gerent de l’Ajuntament segons informe de 28 de maig de 2026 proposa l’aprovació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:20.585Z"
+      }
+    },
+    {
+      "id": "2026-06-22#6",
+      "sesion_id": "2026-06-22",
+      "orden": 6,
+      "titulo": "L’article 114 de les Bases d’Execució del Pressupost de l’Ajuntament de Sabadell",
+      "resultado": null,
+      "texto_redactado": "L’article 114 de les Bases d’Execució del Pressupost de l’Ajuntament de Sabadell",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:20.585Z"
+      }
+    },
+    {
+      "id": "2026-06-22#7",
+      "sesion_id": "2026-06-22",
+      "orden": 7,
+      "titulo": "L’article 26 de les Bases d’execució del pressupost de l’Ajuntament de Sabadell",
+      "resultado": null,
+      "texto_redactado": "L’article 26 de les Bases d’execució del pressupost de l’Ajuntament de Sabadell",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:20.585Z"
+      }
+    },
+    {
+      "id": "2026-06-22#8",
+      "sesion_id": "2026-06-22",
+      "orden": 8,
+      "titulo": "Els imports de les justificacions de despeses lliurades per registre electrònic pels",
+      "resultado": null,
+      "texto_redactado": "Els imports de les justificacions de despeses lliurades per registre electrònic pels",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:20.585Z"
+      }
+    },
+    {
+      "id": "2026-06-22#9",
+      "sesion_id": "2026-06-22",
+      "orden": 9,
+      "titulo": "En data 31 de març de 2026, el grup municipal Vox va fer un ingrés de 645,62 € en",
+      "resultado": null,
+      "texto_redactado": "En data 31 de març de 2026, el grup municipal Vox va fer un ingrés de 645,62 € en",
+      "importe_eur": 645.62,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:20.585Z"
+      }
+    },
+    {
+      "id": "2026-06-22#10",
+      "sesion_id": "2026-06-22",
+      "orden": 10,
+      "titulo": "El Servei de Transparència i Bon Govern, un cop analitzades les justificacions",
+      "resultado": null,
+      "texto_redactado": "El Servei de Transparència i Bon Govern, un cop analitzades les justificacions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:20.585Z"
+      }
+    },
+    {
+      "id": "2026-06-22#11",
+      "sesion_id": "2026-06-22",
+      "orden": 11,
+      "titulo": "En data 8 de maig de 2026, el Servei de Control Financer va emetre l’Informe de la",
+      "resultado": null,
+      "texto_redactado": "En data 8 de maig de 2026, el Servei de Control Financer va emetre l’Informe de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:20.585Z"
+      }
+    },
+    {
+      "id": "2026-06-22#12",
+      "sesion_id": "2026-06-22",
+      "orden": 12,
+      "titulo": "El Servei de Transparència i Bon Govern, un cop analitzat l’informe emès pel Servei de",
+      "resultado": null,
+      "texto_redactado": "El Servei de Transparència i Bon Govern, un cop analitzat l’informe emès pel Servei de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:20.585Z"
+      }
+    },
+    {
+      "id": "2026-06-22#13",
+      "sesion_id": "2026-06-22",
+      "orden": 13,
+      "titulo": "Un cop rebudes les al·legacions i/o esmenes per part dels diferents grups municipals",
+      "resultado": null,
+      "texto_redactado": "Un cop rebudes les al·legacions i/o esmenes per part dels diferents grups municipals",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:20.585Z"
+      }
+    },
+    {
+      "id": "2026-06-22#14",
+      "sesion_id": "2026-06-22",
+      "orden": 14,
+      "titulo": "Els ingressos derivats dels reintegraments efectuats per part dels grups municipals es",
+      "resultado": null,
+      "texto_redactado": "Els ingressos derivats dels reintegraments efectuats per part dels grups municipals es",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:20.585Z"
+      }
+    },
+    {
+      "id": "2026-06-22#15",
+      "sesion_id": "2026-06-22",
+      "orden": 15,
+      "titulo": "En aquest expedient no s’aprova cap despesa, així com no hi ha cap regulació sectorial",
+      "resultado": null,
+      "texto_redactado": "En aquest expedient no s’aprova cap despesa, així com no hi ha cap regulació sectorial",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:20.585Z"
+      }
+    },
+    {
+      "id": "2026-06-22#16",
+      "sesion_id": "2026-06-22",
+      "orden": 16,
+      "titulo": "Comunicacions diverses.",
+      "resultado": null,
+      "texto_redactado": "Comunicacions diverses.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:20.585Z"
+      }
+    },
+    {
+      "id": "2026-06-22#17",
+      "sesion_id": "2026-06-22",
+      "orden": 17,
+      "titulo": "Precs i preguntes.",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:20.585Z"
+      }
+    }
+  ]
+}

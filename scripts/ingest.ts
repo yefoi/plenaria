@@ -90,6 +90,13 @@ async function ingestaManual(
     fuenteUrl,
   });
   await repo.guardarSesion(doc);
+  if (sesionId !== fecha) {
+    const obsoleta = existentes.find((s) => s.id === fecha && s.fuente_url === fuenteUrl);
+    if (obsoleta) {
+      await repo.eliminarSesion(municipio.id, obsoleta.id);
+      log('info', `Retirada la sesión duplicada ${municipio.id}/${obsoleta.id}`);
+    }
+  }
   log('info', `Sesión manual guardada: ${municipio.id}/${sesionId} (${doc.puntos.length} puntos, estado ${doc.sesion.estado_ingesta})`);
 }
 
@@ -146,6 +153,15 @@ async function ingestaAutomatica(
         fuenteUrl: contenido.urlFinal,
       });
       await repo.guardarSesion(doc);
+      if (sesionId !== ref.fecha) {
+        const obsoleta = existentes.find(
+          (s) => s.id === ref.fecha && s.fuente_url === contenido.urlFinal,
+        );
+        if (obsoleta) {
+          await repo.eliminarSesion(municipio.id, obsoleta.id);
+          log('info', `Retirada la sesión duplicada ${municipio.id}/${obsoleta.id}`);
+        }
+      }
       procesadas++;
       log(
         'info',

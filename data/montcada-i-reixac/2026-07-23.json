@@ -1,0 +1,604 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "montcada-i-reixac",
+    "nombre": "Montcada i Reixac",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "812520002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-23",
+    "municipio_id": "montcada-i-reixac",
+    "fecha": "2026-07-23",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/812520002/2026/96f3221a-4438-4fdb-8292-2311e41d5e76/20260723%20Acta%20Ordin%e0ria%20de%2023%20de%20juliol%20de%202026.pdf",
+    "hash_contenido": "9a481c76339d84ef6e1c8b7850a4aeebeea12075bdcc4fc9a514e0fa88d5c886",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-14T22:35:03.668Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-23#1",
+      "sesion_id": "2026-07-23",
+      "orden": 1,
+      "titulo": "QÜESTIONS PRÈVIES",
+      "resultado": null,
+      "texto_redactado": "QÜESTIONS PRÈVIES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#2",
+      "sesion_id": "2026-07-23",
+      "orden": 2,
+      "titulo": "ASSUMPTES DE LÀREA DE PLANIFICACIÓ ECONÒMICA",
+      "resultado": null,
+      "texto_redactado": "ASSUMPTES DE LÀREA DE PLANIFICACIÓ ECONÒMICA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#3",
+      "sesion_id": "2026-07-23",
+      "orden": 3,
+      "titulo": "La Comissió Paritària es reunirà a instància de qualsevol de les parts. La part",
+      "resultado": null,
+      "texto_redactado": "La Comissió Paritària es reunirà a instància de qualsevol de les parts. La part",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#4",
+      "sesion_id": "2026-07-23",
+      "orden": 4,
+      "titulo": "La Comissió Paritària aixecarà acta sobre les qüestions plantejades i acords",
+      "resultado": null,
+      "texto_redactado": "La Comissió Paritària aixecarà acta sobre les qüestions plantejades i acords",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#5",
+      "sesion_id": "2026-07-23",
+      "orden": 5,
+      "titulo": "La Comissió Paritària pot elaborar un Reglament de funcionament intern.Ó",
+      "resultado": null,
+      "texto_redactado": "La Comissió Paritària pot elaborar un Reglament de funcionament intern.Ó",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#6",
+      "sesion_id": "2026-07-23",
+      "orden": 6,
+      "titulo": "El servei de Recursos Humans farà un control horari de forma quadrimestral i",
+      "resultado": null,
+      "texto_redactado": "El servei de Recursos Humans farà un control horari de forma quadrimestral i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#7",
+      "sesion_id": "2026-07-23",
+      "orden": 7,
+      "titulo": "El saldo positiu acumulat no podrà ser utilitzat per compensar un dia sencer de",
+      "resultado": null,
+      "texto_redactado": "El saldo positiu acumulat no podrà ser utilitzat per compensar un dia sencer de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#8",
+      "sesion_id": "2026-07-23",
+      "orden": 8,
+      "titulo": "En el cas de la dedicació flexible i dedicació especial, el saldo quadrimestral positiu,",
+      "resultado": null,
+      "texto_redactado": "En el cas de la dedicació flexible i dedicació especial, el saldo quadrimestral positiu,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#9",
+      "sesion_id": "2026-07-23",
+      "orden": 9,
+      "titulo": "Cada persona treballadora amb flexibilitat horària sense dedicació ni horari especial,",
+      "resultado": null,
+      "texto_redactado": "Cada persona treballadora amb flexibilitat horària sense dedicació ni horari especial,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#10",
+      "sesion_id": "2026-07-23",
+      "orden": 10,
+      "titulo": "El personal que ocupi llocs amb un tipus de jornada flexible o jornada especial es",
+      "resultado": null,
+      "texto_redactado": "El personal que ocupi llocs amb un tipus de jornada flexible o jornada especial es",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#11",
+      "sesion_id": "2026-07-23",
+      "orden": 11,
+      "titulo": "Es reconeix que la potestat d’auto-organització municipal reconeguda per les lleis",
+      "resultado": null,
+      "texto_redactado": "Es reconeix que la potestat d’auto-organització municipal reconeguda per les lleis",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#12",
+      "sesion_id": "2026-07-23",
+      "orden": 12,
+      "titulo": "El personal té dret a la desconnexió digital a fi de garantir, fora del temps de treball",
+      "resultado": null,
+      "texto_redactado": "El personal té dret a la desconnexió digital a fi de garantir, fora del temps de treball",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#13",
+      "sesion_id": "2026-07-23",
+      "orden": 13,
+      "titulo": "En casos excepcionals i justificats de conciliació de la vida personal i familiar,",
+      "resultado": null,
+      "texto_redactado": "En casos excepcionals i justificats de conciliació de la vida personal i familiar,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#14",
+      "sesion_id": "2026-07-23",
+      "orden": 14,
+      "titulo": "En tots els casos el Cap jeràrquic responsable informarà que la concessió del",
+      "resultado": null,
+      "texto_redactado": "En tots els casos el Cap jeràrquic responsable informarà que la concessió del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#15",
+      "sesion_id": "2026-07-23",
+      "orden": 15,
+      "titulo": "El gaudiment d'aquest permís es podrà realitzar fins al 31 de gener de l'any",
+      "resultado": null,
+      "texto_redactado": "El gaudiment d'aquest permís es podrà realitzar fins al 31 de gener de l'any",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#16",
+      "sesion_id": "2026-07-23",
+      "orden": 16,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#17",
+      "sesion_id": "2026-07-23",
+      "orden": 17,
+      "titulo": "Concessió Directa de Llicència per Assumptes Propis Especial per Antiguitat: Amb",
+      "resultado": null,
+      "texto_redactado": "Concessió Directa de Llicència per Assumptes Propis Especial per Antiguitat: Amb",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#18",
+      "sesion_id": "2026-07-23",
+      "orden": 18,
+      "titulo": "Aquestes quanties es reduiran en la quantia que correspongui per aplicació de les",
+      "resultado": null,
+      "texto_redactado": "Aquestes quanties es reduiran en la quantia que correspongui per aplicació de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#19",
+      "sesion_id": "2026-07-23",
+      "orden": 19,
+      "titulo": "Les quantitats establertes en el paràgraf 17 ja inclouen l’increment retributiu anual",
+      "resultado": null,
+      "texto_redactado": "Les quantitats establertes en el paràgraf 17 ja inclouen l’increment retributiu anual",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#20",
+      "sesion_id": "2026-07-23",
+      "orden": 20,
+      "titulo": "En cas d’acompliment excel·lent, l’equip de govern proposarà a la Junta de Govern",
+      "resultado": null,
+      "texto_redactado": "En cas d’acompliment excel·lent, l’equip de govern proposarà a la Junta de Govern",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#21",
+      "sesion_id": "2026-07-23",
+      "orden": 21,
+      "titulo": "Per a l’avaluació de les persones Caps i Adjuntes avaluadores i de les persones",
+      "resultado": null,
+      "texto_redactado": "Per a l’avaluació de les persones Caps i Adjuntes avaluadores i de les persones",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#22",
+      "sesion_id": "2026-07-23",
+      "orden": 22,
+      "titulo": "El sistema d’avaluació de la productivitat i l’acompliment establert en aquest article",
+      "resultado": null,
+      "texto_redactado": "El sistema d’avaluació de la productivitat i l’acompliment establert en aquest article",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#23",
+      "sesion_id": "2026-07-23",
+      "orden": 23,
+      "titulo": "Amb independència del que preveu el paràgraf anterior i d’entrada en vigor",
+      "resultado": null,
+      "texto_redactado": "Amb independència del que preveu el paràgraf anterior i d’entrada en vigor",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    },
+    {
+      "id": "2026-07-23#24",
+      "sesion_id": "2026-07-23",
+      "orden": 24,
+      "titulo": "Es garanteix que una partida pressupostària suficient per al pagament del",
+      "resultado": null,
+      "texto_redactado": "Es garanteix que una partida pressupostària suficient per al pagament del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:03.668Z"
+      }
+    }
+  ]
+}

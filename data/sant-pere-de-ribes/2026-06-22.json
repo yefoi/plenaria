@@ -1,0 +1,948 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-pere-de-ribes",
+    "nombre": "Sant Pere de Ribes",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "823100000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-22",
+    "municipio_id": "sant-pere-de-ribes",
+    "fecha": "2026-06-22",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/823100000/2026/bfc8f70e-009e-4634-9fed-1976cc5d6c8f/acta%20Ple260622%20revisada.docx",
+    "hash_contenido": "3295adef3dfff52a9854e5140d7164907f9bb7112f998d42589fdfd91c050d6a",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-14T22:35:34.743Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-22#2",
+      "sesion_id": "2026-06-22",
+      "orden": 2,
+      "titulo": "Donar compte:",
+      "resultado": null,
+      "texto_redactado": "Donar compte:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#3",
+      "sesion_id": "2026-06-22",
+      "orden": 3,
+      "titulo": "Governació. Expedient: 0102010301/2025/1: Aprovar definitivament la Ordenança Reguladora de l'ús de l'espai públic per part de cicles, bicicletes i vehicles de mobilitat personal de Sant Pere de Ribes",
+      "resultado": null,
+      "texto_redactado": "Governació. Expedient: 0102010301/2025/1: Aprovar definitivament la Ordenança Reguladora de l'ús de l'espai públic per part de cicles, bicicletes i vehicles de mobilitat personal de Sant Pere de Ribes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#4",
+      "sesion_id": "2026-06-22",
+      "orden": 4,
+      "titulo": "Governació. Expedient: 010303/2026/28: Acord per a l’adhesió de l’Ajuntament de Sant Pere de Ribes a l’acord marc de mobilitat sostenible amb destinació a les entitats locals de Catalunya (EXP. 2023.08) al lot sencer de uniformitat policial",
+      "resultado": null,
+      "texto_redactado": "Governació. Expedient: 010303/2026/28: Acord per a l’adhesió de l’Ajuntament de Sant Pere de Ribes a l’acord marc de mobilitat sostenible amb destinació a les entitats locals de Catalunya (EXP. 2023.08) al lot sencer de uniformitat policial",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#5",
+      "sesion_id": "2026-06-22",
+      "orden": 5,
+      "titulo": "Governació. Expedient: 010303/2026/29: Acord per a l’adhesió de l’Ajuntament de Sant Pere de Ribes a l’acord marc de mobilitat sostenible amb destinació a les entitats locals de Catalunya, Lot 1 de l’exp. 2022.03 Material logístic i organització d’actes-Mobiliari per esdeveniments",
+      "resultado": null,
+      "texto_redactado": "Governació. Expedient: 010303/2026/29: Acord per a l’adhesió de l’Ajuntament de Sant Pere de Ribes a l’acord marc de mobilitat sostenible amb destinació a les entitats locals de Catalunya, Lot 1 de l’exp. 2022.03 Material logístic i organització d’actes-Mobiliari per esdeveniments",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#6",
+      "sesion_id": "2026-06-22",
+      "orden": 6,
+      "titulo": "Governació. Expedient: 070605/2026/4: Aprovar el Pla d’Autoprotecció del espectacle pirotècnic de la Festa Major d’Estiu de Les Roquetes",
+      "resultado": null,
+      "texto_redactado": "Governació. Expedient: 070605/2026/4: Aprovar el Pla d’Autoprotecció del espectacle pirotècnic de la Festa Major d’Estiu de Les Roquetes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#7",
+      "sesion_id": "2026-06-22",
+      "orden": 7,
+      "titulo": "Governació. Expedient: 070605/2026/5: Aprovar el Pla d’Autoprotecció del Espectacle Pirotècnics de la Festa Major d’Estiu de Ribes",
+      "resultado": null,
+      "texto_redactado": "Governació. Expedient: 070605/2026/5: Aprovar el Pla d’Autoprotecció del Espectacle Pirotècnics de la Festa Major d’Estiu de Ribes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#8",
+      "sesion_id": "2026-06-22",
+      "orden": 8,
+      "titulo": "Recursos Humans. Expedient: 02020118/2025/83: Convalidar l’omissió de la funció interventora referent a l'aprovació de la factura codi RCF 12024004147 emesa per Etegma 2000, S.L. i continuar amb el procediment i amb la tramitació de l’expedient 02020118/2025/83 per tal que es puguin aprovar el reconeixement de les obligacions corresponents per extrajudicial de crèdit de les factures codis RCF 12024004147 i 12024005332 emesa per Girocopi, SL.",
+      "resultado": null,
+      "texto_redactado": "Recursos Humans. Expedient: 02020118/2025/83: Convalidar l’omissió de la funció interventora referent a l'aprovació de la factura codi RCF 12024004147 emesa per Etegma 2000, S.L. i continuar amb el procediment i amb la tramitació de l’expedient 02020118/2025/83 per tal que es puguin aprovar el reconeixement de les obligacions corresponents per extrajudicial de crèdit de les factures codis RCF 12024004147 i 12024005332 emesa per Girocopi, SL.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#9",
+      "sesion_id": "2026-06-22",
+      "orden": 9,
+      "titulo": "TIC. Expedient: 02020118/2025/76: Extrajudicial de crèdit aprovació de la factura 2025000019 de l'any 2024.",
+      "resultado": null,
+      "texto_redactado": "TIC. Expedient: 02020118/2025/76: Extrajudicial de crèdit aprovació de la factura 2025000019 de l'any 2024.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#10",
+      "sesion_id": "2026-06-22",
+      "orden": 10,
+      "titulo": "Recursos Humans. Expedient: 02020118/2026/55: Aprovació extrajudicial de crèdit de les liquidacions de les publicacions de les bases convocatòries i altres al DOGC.",
+      "resultado": null,
+      "texto_redactado": "Recursos Humans. Expedient: 02020118/2026/55: Aprovació extrajudicial de crèdit de les liquidacions de les publicacions de les bases convocatòries i altres al DOGC.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#11",
+      "sesion_id": "2026-06-22",
+      "orden": 11,
+      "titulo": "Secretaria. Expedient: 02020118/2026/58: Aprovar l’autorització, disposició i el reconeixement de l’obligació per extrajudicial de crèdit, de l’obligació de les factures 12025004217, 12025004218 i 12025004219 emeses el 17 d’octubre de 2025 per GS OFIMATICA, SL, amb NIF: [CIF].",
+      "resultado": null,
+      "texto_redactado": "Secretaria. Expedient: 02020118/2026/58: Aprovar l’autorització, disposició i el reconeixement de l’obligació per extrajudicial de crèdit, de l’obligació de les factures 12025004217, 12025004218 i 12025004219 emeses el 17 d’octubre de 2025 per GS OFIMATICA, SL, amb NIF: [CIF].",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#12",
+      "sesion_id": "2026-06-22",
+      "orden": 12,
+      "titulo": "TIC. Expedient: 020207/2026/7: Omissió de la funció interventora de l’expedient número 010303/2022/16 per aprobar la segona pròrroga de la contractació centralitzada de serveis de Telecomunicacions per part del consorci Localret: a) LOT 1: Serveis de telecomunicacions fixes de veu i dades, amb Telefònica de España, S.A.U.b) LOT 2: Serveis de telecomunicacions mòbils de veu i dades, amb Vodafone España, SAU.",
+      "resultado": null,
+      "texto_redactado": "TIC. Expedient: 020207/2026/7: Omissió de la funció interventora de l’expedient número 010303/2022/16 per aprobar la segona pròrroga de la contractació centralitzada de serveis de Telecomunicacions per part del consorci Localret: a) LOT 1: Serveis de telecomunicacions fixes de veu i dades, amb Telefònica de España, S.A.U.b) LOT 2: Serveis de telecomunicacions mòbils de veu i dades, amb Vodafone España, SAU.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#13",
+      "sesion_id": "2026-06-22",
+      "orden": 13,
+      "titulo": "Alcaldia - Presidència. Expedient: 010303/2026/32 : Adhesió a l'acord marc de subministrament de maquinària tècnica i elements de transport i de serveis de manteniment a les entitats locals (exp.2023.07)",
+      "resultado": null,
+      "texto_redactado": "Alcaldia - Presidència. Expedient: 010303/2026/32 : Adhesió a l'acord marc de subministrament de maquinària tècnica i elements de transport i de serveis de manteniment a les entitats locals (exp.2023.07)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#14",
+      "sesion_id": "2026-06-22",
+      "orden": 14,
+      "titulo": "Governació. Expedient: 070601/2026/2 : Aprovar inicialment el Document ònic de Protecció Civil Municipal (DUPROCIM) de Sant Pere de Ribes",
+      "resultado": null,
+      "texto_redactado": "Governació. Expedient: 070601/2026/2 : Aprovar inicialment el Document ònic de Protecció Civil Municipal (DUPROCIM) de Sant Pere de Ribes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#15",
+      "sesion_id": "2026-06-22",
+      "orden": 15,
+      "titulo": "Recursos Humans. Expedient: 020207/2025/138 : Convalidació Omissió Funció Interventora i continuar amb la tramitació de l’expedient 01060402/2025/2 i continuar amb el procediment per tal que es puguin aprovar el canvi de departament d’Alcaldia a la unitat administrativa de Can Puig de la Sra. MPM i assumpció de funcions en el lloc de treball d’administrativa.",
+      "resultado": null,
+      "texto_redactado": "Recursos Humans. Expedient: 020207/2025/138 : Convalidació Omissió Funció Interventora i continuar amb la tramitació de l’expedient 01060402/2025/2 i continuar amb el procediment per tal que es puguin aprovar el canvi de departament d’Alcaldia a la unitat administrativa de Can Puig de la Sra. MPM i assumpció de funcions en el lloc de treball d’administrativa.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#16",
+      "sesion_id": "2026-06-22",
+      "orden": 16,
+      "titulo": "Rendes i Serveis Econòmics. Expedient: 0202020101/2026/7 : Modificació de pressupost Expedient número 7/2026",
+      "resultado": null,
+      "texto_redactado": "Rendes i Serveis Econòmics. Expedient: 0202020101/2026/7 : Modificació de pressupost Expedient número 7/2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#17",
+      "sesion_id": "2026-06-22",
+      "orden": 17,
+      "titulo": "Territori. Expedient: 02020118/2025/110: Aprovar l’autorització, disposició i el reconeixement de l’obligació, per extrajudicial de crèdit, de l'obligació de la factura 12025000023 emesa per Q8 Energy",
+      "resultado": null,
+      "texto_redactado": "Territori. Expedient: 02020118/2025/110: Aprovar l’autorització, disposició i el reconeixement de l’obligació, per extrajudicial de crèdit, de l'obligació de la factura 12025000023 emesa per Q8 Energy",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#18",
+      "sesion_id": "2026-06-22",
+      "orden": 18,
+      "titulo": "Ocupació. Expedient: 010303/2026/17: Acceptació Conveni de Col·laboració per executar el Programa SEFED 25_26 entre la Fundació Inform i l’Ajuntament de Sant Pere de Ribes i aprovació l’autorització, disposició i el reconeixement de l’obligació per executar i desenvolupar l’acció formativa per l’any 2025_2026 Programa Sefed",
+      "resultado": null,
+      "texto_redactado": "Ocupació. Expedient: 010303/2026/17: Acceptació Conveni de Col·laboració per executar el Programa SEFED 25_26 entre la Fundació Inform i l’Ajuntament de Sant Pere de Ribes i aprovació l’autorització, disposició i el reconeixement de l’obligació per executar i desenvolupar l’acció formativa per l’any 2025_2026 Programa Sefed",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#19",
+      "sesion_id": "2026-06-22",
+      "orden": 19,
+      "titulo": "Desenvolupament Econòmic. Expedient: 02020118/2026/45 : Convalidació de l’omissió de la funció interventora de l’exp. 020207/2026/12 i continuar amb la tramitació d’aprovació de l’autorització, disposició i el reconeixement de l’obligació per extrajudicial de crèdit de les factures de l’any 2026 pels subministraments elèctrics del departament de Promoció Econòmica (exp. 02020118/2026/45)",
+      "resultado": null,
+      "texto_redactado": "Desenvolupament Econòmic. Expedient: 02020118/2026/45 : Convalidació de l’omissió de la funció interventora de l’exp. 020207/2026/12 i continuar amb la tramitació d’aprovació de l’autorització, disposició i el reconeixement de l’obligació per extrajudicial de crèdit de les factures de l’any 2026 pels subministraments elèctrics del departament de Promoció Econòmica (exp. 02020118/2026/45)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#20",
+      "sesion_id": "2026-06-22",
+      "orden": 20,
+      "titulo": "Territori. Expedient: 02020118/2026/40: Aprovar l’autorització, disposició i el reconeixement de l’obligació, per extrajudicial de crèdit de l'obligació de les factures 12025005580, 12025005581 i 12025005582 emeses per la JUNTA DE CONSERVACIO SECTOR SUPP 9 MERCAT PARC CENTRAL.",
+      "resultado": null,
+      "texto_redactado": "Territori. Expedient: 02020118/2026/40: Aprovar l’autorització, disposició i el reconeixement de l’obligació, per extrajudicial de crèdit de l'obligació de les factures 12025005580, 12025005581 i 12025005582 emeses per la JUNTA DE CONSERVACIO SECTOR SUPP 9 MERCAT PARC CENTRAL.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#21",
+      "sesion_id": "2026-06-22",
+      "orden": 21,
+      "titulo": "Territori. Expedient: 02020118/2026/56: Aprovar l’autorització, disposició i el reconeixement de l’obligació, per extrajudicial de crèdit, de l'import pendent de les quotes de 2025 dels serveis prestats per la Mancomunitat Penedès-Garraf.",
+      "resultado": null,
+      "texto_redactado": "Territori. Expedient: 02020118/2026/56: Aprovar l’autorització, disposició i el reconeixement de l’obligació, per extrajudicial de crèdit, de l'import pendent de les quotes de 2025 dels serveis prestats per la Mancomunitat Penedès-Garraf.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#22",
+      "sesion_id": "2026-06-22",
+      "orden": 22,
+      "titulo": "Territori. Expedient: 020207/2026/26 : Convalidar l’omissió de la funció interventora i continuar amb el procediment per aprovar l'autorització, disposició i el reconeixement de l'obligació de les factures 12026001173 – 12026001170 – 12026001175 – 12026001167 – 12026001166 – 12026000700 emeses per E, SAU i continuar amb el procediment i amb la resta d’actuacions.",
+      "resultado": null,
+      "texto_redactado": "Territori. Expedient: 020207/2026/26 : Convalidar l’omissió de la funció interventora i continuar amb el procediment per aprovar l'autorització, disposició i el reconeixement de l'obligació de les factures 12026001173 – 12026001170 – 12026001175 – 12026001167 – 12026001166 – 12026000700 emeses per E, SAU i continuar amb el procediment i amb la resta d’actuacions.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#23",
+      "sesion_id": "2026-06-22",
+      "orden": 23,
+      "titulo": "Territori. Expedient: 020207/2026/25: Convalidar l’omissió de la funció interventora i continuar amb el procediment per aprovar l'autorització, la disposició i el reconeixement de l'obligació de les factures núm. 12026001110, 12026000718, 12026001109 i 12026000717 emeses per FE, SA i continuar amb el procediment i la resta d’actuacions corresponents.",
+      "resultado": null,
+      "texto_redactado": "Territori. Expedient: 020207/2026/25: Convalidar l’omissió de la funció interventora i continuar amb el procediment per aprovar l'autorització, la disposició i el reconeixement de l'obligació de les factures núm. 12026001110, 12026000718, 12026001109 i 12026000717 emeses per FE, SA i continuar amb el procediment i la resta d’actuacions corresponents.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#24",
+      "sesion_id": "2026-06-22",
+      "orden": 24,
+      "titulo": "Punto de servicios sociales",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#25",
+      "sesion_id": "2026-06-22",
+      "orden": 25,
+      "titulo": "Territori. Expedient: 02020118/2026/11: Aprovar la validació de la despesa a efectes econòmics i aprovar l'autorització, disposició i el reconeixement de l'obligació per extrajudicial de crèdit de les factures 12025004337, 12025005000, 12025005637 i 12026000208, emeses per Factor Energia SA.",
+      "resultado": null,
+      "texto_redactado": "Territori. Expedient: 02020118/2026/11: Aprovar la validació de la despesa a efectes econòmics i aprovar l'autorització, disposició i el reconeixement de l'obligació per extrajudicial de crèdit de les factures 12025004337, 12025005000, 12025005637 i 12026000208, emeses per Factor Energia SA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#26",
+      "sesion_id": "2026-06-22",
+      "orden": 26,
+      "titulo": "Territori. Expedient: 02020118/2025/120: Aprovar l’autorització, disposició i el reconeixement de l’obligació, per extrajudicial de crèdit, de l'obligació de les factures 12025000973, 12025000975, 12025000980, 12025000981, 12025000983 i 12025000985 emeses per Aigües de Sant Pere de Ribes, i les factures 12025000974, 12025000976, 12025000977, 12025000978, 12025000982 i 12025000986 emeses per Sociedad general de Aguas de Barcelona.",
+      "resultado": null,
+      "texto_redactado": "Territori. Expedient: 02020118/2025/120: Aprovar l’autorització, disposició i el reconeixement de l’obligació, per extrajudicial de crèdit, de l'obligació de les factures 12025000973, 12025000975, 12025000980, 12025000981, 12025000983 i 12025000985 emeses per Aigües de Sant Pere de Ribes, i les factures 12025000974, 12025000976, 12025000977, 12025000978, 12025000982 i 12025000986 emeses per Sociedad general de Aguas de Barcelona.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#27",
+      "sesion_id": "2026-06-22",
+      "orden": 27,
+      "titulo": "Punto de servicios sociales",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#28",
+      "sesion_id": "2026-06-22",
+      "orden": 28,
+      "titulo": "Esports. Expedient: 0102010301/2026/3: Aprovació modificació del Reglament del Pavelló poliesportiu municipal de Ribes.",
+      "resultado": null,
+      "texto_redactado": "Esports. Expedient: 0102010301/2026/3: Aprovació modificació del Reglament del Pavelló poliesportiu municipal de Ribes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#29",
+      "sesion_id": "2026-06-22",
+      "orden": 29,
+      "titulo": "Esports. Expedient: 0102010301/2026/2: Aprovació del Reglament del Pavelló poliesportiu municipal Miguel Meca Torres de Les Roquetes.",
+      "resultado": null,
+      "texto_redactado": "Esports. Expedient: 0102010301/2026/2: Aprovació del Reglament del Pavelló poliesportiu municipal Miguel Meca Torres de Les Roquetes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#30",
+      "sesion_id": "2026-06-22",
+      "orden": 30,
+      "titulo": "Cultura. Expedient: 02020118/2026/47: Convalidació de l’omissió de la funció interventora de l’exp. 020207/2026/14 i continuar amb la tramitació de l’aprovació disposició i reconeixement de l’obligació per extrajudicial de crèdit de les factures de l’any 2026 pels subministraments elèctrics als equipaments del departament de Cultura (02020118/2026/47)",
+      "resultado": null,
+      "texto_redactado": "Cultura. Expedient: 02020118/2026/47: Convalidació de l’omissió de la funció interventora de l’exp. 020207/2026/14 i continuar amb la tramitació de l’aprovació disposició i reconeixement de l’obligació per extrajudicial de crèdit de les factures de l’any 2026 pels subministraments elèctrics als equipaments del departament de Cultura (02020118/2026/47)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#31",
+      "sesion_id": "2026-06-22",
+      "orden": 31,
+      "titulo": "Cultura. Expedient: 02020118/2026/46: Convalidació de l’omissió de la funció interventora de l’exp. 020207/2026/13 i continuar amb la tramitació d’aprovació de l’autorització, disposició i el reconeixement de l’obligació per extrajudicial de crèdit de les factures de l’any 2026 de consum elèctric als equipaments del departament de Cultura (exp. 02020118/2026/46)",
+      "resultado": null,
+      "texto_redactado": "Cultura. Expedient: 02020118/2026/46: Convalidació de l’omissió de la funció interventora de l’exp. 020207/2026/13 i continuar amb la tramitació d’aprovació de l’autorització, disposició i el reconeixement de l’obligació per extrajudicial de crèdit de les factures de l’any 2026 de consum elèctric als equipaments del departament de Cultura (exp. 02020118/2026/46)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#32",
+      "sesion_id": "2026-06-22",
+      "orden": 32,
+      "titulo": "Esports. Expedient: 02020118/2026/54: Convalidació de l’omissió de la funció interventora de l’exp. 020207/2026/19 i continuar amb la tramitació d’aprovació de l’autorització, disposició i el reconeixement de l’obligació per extrajudicial de crèdit de les factures de l’any 2026 de consum elèctric dels equipaments del departament d’Esports (exp. 02020118/2026/54)",
+      "resultado": null,
+      "texto_redactado": "Esports. Expedient: 02020118/2026/54: Convalidació de l’omissió de la funció interventora de l’exp. 020207/2026/19 i continuar amb la tramitació d’aprovació de l’autorització, disposició i el reconeixement de l’obligació per extrajudicial de crèdit de les factures de l’any 2026 de consum elèctric dels equipaments del departament d’Esports (exp. 02020118/2026/54)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#33",
+      "sesion_id": "2026-06-22",
+      "orden": 33,
+      "titulo": "Punto de servicios sociales",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#34",
+      "sesion_id": "2026-06-22",
+      "orden": 34,
+      "titulo": "Joventut. Expedient: 02020118/2026/48: Convalidació de l’omissió de la funció interventora de l’exp. 020207/2026/15 i continuar amb la tramitació d’aprovació de l’autorització, disposició i el reconeixement de l’obligació per extrajudicial de crèdit de les factures de l’any 2026 pel consum elèctric als equipaments del departament de Joventut (exp. 02020118/2026/48)",
+      "resultado": null,
+      "texto_redactado": "Joventut. Expedient: 02020118/2026/48: Convalidació de l’omissió de la funció interventora de l’exp. 020207/2026/15 i continuar amb la tramitació d’aprovació de l’autorització, disposició i el reconeixement de l’obligació per extrajudicial de crèdit de les factures de l’any 2026 pel consum elèctric als equipaments del departament de Joventut (exp. 02020118/2026/48)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#35",
+      "sesion_id": "2026-06-22",
+      "orden": 35,
+      "titulo": "Esports. Expedient: 02020118/2024/13: Aprovació de l’autorització, disposició i reconeixement de l’obligació per extrajudicial de crèdit de la factura de l’acte de la Nit de l’Esport a l’any 2023 del departament d’Esports",
+      "resultado": null,
+      "texto_redactado": "Esports. Expedient: 02020118/2024/13: Aprovació de l’autorització, disposició i reconeixement de l’obligació per extrajudicial de crèdit de la factura de l’acte de la Nit de l’Esport a l’any 2023 del departament d’Esports",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#36",
+      "sesion_id": "2026-06-22",
+      "orden": 36,
+      "titulo": "Educació. Expedient: 02020118/2026/53: Convalidació de l’omissió de la funció interventora de l’exp. 020207/2026/18 i continuar amb la tramitació d’aprovació de l’autorització, disposició i el reconeixement de l’obligació per extrajudicial de crèdit de les factures de l’any 2026 de consum elèctric als equipaments del Servei d’Educació (exp. 02020118/2026/53)",
+      "resultado": null,
+      "texto_redactado": "Educació. Expedient: 02020118/2026/53: Convalidació de l’omissió de la funció interventora de l’exp. 020207/2026/18 i continuar amb la tramitació d’aprovació de l’autorització, disposició i el reconeixement de l’obligació per extrajudicial de crèdit de les factures de l’any 2026 de consum elèctric als equipaments del Servei d’Educació (exp. 02020118/2026/53)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#37",
+      "sesion_id": "2026-06-22",
+      "orden": 37,
+      "titulo": "Cultura. Expedient: 02020118/2026/39: Aprovació de l’autorització, disposició i reconeixement de l’obligació per extrajudicial de crèdit, de les factures pels serveis realitzats a l’any 2025 al departament de Cultura",
+      "resultado": null,
+      "texto_redactado": "Cultura. Expedient: 02020118/2026/39: Aprovació de l’autorització, disposició i reconeixement de l’obligació per extrajudicial de crèdit, de les factures pels serveis realitzats a l’any 2025 al departament de Cultura",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#38",
+      "sesion_id": "2026-06-22",
+      "orden": 38,
+      "titulo": "Esports. Expedient: 02020118/2026/49: Aprovació de l’autorització, disposició i reconeixement de l’obligació per extrajudicial de crèdit, de les factures pels serveis realitzats als anys 2024,2025 i 2026 al departament d’Esports.",
+      "resultado": null,
+      "texto_redactado": "Esports. Expedient: 02020118/2026/49: Aprovació de l’autorització, disposició i reconeixement de l’obligació per extrajudicial de crèdit, de les factures pels serveis realitzats als anys 2024,2025 i 2026 al departament d’Esports.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    },
+    {
+      "id": "2026-06-22#39",
+      "sesion_id": "2026-06-22",
+      "orden": 39,
+      "titulo": "Cultura. Expedient: 010303/2026/30: Aprovació minuta del conveni de col·laboració entre l'Ajuntament de Sant Pere de Ribes i la Diputació de Barcelona per la gestió integrada a la Xarxa de Biblioteques Municipals, de les Biblioteques d'aquest municipi",
+      "resultado": null,
+      "texto_redactado": "Cultura. Expedient: 010303/2026/30: Aprovació minuta del conveni de col·laboració entre l'Ajuntament de Sant Pere de Ribes i la Diputació de Barcelona per la gestió integrada a la Xarxa de Biblioteques Municipals, de les Biblioteques d'aquest municipi",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:34.743Z"
+      }
+    }
+  ]
+}

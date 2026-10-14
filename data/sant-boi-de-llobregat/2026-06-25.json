@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-boi-de-llobregat",
+    "nombre": "Sant Boi de Llobregat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "820090004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-25",
+    "municipio_id": "sant-boi-de-llobregat",
+    "fecha": "2026-06-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/820090004/2026/ba35d0b3-95c7-4532-8b7d-fabbacce47e4/7%20Sessi%f3%20del%20dia%2025.06.2026%20_SPL260007_.pdf",
+    "hash_contenido": "d68ed309f01e95409e2756de806a2eb11c9d946c356e9cda2c89aa555146d057",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-14T22:48:53.989Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-25#1",
+      "sesion_id": "2026-06-25",
+      "orden": 1,
+      "titulo": "3.1.CIUTAT COHESIONADA I TRANSFORMADORA ",
+      "resultado": null,
+      "texto_redactado": "3.1.CIUTAT COHESIONADA I TRANSFORMADORA ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:48:53.989Z"
+      }
+    }
+  ]
+}

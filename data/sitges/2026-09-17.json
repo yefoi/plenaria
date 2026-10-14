@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sitges",
+    "nombre": "Sitges",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "827040003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-17",
+    "municipio_id": "sitges",
+    "fecha": "2026-09-17",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/827040003/2026/82ae459b-929b-4a76-98c4-c114d5a52876/ACTA%2010%20PLE%20EXTRAORDINARI%2017092026%20(1).pdf",
+    "hash_contenido": "4b89e81cd199a0f4828a892da7ff6a26663488a5d7cb2fb7bc261cdd100013fa",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-14T22:49:14.668Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-17#1",
+      "sesion_id": "2026-09-17",
+      "orden": 1,
+      "titulo": "APROVACIÓ DEL DEBAT SOBRE LA SITUACIÓ DE GOVERNABILITAT DE L'AJUNTAMENT DE SITGES DESPRÉS DEL TRENCAMENT DEL GOVERN MUNICIPAL (1178-",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEL DEBAT SOBRE LA SITUACIÓ DE GOVERNABILITAT DE L'AJUNTAMENT DE SITGES DESPRÉS DEL TRENCAMENT DEL GOVERN MUNICIPAL (1178-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:14.668Z"
+      }
+    }
+  ]
+}

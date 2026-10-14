@@ -1,0 +1,462 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sitges",
+    "nombre": "Sitges",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "827040003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-29",
+    "municipio_id": "sitges",
+    "fecha": "2026-07-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/827040003/2026/69c5094f-dae2-493f-8b76-28d2c8732ede/ACTA%209%20PLE%2029072026.pdf",
+    "hash_contenido": "afda3c1a2aa6ed991832068b1c290a490d12113f5cbee36ba72bf4ec0d5acefd",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-14T22:49:14.670Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-29#1",
+      "sesion_id": "2026-07-29",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L’ESBORRANY DE L’ACTA NòM. 8 DE LA SESSIÓ ORDINÀRIA DEL PLE DE DATA 25 DE JUNY DE 2026 (1032-000008-006308/2026).-",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’ESBORRANY DE L’ACTA NòM. 8 DE LA SESSIÓ ORDINÀRIA DEL PLE DE DATA 25 DE JUNY DE 2026 (1032-000008-006308/2026).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:14.670Z"
+      }
+    },
+    {
+      "id": "2026-07-29#2",
+      "sesion_id": "2026-07-29",
+      "orden": 2,
+      "titulo": "APROVACIÓ DE L’ACTA DE DATA 17 DE JUNY [MATRÍCULA] DELIMITACIÓ DELS TERMES MUNICIPALS DE SITGES I GAVÀ (1004-000001-007085/2022).-",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’ACTA DE DATA 17 DE JUNY [MATRÍCULA] DELIMITACIÓ DELS TERMES MUNICIPALS DE SITGES I GAVÀ (1004-000001-007085/2022).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:14.670Z"
+      }
+    },
+    {
+      "id": "2026-07-29#3",
+      "sesion_id": "2026-07-29",
+      "orden": 3,
+      "titulo": "APROVACIÓ DE LA PROPOSTA DE DESIGNACIÓ DEL JUTGE DE PAU SUBSTITUT DE SITGES (2722-",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE LA PROPOSTA DE DESIGNACIÓ DEL JUTGE DE PAU SUBSTITUT DE SITGES (2722-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:14.670Z"
+      }
+    },
+    {
+      "id": "2026-07-29#4",
+      "sesion_id": "2026-07-29",
+      "orden": 4,
+      "titulo": "APROVACIÓ DE L’ACTUALITZACIÓ DE L’ANNEX DEL PLA ESTRATÈGIC DE SUBVENCIONS 2026-",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’ACTUALITZACIÓ DE L’ANNEX DEL PLA ESTRATÈGIC DE SUBVENCIONS 2026-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:14.670Z"
+      }
+    },
+    {
+      "id": "2026-07-29#5",
+      "sesion_id": "2026-07-29",
+      "orden": 5,
+      "titulo": "APROVACIÓ DE L’EXPEDIENT DE MODIFICACIÓ DE CRÈDIT DEL PRESSUPOST GENERAL",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’EXPEDIENT DE MODIFICACIÓ DE CRÈDIT DEL PRESSUPOST GENERAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:14.670Z"
+      }
+    },
+    {
+      "id": "2026-07-29#6",
+      "sesion_id": "2026-07-29",
+      "orden": 6,
+      "titulo": "APROVACIÓ DE L’EXPEDIENT DE MODIFICACIÓ DE CRÈDIT DEL PRESSUPOST GENERAL",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’EXPEDIENT DE MODIFICACIÓ DE CRÈDIT DEL PRESSUPOST GENERAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:14.670Z"
+      }
+    },
+    {
+      "id": "2026-07-29#7",
+      "sesion_id": "2026-07-29",
+      "orden": 7,
+      "titulo": "APROVACIÓ DE L’EXPEDIENT D’ARRENDAMENT DE L’IMMOBLE ÒPATRONAT D’ACCIÓ SOCIALÓ, SITUAT AL [DIRECCIÓN]-62 DE SITGES (EX. 1448-000002-011229/2024).- REGIDORIA D’EDUCACIÓ",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’EXPEDIENT D’ARRENDAMENT DE L’IMMOBLE ÒPATRONAT D’ACCIÓ SOCIALÓ, SITUAT AL [DIRECCIÓN]-62 DE SITGES (EX. 1448-000002-011229/2024).- REGIDORIA D’EDUCACIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:14.670Z"
+      }
+    },
+    {
+      "id": "2026-07-29#8",
+      "sesion_id": "2026-07-29",
+      "orden": 8,
+      "titulo": "APROVACIÓ INICIAL DEL REGLAMENT DE LES LLARS D’INFANTS MUNICIPALS: LA MOIXIGANGA I EL CERCOLET (1218-000001-006910/2026).- PROPOSTES D’ACORD DELS GRUPS POLÍTICS MUNICIPALS",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ INICIAL DEL REGLAMENT DE LES LLARS D’INFANTS MUNICIPALS: LA MOIXIGANGA I EL CERCOLET (1218-000001-006910/2026).- PROPOSTES D’ACORD DELS GRUPS POLÍTICS MUNICIPALS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "servicios_sociales",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:14.670Z"
+      }
+    },
+    {
+      "id": "2026-07-29#9",
+      "sesion_id": "2026-07-29",
+      "orden": 9,
+      "titulo": "PROPOSTA D'ACORD DEL GRUP POLÍTIC MUNICIPAL DE VOX PER POTENCIAR L'ACTIVITAT POLICIAL DE REPRESSIÓ ACTIVA DE LA DELINQÜÈNCIA PER PART DE LA POLICIA LOCAL DE SITGES (1029-000019-007298/2026).-",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA D'ACORD DEL GRUP POLÍTIC MUNICIPAL DE VOX PER POTENCIAR L'ACTIVITAT POLICIAL DE REPRESSIÓ ACTIVA DE LA DELINQÜÈNCIA PER PART DE LA POLICIA LOCAL DE SITGES (1029-000019-007298/2026).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "seguridad",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:14.670Z"
+      }
+    },
+    {
+      "id": "2026-07-29#10",
+      "sesion_id": "2026-07-29",
+      "orden": 10,
+      "titulo": "PROPOSTA D´ACORD DEL GRUP POLÍTIC MUNICIPAL DE VOX PER A LA REPROVACIÓ DE L’ALCALDESSA AURORA CARBONELL I ABELLA I DEL SEU GOVERN DE ERC I SITGES GI PER LA SITUACIÓ EN QUE ES TROBA EL MUNICIPI I LA MINORIA DE GOVERN ACTUAL (1029-000020-",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA D´ACORD DEL GRUP POLÍTIC MUNICIPAL DE VOX PER A LA REPROVACIÓ DE L’ALCALDESSA AURORA CARBONELL I ABELLA I DEL SEU GOVERN DE ERC I SITGES GI PER LA SITUACIÓ EN QUE ES TROBA EL MUNICIPI I LA MINORIA DE GOVERN ACTUAL (1029-000020-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:14.670Z"
+      }
+    },
+    {
+      "id": "2026-07-29#11",
+      "sesion_id": "2026-07-29",
+      "orden": 11,
+      "titulo": "URGÈNCIES.- DACIONS DE COMPTE",
+      "resultado": null,
+      "texto_redactado": "URGÈNCIES.- DACIONS DE COMPTE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:14.670Z"
+      }
+    },
+    {
+      "id": "2026-07-29#12",
+      "sesion_id": "2026-07-29",
+      "orden": 12,
+      "titulo": "DONAR COMPTE DEL DECRET 2227-2026 D’APROVACIÓ DEL PLA D’ACCIÓ DE CONTROL FINANCER (1754-000026-006836/2026).-",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DEL DECRET 2227-2026 D’APROVACIÓ DEL PLA D’ACCIÓ DE CONTROL FINANCER (1754-000026-006836/2026).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:14.670Z"
+      }
+    },
+    {
+      "id": "2026-07-29#13",
+      "sesion_id": "2026-07-29",
+      "orden": 13,
+      "titulo": "DONAR COMPTE AL PLE DE L’AJUNTAMENT DELS DECRETS D’ALCALDIA I DELS DECRETS EMESOS PELS/LES REGIDORS/ES DELEGATS/DES ENTRE L’1 I EL 30 DE JUNY DE 2026 (1292-000087-",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DE L’AJUNTAMENT DELS DECRETS D’ALCALDIA I DELS DECRETS EMESOS PELS/LES REGIDORS/ES DELEGATS/DES ENTRE L’1 I EL 30 DE JUNY DE 2026 (1292-000087-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:14.670Z"
+      }
+    },
+    {
+      "id": "2026-07-29#14",
+      "sesion_id": "2026-07-29",
+      "orden": 14,
+      "titulo": "DONAR COMPTE DE LES ACTES DE LA JUNTA DE GOVERN LOCAL",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE LES ACTES DE LA JUNTA DE GOVERN LOCAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:14.670Z"
+      }
+    },
+    {
+      "id": "2026-07-29#15",
+      "sesion_id": "2026-07-29",
+      "orden": 15,
+      "titulo": "PRECS I PREGUNTES.-",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:14.670Z"
+      }
+    },
+    {
+      "id": "2026-07-29#16",
+      "sesion_id": "2026-07-29",
+      "orden": 16,
+      "titulo": "Tenir cura dels expedients dels infants per a què estiguin complets i diligenciats d’acord",
+      "resultado": null,
+      "texto_redactado": "Tenir cura dels expedients dels infants per a què estiguin complets i diligenciats d’acord",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:14.670Z"
+      }
+    },
+    {
+      "id": "2026-07-29#17",
+      "sesion_id": "2026-07-29",
+      "orden": 17,
+      "titulo": "Mantenir actualitzat l’arxiu dels documents del centre, diligenciar els documents oficials",
+      "resultado": null,
+      "texto_redactado": "Mantenir actualitzat l’arxiu dels documents del centre, diligenciar els documents oficials",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:14.670Z"
+      }
+    },
+    {
+      "id": "2026-07-29#18",
+      "sesion_id": "2026-07-29",
+      "orden": 18,
+      "titulo": "Controlar el manteniment i la conservació general del centre, de les seves instal·lacions,",
+      "resultado": null,
+      "texto_redactado": "Controlar el manteniment i la conservació general del centre, de les seves instal·lacions,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:14.670Z"
+      }
+    }
+  ]
+}

@@ -20,15 +20,402 @@
     "fuente_url": "https://media.seu-e.cat/acteca/821140003/2026/8a5bf35e-9b74-41d0-b0ec-f53f043305eb/03.%20Extracte%20PLE%2023.07.2026.pdf",
     "hash_contenido": "c6a3154ebd5df6405353e17fe91cd5e97bd6cd40596ba0af9314b00e0a5ad214",
     "estado_ingesta": "clasificada",
-    "actualizada_en": "2026-10-01T07:49:20.863Z"
+    "actualizada_en": "2026-10-14T22:49:12.489Z"
   },
   "puntos": [
     {
       "id": "2026-07-23#1",
       "sesion_id": "2026-07-23",
       "orden": 1,
-      "titulo": "Donar compte de l’informe d’Intervenció sobre l’avaluació del compliment dels",
-      "texto_redactado": "Donar compte de l’informe d’Intervenció sobre l’avaluació del compliment dels",
+      "titulo": "Lectura i aprovació de l'acta anterior, de data 30 de juny de 2026",
+      "resultado": null,
+      "texto_redactado": "Lectura i aprovació de l'acta anterior, de data 30 de juny de 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:12.489Z"
+      }
+    },
+    {
+      "id": "2026-07-23#2",
+      "sesion_id": "2026-07-23",
+      "orden": 2,
+      "titulo": "Guardar un minut de silenci com a mostra de solidaritat amb el poble de",
+      "resultado": null,
+      "texto_redactado": "Guardar un minut de silenci com a mostra de solidaritat amb el poble de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:12.489Z"
+      }
+    },
+    {
+      "id": "2026-07-23#3",
+      "sesion_id": "2026-07-23",
+      "orden": 3,
+      "titulo": "Denúncia contra la violència masclista i solidaritat amb les víctimes de la",
+      "resultado": null,
+      "texto_redactado": "Denúncia contra la violència masclista i solidaritat amb les víctimes de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:12.489Z"
+      }
+    },
+    {
+      "id": "2026-07-23#4",
+      "sesion_id": "2026-07-23",
+      "orden": 4,
+      "titulo": "Presentar l'informe de la Síndica Municipal de Greuges corresponent a l'any",
+      "resultado": null,
+      "texto_redactado": "Presentar l'informe de la Síndica Municipal de Greuges corresponent a l'any",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:12.489Z"
+      }
+    },
+    {
+      "id": "2026-07-23#5",
+      "sesion_id": "2026-07-23",
+      "orden": 5,
+      "titulo": "Aprovar definitivament el compte general del pressupost de l'exercici 2025 (CGP12026000001)",
+      "resultado": null,
+      "texto_redactado": "Aprovar definitivament el compte general del pressupost de l'exercici 2025 (CGP12026000001)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:12.489Z"
+      }
+    },
+    {
+      "id": "2026-07-23#6",
+      "sesion_id": "2026-07-23",
+      "orden": 6,
+      "titulo": "Aprovar l'expedient de modificació de crèdits número 5/2026 i la modificació",
+      "resultado": null,
+      "texto_redactado": "Aprovar l'expedient de modificació de crèdits número 5/2026 i la modificació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:12.489Z"
+      }
+    },
+    {
+      "id": "2026-07-23#7",
+      "sesion_id": "2026-07-23",
+      "orden": 7,
+      "titulo": "Ratificar el Decret d'Alcaldia número 3989/2026, de 26 de març de 2026, i",
+      "resultado": null,
+      "texto_redactado": "Ratificar el Decret d'Alcaldia número 3989/2026, de 26 de març de 2026, i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:12.489Z"
+      }
+    },
+    {
+      "id": "2026-07-23#8",
+      "sesion_id": "2026-07-23",
+      "orden": 8,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:12.489Z"
+      }
+    },
+    {
+      "id": "2026-07-23#9",
+      "sesion_id": "2026-07-23",
+      "orden": 9,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:12.489Z"
+      }
+    },
+    {
+      "id": "2026-07-23#10",
+      "sesion_id": "2026-07-23",
+      "orden": 10,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:12.489Z"
+      }
+    },
+    {
+      "id": "2026-07-23#11",
+      "sesion_id": "2026-07-23",
+      "orden": 11,
+      "titulo": "Concedir el Mocador d'Honor 2026 (G1432026000003)",
+      "resultado": null,
+      "texto_redactado": "Concedir el Mocador d'Honor 2026 (G1432026000003)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:12.489Z"
+      }
+    },
+    {
+      "id": "2026-07-23#12",
+      "sesion_id": "2026-07-23",
+      "orden": 12,
+      "titulo": "No acceptar la sol·licitud de deduccions parcials de la retenció de la",
+      "resultado": null,
+      "texto_redactado": "No acceptar la sol·licitud de deduccions parcials de la retenció de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:12.489Z"
+      }
+    },
+    {
+      "id": "2026-07-23#13",
+      "sesion_id": "2026-07-23",
+      "orden": 13,
+      "titulo": "Resoldre al·legacions i suggeriments presentats durant el tràmit",
+      "resultado": null,
+      "texto_redactado": "Resoldre al·legacions i suggeriments presentats durant el tràmit",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:12.489Z"
+      }
+    },
+    {
+      "id": "2026-07-23#14",
+      "sesion_id": "2026-07-23",
+      "orden": 14,
+      "titulo": "Aprovar inicialment la implantació de la Zona de Baixes Emissions de Sant",
+      "resultado": null,
+      "texto_redactado": "Aprovar inicialment la implantació de la Zona de Baixes Emissions de Sant",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:12.489Z"
+      }
+    },
+    {
+      "id": "2026-07-23#15",
+      "sesion_id": "2026-07-23",
+      "orden": 15,
+      "titulo": "Prorrogar el contracte del servei de neteja d'edificis i dependències",
+      "resultado": null,
+      "texto_redactado": "Prorrogar el contracte del servei de neteja d'edificis i dependències",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:12.489Z"
+      }
+    },
+    {
+      "id": "2026-07-23#16",
+      "sesion_id": "2026-07-23",
+      "orden": 16,
+      "titulo": "Donar compte del Decret d'Alcaldia número 4030/2026, de data 03.07.2026,",
+      "resultado": null,
+      "texto_redactado": "Donar compte del Decret d'Alcaldia número 4030/2026, de data 03.07.2026,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:12.489Z"
+      }
+    },
+    {
+      "id": "2026-07-23#17",
+      "sesion_id": "2026-07-23",
+      "orden": 17,
+      "titulo": "Donar compte de l'informe d'intervenció sobre l'avaluació del compliment",
+      "resultado": null,
+      "texto_redactado": "Donar compte de l'informe d'intervenció sobre l'avaluació del compliment",
       "importe_eur": null,
       "sensible": false,
       "tipo_punto": "dacion_cuenta",
@@ -37,13 +424,109 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.62,
+      "confianza_min": 0.55,
       "revision_manual": true,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T07:49:20.863Z"
+        "fecha": "2026-10-14T22:49:12.489Z"
+      }
+    },
+    {
+      "id": "2026-07-23#18",
+      "sesion_id": "2026-07-23",
+      "orden": 18,
+      "titulo": "Donar compte de les resolucions d'Alcaldia i Regidors/es delegats/des del",
+      "resultado": null,
+      "texto_redactado": "Donar compte de les resolucions d'Alcaldia i Regidors/es delegats/des del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:12.489Z"
+      }
+    },
+    {
+      "id": "2026-07-23#19",
+      "sesion_id": "2026-07-23",
+      "orden": 19,
+      "titulo": "Donar compte de les actes de la Junta de Govern local de dates 17 i 25 de",
+      "resultado": null,
+      "texto_redactado": "Donar compte de les actes de la Junta de Govern local de dates 17 i 25 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:12.489Z"
+      }
+    },
+    {
+      "id": "2026-07-23#20",
+      "sesion_id": "2026-07-23",
+      "orden": 20,
+      "titulo": "Aprovar definitivament el projecte executiu de Reurbanització del passatge",
+      "resultado": null,
+      "texto_redactado": "Aprovar definitivament el projecte executiu de Reurbanització del passatge",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:12.489Z"
+      }
+    },
+    {
+      "id": "2026-07-23#21",
+      "sesion_id": "2026-07-23",
+      "orden": 21,
+      "titulo": "PRECS I PREGUNTES:",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:12.489Z"
       }
     }
   ]

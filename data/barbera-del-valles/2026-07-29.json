@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "barbera-del-valles",
+    "nombre": "Barberà del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "825200000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-29",
+    "municipio_id": "barbera-del-valles",
+    "fecha": "2026-07-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/825200000/2026/833f0e1e-ad4a-4eb5-9990-2c5c1a17c6b0/08.1%20Acta%20PLE%20EXTRAORDINARI%20(29.07.2026).pdf",
+    "hash_contenido": "e1245846f84d5f1728fdbe6fab5dc934594b87bc23bccda63f68e24a1983d4c3",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-14T22:47:41.287Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-29#1",
+      "sesion_id": "2026-07-29",
+      "orden": 1,
+      "titulo": "Ajuntament de Barberà del Vallès ACTA Expedient núm. Òrgan col·legiat",
+      "resultado": null,
+      "texto_redactado": "Ajuntament de Barberà del Vallès ACTA Expedient núm. Òrgan col·legiat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:41.287Z"
+      }
+    }
+  ]
+}

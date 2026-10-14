@@ -1,0 +1,752 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "el-prat-de-llobregat",
+    "nombre": "El Prat de Llobregat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "816910007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-29",
+    "municipio_id": "el-prat-de-llobregat",
+    "fecha": "2026-06-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/816910007/2026/9d5a650a-850b-4c47-8acf-bfbc751c5af0/Esborrany%20acta%2025%20290626.pdf",
+    "hash_contenido": "486cff7ee09db6ae4e20b56434eb0fd3899a8b6ece70dc7d9085b10539f397a5",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-14T22:33:39.798Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-29#1",
+      "sesion_id": "2026-06-29",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió anterior.",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#2",
+      "sesion_id": "2026-06-29",
+      "orden": 2,
+      "titulo": "Despatx Oficial",
+      "resultado": null,
+      "texto_redactado": "Despatx Oficial",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#3",
+      "sesion_id": "2026-06-29",
+      "orden": 3,
+      "titulo": "Encàrrec a la Fundació Rubricatus del servei d'àpats per a l'acte de",
+      "resultado": null,
+      "texto_redactado": "Encàrrec a la Fundació Rubricatus del servei d'àpats per a l'acte de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#4",
+      "sesion_id": "2026-06-29",
+      "orden": 4,
+      "titulo": "Aprovació de la documentació tècnica de la nova sala d'assaig per a grans",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la documentació tècnica de la nova sala d'assaig per a grans",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#5",
+      "sesion_id": "2026-06-29",
+      "orden": 5,
+      "titulo": "Adjudicació de contractes menors (exp. 15332, 17271, 20571, 20636,",
+      "resultado": null,
+      "texto_redactado": "Adjudicació de contractes menors (exp. 15332, 17271, 20571, 20636,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#6",
+      "sesion_id": "2026-06-29",
+      "orden": 6,
+      "titulo": "Adjudicació del contracte de serveis de Casal d'Estiu a la Llar d'infants",
+      "resultado": null,
+      "texto_redactado": "Adjudicació del contracte de serveis de Casal d'Estiu a la Llar d'infants",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#7",
+      "sesion_id": "2026-06-29",
+      "orden": 7,
+      "titulo": "Adjudicació del contracte de subministrament, en règim de lloguer, de",
+      "resultado": null,
+      "texto_redactado": "Adjudicació del contracte de subministrament, en règim de lloguer, de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#8",
+      "sesion_id": "2026-06-29",
+      "orden": 8,
+      "titulo": "Adhesió a l'Acord marc de l'ACM d'obres d'asfaltatge i contractació pels",
+      "resultado": null,
+      "texto_redactado": "Adhesió a l'Acord marc de l'ACM d'obres d'asfaltatge i contractació pels",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#9",
+      "sesion_id": "2026-06-29",
+      "orden": 9,
+      "titulo": "Pròrroga del contracte de serveis d'activitats esportives i de salut al CEM",
+      "resultado": null,
+      "texto_redactado": "Pròrroga del contracte de serveis d'activitats esportives i de salut al CEM",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#10",
+      "sesion_id": "2026-06-29",
+      "orden": 10,
+      "titulo": "Pròrroga del contracte de subministrament de guardons, trofeus i",
+      "resultado": null,
+      "texto_redactado": "Pròrroga del contracte de subministrament de guardons, trofeus i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#11",
+      "sesion_id": "2026-06-29",
+      "orden": 11,
+      "titulo": "Pròrroga del contracte de serveis de la gestió del llibre genealògic,",
+      "resultado": null,
+      "texto_redactado": "Pròrroga del contracte de serveis de la gestió del llibre genealògic,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#12",
+      "sesion_id": "2026-06-29",
+      "orden": 12,
+      "titulo": "Adjudicació de la concessió de domini públic per a l'explotació de punts",
+      "resultado": null,
+      "texto_redactado": "Adjudicació de la concessió de domini públic per a l'explotació de punts",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#13",
+      "sesion_id": "2026-06-29",
+      "orden": 13,
+      "titulo": "Aprovació de l'increment anual del cànon de la concessió per a la gestió i",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'increment anual del cànon de la concessió per a la gestió i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#14",
+      "sesion_id": "2026-06-29",
+      "orden": 14,
+      "titulo": "Pròrroga del contracte d'arrendament del local situat al c. Gavà, número 17",
+      "resultado": null,
+      "texto_redactado": "Pròrroga del contracte d'arrendament del local situat al c. Gavà, número 17",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#15",
+      "sesion_id": "2026-06-29",
+      "orden": 15,
+      "titulo": "Rectificació d'error material en l'acord d'atorgament de subvenció a la",
+      "resultado": null,
+      "texto_redactado": "Rectificació d'error material en l'acord d'atorgament de subvenció a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#16",
+      "sesion_id": "2026-06-29",
+      "orden": 16,
+      "titulo": "Autorització de l'ampliació d'ocupació de la via pública per exercir la venda",
+      "resultado": null,
+      "texto_redactado": "Autorització de l'ampliació d'ocupació de la via pública per exercir la venda",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#17",
+      "sesion_id": "2026-06-29",
+      "orden": 17,
+      "titulo": "Atorgament de subvenció a la Cooperativa Obrera de Viviendas per a",
+      "resultado": null,
+      "texto_redactado": "Atorgament de subvenció a la Cooperativa Obrera de Viviendas per a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#18",
+      "sesion_id": "2026-06-29",
+      "orden": 18,
+      "titulo": "Atorgament de subvenció a la Federació Catalana de Vela per a la promoció",
+      "resultado": null,
+      "texto_redactado": "Atorgament de subvenció a la Federació Catalana de Vela per a la promoció",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#19",
+      "sesion_id": "2026-06-29",
+      "orden": 19,
+      "titulo": "Atorgament de subvenció a l'Associació Esportiva Sporting Alcalá Prat per a",
+      "resultado": null,
+      "texto_redactado": "Atorgament de subvenció a l'Associació Esportiva Sporting Alcalá Prat per a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#20",
+      "sesion_id": "2026-06-29",
+      "orden": 20,
+      "titulo": "Atorgament de subvenció al Club d'Agility Baix Llobregat per a la promoció",
+      "resultado": null,
+      "texto_redactado": "Atorgament de subvenció al Club d'Agility Baix Llobregat per a la promoció",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#21",
+      "sesion_id": "2026-06-29",
+      "orden": 21,
+      "titulo": "Atorgament de subvenció a l'Esplai GISC-Fundesplai per a l'organització del",
+      "resultado": null,
+      "texto_redactado": "Atorgament de subvenció a l'Esplai GISC-Fundesplai per a l'organització del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#22",
+      "sesion_id": "2026-06-29",
+      "orden": 22,
+      "titulo": "Atorgament de subvenció a l'Associació Sant Pollin per a l'organització del",
+      "resultado": null,
+      "texto_redactado": "Atorgament de subvenció a l'Associació Sant Pollin per a l'organització del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#23",
+      "sesion_id": "2026-06-29",
+      "orden": 23,
+      "titulo": "Atorgament de subvenció a la Casa de Andalucía per a l'organització del",
+      "resultado": null,
+      "texto_redactado": "Atorgament de subvenció a la Casa de Andalucía per a l'organització del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#24",
+      "sesion_id": "2026-06-29",
+      "orden": 24,
+      "titulo": "Aprovació de la relació d'ajuts de complement a la tarifa social i de",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la relació d'ajuts de complement a la tarifa social i de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#25",
+      "sesion_id": "2026-06-29",
+      "orden": 25,
+      "titulo": "Atorgament d'ajuts, amb finalitat de caràcter social als àmbits de les",
+      "resultado": null,
+      "texto_redactado": "Atorgament d'ajuts, amb finalitat de caràcter social als àmbits de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#26",
+      "sesion_id": "2026-06-29",
+      "orden": 26,
+      "titulo": "Encàrrec a la Fundació Rubricatus del servei d'àpats per a l'Escola d'Estiu",
+      "resultado": null,
+      "texto_redactado": "Encàrrec a la Fundació Rubricatus del servei d'àpats per a l'Escola d'Estiu",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#27",
+      "sesion_id": "2026-06-29",
+      "orden": 27,
+      "titulo": "Desestimació d'al·legacions i denegació de sol·licitud de llicència",
+      "resultado": null,
+      "texto_redactado": "Desestimació d'al·legacions i denegació de sol·licitud de llicència",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#28",
+      "sesion_id": "2026-06-29",
+      "orden": 28,
+      "titulo": "Determinació de les Festes Locals per a l'any 2027 (exp. 23427/26).",
+      "resultado": null,
+      "texto_redactado": "Determinació de les Festes Locals per a l'any 2027 (exp. 23427/26).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#29",
+      "sesion_id": "2026-06-29",
+      "orden": 29,
+      "titulo": "Imposició de sanció per infracció de la Llei de tinença de gossos",
+      "resultado": null,
+      "texto_redactado": "Imposició de sanció per infracció de la Llei de tinença de gossos",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    },
+    {
+      "id": "2026-06-29#30",
+      "sesion_id": "2026-06-29",
+      "orden": 30,
+      "titulo": "Precs i preguntes.",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:39.798Z"
+      }
+    }
+  ]
+}

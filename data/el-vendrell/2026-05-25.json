@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "el-vendrell",
+    "nombre": "El Vendrell",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4316340003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-25",
+    "municipio_id": "el-vendrell",
+    "fecha": "2026-05-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4316340003/2026/826ddd7c-abf7-4171-8157-8958c7109bff/ACTA%20PLE7%2025-05-2026.pdf",
+    "hash_contenido": "b951d69d37bb95119a02319e8b1a2db2222870b85a12ce2bed12f915c6ea7452",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-14T22:34:42.175Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-25#1",
+      "sesion_id": "2026-05-25",
+      "orden": 1,
+      "titulo": "Morositat",
+      "resultado": null,
+      "texto_redactado": "Morositat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:42.175Z"
+      }
+    },
+    {
+      "id": "2026-05-25#2",
+      "sesion_id": "2026-05-25",
+      "orden": 2,
+      "titulo": "Període Mitjà de Pagament (PMP)",
+      "resultado": null,
+      "texto_redactado": "Període Mitjà de Pagament (PMP)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:42.175Z"
+      }
+    },
+    {
+      "id": "2026-05-25#3",
+      "sesion_id": "2026-05-25",
+      "orden": 3,
+      "titulo": "En data 12 de setembre de 2025, registre E20225033718 la senyora Cristina",
+      "resultado": null,
+      "texto_redactado": "En data 12 de setembre de 2025, registre E20225033718 la senyora Cristina",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:42.175Z"
+      }
+    },
+    {
+      "id": "2026-05-25#4",
+      "sesion_id": "2026-05-25",
+      "orden": 4,
+      "titulo": "En data 22 d’abril de 2026, l’arquitecte tècnic de la Unitat de Planejament i",
+      "resultado": null,
+      "texto_redactado": "En data 22 d’abril de 2026, l’arquitecte tècnic de la Unitat de Planejament i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:42.175Z"
+      }
+    },
+    {
+      "id": "2026-05-25#5",
+      "sesion_id": "2026-05-25",
+      "orden": 5,
+      "titulo": "Torn obert de paraula.",
+      "resultado": null,
+      "texto_redactado": "Torn obert de paraula.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:42.175Z"
+      }
+    }
+  ]
+}

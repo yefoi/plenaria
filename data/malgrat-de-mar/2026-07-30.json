@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/811080001/2026/a7691961-09cd-4da0-80e3-17573703ba5e/Certificat.pdf",
     "hash_contenido": "1d39a728bb75145a381f94058bb429c2f352e2be1298aaa0dbbdee4b2f456a56",
-    "estado_ingesta": "clasificada",
-    "actualizada_en": "2026-10-01T07:50:31.040Z"
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-14T22:48:04.506Z"
   },
   "puntos": [
     {
@@ -28,6 +28,7 @@
       "sesion_id": "2026-07-30",
       "orden": 1,
       "titulo": "Que el Ple de l’Ajuntament en sessió ordinària celebrada el dia 30 de juliol de 2026 adoptà,",
+      "resultado": null,
       "texto_redactado": "Que el Ple de l’Ajuntament en sessió ordinària celebrada el dia 30 de juliol de 2026 adoptà,",
       "importe_eur": null,
       "sensible": false,
@@ -37,13 +38,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.74,
+      "confianza_min": 0.75,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T07:50:31.040Z"
+        "fecha": "2026-10-14T22:48:04.506Z"
       }
     }
   ]

@@ -20,20 +20,70 @@
     "fuente_url": "https://media.seu-e.cat/acteca/2521730008/2026/f9d8fec1-5936-461b-bbfe-1227c3a4c7f1/9.%20ACTA%20PLE%202026-07-30.pdf",
     "hash_contenido": "0a1c148ccfb4c3050ff4e55e7bd2b92bd4a8bc22882eb584c45b1309acdea7a8",
     "estado_ingesta": "clasificada",
-    "actualizada_en": "2026-10-01T07:49:37.454Z"
+    "actualizada_en": "2026-10-14T22:49:24.927Z"
   },
   "puntos": [
     {
       "id": "2026-07-30#1",
       "sesion_id": "2026-07-30",
       "orden": 1,
-      "titulo": "Declarar inversió financerament sostenible, als efectes previstos a la disposició",
-      "texto_redactado": "Declarar inversió financerament sostenible, als efectes previstos a la disposició",
+      "titulo": "APROVACIÓ DE L’ESBORRANY DE L’ACTA DE LA SESSIÓ ANTERIOR CORRESPONENT A L’ORDINÀRIA DEL DIA 2 DE JULIOL DE 2026",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’ESBORRANY DE L’ACTA DE LA SESSIÓ ANTERIOR CORRESPONENT A L’ORDINÀRIA DEL DIA 2 DE JULIOL DE 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#2",
+      "sesion_id": "2026-07-30",
+      "orden": 2,
+      "titulo": "Consta a l’expedient 001/2026/5970/L231 la Memòria valorada per instal·lació",
+      "resultado": null,
+      "texto_redactado": "Consta a l’expedient 001/2026/5970/L231 la Memòria valorada per instal·lació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#3",
+      "sesion_id": "2026-07-30",
+      "orden": 3,
+      "titulo": "EXP. 001/2026/4823/E164 – 2a MODIFICACIÓ DEL CARTIPÀS MUNICIPAL (MANDAT 2026-2027)",
+      "resultado": null,
+      "texto_redactado": "EXP. 001/2026/4823/E164 – 2a MODIFICACIÓ DEL CARTIPÀS MUNICIPAL (MANDAT 2026-2027)",
       "importe_eur": null,
       "sensible": false,
       "tipo_punto": "acuerdo",
       "temas": [
-        "medio_ambiente"
+        "organizacion_institucional",
+        "personal"
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
@@ -43,7 +93,635 @@
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T07:49:37.454Z"
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#4",
+      "sesion_id": "2026-07-30",
+      "orden": 4,
+      "titulo": "EXP. 001/2026/5853/I246 - DECLARACIÓ DE INVERSIÓ FINANCERAMENT SOSTENIBLE – MILLORES DE LA XARXA DE CLAVEGUERAM",
+      "resultado": null,
+      "texto_redactado": "EXP. 001/2026/5853/I246 - DECLARACIÓ DE INVERSIÓ FINANCERAMENT SOSTENIBLE – MILLORES DE LA XARXA DE CLAVEGUERAM",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "presupuesto_impuestos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#5",
+      "sesion_id": "2026-07-30",
+      "orden": 5,
+      "titulo": "Per Decret d'Alcaldia número 2025/323, de data 28 de març de 2025, es va",
+      "resultado": null,
+      "texto_redactado": "Per Decret d'Alcaldia número 2025/323, de data 28 de març de 2025, es va",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#6",
+      "sesion_id": "2026-07-30",
+      "orden": 6,
+      "titulo": "D’acord amb l’establert en el Reial decret llei 15/2025, resulta possible destinar",
+      "resultado": null,
+      "texto_redactado": "D’acord amb l’establert en el Reial decret llei 15/2025, resulta possible destinar",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#7",
+      "sesion_id": "2026-07-30",
+      "orden": 7,
+      "titulo": "D’acord amb les dades que consten en aquest Ajuntament, es va aprovar",
+      "resultado": null,
+      "texto_redactado": "D’acord amb les dades que consten en aquest Ajuntament, es va aprovar",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#8",
+      "sesion_id": "2026-07-30",
+      "orden": 8,
+      "titulo": "La interventora municipal ha emès informe favorable en relació amb el",
+      "resultado": null,
+      "texto_redactado": "La interventora municipal ha emès informe favorable en relació amb el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#9",
+      "sesion_id": "2026-07-30",
+      "orden": 9,
+      "titulo": "A l'expedient s'hi ha incorporat l’informe del tècnic del servei i la memòria",
+      "resultado": null,
+      "texto_redactado": "A l'expedient s'hi ha incorporat l’informe del tècnic del servei i la memòria",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#10",
+      "sesion_id": "2026-07-30",
+      "orden": 10,
+      "titulo": "EXP. 001/2026/6746/I185 APROVACIÓ DE L'ORDENANÇA NòMERO 19",
+      "resultado": null,
+      "texto_redactado": "EXP. 001/2026/6746/I185 APROVACIÓ DE L'ORDENANÇA NòMERO 19",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#11",
+      "sesion_id": "2026-07-30",
+      "orden": 11,
+      "titulo": "EXP. 001/2026/6745/I185 - APROVACIÓ DE LA MODIFICACIÓ DE L'ORDENANÇA",
+      "resultado": null,
+      "texto_redactado": "EXP. 001/2026/6745/I185 - APROVACIÓ DE LA MODIFICACIÓ DE L'ORDENANÇA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#12",
+      "sesion_id": "2026-07-30",
+      "orden": 12,
+      "titulo": "EXP. 001/2026/6545/I185 - DEROGACIÓ PARCIAL DELS PREUS PòBLICS NòM. 22 PER LA VENDA DE LLIBRES I MARXANDATGE",
+      "resultado": null,
+      "texto_redactado": "EXP. 001/2026/6545/I185 - DEROGACIÓ PARCIAL DELS PREUS PòBLICS NòM. 22 PER LA VENDA DE LLIBRES I MARXANDATGE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#13",
+      "sesion_id": "2026-07-30",
+      "orden": 13,
+      "titulo": "EXP. 001/2026/6747/I136 - MODIFICACIÓ DE DRETS RECONEGUTS NETS D'EXERCICIS ANTERIORS - PROGRAMA SINGULARS 21 (21-22)",
+      "resultado": null,
+      "texto_redactado": "EXP. 001/2026/6747/I136 - MODIFICACIÓ DE DRETS RECONEGUTS NETS D'EXERCICIS ANTERIORS - PROGRAMA SINGULARS 21 (21-22)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#14",
+      "sesion_id": "2026-07-30",
+      "orden": 14,
+      "titulo": "EXP. 001/2026/6701/I244 - APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT CORRESPONENT A LES FACTURES DE SERVEIS INTEGRALS DE FINQUES",
+      "resultado": null,
+      "texto_redactado": "EXP. 001/2026/6701/I244 - APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT CORRESPONENT A LES FACTURES DE SERVEIS INTEGRALS DE FINQUES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#15",
+      "sesion_id": "2026-07-30",
+      "orden": 15,
+      "titulo": "EXP. 001/2026/6718/I244 - APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT CORRESPONENT A LES FACTURES DE PLANA FABREGA LLEIDA",
+      "resultado": null,
+      "texto_redactado": "EXP. 001/2026/6718/I244 - APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT CORRESPONENT A LES FACTURES DE PLANA FABREGA LLEIDA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#16",
+      "sesion_id": "2026-07-30",
+      "orden": 16,
+      "titulo": "EXP. 001/2026/6724/I244 - APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT CORRESPONENT A LES FACTURES D'ASSOCIACIÓ ALBA",
+      "resultado": null,
+      "texto_redactado": "EXP. 001/2026/6724/I244 - APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT CORRESPONENT A LES FACTURES D'ASSOCIACIÓ ALBA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#17",
+      "sesion_id": "2026-07-30",
+      "orden": 17,
+      "titulo": "EXP. 001/2026/6771/I244 - APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT CORRESPONENT A LES FACTURES DE CHUBB IBERIA S.L.",
+      "resultado": null,
+      "texto_redactado": "EXP. 001/2026/6771/I244 - APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT CORRESPONENT A LES FACTURES DE CHUBB IBERIA S.L.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#18",
+      "sesion_id": "2026-07-30",
+      "orden": 18,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#19",
+      "sesion_id": "2026-07-30",
+      "orden": 19,
+      "titulo": "Preu públic d’activitats de l’àrea de joventut",
+      "resultado": null,
+      "texto_redactado": "Preu públic d’activitats de l’àrea de joventut",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#20",
+      "sesion_id": "2026-07-30",
+      "orden": 20,
+      "titulo": "Preu públic d’activitats de l’àrea de ciutadania i feminismes",
+      "resultado": null,
+      "texto_redactado": "Preu públic d’activitats de l’àrea de ciutadania i feminismes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#21",
+      "sesion_id": "2026-07-30",
+      "orden": 21,
+      "titulo": "EXP. 001/2026/6358/L231 – APROVACIÓ INICIAL DEL PROJECTE B/E DE RENOVACIÓ PER MILLORAR L'ACCESSIBILITAT DE LA VORERA SUD DEL CARRER COMABRUNA DE TÀRREGA",
+      "resultado": null,
+      "texto_redactado": "EXP. 001/2026/6358/L231 – APROVACIÓ INICIAL DEL PROJECTE B/E DE RENOVACIÓ PER MILLORAR L'ACCESSIBILITAT DE LA VORERA SUD DEL CARRER COMABRUNA DE TÀRREGA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico",
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#22",
+      "sesion_id": "2026-07-30",
+      "orden": 22,
+      "titulo": "EXP 001/2017/2315/E189 - MODIFICACIÓ DE LA CLÀUSULA SEGONA, QUARTA",
+      "resultado": null,
+      "texto_redactado": "EXP 001/2017/2315/E189 - MODIFICACIÓ DE LA CLÀUSULA SEGONA, QUARTA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#23",
+      "sesion_id": "2026-07-30",
+      "orden": 23,
+      "titulo": "EXP. 001/2026/4462/I269 - DONAR RESPOSTA A L’ACLARIMENT SOL·LICITAT PER",
+      "resultado": null,
+      "texto_redactado": "EXP. 001/2026/4462/I269 - DONAR RESPOSTA A L’ACLARIMENT SOL·LICITAT PER",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#24",
+      "sesion_id": "2026-07-30",
+      "orden": 24,
+      "titulo": "EXP. 001/2026/6669/A142 – ADHESIÓ DE L’AJUNTAMENT DE TÀRREGA AL MANIFEST DE MUNICIPIS DAVANT DEL PLATER (PLA TERRITORIAL SECTORIAL PER A LA IMPLANTACIÓ DE LES ENERGIES RENOVABLES A CATALUNYA)",
+      "resultado": null,
+      "texto_redactado": "EXP. 001/2026/6669/A142 – ADHESIÓ DE L’AJUNTAMENT DE TÀRREGA AL MANIFEST DE MUNICIPIS DAVANT DEL PLATER (PLA TERRITORIAL SECTORIAL PER A LA IMPLANTACIÓ DE LES ENERGIES RENOVABLES A CATALUNYA)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#25",
+      "sesion_id": "2026-07-30",
+      "orden": 25,
+      "titulo": "EXP. 001/2026/6762/A142 - MOCIÓ EN SUPORT AL RECONEIXEMENT DELS DRETS LABORALS DELS BOMBERS VOLUNTARIS I PER LA DIGNIFICACIÓ DE LES SEVES",
+      "resultado": null,
+      "texto_redactado": "EXP. 001/2026/6762/A142 - MOCIÓ EN SUPORT AL RECONEIXEMENT DELS DRETS LABORALS DELS BOMBERS VOLUNTARIS I PER LA DIGNIFICACIÓ DE LES SEVES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#26",
+      "sesion_id": "2026-07-30",
+      "orden": 26,
+      "titulo": "EXP. 001/2026/6840/A142 - MOCIÓ SOBRE EL RECONEIXEMENT DELS POBLES AGREGATS COM A SUBJECTES DE LES POLÍTIQUES DE DESENVOLUPAMENT RURAL I DE COHESIÓ TERRITORIAL",
+      "resultado": null,
+      "texto_redactado": "EXP. 001/2026/6840/A142 - MOCIÓ SOBRE EL RECONEIXEMENT DELS POBLES AGREGATS COM A SUBJECTES DE LES POLÍTIQUES DE DESENVOLUPAMENT RURAL I DE COHESIÓ TERRITORIAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#27",
+      "sesion_id": "2026-07-30",
+      "orden": 27,
+      "titulo": "INFORMACIÓ DE LES RESOLUCIONS D’ALCALDIA:",
+      "resultado": null,
+      "texto_redactado": "INFORMACIÓ DE LES RESOLUCIONS D’ALCALDIA:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#28",
+      "sesion_id": "2026-07-30",
+      "orden": 28,
+      "titulo": "INFORMACIÓ DE LES SEGÜENTS ACTES DE LA JUNTA DE GOVERN LOCAL:",
+      "resultado": null,
+      "texto_redactado": "INFORMACIÓ DE LES SEGÜENTS ACTES DE LA JUNTA DE GOVERN LOCAL:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
+      }
+    },
+    {
+      "id": "2026-07-30#29",
+      "sesion_id": "2026-07-30",
+      "orden": 29,
+      "titulo": "PRECS I PREGUNTES",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:24.927Z"
       }
     }
   ]

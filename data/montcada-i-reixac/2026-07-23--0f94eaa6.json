@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "montcada-i-reixac",
+    "nombre": "Montcada i Reixac",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "812520002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-23--0f94eaa6",
+    "municipio_id": "montcada-i-reixac",
+    "fecha": "2026-07-23",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/812520002/2026/f0028a4d-330c-4fb1-9cd2-7449ae7f0cd9/20260723E%20%cdndex%20de%20v%eddeo%20Extraordin%e0ria%20%20del%2023%20de%20juliol%20de%202026.pdf",
+    "hash_contenido": "c49f798d796328ce2c72354bea7d8676806d33f9f14de4e0a62c9c622aeb0936",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-14T22:34:48.966Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-23--0f94eaa6#1",
+      "sesion_id": "2026-07-23--0f94eaa6",
+      "orden": 1,
+      "titulo": "MINUT DE SILENCI VÍCTIMES VIOLÈNCIA DOMÈSTICA I VICÀRIA",
+      "resultado": null,
+      "texto_redactado": "MINUT DE SILENCI VÍCTIMES VIOLÈNCIA DOMÈSTICA I VICÀRIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:48.966Z"
+      }
+    },
+    {
+      "id": "2026-07-23--0f94eaa6#2",
+      "sesion_id": "2026-07-23--0f94eaa6",
+      "orden": 2,
+      "titulo": "DECLARACIÓ DE L’ANY 2027 COM A ANY JOAN CAPELLA, AMB MOTIU DEL CENTENARI DEL NAIXEMENT DE JOAN CAPELLA I ARENAS (58/2026/ALTALC)",
+      "resultado": null,
+      "texto_redactado": "DECLARACIÓ DE L’ANY 2027 COM A ANY JOAN CAPELLA, AMB MOTIU DEL CENTENARI DEL NAIXEMENT DE JOAN CAPELLA I ARENAS (58/2026/ALTALC)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:48.966Z"
+      }
+    }
+  ]
+}

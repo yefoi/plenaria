@@ -1,0 +1,340 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "castelldefels",
+    "nombre": "Castelldefels",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "805690004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-26",
+    "municipio_id": "castelldefels",
+    "fecha": "2026-06-26",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/805690004/2026/0a4eed2e-4383-4943-a6b9-f223d985b3ae/Acta_sessio_%20PLE_260626.pdf",
+    "hash_contenido": "255cf51b92f2d44d2fab8dc5b12ec59b58fb09dcedf986c3e00608bedc366784",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-14T22:33:36.225Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-26#1",
+      "sesion_id": "2026-06-26",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L’ESBORRANY DE L’ACTA DE LA SESSIÓ ORDINÀRIA DE DATA",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’ESBORRANY DE L’ACTA DE LA SESSIÓ ORDINÀRIA DE DATA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:36.225Z"
+      }
+    },
+    {
+      "id": "2026-06-26#2",
+      "sesion_id": "2026-06-26",
+      "orden": 2,
+      "titulo": "DESPATX OFICIAL I COMUNICACIONS REBUDES",
+      "resultado": null,
+      "texto_redactado": "DESPATX OFICIAL I COMUNICACIONS REBUDES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:36.225Z"
+      }
+    },
+    {
+      "id": "2026-06-26#3",
+      "sesion_id": "2026-06-26",
+      "orden": 3,
+      "titulo": "EXPEDIENT 2026/13120. DACIÓ DE COMPTE DE LA PROPOSTA DE MODIFICACIÓ DE DELIMITACIÓ DE LES ÀREES BÀSIQUES DE SALUT DE CASTELLDEFELS PER PART DEL DEPARTAMENT DE SALUT DE LA GENERALITAT DE CATALUNYA",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT 2026/13120. DACIÓ DE COMPTE DE LA PROPOSTA DE MODIFICACIÓ DE DELIMITACIÓ DE LES ÀREES BÀSIQUES DE SALUT DE CASTELLDEFELS PER PART DEL DEPARTAMENT DE SALUT DE LA GENERALITAT DE CATALUNYA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:36.225Z"
+      }
+    },
+    {
+      "id": "2026-06-26#4",
+      "sesion_id": "2026-06-26",
+      "orden": 4,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:36.225Z"
+      }
+    },
+    {
+      "id": "2026-06-26#5",
+      "sesion_id": "2026-06-26",
+      "orden": 5,
+      "titulo": "EXPEDIENT 2026/13049.MODIFICACIÓ DE LA POLÍTICA DE QUALITAT DE L’AJUNTAMENT DE CASTELLDEFELS",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT 2026/13049.MODIFICACIÓ DE LA POLÍTICA DE QUALITAT DE L’AJUNTAMENT DE CASTELLDEFELS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:36.225Z"
+      }
+    },
+    {
+      "id": "2026-06-26#6",
+      "sesion_id": "2026-06-26",
+      "orden": 6,
+      "titulo": "EXPEDIENT 2026/10919. APROVACIÓ DE LES BASES REGULADORES DE LA SETZENA",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT 2026/10919. APROVACIÓ DE LES BASES REGULADORES DE LA SETZENA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:36.225Z"
+      }
+    },
+    {
+      "id": "2026-06-26#7",
+      "sesion_id": "2026-06-26",
+      "orden": 7,
+      "titulo": "EXPEDIENT 2026/13168. APROVACIÓ DE LA PROPOSTA DE LES FESTES LOCALS PER A",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT 2026/13168. APROVACIÓ DE LA PROPOSTA DE LES FESTES LOCALS PER A",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:36.225Z"
+      }
+    },
+    {
+      "id": "2026-06-26#8",
+      "sesion_id": "2026-06-26",
+      "orden": 8,
+      "titulo": "EXPEDIENT 2022/5341. QUARTA PRÒRROGA DEL CONTRACTE DE SERVEI DE MANTENIMENT DEL CLAVEGUERAM MUNICIPAL DINTRE DEL CICLE DE L’AIGUA I DE COORDINADOR DE SEGURETAT I SALUT A OBRES DE CLAVEGUERAM DEL MUNICIPI DE CASTELLDEFELS, LOT-2 PRESTACIÓ DELS SERVEIS TÈCNICS NECESSARIS DE COORDINADOR/A DE SEGURETAT I SALUT PER A LES OBRES DE CLAVEGUERAM",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT 2022/5341. QUARTA PRÒRROGA DEL CONTRACTE DE SERVEI DE MANTENIMENT DEL CLAVEGUERAM MUNICIPAL DINTRE DEL CICLE DE L’AIGUA I DE COORDINADOR DE SEGURETAT I SALUT A OBRES DE CLAVEGUERAM DEL MUNICIPI DE CASTELLDEFELS, LOT-2 PRESTACIÓ DELS SERVEIS TÈCNICS NECESSARIS DE COORDINADOR/A DE SEGURETAT I SALUT PER A LES OBRES DE CLAVEGUERAM",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:36.225Z"
+      }
+    },
+    {
+      "id": "2026-06-26#9",
+      "sesion_id": "2026-06-26",
+      "orden": 9,
+      "titulo": "EXPEDIENT 2026/12459. ADHESIÓ DE L’AJUNTAMENT DE CASTELLDEFELS A LA RED DE ENTIDADES LOCALES POR LA TRANSPARENCIA Y PARTICIPACIÓN CIUDADANA",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT 2026/12459. ADHESIÓ DE L’AJUNTAMENT DE CASTELLDEFELS A LA RED DE ENTIDADES LOCALES POR LA TRANSPARENCIA Y PARTICIPACIÓN CIUDADANA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:36.225Z"
+      }
+    },
+    {
+      "id": "2026-06-26#10",
+      "sesion_id": "2026-06-26",
+      "orden": 10,
+      "titulo": "EXPEDIENT 2026/13294. DECLARACIÓ INSTITUCIONAL DE L’AJUNTAMENT DE CASTELLDEFELS EN COMMEMORACIÓ DEL DIA INTERNACIONAL DE L’ORGULL LGTBI",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT 2026/13294. DECLARACIÓ INSTITUCIONAL DE L’AJUNTAMENT DE CASTELLDEFELS EN COMMEMORACIÓ DEL DIA INTERNACIONAL DE L’ORGULL LGTBI",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:36.225Z"
+      }
+    },
+    {
+      "id": "2026-06-26#11",
+      "sesion_id": "2026-06-26",
+      "orden": 11,
+      "titulo": "CONTROL I FISCALITZACIÓ DE L’ACTUACIÓ DELS ALTRES ÒRGANS DE GOVERN: A) ASSABENTAR EL PLE DE LES PRINCIPALS RESOLUCIONS DE L’ALCALDIA, LA JUNTA DE GOVERN LOCAL I DE LES REGIDORIES DELEGADES PLE 26/06/2026",
+      "resultado": null,
+      "texto_redactado": "CONTROL I FISCALITZACIÓ DE L’ACTUACIÓ DELS ALTRES ÒRGANS DE GOVERN: A) ASSABENTAR EL PLE DE LES PRINCIPALS RESOLUCIONS DE L’ALCALDIA, LA JUNTA DE GOVERN LOCAL I DE LES REGIDORIES DELEGADES PLE 26/06/2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:36.225Z"
+      }
+    },
+    {
+      "id": "2026-06-26#12",
+      "sesion_id": "2026-06-26",
+      "orden": 12,
+      "titulo": "ASSUMPTES D’URGÈNCIA",
+      "resultado": null,
+      "texto_redactado": "ASSUMPTES D’URGÈNCIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:36.225Z"
+      }
+    },
+    {
+      "id": "2026-06-26#13",
+      "sesion_id": "2026-06-26",
+      "orden": 13,
+      "titulo": "PRECS I PREGUNTES DESENVOLUPAMENT DE LA SESSIÓ:",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES DESENVOLUPAMENT DE LA SESSIÓ:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:36.225Z"
+      }
+    }
+  ]
+}

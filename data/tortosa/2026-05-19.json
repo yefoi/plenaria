@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "tortosa",
+    "nombre": "Tortosa",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4315540003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-19",
+    "municipio_id": "tortosa",
+    "fecha": "2026-05-19",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4315540003/2026/543fe804-97ea-491a-98bc-c15846b24e28/01842026-05-19%20Acta%2009%20-%20O%20(dades).pdf",
+    "hash_contenido": "ec205ee8641611522c47c9d345d7c8a50f25b049b0af9ec1f7a8f99b0bfd3fda",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-14T22:49:34.164Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-19#1",
+      "sesion_id": "2026-05-19",
+      "orden": 1,
+      "titulo": "1. Base núm. 45 de les Bases d’execució del pressupost de l’exercici 2025, prorrogades a 2026.",
+      "resultado": null,
+      "texto_redactado": "1. Base núm. 45 de les Bases d’execució del pressupost de l’exercici 2025, prorrogades a 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:49:34.164Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,510 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-pere-de-ribes",
+    "nombre": "Sant Pere de Ribes",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "823100000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-26",
+    "municipio_id": "sant-pere-de-ribes",
+    "fecha": "2026-05-26",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/823100000/2026/bcedeb8f-8fe2-449e-83a6-ec8380085ab0/acta%20Ple260526%20revisada.docx",
+    "hash_contenido": "a7a48edb14f2e22625d652bf6aa3abcae9080519592059aa7f911ed18e523ef4",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-14T22:35:40.195Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-26#2",
+      "sesion_id": "2026-05-26",
+      "orden": 2,
+      "titulo": "Secretaria. Expedient: 01020105/2026/2 :Presa possessió regidor",
+      "resultado": null,
+      "texto_redactado": "Secretaria. Expedient: 01020105/2026/2 :Presa possessió regidor",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:40.195Z"
+      }
+    },
+    {
+      "id": "2026-05-26#3",
+      "sesion_id": "2026-05-26",
+      "orden": 3,
+      "titulo": "Donar compte:",
+      "resultado": null,
+      "texto_redactado": "Donar compte:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:40.195Z"
+      }
+    },
+    {
+      "id": "2026-05-26#4",
+      "sesion_id": "2026-05-26",
+      "orden": 4,
+      "titulo": "Governació. Expedient: 02020118/2026/7 : Aprovació de la despesa per extrajudicial de crèdit les factures i aprovar la disposició i obligació.",
+      "resultado": null,
+      "texto_redactado": "Governació. Expedient: 02020118/2026/7 : Aprovació de la despesa per extrajudicial de crèdit les factures i aprovar la disposició i obligació.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:40.195Z"
+      }
+    },
+    {
+      "id": "2026-05-26#5",
+      "sesion_id": "2026-05-26",
+      "orden": 5,
+      "titulo": "Governació. Expedient: 02020118/2026/6: Aprovar de la despesa per extrajudicial de crèdit les factures i aprovar la autorització, disposició i obligació.",
+      "resultado": null,
+      "texto_redactado": "Governació. Expedient: 02020118/2026/6: Aprovar de la despesa per extrajudicial de crèdit les factures i aprovar la autorització, disposició i obligació.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:40.195Z"
+      }
+    },
+    {
+      "id": "2026-05-26#6",
+      "sesion_id": "2026-05-26",
+      "orden": 6,
+      "titulo": "Alcaldia - Presidència. Expedient: 010902/2026/10 : Aprovació Normes Reguladores i Calendari Pressupostos Participatius 2026",
+      "resultado": null,
+      "texto_redactado": "Alcaldia - Presidència. Expedient: 010902/2026/10 : Aprovació Normes Reguladores i Calendari Pressupostos Participatius 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:40.195Z"
+      }
+    },
+    {
+      "id": "2026-05-26#7",
+      "sesion_id": "2026-05-26",
+      "orden": 7,
+      "titulo": "Territori. Expedient: 02020118/2026/26 : Aprovar l’autorització, disposició i el reconeixement de l’obligació, per extrajudicial de crèdit de la liquidació d’esporga dels mesos de novembre i desembre de 2025.",
+      "resultado": null,
+      "texto_redactado": "Territori. Expedient: 02020118/2026/26 : Aprovar l’autorització, disposició i el reconeixement de l’obligació, per extrajudicial de crèdit de la liquidació d’esporga dels mesos de novembre i desembre de 2025.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:40.195Z"
+      }
+    },
+    {
+      "id": "2026-05-26#8",
+      "sesion_id": "2026-05-26",
+      "orden": 8,
+      "titulo": "Territori. Expedient: 02020118/2026/16 : Aprovar l’autorització, disposició i el reconeixement de l’obligació, per extrajudicial de crèdit de l'obligació de les factures 12024004278 i 12024004283, emeses per CATALANA DE SEGURETAT I COMUNICACIONS, S.L.",
+      "resultado": null,
+      "texto_redactado": "Territori. Expedient: 02020118/2026/16 : Aprovar l’autorització, disposició i el reconeixement de l’obligació, per extrajudicial de crèdit de l'obligació de les factures 12024004278 i 12024004283, emeses per CATALANA DE SEGURETAT I COMUNICACIONS, S.L.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:40.195Z"
+      }
+    },
+    {
+      "id": "2026-05-26#9",
+      "sesion_id": "2026-05-26",
+      "orden": 9,
+      "titulo": "Territori. Expedient: 02020118/2025/210 : Aprovar l’autorització, disposició i el reconeixement de l’obligació, per extrajudicial de crèdit de l'obligació de les factures 12024003396 12024003386 12024003389 12024003394 12024003387 12024003606 12024003611 12024003619 i 12024003618, emeses per CATALANA DE SEGURETAT I COMUNICACIONS, S.L.",
+      "resultado": null,
+      "texto_redactado": "Territori. Expedient: 02020118/2025/210 : Aprovar l’autorització, disposició i el reconeixement de l’obligació, per extrajudicial de crèdit de l'obligació de les factures 12024003396 12024003386 12024003389 12024003394 12024003387 12024003606 12024003611 12024003619 i 12024003618, emeses per CATALANA DE SEGURETAT I COMUNICACIONS, S.L.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:40.195Z"
+      }
+    },
+    {
+      "id": "2026-05-26#10",
+      "sesion_id": "2026-05-26",
+      "orden": 10,
+      "titulo": "Territori. Expedient: 02020118/2025/208 : Aprovar l’autorització, disposició i el reconeixement de l’obligació, per extrajudicial de crèdit de l'obligació de les factures 12024003178 12024003182 12024003505 12024003508 i 12024003509, emeses per ENDESA ENERGIA, SAU.",
+      "resultado": null,
+      "texto_redactado": "Territori. Expedient: 02020118/2025/208 : Aprovar l’autorització, disposició i el reconeixement de l’obligació, per extrajudicial de crèdit de l'obligació de les factures 12024003178 12024003182 12024003505 12024003508 i 12024003509, emeses per ENDESA ENERGIA, SAU.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:40.195Z"
+      }
+    },
+    {
+      "id": "2026-05-26#11",
+      "sesion_id": "2026-05-26",
+      "orden": 11,
+      "titulo": "Territori. Expedient: 02020118/2025/69 : Aprovar l’autorització, disposició i el reconeixement de l’obligació, per extrajudicial de crèdit, de l'obligació de les factures: 12024005397 12024005398 i 12024005399, emeses al 2024 per ENDESA ENERGIA, SAU.",
+      "resultado": null,
+      "texto_redactado": "Territori. Expedient: 02020118/2025/69 : Aprovar l’autorització, disposició i el reconeixement de l’obligació, per extrajudicial de crèdit, de l'obligació de les factures: 12024005397 12024005398 i 12024005399, emeses al 2024 per ENDESA ENERGIA, SAU.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:40.195Z"
+      }
+    },
+    {
+      "id": "2026-05-26#12",
+      "sesion_id": "2026-05-26",
+      "orden": 12,
+      "titulo": "Territori. Expedient: 01040603/2026/12 : Adhesió a la primera pròrroga del contracte 2023.04.A02 de l’acord marc de subministrament d’energia elèctrica amb destinació a les entitats locals de Catalunya (exp. 2023.04). LOT-2",
+      "resultado": null,
+      "texto_redactado": "Territori. Expedient: 01040603/2026/12 : Adhesió a la primera pròrroga del contracte 2023.04.A02 de l’acord marc de subministrament d’energia elèctrica amb destinació a les entitats locals de Catalunya (exp. 2023.04). LOT-2",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:40.195Z"
+      }
+    },
+    {
+      "id": "2026-05-26#13",
+      "sesion_id": "2026-05-26",
+      "orden": 13,
+      "titulo": "Territori. Expedient: 020207/2024/35 : Convalidar l’omissió de la funció interventora referent a l’aprovació de les factures emeses per Catalana de Seguretat i Comunicacions corresponents a manteniment d’instal·lacions en els edificis municipals i continuar amb el procediment i amb la resta d’actuacions que, si s’escau, procedeixin per tal que es pugui aprovar el reconeixement de les obligacions corresponents.",
+      "resultado": null,
+      "texto_redactado": "Territori. Expedient: 020207/2024/35 : Convalidar l’omissió de la funció interventora referent a l’aprovació de les factures emeses per Catalana de Seguretat i Comunicacions corresponents a manteniment d’instal·lacions en els edificis municipals i continuar amb el procediment i amb la resta d’actuacions que, si s’escau, procedeixin per tal que es pugui aprovar el reconeixement de les obligacions corresponents.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:40.195Z"
+      }
+    },
+    {
+      "id": "2026-05-26#14",
+      "sesion_id": "2026-05-26",
+      "orden": 14,
+      "titulo": "Territori. Expedient: 010303/2025/56: Modificar aplicacions pressupostàries del conveni per l’encomana de gestió, amb el Consell Comarcal del Garraf, per als serveis d’OLH i Borsa de Mediació 2025-2027.",
+      "resultado": null,
+      "texto_redactado": "Territori. Expedient: 010303/2025/56: Modificar aplicacions pressupostàries del conveni per l’encomana de gestió, amb el Consell Comarcal del Garraf, per als serveis d’OLH i Borsa de Mediació 2025-2027.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:40.195Z"
+      }
+    },
+    {
+      "id": "2026-05-26#15",
+      "sesion_id": "2026-05-26",
+      "orden": 15,
+      "titulo": "Territori. Expedient: 010303/2026/3 : Aprovar el conveni de col·laboració amb Fundació Hàbitat 3 (Any 2026).",
+      "resultado": null,
+      "texto_redactado": "Territori. Expedient: 010303/2026/3 : Aprovar el conveni de col·laboració amb Fundació Hàbitat 3 (Any 2026).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:40.195Z"
+      }
+    },
+    {
+      "id": "2026-05-26#16",
+      "sesion_id": "2026-05-26",
+      "orden": 16,
+      "titulo": "Territori. Expedient: 02020118/2025/261 : Aprovar la validació de la despesa a efectes econòmics i l’autorització, disposició i el reconeixement de l’obligació, per extrajudicial de crèdit, de la factura amb codi 12024003365 emesa per ENDESA ENERGIA SAU.",
+      "resultado": null,
+      "texto_redactado": "Territori. Expedient: 02020118/2025/261 : Aprovar la validació de la despesa a efectes econòmics i l’autorització, disposició i el reconeixement de l’obligació, per extrajudicial de crèdit, de la factura amb codi 12024003365 emesa per ENDESA ENERGIA SAU.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:40.195Z"
+      }
+    },
+    {
+      "id": "2026-05-26#17",
+      "sesion_id": "2026-05-26",
+      "orden": 17,
+      "titulo": "Territori. Expedient: 02020118/2026/12: Aprovar la validació de la despesa a efectes econòmics i aprovar l'autorització, disposició i el reconeixement de l'obligació per extrajudicial de crèdit de la factura 12026000100 emesa per ENDESA ENERGIA, SAU.",
+      "resultado": null,
+      "texto_redactado": "Territori. Expedient: 02020118/2026/12: Aprovar la validació de la despesa a efectes econòmics i aprovar l'autorització, disposició i el reconeixement de l'obligació per extrajudicial de crèdit de la factura 12026000100 emesa per ENDESA ENERGIA, SAU.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:40.195Z"
+      }
+    },
+    {
+      "id": "2026-05-26#18",
+      "sesion_id": "2026-05-26",
+      "orden": 18,
+      "titulo": "Territori. Expedient: 020207/2026/8: Convalidar l’omissió de la funció interventora referent a l’aprovació de les factures emeses per Factor Energia corresponents a l’àrea d’Habitatge i continuar amb el procediment i amb la resta d’actuacions que, si s’escau, procedeixin per tal que es puguin aprovar el reconeixement de les obligacions corresponents",
+      "resultado": null,
+      "texto_redactado": "Territori. Expedient: 020207/2026/8: Convalidar l’omissió de la funció interventora referent a l’aprovació de les factures emeses per Factor Energia corresponents a l’àrea d’Habitatge i continuar amb el procediment i amb la resta d’actuacions que, si s’escau, procedeixin per tal que es puguin aprovar el reconeixement de les obligacions corresponents",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:40.195Z"
+      }
+    },
+    {
+      "id": "2026-05-26#19",
+      "sesion_id": "2026-05-26",
+      "orden": 19,
+      "titulo": "Cultura. Expedient: 02020118/2025/150: Aprovació expedient extrajudicial de crèdit del Procediment abreujat 597/2022-A del Jutjat Contenciós Administratiu núm. 1 de Barcelona sobre l’execució forçosa, requeriment d’import i costes de la sentència entre UTE TEATRE i l’Ajuntament de Sant Pere de Ribes.",
+      "resultado": null,
+      "texto_redactado": "Cultura. Expedient: 02020118/2025/150: Aprovació expedient extrajudicial de crèdit del Procediment abreujat 597/2022-A del Jutjat Contenciós Administratiu núm. 1 de Barcelona sobre l’execució forçosa, requeriment d’import i costes de la sentència entre UTE TEATRE i l’Ajuntament de Sant Pere de Ribes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:40.195Z"
+      }
+    },
+    {
+      "id": "2026-05-26#20",
+      "sesion_id": "2026-05-26",
+      "orden": 20,
+      "titulo": "Punto de servicios sociales",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:40.195Z"
+      }
+    },
+    {
+      "id": "2026-05-26#21",
+      "sesion_id": "2026-05-26",
+      "orden": 21,
+      "titulo": "Territori. Expedient: 02020118/2026/4: Aprovar l’autorització, disposició i el reconeixement de l’obligació, per extrajudicial de crèdit, de la factura 12025003445 emesa per Alicia Pascasio Gonzalo.",
+      "resultado": null,
+      "texto_redactado": "Territori. Expedient: 02020118/2026/4: Aprovar l’autorització, disposició i el reconeixement de l’obligació, per extrajudicial de crèdit, de la factura 12025003445 emesa per Alicia Pascasio Gonzalo.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:40.195Z"
+      }
+    }
+  ]
+}

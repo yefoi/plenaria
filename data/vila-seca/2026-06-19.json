@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vila-seca",
+    "nombre": "Vila-seca",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4317110007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-19",
+    "municipio_id": "vila-seca",
+    "fecha": "2026-06-19",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4317110007/2026/57f89f25-af1a-4848-9f0e-ce1c271d2ea7/Acta%20Ple%2019-06-2026.pdf",
+    "hash_contenido": "88d673cb301b126840dfdec6f784e9774d170141d66080d041d1ffee6949dcaa",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-14T22:36:03.157Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-19#1",
+      "sesion_id": "2026-06-19",
+      "orden": 1,
+      "titulo": "Josep Gómez Belluga",
+      "resultado": null,
+      "texto_redactado": "Josep Gómez Belluga",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:36:03.157Z"
+      }
+    },
+    {
+      "id": "2026-06-19#2",
+      "sesion_id": "2026-06-19",
+      "orden": 2,
+      "titulo": "Mònica Bernal de Barbarà",
+      "resultado": null,
+      "texto_redactado": "Mònica Bernal de Barbarà",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:36:03.157Z"
+      }
+    },
+    {
+      "id": "2026-06-19#3",
+      "sesion_id": "2026-06-19",
+      "orden": 3,
+      "titulo": "Aprovat l'acord corresponent, serà remès al Jutge de Primera Instància i Instrucció, qui",
+      "resultado": null,
+      "texto_redactado": "Aprovat l'acord corresponent, serà remès al Jutge de Primera Instància i Instrucció, qui",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:36:03.157Z"
+      }
+    },
+    {
+      "id": "2026-06-19#4",
+      "sesion_id": "2026-06-19",
+      "orden": 4,
+      "titulo": "Si en el termini de tres mesos, a comptar des que es produís la vacant en un jutjat de pau,",
+      "resultado": null,
+      "texto_redactado": "Si en el termini de tres mesos, a comptar des que es produís la vacant en un jutjat de pau,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:36:03.157Z"
+      }
+    },
+    {
+      "id": "2026-06-19#5",
+      "sesion_id": "2026-06-19",
+      "orden": 5,
+      "titulo": "Els Jutges de Pau prestaran jurament davant el Jutge de Primera Instància i Instrucció i",
+      "resultado": null,
+      "texto_redactado": "Els Jutges de Pau prestaran jurament davant el Jutge de Primera Instància i Instrucció i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:36:03.157Z"
+      }
+    }
+  ]
+}

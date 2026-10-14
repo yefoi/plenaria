@@ -1,0 +1,219 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-joan-despi",
+    "nombre": "Sant Joan Despí",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "821720002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-26",
+    "municipio_id": "sant-joan-despi",
+    "fecha": "2026-06-26",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/821720002/2026/7757f97c-3ac6-4496-b0ed-e47dbbe4532f/Acta%20Ple%2026062026.pdf",
+    "hash_contenido": "b3cbfa837241ea840e127770c9eb4ff293d8436c7a05c175fa9a8912c90bf495",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-14T22:35:13.679Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-26#1",
+      "sesion_id": "2026-06-26",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta de la sessió ordinària del 28 de maig de 2026.",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’acta de la sessió ordinària del 28 de maig de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:13.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#2",
+      "sesion_id": "2026-06-26",
+      "orden": 2,
+      "titulo": "Donar compte i ratificar, si s’escau, de les Resolucions d’Alcaldia i els acords de",
+      "resultado": null,
+      "texto_redactado": "Donar compte i ratificar, si s’escau, de les Resolucions d’Alcaldia i els acords de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:13.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#3",
+      "sesion_id": "2026-06-26",
+      "orden": 3,
+      "titulo": "Dictamen d’aprovació de la pròrroga i de l’addenda al conveni de col·laboració",
+      "resultado": null,
+      "texto_redactado": "Dictamen d’aprovació de la pròrroga i de l’addenda al conveni de col·laboració",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:13.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#4",
+      "sesion_id": "2026-06-26",
+      "orden": 4,
+      "titulo": "D’acord amb el pacte setè del Conveni, la Comissió de Seguiment és l’òrgan",
+      "resultado": null,
+      "texto_redactado": "D’acord amb el pacte setè del Conveni, la Comissió de Seguiment és l’òrgan",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:13.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#5",
+      "sesion_id": "2026-06-26",
+      "orden": 5,
+      "titulo": "L’addenda de pròrroga del conveni afecta a la vigència del conveni signat el passat",
+      "resultado": null,
+      "texto_redactado": "L’addenda de pròrroga del conveni afecta a la vigència del conveni signat el passat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:13.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#6",
+      "sesion_id": "2026-06-26",
+      "orden": 6,
+      "titulo": "D’acord amb l’article 111.2 de l’esmentada Llei 26/2010, del 3 d’agost, donat que el",
+      "resultado": null,
+      "texto_redactado": "D’acord amb l’article 111.2 de l’esmentada Llei 26/2010, del 3 d’agost, donat que el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:13.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#7",
+      "sesion_id": "2026-06-26",
+      "orden": 7,
+      "titulo": "Els acord que suposin una transferència de funcions o activitats de l’Ajuntament a una",
+      "resultado": null,
+      "texto_redactado": "Els acord que suposin una transferència de funcions o activitats de l’Ajuntament a una",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:13.679Z"
+      }
+    },
+    {
+      "id": "2026-06-26#8",
+      "sesion_id": "2026-06-26",
+      "orden": 8,
+      "titulo": "L’article 8.1.f) de la Llei 19/2014, de 29 de desembre, de transparència, accés a la",
+      "resultado": null,
+      "texto_redactado": "L’article 8.1.f) de la Llei 19/2014, de 29 de desembre, de transparència, accés a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:35:13.679Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-feliu-de-guixols",
+    "nombre": "Sant Feliu de Guíxols",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1716090004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-19",
+    "municipio_id": "sant-feliu-de-guixols",
+    "fecha": "2026-05-19",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1716090004/2026/c6a743aa-de4b-4835-9628-527edec38975/Acta_Ple_10_2026_signada.pdf",
+    "hash_contenido": "ab67fd50718360f69b32dbddab1ec7fa859dbbc25836cc2658335c45c2506a17",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-14T22:36:12.688Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-19#1",
+      "sesion_id": "2026-05-19",
+      "orden": 1,
+      "titulo": "Objecte del contracte. L’objecte del present contracte és la gestió esportiva,",
+      "resultado": null,
+      "texto_redactado": "Objecte del contracte. L’objecte del present contracte és la gestió esportiva,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:36:12.688Z"
+      }
+    },
+    {
+      "id": "2026-05-19#2",
+      "sesion_id": "2026-05-19",
+      "orden": 2,
+      "titulo": "Tipus, forma i procediment d’adjudicació. Aquest contracte es classifica com",
+      "resultado": null,
+      "texto_redactado": "Tipus, forma i procediment d’adjudicació. Aquest contracte es classifica com",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:36:12.688Z"
+      }
+    },
+    {
+      "id": "2026-05-19#3",
+      "sesion_id": "2026-05-19",
+      "orden": 3,
+      "titulo": "Pressupost base de licitació. El pressupost base de licitació del contracte és",
+      "resultado": null,
+      "texto_redactado": "Pressupost base de licitació. El pressupost base de licitació del contracte és",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:36:12.688Z"
+      }
+    },
+    {
+      "id": "2026-05-19#4",
+      "sesion_id": "2026-05-19",
+      "orden": 4,
+      "titulo": "Durada del contracte. La concessió tindrà una durada de 10 anys, a partir de",
+      "resultado": null,
+      "texto_redactado": "Durada del contracte. La concessió tindrà una durada de 10 anys, a partir de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:36:12.688Z"
+      }
+    },
+    {
+      "id": "2026-05-19#5",
+      "sesion_id": "2026-05-19",
+      "orden": 5,
+      "titulo": "Règim de garanties. No s’estableix garantia provisional. El licitador proposat",
+      "resultado": null,
+      "texto_redactado": "Règim de garanties. No s’estableix garantia provisional. El licitador proposat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:36:12.688Z"
+      }
+    },
+    {
+      "id": "2026-05-19#6",
+      "sesion_id": "2026-05-19",
+      "orden": 6,
+      "titulo": "Solvència / classificació empresarial. Podran accedir a la licitació les",
+      "resultado": null,
+      "texto_redactado": "Solvència / classificació empresarial. Podran accedir a la licitació les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:36:12.688Z"
+      }
+    },
+    {
+      "id": "2026-05-19#7",
+      "sesion_id": "2026-05-19",
+      "orden": 7,
+      "titulo": "Termini de presentació d’ofertes. S’estableix un termini de 30 dies naturals, a",
+      "resultado": null,
+      "texto_redactado": "Termini de presentació d’ofertes. S’estableix un termini de 30 dies naturals, a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:36:12.688Z"
+      }
+    },
+    {
+      "id": "2026-05-19#8",
+      "sesion_id": "2026-05-19",
+      "orden": 8,
+      "titulo": "Perfil de contractant. Tota la documentació i actes que afectin al contracte es",
+      "resultado": null,
+      "texto_redactado": "Perfil de contractant. Tota la documentació i actes que afectin al contracte es",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:36:12.688Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1348 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "cerdanyola-del-valles",
+    "nombre": "Cerdanyola del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "826650006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-28",
+    "municipio_id": "cerdanyola-del-valles",
+    "fecha": "2026-05-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/826650006/2026/30ed462f-decf-4b02-ba11-11b85c5a1c1e/ACTA%20SESSI%d3%20PLE%2028-5-2026.compressed.pdf",
+    "hash_contenido": "eea31cc9218ee8c677a1b7d7481f0b528af3babc84e0b200389311901666ae5e",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-14T22:34:11.602Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-28#1",
+      "sesion_id": "2026-05-28",
+      "orden": 1,
+      "titulo": "APROVACIÓ ACTA SESSIÓ ANTERIOR",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ ACTA SESSIÓ ANTERIOR",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#2",
+      "sesion_id": "2026-05-28",
+      "orden": 2,
+      "titulo": "INFORMACIÓ DELS DECRETS D'ALCALDIA I DELS REGIDORS I REGIDORES DELEGATS I DELS ACORDS DE LA JUNTA DE GOVERN LOCAL",
+      "resultado": null,
+      "texto_redactado": "INFORMACIÓ DELS DECRETS D'ALCALDIA I DELS REGIDORS I REGIDORES DELEGATS I DELS ACORDS DE LA JUNTA DE GOVERN LOCAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#3",
+      "sesion_id": "2026-05-28",
+      "orden": 3,
+      "titulo": "DONAR COMPTE AL PLE DE L'EXECUCIÓ PRESSUPOSTÀRIA, PERÍODE MIG PAGAMENT I",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DE L'EXECUCIÓ PRESSUPOSTÀRIA, PERÍODE MIG PAGAMENT I",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#4",
+      "sesion_id": "2026-05-28",
+      "orden": 4,
+      "titulo": "RESTAR ASSABENTATS DE LA RESOLUCIÓ DEL TRIBUNAL CATALÀ DE CONTRACTES DEL",
+      "resultado": null,
+      "texto_redactado": "RESTAR ASSABENTATS DE LA RESOLUCIÓ DEL TRIBUNAL CATALÀ DE CONTRACTES DEL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#5",
+      "sesion_id": "2026-05-28",
+      "orden": 5,
+      "titulo": "APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI D’ESPORTS A FAVOR DEL PROVEÏDOR FUNDACIÓ CATALANA DE L'ESPLAI EXPEDIENT",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI D’ESPORTS A FAVOR DEL PROVEÏDOR FUNDACIÓ CATALANA DE L'ESPLAI EXPEDIENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#6",
+      "sesion_id": "2026-05-28",
+      "orden": 6,
+      "titulo": "APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI D’ESPORTS A FAVOR DEL PROVEÏDOR CLUB ESPORTIU HORITZÓ 1994 EXPEDIENT",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI D’ESPORTS A FAVOR DEL PROVEÏDOR CLUB ESPORTIU HORITZÓ 1994 EXPEDIENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#7",
+      "sesion_id": "2026-05-28",
+      "orden": 7,
+      "titulo": "APROVACIÓ DEL RECONEIXEMENT MUNICIPAL A L’ASSOCIACIÓ DE VOLUNTARIS DE PROTECCIÓ CIVIL DE CERDANYOLA DEL VALLÈS EXPEDIENT 313/2026/0003.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEL RECONEIXEMENT MUNICIPAL A L’ASSOCIACIÓ DE VOLUNTARIS DE PROTECCIÓ CIVIL DE CERDANYOLA DEL VALLÈS EXPEDIENT 313/2026/0003.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#8",
+      "sesion_id": "2026-05-28",
+      "orden": 8,
+      "titulo": "RESOLUCIÓ D’AL·LEGACIONS I APROVACIÓ DE L’OPOSICIÓ DE L’AJUNTAMENT DE CERDANYOLA DEL VALLÈS A L’ALTERACIÓ DEL TERME MUNICIPAL DE CERDANYOLA DEL VALLÈS PROMOGUDA PER LA COMISSIÓ BELLATERRA-SANT CUGAT EXPEDIENT",
+      "resultado": null,
+      "texto_redactado": "RESOLUCIÓ D’AL·LEGACIONS I APROVACIÓ DE L’OPOSICIÓ DE L’AJUNTAMENT DE CERDANYOLA DEL VALLÈS A L’ALTERACIÓ DEL TERME MUNICIPAL DE CERDANYOLA DEL VALLÈS PROMOGUDA PER LA COMISSIÓ BELLATERRA-SANT CUGAT EXPEDIENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#9",
+      "sesion_id": "2026-05-28",
+      "orden": 9,
+      "titulo": "El Tribunal Superior de Jusícia de Catalunya va conirmar la sentència anterior",
+      "resultado": null,
+      "texto_redactado": "El Tribunal Superior de Jusícia de Catalunya va conirmar la sentència anterior",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#10",
+      "sesion_id": "2026-05-28",
+      "orden": 10,
+      "titulo": "No obstant la desesimació del recurs d’apel·lació, el Tribunal Superior de",
+      "resultado": null,
+      "texto_redactado": "No obstant la desesimació del recurs d’apel·lació, el Tribunal Superior de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#11",
+      "sesion_id": "2026-05-28",
+      "orden": 11,
+      "titulo": "En data 27 de gener de 2025, el Jutjat Contenciós Administraiu va comunicar a",
+      "resultado": null,
+      "texto_redactado": "En data 27 de gener de 2025, el Jutjat Contenciós Administraiu va comunicar a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#12",
+      "sesion_id": "2026-05-28",
+      "orden": 12,
+      "titulo": "El Ple de l’Ajuntament, en sessió de data 27 de març de 2025, va adoptar els",
+      "resultado": null,
+      "texto_redactado": "El Ple de l’Ajuntament, en sessió de data 27 de març de 2025, va adoptar els",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#13",
+      "sesion_id": "2026-05-28",
+      "orden": 13,
+      "titulo": "Aqueixos acords es van noiicar a la Comissió Promotora en data 1 d’abril de",
+      "resultado": null,
+      "texto_redactado": "Aqueixos acords es van noiicar a la Comissió Promotora en data 1 d’abril de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#14",
+      "sesion_id": "2026-05-28",
+      "orden": 14,
+      "titulo": "En data 8 d’abril de 2025, el president de la Comissió Promotora va presentar",
+      "resultado": null,
+      "texto_redactado": "En data 8 d’abril de 2025, el president de la Comissió Promotora va presentar",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#15",
+      "sesion_id": "2026-05-28",
+      "orden": 15,
+      "titulo": "En data 8 de maig de 2025 va tenir entrada a l’Ajuntament l’informe sobre",
+      "resultado": null,
+      "texto_redactado": "En data 8 de maig de 2025 va tenir entrada a l’Ajuntament l’informe sobre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#16",
+      "sesion_id": "2026-05-28",
+      "orden": 16,
+      "titulo": "L’informe de PWACS pren en consideració els serveis mínims obligatoris d’acord",
+      "resultado": null,
+      "texto_redactado": "L’informe de PWACS pren en consideració els serveis mínims obligatoris d’acord",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#17",
+      "sesion_id": "2026-05-28",
+      "orden": 17,
+      "titulo": "En data 8 de maig de 2025 es va remetre l’informe de PWACS a la Comissió",
+      "resultado": null,
+      "texto_redactado": "En data 8 de maig de 2025 es va remetre l’informe de PWACS a la Comissió",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#18",
+      "sesion_id": "2026-05-28",
+      "orden": 18,
+      "titulo": "Mitjançant decret de data 9 de setembre de 2025 es va aprovar obrir un",
+      "resultado": null,
+      "texto_redactado": "Mitjançant decret de data 9 de setembre de 2025 es va aprovar obrir un",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#19",
+      "sesion_id": "2026-05-28",
+      "orden": 19,
+      "titulo": "En el període d’informació pública l’únic escrit que es va rebre amb al·legacions",
+      "resultado": null,
+      "texto_redactado": "En el període d’informació pública l’únic escrit que es va rebre amb al·legacions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#20",
+      "sesion_id": "2026-05-28",
+      "orden": 20,
+      "titulo": "En data 7 de novembre de 2025 l’Ajuntament va demanar informe als ens locals",
+      "resultado": null,
+      "texto_redactado": "En data 7 de novembre de 2025 l’Ajuntament va demanar informe als ens locals",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#21",
+      "sesion_id": "2026-05-28",
+      "orden": 21,
+      "titulo": "En data 25 de novembre de 2025, l’alcalde va remetre escrit al president de la",
+      "resultado": null,
+      "texto_redactado": "En data 25 de novembre de 2025, l’alcalde va remetre escrit al president de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#22",
+      "sesion_id": "2026-05-28",
+      "orden": 22,
+      "titulo": "En data 17 de desembre de 2025, estant l’edicte encara publicat en el tauler",
+      "resultado": null,
+      "texto_redactado": "En data 17 de desembre de 2025, estant l’edicte encara publicat en el tauler",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#23",
+      "sesion_id": "2026-05-28",
+      "orden": 23,
+      "titulo": "En data 7 de gener de 2026, aquest Ajuntament va rebre el ceriicat",
+      "resultado": null,
+      "texto_redactado": "En data 7 de gener de 2026, aquest Ajuntament va rebre el ceriicat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#24",
+      "sesion_id": "2026-05-28",
+      "orden": 24,
+      "titulo": "L’informe exposa, en primer lloc, l’origen de Bellaterra entre els anys 1920 i",
+      "resultado": null,
+      "texto_redactado": "L’informe exposa, en primer lloc, l’origen de Bellaterra entre els anys 1920 i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#25",
+      "sesion_id": "2026-05-28",
+      "orden": 25,
+      "titulo": "Fa referència a la proposta de 1993, de segregar-se per consituir-se en",
+      "resultado": null,
+      "texto_redactado": "Fa referència a la proposta de 1993, de segregar-se per consituir-se en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#26",
+      "sesion_id": "2026-05-28",
+      "orden": 26,
+      "titulo": "Segueix amb la contextualització geogràica i de mobilitat, on destaca:",
+      "resultado": null,
+      "texto_redactado": "Segueix amb la contextualització geogràica i de mobilitat, on destaca:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#27",
+      "sesion_id": "2026-05-28",
+      "orden": 27,
+      "titulo": "Invoca l’estudi d’hàbits de consum de inals de 2013 que refereix la",
+      "resultado": null,
+      "texto_redactado": "Invoca l’estudi d’hàbits de consum de inals de 2013 que refereix la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#28",
+      "sesion_id": "2026-05-28",
+      "orden": 28,
+      "titulo": "A coninuació indica que, dels tres Centres d’Atenció Primària del municipi, el",
+      "resultado": null,
+      "texto_redactado": "A coninuació indica que, dels tres Centres d’Atenció Primària del municipi, el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#29",
+      "sesion_id": "2026-05-28",
+      "orden": 29,
+      "titulo": "Igualment, es refereix als centres educaius de itularitat pública, concertats i",
+      "resultado": null,
+      "texto_redactado": "Igualment, es refereix als centres educaius de itularitat pública, concertats i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#30",
+      "sesion_id": "2026-05-28",
+      "orden": 30,
+      "titulo": "A coninuació porta a col·lació un estudi encarregat l’any 2015 per la Unió de",
+      "resultado": null,
+      "texto_redactado": "A coninuació porta a col·lació un estudi encarregat l’any 2015 per la Unió de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#31",
+      "sesion_id": "2026-05-28",
+      "orden": 31,
+      "titulo": "Reconeix, tanmateix, un canvi de tarannà els darrers anys amb avenços en",
+      "resultado": null,
+      "texto_redactado": "Reconeix, tanmateix, un canvi de tarannà els darrers anys amb avenços en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#32",
+      "sesion_id": "2026-05-28",
+      "orden": 32,
+      "titulo": "Tot seguit es refereix al conveni de 2010, que no s’ha modiicat, i als recursos",
+      "resultado": null,
+      "texto_redactado": "Tot seguit es refereix al conveni de 2010, que no s’ha modiicat, i als recursos",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#33",
+      "sesion_id": "2026-05-28",
+      "orden": 33,
+      "titulo": "Dedica l’apartat sisè als aspectes jurídics relaius a les enitats municipals",
+      "resultado": null,
+      "texto_redactado": "Dedica l’apartat sisè als aspectes jurídics relaius a les enitats municipals",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#34",
+      "sesion_id": "2026-05-28",
+      "orden": 34,
+      "titulo": "Acaba amb les conclusions:",
+      "resultado": null,
+      "texto_redactado": "Acaba amb les conclusions:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#35",
+      "sesion_id": "2026-05-28",
+      "orden": 35,
+      "titulo": "En data 19 de desembre de 2025 es va rebre l’informe de la Diputació de",
+      "resultado": null,
+      "texto_redactado": "En data 19 de desembre de 2025 es va rebre l’informe de la Diputació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#36",
+      "sesion_id": "2026-05-28",
+      "orden": 36,
+      "titulo": "L’informe de la Diputació de Barcelona també aborda consideracions d’ordre",
+      "resultado": null,
+      "texto_redactado": "L’informe de la Diputació de Barcelona també aborda consideracions d’ordre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#37",
+      "sesion_id": "2026-05-28",
+      "orden": 37,
+      "titulo": "De les consideracions geogràiques i demogràiques formulades per la",
+      "resultado": null,
+      "texto_redactado": "De les consideracions geogràiques i demogràiques formulades per la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#38",
+      "sesion_id": "2026-05-28",
+      "orden": 38,
+      "titulo": "La Diputació conclou, en deiniiva, que no concorren consideracions de",
+      "resultado": null,
+      "texto_redactado": "La Diputació conclou, en deiniiva, que no concorren consideracions de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#39",
+      "sesion_id": "2026-05-28",
+      "orden": 39,
+      "titulo": "En data 7 de gener de 2026 l’Ajuntament va rebre la ceriicació de l’informe",
+      "resultado": null,
+      "texto_redactado": "En data 7 de gener de 2026 l’Ajuntament va rebre la ceriicació de l’informe",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#40",
+      "sesion_id": "2026-05-28",
+      "orden": 40,
+      "titulo": "En data 19 de desembre de 2025 l’Ajuntament va rebre l’informe emès per",
+      "resultado": null,
+      "texto_redactado": "En data 19 de desembre de 2025 l’Ajuntament va rebre l’informe emès per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#41",
+      "sesion_id": "2026-05-28",
+      "orden": 41,
+      "titulo": "L’informe acaba apuntant la conveniència que hi hagi acord entre els dos",
+      "resultado": null,
+      "texto_redactado": "L’informe acaba apuntant la conveniència que hi hagi acord entre els dos",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#42",
+      "sesion_id": "2026-05-28",
+      "orden": 42,
+      "titulo": "En data 7 de gener de 2026 es va rebre l’informe de l’Ajuntament de Sant Cugat",
+      "resultado": null,
+      "texto_redactado": "En data 7 de gener de 2026 es va rebre l’informe de l’Ajuntament de Sant Cugat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#43",
+      "sesion_id": "2026-05-28",
+      "orden": 43,
+      "titulo": "L’informe de Sant Cugat del Vallès fa un exercici interessant per tal d’acotar el",
+      "resultado": null,
+      "texto_redactado": "L’informe de Sant Cugat del Vallès fa un exercici interessant per tal d’acotar el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#44",
+      "sesion_id": "2026-05-28",
+      "orden": 44,
+      "titulo": "Coninua amb breus consideracions de mobilitat, referides a la línia dels FGC.",
+      "resultado": null,
+      "texto_redactado": "Coninua amb breus consideracions de mobilitat, referides a la línia dels FGC.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#45",
+      "sesion_id": "2026-05-28",
+      "orden": 45,
+      "titulo": "Quant a les consideracions de caràcter econòmic, són simples generalitats sense",
+      "resultado": null,
+      "texto_redactado": "Quant a les consideracions de caràcter econòmic, són simples generalitats sense",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#46",
+      "sesion_id": "2026-05-28",
+      "orden": 46,
+      "titulo": "A les consideracions de caràcter administraiu es refereix a l’Enitat Municipal",
+      "resultado": null,
+      "texto_redactado": "A les consideracions de caràcter administraiu es refereix a l’Enitat Municipal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#47",
+      "sesion_id": "2026-05-28",
+      "orden": 47,
+      "titulo": "Finalment, l’Ajuntament de Sant Cugat del Vallès conclou que considera viable el",
+      "resultado": null,
+      "texto_redactado": "Finalment, l’Ajuntament de Sant Cugat del Vallès conclou que considera viable el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#48",
+      "sesion_id": "2026-05-28",
+      "orden": 48,
+      "titulo": "La conclusió a la que s’arriba després de confrontar aquest informe amb la",
+      "resultado": null,
+      "texto_redactado": "La conclusió a la que s’arriba després de confrontar aquest informe amb la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#49",
+      "sesion_id": "2026-05-28",
+      "orden": 49,
+      "titulo": "En data encara prou recent, 3 de novembre de 2009, el Govern de la Generalitat",
+      "resultado": null,
+      "texto_redactado": "En data encara prou recent, 3 de novembre de 2009, el Govern de la Generalitat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#50",
+      "sesion_id": "2026-05-28",
+      "orden": 50,
+      "titulo": "En el tràmit d’informació pública d’aquell expedient només s’havia formulat una",
+      "resultado": null,
+      "texto_redactado": "En el tràmit d’informació pública d’aquell expedient només s’havia formulat una",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#51",
+      "sesion_id": "2026-05-28",
+      "orden": 51,
+      "titulo": "En els seus informes, el Servei de Demarcacions Territorials de la Direcció",
+      "resultado": null,
+      "texto_redactado": "En els seus informes, el Servei de Demarcacions Territorials de la Direcció",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#52",
+      "sesion_id": "2026-05-28",
+      "orden": 52,
+      "titulo": "La Comissió Jurídica Assessora, pel contrari, va dictaminar que havia quedat",
+      "resultado": null,
+      "texto_redactado": "La Comissió Jurídica Assessora, pel contrari, va dictaminar que havia quedat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#53",
+      "sesion_id": "2026-05-28",
+      "orden": 53,
+      "titulo": "En conseqüència, l’any 2009 es reconeix Bellaterra com una concentració de",
+      "resultado": null,
+      "texto_redactado": "En conseqüència, l’any 2009 es reconeix Bellaterra com una concentració de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#54",
+      "sesion_id": "2026-05-28",
+      "orden": 54,
+      "titulo": "En cap moment es va plantejar que Can Fatjó dels Aurons formés part de l’àmbit",
+      "resultado": null,
+      "texto_redactado": "En cap moment es va plantejar que Can Fatjó dels Aurons formés part de l’àmbit",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    },
+    {
+      "id": "2026-05-28#55",
+      "sesion_id": "2026-05-28",
+      "orden": 55,
+      "titulo": "En sessió de data 18 de desembre de 2025, l’Ajuntament de Cerdanyola del",
+      "resultado": null,
+      "texto_redactado": "En sessió de data 18 de desembre de 2025, l’Ajuntament de Cerdanyola del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:34:11.602Z"
+      }
+    }
+  ]
+}

@@ -19,22 +19,22 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/4390180001/2026/ea681743-6112-47ba-a37a-f2931cf8d73a/Acta%20PM%2007162026.pdf",
     "hash_contenido": "dc6a67bb40f8ae7ebfc6a6addf295c43b7d1a3b08901773c2f4371d467d61026",
-    "estado_ingesta": "clasificada",
-    "actualizada_en": "2026-10-01T15:12:23.114Z"
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-14T22:47:51.612Z"
   },
   "puntos": [
     {
       "id": "2026-07-16#1",
       "sesion_id": "2026-07-16",
       "orden": 1,
-      "titulo": "reguladora del bon veïnatge, drets i deures",
+      "titulo": "91.804,35 € 19.278,91 € 111.083,27 € 2024",
       "resultado": null,
-      "texto_redactado": "reguladora del bon veïnatge, drets i deures",
-      "importe_eur": null,
+      "texto_redactado": "91.804,35 € 19.278,91 € 111.083,27 € 2024",
+      "importe_eur": 111083.27,
       "sensible": false,
-      "tipo_punto": "acuerdo",
+      "tipo_punto": "otro",
       "temas": [
-        "organizacion_institucional"
+        "presupuesto_impuestos"
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
@@ -44,7 +44,7 @@
         "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T15:12:23.114Z"
+        "fecha": "2026-10-14T22:47:51.612Z"
       }
     }
   ]

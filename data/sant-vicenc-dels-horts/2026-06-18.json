@@ -20,7 +20,7 @@
     "fuente_url": "https://media.seu-e.cat/acteca/826340003/2026/52150d5e-8ed0-41e4-9260-86e7306e84c5/Acta%20Ple_20260618.pdf",
     "hash_contenido": "00c811b448d53316807e1d493904b9bd7d526bfb077adc9ee61aeaf67faf9c16",
     "estado_ingesta": "clasificada",
-    "actualizada_en": "2026-10-01T07:49:23.598Z"
+    "actualizada_en": "2026-10-14T22:49:13.945Z"
   },
   "puntos": [
     {
@@ -28,6 +28,7 @@
       "sesion_id": "2026-06-18",
       "orden": 1,
       "titulo": "Aprovació de l'acta de la sessió anterior",
+      "resultado": null,
       "texto_redactado": "Aprovació de l'acta de la sessió anterior",
       "importe_eur": null,
       "sensible": false,
@@ -37,13 +38,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.6,
+      "confianza_min": 0.62,
       "revision_manual": true,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T07:49:23.598Z"
+        "fecha": "2026-10-14T22:49:13.945Z"
       }
     },
     {
@@ -51,6 +52,7 @@
       "sesion_id": "2026-06-18",
       "orden": 2,
       "titulo": "El sistema porta per porta (en el q",
+      "resultado": null,
       "texto_redactado": "El sistema porta per porta (en el q",
       "importe_eur": null,
       "sensible": false,
@@ -60,13 +62,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.72,
+      "confianza_min": 0.7,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T07:49:23.598Z"
+        "fecha": "2026-10-14T22:49:13.945Z"
       }
     },
     {
@@ -74,6 +76,7 @@
       "sesion_id": "2026-06-18",
       "orden": 3,
       "titulo": "MEDI AMBIENT I TRANSICIÓ ENERGÈTICA",
+      "resultado": null,
       "texto_redactado": "MEDI AMBIENT I TRANSICIÓ ENERGÈTICA",
       "importe_eur": null,
       "sensible": false,
@@ -83,13 +86,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.85,
+      "confianza_min": 0.83,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T07:49:23.598Z"
+        "fecha": "2026-10-14T22:49:13.945Z"
       }
     },
     {
@@ -97,6 +100,7 @@
       "sesion_id": "2026-06-18",
       "orden": 4,
       "titulo": "e 243 del Text Refós de la Llei Municipal i de Règim Local de Catalunya",
+      "resultado": null,
       "texto_redactado": "e 243 del Text Refós de la Llei Municipal i de Règim Local de Catalunya",
       "importe_eur": null,
       "sensible": false,
@@ -106,13 +110,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.79,
+      "confianza_min": 0.8,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T07:49:23.598Z"
+        "fecha": "2026-10-14T22:49:13.945Z"
       }
     }
   ]

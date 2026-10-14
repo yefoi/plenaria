@@ -267,4 +267,35 @@ describe('clasificarDocumento', () => {
     expect(clasificado.puntos[0].revision_manual).toBe(true);
     expect(clasificado.puntos[0].confianza_min).toBeNull();
   });
+
+  it('no pisa el aviso de segmentacion_pobre al clasificar', async () => {
+    const fetchFn = vi.fn(async (_url: string, init: RequestInit) => {
+      const cuerpo = JSON.parse(init.body as string);
+      if (cuerpo.multi) return respuestaMulti(['otros']);
+      return respuestaSimple('otro', 0.95);
+    }) as unknown as typeof fetch;
+    const cliente = new ClienteClassifier({ fetchFn });
+    const doc = documentoDePrueba();
+    doc.sesion.estado_ingesta = 'segmentacion_pobre';
+    const { doc: clasificado } = await clasificarDocumento(
+      doc,
+      { classifier: cliente },
+      { usarJev: false },
+    );
+    expect(clasificado.sesion.estado_ingesta).toBe('segmentacion_pobre');
+    expect(clasificado.puntos[0].clasificado_con).not.toBeNull();
+  });
+
+  it('conserva requiere_ocr al clasificar una sesion sin puntos', async () => {
+    const doc = documentoDePrueba();
+    doc.sesion.estado_ingesta = 'requiere_ocr';
+    doc.puntos = [];
+    const cliente = new ClienteClassifier({ fetchFn: vi.fn() as unknown as typeof fetch });
+    const { doc: clasificado } = await clasificarDocumento(
+      doc,
+      { classifier: cliente },
+      { usarJev: false },
+    );
+    expect(clasificado.sesion.estado_ingesta).toBe('requiere_ocr');
+  });
 });

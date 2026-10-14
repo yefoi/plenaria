@@ -287,4 +287,45 @@ describe('segmentar otros formatos', () => {
     expect(r.metodo).toBe('acta-numerada');
     expect(r.puntos.map((p) => p.orden)).toEqual([1, 2, 3]);
   });
+
+  it('descarta una segmentación con títulos que son nombres de asistentes', () => {
+    const acta = [
+      'ACTA DE LA SESSIÓ ORDINÀRIA',
+      '1. Josep Gómez Belluga',
+      '2. Mònica Bernal de Barbarà',
+      '3. Albert Puig Soler',
+      '4. Núria Ferrer Mas',
+      'Aprovat l’acord corresponent.',
+    ].join('\n');
+    const r = segmentar(acta);
+    expect(r.metodo).toBe('documento-unico');
+    expect(r.segmentacionPobre).toBe(true);
+    expect(r.puntos).toHaveLength(1);
+  });
+
+  it('descarta una segmentación con títulos que son citas legales', () => {
+    const acta = [
+      'ACTA DE LA SESSIÓ',
+      '1. Constitució Espanyola, de 27 de desembre de 1978.',
+      '2. Reial decret legislatiu 5/2015, de 30 d’octubre.',
+      '3. Llei 31/2022, de 23 de desembre, de Pressupostos Generals.',
+      '4. Llei 39/2015, de l’1 d’octubre, del Procediment Administratiu.',
+    ].join('\n');
+    const r = segmentar(acta);
+    expect(r.metodo).toBe('documento-unico');
+    expect(r.segmentacionPobre).toBe(true);
+  });
+
+  it('no descarta una segmentación con títulos normales', () => {
+    const acta = [
+      'ACTA DE LA SESSIÓ ORDINÀRIA',
+      '1. Aprovació de l’acta de la sessió anterior.',
+      '2. Aprovació inicial del pressupost municipal de 2027.',
+      '3. Ordenança reguladora de la via pública.',
+      '4. Precs i preguntes.',
+    ].join('\n');
+    const r = segmentar(acta);
+    expect(r.segmentacionPobre).toBe(false);
+    expect(r.puntos).toHaveLength(4);
+  });
 });

@@ -19,17 +19,17 @@
     "tipo": "extraordinaria_urgente",
     "fuente_url": "https://media.seu-e.cat/acteca/828190004/2026/b5a25752-03fc-471b-8cfe-9ad406fe039d/ACTA%20DEL%20PLE%202026-0004%20[Acta%20Ple%20extraordinari%20i%20urgent%2007.07.2026].pdf",
     "hash_contenido": "29c309b630469eeb497d99fb7f832b0e57546c5e4df001961341d03811e2c2d9",
-    "estado_ingesta": "clasificada",
-    "actualizada_en": "2026-10-01T15:14:36.806Z"
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-14T22:49:29.599Z"
   },
   "puntos": [
     {
       "id": "2026-07-07#1",
       "sesion_id": "2026-07-07",
       "orden": 1,
-      "titulo": "Expedient 2260/2026. Pròrroga NPU Normes de planejament urbanístic de Teià.",
+      "titulo": "1. Expedient 2260/2026. Pròrroga NPU Normes de planejament urbanístic de Teià.",
       "resultado": null,
-      "texto_redactado": "Expedient 2260/2026. Pròrroga NPU Normes de planejament urbanístic de Teià.",
+      "texto_redactado": "1. Expedient 2260/2026. Pròrroga NPU Normes de planejament urbanístic de Teià.",
       "importe_eur": null,
       "sensible": false,
       "tipo_punto": "acuerdo",
@@ -38,13 +38,13 @@
       ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": 0.83,
+      "confianza_min": 0.82,
       "revision_manual": false,
       "clasificado_con": {
         "modelo": "classifier.dev (jev-1.13.0)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T15:14:36.806Z"
+        "fecha": "2026-10-14T22:49:29.599Z"
       }
     }
   ]

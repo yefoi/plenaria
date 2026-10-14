@@ -19,9 +19,12 @@ Ideas fuera del alcance actual. No implementar sin acordarlo antes.
   electrónica, no en el portal de transparencia).
 - Rivas-Vaciamadrid: sus actas son escaneos sin capa de texto
   (`requiere_ocr`); quedaría pendiente de OCR selectivo.
-- Cobertura catalana: hay ~125 ayuntamientos más con sesiones frescas en el
-  catálogo de la AOC; añadibles por lotes siguiendo el mismo criterio de
-  población (hoy hay 61 municipios: 58 catalanes + Toledo + Madrid + Móstoles).
+- Cobertura catalana: quedan ~250 ayuntamientos con sesiones frescas en el
+  catálogo de la AOC; añadibles por lotes siguiendo el criterio de población
+  (hoy hay 81 municipios: 78 catalanes + Toledo + Madrid + Móstoles). El
+  ranking de candidatos se calcula cruzando el `CODI_ENS` con el padrón de
+  2025 del Idescat y el atlas del IGN; conviene automatizarlo en un script
+  versionado en vez de repetir el análisis a mano.
 - Ampliar a otras comunidades autónomas con el adaptador `pdf-transparencia`
   o `portal-sesiones` (cada portal exige verificar listado, patrón de PDF y
   fechas).

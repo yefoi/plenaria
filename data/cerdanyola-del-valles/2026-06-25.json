@@ -1,0 +1,638 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "cerdanyola-del-valles",
+    "nombre": "Cerdanyola del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "826650006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-25",
+    "municipio_id": "cerdanyola-del-valles",
+    "fecha": "2026-06-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/826650006/2026/b78f8c07-d375-4c98-b969-cb06455f1aa6/ACTA%20PLE%2025-6-2026.pdf",
+    "hash_contenido": "9fa4dfa6a930c3ff097d9358d7c118b1c01cbce5a503674bbf3de0abd1aae90e",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-14T22:33:51.105Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-25#1",
+      "sesion_id": "2026-06-25",
+      "orden": 1,
+      "titulo": "APROVACIÓ ACTA SESSIÓ ANTERIOR",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ ACTA SESSIÓ ANTERIOR",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#2",
+      "sesion_id": "2026-06-25",
+      "orden": 2,
+      "titulo": "INFORMACIÓ DELS DECRETS D'ALCALDIA I DELS REGIDORS I REGIDORES DELEGATS I DELS ACORDS DE LA JUNTA DE GOVERN LOCAL",
+      "resultado": null,
+      "texto_redactado": "INFORMACIÓ DELS DECRETS D'ALCALDIA I DELS REGIDORS I REGIDORES DELEGATS I DELS ACORDS DE LA JUNTA DE GOVERN LOCAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#3",
+      "sesion_id": "2026-06-25",
+      "orden": 3,
+      "titulo": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI MUNICIPAL D’ESPORTS A FAVOR DEL PROVEÏDOR FREELAB,SL, PELS SERVEIS PRESTATS AL CEM CAN XARAU I AL PEM GUIERA EXPEDIENT 543/2026/0020.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI MUNICIPAL D’ESPORTS A FAVOR DEL PROVEÏDOR FREELAB,SL, PELS SERVEIS PRESTATS AL CEM CAN XARAU I AL PEM GUIERA EXPEDIENT 543/2026/0020.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#4",
+      "sesion_id": "2026-06-25",
+      "orden": 4,
+      "titulo": "APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI D’ESPORTS A FAVOR DEL PROVEÏDOR CLUB ESPORTIU HORITZÓ 1994 EXPEDIENT",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI D’ESPORTS A FAVOR DEL PROVEÏDOR CLUB ESPORTIU HORITZÓ 1994 EXPEDIENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#5",
+      "sesion_id": "2026-06-25",
+      "orden": 5,
+      "titulo": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI MUNICIPAL D’ESPORTS A FAVOR DEL PROVEÏDOR CLUB ESPORTIU HORITZÓ 1994 PELS SERVEIS PRESTATS A LA FESTA DE L’ESPORT INCLUSIU A LA PISCINA DE CAN XARAU EXPEDIENT",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI MUNICIPAL D’ESPORTS A FAVOR DEL PROVEÏDOR CLUB ESPORTIU HORITZÓ 1994 PELS SERVEIS PRESTATS A LA FESTA DE L’ESPORT INCLUSIU A LA PISCINA DE CAN XARAU EXPEDIENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#6",
+      "sesion_id": "2026-06-25",
+      "orden": 6,
+      "titulo": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI MUNICIPAL D’ESPORTS A FAVOR DEL PROVEÏDOR CATALANA DE CLIMA I C. LLONCH, SL PELS SERVEIS PRESTATS A LES INSTAL·LACIONS ESPORTIVES DE ZEM RIU SEC EXPEDIENT 543/2026/0029.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI MUNICIPAL D’ESPORTS A FAVOR DEL PROVEÏDOR CATALANA DE CLIMA I C. LLONCH, SL PELS SERVEIS PRESTATS A LES INSTAL·LACIONS ESPORTIVES DE ZEM RIU SEC EXPEDIENT 543/2026/0029.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#7",
+      "sesion_id": "2026-06-25",
+      "orden": 7,
+      "titulo": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI DE CULTURA A FAVOR DEL PROVEÏDOR BLAI SENABRE RIBES EXPEDIENT 543/2025/0071.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI DE CULTURA A FAVOR DEL PROVEÏDOR BLAI SENABRE RIBES EXPEDIENT 543/2025/0071.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#8",
+      "sesion_id": "2026-06-25",
+      "orden": 8,
+      "titulo": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI DE CULTURA A FAVOR DEL PROVEÏDOR CONTRAPRODUCIONS SL EXPEDIENT 543/2026/0032.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI DE CULTURA A FAVOR DEL PROVEÏDOR CONTRAPRODUCIONS SL EXPEDIENT 543/2026/0032.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#9",
+      "sesion_id": "2026-06-25",
+      "orden": 9,
+      "titulo": "APROVACIÓ RECONEIXEMENT D'OBLIGACIONS DEL SERVEI DE SALUT PòBLICA A L'EMPRESA FUNDACIÓ DAINA PER LA DEFENSA DELS ANIMALS I LA NATURA. EXPEDIENT",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ RECONEIXEMENT D'OBLIGACIONS DEL SERVEI DE SALUT PòBLICA A L'EMPRESA FUNDACIÓ DAINA PER LA DEFENSA DELS ANIMALS I LA NATURA. EXPEDIENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#10",
+      "sesion_id": "2026-06-25",
+      "orden": 10,
+      "titulo": "APROVACIÓ DE L’ADHESIÓ AL MANIFEST AMB MOTIU DEL 28J DIA INTERNACIONAL PER L’ALLIBERAMENT LGBTI+, ANY 2026 EXPEDIENT 503/2026/0010.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’ADHESIÓ AL MANIFEST AMB MOTIU DEL 28J DIA INTERNACIONAL PER L’ALLIBERAMENT LGBTI+, ANY 2026 EXPEDIENT 503/2026/0010.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#11",
+      "sesion_id": "2026-06-25",
+      "orden": 11,
+      "titulo": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DE PRESSUPOST MUNICIPAL NòM. 28/2026 EXPEDIENT 011/2026/0028.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DE PRESSUPOST MUNICIPAL NòM. 28/2026 EXPEDIENT 011/2026/0028.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#12",
+      "sesion_id": "2026-06-25",
+      "orden": 12,
+      "titulo": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DE PRESSUPOST MUNICIPAL NòM. 29/2026 EXPEDIENT 011/2026/0029.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DE PRESSUPOST MUNICIPAL NòM. 29/2026 EXPEDIENT 011/2026/0029.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#13",
+      "sesion_id": "2026-06-25",
+      "orden": 13,
+      "titulo": "APROVACIÓ DE L'ACCEPTACIÓ DE LA PROPOSTA DE LA MESA DE CONTRACTACIÓ PER AL SERVEI DE RECOLLIDA I TRANSPORT DE RESIDUS URBANS I DE LA NETEJA VIÀRIA DEL MUNICIPI DE CERDANYOLA EXPEDIENT 154/2025/0022.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L'ACCEPTACIÓ DE LA PROPOSTA DE LA MESA DE CONTRACTACIÓ PER AL SERVEI DE RECOLLIDA I TRANSPORT DE RESIDUS URBANS I DE LA NETEJA VIÀRIA DEL MUNICIPI DE CERDANYOLA EXPEDIENT 154/2025/0022.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#14",
+      "sesion_id": "2026-06-25",
+      "orden": 14,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#15",
+      "sesion_id": "2026-06-25",
+      "orden": 15,
+      "titulo": "DEIXAR SENSE EFECTE ACORD DE PLE DE DATA 30 D’ABRIL [MATRÍCULA] APROVACIÓ INICIAL DEL PLA DE MOBILITAT URBANA SOSTENIBLE (PMUS) CERDANYOLA DEL VALLÈS JUNTAMENT AMB L’ESTUDI AMBIENTAL ESTRATÈGIC (EAE) EXPEDIENT 313/2025/0011.",
+      "resultado": null,
+      "texto_redactado": "DEIXAR SENSE EFECTE ACORD DE PLE DE DATA 30 D’ABRIL [MATRÍCULA] APROVACIÓ INICIAL DEL PLA DE MOBILITAT URBANA SOSTENIBLE (PMUS) CERDANYOLA DEL VALLÈS JUNTAMENT AMB L’ESTUDI AMBIENTAL ESTRATÈGIC (EAE) EXPEDIENT 313/2025/0011.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#16",
+      "sesion_id": "2026-06-25",
+      "orden": 16,
+      "titulo": "APROVACIÓ INICIAL DEL PROJECTE EXECUTIU DE LES OBRES DE LA FASE 3 DE SUBSTITUCIÓ DEL CLAVEGUERAM I REURBANITZACIÓ DEL CARRER SANTA MARCEL·LINA I EL SEU ENTORN. SEPARATA CARRER BONASORT, ENTRE SANT DANIEL I PINTOR TOGORES EXPEDIENT 126/2020/07.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ INICIAL DEL PROJECTE EXECUTIU DE LES OBRES DE LA FASE 3 DE SUBSTITUCIÓ DEL CLAVEGUERAM I REURBANITZACIÓ DEL CARRER SANTA MARCEL·LINA I EL SEU ENTORN. SEPARATA CARRER BONASORT, ENTRE SANT DANIEL I PINTOR TOGORES EXPEDIENT 126/2020/07.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#17",
+      "sesion_id": "2026-06-25",
+      "orden": 17,
+      "titulo": "APROVACIÓ ANUL·LACIÓ DESPESA DE LA CONTINUÏTAT DEL SERVEI DE NETEJA VIARIA I RECOLLIDA DE RESIDUS SOLIDS MUNICIPALS EXPEDIENT 152/2010/002.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ ANUL·LACIÓ DESPESA DE LA CONTINUÏTAT DEL SERVEI DE NETEJA VIARIA I RECOLLIDA DE RESIDUS SOLIDS MUNICIPALS EXPEDIENT 152/2010/002.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#18",
+      "sesion_id": "2026-06-25",
+      "orden": 18,
+      "titulo": "APROVACIÓ DEL PLÀNOL DE DELIMITACIÓ DE LES URBANITZACIONS, ELS NUCLIS DE POBLACIÓ, LES EDIFICACIONS I LES INSTAL·LACIONS SITUADES EN TERRENYS FORESTALS AFECTADES PER L’ARTICLE 2 DE LA LLEI 5/2003, DE 22 DE ABRIL, DE MESURES DE PREVENCIÓ DELS INCENDIS FORESTALS A LES URBANITZACIONS SENSE CONTINUÏTAT IMMEDIATA AMB LA TRAMA URBANA A CERDANYOLA DEL VALLÈS. EXPEDIENT",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEL PLÀNOL DE DELIMITACIÓ DE LES URBANITZACIONS, ELS NUCLIS DE POBLACIÓ, LES EDIFICACIONS I LES INSTAL·LACIONS SITUADES EN TERRENYS FORESTALS AFECTADES PER L’ARTICLE 2 DE LA LLEI 5/2003, DE 22 DE ABRIL, DE MESURES DE PREVENCIÓ DELS INCENDIS FORESTALS A LES URBANITZACIONS SENSE CONTINUÏTAT IMMEDIATA AMB LA TRAMA URBANA A CERDANYOLA DEL VALLÈS. EXPEDIENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente",
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#19",
+      "sesion_id": "2026-06-25",
+      "orden": 19,
+      "titulo": "APROVACIÓ DE LA DECLARACIÓ INSTITUCIONAL DE SUPORT A LES PERSONES AFECTADES PEL TERRATRÈMOL A VENEÇUELA EXPEDIENT 503/2026/0012.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE LA DECLARACIÓ INSTITUCIONAL DE SUPORT A LES PERSONES AFECTADES PEL TERRATRÈMOL A VENEÇUELA EXPEDIENT 503/2026/0012.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#20",
+      "sesion_id": "2026-06-25",
+      "orden": 20,
+      "titulo": "MOCIÓ D'ERC EN REBUIG A LA PRÒRROGA DE LA CONCESSIÓ ACTUAL DE TRANSPORT INTERURBÀ PER [DIRECCIÓN]/2026/0037.",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ D'ERC EN REBUIG A LA PRÒRROGA DE LA CONCESSIÓ ACTUAL DE TRANSPORT INTERURBÀ PER [DIRECCIÓN]/2026/0037.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "movilidad_trafico",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#21",
+      "sesion_id": "2026-06-25",
+      "orden": 21,
+      "titulo": "MOCIÓ D'ERC CERDANYOLA I PARTIT POPULAR PER A LA MILLORA DEL TRANSPORT URBÀ DE CERDANYOLA DEL VALLÈS EXPEDIENT 177/2026/0038.",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ D'ERC CERDANYOLA I PARTIT POPULAR PER A LA MILLORA DEL TRANSPORT URBÀ DE CERDANYOLA DEL VALLÈS EXPEDIENT 177/2026/0038.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "movilidad_trafico",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#22",
+      "sesion_id": "2026-06-25",
+      "orden": 22,
+      "titulo": "MOCIÓ DELS GRUPS MUNICIPALS D’ERC CERDANYOLA, GUANYEM CERDANYOLA, ECP CERDANYOLA I PARTIT POPULAR PER DOTAR DE CONNECTIVITAT GRATUÏTA A INTERNET ELS CENTRES CÍVICS, CULTURALS I ESPORTIUS DE CERDANYOLA DEL VALLÈS. EXPEDIENT",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ DELS GRUPS MUNICIPALS D’ERC CERDANYOLA, GUANYEM CERDANYOLA, ECP CERDANYOLA I PARTIT POPULAR PER DOTAR DE CONNECTIVITAT GRATUÏTA A INTERNET ELS CENTRES CÍVICS, CULTURALS I ESPORTIUS DE CERDANYOLA DEL VALLÈS. EXPEDIENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#23",
+      "sesion_id": "2026-06-25",
+      "orden": 23,
+      "titulo": "MOCIÓ DEL GRUP MUNICIPAL DE VOX CERDANYOLA PER AL REFORÇ DE LES ACTUACIONS DE PREVENCIÓ D'INCENDIS, GESTIÓ FORESTAL I COMPLIMENT DEL DUPROCIM. EXPEDIENT 177/2026/0040.",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ DEL GRUP MUNICIPAL DE VOX CERDANYOLA PER AL REFORÇ DE LES ACTUACIONS DE PREVENCIÓ D'INCENDIS, GESTIÓ FORESTAL I COMPLIMENT DEL DUPROCIM. EXPEDIENT 177/2026/0040.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#24",
+      "sesion_id": "2026-06-25",
+      "orden": 24,
+      "titulo": "MOCIÓ DEL GRUP MUNICIPAL DEL PP CERDANYOLA PER A L'AMPLIACIÓ I REFORÇ DEL SISTEMA DE VIDEOVIGILÀNCIA, CONTROL D'ACCESSOS I TECNOLOGIES DE SEGURETAT CIUTADANA. EXPEDIENT 177/2026/0041.",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ DEL GRUP MUNICIPAL DEL PP CERDANYOLA PER A L'AMPLIACIÓ I REFORÇ DEL SISTEMA DE VIDEOVIGILÀNCIA, CONTROL D'ACCESSOS I TECNOLOGIES DE SEGURETAT CIUTADANA. EXPEDIENT 177/2026/0041.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "seguridad",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    },
+    {
+      "id": "2026-06-25#25",
+      "sesion_id": "2026-06-25",
+      "orden": 25,
+      "titulo": "PRECS I PREGUNTES",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:51.105Z"
+      }
+    }
+  ]
+}

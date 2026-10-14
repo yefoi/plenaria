@@ -20,16 +20,258 @@
     "fuente_url": "https://media.seu-e.cat/acteca/810750006/2026/1ddf4e78-04fe-4252-87f5-a4e4c14352bf/28_ACTA%20JGL%20APROVADA%2014_09_2026.pdf",
     "hash_contenido": "56429b7ca5d8628103ef4ac18d36b021a951da503c152348721ebb76f79affa0",
     "estado_ingesta": "clasificada",
-    "actualizada_en": "2026-10-01T07:49:44.046Z"
+    "actualizada_en": "2026-10-14T22:47:59.074Z"
   },
   "puntos": [
     {
       "id": "2026-09-14#1",
       "sesion_id": "2026-09-14",
       "orden": 1,
-      "titulo": "Ratificar el Decret d’Alcaldia de 28 de juliol de 2026 (RES2026/983) d’aprovació dels ajuts",
-      "texto_redactado": "Ratificar el Decret d’Alcaldia de 28 de juliol de 2026 (RES2026/983) d’aprovació dels ajuts",
+      "titulo": "PRP2026/675 LCH, un ajut de 60€ per butà",
+      "resultado": null,
+      "texto_redactado": "PRP2026/675 LCH, un ajut de 60€ per butà",
+      "importe_eur": 60,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#2",
+      "sesion_id": "2026-09-14",
+      "orden": 2,
+      "titulo": "PRP2026/676 RATIFICACIÓ DECRET APROVACIÓ AJUTS ESCOLES BRESSOL 26-27",
+      "resultado": null,
+      "texto_redactado": "PRP2026/676 RATIFICACIÓ DECRET APROVACIÓ AJUTS ESCOLES BRESSOL 26-27",
       "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#3",
+      "sesion_id": "2026-09-14",
+      "orden": 3,
+      "titulo": "PRP2026/677 RATIFICACIÓ DECRET ALCALDIA APROVACIÓ AJUTS MATERIAL I",
+      "resultado": null,
+      "texto_redactado": "PRP2026/677 RATIFICACIÓ DECRET ALCALDIA APROVACIÓ AJUTS MATERIAL I",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#4",
+      "sesion_id": "2026-09-14",
+      "orden": 4,
+      "titulo": "PRP2026/692 COU, un ajut de 420€ per alimentació i higiene.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/692 COU, un ajut de 420€ per alimentació i higiene.",
+      "importe_eur": 420,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#5",
+      "sesion_id": "2026-09-14",
+      "orden": 5,
+      "titulo": "PRP2026/694 MFL, un ajut de 310€ per alimentació, higiene i farmacia.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/694 MFL, un ajut de 310€ per alimentació, higiene i farmacia.",
+      "importe_eur": 310,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#6",
+      "sesion_id": "2026-09-14",
+      "orden": 6,
+      "titulo": "PRP2026/695 AOE, un ajut de 480€ per alimetació i higiene.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/695 AOE, un ajut de 480€ per alimetació i higiene.",
+      "importe_eur": 480,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#7",
+      "sesion_id": "2026-09-14",
+      "orden": 7,
+      "titulo": "PRP2026/696 AOE, un ajut de 49’96€ per subministraments.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/696 AOE, un ajut de 49’96€ per subministraments.",
+      "importe_eur": 96,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#8",
+      "sesion_id": "2026-09-14",
+      "orden": 8,
+      "titulo": "PRP2026/697 CMR, un ajut de 70€ per alimentació i higiene.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/697 CMR, un ajut de 70€ per alimentació i higiene.",
+      "importe_eur": 70,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#9",
+      "sesion_id": "2026-09-14",
+      "orden": 9,
+      "titulo": "PRP2026/698 MAG, un ajut de 210€ per alimentació i higiene.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/698 MAG, un ajut de 210€ per alimentació i higiene.",
+      "importe_eur": 210,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#10",
+      "sesion_id": "2026-09-14",
+      "orden": 10,
+      "titulo": "PRP2026/699 MAG, un ajut de 68€ per per transport.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/699 MAG, un ajut de 68€ per per transport.",
+      "importe_eur": 68,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#11",
+      "sesion_id": "2026-09-14",
+      "orden": 11,
+      "titulo": "PRP2026/700 MVM, un ajut de 525’6€ per beca casal can roure.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/700 MVM, un ajut de 525’6€ per beca casal can roure.",
+      "importe_eur": 6,
       "sensible": false,
       "tipo_punto": "acuerdo",
       "temas": [
@@ -40,10 +282,1140 @@
       "confianza_min": 0.61,
       "revision_manual": true,
       "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0)",
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T07:49:44.046Z"
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#12",
+      "sesion_id": "2026-09-14",
+      "orden": 12,
+      "titulo": "PRP2026/702 LIQUIDACIÓ CONVENI INTERADMINISTRATIU ANY 2025",
+      "resultado": null,
+      "texto_redactado": "PRP2026/702 LIQUIDACIÓ CONVENI INTERADMINISTRATIU ANY 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#13",
+      "sesion_id": "2026-09-14",
+      "orden": 13,
+      "titulo": "PRP2026/704 ML, un ajut de 34’15€ per transport.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/704 ML, un ajut de 34’15€ per transport.",
+      "importe_eur": 15,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#14",
+      "sesion_id": "2026-09-14",
+      "orden": 14,
+      "titulo": "PRP2026/705 IBF, un ajut de 817’30 per beca d’escolarització.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/705 IBF, un ajut de 817’30 per beca d’escolarització.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#15",
+      "sesion_id": "2026-09-14",
+      "orden": 15,
+      "titulo": "PRP2026/706 IBF, un ajut de 100€ per butà.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/706 IBF, un ajut de 100€ per butà.",
+      "importe_eur": 100,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#16",
+      "sesion_id": "2026-09-14",
+      "orden": 16,
+      "titulo": "PRP2026/707 IBF, un ajut de 34’15€ per transport.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/707 IBF, un ajut de 34’15€ per transport.",
+      "importe_eur": 15,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#17",
+      "sesion_id": "2026-09-14",
+      "orden": 17,
+      "titulo": "PRP2026/708 JIN, un ajut per SAD dependència, sense copagament.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/708 JIN, un ajut per SAD dependència, sense copagament.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#18",
+      "sesion_id": "2026-09-14",
+      "orden": 18,
+      "titulo": "PRP2026/711 JVCC, un ajut de 360€ per alimentació i higiene.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/711 JVCC, un ajut de 360€ per alimentació i higiene.",
+      "importe_eur": 360,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#19",
+      "sesion_id": "2026-09-14",
+      "orden": 19,
+      "titulo": "PRP2026/712 JVCC, un ajut de 130’90€ per transport.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/712 JVCC, un ajut de 130’90€ per transport.",
+      "importe_eur": 90,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#20",
+      "sesion_id": "2026-09-14",
+      "orden": 20,
+      "titulo": "PRP2026/717 COU, un ajut de 160€ per alimentació i higienePer descarregar una còpia d’aquest document consulti la següent pàgina web",
+      "resultado": null,
+      "texto_redactado": "PRP2026/717 COU, un ajut de 160€ per alimentació i higienePer descarregar una còpia d’aquest document consulti la següent pàgina web",
+      "importe_eur": 160,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#21",
+      "sesion_id": "2026-09-14",
+      "orden": 21,
+      "titulo": "PRP2026/718 RATIFICACIÓ DECRET AJUT PAGAMENT RESIDÈNCIA ELS",
+      "resultado": null,
+      "texto_redactado": "PRP2026/718 RATIFICACIÓ DECRET AJUT PAGAMENT RESIDÈNCIA ELS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#22",
+      "sesion_id": "2026-09-14",
+      "orden": 22,
+      "titulo": "PRP2026/719 RATIFICACIÓ DECRET AJUT RESIDÈNCIA ELS PINETS. Exp.:",
+      "resultado": null,
+      "texto_redactado": "PRP2026/719 RATIFICACIÓ DECRET AJUT RESIDÈNCIA ELS PINETS. Exp.:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#23",
+      "sesion_id": "2026-09-14",
+      "orden": 23,
+      "titulo": "PRP2026/720 JPR, un ajut de 2.424€ per pagament plaça privada residència",
+      "resultado": null,
+      "texto_redactado": "PRP2026/720 JPR, un ajut de 2.424€ per pagament plaça privada residència",
+      "importe_eur": 2424,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#24",
+      "sesion_id": "2026-09-14",
+      "orden": 24,
+      "titulo": "PRP2026/709 RATIFICACIÓ DECRET CONTRACTACIÓ ASSESSORAMENT EXTERN EN",
+      "resultado": null,
+      "texto_redactado": "PRP2026/709 RATIFICACIÓ DECRET CONTRACTACIÓ ASSESSORAMENT EXTERN EN",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#25",
+      "sesion_id": "2026-09-14",
+      "orden": 25,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#26",
+      "sesion_id": "2026-09-14",
+      "orden": 26,
+      "titulo": "PRP2026/721 RESOLUCIÓ RECURS DE REPOSICIÓ CONTRA L'ACORD DE LA JUNTA DE GOVERN LOCAL DE DATA 26 DE JUNY DE 2026 PEL QUAL S'ADJUDICA EL CONTRACTE DEL SERVEI DE CÀTERING DE L'ACTE DE L'HOMENATGE A LA VELLESA DE LA FESTA MAJOR 2026",
+      "resultado": null,
+      "texto_redactado": "PRP2026/721 RESOLUCIÓ RECURS DE REPOSICIÓ CONTRA L'ACORD DE LA JUNTA DE GOVERN LOCAL DE DATA 26 DE JUNY DE 2026 PEL QUAL S'ADJUDICA EL CONTRACTE DEL SERVEI DE CÀTERING DE L'ACTE DE L'HOMENATGE A LA VELLESA DE LA FESTA MAJOR 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#27",
+      "sesion_id": "2026-09-14",
+      "orden": 27,
+      "titulo": "PRP2026/722 FINALITZACIÓ CONTRACTE DEL SERVEI DE DISSENY GRÀFIC PER A L'AJUNTAMENT DE LLIÇÀ D'AMUNT . EXPED-5164/2023",
+      "resultado": null,
+      "texto_redactado": "PRP2026/722 FINALITZACIÓ CONTRACTE DEL SERVEI DE DISSENY GRÀFIC PER A L'AJUNTAMENT DE LLIÇÀ D'AMUNT . EXPED-5164/2023",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#28",
+      "sesion_id": "2026-09-14",
+      "orden": 28,
+      "titulo": "PRP2026/701 CERTIFICACIÓ 2 I 3 PROJECTE CONSTRUCCIÓ TANATORI",
+      "resultado": null,
+      "texto_redactado": "PRP2026/701 CERTIFICACIÓ 2 I 3 PROJECTE CONSTRUCCIÓ TANATORI",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#29",
+      "sesion_id": "2026-09-14",
+      "orden": 29,
+      "titulo": "PRP2026/703 CERTIFICAT DE CONFORMITAT AMB LA RECTIFICACIÓ CADASTRAL",
+      "resultado": null,
+      "texto_redactado": "PRP2026/703 CERTIFICAT DE CONFORMITAT AMB LA RECTIFICACIÓ CADASTRAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#30",
+      "sesion_id": "2026-09-14",
+      "orden": 30,
+      "titulo": "PRP2026/715 RATIFICACIÓ DECRET ALCALDIA APROVACIÓ MEMORIA VALORADA",
+      "resultado": null,
+      "texto_redactado": "PRP2026/715 RATIFICACIÓ DECRET ALCALDIA APROVACIÓ MEMORIA VALORADA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#31",
+      "sesion_id": "2026-09-14",
+      "orden": 31,
+      "titulo": "PRP2026/716 APROVACIÓ ADDENDA CONVENI AMB LA DIPUTACIÓ DE BARCELONA RELATIU AL PROJECTE URBANTIZACIÓ I IMPLANTACIÓ SEMAFORS PK 8+100J CRTRA",
+      "resultado": null,
+      "texto_redactado": "PRP2026/716 APROVACIÓ ADDENDA CONVENI AMB LA DIPUTACIÓ DE BARCELONA RELATIU AL PROJECTE URBANTIZACIÓ I IMPLANTACIÓ SEMAFORS PK 8+100J CRTRA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico",
+        "contratacion_obras",
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#32",
+      "sesion_id": "2026-09-14",
+      "orden": 32,
+      "titulo": "PRP2026/724 APROVACIÓ LIQUIDACIÓ AIGUA I CLAVEGUERAM 2N TRIM 2026.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/724 APROVACIÓ LIQUIDACIÓ AIGUA I CLAVEGUERAM 2N TRIM 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#33",
+      "sesion_id": "2026-09-14",
+      "orden": 33,
+      "titulo": "PRP2026/727 APROVACIÓ DE LA SEGONA CERTIFICACIÓ DE L'OBRA DE REASFALTAT",
+      "resultado": null,
+      "texto_redactado": "PRP2026/727 APROVACIÓ DE LA SEGONA CERTIFICACIÓ DE L'OBRA DE REASFALTAT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#34",
+      "sesion_id": "2026-09-14",
+      "orden": 34,
+      "titulo": "PRP2026/734 CONVENI COOPERACIÓ FUNCIONAMET CAN VILA 2026.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/734 CONVENI COOPERACIÓ FUNCIONAMET CAN VILA 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#35",
+      "sesion_id": "2026-09-14",
+      "orden": 35,
+      "titulo": "PRP2026/714 RATIFICACIÓ DECRET ALCALDIA CONTRACTACIÓ DE DUTXES I",
+      "resultado": null,
+      "texto_redactado": "PRP2026/714 RATIFICACIÓ DECRET ALCALDIA CONTRACTACIÓ DE DUTXES I",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#36",
+      "sesion_id": "2026-09-14",
+      "orden": 36,
+      "titulo": "PRP2026/678 APROVACIÓ SOL·LICITUD RENOVACIÓ DE LA LLICÈNCIA PER A LA TINENÇA DE GOS DE RAÇA POTENCIALMENT PERILLOSA DE LA SRA. PGR.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/678 APROVACIÓ SOL·LICITUD RENOVACIÓ DE LA LLICÈNCIA PER A LA TINENÇA DE GOS DE RAÇA POTENCIALMENT PERILLOSA DE LA SRA. PGR.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#37",
+      "sesion_id": "2026-09-14",
+      "orden": 37,
+      "titulo": "PRP2026/679 APROVACIÓ SOL·LICITUD LLICENCIA PER A LA TINENÇA DE GOS DE",
+      "resultado": null,
+      "texto_redactado": "PRP2026/679 APROVACIÓ SOL·LICITUD LLICENCIA PER A LA TINENÇA DE GOS DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#38",
+      "sesion_id": "2026-09-14",
+      "orden": 38,
+      "titulo": "PRP2026/680 APROVACIÓ SOL·LICITUD LLICÈNCIA PER A LA TINENÇA DE GOS DE",
+      "resultado": null,
+      "texto_redactado": "PRP2026/680 APROVACIÓ SOL·LICITUD LLICÈNCIA PER A LA TINENÇA DE GOS DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#39",
+      "sesion_id": "2026-09-14",
+      "orden": 39,
+      "titulo": "PRP2026/681 APROVACIÓ SOL·LICITUD DE LA LLICÈNCIA PER A LA TINENÇA DE",
+      "resultado": null,
+      "texto_redactado": "PRP2026/681 APROVACIÓ SOL·LICITUD DE LA LLICÈNCIA PER A LA TINENÇA DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#40",
+      "sesion_id": "2026-09-14",
+      "orden": 40,
+      "titulo": "PRP2026/682 APROVACIÓ SOL·LICITUD DE RENOVACIÓ DE LA LLICÈNCIA PER A LA TINENÇA DE GOS DE RAÇA POTENCIALMENT PERILLOSA DE LA SRA. ESP.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/682 APROVACIÓ SOL·LICITUD DE RENOVACIÓ DE LA LLICÈNCIA PER A LA TINENÇA DE GOS DE RAÇA POTENCIALMENT PERILLOSA DE LA SRA. ESP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#41",
+      "sesion_id": "2026-09-14",
+      "orden": 41,
+      "titulo": "PRP2026/683 APROVACIÓ SOL·LICITUD DE LA LLICÈNCIA PER A LA TINENÇA DE",
+      "resultado": null,
+      "texto_redactado": "PRP2026/683 APROVACIÓ SOL·LICITUD DE LA LLICÈNCIA PER A LA TINENÇA DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#42",
+      "sesion_id": "2026-09-14",
+      "orden": 42,
+      "titulo": "PRP2026/684 APROVACIÓ SOL·LICITUD LLICÈNCIA PER LA TINENÇA DE GOS DE",
+      "resultado": null,
+      "texto_redactado": "PRP2026/684 APROVACIÓ SOL·LICITUD LLICÈNCIA PER LA TINENÇA DE GOS DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#43",
+      "sesion_id": "2026-09-14",
+      "orden": 43,
+      "titulo": "PRP2026/685 APROVACIÓ SOL·LICITUD DE RENOVACIÓ DE LA LLICÈNCIA PER A",
+      "resultado": null,
+      "texto_redactado": "PRP2026/685 APROVACIÓ SOL·LICITUD DE RENOVACIÓ DE LA LLICÈNCIA PER A",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#44",
+      "sesion_id": "2026-09-14",
+      "orden": 44,
+      "titulo": "PRP2026/686 APROVACIÓ SOL·LICITUD DE LA LLICÈNCIA ADMINISTRATIVA PER A LA TINENÇA DE GOS DE RAÇA POTENCIALMENT PERILLOSA DE LA SRA. MJST.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/686 APROVACIÓ SOL·LICITUD DE LA LLICÈNCIA ADMINISTRATIVA PER A LA TINENÇA DE GOS DE RAÇA POTENCIALMENT PERILLOSA DE LA SRA. MJST.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#45",
+      "sesion_id": "2026-09-14",
+      "orden": 45,
+      "titulo": "PRP2026/687 APROVACIÓ SOL·LICITUD LLICÈNCIA ADMINISTRATIVA PER A LA",
+      "resultado": null,
+      "texto_redactado": "PRP2026/687 APROVACIÓ SOL·LICITUD LLICÈNCIA ADMINISTRATIVA PER A LA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#46",
+      "sesion_id": "2026-09-14",
+      "orden": 46,
+      "titulo": "PRP2026/688 APROVACIÓ SOL·LICITUD DE LA LLICENCIA ADMINISTRATIVA PER A",
+      "resultado": null,
+      "texto_redactado": "PRP2026/688 APROVACIÓ SOL·LICITUD DE LA LLICENCIA ADMINISTRATIVA PER A",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#47",
+      "sesion_id": "2026-09-14",
+      "orden": 47,
+      "titulo": "PRP2026/689 APROVACIÓ SOL·LICITUD DE LA RENOVACIÓ DE LA LLICÈNCIA ADMINISTRATIVA PER A LA TINENÇA DE GOS DE RAÇA POTENCIALMENT PERILLOSA",
+      "resultado": null,
+      "texto_redactado": "PRP2026/689 APROVACIÓ SOL·LICITUD DE LA RENOVACIÓ DE LA LLICÈNCIA ADMINISTRATIVA PER A LA TINENÇA DE GOS DE RAÇA POTENCIALMENT PERILLOSA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#48",
+      "sesion_id": "2026-09-14",
+      "orden": 48,
+      "titulo": "PRP2026/690 APROVACIÓ SOL·LICITUD MODIFICACIÓ DE LA LLICÈNCIA PER A LA TINENÇA DE GOS DE RAÇA POTENCIALMENT PERILLOSA DE LA SRA. PGM",
+      "resultado": null,
+      "texto_redactado": "PRP2026/690 APROVACIÓ SOL·LICITUD MODIFICACIÓ DE LA LLICÈNCIA PER A LA TINENÇA DE GOS DE RAÇA POTENCIALMENT PERILLOSA DE LA SRA. PGM",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#49",
+      "sesion_id": "2026-09-14",
+      "orden": 49,
+      "titulo": "PRP2026/691 APROVACIÓ SOL·LICITUD DE LA LLICENCIA PER A LA TINENÇA DE",
+      "resultado": null,
+      "texto_redactado": "PRP2026/691 APROVACIÓ SOL·LICITUD DE LA LLICENCIA PER A LA TINENÇA DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#50",
+      "sesion_id": "2026-09-14",
+      "orden": 50,
+      "titulo": "PRP2026/693 APROVACIÓ SOL·LICITUD LLICÈNCIA ADMINISTRATIVA PER A LA",
+      "resultado": null,
+      "texto_redactado": "PRP2026/693 APROVACIÓ SOL·LICITUD LLICÈNCIA ADMINISTRATIVA PER A LA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#51",
+      "sesion_id": "2026-09-14",
+      "orden": 51,
+      "titulo": "PRP2026/725 APROVACIÓ SOL·LICITUD DE LA RENOVACIÓ DE LA LLICÈNCIA PER A LA TINENÇA DE GOS DE RAÇA POTENCIALMENT PERILLOSA DE LA SRA. MAITE",
+      "resultado": null,
+      "texto_redactado": "PRP2026/725 APROVACIÓ SOL·LICITUD DE LA RENOVACIÓ DE LA LLICÈNCIA PER A LA TINENÇA DE GOS DE RAÇA POTENCIALMENT PERILLOSA DE LA SRA. MAITE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#52",
+      "sesion_id": "2026-09-14",
+      "orden": 52,
+      "titulo": "PRP2026/726 APROVACIÓ SOL·LICITUD LLICENCIA PER A LA TINENÇA DE GOS DE",
+      "resultado": null,
+      "texto_redactado": "PRP2026/726 APROVACIÓ SOL·LICITUD LLICENCIA PER A LA TINENÇA DE GOS DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#53",
+      "sesion_id": "2026-09-14",
+      "orden": 53,
+      "titulo": "PRP2026/736 APROVACIÓ SOL·LICITUD DE LA MODIFICACIÓ DE LA LLICÈNCIA PER A LA TINENÇA DE GOS DE RAÇA POTENCIALMENT PERILLOSA DE LA SRA. RFP.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/736 APROVACIÓ SOL·LICITUD DE LA MODIFICACIÓ DE LA LLICÈNCIA PER A LA TINENÇA DE GOS DE RAÇA POTENCIALMENT PERILLOSA DE LA SRA. RFP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#54",
+      "sesion_id": "2026-09-14",
+      "orden": 54,
+      "titulo": "PRP2026/737 APROVACIÓ SOL·LICITUD DE MODIFICACIÓ DE LA LLICÈNCIA PER A",
+      "resultado": null,
+      "texto_redactado": "PRP2026/737 APROVACIÓ SOL·LICITUD DE MODIFICACIÓ DE LA LLICÈNCIA PER A",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#55",
+      "sesion_id": "2026-09-14",
+      "orden": 55,
+      "titulo": "PRP2026/738 APROVACIÓ SOL·LICITUD DE LA LLICÈNCIA PER A LA TINENÇA DE",
+      "resultado": null,
+      "texto_redactado": "PRP2026/738 APROVACIÓ SOL·LICITUD DE LA LLICÈNCIA PER A LA TINENÇA DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#56",
+      "sesion_id": "2026-09-14",
+      "orden": 56,
+      "titulo": "PRP2026/739 CONTRACTACIÓ DELS TREBALLS DE PREVENCIÓ I CONTROL DE",
+      "resultado": null,
+      "texto_redactado": "PRP2026/739 CONTRACTACIÓ DELS TREBALLS DE PREVENCIÓ I CONTROL DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#57",
+      "sesion_id": "2026-09-14",
+      "orden": 57,
+      "titulo": "PRP2026/745 SAD SOCIAL URGENT",
+      "resultado": null,
+      "texto_redactado": "PRP2026/745 SAD SOCIAL URGENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
+      }
+    },
+    {
+      "id": "2026-09-14#58",
+      "sesion_id": "2026-09-14",
+      "orden": 58,
+      "titulo": "PRP2026/748 SAD SOCIAL URGENT. Expedient: 2026/4606",
+      "resultado": null,
+      "texto_redactado": "PRP2026/748 SAD SOCIAL URGENT. Expedient: 2026/4606",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:47:59.074Z"
       }
     }
   ]

@@ -1,0 +1,582 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "el-prat-de-llobregat",
+    "nombre": "El Prat de Llobregat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "816910007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-23",
+    "municipio_id": "el-prat-de-llobregat",
+    "fecha": "2026-09-23",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/816910007/2026/23763adb-c458-4e8d-9140-bfdd6ee3ae71/Extracte%20Acta%20Ple%20.pdf",
+    "hash_contenido": "467460385befde6af2b092d2d9432f6656e72320a4f9fbb1279aac006999ee27",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-14T22:33:37.598Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-23#1",
+      "sesion_id": "2026-09-23",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió anterior.",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    },
+    {
+      "id": "2026-09-23#2",
+      "sesion_id": "2026-09-23",
+      "orden": 2,
+      "titulo": "Aprovació inicial de la modificació de la forma de gestió del servei públic de",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial de la modificació de la forma de gestió del servei públic de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    },
+    {
+      "id": "2026-09-23#3",
+      "sesion_id": "2026-09-23",
+      "orden": 3,
+      "titulo": "Ratificació del decret d'Alcaldia que aprova el conveni amb l'Agència",
+      "resultado": null,
+      "texto_redactado": "Ratificació del decret d'Alcaldia que aprova el conveni amb l'Agència",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    },
+    {
+      "id": "2026-09-23#4",
+      "sesion_id": "2026-09-23",
+      "orden": 4,
+      "titulo": "Aprovació del compte general corresponent a l'exercici econòmic de 2025",
+      "resultado": null,
+      "texto_redactado": "Aprovació del compte general corresponent a l'exercici econòmic de 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    },
+    {
+      "id": "2026-09-23#5",
+      "sesion_id": "2026-09-23",
+      "orden": 5,
+      "titulo": "Aprovació inicial de l'expedient de modificació de crèdits núm. 28/26 (exp.",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial de l'expedient de modificació de crèdits núm. 28/26 (exp.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    },
+    {
+      "id": "2026-09-23#6",
+      "sesion_id": "2026-09-23",
+      "orden": 6,
+      "titulo": "Aprovació provisional de la modificació del subàmbit 1 delimitat en la",
+      "resultado": null,
+      "texto_redactado": "Aprovació provisional de la modificació del subàmbit 1 delimitat en la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    },
+    {
+      "id": "2026-09-23#7",
+      "sesion_id": "2026-09-23",
+      "orden": 7,
+      "titulo": "Dirección General del Sector Ferroviario",
+      "resultado": null,
+      "texto_redactado": "Dirección General del Sector Ferroviario",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    },
+    {
+      "id": "2026-09-23#8",
+      "sesion_id": "2026-09-23",
+      "orden": 8,
+      "titulo": "Dirección General de Aviació Civil",
+      "resultado": null,
+      "texto_redactado": "Dirección General de Aviació Civil",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    },
+    {
+      "id": "2026-09-23#9",
+      "sesion_id": "2026-09-23",
+      "orden": 9,
+      "titulo": "Dirección General de la Costa y el Mar",
+      "resultado": null,
+      "texto_redactado": "Dirección General de la Costa y el Mar",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    },
+    {
+      "id": "2026-09-23#10",
+      "sesion_id": "2026-09-23",
+      "orden": 10,
+      "titulo": "Concreció del sistema de gestió del servei públic local d'estacionament",
+      "resultado": null,
+      "texto_redactado": "Concreció del sistema de gestió del servei públic local d'estacionament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    },
+    {
+      "id": "2026-09-23#11",
+      "sesion_id": "2026-09-23",
+      "orden": 11,
+      "titulo": "Prestar conformitat a la Memòria de les condicions de la gestió del servei",
+      "resultado": null,
+      "texto_redactado": "Prestar conformitat a la Memòria de les condicions de la gestió del servei",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    },
+    {
+      "id": "2026-09-23#12",
+      "sesion_id": "2026-09-23",
+      "orden": 12,
+      "titulo": "Resolució d'al·legacions i aprovació definitiva de l'Ordenança de Mobilitat",
+      "resultado": null,
+      "texto_redactado": "Resolució d'al·legacions i aprovació definitiva de l'Ordenança de Mobilitat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    },
+    {
+      "id": "2026-09-23#13",
+      "sesion_id": "2026-09-23",
+      "orden": 13,
+      "titulo": "Aprovació inicial del Pla Director de Cooperació, Justícia Global, Drets",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial del Pla Director de Cooperació, Justícia Global, Drets",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    },
+    {
+      "id": "2026-09-23#14",
+      "sesion_id": "2026-09-23",
+      "orden": 14,
+      "titulo": "Adjudicació de la gestió delegada del servei de residència, centre de dia i",
+      "resultado": null,
+      "texto_redactado": "Adjudicació de la gestió delegada del servei de residència, centre de dia i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales",
+        "contratacion_obras",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    },
+    {
+      "id": "2026-09-23#15",
+      "sesion_id": "2026-09-23",
+      "orden": 15,
+      "titulo": "Presa de coneixement dels decrets d'Alcaldia i resolucions de les Tinències",
+      "resultado": null,
+      "texto_redactado": "Presa de coneixement dels decrets d'Alcaldia i resolucions de les Tinències",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    },
+    {
+      "id": "2026-09-23#16",
+      "sesion_id": "2026-09-23",
+      "orden": 16,
+      "titulo": "Prendre coneixement de l'estat d'execució del pressupost, segon trimestre",
+      "resultado": null,
+      "texto_redactado": "Prendre coneixement de l'estat d'execució del pressupost, segon trimestre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    },
+    {
+      "id": "2026-09-23#17",
+      "sesion_id": "2026-09-23",
+      "orden": 17,
+      "titulo": "Presa de coneixement de l'informe de morositat corresponent al segon",
+      "resultado": null,
+      "texto_redactado": "Presa de coneixement de l'informe de morositat corresponent al segon",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    },
+    {
+      "id": "2026-09-23#18",
+      "sesion_id": "2026-09-23",
+      "orden": 18,
+      "titulo": "Declaració institucional contra l'ampliació de l'aeroport.-",
+      "resultado": null,
+      "texto_redactado": "Declaració institucional contra l'ampliació de l'aeroport.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    },
+    {
+      "id": "2026-09-23#19",
+      "sesion_id": "2026-09-23",
+      "orden": 19,
+      "titulo": "Moció de suport i solidaritat amb el poble de Ceuta i en defensa de la",
+      "resultado": null,
+      "texto_redactado": "Moció de suport i solidaritat amb el poble de Ceuta i en defensa de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    },
+    {
+      "id": "2026-09-23#20",
+      "sesion_id": "2026-09-23",
+      "orden": 20,
+      "titulo": "Moció en defensa de la sobirania espanyola de Ceuta i Melilla i per exigir al",
+      "resultado": null,
+      "texto_redactado": "Moció en defensa de la sobirania espanyola de Ceuta i Melilla i per exigir al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    },
+    {
+      "id": "2026-09-23#21",
+      "sesion_id": "2026-09-23",
+      "orden": 21,
+      "titulo": "Moció per a dotar a la Policia Local de mitjans policials de menor lesivitat,",
+      "resultado": null,
+      "texto_redactado": "Moció per a dotar a la Policia Local de mitjans policials de menor lesivitat,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "seguridad",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    },
+    {
+      "id": "2026-09-23#22",
+      "sesion_id": "2026-09-23",
+      "orden": 22,
+      "titulo": "Moció per a la creació de dos grans parcs canins i la instal·lació de zones de",
+      "resultado": null,
+      "texto_redactado": "Moció per a la creació de dos grans parcs canins i la instal·lació de zones de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    },
+    {
+      "id": "2026-09-23#23",
+      "sesion_id": "2026-09-23",
+      "orden": 23,
+      "titulo": "PRECS I PREGUNTES.",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-14T22:33:37.598Z"
+      }
+    }
+  ]
+}

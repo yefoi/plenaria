@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/811410007/2026/d4128769-77a2-400f-843d-a5d7e1c19d82/Ex_acta_ple_8_2026.pdf",
     "hash_contenido": "2aa7cf7d53abbe4fd93d918a0a8c1d61dd4db4f27e81745e1dd392a9dbda1fcd",
-    "estado_ingesta": "clasificada",
-    "actualizada_en": "2026-10-01T11:41:41.114Z"
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-14T22:48:16.380Z"
   },
   "puntos": [
     {
@@ -28,6 +28,7 @@
       "sesion_id": "2026-09-10",
       "orden": 1,
       "titulo": "DADES DE CELEBRACIÓ DE LA SESSIÓ ASSISTÈNCIA A LA SESSIÓ Expedient núm. Òrgan col·legiat",
+      "resultado": null,
       "texto_redactado": "DADES DE CELEBRACIÓ DE LA SESSIÓ ASSISTÈNCIA A LA SESSIÓ Expedient núm. Òrgan col·legiat",
       "importe_eur": null,
       "sensible": false,
@@ -35,15 +36,15 @@
       "temas": [
         "otros"
       ],
-      "afecta_vecinos_prob": 0.08,
-      "impacto": 1,
-      "confianza_min": 1,
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
       "revision_manual": true,
       "clasificado_con": {
-        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
         "version": "taxonomia 2026-09-30.1",
         "hash_instrucciones": "3837fb92187403d2",
-        "fecha": "2026-10-01T11:41:41.114Z"
+        "fecha": "2026-10-14T22:48:16.380Z"
       }
     }
   ]

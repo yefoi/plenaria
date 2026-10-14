@@ -161,6 +161,8 @@ export default function PaginaMetodologia() {
             'La clasificación la hace un modelo de decisiones (Jev, de TypeSafe, y el servicio classifier.dev). Puede equivocarse: para eso está la confianza y el enlace de reporte.',
             'El resumen semanal se compone con plantillas deterministas. Existe un interruptor para un resumen generado por modelo, apagado por defecto, con verificación de que cada cifra aparece en el texto fuente.',
             'No se hace OCR: los documentos sin capa de texto se marcan y se omiten.',
+            'Los documentos en formatos heredados (.doc de Word 97-2003) no se pueden leer: se registran como error de ingesta y se pide el PDF o el .docx equivalente.',
+            'Si los títulos detectados parecen nombres de asistentes, citas legales o fragmentos sueltos, la sesión se marca con segmentación dudosa y se publica como un único punto en vez de inventar un índice de acuerdos.',
             'Los importes se extraen con expresiones regulares del texto; si no constan, no se muestran.',
             'Las fechas, conteos y ordenaciones se calculan con código, nunca con un modelo.',
             'El idioma de las fuentes es el de cada administración (catalán y castellano en el piloto).',

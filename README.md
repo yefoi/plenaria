@@ -14,15 +14,15 @@ y no inventa nada que no esté en el texto**.
 
 ## Estado
 
-61 municipios procesados (más de 4,8 millones de habitantes), con **tipos de
-fuente distintos**:
+81 municipios procesados (más de 4,8 millones de habitantes solo en Cataluña,
+según el padrón de 2025), con **tipos de fuente distintos**:
 
-- **58 municipios catalanes** (`ckan-seu-e`): los 58 con mayor población y
+- **78 municipios catalanes** (`ckan-seu-e`): los 78 con mayor población y
   datos frescos del catálogo de la AOC (Barcelona, L'Hospitalet, Badalona,
-  Lleida, Tarragona, Mataró, Manresa, Girona, Reus, Sant Cugat, Vilanova i la
-  Geltrú, Viladecans, Figueres, Blanes, Vic y 43 más; la lista completa está en
-  `lib/config.ts`). Catálogo CSV de la AOC + actas, extractos o `.docx`.
-  Hay ~125 candidatos más con datos frescos.
+  Sabadell, Lleida, Tarragona, Mataró, Sant Boi de Llobregat, Castelldefels,
+  El Prat de Llobregat, Manresa, Girona, Cerdanyola del Vallès y el resto hasta
+  78; la lista completa está en `lib/config.ts`). Catálogo CSV de la AOC +
+  actas, extractos, PDF o `.docx`. Hay ~250 candidatos más con datos frescos.
 - **Toledo** (`pdf-transparencia`): listado HTML de actas del Ayuntamiento con
   PDFs.
 - **Área de Madrid** (`portal-sesiones`): **Madrid** y **Móstoles**. El

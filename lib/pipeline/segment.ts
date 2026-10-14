@@ -165,6 +165,30 @@ function esNumeroDePersona(titulo: string): boolean {
   );
 }
 
+const PALABRA_PROPPIA = '[A-ZÀ-Ü][a-zà-ü]+';
+const CONECTOR_NOMBRE = "(?:de|del|dels|d'|la|el|els|les|i|van|von)";
+const NOMBRE_COMPLETO = new RegExp(
+  `^${PALABRA_PROPPIA}(?:\\s+(?:${CONECTOR_NOMBRE}|${PALABRA_PROPPIA})){1,3}$`,
+);
+const CITA_LEGAL =
+  /^(llei|ley|reial decret|real decreto|decret|decreto|constituci[oó]|tractat|estatut|reglament|ordre|orden|resoluci[oó])\b/i;
+
+function tituloSospechoso(titulo: string): boolean {
+  const limpio = titulo.trim();
+  if (limpio === '') return true;
+  if (esNumeroDePersona(limpio)) return true;
+  if (NOMBRE_COMPLETO.test(limpio)) return true;
+  if (CITA_LEGAL.test(limpio) && /\b(19|20)\d{2}\b/.test(limpio)) return true;
+  if (limpio.length < 30 && /[.;]$/.test(limpio)) return true;
+  return false;
+}
+
+export function segmentacionDudosa(puntos: PuntoSegmentado[]): boolean {
+  if (puntos.length < 3) return false;
+  const sospechosos = puntos.filter((p) => tituloSospechoso(p.titulo)).length;
+  return sospechosos / puntos.length >= 0.5;
+}
+
 function mejorIntervalo(
   porNumero: Map<number, { idx: number; titulo: string }>,
 ): { inicio: number; fin: number } | null {
@@ -232,19 +256,8 @@ export function segmentarActaNumerada(texto: string): ResultadoSegmentacion {
     const esSesionSingular = /ordre del dia|sessi[oó]|ple\b/i.test(texto) && texto.length > 1500;
     if (c1 && saltoGrande && esSesionSingular) {
       const partes = [c1.titulo, ...extenderTitulo(lineas, c1.idx)];
-      return {
-        puntos: [
-          {
-            orden: 1,
-            titulo: unirTitulo(partes).slice(0, 900),
-            resultado: null,
-            referencia: null,
-          },
-        ],
-        metodo: 'acta-numerada',
-        segmentacionPobre: false,
-      };
-    }
+  return respaldoDocumentoUnico(texto);
+}
     return {
       puntos: [
         {
@@ -665,7 +678,30 @@ function tituloRespaldo(lineas: string[]): string {
   return (numerada ?? lineas.slice(0, 3).join(' ')).slice(0, 300);
 }
 
+function respaldoDocumentoUnico(texto: string): ResultadoSegmentacion {
+  return {
+    puntos: [
+      {
+        orden: 1,
+        titulo: tituloRespaldo(limpiarLineas(texto)),
+        resultado: null,
+        referencia: null,
+      },
+    ],
+    metodo: 'documento-unico',
+    segmentacionPobre: true,
+  };
+}
+
 export function segmentar(texto: string, formato?: string): ResultadoSegmentacion {
+  const resultado = segmentarInterno(texto, formato);
+  if (!resultado.segmentacionPobre && segmentacionDudosa(resultado.puntos)) {
+    return respaldoDocumentoUnico(texto);
+  }
+  return resultado;
+}
+
+function segmentarInterno(texto: string, formato?: string): ResultadoSegmentacion {
   const esExtracte =
     formato === 'extracte-acords' ||
     /extracte dels acords|extractes? del ple|extractos? del pleno/i.test(texto.slice(0, 2000));

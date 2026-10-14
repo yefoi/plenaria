@@ -213,8 +213,10 @@ export async function clasificarDocumento(
   for (const punto of doc.puntos) {
     punto.clasificado_con = clasificadoCon;
   }
-  doc.sesion.estado_ingesta = 'clasificada';
   doc.sesion.actualizada_en = new Date().toISOString();
+  if (doc.sesion.estado_ingesta === 'redactada') {
+    doc.sesion.estado_ingesta = 'clasificada';
+  }
 
   log(
     'info',
