@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "berga",
+    "nombre": "Berga",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "802290004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-16",
+    "municipio_id": "berga",
+    "fecha": "2026-07-16",
+    "tipo": "extraordinaria_urgente",
+    "fuente_url": "https://media.seu-e.cat/acteca/802290004/2026/ceb9b599-5274-402d-bc3b-3a746f466553/ACTA%20PL_2026_9%20de%2016-07-26%20ANON.pdf",
+    "hash_contenido": "6223cab3d475ad1e0214fea15105e600e6d223429a87e4332bccd13622592592",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:20:28.654Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-16#1",
+      "sesion_id": "2026-07-16",
+      "orden": 1,
+      "titulo": "Declarar i ratificar la urgència de la sessió plenària extraordinària de 16 de juliol de",
+      "resultado": null,
+      "texto_redactado": "Declarar i ratificar la urgència de la sessió plenària extraordinària de 16 de juliol de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:28.654Z"
+      }
+    }
+  ]
+}

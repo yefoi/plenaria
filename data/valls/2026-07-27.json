@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "valls",
+    "nombre": "Valls",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4316130008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-27",
+    "municipio_id": "valls",
+    "fecha": "2026-07-27",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4316130008/2026/1bc2c0e5-5ad0-45bc-a209-b74fc76adda4/Ple%202026-07-27.pdf",
+    "hash_contenido": "3cf7b447a9d2716cab6f41dd299e39284478753540de584a8aadbcd342d9a5e5",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-08T12:21:26.649Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-27#1",
+      "sesion_id": "2026-07-27",
+      "orden": 1,
+      "titulo": "Aprovació de les actes de les sessions anteriors.",
+      "resultado": null,
+      "texto_redactado": "Aprovació de les actes de les sessions anteriors.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,jev-1.13.0,inclusionai/ling-3.0-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:21:26.649Z"
+      }
+    },
+    {
+      "id": "2026-07-27#2",
+      "sesion_id": "2026-07-27",
+      "orden": 2,
+      "titulo": "Donar compte de resolucions.",
+      "resultado": null,
+      "texto_redactado": "Donar compte de resolucions.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,jev-1.13.0,inclusionai/ling-3.0-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:21:26.649Z"
+      }
+    },
+    {
+      "id": "2026-07-27#3",
+      "sesion_id": "2026-07-27",
+      "orden": 3,
+      "titulo": "Desafectació parcial bé de domini públic XVI.",
+      "resultado": null,
+      "texto_redactado": "Desafectació parcial bé de domini públic XVI.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 2,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,jev-1.13.0,inclusionai/ling-3.0-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:21:26.649Z"
+      }
+    },
+    {
+      "id": "2026-07-27#4",
+      "sesion_id": "2026-07-27",
+      "orden": 4,
+      "titulo": "Modificació de crèdit 8/2026.",
+      "resultado": null,
+      "texto_redactado": "Modificació de crèdit 8/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 2,
+      "confianza_min": 0.35,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,jev-1.13.0,inclusionai/ling-3.0-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:21:26.649Z"
+      }
+    },
+    {
+      "id": "2026-07-27#5",
+      "sesion_id": "2026-07-27",
+      "orden": 5,
+      "titulo": "Precs i preguntes.",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,jev-1.13.0,inclusionai/ling-3.0-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:21:26.649Z"
+      }
+    },
+    {
+      "id": "2026-07-27#6",
+      "sesion_id": "2026-07-27",
+      "orden": 6,
+      "titulo": "Sostenibilitat, medi ambient i medi natural la núm. 83/26 a 107/26",
+      "resultado": null,
+      "texto_redactado": "Sostenibilitat, medi ambient i medi natural la núm. 83/26 a 107/26",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,jev-1.13.0,inclusionai/ling-3.0-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:21:26.649Z"
+      }
+    },
+    {
+      "id": "2026-07-27#7",
+      "sesion_id": "2026-07-27",
+      "orden": 7,
+      "titulo": "Urbanisme, activitats, patrimoni i centre històric de la núm. 214/26 a la núm. 248/26",
+      "resultado": null,
+      "texto_redactado": "Urbanisme, activitats, patrimoni i centre històric de la núm. 214/26 a la núm. 248/26",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias",
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,jev-1.13.0,inclusionai/ling-3.0-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-08T12:21:26.649Z"
+      }
+    }
+  ]
+}

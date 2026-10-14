@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "caldes-de-malavella",
+    "nombre": "Caldes de Malavella",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1703350006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-22",
+    "municipio_id": "caldes-de-malavella",
+    "fecha": "2026-06-22",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1703350006/2026/3645c081-94ff-4be0-a034-69be358904f9/ACTA%20DEL%20PLE%202026-0005%20[ACTA%20DEL%20PLE%2020260622].pdf",
+    "hash_contenido": "5387fa6e486f035c034615b286d871a4f6a0f886924a242a3851727ead2f6ac6",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:19:02.587Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-22#1",
+      "sesion_id": "2026-06-22",
+      "orden": 1,
+      "titulo": "Ajuntament de Caldes de Malavella (Girona) ACTA NòM. 5/2026 – NòM. EXPEDIENT: PLN/2026/5 DIA: 22/06/2026",
+      "resultado": null,
+      "texto_redactado": "Ajuntament de Caldes de Malavella (Girona) ACTA NòM. 5/2026 – NòM. EXPEDIENT: PLN/2026/5 DIA: 22/06/2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.97,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:02.587Z"
+      }
+    }
+  ]
+}

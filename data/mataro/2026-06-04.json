@@ -1,0 +1,731 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "mataro",
+    "nombre": "Mataró",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "812130008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-04",
+    "municipio_id": "mataro",
+    "fecha": "2026-06-04",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/812130008/2026/e1219ff4-4069-4160-9357-b1f0a3a731f0/20260602_acta_ple_juny.pdf",
+    "hash_contenido": "31488ebe67661e023cb4dfe70c3e86d4d509f5b84b55bf785e80203908be6472",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:19:15.484Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-04#1",
+      "sesion_id": "2026-06-04",
+      "orden": 1,
+      "titulo": "Aprovació, si s’escau, de l’acta de la sessió ordinària del dia 07-05-26 i de l’acta de la sessió",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si s’escau, de l’acta de la sessió ordinària del dia 07-05-26 i de l’acta de la sessió",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#2",
+      "sesion_id": "2026-06-04",
+      "orden": 2,
+      "titulo": "Despatx oficial.-",
+      "resultado": null,
+      "texto_redactado": "Despatx oficial.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#3",
+      "sesion_id": "2026-06-04",
+      "orden": 3,
+      "titulo": "Aprovació de la ratificació del decret de compareixença en el Procediment Ordinari 92/2026 -",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la ratificació del decret de compareixença en el Procediment Ordinari 92/2026 -",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#4",
+      "sesion_id": "2026-06-04",
+      "orden": 4,
+      "titulo": "Aprovació de la ratificació del decret de compareixença en el Procediment Ordinari 197/2026.-",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la ratificació del decret de compareixença en el Procediment Ordinari 197/2026.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#5",
+      "sesion_id": "2026-06-04",
+      "orden": 5,
+      "titulo": "Aprovació de l’encomana a la societat municipal Aigües de Mataró de la redacció i execució de",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’encomana a la societat municipal Aigües de Mataró de la redacció i execució de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#6",
+      "sesion_id": "2026-06-04",
+      "orden": 6,
+      "titulo": "Aprovació de la pròrroga del contracte del servei de neteja dels edificis municipals.-",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la pròrroga del contracte del servei de neteja dels edificis municipals.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.39,
+      "impacto": 3,
+      "confianza_min": 0.36,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#7",
+      "sesion_id": "2026-06-04",
+      "orden": 7,
+      "titulo": "Aprovació de la pròrroga de la concessió demanial d’un terreny al Parc Forestal de Mataró.-",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la pròrroga de la concessió demanial d’un terreny al Parc Forestal de Mataró.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 2,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#8",
+      "sesion_id": "2026-06-04",
+      "orden": 8,
+      "titulo": "Aprovació de la modificació del contracte del servei públic de transport col·lectiu, públic i urbà",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la modificació del contracte del servei públic de transport col·lectiu, públic i urbà",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico",
+        "contratacion_obras",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.72,
+      "impacto": 3,
+      "confianza_min": 0.34,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#9",
+      "sesion_id": "2026-06-04",
+      "orden": 9,
+      "titulo": "Aprovació de la convalidació de l'omissió de la funció interventora i aprovació de les factures",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la convalidació de l'omissió de la funció interventora i aprovació de les factures",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#10",
+      "sesion_id": "2026-06-04",
+      "orden": 10,
+      "titulo": "Aprovació provisional de la modificació puntual del pla general d'ordenació: ÒOrdenació",
+      "resultado": null,
+      "texto_redactado": "Aprovació provisional de la modificació puntual del pla general d'ordenació: ÒOrdenació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.59,
+      "impacto": 3,
+      "confianza_min": 0.24,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#11",
+      "sesion_id": "2026-06-04",
+      "orden": 11,
+      "titulo": "Aprovació definitiva de l’estudi de detall de la regularització de la fondària edificable de l’edifici",
+      "resultado": null,
+      "texto_redactado": "Aprovació definitiva de l’estudi de detall de la regularització de la fondària edificable de l’edifici",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.35,
+      "impacto": 2,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#12",
+      "sesion_id": "2026-06-04",
+      "orden": 12,
+      "titulo": "Aprovació de la liquidació definitiva del servei públic de transport col·lectiu, públic i urbà de",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la liquidació definitiva del servei públic de transport col·lectiu, públic i urbà de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 2,
+      "confianza_min": 0.17,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#13",
+      "sesion_id": "2026-06-04",
+      "orden": 13,
+      "titulo": "Proposta de resolució que presenta el grup municipal CUP Mataró per a l’estudi, preparació i",
+      "resultado": null,
+      "texto_redactado": "Proposta de resolució que presenta el grup municipal CUP Mataró per a l’estudi, preparació i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#14",
+      "sesion_id": "2026-06-04",
+      "orden": 14,
+      "titulo": "Proposta de resolució que presenta el grup municipal d’Esquerra Republicana sobre l’impuls",
+      "resultado": null,
+      "texto_redactado": "Proposta de resolució que presenta el grup municipal d’Esquerra Republicana sobre l’impuls",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#15",
+      "sesion_id": "2026-06-04",
+      "orden": 15,
+      "titulo": "Proposta de resolució que presenta el grup municipal de Junts per Mataró per impulsar una",
+      "resultado": null,
+      "texto_redactado": "Proposta de resolució que presenta el grup municipal de Junts per Mataró per impulsar una",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#16",
+      "sesion_id": "2026-06-04",
+      "orden": 16,
+      "titulo": "Prec que presenta el grup municipal d’Esquerra Republicana a l’entorn de la festa major de",
+      "resultado": null,
+      "texto_redactado": "Prec que presenta el grup municipal d’Esquerra Republicana a l’entorn de la festa major de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#17",
+      "sesion_id": "2026-06-04",
+      "orden": 17,
+      "titulo": "Pregunta que presenta el grup municipal de Junts per Mataró sobre la manca de col·laboració",
+      "resultado": null,
+      "texto_redactado": "Pregunta que presenta el grup municipal de Junts per Mataró sobre la manca de col·laboració",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#18",
+      "sesion_id": "2026-06-04",
+      "orden": 18,
+      "titulo": "Pregunta que presenta el grup municipal de VOX Mataró en relació al descans dels veïns",
+      "resultado": null,
+      "texto_redactado": "Pregunta que presenta el grup municipal de VOX Mataró en relació al descans dels veïns",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 1,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#19",
+      "sesion_id": "2026-06-04",
+      "orden": 19,
+      "titulo": "Pregunta que presenta el grup municipal de VOX Mataró en relació a la inseguretat Can",
+      "resultado": null,
+      "texto_redactado": "Pregunta que presenta el grup municipal de VOX Mataró en relació a la inseguretat Can",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.37,
+      "impacto": 1,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#20",
+      "sesion_id": "2026-06-04",
+      "orden": 20,
+      "titulo": "Prec que presenta el grup municipal de VOX Mataró en relació a la falta de manteniment dels",
+      "resultado": null,
+      "texto_redactado": "Prec que presenta el grup municipal de VOX Mataró en relació a la falta de manteniment dels",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.63,
+      "impacto": 2,
+      "confianza_min": 0.16,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#21",
+      "sesion_id": "2026-06-04",
+      "orden": 21,
+      "titulo": "Prec que presenta el grup municipal de VOX Mataró en relació a la continuïtat de les",
+      "resultado": null,
+      "texto_redactado": "Prec que presenta el grup municipal de VOX Mataró en relació a la continuïtat de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#22",
+      "sesion_id": "2026-06-04",
+      "orden": 22,
+      "titulo": "Prec que presenta el grup municipal de VOX Mataró en relació a la poda i manteniment de",
+      "resultado": null,
+      "texto_redactado": "Prec que presenta el grup municipal de VOX Mataró en relació a la poda i manteniment de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "medio_ambiente",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.68,
+      "impacto": 2,
+      "confianza_min": 0.22,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#23",
+      "sesion_id": "2026-06-04",
+      "orden": 23,
+      "titulo": "Pregunta que presenta el grup municipal de Junts per Mataró sobre l’estat de l'ascensor del",
+      "resultado": null,
+      "texto_redactado": "Pregunta que presenta el grup municipal de Junts per Mataró sobre l’estat de l'ascensor del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.69,
+      "impacto": 2,
+      "confianza_min": 0.2,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#24",
+      "sesion_id": "2026-06-04",
+      "orden": 24,
+      "titulo": "Pregunta que presenta el grup municipal d’Esquerra Republicana sobre l’elaboració del pla",
+      "resultado": null,
+      "texto_redactado": "Pregunta que presenta el grup municipal d’Esquerra Republicana sobre l’elaboració del pla",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.43,
+      "impacto": 2,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#25",
+      "sesion_id": "2026-06-04",
+      "orden": 25,
+      "titulo": "Pregunta que presenta el grup municipal d’Esquerra Republicana sobre els plataners.-",
+      "resultado": null,
+      "texto_redactado": "Pregunta que presenta el grup municipal d’Esquerra Republicana sobre els plataners.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.43,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#26",
+      "sesion_id": "2026-06-04",
+      "orden": 26,
+      "titulo": "Prec que presenta el grup municipal d’Esquerra Republicana de Mataró sobre el seguiment",
+      "resultado": null,
+      "texto_redactado": "Prec que presenta el grup municipal d’Esquerra Republicana de Mataró sobre el seguiment",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#27",
+      "sesion_id": "2026-06-04",
+      "orden": 27,
+      "titulo": "Pregunta que presenta el grup municipal del Partit Popular sobre els residus a les zones",
+      "resultado": null,
+      "texto_redactado": "Pregunta que presenta el grup municipal del Partit Popular sobre els residus a les zones",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.58,
+      "impacto": 2,
+      "confianza_min": 0.39,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#28",
+      "sesion_id": "2026-06-04",
+      "orden": 28,
+      "titulo": "Pregunta que presenta el grup municipal del Partit popular sobre la seguretat a Mataró.-",
+      "resultado": null,
+      "texto_redactado": "Pregunta que presenta el grup municipal del Partit popular sobre la seguretat a Mataró.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 1,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    },
+    {
+      "id": "2026-06-04#29",
+      "sesion_id": "2026-06-04",
+      "orden": 29,
+      "titulo": "Pregunta que presenta el grup municipal del Partit popular sobre la gestió del SAD per part de",
+      "resultado": null,
+      "texto_redactado": "Pregunta que presenta el grup municipal del Partit popular sobre la gestió del SAD per part de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.57,
+      "impacto": 2,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:15.484Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "valls",
+    "nombre": "Valls",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4316130008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-06",
+    "municipio_id": "valls",
+    "fecha": "2026-07-06",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4316130008/2026/90d2a4db-eead-4552-a04f-cfc0bf7e4c39/Ple%202026-07-06.pdf",
+    "hash_contenido": "cccb42f4ac31dea979939cf34e4f1ccc223677e75ea026f0a67ff5a471d287a6",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:20:04.290Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-06#1",
+      "sesion_id": "2026-07-06",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió anterior.",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:04.290Z"
+      }
+    },
+    {
+      "id": "2026-07-06#2",
+      "sesion_id": "2026-07-06",
+      "orden": 2,
+      "titulo": "Donar compte de resolucions.",
+      "resultado": null,
+      "texto_redactado": "Donar compte de resolucions.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:04.290Z"
+      }
+    },
+    {
+      "id": "2026-07-06#3",
+      "sesion_id": "2026-07-06",
+      "orden": 3,
+      "titulo": "Aprovació inicial de la modificació puntual del Pla d’Ordenació Urbana Municipal, relativa a la",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial de la modificació puntual del Pla d’Ordenació Urbana Municipal, relativa a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.57,
+      "impacto": 2,
+      "confianza_min": 0.19,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:04.290Z"
+      }
+    },
+    {
+      "id": "2026-07-06#4",
+      "sesion_id": "2026-07-06",
+      "orden": 4,
+      "titulo": "ACORDAR l’acumulació en únic expedient dels procediments de bonificació del 95% de l’ICIO",
+      "resultado": null,
+      "texto_redactado": "ACORDAR l’acumulació en únic expedient dels procediments de bonificació del 95% de l’ICIO",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:04.290Z"
+      }
+    },
+    {
+      "id": "2026-07-06#5",
+      "sesion_id": "2026-07-06",
+      "orden": 5,
+      "titulo": "Aprovació inicial de la Modificació Puntual del Pla d'Ordenació Urbanística Municipal núm. 06",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial de la Modificació Puntual del Pla d'Ordenació Urbanística Municipal núm. 06",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.56,
+      "impacto": 3,
+      "confianza_min": 0.23,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:04.290Z"
+      }
+    },
+    {
+      "id": "2026-07-06#6",
+      "sesion_id": "2026-07-06",
+      "orden": 6,
+      "titulo": "Aprovació provisionalment la modificació puntual del Pla d’Ordenació Urbana Municipal núm. 7",
+      "resultado": null,
+      "texto_redactado": "Aprovació provisionalment la modificació puntual del Pla d’Ordenació Urbana Municipal núm. 7",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.63,
+      "impacto": 3,
+      "confianza_min": 0.34,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:04.290Z"
+      }
+    },
+    {
+      "id": "2026-07-06#7",
+      "sesion_id": "2026-07-06",
+      "orden": 7,
+      "titulo": "Aprovar provisionalment la modificació puntual del POUM en l’àmbit del carrer dels Metges",
+      "resultado": null,
+      "texto_redactado": "Aprovar provisionalment la modificació puntual del POUM en l’àmbit del carrer dels Metges",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.61,
+      "impacto": 3,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:04.290Z"
+      }
+    },
+    {
+      "id": "2026-07-06#8",
+      "sesion_id": "2026-07-06",
+      "orden": 8,
+      "titulo": "Proposta acord aprovació adhesió de l'Ajuntament de Valls a la Federació de Mitjans",
+      "resultado": null,
+      "texto_redactado": "Proposta acord aprovació adhesió de l'Ajuntament de Valls a la Federació de Mitjans",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 2,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:04.290Z"
+      }
+    },
+    {
+      "id": "2026-07-06#9",
+      "sesion_id": "2026-07-06",
+      "orden": 9,
+      "titulo": "Precs i preguntes.",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:04.290Z"
+      }
+    },
+    {
+      "id": "2026-07-06#10",
+      "sesion_id": "2026-07-06",
+      "orden": 10,
+      "titulo": "DOCUMENTACIÓ. Consta a l'expedient administratiu la següent documentació de rellevància:",
+      "resultado": null,
+      "texto_redactado": "DOCUMENTACIÓ. Consta a l'expedient administratiu la següent documentació de rellevància:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:04.290Z"
+      }
+    },
+    {
+      "id": "2026-07-06#11",
+      "sesion_id": "2026-07-06",
+      "orden": 11,
+      "titulo": "En data 23 de juny de 2026 la tècnica d’administració general de l’Àrea Agenda 2030,",
+      "resultado": null,
+      "texto_redactado": "En data 23 de juny de 2026 la tècnica d’administració general de l’Àrea Agenda 2030,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.98,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:04.290Z"
+      }
+    }
+  ]
+}

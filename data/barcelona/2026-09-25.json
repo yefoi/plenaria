@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "barcelona",
+    "nombre": "Barcelona",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "801930008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-25",
+    "municipio_id": "barcelona",
+    "fecha": "2026-09-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/801930008/2026/b200b811-aac1-4ea4-9f82-e91b44742a56/P260925e0.pdf",
+    "hash_contenido": "2d128b3cffe53954e1d35b360d911c82d3265d38c58217541273f64dbfd8d717",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:19:08.877Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-25#2",
+      "sesion_id": "2026-09-25",
+      "orden": 2,
+      "titulo": "(E260000090) RATIFICAR l’acord adoptat pel Patronat de la Fundació Museu Picasso",
+      "resultado": null,
+      "texto_redactado": "(E260000090) RATIFICAR l’acord adoptat pel Patronat de la Fundació Museu Picasso",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:08.877Z"
+      }
+    },
+    {
+      "id": "2026-09-25#3",
+      "sesion_id": "2026-09-25",
+      "orden": 3,
+      "titulo": "(FD 2026-09-14) RATIFICAR, l’acord adoptat pel Patronat de la Fundació Privada",
+      "resultado": null,
+      "texto_redactado": "(FD 2026-09-14) RATIFICAR, l’acord adoptat pel Patronat de la Fundació Privada",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:08.877Z"
+      }
+    },
+    {
+      "id": "2026-09-25#4",
+      "sesion_id": "2026-09-25",
+      "orden": 4,
+      "titulo": "(26SD0002-1) MODIFICAR la denominació del Consell Assessor de la Gent Gran de",
+      "resultado": null,
+      "texto_redactado": "(26SD0002-1) MODIFICAR la denominació del Consell Assessor de la Gent Gran de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:08.877Z"
+      }
+    },
+    {
+      "id": "2026-09-25#5",
+      "sesion_id": "2026-09-25",
+      "orden": 5,
+      "titulo": "(26SD0002-2) APROVAR definitivament el Reglament del Consell Municipal de les",
+      "resultado": null,
+      "texto_redactado": "(26SD0002-2) APROVAR definitivament el Reglament del Consell Municipal de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 2,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:08.877Z"
+      }
+    },
+    {
+      "id": "2026-09-25#6",
+      "sesion_id": "2026-09-25",
+      "orden": 6,
+      "titulo": "(26XF1030) DOTAR i habilitar el crèdit de 13.812,85 euros a l'aplicació",
+      "resultado": null,
+      "texto_redactado": "(26XF1030) DOTAR i habilitar el crèdit de 13.812,85 euros a l'aplicació",
+      "importe_eur": 13812.85,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 2,
+      "confianza_min": 0.2,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:08.877Z"
+      }
+    }
+  ]
+}

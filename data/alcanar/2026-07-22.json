@@ -1,0 +1,292 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "alcanar",
+    "nombre": "Alcanar",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4300430008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-22",
+    "municipio_id": "alcanar",
+    "fecha": "2026-07-22",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4300430008/2026/c0fdccfa-9e69-4fe1-9146-e510176fd6ce/Acta%20JGL%2029%20%2022-07-2026%20%20anonimitzada%20pdf.pdf",
+    "hash_contenido": "9b8238c1236ff24f7201aa824187882c7c5aab1c2063331fe311a545b8aced82",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:18:59.401Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-22#1",
+      "sesion_id": "2026-07-22",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L'ACTA DE LA SESSIÓ ANTERIOR DE DATA 15/07/2026.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L'ACTA DE LA SESSIÓ ANTERIOR DE DATA 15/07/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:59.401Z"
+      }
+    },
+    {
+      "id": "2026-07-22#2",
+      "sesion_id": "2026-07-22",
+      "orden": 2,
+      "titulo": "PROPOSTA DE LA REGIDORIA DE PESCA PER A L'APROVACIÓ, SI ESCAU, D'UN CONVENI ENTRE L'AJUNTAMENT D'ALCANAR I LA CONFRARIA DE PESCADORS SANT PERE DE LES CASES D'ALCANAR.",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA DE LA REGIDORIA DE PESCA PER A L'APROVACIÓ, SI ESCAU, D'UN CONVENI ENTRE L'AJUNTAMENT D'ALCANAR I LA CONFRARIA DE PESCADORS SANT PERE DE LES CASES D'ALCANAR.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 2,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:59.401Z"
+      }
+    },
+    {
+      "id": "2026-07-22#3",
+      "sesion_id": "2026-07-22",
+      "orden": 3,
+      "titulo": "Les despeses certificades tenen que ser iguals o superiors a l’import de la",
+      "resultado": null,
+      "texto_redactado": "Les despeses certificades tenen que ser iguals o superiors a l’import de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:59.401Z"
+      }
+    },
+    {
+      "id": "2026-07-22#4",
+      "sesion_id": "2026-07-22",
+      "orden": 4,
+      "titulo": "Les despeses s'acreditaran mitjançant factures juntament amb els",
+      "resultado": null,
+      "texto_redactado": "Les despeses s'acreditaran mitjançant factures juntament amb els",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:59.401Z"
+      }
+    },
+    {
+      "id": "2026-07-22#5",
+      "sesion_id": "2026-07-22",
+      "orden": 5,
+      "titulo": "Quan les activitats hagin estat finançades, a més de amb la subvenció,",
+      "resultado": null,
+      "texto_redactado": "Quan les activitats hagin estat finançades, a més de amb la subvenció,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:59.401Z"
+      }
+    },
+    {
+      "id": "2026-07-22#6",
+      "sesion_id": "2026-07-22",
+      "orden": 6,
+      "titulo": "L'incompliment de l'obligació de justificació de la subvenció en els termes",
+      "resultado": null,
+      "texto_redactado": "L'incompliment de l'obligació de justificació de la subvenció en els termes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.32,
+      "impacto": 1,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:59.401Z"
+      }
+    },
+    {
+      "id": "2026-07-22#7",
+      "sesion_id": "2026-07-22",
+      "orden": 7,
+      "titulo": "Consta a l’expedient l’estudi de costos emès per l’assessoria laboral externa.",
+      "resultado": null,
+      "texto_redactado": "Consta a l’expedient l’estudi de costos emès per l’assessoria laboral externa.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:59.401Z"
+      }
+    },
+    {
+      "id": "2026-07-22#8",
+      "sesion_id": "2026-07-22",
+      "orden": 8,
+      "titulo": "Vista la redacció de les bases de la convocatòria que han de regir el procés de",
+      "resultado": null,
+      "texto_redactado": "Vista la redacció de les bases de la convocatòria que han de regir el procés de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.94,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:59.401Z"
+      }
+    },
+    {
+      "id": "2026-07-22#9",
+      "sesion_id": "2026-07-22",
+      "orden": 9,
+      "titulo": "APROVACIÓ DEL DESPATX D'URGÈNCIA",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEL DESPATX D'URGÈNCIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:59.401Z"
+      }
+    },
+    {
+      "id": "2026-07-22#10",
+      "sesion_id": "2026-07-22",
+      "orden": 10,
+      "titulo": "PROPOSTA DE LA REGIDORIA D’URBANISME DE DESESTIMACIÓ, SI ESCAU, DEL RECURS POTESTATIU DE REPOSICIÓ INTERPOSAT PER *** CONTRA L’ACORD DE LA JUNTA DE GOVERN LOCAL DE 22 D’ABRIL DE 2026",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA DE LA REGIDORIA D’URBANISME DE DESESTIMACIÓ, SI ESCAU, DEL RECURS POTESTATIU DE REPOSICIÓ INTERPOSAT PER *** CONTRA L’ACORD DE LA JUNTA DE GOVERN LOCAL DE 22 D’ABRIL DE 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 2,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:59.401Z"
+      }
+    },
+    {
+      "id": "2026-07-22#11",
+      "sesion_id": "2026-07-22",
+      "orden": 11,
+      "titulo": "APROVACIÓ PREUS PòBLICS ESPECTACLES FESTES D'AGOST DE LES CASES D'ALCANAR",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ PREUS PòBLICS ESPECTACLES FESTES D'AGOST DE LES CASES D'ALCANAR",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.72,
+      "impacto": 3,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:59.401Z"
+      }
+    }
+  ]
+}

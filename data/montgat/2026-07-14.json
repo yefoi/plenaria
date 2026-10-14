@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "montgat",
+    "nombre": "Montgat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "812650006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-14",
+    "municipio_id": "montgat",
+    "fecha": "2026-07-14",
+    "tipo": "extraordinaria_urgente",
+    "fuente_url": "https://media.seu-e.cat/acteca/812650006/2026/dd0c71b5-3d73-409d-a98d-aacbf9b125a2/Esborrany%20acta%20Ple%207-2026%20extraordinari%20urgent%20de%20data%2014-7-2026.pdf",
+    "hash_contenido": "a538edc546cf232ad4a71676c909b8a4e6db0323c2e6b2339ab94013f2c3f6a6",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:18:38.899Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-14#1",
+      "sesion_id": "2026-07-14",
+      "orden": 1,
+      "titulo": "Part resolutiva.-",
+      "resultado": null,
+      "texto_redactado": "Part resolutiva.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:38.899Z"
+      }
+    },
+    {
+      "id": "2026-07-14#2",
+      "sesion_id": "2026-07-14",
+      "orden": 2,
+      "titulo": "En data 8 de juliol de 2026, la tècnica de medi ambient i l’enginyera d’obra pública van emetre",
+      "resultado": null,
+      "texto_redactado": "En data 8 de juliol de 2026, la tècnica de medi ambient i l’enginyera d’obra pública van emetre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.83,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:38.899Z"
+      }
+    },
+    {
+      "id": "2026-07-14#3",
+      "sesion_id": "2026-07-14",
+      "orden": 3,
+      "titulo": "En data 9 de juliol de 2026, la tècnica d’administració general va elaborar i va incorporar a",
+      "resultado": null,
+      "texto_redactado": "En data 9 de juliol de 2026, la tècnica d’administració general va elaborar i va incorporar a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.98,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:38.899Z"
+      }
+    },
+    {
+      "id": "2026-07-14#4",
+      "sesion_id": "2026-07-14",
+      "orden": 4,
+      "titulo": "Consta informe de la secretària municipal amb observacions de la licitació de referència.",
+      "resultado": null,
+      "texto_redactado": "Consta informe de la secretària municipal amb observacions de la licitació de referència.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:38.899Z"
+      }
+    },
+    {
+      "id": "2026-07-14#5",
+      "sesion_id": "2026-07-14",
+      "orden": 5,
+      "titulo": "Consta informe de fiscalització favorable de la Intervenció municipal.",
+      "resultado": null,
+      "texto_redactado": "Consta informe de fiscalització favorable de la Intervenció municipal.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:38.899Z"
+      }
+    },
+    {
+      "id": "2026-07-14#6",
+      "sesion_id": "2026-07-14",
+      "orden": 6,
+      "titulo": "Llei 39/2015, d’1 d’octubre, de Procediment Administratiu Comú de les Administracions Públiques,",
+      "resultado": null,
+      "texto_redactado": "Llei 39/2015, d’1 d’octubre, de Procediment Administratiu Comú de les Administracions Públiques,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:38.899Z"
+      }
+    },
+    {
+      "id": "2026-07-14#7",
+      "sesion_id": "2026-07-14",
+      "orden": 7,
+      "titulo": "L’adopció d’aquest acord és competència del Ple, d’acord amb allò que disposa la disposició",
+      "resultado": null,
+      "texto_redactado": "L’adopció d’aquest acord és competència del Ple, d’acord amb allò que disposa la disposició",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.99,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:38.899Z"
+      }
+    }
+  ]
+}

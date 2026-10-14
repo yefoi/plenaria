@@ -1,0 +1,651 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-feliu-de-llobregat",
+    "nombre": "Sant Feliu de Llobregat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "821140003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-30",
+    "municipio_id": "sant-feliu-de-llobregat",
+    "fecha": "2026-06-30",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/821140003/2026/41fc62d1-5403-4f03-a65b-dd3a9afc1de2/07.%20Extracte%20PLE%20Juny%202026.pdf",
+    "hash_contenido": "85da5546db5a600cab0ffd11390296466bc54f887cfd6a9494553b0ed4831265",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:19:36.525Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-30#1",
+      "sesion_id": "2026-06-30",
+      "orden": 1,
+      "titulo": "Lectura i aprovació de l'acta del Ple de 28 de maig de 2026",
+      "resultado": null,
+      "texto_redactado": "Lectura i aprovació de l'acta del Ple de 28 de maig de 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#2",
+      "sesion_id": "2026-06-30",
+      "orden": 2,
+      "titulo": "Guardar un minut de silenci com a mostra de solidaritat amb el poble de",
+      "resultado": null,
+      "texto_redactado": "Guardar un minut de silenci com a mostra de solidaritat amb el poble de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.04,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#3",
+      "sesion_id": "2026-06-30",
+      "orden": 3,
+      "titulo": "Denúncia contra la violència masclista i solidaritat amb les víctimes de la",
+      "resultado": null,
+      "texto_redactado": "Denúncia contra la violència masclista i solidaritat amb les víctimes de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#4",
+      "sesion_id": "2026-06-30",
+      "orden": 4,
+      "titulo": "Moció de la Junta de Portaveus per adherir-se al Manifest Internacional del",
+      "resultado": null,
+      "texto_redactado": "Moció de la Junta de Portaveus per adherir-se al Manifest Internacional del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.06,
+      "impacto": 1,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#5",
+      "sesion_id": "2026-06-30",
+      "orden": 5,
+      "titulo": "Moció presentada pel grup municipal SFECP-ECG perquè l'Ajuntament de",
+      "resultado": null,
+      "texto_redactado": "Moció presentada pel grup municipal SFECP-ECG perquè l'Ajuntament de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#6",
+      "sesion_id": "2026-06-30",
+      "orden": 6,
+      "titulo": "Les professionals del 0-3 mereixen condicions laborals dignes i equiparables a la resta",
+      "resultado": null,
+      "texto_redactado": "Les professionals del 0-3 mereixen condicions laborals dignes i equiparables a la resta",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 2,
+      "confianza_min": 0.37,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#7",
+      "sesion_id": "2026-06-30",
+      "orden": 7,
+      "titulo": "És urgent protegir la salut laboral de les treballadores de la petita infància: Les",
+      "resultado": null,
+      "texto_redactado": "És urgent protegir la salut laboral de les treballadores de la petita infància: Les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.39,
+      "impacto": 2,
+      "confianza_min": 0.24,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#8",
+      "sesion_id": "2026-06-30",
+      "orden": 8,
+      "titulo": "Aprovar la modificació de les DACI's del Pla Antifrau de l'Ajuntament de Sant",
+      "resultado": null,
+      "texto_redactado": "Aprovar la modificació de les DACI's del Pla Antifrau de l'Ajuntament de Sant",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#9",
+      "sesion_id": "2026-06-30",
+      "orden": 9,
+      "titulo": "Designar Festes Locals per a l'exercici 2027 (G0752026000001)",
+      "resultado": null,
+      "texto_redactado": "Designar Festes Locals per a l'exercici 2027 (G0752026000001)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.4,
+      "impacto": 3,
+      "confianza_min": 0.07,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#10",
+      "sesion_id": "2026-06-30",
+      "orden": 10,
+      "titulo": "Modificar les plurianualitats per al contracte d'obres de reurbanització del",
+      "resultado": null,
+      "texto_redactado": "Modificar les plurianualitats per al contracte d'obres de reurbanització del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.36,
+      "impacto": 2,
+      "confianza_min": 0.16,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#11",
+      "sesion_id": "2026-06-30",
+      "orden": 11,
+      "titulo": "Modificar les plurianualitats per al contracte d'obres d'Arranjament i millora",
+      "resultado": null,
+      "texto_redactado": "Modificar les plurianualitats per al contracte d'obres d'Arranjament i millora",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 2,
+      "confianza_min": 0.25,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#12",
+      "sesion_id": "2026-06-30",
+      "orden": 12,
+      "titulo": "Declarar d'especial interès o utilitat municipal obres reparació de vorera",
+      "resultado": null,
+      "texto_redactado": "Declarar d'especial interès o utilitat municipal obres reparació de vorera",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.67,
+      "impacto": 2,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#13",
+      "sesion_id": "2026-06-30",
+      "orden": 13,
+      "titulo": "Modificació de l'acord del Ple de l'Ajuntament de data 29 de maig de 2025",
+      "resultado": null,
+      "texto_redactado": "Modificació de l'acord del Ple de l'Ajuntament de data 29 de maig de 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#14",
+      "sesion_id": "2026-06-30",
+      "orden": 14,
+      "titulo": "Aprovar inicialment les Bases específiques reguladores per a l'atorgament",
+      "resultado": null,
+      "texto_redactado": "Aprovar inicialment les Bases específiques reguladores per a l'atorgament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 1,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#15",
+      "sesion_id": "2026-06-30",
+      "orden": 15,
+      "titulo": "Aprovar inicialment el Pla Director d'Urbanització de l'àmbit del centre de",
+      "resultado": null,
+      "texto_redactado": "Aprovar inicialment el Pla Director d'Urbanització de l'àmbit del centre de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.56,
+      "impacto": 4,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#16",
+      "sesion_id": "2026-06-30",
+      "orden": 16,
+      "titulo": "Aprovar l'addenda del conveni de col·laboració amb l'Àrea Metropolitana de",
+      "resultado": null,
+      "texto_redactado": "Aprovar l'addenda del conveni de col·laboració amb l'Àrea Metropolitana de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 2,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#17",
+      "sesion_id": "2026-06-30",
+      "orden": 17,
+      "titulo": "Aprovar la minuta del conveni per a la futura mutació demanial subjectiva",
+      "resultado": null,
+      "texto_redactado": "Aprovar la minuta del conveni per a la futura mutació demanial subjectiva",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 2,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#18",
+      "sesion_id": "2026-06-30",
+      "orden": 18,
+      "titulo": "Aprovar la integració de l'Ajuntament de Sant Feliu de Llobregat a la",
+      "resultado": null,
+      "texto_redactado": "Aprovar la integració de l'Ajuntament de Sant Feliu de Llobregat a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#19",
+      "sesion_id": "2026-06-30",
+      "orden": 19,
+      "titulo": "Aprovar les bases de subvencions, en règim de concurrència competitiva,",
+      "resultado": null,
+      "texto_redactado": "Aprovar les bases de subvencions, en règim de concurrència competitiva,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 1,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#20",
+      "sesion_id": "2026-06-30",
+      "orden": 20,
+      "titulo": "Aprovar les Bases Reguladores de les subvencions per a la millora de",
+      "resultado": null,
+      "texto_redactado": "Aprovar les Bases Reguladores de les subvencions per a la millora de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.52,
+      "impacto": 2,
+      "confianza_min": 0.34,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#21",
+      "sesion_id": "2026-06-30",
+      "orden": 21,
+      "titulo": "Donar compte de l'acord aprovat en Junta de Govern Local de data 27 de",
+      "resultado": null,
+      "texto_redactado": "Donar compte de l'acord aprovat en Junta de Govern Local de data 27 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#22",
+      "sesion_id": "2026-06-30",
+      "orden": 22,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#23",
+      "sesion_id": "2026-06-30",
+      "orden": 23,
+      "titulo": "Donar compte de les resolucions d'Alcaldia i Regidors/es delegats/des des",
+      "resultado": null,
+      "texto_redactado": "Donar compte de les resolucions d'Alcaldia i Regidors/es delegats/des des",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#24",
+      "sesion_id": "2026-06-30",
+      "orden": 24,
+      "titulo": "Donar compte de les actes de la Junta de Govern Local de dates 13, 21 i 27",
+      "resultado": null,
+      "texto_redactado": "Donar compte de les actes de la Junta de Govern Local de dates 13, 21 i 27",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#25",
+      "sesion_id": "2026-06-30",
+      "orden": 25,
+      "titulo": "Moció per a adherir-se al manifest de la Generalitat de Catalunya en motiu",
+      "resultado": null,
+      "texto_redactado": "Moció per a adherir-se al manifest de la Generalitat de Catalunya en motiu",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.06,
+      "impacto": 1,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    },
+    {
+      "id": "2026-06-30#26",
+      "sesion_id": "2026-06-30",
+      "orden": 26,
+      "titulo": "PRECS I PREGUNTES:",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:36.525Z"
+      }
+    }
+  ]
+}

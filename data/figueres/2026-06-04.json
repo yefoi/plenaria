@@ -1,0 +1,387 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "figueres",
+    "nombre": "Figueres",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1706690004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-04",
+    "municipio_id": "figueres",
+    "fecha": "2026-06-04",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1706690004/2026/358262bc-dc6f-4ca3-b763-599d3bf3394a/Acta%20del%20Ple%20de%20data%204%20de%20juny%20de%202026.pdf",
+    "hash_contenido": "d6d7ae039ee8b3e725aad050cebb24a2fcb2ce39091470d02bc68cf09c17806d",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:19:34.773Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-04#1",
+      "sesion_id": "2026-06-04",
+      "orden": 1,
+      "titulo": "Tal com indica l’article 39 del Reial decret 500/1990, l’ampliació de",
+      "resultado": null,
+      "texto_redactado": "Tal com indica l’article 39 del Reial decret 500/1990, l’ampliació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.83,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:34.773Z"
+      }
+    },
+    {
+      "id": "2026-06-04#2",
+      "sesion_id": "2026-06-04",
+      "orden": 2,
+      "titulo": "En particular, es declaren ampliables les aplicacions pressupostàries",
+      "resultado": null,
+      "texto_redactado": "En particular, es declaren ampliables les aplicacions pressupostàries",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:34.773Z"
+      }
+    },
+    {
+      "id": "2026-06-04#3",
+      "sesion_id": "2026-06-04",
+      "orden": 3,
+      "titulo": "Els crèdits declarats ampliables estaran vinculats amb ells mateixos (a",
+      "resultado": null,
+      "texto_redactado": "Els crèdits declarats ampliables estaran vinculats amb ells mateixos (a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.87,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:34.773Z"
+      }
+    },
+    {
+      "id": "2026-06-04#4",
+      "sesion_id": "2026-06-04",
+      "orden": 4,
+      "titulo": "La Llei 11/2022, de 29 de desembre, determina que el municipi responsable",
+      "resultado": null,
+      "texto_redactado": "La Llei 11/2022, de 29 de desembre, determina que el municipi responsable",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 1,
+      "confianza_min": 0.78,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:34.773Z"
+      }
+    },
+    {
+      "id": "2026-06-04#5",
+      "sesion_id": "2026-06-04",
+      "orden": 5,
+      "titulo": "L’article 19 de les Normes del Pla d’Ordenació Urbanística Municipal",
+      "resultado": null,
+      "texto_redactado": "L’article 19 de les Normes del Pla d’Ordenació Urbanística Municipal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.56,
+      "impacto": 2,
+      "confianza_min": 0.15,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:34.773Z"
+      }
+    },
+    {
+      "id": "2026-06-04#6",
+      "sesion_id": "2026-06-04",
+      "orden": 6,
+      "titulo": "Es d’interès per l’Ajuntament adquirir, mitjançant els recursos econòmics del",
+      "resultado": null,
+      "texto_redactado": "Es d’interès per l’Ajuntament adquirir, mitjançant els recursos econòmics del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.86,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:34.773Z"
+      }
+    },
+    {
+      "id": "2026-06-04#7",
+      "sesion_id": "2026-06-04",
+      "orden": 7,
+      "titulo": "Atès que d’acord amb l’article 19 del POUM cal acord exprés de ple",
+      "resultado": null,
+      "texto_redactado": "Atès que d’acord amb l’article 19 del POUM cal acord exprés de ple",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 1,
+      "confianza_min": 0.73,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:34.773Z"
+      }
+    },
+    {
+      "id": "2026-06-04#8",
+      "sesion_id": "2026-06-04",
+      "orden": 8,
+      "titulo": "Dictamen per aprovar inicialment la modificació del pressupost",
+      "resultado": null,
+      "texto_redactado": "Dictamen per aprovar inicialment la modificació del pressupost",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.49,
+      "impacto": 2,
+      "confianza_min": 0.37,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:34.773Z"
+      }
+    },
+    {
+      "id": "2026-06-04#9",
+      "sesion_id": "2026-06-04",
+      "orden": 9,
+      "titulo": "S’aprova inicialment la modificació del pressupost X2026025026,",
+      "resultado": null,
+      "texto_redactado": "S’aprova inicialment la modificació del pressupost X2026025026,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 1,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:34.773Z"
+      }
+    },
+    {
+      "id": "2026-06-04#10",
+      "sesion_id": "2026-06-04",
+      "orden": 10,
+      "titulo": "S’aprova un reconeixement extrajudicial de crèdit de despeses",
+      "resultado": null,
+      "texto_redactado": "S’aprova un reconeixement extrajudicial de crèdit de despeses",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:34.773Z"
+      }
+    },
+    {
+      "id": "2026-06-04#11",
+      "sesion_id": "2026-06-04",
+      "orden": 11,
+      "titulo": "S’acorda autoritzar l’adquisició d’un local per a l’Oficina Local del Pla",
+      "resultado": null,
+      "texto_redactado": "S’acorda autoritzar l’adquisició d’un local per a l’Oficina Local del Pla",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 2,
+      "confianza_min": 0.37,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:34.773Z"
+      }
+    },
+    {
+      "id": "2026-06-04#12",
+      "sesion_id": "2026-06-04",
+      "orden": 12,
+      "titulo": "S’acorda deixar sobre la taula la Proposta relativa a ratificar la",
+      "resultado": null,
+      "texto_redactado": "S’acorda deixar sobre la taula la Proposta relativa a ratificar la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:34.773Z"
+      }
+    },
+    {
+      "id": "2026-06-04#13",
+      "sesion_id": "2026-06-04",
+      "orden": 13,
+      "titulo": "Proposta de condemna repulsa i exercici de l’acció popular en relació",
+      "resultado": null,
+      "texto_redactado": "Proposta de condemna repulsa i exercici de l’acció popular en relació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:34.773Z"
+      }
+    },
+    {
+      "id": "2026-06-04#14",
+      "sesion_id": "2026-06-04",
+      "orden": 14,
+      "titulo": "Assumptes urgents. Es presenta la declaració d’urgència següent:",
+      "resultado": null,
+      "texto_redactado": "Assumptes urgents. Es presenta la declaració d’urgència següent:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.96,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:34.773Z"
+      }
+    },
+    {
+      "id": "2026-06-04#15",
+      "sesion_id": "2026-06-04",
+      "orden": 15,
+      "titulo": "Precs i preguntes. Es troben a l’arxiu audiovisual disponible en seu",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes. Es troben a l’arxiu audiovisual disponible en seu",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:34.773Z"
+      }
+    }
+  ]
+}

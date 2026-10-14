@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "calella",
+    "nombre": "Calella",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "803510007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-02",
+    "municipio_id": "calella",
+    "fecha": "2026-07-02",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/803510007/2026/474d33d4-d87f-4c3b-9f0b-6ee5b48e9508/Acta%20n%fam.%206%20Ple%202-7-2026.pdf",
+    "hash_contenido": "3f518861dccd129f963a5624e89d2b2efef885764ee704b9e4c2d1227fe6e5d5",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:20:08.718Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-02#1",
+      "sesion_id": "2026-07-02",
+      "orden": 1,
+      "titulo": "Caseta y Maquinaria para sacar barcas (Cat·logo del POUM) : Este elemento se localiza en",
+      "resultado": null,
+      "texto_redactado": "Caseta y Maquinaria para sacar barcas (Cat·logo del POUM) : Este elemento se localiza en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.38,
+      "impacto": 2,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:08.718Z"
+      }
+    },
+    {
+      "id": "2026-07-02#2",
+      "sesion_id": "2026-07-02",
+      "orden": 2,
+      "titulo": "Modificación redactado artículos 114, 115, 120, 121 de la normativa del POUM : Hay manzanas",
+      "resultado": null,
+      "texto_redactado": "Modificación redactado artículos 114, 115, 120, 121 de la normativa del POUM : Hay manzanas",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.58,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:08.718Z"
+      }
+    },
+    {
+      "id": "2026-07-02#3",
+      "sesion_id": "2026-07-02",
+      "orden": 3,
+      "titulo": "PLA«A DEL MERCAT",
+      "resultado": null,
+      "texto_redactado": "PLA«A DEL MERCAT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 2,
+      "confianza_min": 0.16,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:08.718Z"
+      }
+    },
+    {
+      "id": "2026-07-02#4",
+      "sesion_id": "2026-07-02",
+      "orden": 4,
+      "titulo": "ESPAI BARTRINA",
+      "resultado": null,
+      "texto_redactado": "ESPAI BARTRINA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:08.718Z"
+      }
+    },
+    {
+      "id": "2026-07-02#5",
+      "sesion_id": "2026-07-02",
+      "orden": 5,
+      "titulo": "DRET DE VOL SUPERMERCAT ALDI",
+      "resultado": null,
+      "texto_redactado": "DRET DE VOL SUPERMERCAT ALDI",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.55,
+      "impacto": 2,
+      "confianza_min": 0.05,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:08.718Z"
+      }
+    }
+  ]
+}

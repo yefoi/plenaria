@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "badalona",
+    "nombre": "Badalona",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "801550006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-20",
+    "municipio_id": "badalona",
+    "fecha": "2026-07-20",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/801550006/2026/8de46d32-39f7-4094-94d1-234ac0125dc1/ACTA_16_Ple_20-07-2026.pdf",
+    "hash_contenido": "bab13f010ed93fabbe7f8a9b8c9336b704642de87f750aaf883e045d15a02403",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:19:11.098Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-20#1",
+      "sesion_id": "2026-07-20",
+      "orden": 1,
+      "titulo": "Es formula per iniciativa privada de la societat PROPERTY DOMAIN, S.L., i es tramita per",
+      "resultado": null,
+      "texto_redactado": "Es formula per iniciativa privada de la societat PROPERTY DOMAIN, S.L., i es tramita per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.79,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:11.098Z"
+      }
+    },
+    {
+      "id": "2026-07-20#2",
+      "sesion_id": "2026-07-20",
+      "orden": 2,
+      "titulo": "D’acord amb això, en la tramitació dels Estudis de Detall és d’aplicació el Decret legislatiu",
+      "resultado": null,
+      "texto_redactado": "D’acord amb això, en la tramitació dels Estudis de Detall és d’aplicació el Decret legislatiu",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.75,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:11.098Z"
+      }
+    },
+    {
+      "id": "2026-07-20#3",
+      "sesion_id": "2026-07-20",
+      "orden": 3,
+      "titulo": "D'acord amb l’article 85.5 del TRLUC, simultàniament al tràmit d'informació pública de la",
+      "resultado": null,
+      "texto_redactado": "D'acord amb l’article 85.5 del TRLUC, simultàniament al tràmit d'informació pública de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.81,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:11.098Z"
+      }
+    },
+    {
+      "id": "2026-07-20#4",
+      "sesion_id": "2026-07-20",
+      "orden": 4,
+      "titulo": "L’article 179 del Decret legislatiu 2/2003, de 28 d’abril, pel qual s’aprova el text refós de la Llei",
+      "resultado": null,
+      "texto_redactado": "L’article 179 del Decret legislatiu 2/2003, de 28 d’abril, pel qual s’aprova el text refós de la Llei",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.57,
+      "impacto": 2,
+      "confianza_min": 0.24,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:11.098Z"
+      }
+    },
+    {
+      "id": "2026-07-20#5",
+      "sesion_id": "2026-07-20",
+      "orden": 5,
+      "titulo": "Per altra banda, el cap del servei d’Ordenació del territori informa que la proposta no suposa",
+      "resultado": null,
+      "texto_redactado": "Per altra banda, el cap del servei d’Ordenació del territori informa que la proposta no suposa",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:11.098Z"
+      }
+    },
+    {
+      "id": "2026-07-20#6",
+      "sesion_id": "2026-07-20",
+      "orden": 6,
+      "titulo": "Així mateix, el cap del servei d’Ordenació del territori informa que la proposta no es refereix a",
+      "resultado": null,
+      "texto_redactado": "Així mateix, el cap del servei d’Ordenació del territori informa que la proposta no es refereix a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:19:11.098Z"
+      }
+    }
+  ]
+}

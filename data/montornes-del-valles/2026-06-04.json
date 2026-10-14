@@ -1,0 +1,269 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "montornes-del-valles",
+    "nombre": "Montornès del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "813630008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-04",
+    "municipio_id": "montornes-del-valles",
+    "fecha": "2026-06-04",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/813630008/2026/b4afb387-2e85-4e75-af58-67ff71193916/PLE%2004062026.pdf",
+    "hash_contenido": "20a52b395442af733a9ea56d8fe0af8f52e64d3e18a6fc644b9d51375e5e818e",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:20:30.567Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-04#1",
+      "sesion_id": "2026-06-04",
+      "orden": 1,
+      "titulo": "Aprovar, si s'escau, l'acta de la sessió anterior, de 7 de maig de 2026.-",
+      "resultado": null,
+      "texto_redactado": "Aprovar, si s'escau, l'acta de la sessió anterior, de 7 de maig de 2026.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:30.567Z"
+      }
+    },
+    {
+      "id": "2026-06-04#2",
+      "sesion_id": "2026-06-04",
+      "orden": 2,
+      "titulo": "Assabentat dels decrets dictats entre el 4 i el 29 de maig de 2026,",
+      "resultado": null,
+      "texto_redactado": "Assabentat dels decrets dictats entre el 4 i el 29 de maig de 2026,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:30.567Z"
+      }
+    },
+    {
+      "id": "2026-06-04#3",
+      "sesion_id": "2026-06-04",
+      "orden": 3,
+      "titulo": "Assabentat de l'execució del Pressupost, Període Mig de Pagament i morositat",
+      "resultado": null,
+      "texto_redactado": "Assabentat de l'execució del Pressupost, Període Mig de Pagament i morositat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:30.567Z"
+      }
+    },
+    {
+      "id": "2026-06-04#4",
+      "sesion_id": "2026-06-04",
+      "orden": 4,
+      "titulo": "Aprovar la rectificació anual de l'Inventari de Béns i Drets de l'Ajuntament a",
+      "resultado": null,
+      "texto_redactado": "Aprovar la rectificació anual de l'Inventari de Béns i Drets de l'Ajuntament a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:30.567Z"
+      }
+    },
+    {
+      "id": "2026-06-04#5",
+      "sesion_id": "2026-06-04",
+      "orden": 5,
+      "titulo": "Aprovar la modificació del pressupost núm. 26/2026, en la modalitat de",
+      "resultado": null,
+      "texto_redactado": "Aprovar la modificació del pressupost núm. 26/2026, en la modalitat de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.44,
+      "impacto": 2,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:30.567Z"
+      }
+    },
+    {
+      "id": "2026-06-04#6",
+      "sesion_id": "2026-06-04",
+      "orden": 6,
+      "titulo": "Aprovar la modificació del pressupost núm. 27/2026, en la modalitat de",
+      "resultado": null,
+      "texto_redactado": "Aprovar la modificació del pressupost núm. 27/2026, en la modalitat de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.45,
+      "impacto": 2,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:30.567Z"
+      }
+    },
+    {
+      "id": "2026-06-04#7",
+      "sesion_id": "2026-06-04",
+      "orden": 7,
+      "titulo": "Aprovar l'adhesió a la Declaració del Prat de Llobregat per la descarbonització i",
+      "resultado": null,
+      "texto_redactado": "Aprovar l'adhesió a la Declaració del Prat de Llobregat per la descarbonització i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:30.567Z"
+      }
+    },
+    {
+      "id": "2026-06-04#8",
+      "sesion_id": "2026-06-04",
+      "orden": 8,
+      "titulo": "Aprovar la pròrroga i addenda modificació de preus del conveni de cooperació",
+      "resultado": null,
+      "texto_redactado": "Aprovar la pròrroga i addenda modificació de preus del conveni de cooperació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 2,
+      "confianza_min": 0.37,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:30.567Z"
+      }
+    },
+    {
+      "id": "2026-06-04#9",
+      "sesion_id": "2026-06-04",
+      "orden": 9,
+      "titulo": "Moció per un nou model de bus interurbà públic, integrat, descarbonitzat i al",
+      "resultado": null,
+      "texto_redactado": "Moció per un nou model de bus interurbà públic, integrat, descarbonitzat i al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "movilidad_trafico",
+        "mociones_grupos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.64,
+      "impacto": 3,
+      "confianza_min": 0.04,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:30.567Z"
+      }
+    },
+    {
+      "id": "2026-06-04#10",
+      "sesion_id": "2026-06-04",
+      "orden": 10,
+      "titulo": "Sessió de control dels òrgans de govern.- ************************************************",
+      "resultado": null,
+      "texto_redactado": "Sessió de control dels òrgans de govern.- ************************************************",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.97,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:30.567Z"
+      }
+    }
+  ]
+}

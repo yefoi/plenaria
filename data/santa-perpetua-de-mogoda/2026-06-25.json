@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "santa-perpetua-de-mogoda",
+    "nombre": "Santa Perpètua de Mogoda",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "826060009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-25",
+    "municipio_id": "santa-perpetua-de-mogoda",
+    "fecha": "2026-06-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/826060009/2026/56d48295-4ec3-417c-8274-57f331875844/Extracte%20Ple%2025.06.2026.pdf",
+    "hash_contenido": "0ee73c2301f13fe2d438fbeffc5497c94568a9313317b138a2996f37cac245d0",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:20:01.204Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-25#1",
+      "sesion_id": "2026-06-25",
+      "orden": 1,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:20:01.204Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-vicenc-de-castellet",
+    "nombre": "Sant Vicenç de Castellet",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "826280001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-27",
+    "municipio_id": "sant-vicenc-de-castellet",
+    "fecha": "2026-05-27",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/826280001/2026/4d9523cc-414c-437b-ac05-d00168a18729/ACTA%20LOPD%20PLE%2005-2026%2027%20MAIG.pdf",
+    "hash_contenido": "82f0c2fddeffb682069b65cd4c36011cff52a1f56009992df20a531a78279805",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-02T11:18:53.865Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-27#1",
+      "sesion_id": "2026-05-27",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L'ACTA DE LA SESSIÓ DEL PLE DE L’AJUNTAMENT DEL DIA 29 D´ABRIL DE 2026 ......................................................................................................................... 3",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L'ACTA DE LA SESSIÓ DEL PLE DE L’AJUNTAMENT DEL DIA 29 D´ABRIL DE 2026 ......................................................................................................................... 3",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:53.865Z"
+      }
+    },
+    {
+      "id": "2026-05-27#2",
+      "sesion_id": "2026-05-27",
+      "orden": 2,
+      "titulo": "REGIDORIA D’HISENDA ...................................................................................................... 7",
+      "resultado": null,
+      "texto_redactado": "REGIDORIA D’HISENDA ...................................................................................................... 7",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 1,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:53.865Z"
+      }
+    },
+    {
+      "id": "2026-05-27#3",
+      "sesion_id": "2026-05-27",
+      "orden": 3,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:53.865Z"
+      }
+    },
+    {
+      "id": "2026-05-27#4",
+      "sesion_id": "2026-05-27",
+      "orden": 4,
+      "titulo": "REGIDORIA DE RECURSOS HUMANS ............................................................................. 15 APROVACIÓ DE LA MODIFICACIÓ DEL CATÀLEG DE LLOCS DE TREBALL DE L’AJUNTAMENT DE SANT VICENÇ DE CASTELLET PER A L’ANY 2026. ............................... 15",
+      "resultado": null,
+      "texto_redactado": "REGIDORIA DE RECURSOS HUMANS ............................................................................. 15 APROVACIÓ DE LA MODIFICACIÓ DEL CATÀLEG DE LLOCS DE TREBALL DE L’AJUNTAMENT DE SANT VICENÇ DE CASTELLET PER A L’ANY 2026. ............................... 15",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:53.865Z"
+      }
+    },
+    {
+      "id": "2026-05-27#5",
+      "sesion_id": "2026-05-27",
+      "orden": 5,
+      "titulo": "REGIDORIA D’URBANISME............................................................................................... 23 APROVACIÓ INICIAL L’ESTABLIMENT I EL REGLAMENT PER A L’ESTABLIMENT D’UN NOU",
+      "resultado": null,
+      "texto_redactado": "REGIDORIA D’URBANISME............................................................................................... 23 APROVACIÓ INICIAL L’ESTABLIMENT I EL REGLAMENT PER A L’ESTABLIMENT D’UN NOU",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.57,
+      "impacto": 3,
+      "confianza_min": 0.36,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:53.865Z"
+      }
+    },
+    {
+      "id": "2026-05-27#6",
+      "sesion_id": "2026-05-27",
+      "orden": 6,
+      "titulo": "REGIDORIA D’HISENDA .................................................................................................... 28 APROVACIÓ DE L’EXPEDIENT DE RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT PER IMPORT DE 44.091,91 € CORRESPONENT A LES RELACIONS DE FACTURES: O/2026/91,",
+      "resultado": null,
+      "texto_redactado": "REGIDORIA D’HISENDA .................................................................................................... 28 APROVACIÓ DE L’EXPEDIENT DE RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT PER IMPORT DE 44.091,91 € CORRESPONENT A LES RELACIONS DE FACTURES: O/2026/91,",
+      "importe_eur": 44091.91,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 2,
+      "confianza_min": 0.24,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:53.865Z"
+      }
+    },
+    {
+      "id": "2026-05-27#7",
+      "sesion_id": "2026-05-27",
+      "orden": 7,
+      "titulo": "Exp. X2026001728 ELECCIÓ DE LA JUTGESSA DE PAU SUBSTITUTA DE SANT VICENÇ DE CASTELLET",
+      "resultado": null,
+      "texto_redactado": "Exp. X2026001728 ELECCIÓ DE LA JUTGESSA DE PAU SUBSTITUTA DE SANT VICENÇ DE CASTELLET",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 2,
+      "confianza_min": 0.11,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:53.865Z"
+      }
+    },
+    {
+      "id": "2026-05-27#8",
+      "sesion_id": "2026-05-27",
+      "orden": 8,
+      "titulo": "Exp. X2026002341 APROVACIÓ DE L’EXPEDIENT DE RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT PER IMPORT DE 214.971,64 € CORRESPONENT A LES RELACIONS DE FACTURES: O/2026/77, O/2026/78, O/2026/79, O/2026/80, O/2026/82, O/2026/88.",
+      "resultado": null,
+      "texto_redactado": "Exp. X2026002341 APROVACIÓ DE L’EXPEDIENT DE RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT PER IMPORT DE 214.971,64 € CORRESPONENT A LES RELACIONS DE FACTURES: O/2026/77, O/2026/78, O/2026/79, O/2026/80, O/2026/82, O/2026/88.",
+      "importe_eur": 214971.64,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-02T11:18:53.865Z"
+      }
+    }
+  ]
+}
