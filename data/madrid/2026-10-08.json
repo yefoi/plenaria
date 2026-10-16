@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "madrid",
+    "nombre": "Madrid",
+    "provincia": "Madrid",
+    "fuente_tipo": "portal-sesiones",
+    "fuente_config": {
+      "listado_url": "https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/El-Pleno/Actividad-del-Pleno-y-las-Comisiones/Pleno/Sesiones-del-Pleno/?vgnextchannel=8e9858f5c050e210VgnVCM2000000c205a0aRCRD&vgnextfmt=default&vgnextoid=122481276d58c010VgnVCM100000d90ca8c0RCRD",
+      "patron_sesion": "Pleno/\\d{1,2}-de-[a-z]+-de-\\d{4}",
+      "patrones_pdf": [
+        "AC_[^/]*\\.pdf$",
+        "DS_[^/]*\\.pdf$"
+      ],
+      "tipo_por_defecto": "ordinaria",
+      "url_base_pdf": "https://transparencia.madrid.es",
+      "max_sesiones": 3,
+      "idioma": "es"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-08",
+    "municipio_id": "madrid",
+    "fecha": "2026-10-08",
+    "tipo": "extraordinaria_urgente",
+    "fuente_url": "https://transparencia.madrid.es/UnidadesDescentralizadas/UDCPleno/Actividad/Pleno/2026/2026-10-08%20EU/DS_PEU_08_10_2026.pdf",
+    "hash_contenido": "16b4abe5c6942502afa9bf0173ba941a44a08b2e03f3281246e0069f2f128f24",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-16T10:04:32.112Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-08#1",
+      "sesion_id": "2026-10-08",
+      "orden": 1,
+      "titulo": "Ratificación de la urgencia de la sesión Página.............................................................................................................................................................................. 3  Intervenciones del secretario general del Pleno en funciones, el presidente, el Sr. [NOMBRE], el Sr. [NOMBRE], el Sr. Ortega Smith-Molina, la Sra. [NOMBRE], la Sra. [NOMBRE], la Sra. [NOMBRE] y el Sr. [NOMBRE]  Votación y aprobación de la ratificación de la urgencia. Propuestas de la Presidencia del Pleno",
+      "resultado": null,
+      "texto_redactado": "Ratificación de la urgencia de la sesión Página.............................................................................................................................................................................. 3  Intervenciones del secretario general del Pleno en funciones, el presidente, el Sr. [NOMBRE], el Sr. [NOMBRE], el Sr. Ortega Smith-Molina, la Sra. [NOMBRE], la Sra. [NOMBRE], la Sra. [NOMBRE] y el Sr. [NOMBRE]  Votación y aprobación de la ratificación de la urgencia. Propuestas de la Presidencia del Pleno",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:32.112Z"
+      }
+    },
+    {
+      "id": "2026-10-08#2",
+      "sesion_id": "2026-10-08",
+      "orden": 2,
+      "titulo": "Propuesta de la Presidencia del Pleno para quedar enterado de la proclamación por la Junta Electoral Central de don Cristian Isaac Toro Carballo como concejal del Ayuntamiento de Madrid por la candidatura de VOX, a efectos de cubrir la vacante producida por la renuncia de doña Carla Toscano de Balbín, y toma de posesión, en su caso, por el interesado. Página.............................................................................................................................................................................. 3  Intervenciones del secretario general del Pleno en funciones, el presidente, y el Sr. [NOMBRE], de sus miembros y de los demás concejales con responsabilidades de gobierno COMISIÓN PERMANENTE ORDINARIA DE URBANISMO, MEDIO AMBIENTE Y MOVILIDAD",
+      "resultado": null,
+      "texto_redactado": "Propuesta de la Presidencia del Pleno para quedar enterado de la proclamación por la Junta Electoral Central de don Cristian Isaac Toro Carballo como concejal del Ayuntamiento de Madrid por la candidatura de VOX, a efectos de cubrir la vacante producida por la renuncia de doña Carla Toscano de Balbín, y toma de posesión, en su caso, por el interesado. Página.............................................................................................................................................................................. 3  Intervenciones del secretario general del Pleno en funciones, el presidente, y el Sr. [NOMBRE], de sus miembros y de los demás concejales con responsabilidades de gobierno COMISIÓN PERMANENTE ORDINARIA DE URBANISMO, MEDIO AMBIENTE Y MOVILIDAD",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:32.112Z"
+      }
+    },
+    {
+      "id": "2026-10-08#3",
+      "sesion_id": "2026-10-08",
+      "orden": 3,
+      "titulo": "Propuesta del Área de Gobierno de Urbanismo, Medio Ambiente y Movilidad para aprobar definitivamente, con estimación, estimación parcial y desestimación de las alegaciones presentadas durante el trámite de información pública, el Plan Especial para la aplicación en el municipio de Madrid de la Ley 3/2024, de 28 de junio, de medidas urbanísticas para la promoción de vivienda protegida de la Comunidad de Madrid, de iniciativa pública. Página.............................................................................................................................................................................. 4  Intervenciones del secretario general del Pleno en funciones, el presidente, el Sr. [NOMBRE], el Sr. [NOMBRE], el Sr. Ortega Smith-Molina, el Sr. [NOMBRE], la Sra. [NOMBRE], la Sra. [NOMBRE], el alcalde, Sr. Martínez-Almeida Navasqüés, la",
+      "resultado": null,
+      "texto_redactado": "Propuesta del Área de Gobierno de Urbanismo, Medio Ambiente y Movilidad para aprobar definitivamente, con estimación, estimación parcial y desestimación de las alegaciones presentadas durante el trámite de información pública, el Plan Especial para la aplicación en el municipio de Madrid de la Ley 3/2024, de 28 de junio, de medidas urbanísticas para la promoción de vivienda protegida de la Comunidad de Madrid, de iniciativa pública. Página.............................................................................................................................................................................. 4  Intervenciones del secretario general del Pleno en funciones, el presidente, el Sr. [NOMBRE], el Sr. [NOMBRE], el Sr. Ortega Smith-Molina, el Sr. [NOMBRE], la Sra. [NOMBRE], la Sra. [NOMBRE], el alcalde, Sr. Martínez-Almeida Navasqüés, la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias",
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.78,
+      "impacto": 4,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:32.112Z"
+      }
+    },
+    {
+      "id": "2026-10-08#4",
+      "sesion_id": "2026-10-08",
+      "orden": 4,
+      "titulo": "Propuesta del Área de Gobierno de Urbanismo, Medio Ambiente y Movilidad para aprobar definitivamente, con estimación, estimación parcial y desestimación de las alegaciones presentadas durante el trámite de información pública, el Plan Especial relativo a la modificación del régimen de compatibilidad del uso terciario hospedaje en los ámbitos regulados por el grado 3º de la norma zonal 9 y en las parcelas de uso cualificado industrial incluidas en ámbitos de uso global no industrial, de iniciativa pública. Página.............................................................................................................................................................................. 10  Votación y aprobación de la propuesta. Finaliza la sesión a las nueve horas y once minutos. Página.........................................................................................................",
+      "resultado": null,
+      "texto_redactado": "Propuesta del Área de Gobierno de Urbanismo, Medio Ambiente y Movilidad para aprobar definitivamente, con estimación, estimación parcial y desestimación de las alegaciones presentadas durante el trámite de información pública, el Plan Especial relativo a la modificación del régimen de compatibilidad del uso terciario hospedaje en los ámbitos regulados por el grado 3º de la norma zonal 9 y en las parcelas de uso cualificado industrial incluidas en ámbitos de uso global no industrial, de iniciativa pública. Página.............................................................................................................................................................................. 10  Votación y aprobación de la propuesta. Finaliza la sesión a las nueve horas y once minutos. Página.........................................................................................................",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.6,
+      "impacto": 4,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:32.112Z"
+      }
+    }
+  ]
+}

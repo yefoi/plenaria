@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "moia",
+    "nombre": "Moià",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "813850006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-08-26",
+    "municipio_id": "moia",
+    "fecha": "2026-08-26",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/813850006/2026/973b3d53-b1d6-40e3-946f-ce2e371c6ce3/Acta%20PLN_2026_8%20de%2026%20d%27agost%20de%202026..pdf",
+    "hash_contenido": "66cf2c07805f006d3ef1e7972fe70fa5ae58cbcc4968c9921f1323b1a42c4774",
+    "estado_ingesta": "requiere_ocr",
+    "actualizada_en": "2026-10-16T09:55:59.580Z"
+  },
+  "puntos": []
+}

@@ -1,0 +1,920 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "cerdanyola-del-valles",
+    "nombre": "Cerdanyola del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "826650006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-16",
+    "municipio_id": "cerdanyola-del-valles",
+    "fecha": "2026-07-16",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/826650006/2026/209966fe-8aeb-46b9-8103-005cdcf5d6e0/ACTA%20PLE%20SESSI%d3%2016-7-2026.pdf",
+    "hash_contenido": "3634721c2f0315516247a3d720204916d77fd575bb2eaaefc022f0afa2749231",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-16T10:04:30.799Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-16#1",
+      "sesion_id": "2026-07-16",
+      "orden": 1,
+      "titulo": "APROVACIÓ ACTA SESSIÓ ANTERIOR",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ ACTA SESSIÓ ANTERIOR",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#2",
+      "sesion_id": "2026-07-16",
+      "orden": 2,
+      "titulo": "INFORMACIÓ DELS DECRETS D'ALCALDIA I DELS REGIDORS I REGIDORES DELEGATS I DELS ACORDS DE LA JUNTA DE GOVERN LOCAL",
+      "resultado": null,
+      "texto_redactado": "INFORMACIÓ DELS DECRETS D'ALCALDIA I DELS REGIDORS I REGIDORES DELEGATS I DELS ACORDS DE LA JUNTA DE GOVERN LOCAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#3",
+      "sesion_id": "2026-07-16",
+      "orden": 3,
+      "titulo": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI DE CULTURA A FAVOR DEL PROVEÏDOR MADERAS DEL ALTO URGEL SA EXPEDIENT 543/2026/0004.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI DE CULTURA A FAVOR DEL PROVEÏDOR MADERAS DEL ALTO URGEL SA EXPEDIENT 543/2026/0004.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#4",
+      "sesion_id": "2026-07-16",
+      "orden": 4,
+      "titulo": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI DE CULTURA A FAVOR DEL PROVEÏDOR DIMAS EMPRESA D’INSERCIÓ SOCIAL SL EXPEDIENT",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI DE CULTURA A FAVOR DEL PROVEÏDOR DIMAS EMPRESA D’INSERCIÓ SOCIAL SL EXPEDIENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#5",
+      "sesion_id": "2026-07-16",
+      "orden": 5,
+      "titulo": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI DE CULTURA A FAVOR DEL PROVEÏDOR ENERGIA ELECTRICA MOVIL SL EXPEDIENT 543/2026/0035.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI DE CULTURA A FAVOR DEL PROVEÏDOR ENERGIA ELECTRICA MOVIL SL EXPEDIENT 543/2026/0035.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#6",
+      "sesion_id": "2026-07-16",
+      "orden": 6,
+      "titulo": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI DE CULTURA A FAVOR DEL PROVEÏDOR GROUP EXCELLENCE MEDICAL AMBULANCES SL EXPEDIENT",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI DE CULTURA A FAVOR DEL PROVEÏDOR GROUP EXCELLENCE MEDICAL AMBULANCES SL EXPEDIENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#7",
+      "sesion_id": "2026-07-16",
+      "orden": 7,
+      "titulo": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DE L’ÀREA DE MUSEUS A FAVOR DE L´EMPRESA TRIFUSIÓ PROJECTES CULTURALS SL EXPEDIENT 543/2025/0050.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DE L’ÀREA DE MUSEUS A FAVOR DE L´EMPRESA TRIFUSIÓ PROJECTES CULTURALS SL EXPEDIENT 543/2025/0050.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#8",
+      "sesion_id": "2026-07-16",
+      "orden": 8,
+      "titulo": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DE L’ÀREA DE MUSEUS A FAVOR DE SARAH BOUGSIAA EXPEDIENT 543/2025/0051.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DE L’ÀREA DE MUSEUS A FAVOR DE SARAH BOUGSIAA EXPEDIENT 543/2025/0051.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#9",
+      "sesion_id": "2026-07-16",
+      "orden": 9,
+      "titulo": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI MUNICIPAL D’ESPORTS A FAVOR DEL PROVEÏDOR CATALANA DE CLIMA I C. LLONCH, SL PELS SERVEIS PRESTATS A LES INSTAL·LACIONS ESPORTIVES DEL CEM CAN XARAU EXPEDIENT",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI MUNICIPAL D’ESPORTS A FAVOR DEL PROVEÏDOR CATALANA DE CLIMA I C. LLONCH, SL PELS SERVEIS PRESTATS A LES INSTAL·LACIONS ESPORTIVES DEL CEM CAN XARAU EXPEDIENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 2,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#10",
+      "sesion_id": "2026-07-16",
+      "orden": 10,
+      "titulo": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI MUNICIPAL D’ESPORTS A FAVOR DEL PROVEÏDOR CATALANA DE CLIMA I C. LLONCH, SL PELS SERVEIS PRESTATS A LES INSTAL·LACIONS ESPORTIVES DEL CEM CAN XARAU EXPEDIENT",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI MUNICIPAL D’ESPORTS A FAVOR DEL PROVEÏDOR CATALANA DE CLIMA I C. LLONCH, SL PELS SERVEIS PRESTATS A LES INSTAL·LACIONS ESPORTIVES DEL CEM CAN XARAU EXPEDIENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 2,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#11",
+      "sesion_id": "2026-07-16",
+      "orden": 11,
+      "titulo": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI MUNICIPAL D’ESPORTS A FAVOR DEL PROVEÏDOR COMERCIAL BLAUTEC SL, PELS SERVEIS PRESTATS EXPEDIENT 543/2026/0030.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI MUNICIPAL D’ESPORTS A FAVOR DEL PROVEÏDOR COMERCIAL BLAUTEC SL, PELS SERVEIS PRESTATS EXPEDIENT 543/2026/0030.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#12",
+      "sesion_id": "2026-07-16",
+      "orden": 12,
+      "titulo": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI MUNICIPAL D’ESPORTS A FAVOR DEL PROVEÏDOR FREELAB,SL, PELS SERVEIS PRESTATS AL CEM CAN XARAU I AL PEM GUIERA EXPEDIENT 543/2026/0024.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI MUNICIPAL D’ESPORTS A FAVOR DEL PROVEÏDOR FREELAB,SL, PELS SERVEIS PRESTATS AL CEM CAN XARAU I AL PEM GUIERA EXPEDIENT 543/2026/0024.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 2,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#13",
+      "sesion_id": "2026-07-16",
+      "orden": 13,
+      "titulo": "APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI D’ESPORTS A FAVOR DEL PROVEÏDOR CLUB ESPORTIU HORITZÓ 1994 EXPEDIENT",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI D’ESPORTS A FAVOR DEL PROVEÏDOR CLUB ESPORTIU HORITZÓ 1994 EXPEDIENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 2,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#14",
+      "sesion_id": "2026-07-16",
+      "orden": 14,
+      "titulo": "APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL D’OBLIGACIONS DE LA SECCIÓ DE TECNOLOGIES I SISTEMES D’INFORMACIÓ CORRESPONENT AL CONSUM DE TELEFONIA MÒBIL I FIXA, DE L’EMPRESA VODAFONE ESPAÑA, SAU, DURANT EL PERÍODE DEL",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL D’OBLIGACIONS DE LA SECCIÓ DE TECNOLOGIES I SISTEMES D’INFORMACIÓ CORRESPONENT AL CONSUM DE TELEFONIA MÒBIL I FIXA, DE L’EMPRESA VODAFONE ESPAÑA, SAU, DURANT EL PERÍODE DEL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.06,
+      "impacto": 1,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#15",
+      "sesion_id": "2026-07-16",
+      "orden": 15,
+      "titulo": "APROVACIÓ RECONEIXEMENT D'OBLIGACIONS DEL SERVEI DE SALUT PòBLICA A L'EMPRESA FUNDACIÓ DAINA PER LA DEFENSA DELS ANIMALS I LA NATURA. EXPEDIENT",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ RECONEIXEMENT D'OBLIGACIONS DEL SERVEI DE SALUT PòBLICA A L'EMPRESA FUNDACIÓ DAINA PER LA DEFENSA DELS ANIMALS I LA NATURA. EXPEDIENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 2,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#16",
+      "sesion_id": "2026-07-16",
+      "orden": 16,
+      "titulo": "APROVACIÓ RECONEIXEMENT D'OBLIGACIONS DEL SERVEI DE SALUT PòBLICA A L'EMPRESA FUNDACIÓ DAINA PER LA DEFENSA DELS ANIMALS I LA NATURA EXPEDIENT",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ RECONEIXEMENT D'OBLIGACIONS DEL SERVEI DE SALUT PòBLICA A L'EMPRESA FUNDACIÓ DAINA PER LA DEFENSA DELS ANIMALS I LA NATURA EXPEDIENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 2,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#17",
+      "sesion_id": "2026-07-16",
+      "orden": 17,
+      "titulo": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DE PRESSUPOST MUNICIPAL NòM. 31/2026 EXPEDIENT 011/2026/0031.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DE PRESSUPOST MUNICIPAL NòM. 31/2026 EXPEDIENT 011/2026/0031.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.42,
+      "impacto": 2,
+      "confianza_min": 0.27,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#18",
+      "sesion_id": "2026-07-16",
+      "orden": 18,
+      "titulo": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DE PRESSUPOST MUNICIPAL NòM. 32/2026 EXPEDIENT 011/2026/0032.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DE PRESSUPOST MUNICIPAL NòM. 32/2026 EXPEDIENT 011/2026/0032.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.45,
+      "impacto": 2,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#19",
+      "sesion_id": "2026-07-16",
+      "orden": 19,
+      "titulo": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DE PRESSUPOST MUNICIPAL NòM. 34/2026 EXPEDIENT 011/2026/0034.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DE PRESSUPOST MUNICIPAL NòM. 34/2026 EXPEDIENT 011/2026/0034.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 2,
+      "confianza_min": 0.33,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#20",
+      "sesion_id": "2026-07-16",
+      "orden": 20,
+      "titulo": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DE PRESSUPOST MUNICIPAL NòM. 35/2026 EXPEDIENT 011/2026/0035.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DE PRESSUPOST MUNICIPAL NòM. 35/2026 EXPEDIENT 011/2026/0035.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 2,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#21",
+      "sesion_id": "2026-07-16",
+      "orden": 21,
+      "titulo": "APROVACIÓ PROVISIONAL DE LA MODIFICACIÓ DE LES ORDENANCES FISCALS PER A",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ PROVISIONAL DE LA MODIFICACIÓ DE LES ORDENANCES FISCALS PER A",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.77,
+      "impacto": 4,
+      "confianza_min": 0.13,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#22",
+      "sesion_id": "2026-07-16",
+      "orden": 22,
+      "titulo": "Tramitació del procediment de control periòdic de les",
+      "resultado": null,
+      "texto_redactado": "Tramitació del procediment de control periòdic de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.9,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#23",
+      "sesion_id": "2026-07-16",
+      "orden": 23,
+      "titulo": "Tramitació del procediment de comprovació de la",
+      "resultado": null,
+      "texto_redactado": "Tramitació del procediment de comprovació de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.98,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#24",
+      "sesion_id": "2026-07-16",
+      "orden": 24,
+      "titulo": "Tramitació del procediment de comprovació de la",
+      "resultado": null,
+      "texto_redactado": "Tramitació del procediment de comprovació de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.98,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#25",
+      "sesion_id": "2026-07-16",
+      "orden": 25,
+      "titulo": "Tramitació del procediment de comprovació de la",
+      "resultado": null,
+      "texto_redactado": "Tramitació del procediment de comprovació de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.98,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#26",
+      "sesion_id": "2026-07-16",
+      "orden": 26,
+      "titulo": "Tramitació del procediment de canvi de titularitat de les",
+      "resultado": null,
+      "texto_redactado": "Tramitació del procediment de canvi de titularitat de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.91,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#27",
+      "sesion_id": "2026-07-16",
+      "orden": 27,
+      "titulo": "Tramitació del procediment de canvi de sol·licitant en",
+      "resultado": null,
+      "texto_redactado": "Tramitació del procediment de canvi de sol·licitant en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.97,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#28",
+      "sesion_id": "2026-07-16",
+      "orden": 28,
+      "titulo": "Tramitació del procediment de desistiment de la sol·licitud",
+      "resultado": null,
+      "texto_redactado": "Tramitació del procediment de desistiment de la sol·licitud",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.97,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#29",
+      "sesion_id": "2026-07-16",
+      "orden": 29,
+      "titulo": "Tramitació de l'emissió de l'informe tècnic preceptiu establert",
+      "resultado": null,
+      "texto_redactado": "Tramitació de l'emissió de l'informe tècnic preceptiu establert",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.97,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#30",
+      "sesion_id": "2026-07-16",
+      "orden": 30,
+      "titulo": "Mesuraments acústics amb el corresponent informe, prèvia",
+      "resultado": null,
+      "texto_redactado": "Mesuraments acústics amb el corresponent informe, prèvia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.43,
+      "impacto": 2,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#31",
+      "sesion_id": "2026-07-16",
+      "orden": 31,
+      "titulo": "MOCIÓ DELS GRUPS MUNICIPALS D'ERC CERDANYOLA, PARTIT POPULAR CERDANYOLA, GUANYEM CERDANYOLA, ECP CERDANYOLA I JUNTS PER CERDANYOLA PER DOTAR DELS RECURSOS SUFICIENTS PER EXERCIR LES FUNCIONS DEMOCRÀTIQUES CORRESPONENTS A LES PERSONES REGIDORES DE CERDANYOLA DEL VALLÈS. EXPEDIENT",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ DELS GRUPS MUNICIPALS D'ERC CERDANYOLA, PARTIT POPULAR CERDANYOLA, GUANYEM CERDANYOLA, ECP CERDANYOLA I JUNTS PER CERDANYOLA PER DOTAR DELS RECURSOS SUFICIENTS PER EXERCIR LES FUNCIONS DEMOCRÀTIQUES CORRESPONENTS A LES PERSONES REGIDORES DE CERDANYOLA DEL VALLÈS. EXPEDIENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "organizacion_institucional",
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#32",
+      "sesion_id": "2026-07-16",
+      "orden": 32,
+      "titulo": "MOCIÓ DELS GRUPS MUNICIPALS D'ERC CERDANYOLA, ECP CERDANYOLA I PARTIT POPULAR CERDANYOLA PER IMPULSAR L'ELABORACIÓ D'UN PLA D'EQUIPAMENTS DE CERDANYOLA DEL VALLÈS. EXPEDIENT 177/2026/0043.",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ DELS GRUPS MUNICIPALS D'ERC CERDANYOLA, ECP CERDANYOLA I PARTIT POPULAR CERDANYOLA PER IMPULSAR L'ELABORACIÓ D'UN PLA D'EQUIPAMENTS DE CERDANYOLA DEL VALLÈS. EXPEDIENT 177/2026/0043.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 2,
+      "confianza_min": 0.37,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#33",
+      "sesion_id": "2026-07-16",
+      "orden": 33,
+      "titulo": "MOCIÓ DELS GRUPS MUNICIPALS D'ERC CERDANYOLA, GUANYEM CERDANYOLA I ECP CERDANYOLA PER A LA TRANSPARÈNCIA, EL CONTROL AMBIENTAL I LA MORATÒRIA DE LES INSTAL·LACIONS DE CENTRE DE DADES A CERDANYOLA DEL VALLÈS. EXPEDIENT",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ DELS GRUPS MUNICIPALS D'ERC CERDANYOLA, GUANYEM CERDANYOLA I ECP CERDANYOLA PER A LA TRANSPARÈNCIA, EL CONTROL AMBIENTAL I LA MORATÒRIA DE LES INSTAL·LACIONS DE CENTRE DE DADES A CERDANYOLA DEL VALLÈS. EXPEDIENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "medio_ambiente",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.48,
+      "impacto": 3,
+      "confianza_min": 0.17,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#34",
+      "sesion_id": "2026-07-16",
+      "orden": 34,
+      "titulo": "MOCIÓ DEL GRUP MUNICIPAL DEL PARTIT POPULAR CERDANYOLA PER A LA DOTACIÓ DE DISPOSITIUS ELECTRÒNICS DE CONTROL (DEC) A LA POLICIA LOCAL DE CERDANYOLA DEL VALLÈS. EXPEDIENT 177/2026/0045.",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ DEL GRUP MUNICIPAL DEL PARTIT POPULAR CERDANYOLA PER A LA DOTACIÓ DE DISPOSITIUS ELECTRÒNICS DE CONTROL (DEC) A LA POLICIA LOCAL DE CERDANYOLA DEL VALLÈS. EXPEDIENT 177/2026/0045.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "seguridad",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.48,
+      "impacto": 3,
+      "confianza_min": 0.21,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#35",
+      "sesion_id": "2026-07-16",
+      "orden": 35,
+      "titulo": "MOCIÓ DEL GRUP MUNICIPAL DE JUNTS PER CERDANYOLA I ERC CERDANYOLA DE SUPORT AL COMBOI INTERNACIONAL DE SOLIDARITAT AMB UCRAÏNA DELS SINDICATS I MOVIMENTS SOCIALS. EXPEDIENT 177/2026/0046.",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ DEL GRUP MUNICIPAL DE JUNTS PER CERDANYOLA I ERC CERDANYOLA DE SUPORT AL COMBOI INTERNACIONAL DE SOLIDARITAT AMB UCRAÏNA DELS SINDICATS I MOVIMENTS SOCIALS. EXPEDIENT 177/2026/0046.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#36",
+      "sesion_id": "2026-07-16",
+      "orden": 36,
+      "titulo": "MOCIÓ DEL GRUP MUNICIPAL DE VOX CERDANYOLA PER A L'ACCESSIBILITAT DELS CENTRES EDUCATIUS. EXPEDIENT 177/2026/0047.",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ DEL GRUP MUNICIPAL DE VOX CERDANYOLA PER A L'ACCESSIBILITAT DELS CENTRES EDUCATIUS. EXPEDIENT 177/2026/0047.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 2,
+      "confianza_min": 0.26,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    },
+    {
+      "id": "2026-07-16#37",
+      "sesion_id": "2026-07-16",
+      "orden": 37,
+      "titulo": "PRECS I PREGUNTES",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-16T10:04:30.799Z"
+      }
+    }
+  ]
+}
