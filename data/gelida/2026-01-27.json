@@ -1,0 +1,292 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "gelida",
+    "nombre": "Gelida",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "809190004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-01-27",
+    "municipio_id": "gelida",
+    "fecha": "2026-01-27",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/809190004/2026/8c89decb-9087-457f-a2c5-ed622fb3df15/Ple%20ordinari_%2027%20de%20gener%20de%202026.pdf",
+    "hash_contenido": "286b3a9708a0ec8ee61eb9e3e62991d983b8d7b38c6b3e1f0c5e9e3a3aa30e4e",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:43:50.208Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-01-27#1",
+      "sesion_id": "2026-01-27",
+      "orden": 1,
+      "titulo": "El Reial Decret 424/2017, de 28 d’abril, pel qual es regula el règim jurídic del control",
+      "resultado": null,
+      "texto_redactado": "El Reial Decret 424/2017, de 28 d’abril, pel qual es regula el règim jurídic del control",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:50.208Z"
+      }
+    },
+    {
+      "id": "2026-01-27#2",
+      "sesion_id": "2026-01-27",
+      "orden": 2,
+      "titulo": "Per a l'exercici 2026 (Art. 2 RDL 14/2025): S'autoritza un increment global màxim",
+      "resultado": null,
+      "texto_redactado": "Per a l'exercici 2026 (Art. 2 RDL 14/2025): S'autoritza un increment global màxim",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:50.208Z"
+      }
+    },
+    {
+      "id": "2026-01-27#3",
+      "sesion_id": "2026-01-27",
+      "orden": 3,
+      "titulo": "Atès que des de la data d’executivitat del POUM fins al moment actual, en l’aplicació",
+      "resultado": null,
+      "texto_redactado": "Atès que des de la data d’executivitat del POUM fins al moment actual, en l’aplicació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:50.208Z"
+      }
+    },
+    {
+      "id": "2026-01-27#4",
+      "sesion_id": "2026-01-27",
+      "orden": 4,
+      "titulo": "Atès que la major part d’aquestes correccions van estar tramitades en els",
+      "resultado": null,
+      "texto_redactado": "Atès que la major part d’aquestes correccions van estar tramitades en els",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:50.208Z"
+      }
+    },
+    {
+      "id": "2026-01-27#5",
+      "sesion_id": "2026-01-27",
+      "orden": 5,
+      "titulo": "Aquesta modificació del POUM de Gelida s’estructura a partir de 9 modificacions que",
+      "resultado": null,
+      "texto_redactado": "Aquesta modificació del POUM de Gelida s’estructura a partir de 9 modificacions que",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:50.208Z"
+      }
+    },
+    {
+      "id": "2026-01-27#6",
+      "sesion_id": "2026-01-27",
+      "orden": 6,
+      "titulo": "Vist l’informe tècnic-jurídic de data 18 de desembre de 2025 relatiu a la Modificació",
+      "resultado": null,
+      "texto_redactado": "Vist l’informe tècnic-jurídic de data 18 de desembre de 2025 relatiu a la Modificació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:50.208Z"
+      }
+    },
+    {
+      "id": "2026-01-27#7",
+      "sesion_id": "2026-01-27",
+      "orden": 7,
+      "titulo": "Instar a ADIF a articular uns protocols d'actuació, a tots els nivells, davant de",
+      "resultado": null,
+      "texto_redactado": "Instar a ADIF a articular uns protocols d'actuació, a tots els nivells, davant de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:50.208Z"
+      }
+    },
+    {
+      "id": "2026-01-27#8",
+      "sesion_id": "2026-01-27",
+      "orden": 8,
+      "titulo": "Instar a ADIF a incrementar i millorar els canals de comunicació amb els",
+      "resultado": null,
+      "texto_redactado": "Instar a ADIF a incrementar i millorar els canals de comunicació amb els",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:50.208Z"
+      }
+    },
+    {
+      "id": "2026-01-27#9",
+      "sesion_id": "2026-01-27",
+      "orden": 9,
+      "titulo": "Instar a la Generalitat de Catalunya que reclami una ampliació dels fons dedicats",
+      "resultado": null,
+      "texto_redactado": "Instar a la Generalitat de Catalunya que reclami una ampliació dels fons dedicats",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:50.208Z"
+      }
+    },
+    {
+      "id": "2026-01-27#10",
+      "sesion_id": "2026-01-27",
+      "orden": 10,
+      "titulo": "Instar a la Generalitat de Catalunya a augmentar el reforç del transport públic per",
+      "resultado": null,
+      "texto_redactado": "Instar a la Generalitat de Catalunya a augmentar el reforç del transport públic per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:50.208Z"
+      }
+    },
+    {
+      "id": "2026-01-27#11",
+      "sesion_id": "2026-01-27",
+      "orden": 11,
+      "titulo": "Donar trasllat dels presents acords als Bombers de la Generalitat de Catalunya,",
+      "resultado": null,
+      "texto_redactado": "Donar trasllat dels presents acords als Bombers de la Generalitat de Catalunya,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:50.208Z"
+      }
+    }
+  ]
+}

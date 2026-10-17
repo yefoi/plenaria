@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-feliu-de-codines",
+    "nombre": "Sant Feliu de Codines",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "821070005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-10",
+    "municipio_id": "sant-feliu-de-codines",
+    "fecha": "2026-09-10",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/821070005/2026/ceef23a1-aa95-46f8-8267-b3a1b189582b/Acta%20de%20la%20sessi%f3%20extraordin%e0ria%20del%20ple%20de%2010%20de%20setembre%20de%202026.pdf",
+    "hash_contenido": "6d8f71e2b0b51194d3789750bf9e424d1963d10c6de8f4edd1efc062fe99a2d0",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-17T10:45:32.963Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-10#1",
+      "sesion_id": "2026-09-10",
+      "orden": 1,
+      "titulo": "1. EXPEDIENT 4083/2026. APROVACIÓ DEL DOCUMENT D'ABAST I LÍNIES",
+      "resultado": null,
+      "texto_redactado": "1. EXPEDIENT 4083/2026. APROVACIÓ DEL DOCUMENT D'ABAST I LÍNIES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:32.963Z"
+      }
+    }
+  ]
+}

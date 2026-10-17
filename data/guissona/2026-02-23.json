@@ -1,0 +1,340 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "guissona",
+    "nombre": "Guissona",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2511090004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-02-23",
+    "municipio_id": "guissona",
+    "fecha": "2026-02-23",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2511090004/2026/efb3ee27-2e07-452a-b6e2-5e828df77269/ACTA%20DEL%20PLE%202026-0001%20[PLE20260223].pdf",
+    "hash_contenido": "1addba26fe0ac3f56db875dd6338dbcefa2d3bd9ab41c3267e074f7776b797b4",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:44:24.219Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-02-23#1",
+      "sesion_id": "2026-02-23",
+      "orden": 1,
+      "titulo": "L’equip de govern local va detectar la necessitat de modificar puntual el POUM",
+      "resultado": null,
+      "texto_redactado": "L’equip de govern local va detectar la necessitat de modificar puntual el POUM",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:24.219Z"
+      }
+    },
+    {
+      "id": "2026-02-23#2",
+      "sesion_id": "2026-02-23",
+      "orden": 2,
+      "titulo": "Els serveis tècnics municipals van redactar, d’acord amb la voluntat del govern l’",
+      "resultado": null,
+      "texto_redactado": "Els serveis tècnics municipals van redactar, d’acord amb la voluntat del govern l’",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:24.219Z"
+      }
+    },
+    {
+      "id": "2026-02-23#3",
+      "sesion_id": "2026-02-23",
+      "orden": 3,
+      "titulo": "Aquesta modificació afecta a l’àmbit del Pla parcial urbanístic del SUD 7 de",
+      "resultado": null,
+      "texto_redactado": "Aquesta modificació afecta a l’àmbit del Pla parcial urbanístic del SUD 7 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:24.219Z"
+      }
+    },
+    {
+      "id": "2026-02-23#4",
+      "sesion_id": "2026-02-23",
+      "orden": 4,
+      "titulo": "L’objecte de la modificació puntual és modificar els usos assignats al Sistema",
+      "resultado": null,
+      "texto_redactado": "L’objecte de la modificació puntual és modificar els usos assignats al Sistema",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:24.219Z"
+      }
+    },
+    {
+      "id": "2026-02-23#5",
+      "sesion_id": "2026-02-23",
+      "orden": 5,
+      "titulo": "El document conté la memòria justificativa, la definició de l’objecte, la",
+      "resultado": null,
+      "texto_redactado": "El document conté la memòria justificativa, la definició de l’objecte, la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:24.219Z"
+      }
+    },
+    {
+      "id": "2026-02-23#6",
+      "sesion_id": "2026-02-23",
+      "orden": 6,
+      "titulo": "El document considera la no necessitat d’avaluació ambiental, d’acord amb l’",
+      "resultado": null,
+      "texto_redactado": "El document considera la no necessitat d’avaluació ambiental, d’acord amb l’",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente",
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:24.219Z"
+      }
+    },
+    {
+      "id": "2026-02-23#7",
+      "sesion_id": "2026-02-23",
+      "orden": 7,
+      "titulo": "vist l’informe jurídic de secretaria de data 15 de setembre de 2025.",
+      "resultado": null,
+      "texto_redactado": "vist l’informe jurídic de secretaria de data 15 de setembre de 2025.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:24.219Z"
+      }
+    },
+    {
+      "id": "2026-02-23#8",
+      "sesion_id": "2026-02-23",
+      "orden": 8,
+      "titulo": "Els projectes de modificació del Pla d’ordenació es tramiten segons allò que",
+      "resultado": null,
+      "texto_redactado": "Els projectes de modificació del Pla d’ordenació es tramiten segons allò que",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:24.219Z"
+      }
+    },
+    {
+      "id": "2026-02-23#9",
+      "sesion_id": "2026-02-23",
+      "orden": 9,
+      "titulo": "L'anunci d'exposició pública de l'acord d’aprovació inicial de la Modificació",
+      "resultado": null,
+      "texto_redactado": "L'anunci d'exposició pública de l'acord d’aprovació inicial de la Modificació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:24.219Z"
+      }
+    },
+    {
+      "id": "2026-02-23#10",
+      "sesion_id": "2026-02-23",
+      "orden": 10,
+      "titulo": "Atès que durant el període d’informació pública no s’han formulat al·legacions,",
+      "resultado": null,
+      "texto_redactado": "Atès que durant el període d’informació pública no s’han formulat al·legacions,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:24.219Z"
+      }
+    },
+    {
+      "id": "2026-02-23#11",
+      "sesion_id": "2026-02-23",
+      "orden": 11,
+      "titulo": "Vist la naturalesa de la modificació puntual no procedia demanar cap informe",
+      "resultado": null,
+      "texto_redactado": "Vist la naturalesa de la modificació puntual no procedia demanar cap informe",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:24.219Z"
+      }
+    },
+    {
+      "id": "2026-02-23#12",
+      "sesion_id": "2026-02-23",
+      "orden": 12,
+      "titulo": "Vist que el document aprovat inicialment no contenia la referencia de",
+      "resultado": null,
+      "texto_redactado": "Vist que el document aprovat inicialment no contenia la referencia de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:24.219Z"
+      }
+    },
+    {
+      "id": "2026-02-23#13",
+      "sesion_id": "2026-02-23",
+      "orden": 13,
+      "titulo": "Per a l’execució forçosa de les resolucions de l’Ajuntament es poden imposar",
+      "resultado": null,
+      "texto_redactado": "Per a l’execució forçosa de les resolucions de l’Ajuntament es poden imposar",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:24.219Z"
+      }
+    }
+  ]
+}

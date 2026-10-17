@@ -1,0 +1,340 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "santa-margarida-i-els-monjos",
+    "nombre": "Santa Margarida i els Monjos",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "825150006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-13",
+    "municipio_id": "santa-margarida-i-els-monjos",
+    "fecha": "2026-07-13",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/825150006/2026/685752d1-b9dc-4e8f-a4b8-bff3d6cdf7e3/260713.pdf",
+    "hash_contenido": "3985068952ed6ea2d1a62dea948fd735f26e8d2b9e34fd5486d8a21b149763ad",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:44:04.202Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-13#1",
+      "sesion_id": "2026-07-13",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L'ACTA DE LA SESSIÓ ANTERIOR",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L'ACTA DE LA SESSIÓ ANTERIOR",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:04.202Z"
+      }
+    },
+    {
+      "id": "2026-07-13#2",
+      "sesion_id": "2026-07-13",
+      "orden": 2,
+      "titulo": "EXPEDIENT 971/2026. APROVACIÓ DEFINITIVA DEL REGLAMENT DE RÈGIM INTERN, ORGANITZACIÓ I FUNCIONAMENT DE LA LLAR D’INFANTS MUNICIPALÒXIROIÓ DE SANTA MARGARIDA I ELS MONJOS",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT 971/2026. APROVACIÓ DEFINITIVA DEL REGLAMENT DE RÈGIM INTERN, ORGANITZACIÓ I FUNCIONAMENT DE LA LLAR D’INFANTS MUNICIPALÒXIROIÓ DE SANTA MARGARIDA I ELS MONJOS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:04.202Z"
+      }
+    },
+    {
+      "id": "2026-07-13#3",
+      "sesion_id": "2026-07-13",
+      "orden": 3,
+      "titulo": "Expedient 3716/2026. APROVACIÓ, SI S'ESCAU, DELS FESTIUS LOCALS PER",
+      "resultado": null,
+      "texto_redactado": "Expedient 3716/2026. APROVACIÓ, SI S'ESCAU, DELS FESTIUS LOCALS PER",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:04.202Z"
+      }
+    },
+    {
+      "id": "2026-07-13#4",
+      "sesion_id": "2026-07-13",
+      "orden": 4,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:04.202Z"
+      }
+    },
+    {
+      "id": "2026-07-13#5",
+      "sesion_id": "2026-07-13",
+      "orden": 5,
+      "titulo": "EXPEDIENT 5147/2025. APROVACIÓ DE LA MODIFICACIÓ DE L'ORDENANÇA",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT 5147/2025. APROVACIÓ DE LA MODIFICACIÓ DE L'ORDENANÇA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:04.202Z"
+      }
+    },
+    {
+      "id": "2026-07-13#6",
+      "sesion_id": "2026-07-13",
+      "orden": 6,
+      "titulo": "EXPEDIENT 3690/2026. APROVACIÓ INICIAL DE L’EXPEDIENT DE",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT 3690/2026. APROVACIÓ INICIAL DE L’EXPEDIENT DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:04.202Z"
+      }
+    },
+    {
+      "id": "2026-07-13#7",
+      "sesion_id": "2026-07-13",
+      "orden": 7,
+      "titulo": "Expedient 3490/2026. RECONEIXEMENT EXTRAJUDICIAL DE CRÈDITS",
+      "resultado": null,
+      "texto_redactado": "Expedient 3490/2026. RECONEIXEMENT EXTRAJUDICIAL DE CRÈDITS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:04.202Z"
+      }
+    },
+    {
+      "id": "2026-07-13#8",
+      "sesion_id": "2026-07-13",
+      "orden": 8,
+      "titulo": "Expedient 2805/2026. DACIÓ DE COMPTE DEL PLA ANUAL DE CONTROL",
+      "resultado": null,
+      "texto_redactado": "Expedient 2805/2026. DACIÓ DE COMPTE DEL PLA ANUAL DE CONTROL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:04.202Z"
+      }
+    },
+    {
+      "id": "2026-07-13#9",
+      "sesion_id": "2026-07-13",
+      "orden": 9,
+      "titulo": "Expedient 3209/2026. DACIÓ AL PLE DE L’INFORME DE CONTROL DE L’ÒRGAN INTERVENTOR D’ADEQUACIÓ DEL PLA D’ACCIÓ PER ESMENAR DEFICIÈNCIES POSADES DE MANIFEST EN L’INFORME RESUM ANUAL DE CONTROL INTERN DE L’EXERCICI 2024 (PACF 2025)",
+      "resultado": null,
+      "texto_redactado": "Expedient 3209/2026. DACIÓ AL PLE DE L’INFORME DE CONTROL DE L’ÒRGAN INTERVENTOR D’ADEQUACIÓ DEL PLA D’ACCIÓ PER ESMENAR DEFICIÈNCIES POSADES DE MANIFEST EN L’INFORME RESUM ANUAL DE CONTROL INTERN DE L’EXERCICI 2024 (PACF 2025)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:04.202Z"
+      }
+    },
+    {
+      "id": "2026-07-13#10",
+      "sesion_id": "2026-07-13",
+      "orden": 10,
+      "titulo": "DACIÓ DE COMPTES DECRETS D'ALCALDIA",
+      "resultado": null,
+      "texto_redactado": "DACIÓ DE COMPTES DECRETS D'ALCALDIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:04.202Z"
+      }
+    },
+    {
+      "id": "2026-07-13#11",
+      "sesion_id": "2026-07-13",
+      "orden": 11,
+      "titulo": "Expedient 3754/2026. MOCIÓ QUE PRESENTA EL GRUP MUNICIPAL PLATAFORMA PER SANTA MARGARIDA I ELS MONJOS PER UN PLATER RESPECTUÓS AMB EL PENEDÈS",
+      "resultado": null,
+      "texto_redactado": "Expedient 3754/2026. MOCIÓ QUE PRESENTA EL GRUP MUNICIPAL PLATAFORMA PER SANTA MARGARIDA I ELS MONJOS PER UN PLATER RESPECTUÓS AMB EL PENEDÈS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:04.202Z"
+      }
+    },
+    {
+      "id": "2026-07-13#12",
+      "sesion_id": "2026-07-13",
+      "orden": 12,
+      "titulo": "Expedient 3756/2026. MOCIÓ PRESENTADA PELS GRUPS MUNICIPALS POBLE ACTIU SMM, JUNTS PER SANTA MARGARIDA I ELS MONJOS I ESQUERRA REPUBLICANA DE SANTA MARGARIDA I ELS MONJOS PER REFORÇAR LA",
+      "resultado": null,
+      "texto_redactado": "Expedient 3756/2026. MOCIÓ PRESENTADA PELS GRUPS MUNICIPALS POBLE ACTIU SMM, JUNTS PER SANTA MARGARIDA I ELS MONJOS I ESQUERRA REPUBLICANA DE SANTA MARGARIDA I ELS MONJOS PER REFORÇAR LA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:04.202Z"
+      }
+    },
+    {
+      "id": "2026-07-13#13",
+      "sesion_id": "2026-07-13",
+      "orden": 13,
+      "titulo": "PRECS I PREGUNTES",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:04.202Z"
+      }
+    }
+  ]
+}

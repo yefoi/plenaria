@@ -1,0 +1,388 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "santa-eulalia-de-roncana",
+    "nombre": "Santa Eulàlia de Ronçana",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "824820002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-16",
+    "municipio_id": "santa-eulalia-de-roncana",
+    "fecha": "2026-07-16",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/824820002/2026/b601ce5b-4818-4273-8455-4d9e927a2103/PLE2026-07%2016-07-2026%20Ordinari.pdf",
+    "hash_contenido": "bb534aff6230b7b9e735453f0f6e21280491a92f5468578f9c450488c0b27343",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:44:00.488Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-16#1",
+      "sesion_id": "2026-07-16",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta anterior.-",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’acta anterior.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:00.488Z"
+      }
+    },
+    {
+      "id": "2026-07-16#2",
+      "sesion_id": "2026-07-16",
+      "orden": 2,
+      "titulo": "Informació diversa.-",
+      "resultado": null,
+      "texto_redactado": "Informació diversa.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:00.488Z"
+      }
+    },
+    {
+      "id": "2026-07-16#3",
+      "sesion_id": "2026-07-16",
+      "orden": 3,
+      "titulo": "Donar compte dels Decrets i Resolucions d’Alcaldia.-",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels Decrets i Resolucions d’Alcaldia.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:00.488Z"
+      }
+    },
+    {
+      "id": "2026-07-16#4",
+      "sesion_id": "2026-07-16",
+      "orden": 4,
+      "titulo": "Aprovació Festes Locals 2027.-",
+      "resultado": null,
+      "texto_redactado": "Aprovació Festes Locals 2027.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:00.488Z"
+      }
+    },
+    {
+      "id": "2026-07-16#5",
+      "sesion_id": "2026-07-16",
+      "orden": 5,
+      "titulo": "Aprovació de la revisió del padró d'habitants a 1 de gener de 2026.-",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la revisió del padró d'habitants a 1 de gener de 2026.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:00.488Z"
+      }
+    },
+    {
+      "id": "2026-07-16#6",
+      "sesion_id": "2026-07-16",
+      "orden": 6,
+      "titulo": "Declaració d’inhabilitat del mes d’agost de 2026 a l'efecte de còmput de terminis",
+      "resultado": null,
+      "texto_redactado": "Declaració d’inhabilitat del mes d’agost de 2026 a l'efecte de còmput de terminis",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:00.488Z"
+      }
+    },
+    {
+      "id": "2026-07-16#7",
+      "sesion_id": "2026-07-16",
+      "orden": 7,
+      "titulo": "Aprovació del Pla de Gestió del Verd Urbà de Santa Eulàlia.-",
+      "resultado": null,
+      "texto_redactado": "Aprovació del Pla de Gestió del Verd Urbà de Santa Eulàlia.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:00.488Z"
+      }
+    },
+    {
+      "id": "2026-07-16#8",
+      "sesion_id": "2026-07-16",
+      "orden": 8,
+      "titulo": "Aprovació de la Rectificació de l'Inventari General de Béns i Drets de l'Ajuntament a",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la Rectificació de l'Inventari General de Béns i Drets de l'Ajuntament a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:00.488Z"
+      }
+    },
+    {
+      "id": "2026-07-16#9",
+      "sesion_id": "2026-07-16",
+      "orden": 9,
+      "titulo": "Aprovació inicial del Reglament d'Inscripció i funcionament dels cursos i tallers de la",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial del Reglament d'Inscripció i funcionament dels cursos i tallers de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:00.488Z"
+      }
+    },
+    {
+      "id": "2026-07-16#10",
+      "sesion_id": "2026-07-16",
+      "orden": 10,
+      "titulo": "Aprovació inicial del Reglament d'organització del Consell Educatiu de Santa Eulàlia",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial del Reglament d'organització del Consell Educatiu de Santa Eulàlia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:00.488Z"
+      }
+    },
+    {
+      "id": "2026-07-16#11",
+      "sesion_id": "2026-07-16",
+      "orden": 11,
+      "titulo": "Aprovació Compte General 2025: Ajuntament i Set Comunicació.-",
+      "resultado": null,
+      "texto_redactado": "Aprovació Compte General 2025: Ajuntament i Set Comunicació.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:00.488Z"
+      }
+    },
+    {
+      "id": "2026-07-16#12",
+      "sesion_id": "2026-07-16",
+      "orden": 12,
+      "titulo": "Modificació de Crèdit 9/2026: Crèdit Extraordinari creació aplicació pressupostària",
+      "resultado": null,
+      "texto_redactado": "Modificació de Crèdit 9/2026: Crèdit Extraordinari creació aplicació pressupostària",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:00.488Z"
+      }
+    },
+    {
+      "id": "2026-07-16#13",
+      "sesion_id": "2026-07-16",
+      "orden": 13,
+      "titulo": "Modificació de Crèdit 10/2026: Crèdit Extraordinari Parc de Can Font i Suplement",
+      "resultado": null,
+      "texto_redactado": "Modificació de Crèdit 10/2026: Crèdit Extraordinari Parc de Can Font i Suplement",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:00.488Z"
+      }
+    },
+    {
+      "id": "2026-07-16#14",
+      "sesion_id": "2026-07-16",
+      "orden": 14,
+      "titulo": "Afers urgents i sobrevinguts.-",
+      "resultado": null,
+      "texto_redactado": "Afers urgents i sobrevinguts.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:00.488Z"
+      }
+    },
+    {
+      "id": "2026-07-16#15",
+      "sesion_id": "2026-07-16",
+      "orden": 15,
+      "titulo": "Precs i preguntes.-",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:00.488Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vandellos-i-lhospitalet-de-linfant",
+    "nombre": "Vandellòs i l'Hospitalet de l'Infant",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4316280001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-03-26",
+    "municipio_id": "vandellos-i-lhospitalet-de-linfant",
+    "fecha": "2026-03-26",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4316280001/2026/0b466477-1fe0-4f49-966e-5de524e515ec/20260529_Uns%20altres_ACTA%20DEL%20PLE%202026-0002%20[PLE%2026-3-2026].pdf",
+    "hash_contenido": "ab46d85b213d9d57fefa2e2629323e4143b418c064f5ac2b81d09826527d2302",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:45:15.530Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-03-26#1",
+      "sesion_id": "2026-03-26",
+      "orden": 1,
+      "titulo": "Factures arribades com a tard el 31 de desembre de 2025, que corresponen a",
+      "resultado": null,
+      "texto_redactado": "Factures arribades com a tard el 31 de desembre de 2025, que corresponen a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:15.530Z"
+      }
+    },
+    {
+      "id": "2026-03-26#2",
+      "sesion_id": "2026-03-26",
+      "orden": 2,
+      "titulo": "Factures arribades com a tard el 31 de desembre de 2025, que corresponen a",
+      "resultado": null,
+      "texto_redactado": "Factures arribades com a tard el 31 de desembre de 2025, que corresponen a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:15.530Z"
+      }
+    },
+    {
+      "id": "2026-03-26#3",
+      "sesion_id": "2026-03-26",
+      "orden": 3,
+      "titulo": "Premi de Cobrament de Base Gestió d’Ingressos amb manca de crèdit adequat i",
+      "resultado": null,
+      "texto_redactado": "Premi de Cobrament de Base Gestió d’Ingressos amb manca de crèdit adequat i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:15.530Z"
+      }
+    },
+    {
+      "id": "2026-03-26#4",
+      "sesion_id": "2026-03-26",
+      "orden": 4,
+      "titulo": "Incorporació d’una nova taxa per transmissions d’autoritzacions",
+      "resultado": null,
+      "texto_redactado": "Incorporació d’una nova taxa per transmissions d’autoritzacions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:15.530Z"
+      }
+    },
+    {
+      "id": "2026-03-26#5",
+      "sesion_id": "2026-03-26",
+      "orden": 5,
+      "titulo": "Proposta de modificació de l’Ordenança Fiscal",
+      "resultado": null,
+      "texto_redactado": "Proposta de modificació de l’Ordenança Fiscal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:15.530Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "tossa-de-mar",
+    "nombre": "Tossa de Mar",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1720230008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-04-02",
+    "municipio_id": "tossa-de-mar",
+    "fecha": "2026-04-02",
+    "tipo": "extraordinaria_urgente",
+    "fuente_url": "https://media.seu-e.cat/acteca/1720230008/2026/339a0668-6bfa-43f2-9ead-7b6907eefada/Acta%20de%20sessi%f3_ACTA%20DEL%20PLENO%202026-0007%20[Acta%20de%20la%20sessi%f3%20-%20Extraordin%e0ria%20Urgent%20-%202%20d%27abril%20de%202026].pdf",
+    "hash_contenido": "f7b8666dc5cb563792cb8b494d01a9d09bffa94357300db877c43ef0a3e1c4e0",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-17T10:32:08.975Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-04-02#1",
+      "sesion_id": "2026-04-02",
+      "orden": 1,
+      "titulo": "1. Ratificació de la urgència de la sessió.",
+      "resultado": null,
+      "texto_redactado": "1. Ratificació de la urgència de la sessió.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}

@@ -1,0 +1,387 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "mont-roig-del-camp",
+    "nombre": "Mont-roig del Camp",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4309230008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-22",
+    "municipio_id": "mont-roig-del-camp",
+    "fecha": "2026-06-22",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4309230008/2026/20017f99-7953-4d6e-88ec-ff98b5baf415/10_2026%20Acta%20Ple%20de%20data%2022%20juny%202026].pdf",
+    "hash_contenido": "ed146d3afa3bed510fa5c63e23f289d50617f65faf2ebfe17fec67e9becffeb0",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:39:42.188Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-22#1",
+      "sesion_id": "2026-06-22",
+      "orden": 1,
+      "titulo": "Planejament. Expedient 2905/2025. Aprovació inicial de la Modificació puntual",
+      "resultado": null,
+      "texto_redactado": "Planejament. Expedient 2905/2025. Aprovació inicial de la Modificació puntual",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:42.188Z"
+      }
+    },
+    {
+      "id": "2026-06-22#2",
+      "sesion_id": "2026-06-22",
+      "orden": 2,
+      "titulo": "Serveis Jurídics. Expedient 8496/2026. Aprovar, si s’escau, el contracte",
+      "resultado": null,
+      "texto_redactado": "Serveis Jurídics. Expedient 8496/2026. Aprovar, si s’escau, el contracte",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:42.188Z"
+      }
+    },
+    {
+      "id": "2026-06-22#3",
+      "sesion_id": "2026-06-22",
+      "orden": 3,
+      "titulo": "La iniciativa té origen en la proposta del Grup Ametller Origen; l'Ajuntament ha acordat",
+      "resultado": null,
+      "texto_redactado": "La iniciativa té origen en la proposta del Grup Ametller Origen; l'Ajuntament ha acordat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:42.188Z"
+      }
+    },
+    {
+      "id": "2026-06-22#4",
+      "sesion_id": "2026-06-22",
+      "orden": 4,
+      "titulo": "L'objecte és possibilitar la implantació del projecte «Hub Mont-roig» / «Agroparc»",
+      "resultado": null,
+      "texto_redactado": "L'objecte és possibilitar la implantació del projecte «Hub Mont-roig» / «Agroparc»",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:42.188Z"
+      }
+    },
+    {
+      "id": "2026-06-22#5",
+      "sesion_id": "2026-06-22",
+      "orden": 5,
+      "titulo": "La Comissió de Territori de Catalunya, en sessió de 20/12/2023, va declarar l'interès",
+      "resultado": null,
+      "texto_redactado": "La Comissió de Territori de Catalunya, en sessió de 20/12/2023, va declarar l'interès",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:42.188Z"
+      }
+    },
+    {
+      "id": "2026-06-22#6",
+      "sesion_id": "2026-06-22",
+      "orden": 6,
+      "titulo": "Pla territorial parcial del Camp de Tarragona (12/01/2010), especialment els articles 1.4,",
+      "resultado": null,
+      "texto_redactado": "Pla territorial parcial del Camp de Tarragona (12/01/2010), especialment els articles 1.4,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:42.188Z"
+      }
+    },
+    {
+      "id": "2026-06-22#7",
+      "sesion_id": "2026-06-22",
+      "orden": 7,
+      "titulo": "La Comissió Territorial d'Urbanisme del Camp de Tarragona, en sessió de 30/04/2025, va",
+      "resultado": null,
+      "texto_redactado": "La Comissió Territorial d'Urbanisme del Camp de Tarragona, en sessió de 30/04/2025, va",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:42.188Z"
+      }
+    },
+    {
+      "id": "2026-06-22#8",
+      "sesion_id": "2026-06-22",
+      "orden": 8,
+      "titulo": "El Departament de Territori, Habitatge i Transició Ecològica (30/04/2025) va requerir, entre",
+      "resultado": null,
+      "texto_redactado": "El Departament de Territori, Habitatge i Transició Ecològica (30/04/2025) va requerir, entre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:42.188Z"
+      }
+    },
+    {
+      "id": "2026-06-22#9",
+      "sesion_id": "2026-06-22",
+      "orden": 9,
+      "titulo": "L'Oficina Territorial Ambiental va emetre el document d'abast (09/06/2025), les",
+      "resultado": null,
+      "texto_redactado": "L'Oficina Territorial Ambiental va emetre el document d'abast (09/06/2025), les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:42.188Z"
+      }
+    },
+    {
+      "id": "2026-06-22#10",
+      "sesion_id": "2026-06-22",
+      "orden": 10,
+      "titulo": "En data 15/05/2026 (registre 2026-E-RE-4532) es va aportar la documentació per a",
+      "resultado": null,
+      "texto_redactado": "En data 15/05/2026 (registre 2026-E-RE-4532) es va aportar la documentació per a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:42.188Z"
+      }
+    },
+    {
+      "id": "2026-06-22#11",
+      "sesion_id": "2026-06-22",
+      "orden": 11,
+      "titulo": "Consta a l’expedient la documentació tècnica necessària per sotmetre l’instrument a",
+      "resultado": null,
+      "texto_redactado": "Consta a l’expedient la documentació tècnica necessària per sotmetre l’instrument a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:42.188Z"
+      }
+    },
+    {
+      "id": "2026-06-22#12",
+      "sesion_id": "2026-06-22",
+      "orden": 12,
+      "titulo": "Vist l’informe tècnic de l’Arquitecte municipal de data 12 de juny de 2026.",
+      "resultado": null,
+      "texto_redactado": "Vist l’informe tècnic de l’Arquitecte municipal de data 12 de juny de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:42.188Z"
+      }
+    },
+    {
+      "id": "2026-06-22#13",
+      "sesion_id": "2026-06-22",
+      "orden": 13,
+      "titulo": "Vist informe jurídic emès pel Cap de Servei de Disciplina, per acumulació de tasques del",
+      "resultado": null,
+      "texto_redactado": "Vist informe jurídic emès pel Cap de Servei de Disciplina, per acumulació de tasques del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:42.188Z"
+      }
+    },
+    {
+      "id": "2026-06-22#14",
+      "sesion_id": "2026-06-22",
+      "orden": 14,
+      "titulo": "Vista la diligència de conformitat emesa per la Secretaria Accidental de data 12 de juny de",
+      "resultado": null,
+      "texto_redactado": "Vista la diligència de conformitat emesa per la Secretaria Accidental de data 12 de juny de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:42.188Z"
+      }
+    },
+    {
+      "id": "2026-06-22#15",
+      "sesion_id": "2026-06-22",
+      "orden": 15,
+      "titulo": "Vist el dictamen de la Comissió Informativa de l’Àrea de Territori i Sostenibilitat de data 17 de",
+      "resultado": null,
+      "texto_redactado": "Vist el dictamen de la Comissió Informativa de l’Àrea de Territori i Sostenibilitat de data 17 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:42.188Z"
+      }
+    }
+  ]
+}

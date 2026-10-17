@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "olesa-de-montserrat",
+    "nombre": "Olesa de Montserrat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "814770005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-02-10",
+    "municipio_id": "olesa-de-montserrat",
+    "fecha": "2026-02-10",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/814770005/2026/42c08bf5-d44a-49d7-9a0e-f1a81a3073cc/(05)%20Acta%2010-02-2026.pdf",
+    "hash_contenido": "cb6cac167a7172172601afe1ccc644bc96963e32f6b01ae91de4b00ed12f9280",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:36:11.170Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-02-10#1",
+      "sesion_id": "2026-02-10",
+      "orden": 1,
+      "titulo": "Acta Sessió Ordinària de data 3 de febrer de 2026. Exp. 2026/000881",
+      "resultado": null,
+      "texto_redactado": "Acta Sessió Ordinària de data 3 de febrer de 2026. Exp. 2026/000881",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:11.170Z"
+      }
+    },
+    {
+      "id": "2026-02-10#2",
+      "sesion_id": "2026-02-10",
+      "orden": 2,
+      "titulo": "Adjudicació contracte serveis Mediació Ciutadana. Exp.2025/004712",
+      "resultado": null,
+      "texto_redactado": "Adjudicació contracte serveis Mediació Ciutadana. Exp.2025/004712",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:11.170Z"
+      }
+    },
+    {
+      "id": "2026-02-10#3",
+      "sesion_id": "2026-02-10",
+      "orden": 3,
+      "titulo": "Adjudicació contracte serveis de lleure i suport educatiu. Exp.2025/007586",
+      "resultado": null,
+      "texto_redactado": "Adjudicació contracte serveis de lleure i suport educatiu. Exp.2025/007586",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:11.170Z"
+      }
+    },
+    {
+      "id": "2026-02-10#4",
+      "sesion_id": "2026-02-10",
+      "orden": 4,
+      "titulo": "Concessió gual al [DIRECCIÓN]. Exp. 2025/009058",
+      "resultado": null,
+      "texto_redactado": "Concessió gual al [DIRECCIÓN]. Exp. 2025/009058",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:11.170Z"
+      }
+    },
+    {
+      "id": "2026-02-10#5",
+      "sesion_id": "2026-02-10",
+      "orden": 5,
+      "titulo": "Aprovació Convocatòria 34è Premi Sant Jordi, 2026. Exp. 2026/000533",
+      "resultado": null,
+      "texto_redactado": "Aprovació Convocatòria 34è Premi Sant Jordi, 2026. Exp. 2026/000533",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:11.170Z"
+      }
+    },
+    {
+      "id": "2026-02-10#6",
+      "sesion_id": "2026-02-10",
+      "orden": 6,
+      "titulo": "Trasllat dels Srs. H.C. i W.E. al recurs dl'allotjament d'urgència Les Paules. Exp.",
+      "resultado": null,
+      "texto_redactado": "Trasllat dels Srs. H.C. i W.E. al recurs dl'allotjament d'urgència Les Paules. Exp.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales",
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:11.170Z"
+      }
+    },
+    {
+      "id": "2026-02-10#7",
+      "sesion_id": "2026-02-10",
+      "orden": 7,
+      "titulo": "Adjudicació contracte serveis assessorament urbanístic redacció informes tècnics.",
+      "resultado": null,
+      "texto_redactado": "Adjudicació contracte serveis assessorament urbanístic redacció informes tècnics.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:11.170Z"
+      }
+    }
+  ]
+}

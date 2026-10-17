@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "viladecavalls",
+    "nombre": "Viladecavalls",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "830080001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-25",
+    "municipio_id": "viladecavalls",
+    "fecha": "2026-06-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/830080001/2026/da00ae1b-6518-41d8-83bb-9656e988e29a/ACTA%20PLE2026000006%20(20260625)_ANM.pdf",
+    "hash_contenido": "6c3ce4f9059801095b8b60df303a5d27a6ca2e9224a31c57599b20f8408cb1b2",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:44:02.273Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-25#1",
+      "sesion_id": "2026-06-25",
+      "orden": 1,
+      "titulo": "Manifest en motiu del 28J. Dia Internacional per l'alliberament LGBTI+. LECTURA I APROVACIÓ DE L'ACTA ANTERIOR.",
+      "resultado": null,
+      "texto_redactado": "Manifest en motiu del 28J. Dia Internacional per l'alliberament LGBTI+. LECTURA I APROVACIÓ DE L'ACTA ANTERIOR.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:02.273Z"
+      }
+    },
+    {
+      "id": "2026-06-25#2",
+      "sesion_id": "2026-06-25",
+      "orden": 2,
+      "titulo": "Lectura i aprovació de l'acta de la sessió ordinària del Ple de data 28 de maig de 2026. PART RESOLUTIVA",
+      "resultado": null,
+      "texto_redactado": "Lectura i aprovació de l'acta de la sessió ordinària del Ple de data 28 de maig de 2026. PART RESOLUTIVA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:02.273Z"
+      }
+    },
+    {
+      "id": "2026-06-25#3",
+      "sesion_id": "2026-06-25",
+      "orden": 3,
+      "titulo": "Aprovar l'adhesió al Programa de Cooperació Financera especifica del Departament",
+      "resultado": null,
+      "texto_redactado": "Aprovar l'adhesió al Programa de Cooperació Financera especifica del Departament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:02.273Z"
+      }
+    },
+    {
+      "id": "2026-06-25#4",
+      "sesion_id": "2026-06-25",
+      "orden": 4,
+      "titulo": "Aprovar l’expedient de modificació de crèdits núm. 7/2026 del pressupost de",
+      "resultado": null,
+      "texto_redactado": "Aprovar l’expedient de modificació de crèdits núm. 7/2026 del pressupost de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:02.273Z"
+      }
+    },
+    {
+      "id": "2026-06-25#5",
+      "sesion_id": "2026-06-25",
+      "orden": 5,
+      "titulo": "Aprovar el Reconeixement Extrajudicial d'obligacions de la relació núm. 2026/22 REC",
+      "resultado": null,
+      "texto_redactado": "Aprovar el Reconeixement Extrajudicial d'obligacions de la relació núm. 2026/22 REC",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:02.273Z"
+      }
+    },
+    {
+      "id": "2026-06-25#6",
+      "sesion_id": "2026-06-25",
+      "orden": 6,
+      "titulo": "Aprovar el compte general de l'Ajuntament de Viladecavalls corresponent a l'exercici",
+      "resultado": null,
+      "texto_redactado": "Aprovar el compte general de l'Ajuntament de Viladecavalls corresponent a l'exercici",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:02.273Z"
+      }
+    },
+    {
+      "id": "2026-06-25#7",
+      "sesion_id": "2026-06-25",
+      "orden": 7,
+      "titulo": "Aprovar la xifra oficial de població resultant de la revisió del padró municipal d'habitants",
+      "resultado": null,
+      "texto_redactado": "Aprovar la xifra oficial de població resultant de la revisió del padró municipal d'habitants",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:02.273Z"
+      }
+    },
+    {
+      "id": "2026-06-25#8",
+      "sesion_id": "2026-06-25",
+      "orden": 8,
+      "titulo": "Acords de la Junta de Govern Local de data 28 de maig, 4 i 18 de juny de 2026.",
+      "resultado": null,
+      "texto_redactado": "Acords de la Junta de Govern Local de data 28 de maig, 4 i 18 de juny de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:02.273Z"
+      }
+    },
+    {
+      "id": "2026-06-25#9",
+      "sesion_id": "2026-06-25",
+      "orden": 9,
+      "titulo": "Decrets dictats per l'Alcaldia del 2026DECR000655 de data 21 de maig de 2026 al",
+      "resultado": null,
+      "texto_redactado": "Decrets dictats per l'Alcaldia del 2026DECR000655 de data 21 de maig de 2026 al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:02.273Z"
+      }
+    },
+    {
+      "id": "2026-06-25#10",
+      "sesion_id": "2026-06-25",
+      "orden": 10,
+      "titulo": "Assumptes d'urgència",
+      "resultado": null,
+      "texto_redactado": "Assumptes d'urgència",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:02.273Z"
+      }
+    },
+    {
+      "id": "2026-06-25#11",
+      "sesion_id": "2026-06-25",
+      "orden": 11,
+      "titulo": "Precs i preguntes",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:02.273Z"
+      }
+    }
+  ]
+}

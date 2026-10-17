@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "igualada",
+    "nombre": "Igualada",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "810220002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2025-12-23",
+    "municipio_id": "igualada",
+    "fecha": "2025-12-23",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/810220002/2025/e6b86aef-7fba-4f65-91c5-ce0341094863/EXTRACTE_ACTA_PLE_23122025.pdf",
+    "hash_contenido": "e0a14d594cc816c9598036e65b659775a82bd4a9e729e6e77128a14174d8b479",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:35:49.788Z"
+  },
+  "puntos": [
+    {
+      "id": "2025-12-23#1",
+      "sesion_id": "2025-12-23",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L’ACTA DE LA SESSIÓ ORDINÀRIA DEL PLE DE DATA 25.11.2025",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’ACTA DE LA SESSIÓ ORDINÀRIA DEL PLE DE DATA 25.11.2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:49.788Z"
+      }
+    },
+    {
+      "id": "2025-12-23#2",
+      "sesion_id": "2025-12-23",
+      "orden": 2,
+      "titulo": "INFORMACIÓ DE L’ALCALDIA PART RESOLUTIVA",
+      "resultado": null,
+      "texto_redactado": "INFORMACIÓ DE L’ALCALDIA PART RESOLUTIVA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:49.788Z"
+      }
+    },
+    {
+      "id": "2025-12-23#3",
+      "sesion_id": "2025-12-23",
+      "orden": 3,
+      "titulo": "RÈGIM INTERN",
+      "resultado": null,
+      "texto_redactado": "RÈGIM INTERN",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:49.788Z"
+      }
+    },
+    {
+      "id": "2025-12-23#4",
+      "sesion_id": "2025-12-23",
+      "orden": 4,
+      "titulo": "Donar suport també als ajuntaments de la Catalunya Nord que, per la via judicial, reclamen el dret",
+      "resultado": null,
+      "texto_redactado": "Donar suport també als ajuntaments de la Catalunya Nord que, per la via judicial, reclamen el dret",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:49.788Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "la-llagosta",
+    "nombre": "La Llagosta",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "810560009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-27",
+    "municipio_id": "la-llagosta",
+    "fecha": "2026-05-27",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/810560009/2026/d7f51298-2914-4635-9a09-afc235992efb/AP%204-26%20(27-05-26).pdf",
+    "hash_contenido": "0d4e465a75729827da64195c7fb896452bac5db6ac8bfe36a87ba2bc9828ad5f",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:40:02.750Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-27#1",
+      "sesion_id": "2026-05-27",
+      "orden": 1,
+      "titulo": "APROVACIÓ, SI S’ESCAU, DE L’ESBORRANY DE L’ACTA DE LA SESSIÓ ANTERIOR CELEBRADA AMB CARÀCTER ORDINARI EL DIA 25 DE MARÇ DE",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ, SI S’ESCAU, DE L’ESBORRANY DE L’ACTA DE LA SESSIÓ ANTERIOR CELEBRADA AMB CARÀCTER ORDINARI EL DIA 25 DE MARÇ DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:02.750Z"
+      }
+    },
+    {
+      "id": "2026-05-27#2",
+      "sesion_id": "2026-05-27",
+      "orden": 2,
+      "titulo": "DESPATX I DISPOSICIONS OFICIALS",
+      "resultado": null,
+      "texto_redactado": "DESPATX I DISPOSICIONS OFICIALS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:02.750Z"
+      }
+    },
+    {
+      "id": "2026-05-27#3",
+      "sesion_id": "2026-05-27",
+      "orden": 3,
+      "titulo": "ALCALDIA. EXPEDIENT 2502/2026. PROPOSTA D'APROVACIÓ D'UN EXPEDIENT DE RECONEIXEMENT EXTRAJUDICIAL DE CRÈDITS",
+      "resultado": null,
+      "texto_redactado": "ALCALDIA. EXPEDIENT 2502/2026. PROPOSTA D'APROVACIÓ D'UN EXPEDIENT DE RECONEIXEMENT EXTRAJUDICIAL DE CRÈDITS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:02.750Z"
+      }
+    },
+    {
+      "id": "2026-05-27#4",
+      "sesion_id": "2026-05-27",
+      "orden": 4,
+      "titulo": "DIVERSITAT FUNCIONAL",
+      "resultado": null,
+      "texto_redactado": "DIVERSITAT FUNCIONAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:02.750Z"
+      }
+    },
+    {
+      "id": "2026-05-27#5",
+      "sesion_id": "2026-05-27",
+      "orden": 5,
+      "titulo": "Articles 29 del Decret Legislatiu 1/1997, de 31 d’octubre, pel qual s’aprova la refosa",
+      "resultado": null,
+      "texto_redactado": "Articles 29 del Decret Legislatiu 1/1997, de 31 d’octubre, pel qual s’aprova la refosa",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:02.750Z"
+      }
+    },
+    {
+      "id": "2026-05-27#6",
+      "sesion_id": "2026-05-27",
+      "orden": 6,
+      "titulo": "L’article 4 de la Llei 7/1985 determina que correspon a les Administracions",
+      "resultado": null,
+      "texto_redactado": "L’article 4 de la Llei 7/1985 determina que correspon a les Administracions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:02.750Z"
+      }
+    },
+    {
+      "id": "2026-05-27#7",
+      "sesion_id": "2026-05-27",
+      "orden": 7,
+      "titulo": "VIA PòBLICA I EQUIPAMENTS",
+      "resultado": null,
+      "texto_redactado": "VIA PòBLICA I EQUIPAMENTS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:02.750Z"
+      }
+    },
+    {
+      "id": "2026-05-27#8",
+      "sesion_id": "2026-05-27",
+      "orden": 8,
+      "titulo": "GRUPS MUNICIPALS",
+      "resultado": null,
+      "texto_redactado": "GRUPS MUNICIPALS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:02.750Z"
+      }
+    },
+    {
+      "id": "2026-05-27#9",
+      "sesion_id": "2026-05-27",
+      "orden": 9,
+      "titulo": "PROPOSTES D’URGÈNCIA",
+      "resultado": null,
+      "texto_redactado": "PROPOSTES D’URGÈNCIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:02.750Z"
+      }
+    },
+    {
+      "id": "2026-05-27#10",
+      "sesion_id": "2026-05-27",
+      "orden": 10,
+      "titulo": "DESPATX I DISPOSICIONS OFICIALS",
+      "resultado": null,
+      "texto_redactado": "DESPATX I DISPOSICIONS OFICIALS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:02.750Z"
+      }
+    },
+    {
+      "id": "2026-05-27#11",
+      "sesion_id": "2026-05-27",
+      "orden": 11,
+      "titulo": "PRECS I PREGUNTES",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:02.750Z"
+      }
+    },
+    {
+      "id": "2026-05-27#12",
+      "sesion_id": "2026-05-27",
+      "orden": 12,
+      "titulo": "Existeixen determinades activitats que es troben exceptuades de l'aplicació del",
+      "resultado": null,
+      "texto_redactado": "Existeixen determinades activitats que es troben exceptuades de l'aplicació del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:02.750Z"
+      }
+    },
+    {
+      "id": "2026-05-27#13",
+      "sesion_id": "2026-05-27",
+      "orden": 13,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:02.750Z"
+      }
+    },
+    {
+      "id": "2026-05-27#14",
+      "sesion_id": "2026-05-27",
+      "orden": 14,
+      "titulo": "D'acord amb l'article 18 de la Llei 53/1984, de 26 de desembre, d'Incompatibilitats",
+      "resultado": null,
+      "texto_redactado": "D'acord amb l'article 18 de la Llei 53/1984, de 26 de desembre, d'Incompatibilitats",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:02.750Z"
+      }
+    },
+    {
+      "id": "2026-05-27#15",
+      "sesion_id": "2026-05-27",
+      "orden": 15,
+      "titulo": "D'acord amb allò que s'ha fixat en l'article 8.1.g) de la Llei 19/2013, de 9 de",
+      "resultado": null,
+      "texto_redactado": "D'acord amb allò que s'ha fixat en l'article 8.1.g) de la Llei 19/2013, de 9 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:02.750Z"
+      }
+    },
+    {
+      "id": "2026-05-27#16",
+      "sesion_id": "2026-05-27",
+      "orden": 16,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:02.750Z"
+      }
+    },
+    {
+      "id": "2026-05-27#17",
+      "sesion_id": "2026-05-27",
+      "orden": 17,
+      "titulo": "Pel que fa a la limitació del 30% del complement específic es considera que la part",
+      "resultado": null,
+      "texto_redactado": "Pel que fa a la limitació del 30% del complement específic es considera que la part",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:02.750Z"
+      }
+    },
+    {
+      "id": "2026-05-27#18",
+      "sesion_id": "2026-05-27",
+      "orden": 18,
+      "titulo": "La cap de l’àrea de Presidència ha emès informe favorable que s’incorpora a",
+      "resultado": null,
+      "texto_redactado": "La cap de l’àrea de Presidència ha emès informe favorable que s’incorpora a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:02.750Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "banyoles",
+    "nombre": "Banyoles",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1701570005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-29",
+    "municipio_id": "banyoles",
+    "fecha": "2026-06-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1701570005/2026/271103b5-3270-4939-8be4-09f4596cde79/ple%20JUNY%202026.pdf",
+    "hash_contenido": "ba581bbb99cb660b8973a80ce970d18422ee9acdf95fcc42545a599fa2f54ed1",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:36:43.581Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-29#1",
+      "sesion_id": "2026-06-29",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L’ACTA DE LA SESSIÓ ORDINÀRIA DEL DIA 25 DE MAIG",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’ACTA DE LA SESSIÓ ORDINÀRIA DEL DIA 25 DE MAIG",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:43.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#2",
+      "sesion_id": "2026-06-29",
+      "orden": 2,
+      "titulo": "DONACIÓ DE COMPTE DE DECRETS DE L’ALCALDIA.",
+      "resultado": null,
+      "texto_redactado": "DONACIÓ DE COMPTE DE DECRETS DE L’ALCALDIA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:43.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#3",
+      "sesion_id": "2026-06-29",
+      "orden": 3,
+      "titulo": "DONACIÓ DE COMPTE DEL DECRET D’ALCALDIA RELATIU A LA MODIFICACIÓ PRESSUPOSTÀRIA 14/2026, D’INCORPORACIÓ DE ROMANENTS DE CRÈDIT SENSE FINANÇAMENT AFECTAT DE L’EXERCICI",
+      "resultado": null,
+      "texto_redactado": "DONACIÓ DE COMPTE DEL DECRET D’ALCALDIA RELATIU A LA MODIFICACIÓ PRESSUPOSTÀRIA 14/2026, D’INCORPORACIÓ DE ROMANENTS DE CRÈDIT SENSE FINANÇAMENT AFECTAT DE L’EXERCICI",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:43.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#4",
+      "sesion_id": "2026-06-29",
+      "orden": 4,
+      "titulo": "DONACIÓ DE COMPTE DEL DECRET D’ALCALDIA RELATIU A LA MODIFICACIÓ PRESSUPOSTÀRIA 31/2026, D’INCORPORACIÓ DE ROMANENTS DE CRÈDIT SENSE FINANÇAMENT AFECTAT DE L’EXERCICI",
+      "resultado": null,
+      "texto_redactado": "DONACIÓ DE COMPTE DEL DECRET D’ALCALDIA RELATIU A LA MODIFICACIÓ PRESSUPOSTÀRIA 31/2026, D’INCORPORACIÓ DE ROMANENTS DE CRÈDIT SENSE FINANÇAMENT AFECTAT DE L’EXERCICI",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:43.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#5",
+      "sesion_id": "2026-06-29",
+      "orden": 5,
+      "titulo": "APROVACIÓ DE LA PRÒRROGA DEL CONVENI DE COOPERACIÓ HORITZONTAL PER A LA FIXACIÓ DE LES NECESSITATS I LA CONTRACTACIÓ CONJUNTA DEL SERVEI DE CUSTÒDIA I MANTENIMENT DEL BANC DE PRODUCTES DE SUPORT I DE TERÀPIA OCUPACIONAL ENTRE L’AJUNTAMENT DE BANYOLES I EL CONSELL COMARCAL DEL PLA DE",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE LA PRÒRROGA DEL CONVENI DE COOPERACIÓ HORITZONTAL PER A LA FIXACIÓ DE LES NECESSITATS I LA CONTRACTACIÓ CONJUNTA DEL SERVEI DE CUSTÒDIA I MANTENIMENT DEL BANC DE PRODUCTES DE SUPORT I DE TERÀPIA OCUPACIONAL ENTRE L’AJUNTAMENT DE BANYOLES I EL CONSELL COMARCAL DEL PLA DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:43.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#6",
+      "sesion_id": "2026-06-29",
+      "orden": 6,
+      "titulo": "APROVACIÓ DEL CALENDARI DE LES FESTES LOCALS PER L’ANY 2027",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEL CALENDARI DE LES FESTES LOCALS PER L’ANY 2027",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:43.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#7",
+      "sesion_id": "2026-06-29",
+      "orden": 7,
+      "titulo": "APROVACIÓ INICIAL DE L’EXPEDIENT DE MODIFICACIÓ PRESSUPOSTÀRIA 36/2026, PER TRANSFERÈNCIES DE CRÈDITS ENTRE",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ INICIAL DE L’EXPEDIENT DE MODIFICACIÓ PRESSUPOSTÀRIA 36/2026, PER TRANSFERÈNCIES DE CRÈDITS ENTRE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:43.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#8",
+      "sesion_id": "2026-06-29",
+      "orden": 8,
+      "titulo": "APROVACIÓ INICIAL DE L’EXPEDIENT DE MODIFICACIÓ PRESSUPOSTÀRIA 37/2026, DE CRÈDITS EXTRAORDINARIS I SUPLEMENTS DE CRÈDITS, FINANÇATS AMB EL ROMANENT DE TRESORERIA DISPONIBLE PER A DESPESES GENERALS DE L’EXERCICI",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ INICIAL DE L’EXPEDIENT DE MODIFICACIÓ PRESSUPOSTÀRIA 37/2026, DE CRÈDITS EXTRAORDINARIS I SUPLEMENTS DE CRÈDITS, FINANÇATS AMB EL ROMANENT DE TRESORERIA DISPONIBLE PER A DESPESES GENERALS DE L’EXERCICI",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:43.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#9",
+      "sesion_id": "2026-06-29",
+      "orden": 9,
+      "titulo": "APROVACIÓ D’UN EXPEDIENT DE RECONEIXEMENT EXTRAJUDICIAL DE",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ D’UN EXPEDIENT DE RECONEIXEMENT EXTRAJUDICIAL DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:43.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#10",
+      "sesion_id": "2026-06-29",
+      "orden": 10,
+      "titulo": "APROVACIÓ DE L'ADDENDA AL CONVENI DE COL·LABORACIÓ ENTRE L'AJUNTAMENT DE BANYOLES I L'AGÈNCIA DE L'HABITATGE DE CATALUNYA, EN RELACIÓ AMB L'OFICINA DE REHABILITACIÓ PER A LA GESTIÓ DELS AJUTS EN MATÈRIA DE REHABILITACIÓ RESIDENCIAL APROVATS PER AL GENERALITAT DE CATALUNYA EN EL MARC DEL PLA ESTATAL DE RECUPERACIÓ, TRANSFPRMACIÓ I RESILIÈNCIA PER FER FRONT A LA CRISI DERIVADA DE LA COVID 19 I L'INSTRUMENT DE",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L'ADDENDA AL CONVENI DE COL·LABORACIÓ ENTRE L'AJUNTAMENT DE BANYOLES I L'AGÈNCIA DE L'HABITATGE DE CATALUNYA, EN RELACIÓ AMB L'OFICINA DE REHABILITACIÓ PER A LA GESTIÓ DELS AJUTS EN MATÈRIA DE REHABILITACIÓ RESIDENCIAL APROVATS PER AL GENERALITAT DE CATALUNYA EN EL MARC DEL PLA ESTATAL DE RECUPERACIÓ, TRANSFPRMACIÓ I RESILIÈNCIA PER FER FRONT A LA CRISI DERIVADA DE LA COVID 19 I L'INSTRUMENT DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:43.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#11",
+      "sesion_id": "2026-06-29",
+      "orden": 11,
+      "titulo": "APROVACIÓ DEL CONVENI D'ENCÀRREC DE LA GESTIÓ ENTRE L'AJUNTAMENT DE BANYOLES I L'AJUNTAMENT DE FORALLAC PER LA PRESTACIÓ DE SERVEIS D'ARQUITECTE MUNICIPAL A L'AJUNTAMENT DE",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEL CONVENI D'ENCÀRREC DE LA GESTIÓ ENTRE L'AJUNTAMENT DE BANYOLES I L'AJUNTAMENT DE FORALLAC PER LA PRESTACIÓ DE SERVEIS D'ARQUITECTE MUNICIPAL A L'AJUNTAMENT DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:43.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#12",
+      "sesion_id": "2026-06-29",
+      "orden": 12,
+      "titulo": "MOCIÓ PER UNA TRANSICIÓ ENERGÈTICA JUSTA, PARTICIPADA I",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ PER UNA TRANSICIÓ ENERGÈTICA JUSTA, PARTICIPADA I",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:43.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#13",
+      "sesion_id": "2026-06-29",
+      "orden": 13,
+      "titulo": "MOCIÓ PRESENTADA PEL GM SUMEM BANYOLES CANDIDATURA D’UNITAT POPULAR PER A LA REVISIÓ I ACTUALITZACIÓ DEL PLA ESPECIAL DE PROTECCIÓ DEL PATRIMONI DE BANYOLES I DEL SEU",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ PRESENTADA PEL GM SUMEM BANYOLES CANDIDATURA D’UNITAT POPULAR PER A LA REVISIÓ I ACTUALITZACIÓ DEL PLA ESPECIAL DE PROTECCIÓ DEL PATRIMONI DE BANYOLES I DEL SEU",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:43.581Z"
+      }
+    }
+  ]
+}

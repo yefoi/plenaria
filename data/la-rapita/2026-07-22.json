@@ -1,0 +1,412 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "la-rapita",
+    "nombre": "La Ràpita",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4313620002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-22",
+    "municipio_id": "la-rapita",
+    "fecha": "2026-07-22",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4313620002/2026/206b25d4-036b-41fe-9bcc-691e8ddd661c/8_Acta_Ple_22_juliol_2026_anonimitizada_web_segellautenic.pdf",
+    "hash_contenido": "bee0b51d95e5b567c9f54dba1f61b58d4777e05f9e2a6adc87e8ebb7c75fc023",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:38:48.905Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-22#1",
+      "sesion_id": "2026-07-22",
+      "orden": 1,
+      "titulo": "Aprovació, si escau, de l'acta del Ple extraordinari de la Corporació de 12 de juny de 2026",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de l'acta del Ple extraordinari de la Corporació de 12 de juny de 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.905Z"
+      }
+    },
+    {
+      "id": "2026-07-22#2",
+      "sesion_id": "2026-07-22",
+      "orden": 2,
+      "titulo": "Aprovació, si escau, de l'acta del Ple de la Corporació de 26 de juny de 2026 (núm. 7/2026)",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de l'acta del Ple de la Corporació de 26 de juny de 2026 (núm. 7/2026)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.905Z"
+      }
+    },
+    {
+      "id": "2026-07-22#3",
+      "sesion_id": "2026-07-22",
+      "orden": 3,
+      "titulo": "Adhesió al Programa de cooperació financera específica per a la realització d'obres de",
+      "resultado": null,
+      "texto_redactado": "Adhesió al Programa de cooperació financera específica per a la realització d'obres de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.905Z"
+      }
+    },
+    {
+      "id": "2026-07-22#4",
+      "sesion_id": "2026-07-22",
+      "orden": 4,
+      "titulo": "Modificació de l’Ordenança reguladora del procediment per a l’autorització del matrimoni civil",
+      "resultado": null,
+      "texto_redactado": "Modificació de l’Ordenança reguladora del procediment per a l’autorització del matrimoni civil",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.905Z"
+      }
+    },
+    {
+      "id": "2026-07-22#5",
+      "sesion_id": "2026-07-22",
+      "orden": 5,
+      "titulo": "Imposició i ordenació d'una contribució especial per finançar pacialment les obres",
+      "resultado": null,
+      "texto_redactado": "Imposició i ordenació d'una contribució especial per finançar pacialment les obres",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.905Z"
+      }
+    },
+    {
+      "id": "2026-07-22#6",
+      "sesion_id": "2026-07-22",
+      "orden": 6,
+      "titulo": "Aprovació Modificació de crèdit mitjançant suplement de crèdit MC-14",
+      "resultado": null,
+      "texto_redactado": "Aprovació Modificació de crèdit mitjançant suplement de crèdit MC-14",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.905Z"
+      }
+    },
+    {
+      "id": "2026-07-22#7",
+      "sesion_id": "2026-07-22",
+      "orden": 7,
+      "titulo": "Aprovació definitiva del document tècnic valorat anomenat ÒProjecte d’ instal·lació d’una",
+      "resultado": null,
+      "texto_redactado": "Aprovació definitiva del document tècnic valorat anomenat ÒProjecte d’ instal·lació d’una",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.905Z"
+      }
+    },
+    {
+      "id": "2026-07-22#8",
+      "sesion_id": "2026-07-22",
+      "orden": 8,
+      "titulo": "Aprovació definitiva del document tècnic valorat anomenat ÒProjecte bàsic i executiu per a la",
+      "resultado": null,
+      "texto_redactado": "Aprovació definitiva del document tècnic valorat anomenat ÒProjecte bàsic i executiu per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.905Z"
+      }
+    },
+    {
+      "id": "2026-07-22#9",
+      "sesion_id": "2026-07-22",
+      "orden": 9,
+      "titulo": "Adhesió a l’acord marc de Localret de sistemes de lectura de matrícules OCR / ANPR en tots",
+      "resultado": null,
+      "texto_redactado": "Adhesió a l’acord marc de Localret de sistemes de lectura de matrícules OCR / ANPR en tots",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico",
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.905Z"
+      }
+    },
+    {
+      "id": "2026-07-22#10",
+      "sesion_id": "2026-07-22",
+      "orden": 10,
+      "titulo": "Moció a proposta del grup municipal d’esquerra – la ràpita d’adhesió al pacte nacional per",
+      "resultado": null,
+      "texto_redactado": "Moció a proposta del grup municipal d’esquerra – la ràpita d’adhesió al pacte nacional per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.905Z"
+      }
+    },
+    {
+      "id": "2026-07-22#11",
+      "sesion_id": "2026-07-22",
+      "orden": 11,
+      "titulo": "Dació de compte dels acords adoptats per la Junta de Govern Local des del darrer Ple.",
+      "resultado": null,
+      "texto_redactado": "Dació de compte dels acords adoptats per la Junta de Govern Local des del darrer Ple.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.905Z"
+      }
+    },
+    {
+      "id": "2026-07-22#12",
+      "sesion_id": "2026-07-22",
+      "orden": 12,
+      "titulo": "Dació de compte dels decrets de la Presidència del núm. 2621 al núm. 2938 de 2026",
+      "resultado": null,
+      "texto_redactado": "Dació de compte dels decrets de la Presidència del núm. 2621 al núm. 2938 de 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.905Z"
+      }
+    },
+    {
+      "id": "2026-07-22#13",
+      "sesion_id": "2026-07-22",
+      "orden": 13,
+      "titulo": "Dació de compte de l'informe trimestral sobre el compliment de la normativa de morositat i",
+      "resultado": null,
+      "texto_redactado": "Dació de compte de l'informe trimestral sobre el compliment de la normativa de morositat i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.905Z"
+      }
+    },
+    {
+      "id": "2026-07-22#14",
+      "sesion_id": "2026-07-22",
+      "orden": 14,
+      "titulo": "Aprovació, si escau, del document tècnic valorat anomenat ÒProjecte de manteniment i",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, del document tècnic valorat anomenat ÒProjecte de manteniment i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.905Z"
+      }
+    },
+    {
+      "id": "2026-07-22#15",
+      "sesion_id": "2026-07-22",
+      "orden": 15,
+      "titulo": "Aprovació, si escau, de la Modificació pressupostària per transferència de crèdit de",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de la Modificació pressupostària per transferència de crèdit de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.905Z"
+      }
+    },
+    {
+      "id": "2026-07-22#16",
+      "sesion_id": "2026-07-22",
+      "orden": 16,
+      "titulo": "PRECS I PREGUNTES",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.905Z"
+      }
+    }
+  ]
+}

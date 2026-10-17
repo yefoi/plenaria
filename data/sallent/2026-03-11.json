@@ -1,0 +1,243 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sallent",
+    "nombre": "Sallent",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "819180001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-03-11",
+    "municipio_id": "sallent",
+    "fecha": "2026-03-11",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/819180001/2026/a7b37645-e85c-4117-864d-619e458af86d/ACTA%20PLE%202%2011.03.2026.pdf",
+    "hash_contenido": "d925e2844842541022edbffd03d6a77ce9adb9203994f3ffde7fa2dc97153cda",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:45:25.998Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-03-11#1",
+      "sesion_id": "2026-03-11",
+      "orden": 1,
+      "titulo": "Vist l’expedient de la liquidació del pressupost de l’exercici 2025, en el qual es posa de manifest",
+      "resultado": null,
+      "texto_redactado": "Vist l’expedient de la liquidació del pressupost de l’exercici 2025, en el qual es posa de manifest",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:25.998Z"
+      }
+    },
+    {
+      "id": "2026-03-11#2",
+      "sesion_id": "2026-03-11",
+      "orden": 2,
+      "titulo": "Vist l’informe d’intervenció i l’informe sobre l’estabilitat pressupostària de data 24 de febrer de 2026.",
+      "resultado": null,
+      "texto_redactado": "Vist l’informe d’intervenció i l’informe sobre l’estabilitat pressupostària de data 24 de febrer de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:25.998Z"
+      }
+    },
+    {
+      "id": "2026-03-11#3",
+      "sesion_id": "2026-03-11",
+      "orden": 3,
+      "titulo": "Vist que l’òrgan competent per l’aprovació dels acords de gestió econòmica correspon a l’Alcaldia en",
+      "resultado": null,
+      "texto_redactado": "Vist que l’òrgan competent per l’aprovació dels acords de gestió econòmica correspon a l’Alcaldia en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:25.998Z"
+      }
+    },
+    {
+      "id": "2026-03-11#4",
+      "sesion_id": "2026-03-11",
+      "orden": 4,
+      "titulo": "Crédits gastats finançats amb romanent de",
+      "resultado": null,
+      "texto_redactado": "Crédits gastats finançats amb romanent de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:25.998Z"
+      }
+    },
+    {
+      "id": "2026-03-11#5",
+      "sesion_id": "2026-03-11",
+      "orden": 5,
+      "titulo": "Desviacions de finançament negatives de l´exercici + 2.857.935,51",
+      "resultado": null,
+      "texto_redactado": "Desviacions de finançament negatives de l´exercici + 2.857.935,51",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:25.998Z"
+      }
+    },
+    {
+      "id": "2026-03-11#6",
+      "sesion_id": "2026-03-11",
+      "orden": 6,
+      "titulo": "Desviacions de finançament positives de l´exercici - 403.375,25",
+      "resultado": null,
+      "texto_redactado": "Desviacions de finançament positives de l´exercici - 403.375,25",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:25.998Z"
+      }
+    },
+    {
+      "id": "2026-03-11#7",
+      "sesion_id": "2026-03-11",
+      "orden": 7,
+      "titulo": "La Llei Orgànica 9/2013, de 20 de desembre, de control del deute comercial en el sector públic, així com el seu",
+      "resultado": null,
+      "texto_redactado": "La Llei Orgànica 9/2013, de 20 de desembre, de control del deute comercial en el sector públic, així com el seu",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:25.998Z"
+      }
+    },
+    {
+      "id": "2026-03-11#8",
+      "sesion_id": "2026-03-11",
+      "orden": 8,
+      "titulo": "Tots dos conceptes, morositat i PMP, mesuren aspectes diferents però estan íntimament relacionats. La finalitat",
+      "resultado": null,
+      "texto_redactado": "Tots dos conceptes, morositat i PMP, mesuren aspectes diferents però estan íntimament relacionats. La finalitat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:25.998Z"
+      }
+    },
+    {
+      "id": "2026-03-11#9",
+      "sesion_id": "2026-03-11",
+      "orden": 9,
+      "titulo": "El Reial decret 1040/2017, de 22 de desembre que modifica, entre d’altres, la forma de calcular el període mitjà",
+      "resultado": null,
+      "texto_redactado": "El Reial decret 1040/2017, de 22 de desembre que modifica, entre d’altres, la forma de calcular el període mitjà",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:25.998Z"
+      }
+    }
+  ]
+}

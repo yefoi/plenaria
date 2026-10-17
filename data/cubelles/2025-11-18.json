@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "cubelles",
+    "nombre": "Cubelles",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "807490004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2025-11-18",
+    "municipio_id": "cubelles",
+    "fecha": "2025-11-18",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/807490004/2025/eb0e9c10-79ce-45de-8ea0-564a8d84708a/ACTAPLE18NOVEMBRE2025.pdf",
+    "hash_contenido": "40b10ff2a3d61bd76971f9742f3242aad03059952cf68d45fdc9febb6d5f260f",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:37:59.387Z"
+  },
+  "puntos": [
+    {
+      "id": "2025-11-18#1",
+      "sesion_id": "2025-11-18",
+      "orden": 1,
+      "titulo": "PROPOSTA D’ALCALDIA D’APROVACIÓ PROVISIONAL DEL PLA ESPECIAL URBANÍSTIC PER A LA IMPLANTACIÓ D’UN CÀMPING A LA FINCA DE MAS GUINEU AL TERME MUNICIPAL DE CUBELLES",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA D’ALCALDIA D’APROVACIÓ PROVISIONAL DEL PLA ESPECIAL URBANÍSTIC PER A LA IMPLANTACIÓ D’UN CÀMPING A LA FINCA DE MAS GUINEU AL TERME MUNICIPAL DE CUBELLES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:59.387Z"
+      }
+    },
+    {
+      "id": "2025-11-18#2",
+      "sesion_id": "2025-11-18",
+      "orden": 2,
+      "titulo": "MOCIÓ QUE PRESENTA EL GRUP MUNICIPAL DE JUNTS PER CUBELLES PER A LA PREVENCIÓ DE FURTS ALS COMERÇOS DURANT LA CAMPANYA DE NADAL",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ QUE PRESENTA EL GRUP MUNICIPAL DE JUNTS PER CUBELLES PER A LA PREVENCIÓ DE FURTS ALS COMERÇOS DURANT LA CAMPANYA DE NADAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "seguridad",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:59.387Z"
+      }
+    },
+    {
+      "id": "2025-11-18#3",
+      "sesion_id": "2025-11-18",
+      "orden": 3,
+      "titulo": "MOCIÓ QUE PRESENTA EL GRUP MUNICIPAL CUP-AMUNT PER A LA DEPURACIÓ DE RESPONSABILITATS I MILLORA DE LA GESTIÓ DEL DIPÒSIT MUNICIPAL DE VEHICLES DE CUBELLES",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ QUE PRESENTA EL GRUP MUNICIPAL CUP-AMUNT PER A LA DEPURACIÓ DE RESPONSABILITATS I MILLORA DE LA GESTIÓ DEL DIPÒSIT MUNICIPAL DE VEHICLES DE CUBELLES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:59.387Z"
+      }
+    },
+    {
+      "id": "2025-11-18#4",
+      "sesion_id": "2025-11-18",
+      "orden": 4,
+      "titulo": "MOCIÓN QUE PRESENTA EL GRUPO MUNICIPAL DEL PP PARA SOLICITAR EL DESALOJO DE UN EDIFICIO A MEDIO CONSTRUIR, OCUPADO, EN SITUACIÓN DE RIESGO",
+      "resultado": null,
+      "texto_redactado": "MOCIÓN QUE PRESENTA EL GRUPO MUNICIPAL DEL PP PARA SOLICITAR EL DESALOJO DE UN EDIFICIO A MEDIO CONSTRUIR, OCUPADO, EN SITUACIÓN DE RIESGO",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "seguridad",
+        "mociones_grupos",
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:59.387Z"
+      }
+    }
+  ]
+}

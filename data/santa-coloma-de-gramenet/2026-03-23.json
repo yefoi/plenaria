@@ -1,0 +1,267 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "santa-coloma-de-gramenet",
+    "nombre": "Santa Coloma de Gramenet",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "824570005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-03-23",
+    "municipio_id": "santa-coloma-de-gramenet",
+    "fecha": "2026-03-23",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/824570005/2026/b6d9e5ab-9c2d-4709-9bf8-41c01efe78e6/Acta%203_26%20PLE%20MUNICIPAL%2023_03_26%20Anonimizada.PDF",
+    "hash_contenido": "91dec78e20cfe85991a923ff88833723606649b94330641a7ea03bd0c2befbdf",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:35:16.917Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-03-23#1",
+      "sesion_id": "2026-03-23",
+      "orden": 1,
+      "titulo": "Certificat o justificant d’inscripció en el Registre de Licitadors RELIC/ROLECE o que",
+      "resultado": null,
+      "texto_redactado": "Certificat o justificant d’inscripció en el Registre de Licitadors RELIC/ROLECE o que",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:16.917Z"
+      }
+    },
+    {
+      "id": "2026-03-23#2",
+      "sesion_id": "2026-03-23",
+      "orden": 2,
+      "titulo": "Quan s’assenyali a l’apartat L. Adscripció de mitjans. Presentació de la documentació",
+      "resultado": null,
+      "texto_redactado": "Quan s’assenyali a l’apartat L. Adscripció de mitjans. Presentació de la documentació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:16.917Z"
+      }
+    },
+    {
+      "id": "2026-03-23#3",
+      "sesion_id": "2026-03-23",
+      "orden": 3,
+      "titulo": "Relativa a la constitució de la garantia definitiva: Acreditació de l’ingrés de la garantia",
+      "resultado": null,
+      "texto_redactado": "Relativa a la constitució de la garantia definitiva: Acreditació de l’ingrés de la garantia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:16.917Z"
+      }
+    },
+    {
+      "id": "2026-03-23#4",
+      "sesion_id": "2026-03-23",
+      "orden": 4,
+      "titulo": "ònicament en cas de nous contractistes o en cas de modificació de qualsevol dada",
+      "resultado": null,
+      "texto_redactado": "ònicament en cas de nous contractistes o en cas de modificació de qualsevol dada",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:16.917Z"
+      }
+    },
+    {
+      "id": "2026-03-23#5",
+      "sesion_id": "2026-03-23",
+      "orden": 5,
+      "titulo": "Àmbit de les actuacions inspectores",
+      "resultado": null,
+      "texto_redactado": "Àmbit de les actuacions inspectores",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:16.917Z"
+      }
+    },
+    {
+      "id": "2026-03-23#6",
+      "sesion_id": "2026-03-23",
+      "orden": 6,
+      "titulo": "Quan s’ha realitzat alguna inspecció tècnica recent? En cas afirmatiu, quines",
+      "resultado": null,
+      "texto_redactado": "Quan s’ha realitzat alguna inspecció tècnica recent? En cas afirmatiu, quines",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:16.917Z"
+      }
+    },
+    {
+      "id": "2026-03-23#7",
+      "sesion_id": "2026-03-23",
+      "orden": 7,
+      "titulo": "Quines actuacions urgents preveu dur a terme l’Ajuntament per garantir la seguretat, la",
+      "resultado": null,
+      "texto_redactado": "Quines actuacions urgents preveu dur a terme l’Ajuntament per garantir la seguretat, la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:16.917Z"
+      }
+    },
+    {
+      "id": "2026-03-23#8",
+      "sesion_id": "2026-03-23",
+      "orden": 8,
+      "titulo": "Que s’intervingui socialment en situacions de vulnerabilitat detectades dins",
+      "resultado": null,
+      "texto_redactado": "Que s’intervingui socialment en situacions de vulnerabilitat detectades dins",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:16.917Z"
+      }
+    },
+    {
+      "id": "2026-03-23#9",
+      "sesion_id": "2026-03-23",
+      "orden": 9,
+      "titulo": "Que el govern assumeixi la responsabilitat política de les mancances acumulades",
+      "resultado": null,
+      "texto_redactado": "Que el govern assumeixi la responsabilitat política de les mancances acumulades",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:16.917Z"
+      }
+    },
+    {
+      "id": "2026-03-23#10",
+      "sesion_id": "2026-03-23",
+      "orden": 10,
+      "titulo": "Que es prioritzi aquesta actuació en el marc de les intervencions urbanes en curs",
+      "resultado": null,
+      "texto_redactado": "Que es prioritzi aquesta actuació en el marc de les intervencions urbanes en curs",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:16.917Z"
+      }
+    }
+  ]
+}

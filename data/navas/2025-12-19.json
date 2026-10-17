@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "navas",
+    "nombre": "Navàs",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "814190004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2025-12-19",
+    "municipio_id": "navas",
+    "fecha": "2025-12-19",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/814190004/2025/b9e92810-37ac-437a-a8c6-f4dee9ba99f4/20260213_Acta_Acta%20ple_ACTA%20DEL%20PLE%202025-0007%20[Acta%20Ple%20extraordinari%20de%2019%20de%20desembre%20de%202025].pdf",
+    "hash_contenido": "19a16666cdab869bfebf906f0bee237dec671b424720450c1e8e636fa91a9c03",
+    "estado_ingesta": "redactada",
+    "actualizada_en": "2026-10-17T10:32:18.058Z"
+  },
+  "puntos": [
+    {
+      "id": "2025-12-19#1",
+      "sesion_id": "2025-12-19",
+      "orden": 1,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2025-12-19#2",
+      "sesion_id": "2025-12-19",
+      "orden": 2,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2025-12-19#3",
+      "sesion_id": "2025-12-19",
+      "orden": 3,
+      "titulo": "Amb efectes d'1 de gener de 2025, les quantitats previstes en l'article 14,",
+      "resultado": null,
+      "texto_redactado": "Amb efectes d'1 de gener de 2025, les quantitats previstes en l'article 14,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2025-12-19#4",
+      "sesion_id": "2025-12-19",
+      "orden": 4,
+      "titulo": "Les quantitats previstes a l'article 13 i els annexos IV i V de la citada Llei",
+      "resultado": null,
+      "texto_redactado": "Les quantitats previstes a l'article 13 i els annexos IV i V de la citada Llei",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}

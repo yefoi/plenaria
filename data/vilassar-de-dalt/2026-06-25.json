@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vilassar-de-dalt",
+    "nombre": "Vilassar de Dalt",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "821400000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-25",
+    "municipio_id": "vilassar-de-dalt",
+    "fecha": "2026-06-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/821400000/2026/2b6b897c-d8e8-4ada-b654-a026e26a7344/aCTA_PLE_25_06_2026%20(1).pdf",
+    "hash_contenido": "5337cc43a912ce68f1df261df46c5e36b82aa964465a4cf514d3fdf78884ca2f",
+    "estado_ingesta": "requiere_ocr",
+    "actualizada_en": "2026-10-17T10:29:20.252Z"
+  },
+  "puntos": []
+}

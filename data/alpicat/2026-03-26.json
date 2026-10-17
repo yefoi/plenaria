@@ -1,0 +1,363 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "alpicat",
+    "nombre": "Alpicat",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2502360009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-03-26",
+    "municipio_id": "alpicat",
+    "fecha": "2026-03-26",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2502360009/2026/b99004f6-960f-449f-8d21-b83adff464a8/260326PL03.pdf",
+    "hash_contenido": "b930a9fb1b21f4b6f8d9282c0dbfa446df26c02e2ef2bca95c56428b31686ff8",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:46:04.482Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-03-26#1",
+      "sesion_id": "2026-03-26",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta de la sessió anterior",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’acta de la sessió anterior",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:04.482Z"
+      }
+    },
+    {
+      "id": "2026-03-26#2",
+      "sesion_id": "2026-03-26",
+      "orden": 2,
+      "titulo": "Que el Consell Comarcal del Segrià i el Departament de Drets Socials i Inclusió van signar el",
+      "resultado": null,
+      "texto_redactado": "Que el Consell Comarcal del Segrià i el Departament de Drets Socials i Inclusió van signar el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:04.482Z"
+      }
+    },
+    {
+      "id": "2026-03-26#3",
+      "sesion_id": "2026-03-26",
+      "orden": 3,
+      "titulo": "Que en data 23 de desembre de 2025, i en virtut de l’acord adoptat pel Ple del Consell Comarcal en",
+      "resultado": null,
+      "texto_redactado": "Que en data 23 de desembre de 2025, i en virtut de l’acord adoptat pel Ple del Consell Comarcal en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:04.482Z"
+      }
+    },
+    {
+      "id": "2026-03-26#4",
+      "sesion_id": "2026-03-26",
+      "orden": 4,
+      "titulo": "Punto de servicios sociales",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:04.482Z"
+      }
+    },
+    {
+      "id": "2026-03-26#5",
+      "sesion_id": "2026-03-26",
+      "orden": 5,
+      "titulo": "Instar el govern a establir, d’acord amb la Instrucció 1/2022, d’ordenació i configuració del",
+      "resultado": null,
+      "texto_redactado": "Instar el govern a establir, d’acord amb la Instrucció 1/2022, d’ordenació i configuració del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:04.482Z"
+      }
+    },
+    {
+      "id": "2026-03-26#6",
+      "sesion_id": "2026-03-26",
+      "orden": 6,
+      "titulo": "Instar el govern a garantir, d’acord amb la Instrucció 1/2022, i per mitjà del Sistema",
+      "resultado": null,
+      "texto_redactado": "Instar el govern a garantir, d’acord amb la Instrucció 1/2022, i per mitjà del Sistema",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:04.482Z"
+      }
+    },
+    {
+      "id": "2026-03-26#7",
+      "sesion_id": "2026-03-26",
+      "orden": 7,
+      "titulo": "Instar el govern a garantir l’equitat en l’accés al tractament amb la implantació de",
+      "resultado": null,
+      "texto_redactado": "Instar el govern a garantir l’equitat en l’accés al tractament amb la implantació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:04.482Z"
+      }
+    },
+    {
+      "id": "2026-03-26#8",
+      "sesion_id": "2026-03-26",
+      "orden": 8,
+      "titulo": "Instar el govern a avaluar l’impacte de les mesures adoptades per mitjà de sistemes de",
+      "resultado": null,
+      "texto_redactado": "Instar el govern a avaluar l’impacte de les mesures adoptades per mitjà de sistemes de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:04.482Z"
+      }
+    },
+    {
+      "id": "2026-03-26#9",
+      "sesion_id": "2026-03-26",
+      "orden": 9,
+      "titulo": "Traslladar aquests acords al Departament de Salut, als grups parlamentaris i a les entitats",
+      "resultado": null,
+      "texto_redactado": "Traslladar aquests acords al Departament de Salut, als grups parlamentaris i a les entitats",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:04.482Z"
+      }
+    },
+    {
+      "id": "2026-03-26#10",
+      "sesion_id": "2026-03-26",
+      "orden": 10,
+      "titulo": "Protecció de dades",
+      "resultado": null,
+      "texto_redactado": "Protecció de dades",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:04.482Z"
+      }
+    },
+    {
+      "id": "2026-03-26#11",
+      "sesion_id": "2026-03-26",
+      "orden": 11,
+      "titulo": "Finançament o implicacions econòmiques",
+      "resultado": null,
+      "texto_redactado": "Finançament o implicacions econòmiques",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:04.482Z"
+      }
+    },
+    {
+      "id": "2026-03-26#12",
+      "sesion_id": "2026-03-26",
+      "orden": 12,
+      "titulo": "Assumptes d’urgència. 742/2026. Signatura del conveni marc de col·laboració entre",
+      "resultado": null,
+      "texto_redactado": "Assumptes d’urgència. 742/2026. Signatura del conveni marc de col·laboració entre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:04.482Z"
+      }
+    },
+    {
+      "id": "2026-03-26#13",
+      "sesion_id": "2026-03-26",
+      "orden": 13,
+      "titulo": "Precs i preguntes",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:04.482Z"
+      }
+    },
+    {
+      "id": "2026-03-26#14",
+      "sesion_id": "2026-03-26",
+      "orden": 14,
+      "titulo": "Precs i preguntes",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:04.482Z"
+      }
+    }
+  ]
+}

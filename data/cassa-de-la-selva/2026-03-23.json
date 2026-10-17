@@ -1,0 +1,367 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "cassa-de-la-selva",
+    "nombre": "Cassà de la Selva",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1704480001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-03-23",
+    "municipio_id": "cassa-de-la-selva",
+    "fecha": "2026-03-23",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1704480001/2026/29f90dc0-57d5-4f22-b7b5-5048632786f5/acta%20JGL%2023032026_12.pdf",
+    "hash_contenido": "1b17cbf3b02e39a8aef75e0df5f8f316892c3dd0dc1501941ba148352f7f9485",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:41:31.676Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-03-23#1",
+      "sesion_id": "2026-03-23",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta anterior de 16 de març de 2026",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta anterior de 16 de març de 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.676Z"
+      }
+    },
+    {
+      "id": "2026-03-23#2",
+      "sesion_id": "2026-03-23",
+      "orden": 2,
+      "titulo": "Aprovació i convocatòria de les bases reguladores del programa Brigada Jove 2026",
+      "resultado": null,
+      "texto_redactado": "Aprovació i convocatòria de les bases reguladores del programa Brigada Jove 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.676Z"
+      }
+    },
+    {
+      "id": "2026-03-23#3",
+      "sesion_id": "2026-03-23",
+      "orden": 3,
+      "titulo": "Aprovació de la sol·licitud de subvenció a la Diputació de Girona pel subprograma A3:",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la sol·licitud de subvenció a la Diputació de Girona pel subprograma A3:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.676Z"
+      }
+    },
+    {
+      "id": "2026-03-23#4",
+      "sesion_id": "2026-03-23",
+      "orden": 4,
+      "titulo": "Aprovació de la sol·licitud de subvenció a la Diputació de Girona pel subprograma A4:",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la sol·licitud de subvenció a la Diputació de Girona pel subprograma A4:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.676Z"
+      }
+    },
+    {
+      "id": "2026-03-23#5",
+      "sesion_id": "2026-03-23",
+      "orden": 5,
+      "titulo": "Segona i última pròrroga del contracte del servei de neteja dels edificis i recollida",
+      "resultado": null,
+      "texto_redactado": "Segona i última pròrroga del contracte del servei de neteja dels edificis i recollida",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.676Z"
+      }
+    },
+    {
+      "id": "2026-03-23#6",
+      "sesion_id": "2026-03-23",
+      "orden": 6,
+      "titulo": "Primera i única pròrroga del contracte del servei municipal de diversos serveis",
+      "resultado": null,
+      "texto_redactado": "Primera i única pròrroga del contracte del servei municipal de diversos serveis",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.676Z"
+      }
+    },
+    {
+      "id": "2026-03-23#7",
+      "sesion_id": "2026-03-23",
+      "orden": 7,
+      "titulo": "Primera i única pròrroga del contracte de servei de menjador en la modalitat de",
+      "resultado": null,
+      "texto_redactado": "Primera i única pròrroga del contracte de servei de menjador en la modalitat de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.676Z"
+      }
+    },
+    {
+      "id": "2026-03-23#8",
+      "sesion_id": "2026-03-23",
+      "orden": 8,
+      "titulo": "Aprovació de l'inici de licitació per la contractació del servei de dinamització i promoció",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'inici de licitació per la contractació del servei de dinamització i promoció",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.676Z"
+      }
+    },
+    {
+      "id": "2026-03-23#9",
+      "sesion_id": "2026-03-23",
+      "orden": 9,
+      "titulo": "Primera i única ròrroga del contracte del servei de classes de dibuix i pintura adults (lot",
+      "resultado": null,
+      "texto_redactado": "Primera i única ròrroga del contracte del servei de classes de dibuix i pintura adults (lot",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.676Z"
+      }
+    },
+    {
+      "id": "2026-03-23#10",
+      "sesion_id": "2026-03-23",
+      "orden": 10,
+      "titulo": "Primera i única pròrroga del contracte del servei de classes de dibuix i pintura per a",
+      "resultado": null,
+      "texto_redactado": "Primera i única pròrroga del contracte del servei de classes de dibuix i pintura per a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.676Z"
+      }
+    },
+    {
+      "id": "2026-03-23#11",
+      "sesion_id": "2026-03-23",
+      "orden": 11,
+      "titulo": "Primera i única pròrroga del contracte del servei de tallers puntuals (lot 7) de l’Escola",
+      "resultado": null,
+      "texto_redactado": "Primera i única pròrroga del contracte del servei de tallers puntuals (lot 7) de l’Escola",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.676Z"
+      }
+    },
+    {
+      "id": "2026-03-23#12",
+      "sesion_id": "2026-03-23",
+      "orden": 12,
+      "titulo": "Aprovació de la 1a certificació i la seva corresponent factura, corresponents a",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la 1a certificació i la seva corresponent factura, corresponents a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.676Z"
+      }
+    },
+    {
+      "id": "2026-03-23#13",
+      "sesion_id": "2026-03-23",
+      "orden": 13,
+      "titulo": "Assabentat del comunicat presentat per Ramaderia Jordà SC consistent en 1143 ut.",
+      "resultado": null,
+      "texto_redactado": "Assabentat del comunicat presentat per Ramaderia Jordà SC consistent en 1143 ut.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.676Z"
+      }
+    },
+    {
+      "id": "2026-03-23#14",
+      "sesion_id": "2026-03-23",
+      "orden": 14,
+      "titulo": "Assabentat de la primera ocupació dels habitatges del c. Peralada, 59 i 61",
+      "resultado": null,
+      "texto_redactado": "Assabentat de la primera ocupació dels habitatges del c. Peralada, 59 i 61",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.676Z"
+      }
+    }
+  ]
+}

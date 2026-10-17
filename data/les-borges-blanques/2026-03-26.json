@@ -1,0 +1,339 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "les-borges-blanques",
+    "nombre": "Les Borges Blanques",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2505820002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-03-26",
+    "municipio_id": "les-borges-blanques",
+    "fecha": "2026-03-26",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2505820002/2026/4431b0ce-6492-46dd-93ca-301b8d96d854/Acta%20Ple%202mar%e726%20ordinari%20(links).pdf",
+    "hash_contenido": "e5e2b4a56868ea76673164c69c5d25782988670a476fea25fe45a3eda6d92c44",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:46:33.035Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-03-26#1",
+      "sesion_id": "2026-03-26",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió anterior",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:33.035Z"
+      }
+    },
+    {
+      "id": "2026-03-26#2",
+      "sesion_id": "2026-03-26",
+      "orden": 2,
+      "titulo": "Expedient 1504/2025. Aprovació inicial de la modificació de les bases",
+      "resultado": null,
+      "texto_redactado": "Expedient 1504/2025. Aprovació inicial de la modificació de les bases",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:33.035Z"
+      }
+    },
+    {
+      "id": "2026-03-26#3",
+      "sesion_id": "2026-03-26",
+      "orden": 3,
+      "titulo": "Expedient 419/2026. Aprovació de la concertació d'una operació de tresoreria",
+      "resultado": null,
+      "texto_redactado": "Expedient 419/2026. Aprovació de la concertació d'una operació de tresoreria",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:33.035Z"
+      }
+    },
+    {
+      "id": "2026-03-26#4",
+      "sesion_id": "2026-03-26",
+      "orden": 4,
+      "titulo": "Expedient 736/2026. Aprovació de reconeixement extrajudicial de crèdit",
+      "resultado": null,
+      "texto_redactado": "Expedient 736/2026. Aprovació de reconeixement extrajudicial de crèdit",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:33.035Z"
+      }
+    },
+    {
+      "id": "2026-03-26#5",
+      "sesion_id": "2026-03-26",
+      "orden": 5,
+      "titulo": "Expedient 811/2026. Aprovació de reconeixement extrajudicial de crèdit",
+      "resultado": null,
+      "texto_redactado": "Expedient 811/2026. Aprovació de reconeixement extrajudicial de crèdit",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:33.035Z"
+      }
+    },
+    {
+      "id": "2026-03-26#6",
+      "sesion_id": "2026-03-26",
+      "orden": 6,
+      "titulo": "Expedient 760/2026. Aprovació inicial de modificació de crèdits núm. 1/2026",
+      "resultado": null,
+      "texto_redactado": "Expedient 760/2026. Aprovació inicial de modificació de crèdits núm. 1/2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:33.035Z"
+      }
+    },
+    {
+      "id": "2026-03-26#7",
+      "sesion_id": "2026-03-26",
+      "orden": 7,
+      "titulo": "Expedient 616/2026. Aprovació inicial de la modificació de l'Ordenança Fiscal",
+      "resultado": null,
+      "texto_redactado": "Expedient 616/2026. Aprovació inicial de la modificació de l'Ordenança Fiscal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:33.035Z"
+      }
+    },
+    {
+      "id": "2026-03-26#8",
+      "sesion_id": "2026-03-26",
+      "orden": 8,
+      "titulo": "No podran minorar-se crèdits que hagin estat augmentats amb expedients de",
+      "resultado": null,
+      "texto_redactado": "No podran minorar-se crèdits que hagin estat augmentats amb expedients de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:33.035Z"
+      }
+    },
+    {
+      "id": "2026-03-26#9",
+      "sesion_id": "2026-03-26",
+      "orden": 9,
+      "titulo": "Expedient 1094/2025. Donar compte de l'informe de morositat del 4rt trimestre",
+      "resultado": null,
+      "texto_redactado": "Expedient 1094/2025. Donar compte de l'informe de morositat del 4rt trimestre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:33.035Z"
+      }
+    },
+    {
+      "id": "2026-03-26#10",
+      "sesion_id": "2026-03-26",
+      "orden": 10,
+      "titulo": "Expedient 743/2026. Donar compte de l'informe resum anual dels resultats",
+      "resultado": null,
+      "texto_redactado": "Expedient 743/2026. Donar compte de l'informe resum anual dels resultats",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:33.035Z"
+      }
+    },
+    {
+      "id": "2026-03-26#11",
+      "sesion_id": "2026-03-26",
+      "orden": 11,
+      "titulo": "Donar compte dels Decrets dictats per l'Alcaldia",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels Decrets dictats per l'Alcaldia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:33.035Z"
+      }
+    },
+    {
+      "id": "2026-03-26#12",
+      "sesion_id": "2026-03-26",
+      "orden": 12,
+      "titulo": "Informes de les activitats dutes a terme",
+      "resultado": null,
+      "texto_redactado": "Informes de les activitats dutes a terme",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:33.035Z"
+      }
+    },
+    {
+      "id": "2026-03-26#13",
+      "sesion_id": "2026-03-26",
+      "orden": 13,
+      "titulo": "Precs i preguntes A) PART RESOLUTIVA",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes A) PART RESOLUTIVA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:33.035Z"
+      }
+    }
+  ]
+}

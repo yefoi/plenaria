@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "cervello",
+    "nombre": "Cervelló",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "806890004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-04-27--38e2ba75",
+    "municipio_id": "cervello",
+    "fecha": "2026-04-27",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/806890004/2026/f9f6bff8-acb3-4ab3-8b2d-3fa0315c32d6/Acta_PLE_27042026_SIGNADA.pdf",
+    "hash_contenido": "2b978cc1b6cb075c1a135fe67e6bd117db8dc015b92eeaeb62ed6032c8928013",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-17T10:42:16.391Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-04-27--38e2ba75#1",
+      "sesion_id": "2026-04-27--38e2ba75",
+      "orden": 1,
+      "titulo": "14.B de la Llei 31/2010, de 3 d’agost, de l’Àrea Metropolitana de Barcelona.",
+      "resultado": null,
+      "texto_redactado": "14.B de la Llei 31/2010, de 3 d’agost, de l’Àrea Metropolitana de Barcelona.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:16.391Z"
+      }
+    }
+  ]
+}

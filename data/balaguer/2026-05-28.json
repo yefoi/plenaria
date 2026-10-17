@@ -1,0 +1,363 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "balaguer",
+    "nombre": "Balaguer",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2504040003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-28",
+    "municipio_id": "balaguer",
+    "fecha": "2026-05-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2504040003/2026/c78ebfd1-35d7-4170-8963-c780a8a68530/Acta%20Ple%20ordinari%20de%2028%20de%20maig%20de%202026.pdf",
+    "hash_contenido": "e5c97b4d1e185e3576058f9e6de37f65db7b808fd1fa28f51c3817a228ea7bd7",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:37:55.158Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-28#1",
+      "sesion_id": "2026-05-28",
+      "orden": 1,
+      "titulo": "Considerant que en data 10 de febrer de 2026, l’arquitecta municipal de l’Ajuntament de",
+      "resultado": null,
+      "texto_redactado": "Considerant que en data 10 de febrer de 2026, l’arquitecta municipal de l’Ajuntament de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:55.158Z"
+      }
+    },
+    {
+      "id": "2026-05-28#2",
+      "sesion_id": "2026-05-28",
+      "orden": 2,
+      "titulo": "Considerant que en data 11 de febrer de 2026, la Secretaria de l’Ajuntament de",
+      "resultado": null,
+      "texto_redactado": "Considerant que en data 11 de febrer de 2026, la Secretaria de l’Ajuntament de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:55.158Z"
+      }
+    },
+    {
+      "id": "2026-05-28#3",
+      "sesion_id": "2026-05-28",
+      "orden": 3,
+      "titulo": "En data 26 de febrer de 2026, el Ple de l’Ajuntament de Balaguer, en sessió ordinària,Codi Validació: 3Z5CCA59P3G6YF94YAEFHM6TF",
+      "resultado": null,
+      "texto_redactado": "En data 26 de febrer de 2026, el Ple de l’Ajuntament de Balaguer, en sessió ordinària,Codi Validació: 3Z5CCA59P3G6YF94YAEFHM6TF",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:55.158Z"
+      }
+    },
+    {
+      "id": "2026-05-28#4",
+      "sesion_id": "2026-05-28",
+      "orden": 4,
+      "titulo": "En data 11 de març de 2026 es va publicar el corresponent anunci d’aprovació inicial",
+      "resultado": null,
+      "texto_redactado": "En data 11 de març de 2026 es va publicar el corresponent anunci d’aprovació inicial",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:55.158Z"
+      }
+    },
+    {
+      "id": "2026-05-28#5",
+      "sesion_id": "2026-05-28",
+      "orden": 5,
+      "titulo": "Atès que en data 5 de maig de 2026, l’arquitecta municipal de l’Ajuntament de Balaguer",
+      "resultado": null,
+      "texto_redactado": "Atès que en data 5 de maig de 2026, l’arquitecta municipal de l’Ajuntament de Balaguer",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:55.158Z"
+      }
+    },
+    {
+      "id": "2026-05-28#6",
+      "sesion_id": "2026-05-28",
+      "orden": 6,
+      "titulo": "Vist l’informe de secretaria emès per secretaria en data 13 de maig de 2026.",
+      "resultado": null,
+      "texto_redactado": "Vist l’informe de secretaria emès per secretaria en data 13 de maig de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:55.158Z"
+      }
+    },
+    {
+      "id": "2026-05-28#7",
+      "sesion_id": "2026-05-28",
+      "orden": 7,
+      "titulo": "Article 21.1 o) de la Llei 7/1985, de 2 d’abril, reguladora de les bases del règim local.Codi Validació: 3Z5CCA59P3G6YF94YAEFHM6TF",
+      "resultado": null,
+      "texto_redactado": "Article 21.1 o) de la Llei 7/1985, de 2 d’abril, reguladora de les bases del règim local.Codi Validació: 3Z5CCA59P3G6YF94YAEFHM6TF",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:55.158Z"
+      }
+    },
+    {
+      "id": "2026-05-28#8",
+      "sesion_id": "2026-05-28",
+      "orden": 8,
+      "titulo": "Article 22.2 ñ) de la Llei 7/1985, de 2 d’abril, reguladora de les bases del règim local.",
+      "resultado": null,
+      "texto_redactado": "Article 22.2 ñ) de la Llei 7/1985, de 2 d’abril, reguladora de les bases del règim local.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:55.158Z"
+      }
+    },
+    {
+      "id": "2026-05-28#9",
+      "sesion_id": "2026-05-28",
+      "orden": 9,
+      "titulo": "Article 52.2 o) del Decret legislatiu 2/2003, de 28 d’abril, pel qual s’aprova el text refós",
+      "resultado": null,
+      "texto_redactado": "Article 52.2 o) del Decret legislatiu 2/2003, de 28 d’abril, pel qual s’aprova el text refós",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:55.158Z"
+      }
+    },
+    {
+      "id": "2026-05-28#10",
+      "sesion_id": "2026-05-28",
+      "orden": 10,
+      "titulo": "Article 53.1 p) del Decret legislatiu 2/2003, de 28 d’abril, pel qual s’aprova el text refós",
+      "resultado": null,
+      "texto_redactado": "Article 53.1 p) del Decret legislatiu 2/2003, de 28 d’abril, pel qual s’aprova el text refós",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:55.158Z"
+      }
+    },
+    {
+      "id": "2026-05-28#11",
+      "sesion_id": "2026-05-28",
+      "orden": 11,
+      "titulo": "Article 235 del Decret legislatiu 2/2003, de 28 d’abril, pel qual s’aprova el text refós de",
+      "resultado": null,
+      "texto_redactado": "Article 235 del Decret legislatiu 2/2003, de 28 d’abril, pel qual s’aprova el text refós de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:55.158Z"
+      }
+    },
+    {
+      "id": "2026-05-28#12",
+      "sesion_id": "2026-05-28",
+      "orden": 12,
+      "titulo": "Articles 12 a 45 del Decret 179/1995, de 13 de juny, pel qual s’aprova el Reglament",
+      "resultado": null,
+      "texto_redactado": "Articles 12 a 45 del Decret 179/1995, de 13 de juny, pel qual s’aprova el Reglament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:55.158Z"
+      }
+    },
+    {
+      "id": "2026-05-28#13",
+      "sesion_id": "2026-05-28",
+      "orden": 13,
+      "titulo": "Disposició addicional segona, apartats 1 i 2, de la Llei 9/2017, de 8 de novembre, de",
+      "resultado": null,
+      "texto_redactado": "Disposició addicional segona, apartats 1 i 2, de la Llei 9/2017, de 8 de novembre, de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:55.158Z"
+      }
+    },
+    {
+      "id": "2026-05-28#14",
+      "sesion_id": "2026-05-28",
+      "orden": 14,
+      "titulo": "Articles 34 i 35 de la Llei 9/1993, de 30 de setembre, del Patrimoni Cultural Català.",
+      "resultado": null,
+      "texto_redactado": "Articles 34 i 35 de la Llei 9/1993, de 30 de setembre, del Patrimoni Cultural Català.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:55.158Z"
+      }
+    }
+  ]
+}

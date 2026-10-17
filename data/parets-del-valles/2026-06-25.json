@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "parets-del-valles",
+    "nombre": "Parets del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "815930008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-25",
+    "municipio_id": "parets-del-valles",
+    "fecha": "2026-06-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/815930008/2026/1c1f53f4-f4c1-4fc0-8a7b-c49a81e62ca9/ACTA%20DEL%20PLE%202026-0009%20[Acta%20Ple%20de%20l%27Ajuntament%20extraordinari%2025-06-2026].pdf",
+    "hash_contenido": "d180a78dd543669f66273ba16d0d995e8214d3c292652ab37229996f78200b1c",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:37:37.041Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-25#1",
+      "sesion_id": "2026-06-25",
+      "orden": 1,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:37.041Z"
+      }
+    },
+    {
+      "id": "2026-06-25#2",
+      "sesion_id": "2026-06-25",
+      "orden": 2,
+      "titulo": "Expedient 4040/2026. Proposar l’establiment de les Festes Locals de la vila 2027.",
+      "resultado": null,
+      "texto_redactado": "Expedient 4040/2026. Proposar l’establiment de les Festes Locals de la vila 2027.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:37.041Z"
+      }
+    },
+    {
+      "id": "2026-06-25#3",
+      "sesion_id": "2026-06-25",
+      "orden": 3,
+      "titulo": "Expedient 4500/2026. Aprovar la constitució de la taula de mobilitat de Parets del",
+      "resultado": null,
+      "texto_redactado": "Expedient 4500/2026. Aprovar la constitució de la taula de mobilitat de Parets del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:37.041Z"
+      }
+    },
+    {
+      "id": "2026-06-25#4",
+      "sesion_id": "2026-06-25",
+      "orden": 4,
+      "titulo": "Expedient 2805/2026. Aprovar l'inici de l’expedient per a la redacció del nou",
+      "resultado": null,
+      "texto_redactado": "Expedient 2805/2026. Aprovar l'inici de l’expedient per a la redacció del nou",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:37.041Z"
+      }
+    },
+    {
+      "id": "2026-06-25#5",
+      "sesion_id": "2026-06-25",
+      "orden": 5,
+      "titulo": "Expedient 4458/2026. Aprovar inicialment l'Ordenança reguladora de la protecció i",
+      "resultado": null,
+      "texto_redactado": "Expedient 4458/2026. Aprovar inicialment l'Ordenança reguladora de la protecció i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:37.041Z"
+      }
+    },
+    {
+      "id": "2026-06-25#6",
+      "sesion_id": "2026-06-25",
+      "orden": 6,
+      "titulo": "Expedient 3312/2023. Aprovar la continuïtat del servei corresponent als lots 1, 2, 3",
+      "resultado": null,
+      "texto_redactado": "Expedient 3312/2023. Aprovar la continuïtat del servei corresponent als lots 1, 2, 3",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:37.041Z"
+      }
+    },
+    {
+      "id": "2026-06-25#7",
+      "sesion_id": "2026-06-25",
+      "orden": 7,
+      "titulo": "Expedient 4341/2026. Aprovar inicialment l’expedient de modificació de crèdits",
+      "resultado": null,
+      "texto_redactado": "Expedient 4341/2026. Aprovar inicialment l’expedient de modificació de crèdits",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:37.041Z"
+      }
+    },
+    {
+      "id": "2026-06-25#8",
+      "sesion_id": "2026-06-25",
+      "orden": 8,
+      "titulo": "Expedient 3631/2026. Convalidar l'Omissió de la Funció Interventora i aprovar el",
+      "resultado": null,
+      "texto_redactado": "Expedient 3631/2026. Convalidar l'Omissió de la Funció Interventora i aprovar el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:37.041Z"
+      }
+    },
+    {
+      "id": "2026-06-25#9",
+      "sesion_id": "2026-06-25",
+      "orden": 9,
+      "titulo": "Expedient 2877/2026. Aprovar el reconeixement Extrajudicial de crèdit",
+      "resultado": null,
+      "texto_redactado": "Expedient 2877/2026. Aprovar el reconeixement Extrajudicial de crèdit",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:37.041Z"
+      }
+    },
+    {
+      "id": "2026-06-25#10",
+      "sesion_id": "2026-06-25",
+      "orden": 10,
+      "titulo": "Expedient 4236/2026. Aprovar el reconeixement extrajudicial de crèdit de les",
+      "resultado": null,
+      "texto_redactado": "Expedient 4236/2026. Aprovar el reconeixement extrajudicial de crèdit de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:37.041Z"
+      }
+    },
+    {
+      "id": "2026-06-25#11",
+      "sesion_id": "2026-06-25",
+      "orden": 11,
+      "titulo": "Expedient 1125/2026. Donar compte de la liquidació del pressupost municipal de",
+      "resultado": null,
+      "texto_redactado": "Expedient 1125/2026. Donar compte de la liquidació del pressupost municipal de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:37.041Z"
+      }
+    }
+  ]
+}

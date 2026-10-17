@@ -1,0 +1,315 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "castello-dempuries",
+    "nombre": "Castelló d'Empúries",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1704700000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-15",
+    "municipio_id": "castello-dempuries",
+    "fecha": "2026-06-15",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1704700000/2026/7db0bdc2-c721-4c6c-a743-84463d555450/22-26.%20ACTA%20JUNTA%20DE%20GOVERN%20LOCAL%2015-06-26-SIG.pdf",
+    "hash_contenido": "84968408ce502cf615b755bda446fbc9772d6ac68a9208fcfe39a947a20b81c1",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:41:05.690Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-15#1",
+      "sesion_id": "2026-06-15",
+      "orden": 1,
+      "titulo": "Àrea d’Alcaldia",
+      "resultado": null,
+      "texto_redactado": "Àrea d’Alcaldia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:05.690Z"
+      }
+    },
+    {
+      "id": "2026-06-15#2",
+      "sesion_id": "2026-06-15",
+      "orden": 2,
+      "titulo": "Àrea de Serveis Econòmics",
+      "resultado": null,
+      "texto_redactado": "Àrea de Serveis Econòmics",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:05.690Z"
+      }
+    },
+    {
+      "id": "2026-06-15#3",
+      "sesion_id": "2026-06-15",
+      "orden": 3,
+      "titulo": "Àrea de Serveis Interns",
+      "resultado": null,
+      "texto_redactado": "Àrea de Serveis Interns",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:05.690Z"
+      }
+    },
+    {
+      "id": "2026-06-15#4",
+      "sesion_id": "2026-06-15",
+      "orden": 4,
+      "titulo": "Àrea de Govern Obert",
+      "resultado": null,
+      "texto_redactado": "Àrea de Govern Obert",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:05.690Z"
+      }
+    },
+    {
+      "id": "2026-06-15#5",
+      "sesion_id": "2026-06-15",
+      "orden": 5,
+      "titulo": "Àrea de Governació i Seguretat",
+      "resultado": null,
+      "texto_redactado": "Àrea de Governació i Seguretat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:05.690Z"
+      }
+    },
+    {
+      "id": "2026-06-15#6",
+      "sesion_id": "2026-06-15",
+      "orden": 6,
+      "titulo": "Àrea d’Acció Social",
+      "resultado": null,
+      "texto_redactado": "Àrea d’Acció Social",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:05.690Z"
+      }
+    },
+    {
+      "id": "2026-06-15#7",
+      "sesion_id": "2026-06-15",
+      "orden": 7,
+      "titulo": "Àrea de Territori i Serveis Urbans",
+      "resultado": null,
+      "texto_redactado": "Àrea de Territori i Serveis Urbans",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:05.690Z"
+      }
+    },
+    {
+      "id": "2026-06-15#8",
+      "sesion_id": "2026-06-15",
+      "orden": 8,
+      "titulo": "Àrea d’Acció Climàtica",
+      "resultado": null,
+      "texto_redactado": "Àrea d’Acció Climàtica",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:05.690Z"
+      }
+    },
+    {
+      "id": "2026-06-15#9",
+      "sesion_id": "2026-06-15",
+      "orden": 9,
+      "titulo": "Àrea de Cultura i Festes",
+      "resultado": null,
+      "texto_redactado": "Àrea de Cultura i Festes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:05.690Z"
+      }
+    },
+    {
+      "id": "2026-06-15#10",
+      "sesion_id": "2026-06-15",
+      "orden": 10,
+      "titulo": "Àrea de Desenvolupament Econòmic i Promoció",
+      "resultado": null,
+      "texto_redactado": "Àrea de Desenvolupament Econòmic i Promoció",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:05.690Z"
+      }
+    },
+    {
+      "id": "2026-06-15#11",
+      "sesion_id": "2026-06-15",
+      "orden": 11,
+      "titulo": "Assumptes varis i urgents",
+      "resultado": null,
+      "texto_redactado": "Assumptes varis i urgents",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:05.690Z"
+      }
+    },
+    {
+      "id": "2026-06-15#12",
+      "sesion_id": "2026-06-15",
+      "orden": 12,
+      "titulo": "Precs i preguntes DESENVOLUPAMENT DE LA SESSIÓ",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes DESENVOLUPAMENT DE LA SESSIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:05.690Z"
+      }
+    }
+  ]
+}

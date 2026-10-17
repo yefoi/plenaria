@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "ulldecona",
+    "nombre": "Ulldecona",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4315670005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-03-02",
+    "municipio_id": "ulldecona",
+    "fecha": "2026-03-02",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4315670005/2026/340d8343-6a68-4558-a2b2-550fb62db3fb/202602_ActaPM02032026.pdf",
+    "hash_contenido": "b85b362045592f7f270e31e5237ee569b55e0f741d7857db47b5af4332cb21b2",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:45:44.615Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-03-02#1",
+      "sesion_id": "2026-03-02",
+      "orden": 1,
+      "titulo": "El Ple Municipal de l´Ajuntament d´Ulldecona, en sessió duta a terme el dia 7 de març de",
+      "resultado": null,
+      "texto_redactado": "El Ple Municipal de l´Ajuntament d´Ulldecona, en sessió duta a terme el dia 7 de març de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:44.615Z"
+      }
+    },
+    {
+      "id": "2026-03-02#2",
+      "sesion_id": "2026-03-02",
+      "orden": 2,
+      "titulo": "L´article 40.6 de l´esmentat conveni estableix:",
+      "resultado": null,
+      "texto_redactado": "L´article 40.6 de l´esmentat conveni estableix:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:44.615Z"
+      }
+    },
+    {
+      "id": "2026-03-02#3",
+      "sesion_id": "2026-03-02",
+      "orden": 3,
+      "titulo": "La Mesa Negociadora es va reunir el dia 15 de gener de 2026, per tal de valorar els últims 5",
+      "resultado": null,
+      "texto_redactado": "La Mesa Negociadora es va reunir el dia 15 de gener de 2026, per tal de valorar els últims 5",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:44.615Z"
+      }
+    },
+    {
+      "id": "2026-03-02#4",
+      "sesion_id": "2026-03-02",
+      "orden": 4,
+      "titulo": "Que és voluntat de l´Ajuntament d´Ulldecona sol·licitar la pròrroga d’aquest conveni per a",
+      "resultado": null,
+      "texto_redactado": "Que és voluntat de l´Ajuntament d´Ulldecona sol·licitar la pròrroga d’aquest conveni per a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:44.615Z"
+      }
+    }
+  ]
+}

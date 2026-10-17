@@ -1,0 +1,1113 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "torello",
+    "nombre": "Torelló",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "828580001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-29",
+    "municipio_id": "torello",
+    "fecha": "2026-06-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/828580001/2026/161d35a5-8394-475e-98e5-97f87ae6e24c/2026.06.29%20Acta%20Ple%20X2026003946_compressed.pdf",
+    "hash_contenido": "7223de1e25fb6bc23401faba754fe8321951ee91f266da9138d7e999a9ef489f",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:39:04.581Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-29#1",
+      "sesion_id": "2026-06-29",
+      "orden": 1,
+      "titulo": "Acta de la sessió ordinària del dia 25 de maig de 2026",
+      "resultado": null,
+      "texto_redactado": "Acta de la sessió ordinària del dia 25 de maig de 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#2",
+      "sesion_id": "2026-06-29",
+      "orden": 2,
+      "titulo": "ALCALDIA - Proposta de les Festes locals a Torelló per a l’any 2027 -X2026000087",
+      "resultado": null,
+      "texto_redactado": "ALCALDIA - Proposta de les Festes locals a Torelló per a l’any 2027 -X2026000087",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#3",
+      "sesion_id": "2026-06-29",
+      "orden": 3,
+      "titulo": "ECONOMIA I HISENDA - Rectificació de l’inventari general de béns i drets de",
+      "resultado": null,
+      "texto_redactado": "ECONOMIA I HISENDA - Rectificació de l’inventari general de béns i drets de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#4",
+      "sesion_id": "2026-06-29",
+      "orden": 4,
+      "titulo": "HISENDA - Aprovar l’expedient de modificació de pressupost núm. 32/2026, per",
+      "resultado": null,
+      "texto_redactado": "HISENDA - Aprovar l’expedient de modificació de pressupost núm. 32/2026, per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#5",
+      "sesion_id": "2026-06-29",
+      "orden": 5,
+      "titulo": "HISENDA - Aprovar l’expedient de modificació de pressupost núm. 33/2026, per",
+      "resultado": null,
+      "texto_redactado": "HISENDA - Aprovar l’expedient de modificació de pressupost núm. 33/2026, per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#6",
+      "sesion_id": "2026-06-29",
+      "orden": 6,
+      "titulo": "HISENDA - Aprovar l’expedient de modificació de pressupost núm. 34/2026, per",
+      "resultado": null,
+      "texto_redactado": "HISENDA - Aprovar l’expedient de modificació de pressupost núm. 34/2026, per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#7",
+      "sesion_id": "2026-06-29",
+      "orden": 7,
+      "titulo": "HISENDA - Aprovar l’expedient de modificació de pressupost núm. 35/2026, per",
+      "resultado": null,
+      "texto_redactado": "HISENDA - Aprovar l’expedient de modificació de pressupost núm. 35/2026, per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#8",
+      "sesion_id": "2026-06-29",
+      "orden": 8,
+      "titulo": "HISENDA - Canvi de subjectes passius de les contribucions especials de l'obra",
+      "resultado": null,
+      "texto_redactado": "HISENDA - Canvi de subjectes passius de les contribucions especials de l'obra",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#9",
+      "sesion_id": "2026-06-29",
+      "orden": 9,
+      "titulo": "SERVEIS ECONÒMICS - Proposta de modificació ordenances fiscals exercici 2026 – X2026003536",
+      "resultado": null,
+      "texto_redactado": "SERVEIS ECONÒMICS - Proposta de modificació ordenances fiscals exercici 2026 – X2026003536",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#10",
+      "sesion_id": "2026-06-29",
+      "orden": 10,
+      "titulo": "SERVEIS ECONÒMICS - Proposta de modificació ordenances fiscals exercici 2026 - X2026003533",
+      "resultado": null,
+      "texto_redactado": "SERVEIS ECONÒMICS - Proposta de modificació ordenances fiscals exercici 2026 - X2026003533",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#11",
+      "sesion_id": "2026-06-29",
+      "orden": 11,
+      "titulo": "SERVEIS TERRITORIALS - Aprovació d’un conveni d’encomana de gestió entre el",
+      "resultado": null,
+      "texto_redactado": "SERVEIS TERRITORIALS - Aprovació d’un conveni d’encomana de gestió entre el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#12",
+      "sesion_id": "2026-06-29",
+      "orden": 12,
+      "titulo": "SERVEIS TERRITORIALS - Pròrroga del conveni regulador de la delegació de",
+      "resultado": null,
+      "texto_redactado": "SERVEIS TERRITORIALS - Pròrroga del conveni regulador de la delegació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#13",
+      "sesion_id": "2026-06-29",
+      "orden": 13,
+      "titulo": "DONAR COMPTE AL PLE dels decrets de l’alcaldia que s’han aprovat des de",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE dels decrets de l’alcaldia que s’han aprovat des de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#14",
+      "sesion_id": "2026-06-29",
+      "orden": 14,
+      "titulo": "DONAR COMPTE AL PLE de les actes de la Junta de Govern Local que s’han",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE de les actes de la Junta de Govern Local que s’han",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#15",
+      "sesion_id": "2026-06-29",
+      "orden": 15,
+      "titulo": "ALCALDIA - Donar compte al Ple del decret d’alcaldia número 2026DECR001700 de",
+      "resultado": null,
+      "texto_redactado": "ALCALDIA - Donar compte al Ple del decret d’alcaldia número 2026DECR001700 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#16",
+      "sesion_id": "2026-06-29",
+      "orden": 16,
+      "titulo": "HISENDA - Donar compte del Decret de l'Alcaldia 2026DECR002027 de data 5 de",
+      "resultado": null,
+      "texto_redactado": "HISENDA - Donar compte del Decret de l'Alcaldia 2026DECR002027 de data 5 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#17",
+      "sesion_id": "2026-06-29",
+      "orden": 17,
+      "titulo": "HISENDA - Donar compte del Decret de l'Alcaldia 2026DECR002106 de data 12 de",
+      "resultado": null,
+      "texto_redactado": "HISENDA - Donar compte del Decret de l'Alcaldia 2026DECR002106 de data 12 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#18",
+      "sesion_id": "2026-06-29",
+      "orden": 18,
+      "titulo": "Intervenció de l'alcalde en relació amb un article publicat al Setmanari Torelló",
+      "resultado": null,
+      "texto_redactado": "Intervenció de l'alcalde en relació amb un article publicat al Setmanari Torelló",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#19",
+      "sesion_id": "2026-06-29",
+      "orden": 19,
+      "titulo": "Arranjament dels degoters del pavelló i sala polivalent",
+      "resultado": null,
+      "texto_redactado": "Arranjament dels degoters del pavelló i sala polivalent",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#20",
+      "sesion_id": "2026-06-29",
+      "orden": 20,
+      "titulo": "Actuacions previstes per solucionar les plagues que hi ha al voltant d'alguns",
+      "resultado": null,
+      "texto_redactado": "Actuacions previstes per solucionar les plagues que hi ha al voltant d'alguns",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#21",
+      "sesion_id": "2026-06-29",
+      "orden": 21,
+      "titulo": "Previsió de destinar local per a les gimnastes del Club Gimnàstic Osona que",
+      "resultado": null,
+      "texto_redactado": "Previsió de destinar local per a les gimnastes del Club Gimnàstic Osona que",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#22",
+      "sesion_id": "2026-06-29",
+      "orden": 22,
+      "titulo": "Adequació dels carregadors elèctrics a pagament",
+      "resultado": null,
+      "texto_redactado": "Adequació dels carregadors elèctrics a pagament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#23",
+      "sesion_id": "2026-06-29",
+      "orden": 23,
+      "titulo": "Urbanització de l'avinguda Pirineus",
+      "resultado": null,
+      "texto_redactado": "Urbanització de l'avinguda Pirineus",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias",
+        "contratacion_obras",
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#24",
+      "sesion_id": "2026-06-29",
+      "orden": 24,
+      "titulo": "Plaça Dr. Fleming: estat del projecte de remodelació",
+      "resultado": null,
+      "texto_redactado": "Plaça Dr. Fleming: estat del projecte de remodelació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#25",
+      "sesion_id": "2026-06-29",
+      "orden": 25,
+      "titulo": "Retirada dels arbres caiguts al costat del riu Ter, a causa de l'últim temporal",
+      "resultado": null,
+      "texto_redactado": "Retirada dels arbres caiguts al costat del riu Ter, a causa de l'últim temporal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "medio_ambiente",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#26",
+      "sesion_id": "2026-06-29",
+      "orden": 26,
+      "titulo": "Accés a les piscines d'estiu pel passatge dels Esports",
+      "resultado": null,
+      "texto_redactado": "Accés a les piscines d'estiu pel passatge dels Esports",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#27",
+      "sesion_id": "2026-06-29",
+      "orden": 27,
+      "titulo": "Raó per la qual es renuncia a la subvenció nominativa de la coberta del Barri de",
+      "resultado": null,
+      "texto_redactado": "Raó per la qual es renuncia a la subvenció nominativa de la coberta del Barri de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#28",
+      "sesion_id": "2026-06-29",
+      "orden": 28,
+      "titulo": "Informació als ciutadans sobre els refugis climàtics",
+      "resultado": null,
+      "texto_redactado": "Informació als ciutadans sobre els refugis climàtics",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#29",
+      "sesion_id": "2026-06-29",
+      "orden": 29,
+      "titulo": "Dubtes relatius a la bustiada feta informant sobre la recollida deixalles",
+      "resultado": null,
+      "texto_redactado": "Dubtes relatius a la bustiada feta informant sobre la recollida deixalles",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#30",
+      "sesion_id": "2026-06-29",
+      "orden": 30,
+      "titulo": "Quantes escoles de Torelló disposen d'aire condicionat a les aules?",
+      "resultado": null,
+      "texto_redactado": "Quantes escoles de Torelló disposen d'aire condicionat a les aules?",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#31",
+      "sesion_id": "2026-06-29",
+      "orden": 31,
+      "titulo": "Punts foscos al municipi",
+      "resultado": null,
+      "texto_redactado": "Punts foscos al municipi",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#32",
+      "sesion_id": "2026-06-29",
+      "orden": 32,
+      "titulo": "Beneficis reals que aporta el pas del Tour per Torelló",
+      "resultado": null,
+      "texto_redactado": "Beneficis reals que aporta el pas del Tour per Torelló",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#33",
+      "sesion_id": "2026-06-29",
+      "orden": 33,
+      "titulo": "Seguretat: Confecció d'un Pla pedagògic estratègic social",
+      "resultado": null,
+      "texto_redactado": "Seguretat: Confecció d'un Pla pedagògic estratègic social",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#34",
+      "sesion_id": "2026-06-29",
+      "orden": 34,
+      "titulo": "Possibilitat de reforçar les sessions informatives sobre la recollida de deixalles",
+      "resultado": null,
+      "texto_redactado": "Possibilitat de reforçar les sessions informatives sobre la recollida de deixalles",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#35",
+      "sesion_id": "2026-06-29",
+      "orden": 35,
+      "titulo": "Mobiliari del Club? En cas de no poder-se iniciar l'activitat a l'octubre, com s'està",
+      "resultado": null,
+      "texto_redactado": "Mobiliari del Club? En cas de no poder-se iniciar l'activitat a l'octubre, com s'està",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#36",
+      "sesion_id": "2026-06-29",
+      "orden": 36,
+      "titulo": "Refugis climàtics",
+      "resultado": null,
+      "texto_redactado": "Refugis climàtics",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#37",
+      "sesion_id": "2026-06-29",
+      "orden": 37,
+      "titulo": "Pèrdua d'habitatge per part de persones en situació de vulnerabilitat",
+      "resultado": null,
+      "texto_redactado": "Pèrdua d'habitatge per part de persones en situació de vulnerabilitat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales",
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#38",
+      "sesion_id": "2026-06-29",
+      "orden": 38,
+      "titulo": "Suport al poble de Veneçuela i condol a les víctimes",
+      "resultado": null,
+      "texto_redactado": "Suport al poble de Veneçuela i condol a les víctimes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#39",
+      "sesion_id": "2026-06-29",
+      "orden": 39,
+      "titulo": "S'ha tancat el les ajudes de casals d'estiu i inici per presentar les sol·licituds de les",
+      "resultado": null,
+      "texto_redactado": "S'ha tancat el les ajudes de casals d'estiu i inici per presentar les sol·licituds de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#40",
+      "sesion_id": "2026-06-29",
+      "orden": 40,
+      "titulo": "S'inicia el procés de selecció de dinamitzador del Club",
+      "resultado": null,
+      "texto_redactado": "S'inicia el procés de selecció de dinamitzador del Club",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "personal",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#41",
+      "sesion_id": "2026-06-29",
+      "orden": 41,
+      "titulo": "Dissabte 11 de juliol a les 11:30 h a la sala Noble de Can Parrella, entrega de la",
+      "resultado": null,
+      "texto_redactado": "Dissabte 11 de juliol a les 11:30 h a la sala Noble de Can Parrella, entrega de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#42",
+      "sesion_id": "2026-06-29",
+      "orden": 42,
+      "titulo": "Festa Major: del 18 juliol al 2 d'agost",
+      "resultado": null,
+      "texto_redactado": "Festa Major: del 18 juliol al 2 d'agost",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#43",
+      "sesion_id": "2026-06-29",
+      "orden": 43,
+      "titulo": "Diumenge 5 de juliol, a la piscina municipal , nova edició del \"Mulla't per l'esclerosi",
+      "resultado": null,
+      "texto_redactado": "Diumenge 5 de juliol, a la piscina municipal , nova edició del \"Mulla't per l'esclerosi",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#44",
+      "sesion_id": "2026-06-29",
+      "orden": 44,
+      "titulo": "Dia 6 de juliol: Informació del Pas de la 3a etapa del Tour de França pel municipi",
+      "resultado": null,
+      "texto_redactado": "Dia 6 de juliol: Informació del Pas de la 3a etapa del Tour de França pel municipi",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "cultura_deporte_educacion",
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    },
+    {
+      "id": "2026-06-29#45",
+      "sesion_id": "2026-06-29",
+      "orden": 45,
+      "titulo": "Informació sobre les obres d'ampliació del CAP",
+      "resultado": null,
+      "texto_redactado": "Informació sobre les obres d'ampliació del CAP",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:04.581Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sentmenat",
+    "nombre": "Sentmenat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "826710007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-07",
+    "municipio_id": "sentmenat",
+    "fecha": "2026-05-07",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/826710007/2026/26ffb748-4d6c-4ff7-87ea-c0e383c917f8/ACTA%20DEL%20PLE%202026-0005%20[ACTA%20PLE%2007-05-26].pdf",
+    "hash_contenido": "4fdc2ec3b156aac2d6e9a3212fed811c52dfc013108592ba8c054f2f64b37f46",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:42:30.891Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-07#1",
+      "sesion_id": "2026-05-07",
+      "orden": 1,
+      "titulo": "Despatx d'ofici",
+      "resultado": null,
+      "texto_redactado": "Despatx d'ofici",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:30.891Z"
+      }
+    },
+    {
+      "id": "2026-05-07#2",
+      "sesion_id": "2026-05-07",
+      "orden": 2,
+      "titulo": "Expedient 319/2026. Donar compte de la liquidació del pressupost municipal de l'exercici",
+      "resultado": null,
+      "texto_redactado": "Expedient 319/2026. Donar compte de la liquidació del pressupost municipal de l'exercici",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:30.891Z"
+      }
+    },
+    {
+      "id": "2026-05-07#3",
+      "sesion_id": "2026-05-07",
+      "orden": 3,
+      "titulo": "Expedient 3065/2026. Donar compte període mig de pagament i morositat del primer",
+      "resultado": null,
+      "texto_redactado": "Expedient 3065/2026. Donar compte període mig de pagament i morositat del primer",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:30.891Z"
+      }
+    },
+    {
+      "id": "2026-05-07#4",
+      "sesion_id": "2026-05-07",
+      "orden": 4,
+      "titulo": "Expedient 2808/2026. Reconeixement extrajudicial de crèdits 01/2026Codi Validació: 53QGNCS9LH9FMLDJQ7G3KS259",
+      "resultado": null,
+      "texto_redactado": "Expedient 2808/2026. Reconeixement extrajudicial de crèdits 01/2026Codi Validació: 53QGNCS9LH9FMLDJQ7G3KS259",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:30.891Z"
+      }
+    },
+    {
+      "id": "2026-05-07#5",
+      "sesion_id": "2026-05-07",
+      "orden": 5,
+      "titulo": "Expedient G137-2014-0001. Aprovar la necessària continuïtat de la prestació del serveiCodi Validació: 53QGNCS9LH9FMLDJQ7G3KS259",
+      "resultado": null,
+      "texto_redactado": "Expedient G137-2014-0001. Aprovar la necessària continuïtat de la prestació del serveiCodi Validació: 53QGNCS9LH9FMLDJQ7G3KS259",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:30.891Z"
+      }
+    },
+    {
+      "id": "2026-05-07#6",
+      "sesion_id": "2026-05-07",
+      "orden": 6,
+      "titulo": "Expedient 1959/2026. Aprovar el Protocol Comarcal per a l’Abordatge Integral de les",
+      "resultado": null,
+      "texto_redactado": "Expedient 1959/2026. Aprovar el Protocol Comarcal per a l’Abordatge Integral de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:30.891Z"
+      }
+    },
+    {
+      "id": "2026-05-07#7",
+      "sesion_id": "2026-05-07",
+      "orden": 7,
+      "titulo": "Expedient 2877/2026. Adhesió al Manifest del Consell Nacional LGTBI del 26 d'abril, Dia",
+      "resultado": null,
+      "texto_redactado": "Expedient 2877/2026. Adhesió al Manifest del Consell Nacional LGTBI del 26 d'abril, Dia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:30.891Z"
+      }
+    },
+    {
+      "id": "2026-05-07#8",
+      "sesion_id": "2026-05-07",
+      "orden": 8,
+      "titulo": "Expedient 3130/2026. Moció presentada pels grups municipals d'ERC, ACS i CUP per la",
+      "resultado": null,
+      "texto_redactado": "Expedient 3130/2026. Moció presentada pels grups municipals d'ERC, ACS i CUP per la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:30.891Z"
+      }
+    }
+  ]
+}

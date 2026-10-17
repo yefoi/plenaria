@@ -1,0 +1,484 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vidreres",
+    "nombre": "Vidreres",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1721370005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-02",
+    "municipio_id": "vidreres",
+    "fecha": "2026-06-02",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1721370005/2026/95778643-8809-4c32-b316-85cd67977cfc/PLE2026000004_ACTA.pdf",
+    "hash_contenido": "cfde8784725526d3efdc49722a4e930669c0e6f10b06bba45d3635eb005353a9",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:43:10.306Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-02#1",
+      "sesion_id": "2026-06-02",
+      "orden": 1,
+      "titulo": "X2026002244. Aprovació de l'acta de la sessió del Ple de 24/03/2026",
+      "resultado": null,
+      "texto_redactado": "X2026002244. Aprovació de l'acta de la sessió del Ple de 24/03/2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.306Z"
+      }
+    },
+    {
+      "id": "2026-06-02#2",
+      "sesion_id": "2026-06-02",
+      "orden": 2,
+      "titulo": "X2026000444. Aprovació de l'Addenda al conveni marc per a la prestació de",
+      "resultado": null,
+      "texto_redactado": "X2026000444. Aprovació de l'Addenda al conveni marc per a la prestació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.306Z"
+      }
+    },
+    {
+      "id": "2026-06-02#3",
+      "sesion_id": "2026-06-02",
+      "orden": 3,
+      "titulo": "X2026001794. Aprovació de la celebració dels espectacles \"Bous a la plaça\" i",
+      "resultado": null,
+      "texto_redactado": "X2026001794. Aprovació de la celebració dels espectacles \"Bous a la plaça\" i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.306Z"
+      }
+    },
+    {
+      "id": "2026-06-02#4",
+      "sesion_id": "2026-06-02",
+      "orden": 4,
+      "titulo": "Cobertura d’accidents i responsabilitat civil",
+      "resultado": null,
+      "texto_redactado": "Cobertura d’accidents i responsabilitat civil",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.306Z"
+      }
+    },
+    {
+      "id": "2026-06-02#5",
+      "sesion_id": "2026-06-02",
+      "orden": 5,
+      "titulo": "Nombre i característiques, sanitat i autenticitat i cura dels animals participants en",
+      "resultado": null,
+      "texto_redactado": "Nombre i característiques, sanitat i autenticitat i cura dels animals participants en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.306Z"
+      }
+    },
+    {
+      "id": "2026-06-02#6",
+      "sesion_id": "2026-06-02",
+      "orden": 6,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.306Z"
+      }
+    },
+    {
+      "id": "2026-06-02#7",
+      "sesion_id": "2026-06-02",
+      "orden": 7,
+      "titulo": "Contracte del ramader propietari amb un veterinari clínic per a atendre els animals",
+      "resultado": null,
+      "texto_redactado": "Contracte del ramader propietari amb un veterinari clínic per a atendre els animals",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.306Z"
+      }
+    },
+    {
+      "id": "2026-06-02#8",
+      "sesion_id": "2026-06-02",
+      "orden": 8,
+      "titulo": "X2026001084. Aprovació definitiva de la modificació de crèdit 5/2026",
+      "resultado": null,
+      "texto_redactado": "X2026001084. Aprovació definitiva de la modificació de crèdit 5/2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.306Z"
+      }
+    },
+    {
+      "id": "2026-06-02#9",
+      "sesion_id": "2026-06-02",
+      "orden": 9,
+      "titulo": "X2026001180. Aprovació definitiva de la modificació de crèdit 6/2026",
+      "resultado": null,
+      "texto_redactado": "X2026001180. Aprovació definitiva de la modificació de crèdit 6/2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.306Z"
+      }
+    },
+    {
+      "id": "2026-06-02#10",
+      "sesion_id": "2026-06-02",
+      "orden": 10,
+      "titulo": "X2026002222. Moció d'adhesió al front comú per a la defensa dels drets dels",
+      "resultado": null,
+      "texto_redactado": "X2026002222. Moció d'adhesió al front comú per a la defensa dels drets dels",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.306Z"
+      }
+    },
+    {
+      "id": "2026-06-02#11",
+      "sesion_id": "2026-06-02",
+      "orden": 11,
+      "titulo": "X2026002070. Moció presentada pels grups polítics Activa Vidreres-Acord",
+      "resultado": null,
+      "texto_redactado": "X2026002070. Moció presentada pels grups polítics Activa Vidreres-Acord",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.306Z"
+      }
+    },
+    {
+      "id": "2026-06-02#12",
+      "sesion_id": "2026-06-02",
+      "orden": 12,
+      "titulo": "X2026001225. Donar compte de les memòries de 2024 i 2025 del Síndic",
+      "resultado": null,
+      "texto_redactado": "X2026001225. Donar compte de les memòries de 2024 i 2025 del Síndic",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.306Z"
+      }
+    },
+    {
+      "id": "2026-06-02#13",
+      "sesion_id": "2026-06-02",
+      "orden": 13,
+      "titulo": "SERVEI UTILITZACIÓ INSTAL.LACIONS ESPORTIVES I CULTURALS - PISCINA MUNICIPAL",
+      "resultado": null,
+      "texto_redactado": "SERVEI UTILITZACIÓ INSTAL.LACIONS ESPORTIVES I CULTURALS - PISCINA MUNICIPAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.306Z"
+      }
+    },
+    {
+      "id": "2026-06-02#14",
+      "sesion_id": "2026-06-02",
+      "orden": 14,
+      "titulo": "X2026002235. Donar compte dels decrets de delegació de l'alcaldia a tinents",
+      "resultado": null,
+      "texto_redactado": "X2026002235. Donar compte dels decrets de delegació de l'alcaldia a tinents",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.306Z"
+      }
+    },
+    {
+      "id": "2026-06-02#15",
+      "sesion_id": "2026-06-02",
+      "orden": 15,
+      "titulo": "X2025001237. Donar compte dels decrets de l'alcaldia des del 17/03/2026 fins",
+      "resultado": null,
+      "texto_redactado": "X2025001237. Donar compte dels decrets de l'alcaldia des del 17/03/2026 fins",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.306Z"
+      }
+    },
+    {
+      "id": "2026-06-02#16",
+      "sesion_id": "2026-06-02",
+      "orden": 16,
+      "titulo": "X2026001249. Donar compte de les disposicions de la Junta de Govern Local",
+      "resultado": null,
+      "texto_redactado": "X2026001249. Donar compte de les disposicions de la Junta de Govern Local",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.306Z"
+      }
+    },
+    {
+      "id": "2026-06-02#17",
+      "sesion_id": "2026-06-02",
+      "orden": 17,
+      "titulo": "X2026001736. Donar compte de l'informe de la Intervenció en relació a",
+      "resultado": null,
+      "texto_redactado": "X2026001736. Donar compte de l'informe de la Intervenció en relació a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.306Z"
+      }
+    },
+    {
+      "id": "2026-06-02#18",
+      "sesion_id": "2026-06-02",
+      "orden": 18,
+      "titulo": "X2026001739. Donar compte de les dades d’estabilitat pressupostària i",
+      "resultado": null,
+      "texto_redactado": "X2026001739. Donar compte de les dades d’estabilitat pressupostària i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.306Z"
+      }
+    },
+    {
+      "id": "2026-06-02#19",
+      "sesion_id": "2026-06-02",
+      "orden": 19,
+      "titulo": "X2026001452. Donar compte dels informes anuals de control intern 2025 i",
+      "resultado": null,
+      "texto_redactado": "X2026001452. Donar compte dels informes anuals de control intern 2025 i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.306Z"
+      }
+    }
+  ]
+}

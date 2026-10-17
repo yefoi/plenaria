@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "capellades",
+    "nombre": "Capellades",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "804460009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-30",
+    "municipio_id": "capellades",
+    "fecha": "2026-07-30",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/804460009/2026/9fc097ab-7546-4cf2-ad54-c2fab00af481/Cambio%20usuario%20esPublico.pdf",
+    "hash_contenido": "d0e7c40be4ed8d13cecc96eb90b2b8740aafa9f843f861ab184b0eeb6e22f3ef",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-17T10:33:45.758Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-30#1",
+      "sesion_id": "2026-07-30",
+      "orden": 1,
+      "titulo": "D/Dña. Salvador Vives Alari, como Representante Legal del Ayuntamiento de Capellades, en nombre y representación del mismo, SOLICITA",
+      "resultado": null,
+      "texto_redactado": "D/Dña. Salvador Vives Alari, como Representante Legal del Ayuntamiento de Capellades, en nombre y representación del mismo, SOLICITA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}

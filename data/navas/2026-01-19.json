@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "navas",
+    "nombre": "Navàs",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "814190004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-01-19",
+    "municipio_id": "navas",
+    "fecha": "2026-01-19",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/814190004/2026/04f1005f-3a6a-408c-bdec-2be097b40b72/20260312_Acta_Acta%20ple_ACTA%20DEL%20PLE%202026-0001%20[Acta%20Ple%20ordinari%20de%2019%20de%20gener%20de%20%202026].pdf",
+    "hash_contenido": "dd8bd55b4d7f5b7e87a2b5f57ef4650233b9d7fe1d57c706b6432c422416c196",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-17T10:32:16.405Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-01-19#1",
+      "sesion_id": "2026-01-19",
+      "orden": 1,
+      "titulo": "179.2 del Text Refós de la Llei Reguladora de les Hisendes Locals, aprovat pel Reial",
+      "resultado": null,
+      "texto_redactado": "179.2 del Text Refós de la Llei Reguladora de les Hisendes Locals, aprovat pel Reial",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}

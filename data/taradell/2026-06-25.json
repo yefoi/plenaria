@@ -1,0 +1,295 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "taradell",
+    "nombre": "Taradell",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "827850006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-25",
+    "municipio_id": "taradell",
+    "fecha": "2026-06-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/827850006/2026/5db13006-3efa-4541-ab92-470f9304e202/Acta%20Ple%2025%2006%202026%20-%20sense%20noms.pdf",
+    "hash_contenido": "c48155ef978dc15d530575a4a01b97a84352814b3b9b8fd761e0de845d0014d6",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:45:29.828Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-25#1",
+      "sesion_id": "2026-06-25",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta de la sessió anterior de data 28 de maig de 2026. Exp.",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’acta de la sessió anterior de data 28 de maig de 2026. Exp.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.828Z"
+      }
+    },
+    {
+      "id": "2026-06-25#2",
+      "sesion_id": "2026-06-25",
+      "orden": 2,
+      "titulo": "Donar compte dels acords de les Juntes de Govern Local.",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels acords de les Juntes de Govern Local.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.828Z"
+      }
+    },
+    {
+      "id": "2026-06-25#3",
+      "sesion_id": "2026-06-25",
+      "orden": 3,
+      "titulo": "Donar compte dels Decrets de l’alcaldessa..",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels Decrets de l’alcaldessa..",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.828Z"
+      }
+    },
+    {
+      "id": "2026-06-25#4",
+      "sesion_id": "2026-06-25",
+      "orden": 4,
+      "titulo": "Designació de les festes locals de l’any 2027. Exp. 536/2026.",
+      "resultado": null,
+      "texto_redactado": "Designació de les festes locals de l’any 2027. Exp. 536/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.828Z"
+      }
+    },
+    {
+      "id": "2026-06-25#5",
+      "sesion_id": "2026-06-25",
+      "orden": 5,
+      "titulo": "Punto sancionador",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.828Z"
+      }
+    },
+    {
+      "id": "2026-06-25#6",
+      "sesion_id": "2026-06-25",
+      "orden": 6,
+      "titulo": "Adhesió al servei d’accés a la Funció Pública de la Mancomunitat la Plana i",
+      "resultado": null,
+      "texto_redactado": "Adhesió al servei d’accés a la Funció Pública de la Mancomunitat la Plana i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.828Z"
+      }
+    },
+    {
+      "id": "2026-06-25#7",
+      "sesion_id": "2026-06-25",
+      "orden": 7,
+      "titulo": "Modificació de Crèdit núm. 8 del Pressupost Municipal de l’exercici 2026. Exp.",
+      "resultado": null,
+      "texto_redactado": "Modificació de Crèdit núm. 8 del Pressupost Municipal de l’exercici 2026. Exp.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.828Z"
+      }
+    },
+    {
+      "id": "2026-06-25#8",
+      "sesion_id": "2026-06-25",
+      "orden": 8,
+      "titulo": "Aprovació del protocol de prevenció i actuació vers les violències cap a infants",
+      "resultado": null,
+      "texto_redactado": "Aprovació del protocol de prevenció i actuació vers les violències cap a infants",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.828Z"
+      }
+    },
+    {
+      "id": "2026-06-25#9",
+      "sesion_id": "2026-06-25",
+      "orden": 9,
+      "titulo": "Devolució de la garantia definitiva del contracte de serveis esportius i altres de",
+      "resultado": null,
+      "texto_redactado": "Devolució de la garantia definitiva del contracte de serveis esportius i altres de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.828Z"
+      }
+    },
+    {
+      "id": "2026-06-25#10",
+      "sesion_id": "2026-06-25",
+      "orden": 10,
+      "titulo": "Moció per a l’establiment de quotes diferenciades en l’impost sobre el dipòsit",
+      "resultado": null,
+      "texto_redactado": "Moció per a l’establiment de quotes diferenciades en l’impost sobre el dipòsit",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "presupuesto_impuestos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.828Z"
+      }
+    },
+    {
+      "id": "2026-06-25#11",
+      "sesion_id": "2026-06-25",
+      "orden": 11,
+      "titulo": "Precs i preguntes.",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.828Z"
+      }
+    }
+  ]
+}

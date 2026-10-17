@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vilanova-del-cami",
+    "nombre": "Vilanova del Camí",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "830200000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-15",
+    "municipio_id": "vilanova-del-cami",
+    "fecha": "2026-06-15",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/830200000/2026/dc87b6da-4ec0-4d56-bcfd-5dde1978812c/ACTA%20PLE%20EXTRAORDINARI%20N%BA.%204%20DEL%2015-06-2026.pdf",
+    "hash_contenido": "0df37669904993effca1c29ec1e4fb311d8d5a6e1180bdeb25c744c16f164afc",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:41:05.012Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-15#1",
+      "sesion_id": "2026-06-15",
+      "orden": 1,
+      "titulo": "ÀREA D’OBRES, URBANISME, MEDI AMBIENT I SERVEIS MUNICIPALS",
+      "resultado": null,
+      "texto_redactado": "ÀREA D’OBRES, URBANISME, MEDI AMBIENT I SERVEIS MUNICIPALS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias",
+        "medio_ambiente",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:05.012Z"
+      }
+    },
+    {
+      "id": "2026-06-15#2",
+      "sesion_id": "2026-06-15",
+      "orden": 2,
+      "titulo": "Transcorregut aquest termini sense que s’hagin presentat al·legacions, vist",
+      "resultado": null,
+      "texto_redactado": "Transcorregut aquest termini sense que s’hagin presentat al·legacions, vist",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:05.012Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "cubelles",
+    "nombre": "Cubelles",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "807490004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-13",
+    "municipio_id": "cubelles",
+    "fecha": "2026-05-13",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/807490004/2026/083621f1-6471-4e42-a4cf-1800fb3a027a/Acords%20JGL%2013-05-2026.pdf",
+    "hash_contenido": "a53105b97e304c380383542435ec87e0fd8f8f20b9c89a5def8a2bfd9a80cfaa",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:37:58.802Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-13#1",
+      "sesion_id": "2026-05-13",
+      "orden": 1,
+      "titulo": "APROVAR L’ACTA DE LA SESSIÓ ORDINÀRIA DELDIA 22 D’ABRIL DE 2026",
+      "resultado": null,
+      "texto_redactado": "APROVAR L’ACTA DE LA SESSIÓ ORDINÀRIA DELDIA 22 D’ABRIL DE 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:58.802Z"
+      }
+    },
+    {
+      "id": "2026-05-13#2",
+      "sesion_id": "2026-05-13",
+      "orden": 2,
+      "titulo": "INFORMACIONS",
+      "resultado": null,
+      "texto_redactado": "INFORMACIONS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:58.802Z"
+      }
+    },
+    {
+      "id": "2026-05-13#3",
+      "sesion_id": "2026-05-13",
+      "orden": 3,
+      "titulo": "DONAR COMPTE DEL DECRET D’ALCALDIA NÚM. 2026/402, DE DATA 17 D’ABRIL, ON S’APROVA RESOLDRE LA DISCREPÀNCIA I AIXECAR L’OBJECCIÓ DE LA INTERVENCIÓ MUNICIPAL SEGONS INFORME FISCALITZACIÓ 258_2026 DE DATA 5 DE MARÇ I APROVAR LA 1ª PRÒRROGA DEL LOT 4 – TALLERS D’ART-TERÀPIA DEL CONTRACTE DE SERVEIS D’ACCIONS AL CENTRE",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DEL DECRET D’ALCALDIA NÚM. 2026/402, DE DATA 17 D’ABRIL, ON S’APROVA RESOLDRE LA DISCREPÀNCIA I AIXECAR L’OBJECCIÓ DE LA INTERVENCIÓ MUNICIPAL SEGONS INFORME FISCALITZACIÓ 258_2026 DE DATA 5 DE MARÇ I APROVAR LA 1ª PRÒRROGA DEL LOT 4 – TALLERS D’ART-TERÀPIA DEL CONTRACTE DE SERVEIS D’ACCIONS AL CENTRE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "contratacion_obras",
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:58.802Z"
+      }
+    },
+    {
+      "id": "2026-05-13#4",
+      "sesion_id": "2026-05-13",
+      "orden": 4,
+      "titulo": "APROVAR L’ATORGAMENT DE LLICÈNCIA URBANÍSTICA D’OBRA MAJOR AMB EXPEDIENT NÚM. 2413_2026_91",
+      "resultado": null,
+      "texto_redactado": "APROVAR L’ATORGAMENT DE LLICÈNCIA URBANÍSTICA D’OBRA MAJOR AMB EXPEDIENT NÚM. 2413_2026_91",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:58.802Z"
+      }
+    },
+    {
+      "id": "2026-05-13#5",
+      "sesion_id": "2026-05-13",
+      "orden": 5,
+      "titulo": "APROVAR L’ACCEPTACIÓ RENÚNCIA LLICÈNCIA URBANÍSTICA D’OBRA MAJOR AMB EXPEDIENT NÚM. 2413_2024_10084 REGIDORIA D'ESPAI PÚBLIC I INFRAESTRUCTURES",
+      "resultado": null,
+      "texto_redactado": "APROVAR L’ACCEPTACIÓ RENÚNCIA LLICÈNCIA URBANÍSTICA D’OBRA MAJOR AMB EXPEDIENT NÚM. 2413_2024_10084 REGIDORIA D'ESPAI PÚBLIC I INFRAESTRUCTURES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:58.802Z"
+      }
+    },
+    {
+      "id": "2026-05-13#6",
+      "sesion_id": "2026-05-13",
+      "orden": 6,
+      "titulo": "APROVAR EL DESISTIMENT DEL CONTRACTE DE SUBMINISTRAMENT D'ÀREES I ELEMENTS DE JOC A PARCS INFANTILS DE FUSTA PROMOGUT PER L'AJUNTAMENT DE CUBELLES EN EL CONTRACTE BASAT DE L'ACORD MARC DE L'ASSOCIACIÓ CATALANA DE MUNICIPIS",
+      "resultado": null,
+      "texto_redactado": "APROVAR EL DESISTIMENT DEL CONTRACTE DE SUBMINISTRAMENT D'ÀREES I ELEMENTS DE JOC A PARCS INFANTILS DE FUSTA PROMOGUT PER L'AJUNTAMENT DE CUBELLES EN EL CONTRACTE BASAT DE L'ACORD MARC DE L'ASSOCIACIÓ CATALANA DE MUNICIPIS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:58.802Z"
+      }
+    },
+    {
+      "id": "2026-05-13#7",
+      "sesion_id": "2026-05-13",
+      "orden": 7,
+      "titulo": "APROVAR LA CERTIFICACIÓ NÚM. 8 DE LES OBRES D’EXECUCIÓ DEL PROJECTE MODIFICAT 1 DE LA MEMORIA VALORADA DEL PLA DE",
+      "resultado": null,
+      "texto_redactado": "APROVAR LA CERTIFICACIÓ NÚM. 8 DE LES OBRES D’EXECUCIÓ DEL PROJECTE MODIFICAT 1 DE LA MEMORIA VALORADA DEL PLA DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:58.802Z"
+      }
+    },
+    {
+      "id": "2026-05-13#8",
+      "sesion_id": "2026-05-13",
+      "orden": 8,
+      "titulo": "APROVAR EL PLEC DE CLÀUSULES ADMINISTRATIVES PARTICULARS I DEL PLEC DE PRESCRIPCIONS TÈCNIQUES QUE HA DE REGIR L’ADJUDICACIÓ CONTRACTE DE SUBMINISTRAMENTS EN RÈGIM DE LLOGUER, SENSE OPCIÓ DE COMPRA, DELS MATERIALS I INFRAESTRUCTURES NECESSÀRIES PEL BON DESENVOLUPAMENT I EXECUCIÓ DE LA FESTA DE LA VEREMA",
+      "resultado": null,
+      "texto_redactado": "APROVAR EL PLEC DE CLÀUSULES ADMINISTRATIVES PARTICULARS I DEL PLEC DE PRESCRIPCIONS TÈCNIQUES QUE HA DE REGIR L’ADJUDICACIÓ CONTRACTE DE SUBMINISTRAMENTS EN RÈGIM DE LLOGUER, SENSE OPCIÓ DE COMPRA, DELS MATERIALS I INFRAESTRUCTURES NECESSÀRIES PEL BON DESENVOLUPAMENT I EXECUCIÓ DE LA FESTA DE LA VEREMA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:58.802Z"
+      }
+    },
+    {
+      "id": "2026-05-13#9",
+      "sesion_id": "2026-05-13",
+      "orden": 9,
+      "titulo": "APROVAR L’APORTACIÓ ORDINÀRIA A LA MANCOMUNITAT TEGAR DEL GARRAF, CORRESPONENT A L’ANY 2026",
+      "resultado": null,
+      "texto_redactado": "APROVAR L’APORTACIÓ ORDINÀRIA A LA MANCOMUNITAT TEGAR DEL GARRAF, CORRESPONENT A L’ANY 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:58.802Z"
+      }
+    },
+    {
+      "id": "2026-05-13#10",
+      "sesion_id": "2026-05-13",
+      "orden": 10,
+      "titulo": "APROVAR LA RESOLUCIÓ, PER MUTU ACORD, DEL CONTRACTE D’OBRES PER A L’EXECUCIÓ PROJECTE BÀSIC I D’EXECUCIÓ DE CONSTRUCCIÓ DE DUES PISTES DE PÀDEL AL POLIESPORTIU MUNICIPAL A CUBELLES ADJUDICAT A L’EMPRESA SPORTS PLUS COURT, SL",
+      "resultado": null,
+      "texto_redactado": "APROVAR LA RESOLUCIÓ, PER MUTU ACORD, DEL CONTRACTE D’OBRES PER A L’EXECUCIÓ PROJECTE BÀSIC I D’EXECUCIÓ DE CONSTRUCCIÓ DE DUES PISTES DE PÀDEL AL POLIESPORTIU MUNICIPAL A CUBELLES ADJUDICAT A L’EMPRESA SPORTS PLUS COURT, SL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:58.802Z"
+      }
+    },
+    {
+      "id": "2026-05-13#11",
+      "sesion_id": "2026-05-13",
+      "orden": 11,
+      "titulo": "ALTRES TEMES",
+      "resultado": null,
+      "texto_redactado": "ALTRES TEMES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:58.802Z"
+      }
+    },
+    {
+      "id": "2026-05-13#12",
+      "sesion_id": "2026-05-13",
+      "orden": 12,
+      "titulo": "PRECS I PREGUNTES",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:58.802Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "tordera",
+    "nombre": "Tordera",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "828450006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-28",
+    "municipio_id": "tordera",
+    "fecha": "2026-05-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/828450006/2026/43bdbbd6-3a45-43a2-a742-244c7b5428f2/5.Acta%20del%20Ple%20ordinari%20de%2028%20de%20maig%20de%202026_compressed.pdf",
+    "hash_contenido": "2904ae28ae9529b7217ff2b8d3bd68e2615852ccf5dbeef97bc6fbc401c749bf",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:37:20.724Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-28#1",
+      "sesion_id": "2026-05-28",
+      "orden": 1,
+      "titulo": "(PLE2026/4). Aprovació de l’Acta i de la Vídeo Acta de la sessió ordinària del Ple de 30 d’abril de 2026 ........5",
+      "resultado": null,
+      "texto_redactado": "(PLE2026/4). Aprovació de l’Acta i de la Vídeo Acta de la sessió ordinària del Ple de 30 d’abril de 2026 ........5",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:20.724Z"
+      }
+    },
+    {
+      "id": "2026-05-28#2",
+      "sesion_id": "2026-05-28",
+      "orden": 2,
+      "titulo": "(PRP2026/186). Donar compte de l'Informe d'Intervenció relatiu al compliment de la normativa en matèria",
+      "resultado": null,
+      "texto_redactado": "(PRP2026/186). Donar compte de l'Informe d'Intervenció relatiu al compliment de la normativa en matèria",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:20.724Z"
+      }
+    },
+    {
+      "id": "2026-05-28#3",
+      "sesion_id": "2026-05-28",
+      "orden": 3,
+      "titulo": "(PRP2026/187). Donar compte del Decret d'Alcaldia d'aprovació de la liquidació del Pressupost General de",
+      "resultado": null,
+      "texto_redactado": "(PRP2026/187). Donar compte del Decret d'Alcaldia d'aprovació de la liquidació del Pressupost General de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:20.724Z"
+      }
+    },
+    {
+      "id": "2026-05-28#4",
+      "sesion_id": "2026-05-28",
+      "orden": 4,
+      "titulo": "(PRP2026/144). Donar compte d'acords adoptats en virtut de competències plenàries delegades a favor de",
+      "resultado": null,
+      "texto_redactado": "(PRP2026/144). Donar compte d'acords adoptats en virtut de competències plenàries delegades a favor de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:20.724Z"
+      }
+    },
+    {
+      "id": "2026-05-28#5",
+      "sesion_id": "2026-05-28",
+      "orden": 5,
+      "titulo": "(PRP2026/163). Aprovació inicial de la modificació de la relació i valoració de llocs de treball .......................10",
+      "resultado": null,
+      "texto_redactado": "(PRP2026/163). Aprovació inicial de la modificació de la relació i valoració de llocs de treball .......................10",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:20.724Z"
+      }
+    },
+    {
+      "id": "2026-05-28#6",
+      "sesion_id": "2026-05-28",
+      "orden": 6,
+      "titulo": "(PRP2026/172). Aprovació inicial de l’expedient de modificació de crèdit núm. 10/2026, de suplement de",
+      "resultado": null,
+      "texto_redactado": "(PRP2026/172). Aprovació inicial de l’expedient de modificació de crèdit núm. 10/2026, de suplement de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:20.724Z"
+      }
+    },
+    {
+      "id": "2026-05-28#7",
+      "sesion_id": "2026-05-28",
+      "orden": 7,
+      "titulo": "(PRP2026/173). Aprovació de reconeixement extrajudicial de crèdit de les remeses: F/2026/33 , F/2026/34",
+      "resultado": null,
+      "texto_redactado": "(PRP2026/173). Aprovació de reconeixement extrajudicial de crèdit de les remeses: F/2026/33 , F/2026/34",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:20.724Z"
+      }
+    },
+    {
+      "id": "2026-05-28#8",
+      "sesion_id": "2026-05-28",
+      "orden": 8,
+      "titulo": "(PRP2026/165). Aprovació provisional de la modificació puntual del PGOUM-Sistemes de Ò Parcs i JardinsÓ i",
+      "resultado": null,
+      "texto_redactado": "(PRP2026/165). Aprovació provisional de la modificació puntual del PGOUM-Sistemes de Ò Parcs i JardinsÓ i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:20.724Z"
+      }
+    },
+    {
+      "id": "2026-05-28#9",
+      "sesion_id": "2026-05-28",
+      "orden": 9,
+      "titulo": "(PRP2026/166). Desestimació del recurs de reposició contra l’acord del Ple, de data 27 de febrer de 2025, pel",
+      "resultado": null,
+      "texto_redactado": "(PRP2026/166). Desestimació del recurs de reposició contra l’acord del Ple, de data 27 de febrer de 2025, pel",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:20.724Z"
+      }
+    },
+    {
+      "id": "2026-05-28#10",
+      "sesion_id": "2026-05-28",
+      "orden": 10,
+      "titulo": "(PRP2026/174). Aprovació inicial de l’establiment i prestació del servei públic de bar al local social",
+      "resultado": null,
+      "texto_redactado": "(PRP2026/174). Aprovació inicial de l’establiment i prestació del servei públic de bar al local social",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:20.724Z"
+      }
+    },
+    {
+      "id": "2026-05-28#11",
+      "sesion_id": "2026-05-28",
+      "orden": 11,
+      "titulo": "(PRP2026/188). Desestimació d'al·legacions presentades per la mercantil ROSTISSERIA L’AREST, SLU, contra",
+      "resultado": null,
+      "texto_redactado": "(PRP2026/188). Desestimació d'al·legacions presentades per la mercantil ROSTISSERIA L’AREST, SLU, contra",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:20.724Z"
+      }
+    },
+    {
+      "id": "2026-05-28#12",
+      "sesion_id": "2026-05-28",
+      "orden": 12,
+      "titulo": "(PRP2026/169). Moció que presenta el Grup Municipal d'ERC-GdT-Jovent-AM per a la regularització i",
+      "resultado": null,
+      "texto_redactado": "(PRP2026/169). Moció que presenta el Grup Municipal d'ERC-GdT-Jovent-AM per a la regularització i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:20.724Z"
+      }
+    },
+    {
+      "id": "2026-05-28#13",
+      "sesion_id": "2026-05-28",
+      "orden": 13,
+      "titulo": "(PRP2026/167). Moción que presenta el Grupo Municipal VOX sobre la prioridad nacional.........................47",
+      "resultado": null,
+      "texto_redactado": "(PRP2026/167). Moción que presenta el Grupo Municipal VOX sobre la prioridad nacional.........................47",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:20.724Z"
+      }
+    },
+    {
+      "id": "2026-05-28#14",
+      "sesion_id": "2026-05-28",
+      "orden": 14,
+      "titulo": "(PRP2026/168). Moción que presenta el Grupo Municipal VOX para la retransmision en pantalla gigante de",
+      "resultado": null,
+      "texto_redactado": "(PRP2026/168). Moción que presenta el Grupo Municipal VOX para la retransmision en pantalla gigante de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:20.724Z"
+      }
+    },
+    {
+      "id": "2026-05-28#15",
+      "sesion_id": "2026-05-28",
+      "orden": 15,
+      "titulo": "(PRP2026/171). Moció que presenten els grups municipals Junts per Tordera-CM i ERC-GdT-Jovent-AM per",
+      "resultado": null,
+      "texto_redactado": "(PRP2026/171). Moció que presenten els grups municipals Junts per Tordera-CM i ERC-GdT-Jovent-AM per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:20.724Z"
+      }
+    }
+  ]
+}

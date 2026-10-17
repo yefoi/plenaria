@@ -1,0 +1,363 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "les-franqueses-del-valles",
+    "nombre": "Les Franqueses del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "808630008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-25",
+    "municipio_id": "les-franqueses-del-valles",
+    "fecha": "2026-06-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/808630008/2026/ea4e46f1-e474-47e8-86e5-ab9b1c1ea6d4/Acta%20Ple-2026-6%2025%20juny%202026%20ordinari.pdf",
+    "hash_contenido": "9daeefa065318dbdab6f781a0746569a972a04ddaa341cbae2f78b4b02e32a40",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:36:59.542Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-25#1",
+      "sesion_id": "2026-06-25",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta de la sessió anterior.",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’acta de la sessió anterior.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:59.542Z"
+      }
+    },
+    {
+      "id": "2026-06-25#2",
+      "sesion_id": "2026-06-25",
+      "orden": 2,
+      "titulo": "Donar compte de les resolucions dictades per l'Alcalde i els/les regidors/es",
+      "resultado": null,
+      "texto_redactado": "Donar compte de les resolucions dictades per l'Alcalde i els/les regidors/es",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:59.542Z"
+      }
+    },
+    {
+      "id": "2026-06-25#3",
+      "sesion_id": "2026-06-25",
+      "orden": 3,
+      "titulo": "Donar compte de les actes de la Junta de Govern Local números JGL/2026/18",
+      "resultado": null,
+      "texto_redactado": "Donar compte de les actes de la Junta de Govern Local números JGL/2026/18",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:59.542Z"
+      }
+    },
+    {
+      "id": "2026-06-25#4",
+      "sesion_id": "2026-06-25",
+      "orden": 4,
+      "titulo": "Proposta de resolució de les al·legacions presentades i consegüent",
+      "resultado": null,
+      "texto_redactado": "Proposta de resolució de les al·legacions presentades i consegüent",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:59.542Z"
+      }
+    },
+    {
+      "id": "2026-06-25#5",
+      "sesion_id": "2026-06-25",
+      "orden": 5,
+      "titulo": "Proposta d'aprovació inicial de la modificació del Reglament de prestacions",
+      "resultado": null,
+      "texto_redactado": "Proposta d'aprovació inicial de la modificació del Reglament de prestacions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:59.542Z"
+      }
+    },
+    {
+      "id": "2026-06-25#6",
+      "sesion_id": "2026-06-25",
+      "orden": 6,
+      "titulo": "Proposta d'aprovació de l'Acta de delimitació entre els termes municipals de",
+      "resultado": null,
+      "texto_redactado": "Proposta d'aprovació de l'Acta de delimitació entre els termes municipals de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:59.542Z"
+      }
+    },
+    {
+      "id": "2026-06-25#7",
+      "sesion_id": "2026-06-25",
+      "orden": 7,
+      "titulo": "Proposta d'aprovació de la revisió anual del Padró municipal d'habitants de",
+      "resultado": null,
+      "texto_redactado": "Proposta d'aprovació de la revisió anual del Padró municipal d'habitants de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:59.542Z"
+      }
+    },
+    {
+      "id": "2026-06-25#8",
+      "sesion_id": "2026-06-25",
+      "orden": 8,
+      "titulo": "Proposta d’aprovació de l’addenda de les millores fixades al Conveni del",
+      "resultado": null,
+      "texto_redactado": "Proposta d’aprovació de l’addenda de les millores fixades al Conveni del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:59.542Z"
+      }
+    },
+    {
+      "id": "2026-06-25#9",
+      "sesion_id": "2026-06-25",
+      "orden": 9,
+      "titulo": "El Reglament de prestacions econòmiques de caràcter social de l’Ajuntament de les",
+      "resultado": null,
+      "texto_redactado": "El Reglament de prestacions econòmiques de caràcter social de l’Ajuntament de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:59.542Z"
+      }
+    },
+    {
+      "id": "2026-06-25#10",
+      "sesion_id": "2026-06-25",
+      "orden": 10,
+      "titulo": "El Reial decret llei 9/2015, de 10 de juliol, de mesures urgents per reduir la càrrega",
+      "resultado": null,
+      "texto_redactado": "El Reial decret llei 9/2015, de 10 de juliol, de mesures urgents per reduir la càrrega",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:59.542Z"
+      }
+    },
+    {
+      "id": "2026-06-25#11",
+      "sesion_id": "2026-06-25",
+      "orden": 11,
+      "titulo": "Punto de servicios sociales",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:59.542Z"
+      }
+    },
+    {
+      "id": "2026-06-25#12",
+      "sesion_id": "2026-06-25",
+      "orden": 12,
+      "titulo": "En data 13 de maig de 2026 i registre d’entrada 2026-E-RC-8238, el Departament",
+      "resultado": null,
+      "texto_redactado": "En data 13 de maig de 2026 i registre d’entrada 2026-E-RC-8238, el Departament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:59.542Z"
+      }
+    },
+    {
+      "id": "2026-06-25#13",
+      "sesion_id": "2026-06-25",
+      "orden": 13,
+      "titulo": "VIST l’informe tècnic emès per la cap d’Àrea de Polítiques Socials.",
+      "resultado": null,
+      "texto_redactado": "VIST l’informe tècnic emès per la cap d’Àrea de Polítiques Socials.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:59.542Z"
+      }
+    },
+    {
+      "id": "2026-06-25#14",
+      "sesion_id": "2026-06-25",
+      "orden": 14,
+      "titulo": "VIST l’informe jurídic emès per la Secretaria de la Corporació.",
+      "resultado": null,
+      "texto_redactado": "VIST l’informe jurídic emès per la Secretaria de la Corporació.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:59.542Z"
+      }
+    }
+  ]
+}

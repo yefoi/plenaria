@@ -1,0 +1,267 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "la-rapita",
+    "nombre": "La Ràpita",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4313620002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-08-06",
+    "municipio_id": "la-rapita",
+    "fecha": "2026-08-06",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4313620002/2026/49e5de3c-058c-4306-8831-65e84b7bf0b0/9_Acta_Ple_extraordinari_6_agost_2026_anonimitizada_web_segellautenic.pdf",
+    "hash_contenido": "4b538b720348ec2156b90dba25ac6e3a0200a5d07e00bdc68f68c71590f52be8",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:38:48.260Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-08-06#1",
+      "sesion_id": "2026-08-06",
+      "orden": 1,
+      "titulo": "Adhesió a l’Acord Marc per a la contractació administrativa de les obres de pavimentació i",
+      "resultado": null,
+      "texto_redactado": "Adhesió a l’Acord Marc per a la contractació administrativa de les obres de pavimentació i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.260Z"
+      }
+    },
+    {
+      "id": "2026-08-06#2",
+      "sesion_id": "2026-08-06",
+      "orden": 2,
+      "titulo": "Aprovació, si s'escau, de la constitució d'una agrupació d'entitats per a la presentació de",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si s'escau, de la constitució d'una agrupació d'entitats per a la presentació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.260Z"
+      }
+    },
+    {
+      "id": "2026-08-06#3",
+      "sesion_id": "2026-08-06",
+      "orden": 3,
+      "titulo": "L’Assemblea General de la Mancomunitat DeltaGestió, de data 18 de setembre de 2025,",
+      "resultado": null,
+      "texto_redactado": "L’Assemblea General de la Mancomunitat DeltaGestió, de data 18 de setembre de 2025,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.260Z"
+      }
+    },
+    {
+      "id": "2026-08-06#4",
+      "sesion_id": "2026-08-06",
+      "orden": 4,
+      "titulo": "D’acord amb les anteriors consideracions, i prèvia tramitació del corresponent",
+      "resultado": null,
+      "texto_redactado": "D’acord amb les anteriors consideracions, i prèvia tramitació del corresponent",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.260Z"
+      }
+    },
+    {
+      "id": "2026-08-06#5",
+      "sesion_id": "2026-08-06",
+      "orden": 5,
+      "titulo": "En data 3 d’agost s’ha emès Providència de l’Alcaldia proposant l’adhesió de l’",
+      "resultado": null,
+      "texto_redactado": "En data 3 d’agost s’ha emès Providència de l’Alcaldia proposant l’adhesió de l’",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.260Z"
+      }
+    },
+    {
+      "id": "2026-08-06#6",
+      "sesion_id": "2026-08-06",
+      "orden": 6,
+      "titulo": "En data 3 d’agost de 2026, per part de la tècnica d’administració general del Servei de",
+      "resultado": null,
+      "texto_redactado": "En data 3 d’agost de 2026, per part de la tècnica d’administració general del Servei de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.260Z"
+      }
+    },
+    {
+      "id": "2026-08-06#7",
+      "sesion_id": "2026-08-06",
+      "orden": 7,
+      "titulo": "S’ha emès dictamen favorable per part de la Comissió informativa de Promoció",
+      "resultado": null,
+      "texto_redactado": "S’ha emès dictamen favorable per part de la Comissió informativa de Promoció",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.260Z"
+      }
+    },
+    {
+      "id": "2026-08-06#8",
+      "sesion_id": "2026-08-06",
+      "orden": 8,
+      "titulo": "De conformitat amb la clàusula 6 del Plec de clàusules administratives d’aplicació,",
+      "resultado": null,
+      "texto_redactado": "De conformitat amb la clàusula 6 del Plec de clàusules administratives d’aplicació,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.260Z"
+      }
+    },
+    {
+      "id": "2026-08-06#9",
+      "sesion_id": "2026-08-06",
+      "orden": 9,
+      "titulo": "Pel que fa l’aprovació de la despesa, correspondrà a l’òrgan municipal competent,",
+      "resultado": null,
+      "texto_redactado": "Pel que fa l’aprovació de la despesa, correspondrà a l’òrgan municipal competent,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.260Z"
+      }
+    },
+    {
+      "id": "2026-08-06#10",
+      "sesion_id": "2026-08-06",
+      "orden": 10,
+      "titulo": "Pel que fa a l’òrgan competent, donat que es tracta de transferència de funcions o",
+      "resultado": null,
+      "texto_redactado": "Pel que fa a l’òrgan competent, donat que es tracta de transferència de funcions o",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:48.260Z"
+      }
+    }
+  ]
+}

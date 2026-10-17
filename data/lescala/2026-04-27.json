@@ -1,0 +1,267 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "lescala",
+    "nombre": "L'Escala",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1706220002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-04-27",
+    "municipio_id": "lescala",
+    "fecha": "2026-04-27",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1706220002/2026/9830fdc7-f9b1-4436-91b6-5365bd65ed31/5-24.04.26.pdf",
+    "hash_contenido": "48a25f785d68a3cc993d5887f5fdb68e10fd9d810c214d49297825400b3c0ec7",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:41:49.978Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-04-27#1",
+      "sesion_id": "2026-04-27",
+      "orden": 1,
+      "titulo": "APROVACIÓ, SI S’ESCAU, D’ACTES ANTERIORS",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ, SI S’ESCAU, D’ACTES ANTERIORS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.39,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:49.978Z"
+      }
+    },
+    {
+      "id": "2026-04-27#2",
+      "sesion_id": "2026-04-27",
+      "orden": 2,
+      "titulo": "DONAR COMPTE D’ACTIVITATS DE L’ALCALDIA",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE D’ACTIVITATS DE L’ALCALDIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:49.978Z"
+      }
+    },
+    {
+      "id": "2026-04-27#3",
+      "sesion_id": "2026-04-27",
+      "orden": 3,
+      "titulo": "DONAR COMPTE DE DECRETS D’ALCALDIA (TAMBÉ LLISTAT GT)",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE DECRETS D’ALCALDIA (TAMBÉ LLISTAT GT)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:49.978Z"
+      }
+    },
+    {
+      "id": "2026-04-27#4",
+      "sesion_id": "2026-04-27",
+      "orden": 4,
+      "titulo": "DONAR COMPTE DE LA LIQUIDACIÓ DEL PRESSUPOST 2025",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE LA LIQUIDACIÓ DEL PRESSUPOST 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:49.978Z"
+      }
+    },
+    {
+      "id": "2026-04-27#5",
+      "sesion_id": "2026-04-27",
+      "orden": 5,
+      "titulo": "MODIFICACIÓ DE CRÈDIT AMB INCORPORACIÓ DE ROMANANETS",
+      "resultado": null,
+      "texto_redactado": "MODIFICACIÓ DE CRÈDIT AMB INCORPORACIÓ DE ROMANANETS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:49.978Z"
+      }
+    },
+    {
+      "id": "2026-04-27#6",
+      "sesion_id": "2026-04-27",
+      "orden": 6,
+      "titulo": "MODIFICACIÓ DE LA RLT AMB MOTIU DE LLOC DE TREBALL DE TÈCNIC/A SUPERIOR ECONÒMIC (A1).",
+      "resultado": null,
+      "texto_redactado": "MODIFICACIÓ DE LA RLT AMB MOTIU DE LLOC DE TREBALL DE TÈCNIC/A SUPERIOR ECONÒMIC (A1).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:49.978Z"
+      }
+    },
+    {
+      "id": "2026-04-27#7",
+      "sesion_id": "2026-04-27",
+      "orden": 7,
+      "titulo": "APROVAR INICIALMENT L'ADHESIÓ DE L'AJUNTAMENT DE L'ESCALA A L'ASSOCIACIÓ LA RUTA DELS FOCEUS RUTA DELS FOCEUS.",
+      "resultado": null,
+      "texto_redactado": "APROVAR INICIALMENT L'ADHESIÓ DE L'AJUNTAMENT DE L'ESCALA A L'ASSOCIACIÓ LA RUTA DELS FOCEUS RUTA DELS FOCEUS.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:49.978Z"
+      }
+    },
+    {
+      "id": "2026-04-27#8",
+      "sesion_id": "2026-04-27",
+      "orden": 8,
+      "titulo": "PETICIÓ D'ADSCRIPCIÓ DE LA CASA DEL MAR A LA TRESORERIA GENERAL DE",
+      "resultado": null,
+      "texto_redactado": "PETICIÓ D'ADSCRIPCIÓ DE LA CASA DEL MAR A LA TRESORERIA GENERAL DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:49.978Z"
+      }
+    },
+    {
+      "id": "2026-04-27#9",
+      "sesion_id": "2026-04-27",
+      "orden": 9,
+      "titulo": "APROVACIÓ INICIAL PROJECTE CONSERVACIÓ I MANTENIMENT CASTELL",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ INICIAL PROJECTE CONSERVACIÓ I MANTENIMENT CASTELL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:49.978Z"
+      }
+    },
+    {
+      "id": "2026-04-27#10",
+      "sesion_id": "2026-04-27",
+      "orden": 10,
+      "titulo": "ASSUMPTES URGENTS",
+      "resultado": null,
+      "texto_redactado": "ASSUMPTES URGENTS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:49.978Z"
+      }
+    }
+  ]
+}

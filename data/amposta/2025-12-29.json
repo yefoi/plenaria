@@ -1,0 +1,267 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "amposta",
+    "nombre": "Amposta",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4301410007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2025-12-29",
+    "municipio_id": "amposta",
+    "fecha": "2025-12-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4301410007/2025/951d0780-4d37-44be-9170-61a18f329777/acta_251229.pdf",
+    "hash_contenido": "88528a45cf8ff66cc0deec3f5f9b27204df720280e6b5543d81a56f15ea2cf1d",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:36:26.733Z"
+  },
+  "puntos": [
+    {
+      "id": "2025-12-29#1",
+      "sesion_id": "2025-12-29",
+      "orden": 1,
+      "titulo": "EXPEDIENT: 1038/2025/11. DONAR COMPTE DELS DECRETS D’ALCALDIA DEL MES DE NOVEMBRE [MATRÍCULA]ÚMERO 2025004438 A 2025004491",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT: 1038/2025/11. DONAR COMPTE DELS DECRETS D’ALCALDIA DEL MES DE NOVEMBRE [MATRÍCULA]ÚMERO 2025004438 A 2025004491",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:26.733Z"
+      }
+    },
+    {
+      "id": "2025-12-29#2",
+      "sesion_id": "2025-12-29",
+      "orden": 2,
+      "titulo": "Per la qual cosa, s’ha de procedir a donar compte de les resolucions emeses pel Sr. Alcalde",
+      "resultado": null,
+      "texto_redactado": "Per la qual cosa, s’ha de procedir a donar compte de les resolucions emeses pel Sr. Alcalde",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:26.733Z"
+      }
+    },
+    {
+      "id": "2025-12-29#3",
+      "sesion_id": "2025-12-29",
+      "orden": 3,
+      "titulo": "EXPEDIENT: 1754/2025/17. DONAR COMPTE DEL PMP I MOROSITAT DEL TERCER TRIMESTRE DE",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT: 1754/2025/17. DONAR COMPTE DEL PMP I MOROSITAT DEL TERCER TRIMESTRE DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:26.733Z"
+      }
+    },
+    {
+      "id": "2025-12-29#4",
+      "sesion_id": "2025-12-29",
+      "orden": 4,
+      "titulo": "EXPEDIENT: 1455/2025/3. APROVACIÓ PLANTILLA 2026",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT: 1455/2025/3. APROVACIÓ PLANTILLA 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:26.733Z"
+      }
+    },
+    {
+      "id": "2025-12-29#5",
+      "sesion_id": "2025-12-29",
+      "orden": 5,
+      "titulo": "Vist l’informe favorable de Recursos Humans.",
+      "resultado": null,
+      "texto_redactado": "Vist l’informe favorable de Recursos Humans.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:26.733Z"
+      }
+    },
+    {
+      "id": "2025-12-29#6",
+      "sesion_id": "2025-12-29",
+      "orden": 6,
+      "titulo": "Vist l’informe favorable de Secretaria. FONAMENTS DE DRET",
+      "resultado": null,
+      "texto_redactado": "Vist l’informe favorable de Secretaria. FONAMENTS DE DRET",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:26.733Z"
+      }
+    },
+    {
+      "id": "2025-12-29#7",
+      "sesion_id": "2025-12-29",
+      "orden": 7,
+      "titulo": "EXPEDIENT: 1629/2025/21. RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT – OBJECCIÓ 81Document electrònic Original, de dia 10/02/2026 . Podeu comprovar la seva autenticitat mitjançant el codi de verificació 16340406544704266136 a https://seu.amposta.cat/validador",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT: 1629/2025/21. RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT – OBJECCIÓ 81Document electrònic Original, de dia 10/02/2026 . Podeu comprovar la seva autenticitat mitjançant el codi de verificació 16340406544704266136 a https://seu.amposta.cat/validador",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:26.733Z"
+      }
+    },
+    {
+      "id": "2025-12-29#8",
+      "sesion_id": "2025-12-29",
+      "orden": 8,
+      "titulo": "EXPEDIENT: 1629/2025/20. RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT DELS EXPEDIENTS D’OMISSIÓ DE FUNCIÓ INTERVENTORA 63-64-69-78",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT: 1629/2025/20. RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT DELS EXPEDIENTS D’OMISSIÓ DE FUNCIÓ INTERVENTORA 63-64-69-78",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:26.733Z"
+      }
+    },
+    {
+      "id": "2025-12-29#9",
+      "sesion_id": "2025-12-29",
+      "orden": 9,
+      "titulo": "EXPEDIENT: 1629/2025/19. RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT – OBJECCIÓ 55-66-70-",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT: 1629/2025/19. RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT – OBJECCIÓ 55-66-70-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:26.733Z"
+      }
+    },
+    {
+      "id": "2025-12-29#10",
+      "sesion_id": "2025-12-29",
+      "orden": 10,
+      "titulo": "EXPEDIENT: 1619/2025/1. PROPOSTA D’APROVACIÓ INCIAL DEL PRESSUPOST MUNICIPAL GENERAL PER A L’EXERCICI 2026.",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT: 1619/2025/1. PROPOSTA D’APROVACIÓ INCIAL DEL PRESSUPOST MUNICIPAL GENERAL PER A L’EXERCICI 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:26.733Z"
+      }
+    }
+  ]
+}

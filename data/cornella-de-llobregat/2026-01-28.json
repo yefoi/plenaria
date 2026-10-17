@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "cornella-de-llobregat",
+    "nombre": "Cornellà de Llobregat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "807340003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-01-28",
+    "municipio_id": "cornella-de-llobregat",
+    "fecha": "2026-01-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/807340003/2026/67c14631-6994-462b-a94c-6427dc3ee613/Acta%20Ple%2001-2026%20del%2028%20de%20gener.pdf",
+    "hash_contenido": "fba3b59c5d49c9202648e615c7c6a395f7a2fc87a3502d374bee5549748ecd32",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:35:32.396Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-01-28#1",
+      "sesion_id": "2026-01-28",
+      "orden": 1,
+      "titulo": "Dar cumplimiento efectivo a la moción aprobada en diciembre de 2016 por el",
+      "resultado": null,
+      "texto_redactado": "Dar cumplimiento efectivo a la moción aprobada en diciembre de 2016 por el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:32.396Z"
+      }
+    },
+    {
+      "id": "2026-01-28#2",
+      "sesion_id": "2026-01-28",
+      "orden": 2,
+      "titulo": "Realizar un estudio técnico exhaustivo y actualizado sobre la necesidad,",
+      "resultado": null,
+      "texto_redactado": "Realizar un estudio técnico exhaustivo y actualizado sobre la necesidad,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:32.396Z"
+      }
+    },
+    {
+      "id": "2026-01-28#3",
+      "sesion_id": "2026-01-28",
+      "orden": 3,
+      "titulo": "Retirar todos aquellos bolardos que resulten innecesarios, redundantes o",
+      "resultado": null,
+      "texto_redactado": "Retirar todos aquellos bolardos que resulten innecesarios, redundantes o",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:32.396Z"
+      }
+    },
+    {
+      "id": "2026-01-28#4",
+      "sesion_id": "2026-01-28",
+      "orden": 4,
+      "titulo": "Sustituir los bolardos rígidos o metálicos por elementos flexibles, homologados",
+      "resultado": null,
+      "texto_redactado": "Sustituir los bolardos rígidos o metálicos por elementos flexibles, homologados",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:32.396Z"
+      }
+    },
+    {
+      "id": "2026-01-28#5",
+      "sesion_id": "2026-01-28",
+      "orden": 5,
+      "titulo": "Priorizar la actuación en vías principales, zonas de carga y descarga, itinerarios",
+      "resultado": null,
+      "texto_redactado": "Priorizar la actuación en vías principales, zonas de carga y descarga, itinerarios",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:32.396Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1374 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "la-garriga",
+    "nombre": "La Garriga",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "808850006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-27",
+    "municipio_id": "la-garriga",
+    "fecha": "2026-05-27",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/808850006/2026/71c77d73-8f32-4fa2-82f7-617023e8fbbe/20260527_Sessi%f3_ordin%e0ria.pdf",
+    "hash_contenido": "337de37d3738afd67d96aef5124846bdea6b9503d8447dbf30cbaf857d720de6",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:38:26.481Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-27#1",
+      "sesion_id": "2026-05-27",
+      "orden": 1,
+      "titulo": "Exp. PLN/2026/6 Aprovació de l’acta de la sessió ordinària del 29 d’abril de 2026.",
+      "resultado": null,
+      "texto_redactado": "Exp. PLN/2026/6 Aprovació de l’acta de la sessió ordinària del 29 d’abril de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#2",
+      "sesion_id": "2026-05-27",
+      "orden": 2,
+      "titulo": "Exp. 3647/2026 Donar compte al Ple de l'aprovació del Pla Local de Seguretat per la",
+      "resultado": null,
+      "texto_redactado": "Exp. 3647/2026 Donar compte al Ple de l'aprovació del Pla Local de Seguretat per la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#3",
+      "sesion_id": "2026-05-27",
+      "orden": 3,
+      "titulo": "Exp. 4492/2026 Donar compte dels informes de la Intervenció municipal a la remissió",
+      "resultado": null,
+      "texto_redactado": "Exp. 4492/2026 Donar compte dels informes de la Intervenció municipal a la remissió",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#4",
+      "sesion_id": "2026-05-27",
+      "orden": 4,
+      "titulo": "Exp. AJT/4447/2019 Donar compte de la sentència del TSJ de Catalunya per la que es",
+      "resultado": null,
+      "texto_redactado": "Exp. AJT/4447/2019 Donar compte de la sentència del TSJ de Catalunya per la que es",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#5",
+      "sesion_id": "2026-05-27",
+      "orden": 5,
+      "titulo": "Exp. AJT/13445/2025 Conveni de col·laboració polítiques públiques de turisme 2026-",
+      "resultado": null,
+      "texto_redactado": "Exp. AJT/13445/2025 Conveni de col·laboració polítiques públiques de turisme 2026-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#6",
+      "sesion_id": "2026-05-27",
+      "orden": 6,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#7",
+      "sesion_id": "2026-05-27",
+      "orden": 7,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#8",
+      "sesion_id": "2026-05-27",
+      "orden": 8,
+      "titulo": "Exp. AJT/10468/2025 Ratificació de la Resolució d’Alcaldia 2026-1398 de 13 de maig de",
+      "resultado": null,
+      "texto_redactado": "Exp. AJT/10468/2025 Ratificació de la Resolució d’Alcaldia 2026-1398 de 13 de maig de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#9",
+      "sesion_id": "2026-05-27",
+      "orden": 9,
+      "titulo": "Exp. 2957/2026 Aportació grups municipals.",
+      "resultado": null,
+      "texto_redactado": "Exp. 2957/2026 Aportació grups municipals.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#10",
+      "sesion_id": "2026-05-27",
+      "orden": 10,
+      "titulo": "Exp. 4723/2026 Modificació de crèdit número 2026/26.Modalitat suplement de",
+      "resultado": null,
+      "texto_redactado": "Exp. 4723/2026 Modificació de crèdit número 2026/26.Modalitat suplement de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#11",
+      "sesion_id": "2026-05-27",
+      "orden": 11,
+      "titulo": "Exp. 5406/2026 Modificació de crèdit 2026/31. Modalitat suplement de crèdit",
+      "resultado": null,
+      "texto_redactado": "Exp. 5406/2026 Modificació de crèdit 2026/31. Modalitat suplement de crèdit",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#12",
+      "sesion_id": "2026-05-27",
+      "orden": 12,
+      "titulo": "Exp. 5603/2026 Modificació de crèdit 2026/37. Modalitat suplement de crèdit",
+      "resultado": null,
+      "texto_redactado": "Exp. 5603/2026 Modificació de crèdit 2026/37. Modalitat suplement de crèdit",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#13",
+      "sesion_id": "2026-05-27",
+      "orden": 13,
+      "titulo": "Exp. 5552/2026 Modificació de crèdit número 2026/35. Suplement de crèdit",
+      "resultado": null,
+      "texto_redactado": "Exp. 5552/2026 Modificació de crèdit número 2026/35. Suplement de crèdit",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#14",
+      "sesion_id": "2026-05-27",
+      "orden": 14,
+      "titulo": "Exp. 5851/2026 Omissió de la funció interventora del mes de maig.",
+      "resultado": null,
+      "texto_redactado": "Exp. 5851/2026 Omissió de la funció interventora del mes de maig.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#15",
+      "sesion_id": "2026-05-27",
+      "orden": 15,
+      "titulo": "Exp. AJT/368/2020 Segona ordre de continuïtat del servei de neteja de les",
+      "resultado": null,
+      "texto_redactado": "Exp. AJT/368/2020 Segona ordre de continuïtat del servei de neteja de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#16",
+      "sesion_id": "2026-05-27",
+      "orden": 16,
+      "titulo": "Exp. 5598/2026 Aprovació inicial de les bases reguladores del programa municipal d’",
+      "resultado": null,
+      "texto_redactado": "Exp. 5598/2026 Aprovació inicial de les bases reguladores del programa municipal d’",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#17",
+      "sesion_id": "2026-05-27",
+      "orden": 17,
+      "titulo": "Exp. 5599/2026 Aprovació inicial de les bases reguladores del programa municipal",
+      "resultado": null,
+      "texto_redactado": "Exp. 5599/2026 Aprovació inicial de les bases reguladores del programa municipal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#18",
+      "sesion_id": "2026-05-27",
+      "orden": 18,
+      "titulo": "Exp. AJT/2604/2025 Aprovació inicial de l’Ordenança reguladora de la Protecció,",
+      "resultado": null,
+      "texto_redactado": "Exp. AJT/2604/2025 Aprovació inicial de l’Ordenança reguladora de la Protecció,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#19",
+      "sesion_id": "2026-05-27",
+      "orden": 19,
+      "titulo": "Exp. 5855/2026 Inici de l’expedient d’establiment del servei públic de càrrega de",
+      "resultado": null,
+      "texto_redactado": "Exp. 5855/2026 Inici de l’expedient d’establiment del servei públic de càrrega de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#20",
+      "sesion_id": "2026-05-27",
+      "orden": 20,
+      "titulo": "PLN/2026/6 Donar compte de les resolucions d’alcaldia dictades entre el 17 d’abril",
+      "resultado": null,
+      "texto_redactado": "PLN/2026/6 Donar compte de les resolucions d’alcaldia dictades entre el 17 d’abril",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#21",
+      "sesion_id": "2026-05-27",
+      "orden": 21,
+      "titulo": "PLN/2026/6 Donar compte dels acords de la Junta de Govern Local adoptats en les",
+      "resultado": null,
+      "texto_redactado": "PLN/2026/6 Donar compte dels acords de la Junta de Govern Local adoptats en les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#22",
+      "sesion_id": "2026-05-27",
+      "orden": 22,
+      "titulo": "Pregunta escrita que presenta el grup municipal de la CUP-Amunt de la Garriga per",
+      "resultado": null,
+      "texto_redactado": "Pregunta escrita que presenta el grup municipal de la CUP-Amunt de la Garriga per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#23",
+      "sesion_id": "2026-05-27",
+      "orden": 23,
+      "titulo": "Expedient 3571/2026. Concedir la targeta d’aparcament individual per a persones",
+      "resultado": null,
+      "texto_redactado": "Expedient 3571/2026. Concedir la targeta d’aparcament individual per a persones",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#24",
+      "sesion_id": "2026-05-27",
+      "orden": 24,
+      "titulo": "Expedient 3811/2026. Concedir la targeta d’aparcament individual per a persones",
+      "resultado": null,
+      "texto_redactado": "Expedient 3811/2026. Concedir la targeta d’aparcament individual per a persones",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#25",
+      "sesion_id": "2026-05-27",
+      "orden": 25,
+      "titulo": "Expedient 3343/2026. Aprovar el conveni de col·laboració econòmica entre",
+      "resultado": null,
+      "texto_redactado": "Expedient 3343/2026. Aprovar el conveni de col·laboració econòmica entre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#26",
+      "sesion_id": "2026-05-27",
+      "orden": 26,
+      "titulo": "Expedient 3218/2026 Conveni de col·laboració entre l'Ajuntament de la Garriga i el",
+      "resultado": null,
+      "texto_redactado": "Expedient 3218/2026 Conveni de col·laboració entre l'Ajuntament de la Garriga i el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#27",
+      "sesion_id": "2026-05-27",
+      "orden": 27,
+      "titulo": "Expedient 3329/2026. Justificació del conveni entre l'Ajuntament de la Garriga i",
+      "resultado": null,
+      "texto_redactado": "Expedient 3329/2026. Justificació del conveni entre l'Ajuntament de la Garriga i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#28",
+      "sesion_id": "2026-05-27",
+      "orden": 28,
+      "titulo": "Expedient 3959/2026 - Sol·licitud de subvenció al Departament de Cultura per a la",
+      "resultado": null,
+      "texto_redactado": "Expedient 3959/2026 - Sol·licitud de subvenció al Departament de Cultura per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#29",
+      "sesion_id": "2026-05-27",
+      "orden": 29,
+      "titulo": "Expedient 3046/2026. Conveni de col·laboració amb subvenció, amb l'Associació la",
+      "resultado": null,
+      "texto_redactado": "Expedient 3046/2026. Conveni de col·laboració amb subvenció, amb l'Associació la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#30",
+      "sesion_id": "2026-05-27",
+      "orden": 30,
+      "titulo": "Expedient AJT/383/2026. Es declara deserta la convocatòria, mitjançant la",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/383/2026. Es declara deserta la convocatòria, mitjançant la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#31",
+      "sesion_id": "2026-05-27",
+      "orden": 31,
+      "titulo": "Expedient 3365/2026. Aprovació de la convocatòria i les bases específiques que",
+      "resultado": null,
+      "texto_redactado": "Expedient 3365/2026. Aprovació de la convocatòria i les bases específiques que",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#32",
+      "sesion_id": "2026-05-27",
+      "orden": 32,
+      "titulo": "Expedient AJT/11185/2024. Canvi de titularitat del nínxol núm.113 serie 9a del",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/11185/2024. Canvi de titularitat del nínxol núm.113 serie 9a del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#33",
+      "sesion_id": "2026-05-27",
+      "orden": 33,
+      "titulo": "Expedient AJT/8849/2024. Autorització canvi de titularitat dels drets funeraris del",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/8849/2024. Autorització canvi de titularitat dels drets funeraris del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#34",
+      "sesion_id": "2026-05-27",
+      "orden": 34,
+      "titulo": "Expedient 2514/2026 Aprovació del Pla de Tresoreria corresponent a l'exercici",
+      "resultado": null,
+      "texto_redactado": "Expedient 2514/2026 Aprovació del Pla de Tresoreria corresponent a l'exercici",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#35",
+      "sesion_id": "2026-05-27",
+      "orden": 35,
+      "titulo": "Expedient AJT/12305/2025. Obres subjectes a llicència per reforma interior de la",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/12305/2025. Obres subjectes a llicència per reforma interior de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#36",
+      "sesion_id": "2026-05-27",
+      "orden": 36,
+      "titulo": "Expedient AJT/9729/2025. Obres subjectes a llicència per substitució de pal al",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/9729/2025. Obres subjectes a llicència per substitució de pal al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#37",
+      "sesion_id": "2026-05-27",
+      "orden": 37,
+      "titulo": "Expedient AJT/5134/2025. Obres subjectes a llicència per canvi d'ús de local a",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/5134/2025. Obres subjectes a llicència per canvi d'ús de local a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#38",
+      "sesion_id": "2026-05-27",
+      "orden": 38,
+      "titulo": "Expedient AJT/3896/2025. Obres subjectes a llicència per rehabilitació de la coberta",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/3896/2025. Obres subjectes a llicència per rehabilitació de la coberta",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#39",
+      "sesion_id": "2026-05-27",
+      "orden": 39,
+      "titulo": "Expedient AJT/1455/2026 Llicència de gual [DIRECCIÓN]-32",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/1455/2026 Llicència de gual [DIRECCIÓN]-32",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias",
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#40",
+      "sesion_id": "2026-05-27",
+      "orden": 40,
+      "titulo": "Expedient AJT/12399/2025. Devolució de la fiança corresponent a les obres de la",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/12399/2025. Devolució de la fiança corresponent a les obres de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#41",
+      "sesion_id": "2026-05-27",
+      "orden": 41,
+      "titulo": "Expedient AJT/10144/2025. Devolució de la fiança corresponent a les obres de la",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/10144/2025. Devolució de la fiança corresponent a les obres de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#42",
+      "sesion_id": "2026-05-27",
+      "orden": 42,
+      "titulo": "Expedient 3362/2026. Ocupació via pública per instal·lació de terrassa any 2026 -",
+      "resultado": null,
+      "texto_redactado": "Expedient 3362/2026. Ocupació via pública per instal·lació de terrassa any 2026 -",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#43",
+      "sesion_id": "2026-05-27",
+      "orden": 43,
+      "titulo": "Expedient AJT/1980/2025. Obres subjectes a llicència per construcció d’un nou",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/1980/2025. Obres subjectes a llicència per construcció d’un nou",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#44",
+      "sesion_id": "2026-05-27",
+      "orden": 44,
+      "titulo": "Expedient AJT/8053/2025. Obres subjectes a llicència per rehabilitació façanes",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/8053/2025. Obres subjectes a llicència per rehabilitació façanes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#45",
+      "sesion_id": "2026-05-27",
+      "orden": 45,
+      "titulo": "Expedient AJT/1873/2026. Obres subjectes a llicència per construcció de piscina a la",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/1873/2026. Obres subjectes a llicència per construcció de piscina a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#46",
+      "sesion_id": "2026-05-27",
+      "orden": 46,
+      "titulo": "Expedient AJT/12730/2025. Obres subjectes a llicència per obertura de rasa per a",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/12730/2025. Obres subjectes a llicència per obertura de rasa per a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#47",
+      "sesion_id": "2026-05-27",
+      "orden": 47,
+      "titulo": "Expedient AJT/4284/2024. Devolució de la fiança corresponent a les obres de la",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/4284/2024. Devolució de la fiança corresponent a les obres de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#48",
+      "sesion_id": "2026-05-27",
+      "orden": 48,
+      "titulo": "Expedient 3387/2026 Obres subjectes a llicència per rehabilitació façana a l'edifici",
+      "resultado": null,
+      "texto_redactado": "Expedient 3387/2026 Obres subjectes a llicència per rehabilitació façana a l'edifici",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#49",
+      "sesion_id": "2026-05-27",
+      "orden": 49,
+      "titulo": "Expedient AJT/5068/2025. Devolució de la fiança corresponent a les obres de la",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/5068/2025. Devolució de la fiança corresponent a les obres de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#50",
+      "sesion_id": "2026-05-27",
+      "orden": 50,
+      "titulo": "Expedient 3582/2026. Concessió de la llicència d'ocupació de la via pública per",
+      "resultado": null,
+      "texto_redactado": "Expedient 3582/2026. Concessió de la llicència d'ocupació de la via pública per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#51",
+      "sesion_id": "2026-05-27",
+      "orden": 51,
+      "titulo": "Expedient 4436/2026. Ocupació de la Via Pública per instal·lació de terrassa any",
+      "resultado": null,
+      "texto_redactado": "Expedient 4436/2026. Ocupació de la Via Pública per instal·lació de terrassa any",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#52",
+      "sesion_id": "2026-05-27",
+      "orden": 52,
+      "titulo": "Expedient 4434/2026. Ocupació de la Via Pública per instal·lació de terrassa any",
+      "resultado": null,
+      "texto_redactado": "Expedient 4434/2026. Ocupació de la Via Pública per instal·lació de terrassa any",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#53",
+      "sesion_id": "2026-05-27",
+      "orden": 53,
+      "titulo": "Expedient 4161/2026. Aprovació i disposició de la despesa, i reconeixement de",
+      "resultado": null,
+      "texto_redactado": "Expedient 4161/2026. Aprovació i disposició de la despesa, i reconeixement de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#54",
+      "sesion_id": "2026-05-27",
+      "orden": 54,
+      "titulo": "Expedient 4466/2026. Aprovació de la quota d'adhesió a l'Associació de Municipis",
+      "resultado": null,
+      "texto_redactado": "Expedient 4466/2026. Aprovació de la quota d'adhesió a l'Associació de Municipis",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#55",
+      "sesion_id": "2026-05-27",
+      "orden": 55,
+      "titulo": "Expedient 3633/2026. Retorn de convenis 2025: Consorci per a la Gestió de Residus",
+      "resultado": null,
+      "texto_redactado": "Expedient 3633/2026. Retorn de convenis 2025: Consorci per a la Gestió de Residus",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    },
+    {
+      "id": "2026-05-27#56",
+      "sesion_id": "2026-05-27",
+      "orden": 56,
+      "titulo": "Expedient 3302/2026 Renovació conveni amb el Servei Català de Trànsit en matèria",
+      "resultado": null,
+      "texto_redactado": "Expedient 3302/2026 Renovació conveni amb el Servei Català de Trànsit en matèria",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:26.481Z"
+      }
+    }
+  ]
+}

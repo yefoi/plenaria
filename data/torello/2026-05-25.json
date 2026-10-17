@@ -1,0 +1,918 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "torello",
+    "nombre": "Torelló",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "828580001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-25",
+    "municipio_id": "torello",
+    "fecha": "2026-05-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/828580001/2026/89f394c3-e322-4676-b5c1-fa6aca28e1c9/2026.05.25%20Acta%20Ple%20X2026002982.pdf",
+    "hash_contenido": "f471a18ee9bd6826cbee8367241d1f53c321d61f123c2eae5a49a898e5df51d5",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:39:26.050Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-25#1",
+      "sesion_id": "2026-05-25",
+      "orden": 1,
+      "titulo": "Acta de la sessió ordinària del dia 27 d'abril de 2026",
+      "resultado": null,
+      "texto_redactado": "Acta de la sessió ordinària del dia 27 d'abril de 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#2",
+      "sesion_id": "2026-05-25",
+      "orden": 2,
+      "titulo": "HISENDA - Aprovar l’expedient de modificació de pressupost núm. 22/2026, per",
+      "resultado": null,
+      "texto_redactado": "HISENDA - Aprovar l’expedient de modificació de pressupost núm. 22/2026, per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#3",
+      "sesion_id": "2026-05-25",
+      "orden": 3,
+      "titulo": "HISENDA - Aprovar l’expedient de modificació de pressupost núm. 23/2026, per",
+      "resultado": null,
+      "texto_redactado": "HISENDA - Aprovar l’expedient de modificació de pressupost núm. 23/2026, per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#4",
+      "sesion_id": "2026-05-25",
+      "orden": 4,
+      "titulo": "DONAR COMPTE AL PLE dels decrets de l’alcaldia que s’han aprovat des de",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE dels decrets de l’alcaldia que s’han aprovat des de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#5",
+      "sesion_id": "2026-05-25",
+      "orden": 5,
+      "titulo": "DONAR COMPTE AL PLE de les actes de la Junta de Govern Local que s’han",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE de les actes de la Junta de Govern Local que s’han",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#6",
+      "sesion_id": "2026-05-25",
+      "orden": 6,
+      "titulo": "ALCALDIA - Donar compte del decretr de l'alcaldia número 2026DECR001511 de",
+      "resultado": null,
+      "texto_redactado": "ALCALDIA - Donar compte del decretr de l'alcaldia número 2026DECR001511 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#7",
+      "sesion_id": "2026-05-25",
+      "orden": 7,
+      "titulo": "ECONOMIA I HISENDA - Avaluació objectiu estabilitat pressupostària, regla de la",
+      "resultado": null,
+      "texto_redactado": "ECONOMIA I HISENDA - Avaluació objectiu estabilitat pressupostària, regla de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#8",
+      "sesion_id": "2026-05-25",
+      "orden": 8,
+      "titulo": "HISENDA - Donar compte del Decret de l’Alcaldia 2026DECR001679 de data 14 de",
+      "resultado": null,
+      "texto_redactado": "HISENDA - Donar compte del Decret de l’Alcaldia 2026DECR001679 de data 14 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#9",
+      "sesion_id": "2026-05-25",
+      "orden": 9,
+      "titulo": "HISENDA - DONAR COMPTE del Pla anual de control financer per a l’exercici 2026",
+      "resultado": null,
+      "texto_redactado": "HISENDA - DONAR COMPTE del Pla anual de control financer per a l’exercici 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#10",
+      "sesion_id": "2026-05-25",
+      "orden": 10,
+      "titulo": "INTERVENCIÓ - Donar compte de l'informe de l'execució pressupostària",
+      "resultado": null,
+      "texto_redactado": "INTERVENCIÓ - Donar compte de l'informe de l'execució pressupostària",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#11",
+      "sesion_id": "2026-05-25",
+      "orden": 11,
+      "titulo": "INTERVENCIÓ - DONAR COMPTE de l’informe de l’ajuntament de Torelló de la",
+      "resultado": null,
+      "texto_redactado": "INTERVENCIÓ - DONAR COMPTE de l’informe de l’ajuntament de Torelló de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#12",
+      "sesion_id": "2026-05-25",
+      "orden": 12,
+      "titulo": "TRESORERIA - Informe de tresoreria sobre el Període Mig de Pagament del primer",
+      "resultado": null,
+      "texto_redactado": "TRESORERIA - Informe de tresoreria sobre el Període Mig de Pagament del primer",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#13",
+      "sesion_id": "2026-05-25",
+      "orden": 13,
+      "titulo": "TRESORERIA - Informe de la tresorera sobre la morositat del primer trimestre de 2026 - X2026002719",
+      "resultado": null,
+      "texto_redactado": "TRESORERIA - Informe de la tresorera sobre la morositat del primer trimestre de 2026 - X2026002719",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#14",
+      "sesion_id": "2026-05-25",
+      "orden": 14,
+      "titulo": "Deficiència de la coberta de la sala polivalent",
+      "resultado": null,
+      "texto_redactado": "Deficiència de la coberta de la sala polivalent",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#15",
+      "sesion_id": "2026-05-25",
+      "orden": 15,
+      "titulo": "Millora de l'aplicació de l'Ajuntament per comunicar incidències a la via pública i",
+      "resultado": null,
+      "texto_redactado": "Millora de l'aplicació de l'Ajuntament per comunicar incidències a la via pública i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#16",
+      "sesion_id": "2026-05-25",
+      "orden": 16,
+      "titulo": "Control de les zones de càrrega i descàrrega, i zona blava del municipi",
+      "resultado": null,
+      "texto_redactado": "Control de les zones de càrrega i descàrrega, i zona blava del municipi",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#17",
+      "sesion_id": "2026-05-25",
+      "orden": 17,
+      "titulo": "Plagues de paneroles",
+      "resultado": null,
+      "texto_redactado": "Plagues de paneroles",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#18",
+      "sesion_id": "2026-05-25",
+      "orden": 18,
+      "titulo": "Estat i situació del projecte de la futura plaça Matagalls",
+      "resultado": null,
+      "texto_redactado": "Estat i situació del projecte de la futura plaça Matagalls",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#19",
+      "sesion_id": "2026-05-25",
+      "orden": 19,
+      "titulo": "Compromís de l'equip de govern en el projecte de les obres a la Residència de",
+      "resultado": null,
+      "texto_redactado": "Compromís de l'equip de govern en el projecte de les obres a la Residència de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#20",
+      "sesion_id": "2026-05-25",
+      "orden": 20,
+      "titulo": "Estat de la licitació de la llar d'infants La Cabanya i quotes establertes pel proper",
+      "resultado": null,
+      "texto_redactado": "Estat de la licitació de la llar d'infants La Cabanya i quotes establertes pel proper",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "contratacion_obras",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#21",
+      "sesion_id": "2026-05-25",
+      "orden": 21,
+      "titulo": "Felicitacions pels recents èxits esportius assolits pels clubs esportius del municipi",
+      "resultado": null,
+      "texto_redactado": "Felicitacions pels recents èxits esportius assolits pels clubs esportius del municipi",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#22",
+      "sesion_id": "2026-05-25",
+      "orden": 22,
+      "titulo": "Funcionament del semàfor a la cruïlla de l'avinguda Pompeu Fabra, amb pont de",
+      "resultado": null,
+      "texto_redactado": "Funcionament del semàfor a la cruïlla de l'avinguda Pompeu Fabra, amb pont de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#23",
+      "sesion_id": "2026-05-25",
+      "orden": 23,
+      "titulo": "Dades del capítol 6 del pressupost de despeses de 2025",
+      "resultado": null,
+      "texto_redactado": "Dades del capítol 6 del pressupost de despeses de 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#24",
+      "sesion_id": "2026-05-25",
+      "orden": 24,
+      "titulo": "Avaluació de l'objectiu d'estabilitat pressupostària, regla de la despesa i límit de",
+      "resultado": null,
+      "texto_redactado": "Avaluació de l'objectiu d'estabilitat pressupostària, regla de la despesa i límit de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#25",
+      "sesion_id": "2026-05-25",
+      "orden": 25,
+      "titulo": "Oficina tècnica de l'R3: Calendari del desdoblament",
+      "resultado": null,
+      "texto_redactado": "Oficina tècnica de l'R3: Calendari del desdoblament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#26",
+      "sesion_id": "2026-05-25",
+      "orden": 26,
+      "titulo": "Instal·lació del semàfor a la cruïlla de l’avinguda Pompeu Fabra",
+      "resultado": null,
+      "texto_redactado": "Instal·lació del semàfor a la cruïlla de l’avinguda Pompeu Fabra",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#27",
+      "sesion_id": "2026-05-25",
+      "orden": 27,
+      "titulo": "Previsió d'incorporació d'un tècnic TIC per dur a terme l'assessorament per a la",
+      "resultado": null,
+      "texto_redactado": "Previsió d'incorporació d'un tècnic TIC per dur a terme l'assessorament per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#28",
+      "sesion_id": "2026-05-25",
+      "orden": 28,
+      "titulo": "Fer constar a les xarxes socials les respostes donades per l'equip de govern a",
+      "resultado": null,
+      "texto_redactado": "Fer constar a les xarxes socials les respostes donades per l'equip de govern a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#29",
+      "sesion_id": "2026-05-25",
+      "orden": 29,
+      "titulo": "Campanyes d'informació a la població de les modificacions de les ordenances de",
+      "resultado": null,
+      "texto_redactado": "Campanyes d'informació a la població de les modificacions de les ordenances de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#30",
+      "sesion_id": "2026-05-25",
+      "orden": 30,
+      "titulo": "Postura de l'Ajuntament sobre el tancament de l'alberg social de Vic",
+      "resultado": null,
+      "texto_redactado": "Postura de l'Ajuntament sobre el tancament de l'alberg social de Vic",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_sociales",
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#31",
+      "sesion_id": "2026-05-25",
+      "orden": 31,
+      "titulo": "Els dies 29 i 30 de maig es celebra la 29a edició del FESTUS",
+      "resultado": null,
+      "texto_redactado": "Els dies 29 i 30 de maig es celebra la 29a edició del FESTUS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#32",
+      "sesion_id": "2026-05-25",
+      "orden": 32,
+      "titulo": "Dies 6 i 7 de juny celebració de la \"Romeria Rociera\" organitzada per l'Associació",
+      "resultado": null,
+      "texto_redactado": "Dies 6 i 7 de juny celebració de la \"Romeria Rociera\" organitzada per l'Associació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#33",
+      "sesion_id": "2026-05-25",
+      "orden": 33,
+      "titulo": "Dia 23 de juny: \"Revetlla de Sant Joan\"",
+      "resultado": null,
+      "texto_redactado": "Dia 23 de juny: \"Revetlla de Sant Joan\"",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#34",
+      "sesion_id": "2026-05-25",
+      "orden": 34,
+      "titulo": "Dia 9 de juny: Sessió de cloenda del Consistori infantil",
+      "resultado": null,
+      "texto_redactado": "Dia 9 de juny: Sessió de cloenda del Consistori infantil",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#35",
+      "sesion_id": "2026-05-25",
+      "orden": 35,
+      "titulo": "Dia 15 de juny: Inici de temporada de les piscines d'estiu. En breu, l'Ajuntament",
+      "resultado": null,
+      "texto_redactado": "Dia 15 de juny: Inici de temporada de les piscines d'estiu. En breu, l'Ajuntament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_publicos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#36",
+      "sesion_id": "2026-05-25",
+      "orden": 36,
+      "titulo": "Felicitacions als equips i entitats esportives del municipi per tots els èxits assolits",
+      "resultado": null,
+      "texto_redactado": "Felicitacions als equips i entitats esportives del municipi per tots els èxits assolits",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    },
+    {
+      "id": "2026-05-25#37",
+      "sesion_id": "2026-05-25",
+      "orden": 37,
+      "titulo": "Elaboració de la sol·licitud de la subvenció de la Llei de Pla Barris",
+      "resultado": null,
+      "texto_redactado": "Elaboració de la sol·licitud de la subvenció de la Llei de Pla Barris",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:26.050Z"
+      }
+    }
+  ]
+}

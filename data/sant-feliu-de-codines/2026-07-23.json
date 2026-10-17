@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-feliu-de-codines",
+    "nombre": "Sant Feliu de Codines",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "821070005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-23",
+    "municipio_id": "sant-feliu-de-codines",
+    "fecha": "2026-07-23",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/821070005/2026/475d46d4-0a26-4c13-8b84-203b0e14c4cc/Acta%20de%20la%20sessi%f3%20ordin%e0ria%20del%20ple%20de%2023%20de%20juliol%20de%202026.pdf",
+    "hash_contenido": "999b20b438d0ee71cf446eb572f6bb8c506462232e44a43c0279612888f78870",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:45:36.960Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-23#1",
+      "sesion_id": "2026-07-23",
+      "orden": 1,
+      "titulo": "LECTURA I APROVACIÓ DE L'ESBORRANY DE L'ACTA DE LA SESSIÓ ORDINÀRIA DE 25 DE JUNY DE 2026",
+      "resultado": null,
+      "texto_redactado": "LECTURA I APROVACIÓ DE L'ESBORRANY DE L'ACTA DE LA SESSIÓ ORDINÀRIA DE 25 DE JUNY DE 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:36.960Z"
+      }
+    },
+    {
+      "id": "2026-07-23#2",
+      "sesion_id": "2026-07-23",
+      "orden": 2,
+      "titulo": "DONAR COMPTE DEL CONTINGUT DE LES ACTES DE LA JUNTA DE GOVERN LOCAL DE 2 I 9 DE JULIOL DE 2026",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DEL CONTINGUT DE LES ACTES DE LA JUNTA DE GOVERN LOCAL DE 2 I 9 DE JULIOL DE 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:36.960Z"
+      }
+    },
+    {
+      "id": "2026-07-23#3",
+      "sesion_id": "2026-07-23",
+      "orden": 3,
+      "titulo": "DONAR COMPTE DELS DECRETS D'ALCALDIA, DES DEL NòMERO 2026-0412",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DELS DECRETS D'ALCALDIA, DES DEL NòMERO 2026-0412",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:36.960Z"
+      }
+    },
+    {
+      "id": "2026-07-23#4",
+      "sesion_id": "2026-07-23",
+      "orden": 4,
+      "titulo": "En el cas que la taxa per serveis d’escola bressol s’estengui al llarg de diversos mesos, un cop",
+      "resultado": null,
+      "texto_redactado": "En el cas que la taxa per serveis d’escola bressol s’estengui al llarg de diversos mesos, un cop",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:36.960Z"
+      }
+    },
+    {
+      "id": "2026-07-23#5",
+      "sesion_id": "2026-07-23",
+      "orden": 5,
+      "titulo": "En el cas de realització de cursets o activitats de llarga durada, el pagament es farà en el moment de",
+      "resultado": null,
+      "texto_redactado": "En el cas de realització de cursets o activitats de llarga durada, el pagament es farà en el moment de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:36.960Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "la-roca-del-valles",
+    "nombre": "La Roca del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "818100000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-17",
+    "municipio_id": "la-roca-del-valles",
+    "fecha": "2026-07-17",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/818100000/2026/06e57dd6-9d8b-40df-b29c-fdb1808c9db2/14-%20SC-SE-ACTA-JGL17Juliol2026-Exp225476M%20-%20SEFYCU%20250534.pdf",
+    "hash_contenido": "c2915e7ba8910dec34c48f696040a1152398f7707133742fff96d5c76f843b00",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:41:41.919Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-17#1",
+      "sesion_id": "2026-07-17",
+      "orden": 1,
+      "titulo": "Caldrà efectuar el pagament de l’impost sobre construccions,",
+      "resultado": null,
+      "texto_redactado": "Caldrà efectuar el pagament de l’impost sobre construccions,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:41.919Z"
+      }
+    },
+    {
+      "id": "2026-07-17#2",
+      "sesion_id": "2026-07-17",
+      "orden": 2,
+      "titulo": "Caldrà efectuar la liquidació de la taxa administrativa segons Ordenança",
+      "resultado": null,
+      "texto_redactado": "Caldrà efectuar la liquidació de la taxa administrativa segons Ordenança",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:41.919Z"
+      }
+    },
+    {
+      "id": "2026-07-17#3",
+      "sesion_id": "2026-07-17",
+      "orden": 3,
+      "titulo": "En compliment de l’Ordenança municipal reguladora del dipòsit a",
+      "resultado": null,
+      "texto_redactado": "En compliment de l’Ordenança municipal reguladora del dipòsit a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:41.919Z"
+      }
+    },
+    {
+      "id": "2026-07-17#4",
+      "sesion_id": "2026-07-17",
+      "orden": 4,
+      "titulo": "Els residus generats durant les obres s’hauran de gestionar d’acord amb",
+      "resultado": null,
+      "texto_redactado": "Els residus generats durant les obres s’hauran de gestionar d’acord amb",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:41.919Z"
+      }
+    },
+    {
+      "id": "2026-07-17#5",
+      "sesion_id": "2026-07-17",
+      "orden": 5,
+      "titulo": "Es obligació del promotor l’execució del propi gual segons el model de",
+      "resultado": null,
+      "texto_redactado": "Es obligació del promotor l’execució del propi gual segons el model de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:41.919Z"
+      }
+    },
+    {
+      "id": "2026-07-17#6",
+      "sesion_id": "2026-07-17",
+      "orden": 6,
+      "titulo": "Quan en la proximitat de les obres que s’autoritzen es trobin",
+      "resultado": null,
+      "texto_redactado": "Quan en la proximitat de les obres que s’autoritzen es trobin",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:41.919Z"
+      }
+    },
+    {
+      "id": "2026-07-17#7",
+      "sesion_id": "2026-07-17",
+      "orden": 7,
+      "titulo": "La renúncia o separació del tècnic o facultatiu director de l’obra implica la",
+      "resultado": null,
+      "texto_redactado": "La renúncia o separació del tècnic o facultatiu director de l’obra implica la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:41.919Z"
+      }
+    },
+    {
+      "id": "2026-07-17#8",
+      "sesion_id": "2026-07-17",
+      "orden": 8,
+      "titulo": "El promotor i el constructor hauran de complir les normes sobre seguretat",
+      "resultado": null,
+      "texto_redactado": "El promotor i el constructor hauran de complir les normes sobre seguretat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:41.919Z"
+      }
+    },
+    {
+      "id": "2026-07-17#9",
+      "sesion_id": "2026-07-17",
+      "orden": 9,
+      "titulo": "Un cop finalitzades les obres el propietari haurà de retirar els materials",
+      "resultado": null,
+      "texto_redactado": "Un cop finalitzades les obres el propietari haurà de retirar els materials",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:41.919Z"
+      }
+    },
+    {
+      "id": "2026-07-17#10",
+      "sesion_id": "2026-07-17",
+      "orden": 10,
+      "titulo": "Acabades les obres, el propietari en el termini màxim de quinze dies ho",
+      "resultado": null,
+      "texto_redactado": "Acabades les obres, el propietari en el termini màxim de quinze dies ho",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:41.919Z"
+      }
+    },
+    {
+      "id": "2026-07-17#11",
+      "sesion_id": "2026-07-17",
+      "orden": 11,
+      "titulo": "Condicions de caràcter general i d’execució de les obres:",
+      "resultado": null,
+      "texto_redactado": "Condicions de caràcter general i d’execució de les obres:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:41.919Z"
+      }
+    },
+    {
+      "id": "2026-07-17#12",
+      "sesion_id": "2026-07-17",
+      "orden": 12,
+      "titulo": "La primera utilització i ocupació dels edificis i les construccions estarà",
+      "resultado": null,
+      "texto_redactado": "La primera utilització i ocupació dels edificis i les construccions estarà",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:41.919Z"
+      }
+    }
+  ]
+}

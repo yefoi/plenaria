@@ -1,0 +1,435 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-antoni-de-vilamajor",
+    "nombre": "Sant Antoni de Vilamajor",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "819820002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-08-07",
+    "municipio_id": "sant-antoni-de-vilamajor",
+    "fecha": "2026-08-07",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/819820002/2026/60e99724-3a80-4244-b77a-30af1f59be48/Acta%20PLE%2009-2026.pdf",
+    "hash_contenido": "1d901d9122d62d0be2d933267314d841079d1dbdb8f60499a2060283433ec568",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:45:54.107Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-08-07#1",
+      "sesion_id": "2026-08-07",
+      "orden": 1,
+      "titulo": "Dins el Pacte Verd Europeu, el setembre de 2020, la Comissió Europea va establir objectius",
+      "resultado": null,
+      "texto_redactado": "Dins el Pacte Verd Europeu, el setembre de 2020, la Comissió Europea va establir objectius",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:54.107Z"
+      }
+    },
+    {
+      "id": "2026-08-07#2",
+      "sesion_id": "2026-08-07",
+      "orden": 2,
+      "titulo": "Mitjançant Provisió d’Alcaldia de data 7 de maig de 2026, es va disposar que es procedís a la",
+      "resultado": null,
+      "texto_redactado": "Mitjançant Provisió d’Alcaldia de data 7 de maig de 2026, es va disposar que es procedís a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:54.107Z"
+      }
+    },
+    {
+      "id": "2026-08-07#3",
+      "sesion_id": "2026-08-07",
+      "orden": 3,
+      "titulo": "En data 8 de maig de 2026 l’alcalde va emetre memòria justificativa de la necessitat i idoneïtat de",
+      "resultado": null,
+      "texto_redactado": "En data 8 de maig de 2026 l’alcalde va emetre memòria justificativa de la necessitat i idoneïtat de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:54.107Z"
+      }
+    },
+    {
+      "id": "2026-08-07#4",
+      "sesion_id": "2026-08-07",
+      "orden": 4,
+      "titulo": "El Ple de l’Ajuntament, en data 19 de maig de 2026, va aprovar l’expedient de contractació,",
+      "resultado": null,
+      "texto_redactado": "El Ple de l’Ajuntament, en data 19 de maig de 2026, va aprovar l’expedient de contractació,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:54.107Z"
+      }
+    },
+    {
+      "id": "2026-08-07#5",
+      "sesion_id": "2026-08-07",
+      "orden": 5,
+      "titulo": "L’anunci de licitació es va publicar en el perfil del contractant el 20 de maig de 2026 i, dins el",
+      "resultado": null,
+      "texto_redactado": "L’anunci de licitació es va publicar en el perfil del contractant el 20 de maig de 2026 i, dins el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:54.107Z"
+      }
+    },
+    {
+      "id": "2026-08-07#6",
+      "sesion_id": "2026-08-07",
+      "orden": 6,
+      "titulo": "En data 22 de juny de 2026 la mesa de contractació es va constituir en acte no públic per a",
+      "resultado": null,
+      "texto_redactado": "En data 22 de juny de 2026 la mesa de contractació es va constituir en acte no públic per a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:54.107Z"
+      }
+    },
+    {
+      "id": "2026-08-07#7",
+      "sesion_id": "2026-08-07",
+      "orden": 7,
+      "titulo": "La mesa, per unanimitat, va prendre els següents acords:",
+      "resultado": null,
+      "texto_redactado": "La mesa, per unanimitat, va prendre els següents acords:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:54.107Z"
+      }
+    },
+    {
+      "id": "2026-08-07#8",
+      "sesion_id": "2026-08-07",
+      "orden": 8,
+      "titulo": "Prèviament a l’adjudicació es va requerir l’empresa Aeronaval de Construcciones e Instalaciones,",
+      "resultado": null,
+      "texto_redactado": "Prèviament a l’adjudicació es va requerir l’empresa Aeronaval de Construcciones e Instalaciones,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:54.107Z"
+      }
+    },
+    {
+      "id": "2026-08-07#9",
+      "sesion_id": "2026-08-07",
+      "orden": 9,
+      "titulo": "Mitjançant la comprovació de la documentació presentada per l’empresa Aeronaval de",
+      "resultado": null,
+      "texto_redactado": "Mitjançant la comprovació de la documentació presentada per l’empresa Aeronaval de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:54.107Z"
+      }
+    },
+    {
+      "id": "2026-08-07#10",
+      "sesion_id": "2026-08-07",
+      "orden": 10,
+      "titulo": "El Ple de l’Ajuntament, en sessió de data 9 de juliol de 2026, va acordar el següent:",
+      "resultado": null,
+      "texto_redactado": "El Ple de l’Ajuntament, en sessió de data 9 de juliol de 2026, va acordar el següent:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:54.107Z"
+      }
+    },
+    {
+      "id": "2026-08-07#11",
+      "sesion_id": "2026-08-07",
+      "orden": 11,
+      "titulo": "L’acord d’adjudicació del contracte es va notificar a les empreses licitadores en data 15 de juliol",
+      "resultado": null,
+      "texto_redactado": "L’acord d’adjudicació del contracte es va notificar a les empreses licitadores en data 15 de juliol",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:54.107Z"
+      }
+    },
+    {
+      "id": "2026-08-07#12",
+      "sesion_id": "2026-08-07",
+      "orden": 12,
+      "titulo": "El contracte administratiu de les obres, entre l’Ajuntament de Sant Antoni de Vilamajor i l’empresa",
+      "resultado": null,
+      "texto_redactado": "El contracte administratiu de les obres, entre l’Ajuntament de Sant Antoni de Vilamajor i l’empresa",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:54.107Z"
+      }
+    },
+    {
+      "id": "2026-08-07#13",
+      "sesion_id": "2026-08-07",
+      "orden": 13,
+      "titulo": "En data 30 de juliol i mitjançant Registre d’Entrada número 2994, l’empresa Solar360 de Repsol y",
+      "resultado": null,
+      "texto_redactado": "En data 30 de juliol i mitjançant Registre d’Entrada número 2994, l’empresa Solar360 de Repsol y",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:54.107Z"
+      }
+    },
+    {
+      "id": "2026-08-07#14",
+      "sesion_id": "2026-08-07",
+      "orden": 14,
+      "titulo": "El Ple de l’Ajuntament, en sessió de data 3 d’agost de 2026, va acordar el següent:",
+      "resultado": null,
+      "texto_redactado": "El Ple de l’Ajuntament, en sessió de data 3 d’agost de 2026, va acordar el següent:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:54.107Z"
+      }
+    },
+    {
+      "id": "2026-08-07#15",
+      "sesion_id": "2026-08-07",
+      "orden": 15,
+      "titulo": "En data 4 d’agost de 2026 la mesa de contractació, seguint l’acord del Ple de l’Ajuntament de",
+      "resultado": null,
+      "texto_redactado": "En data 4 d’agost de 2026 la mesa de contractació, seguint l’acord del Ple de l’Ajuntament de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:54.107Z"
+      }
+    },
+    {
+      "id": "2026-08-07#16",
+      "sesion_id": "2026-08-07",
+      "orden": 16,
+      "titulo": "La Mesa de contractació, en una nova sessió de data 4 d’agost de 2026, va constatar el següent:",
+      "resultado": null,
+      "texto_redactado": "La Mesa de contractació, en una nova sessió de data 4 d’agost de 2026, va constatar el següent:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:54.107Z"
+      }
+    },
+    {
+      "id": "2026-08-07#17",
+      "sesion_id": "2026-08-07",
+      "orden": 17,
+      "titulo": "Consta a l’expedient informe favorable de fiscalització-intervenció prèvia.",
+      "resultado": null,
+      "texto_redactado": "Consta a l’expedient informe favorable de fiscalització-intervenció prèvia.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:54.107Z"
+      }
+    }
+  ]
+}

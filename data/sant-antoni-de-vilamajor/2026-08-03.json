@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-antoni-de-vilamajor",
+    "nombre": "Sant Antoni de Vilamajor",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "819820002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-08-03",
+    "municipio_id": "sant-antoni-de-vilamajor",
+    "fecha": "2026-08-03",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/819820002/2026/605ca50a-b8d8-4a6e-a481-16492b737ce8/Acta%20PLE%2008-2026.pdf",
+    "hash_contenido": "15d86f9fdbb884f0cd68bfdd7dc359a5c865e374745c600fbd5035f7cb6c8b59",
+    "estado_ingesta": "requiere_ocr",
+    "actualizada_en": "2026-10-17T10:31:51.251Z"
+  },
+  "puntos": []
+}

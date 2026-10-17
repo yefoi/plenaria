@@ -1,0 +1,675 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-esteve-sesrovires",
+    "nombre": "Sant Esteve Sesrovires",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "820800000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-20",
+    "municipio_id": "sant-esteve-sesrovires",
+    "fecha": "2026-05-20",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/820800000/2026/91d07471-d7fc-492e-b59d-afae75716932/ACTA%20DEL%20PLE%202026-0003%20[AP%2020260520O_LOPDGDD].pdf",
+    "hash_contenido": "d501edb65314c02f87fbfe407ef8146c4cd313e3b40e16918d22185b485c7dca",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:43:59.280Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-20#1",
+      "sesion_id": "2026-05-20",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió anterior (Ple 18.03.2026O)",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior (Ple 18.03.2026O)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#2",
+      "sesion_id": "2026-05-20",
+      "orden": 2,
+      "titulo": "Expedient 2171/2026. Aprovació dictamen del Consell de la Gent Gran del Baix Llobregat -",
+      "resultado": null,
+      "texto_redactado": "Expedient 2171/2026. Aprovació dictamen del Consell de la Gent Gran del Baix Llobregat -",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#3",
+      "sesion_id": "2026-05-20",
+      "orden": 3,
+      "titulo": "Expedient 2172/2026. Aprovació dictamen del Consell de la Gent Gran del Baix Llobregat -",
+      "resultado": null,
+      "texto_redactado": "Expedient 2172/2026. Aprovació dictamen del Consell de la Gent Gran del Baix Llobregat -",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#4",
+      "sesion_id": "2026-05-20",
+      "orden": 4,
+      "titulo": "Expedient 2173/2026. Aprovació dictamen del Consell de la Gent Gran del Baix Llobregat -",
+      "resultado": null,
+      "texto_redactado": "Expedient 2173/2026. Aprovació dictamen del Consell de la Gent Gran del Baix Llobregat -",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#5",
+      "sesion_id": "2026-05-20",
+      "orden": 5,
+      "titulo": "Punto sancionador",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#6",
+      "sesion_id": "2026-05-20",
+      "orden": 6,
+      "titulo": "Expedient 2406/2026. Aprovació del Conveni de col·laboració entre el Departament de",
+      "resultado": null,
+      "texto_redactado": "Expedient 2406/2026. Aprovació del Conveni de col·laboració entre el Departament de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#7",
+      "sesion_id": "2026-05-20",
+      "orden": 7,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#8",
+      "sesion_id": "2026-05-20",
+      "orden": 8,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#9",
+      "sesion_id": "2026-05-20",
+      "orden": 9,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#10",
+      "sesion_id": "2026-05-20",
+      "orden": 10,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#11",
+      "sesion_id": "2026-05-20",
+      "orden": 11,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#12",
+      "sesion_id": "2026-05-20",
+      "orden": 12,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#13",
+      "sesion_id": "2026-05-20",
+      "orden": 13,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#14",
+      "sesion_id": "2026-05-20",
+      "orden": 14,
+      "titulo": "Expedient 2739/2023. Nova aprovació de donar publicitat a les declaracions de béns i",
+      "resultado": null,
+      "texto_redactado": "Expedient 2739/2023. Nova aprovació de donar publicitat a les declaracions de béns i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#15",
+      "sesion_id": "2026-05-20",
+      "orden": 15,
+      "titulo": "Expedient 2639/2026. Modificació Pressupost Ajuntament exp. 6/2026",
+      "resultado": null,
+      "texto_redactado": "Expedient 2639/2026. Modificació Pressupost Ajuntament exp. 6/2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#16",
+      "sesion_id": "2026-05-20",
+      "orden": 16,
+      "titulo": "Expedient 2662/2026. Moció del grup municipal d'ARAses amb l'adhesió del grup municipal",
+      "resultado": null,
+      "texto_redactado": "Expedient 2662/2026. Moció del grup municipal d'ARAses amb l'adhesió del grup municipal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#17",
+      "sesion_id": "2026-05-20",
+      "orden": 17,
+      "titulo": "Expedient 2670/2026. Moció conjunta dels Grups Municipals Socialista i SOM ALTERNATIVA",
+      "resultado": null,
+      "texto_redactado": "Expedient 2670/2026. Moció conjunta dels Grups Municipals Socialista i SOM ALTERNATIVA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#18",
+      "sesion_id": "2026-05-20",
+      "orden": 18,
+      "titulo": "Expedient 2821/2026. Moció grup municipal SOM ALTERNATIVA de suport a la ILP de",
+      "resultado": null,
+      "texto_redactado": "Expedient 2821/2026. Moció grup municipal SOM ALTERNATIVA de suport a la ILP de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#19",
+      "sesion_id": "2026-05-20",
+      "orden": 19,
+      "titulo": "Informació Alcaldia",
+      "resultado": null,
+      "texto_redactado": "Informació Alcaldia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#20",
+      "sesion_id": "2026-05-20",
+      "orden": 20,
+      "titulo": "Donar compte Decrets d'Alcaldia",
+      "resultado": null,
+      "texto_redactado": "Donar compte Decrets d'Alcaldia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#21",
+      "sesion_id": "2026-05-20",
+      "orden": 21,
+      "titulo": "Donar compte acord Junta de Govern Local",
+      "resultado": null,
+      "texto_redactado": "Donar compte acord Junta de Govern Local",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#22",
+      "sesion_id": "2026-05-20",
+      "orden": 22,
+      "titulo": "Donar compte aprovació Liquidació Pressupost exercici 2025",
+      "resultado": null,
+      "texto_redactado": "Donar compte aprovació Liquidació Pressupost exercici 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#23",
+      "sesion_id": "2026-05-20",
+      "orden": 23,
+      "titulo": "Donar compte de la informació sobre l’execució pressupostària i econòmica-financera al",
+      "resultado": null,
+      "texto_redactado": "Donar compte de la informació sobre l’execució pressupostària i econòmica-financera al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#24",
+      "sesion_id": "2026-05-20",
+      "orden": 24,
+      "titulo": "Donar compte informe de Secretaria-Intervención sobre el cumplimiento de plazos de la Ley",
+      "resultado": null,
+      "texto_redactado": "Donar compte informe de Secretaria-Intervención sobre el cumplimiento de plazos de la Ley",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#25",
+      "sesion_id": "2026-05-20",
+      "orden": 25,
+      "titulo": "Donar compte \"Període mitjà de pagament 4r trimestre 2025 i 1r trimestre 2026\"",
+      "resultado": null,
+      "texto_redactado": "Donar compte \"Període mitjà de pagament 4r trimestre 2025 i 1r trimestre 2026\"",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#26",
+      "sesion_id": "2026-05-20",
+      "orden": 26,
+      "titulo": "Escrito dimisión Sra. Concejala y renuncia siguientes candidatos electos C) PRECS I PREGUNTES",
+      "resultado": null,
+      "texto_redactado": "Escrito dimisión Sra. Concejala y renuncia siguientes candidatos electos C) PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    },
+    {
+      "id": "2026-05-20#27",
+      "sesion_id": "2026-05-20",
+      "orden": 27,
+      "titulo": "Precs i preguntes",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:59.280Z"
+      }
+    }
+  ]
+}

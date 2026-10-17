@@ -1,0 +1,363 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "calonge-i-sant-antoni",
+    "nombre": "Calonge i Sant Antoni",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1703400000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-30",
+    "municipio_id": "calonge-i-sant-antoni",
+    "fecha": "2026-07-30",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1703400000/2026/371b402c-38c5-4743-934f-506eebae4290/PO_300726.pdf",
+    "hash_contenido": "d7b08bf2590e68f79b32230e8daa5cecfa72313700281d6fbc3f5ce304a76fee",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:41:13.912Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-30#1",
+      "sesion_id": "2026-07-30",
+      "orden": 1,
+      "titulo": "Lectura i aprovació, si és procedent, de les actes del Ple ordinari de 28 de maig de 2026 i",
+      "resultado": null,
+      "texto_redactado": "Lectura i aprovació, si és procedent, de les actes del Ple ordinari de 28 de maig de 2026 i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:13.912Z"
+      }
+    },
+    {
+      "id": "2026-07-30#2",
+      "sesion_id": "2026-07-30",
+      "orden": 2,
+      "titulo": "PRP2026/730 Modificació de pressupost exercici 2026, mitjançant crèdit extraordinari",
+      "resultado": null,
+      "texto_redactado": "PRP2026/730 Modificació de pressupost exercici 2026, mitjançant crèdit extraordinari",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:13.912Z"
+      }
+    },
+    {
+      "id": "2026-07-30#3",
+      "sesion_id": "2026-07-30",
+      "orden": 3,
+      "titulo": "PRP2026/740 Declaració d'especial interès o utilitat municipal la rehabilitació d'immobles",
+      "resultado": null,
+      "texto_redactado": "PRP2026/740 Declaració d'especial interès o utilitat municipal la rehabilitació d'immobles",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:13.912Z"
+      }
+    },
+    {
+      "id": "2026-07-30#4",
+      "sesion_id": "2026-07-30",
+      "orden": 4,
+      "titulo": "PRP2026/659 Donar compte al Ple de la sentència 3418/2025 dictada pel Tribunal",
+      "resultado": null,
+      "texto_redactado": "PRP2026/659 Donar compte al Ple de la sentència 3418/2025 dictada pel Tribunal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:13.912Z"
+      }
+    },
+    {
+      "id": "2026-07-30#5",
+      "sesion_id": "2026-07-30",
+      "orden": 5,
+      "titulo": "PRP2026/714 Resolució de les al·legacions i aprovació definitiva del projecte de",
+      "resultado": null,
+      "texto_redactado": "PRP2026/714 Resolució de les al·legacions i aprovació definitiva del projecte de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:13.912Z"
+      }
+    },
+    {
+      "id": "2026-07-30#6",
+      "sesion_id": "2026-07-30",
+      "orden": 6,
+      "titulo": "PRP2026/666 Donar compte al Ple modificació número 2 de l'organigrama (Exp.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/666 Donar compte al Ple modificació número 2 de l'organigrama (Exp.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:13.912Z"
+      }
+    },
+    {
+      "id": "2026-07-30#7",
+      "sesion_id": "2026-07-30",
+      "orden": 7,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:13.912Z"
+      }
+    },
+    {
+      "id": "2026-07-30#8",
+      "sesion_id": "2026-07-30",
+      "orden": 8,
+      "titulo": "PRP2026/694 Conveni amb el Consell Comarcal del Baix Empordà per a la prestació del",
+      "resultado": null,
+      "texto_redactado": "PRP2026/694 Conveni amb el Consell Comarcal del Baix Empordà per a la prestació del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:13.912Z"
+      }
+    },
+    {
+      "id": "2026-07-30#9",
+      "sesion_id": "2026-07-30",
+      "orden": 9,
+      "titulo": "PRP2026/559 Aprovar els dies festius locals de Calonge i Sant Antoni corresponents a",
+      "resultado": null,
+      "texto_redactado": "PRP2026/559 Aprovar els dies festius locals de Calonge i Sant Antoni corresponents a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:13.912Z"
+      }
+    },
+    {
+      "id": "2026-07-30#10",
+      "sesion_id": "2026-07-30",
+      "orden": 10,
+      "titulo": "PRP2026/725 Verificació del Text refós de la Modificació puntual del Pla d’Ordenació",
+      "resultado": null,
+      "texto_redactado": "PRP2026/725 Verificació del Text refós de la Modificació puntual del Pla d’Ordenació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:13.912Z"
+      }
+    },
+    {
+      "id": "2026-07-30#11",
+      "sesion_id": "2026-07-30",
+      "orden": 11,
+      "titulo": "Punto de expropiación",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:13.912Z"
+      }
+    },
+    {
+      "id": "2026-07-30#12",
+      "sesion_id": "2026-07-30",
+      "orden": 12,
+      "titulo": "Altres assumptes (Inserció, estudi i acord, si és procedent, d’acord amb l’article 91.4 del",
+      "resultado": null,
+      "texto_redactado": "Altres assumptes (Inserció, estudi i acord, si és procedent, d’acord amb l’article 91.4 del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:13.912Z"
+      }
+    },
+    {
+      "id": "2026-07-30#13",
+      "sesion_id": "2026-07-30",
+      "orden": 13,
+      "titulo": "PRP2026/754 Moció presentada pel grup municipal SOM Calonge i Sant Antoni per a la",
+      "resultado": null,
+      "texto_redactado": "PRP2026/754 Moció presentada pel grup municipal SOM Calonge i Sant Antoni per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:13.912Z"
+      }
+    },
+    {
+      "id": "2026-07-30#14",
+      "sesion_id": "2026-07-30",
+      "orden": 14,
+      "titulo": "Precs i preguntes",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:13.912Z"
+      }
+    }
+  ]
+}

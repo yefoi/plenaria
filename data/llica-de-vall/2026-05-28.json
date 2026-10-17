@@ -1,0 +1,436 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "llica-de-vall",
+    "nombre": "Lliçà de Vall",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "810810007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-28",
+    "municipio_id": "llica-de-vall",
+    "fecha": "2026-05-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/810810007/2026/7b887c17-26a9-4c16-a4f1-7e5bc5030552/Acta%20Ple%203.2026%20-%2028.05.2026.pdf",
+    "hash_contenido": "b51e1ad7f3edece1e35310217b16dd577c56bc6fd396856dcd08683a1dbc7fa5",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:45:29.118Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-28#1",
+      "sesion_id": "2026-05-28",
+      "orden": 1,
+      "titulo": "PRP2026/443 Exp. 817/2026 Aprovació del Pla de prevenció d' incendis (PPI).-",
+      "resultado": null,
+      "texto_redactado": "PRP2026/443 Exp. 817/2026 Aprovació del Pla de prevenció d' incendis (PPI).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.118Z"
+      }
+    },
+    {
+      "id": "2026-05-28#2",
+      "sesion_id": "2026-05-28",
+      "orden": 2,
+      "titulo": "PRP2026/350 Exp. 1694/2026 Instrument d'ordenació forestal de boscos",
+      "resultado": null,
+      "texto_redactado": "PRP2026/350 Exp. 1694/2026 Instrument d'ordenació forestal de boscos",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.118Z"
+      }
+    },
+    {
+      "id": "2026-05-28#3",
+      "sesion_id": "2026-05-28",
+      "orden": 3,
+      "titulo": "PRP2026/407 Exp.8/2021 Aprovació de l'acta de delimitació entre els",
+      "resultado": null,
+      "texto_redactado": "PRP2026/407 Exp.8/2021 Aprovació de l'acta de delimitació entre els",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.118Z"
+      }
+    },
+    {
+      "id": "2026-05-28#4",
+      "sesion_id": "2026-05-28",
+      "orden": 4,
+      "titulo": "PRP2026/427 Exp.1937/2023 Aprovació provisional MPPGOM - Actualització",
+      "resultado": null,
+      "texto_redactado": "PRP2026/427 Exp.1937/2023 Aprovació provisional MPPGOM - Actualització",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.118Z"
+      }
+    },
+    {
+      "id": "2026-05-28#5",
+      "sesion_id": "2026-05-28",
+      "orden": 5,
+      "titulo": "PRP2026/440 Exp.186/2025 Aprovació inicial MPPGOM Molí d'en Roure.-",
+      "resultado": null,
+      "texto_redactado": "PRP2026/440 Exp.186/2025 Aprovació inicial MPPGOM Molí d'en Roure.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.118Z"
+      }
+    },
+    {
+      "id": "2026-05-28#6",
+      "sesion_id": "2026-05-28",
+      "orden": 6,
+      "titulo": "PRP2026/434 Exp. 4375/2025 Aprovació del conveni pel desplegament de",
+      "resultado": null,
+      "texto_redactado": "PRP2026/434 Exp. 4375/2025 Aprovació del conveni pel desplegament de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.118Z"
+      }
+    },
+    {
+      "id": "2026-05-28#7",
+      "sesion_id": "2026-05-28",
+      "orden": 7,
+      "titulo": "PRP2026/447 Exp. 1992/2026 Aprovació de la rectificació de l’ inventari de",
+      "resultado": null,
+      "texto_redactado": "PRP2026/447 Exp. 1992/2026 Aprovació de la rectificació de l’ inventari de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.118Z"
+      }
+    },
+    {
+      "id": "2026-05-28#8",
+      "sesion_id": "2026-05-28",
+      "orden": 8,
+      "titulo": "PRP2026/448 Exp. 2033/2026 Adhesió a la moció per la millora del servei",
+      "resultado": null,
+      "texto_redactado": "PRP2026/448 Exp. 2033/2026 Adhesió a la moció per la millora del servei",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.118Z"
+      }
+    },
+    {
+      "id": "2026-05-28#9",
+      "sesion_id": "2026-05-28",
+      "orden": 9,
+      "titulo": "PRP2026/458 Exp. 2179/2026 Moció per millorar les condicions laborals del",
+      "resultado": null,
+      "texto_redactado": "PRP2026/458 Exp. 2179/2026 Moció per millorar les condicions laborals del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "personal",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.118Z"
+      }
+    },
+    {
+      "id": "2026-05-28#10",
+      "sesion_id": "2026-05-28",
+      "orden": 10,
+      "titulo": "PRP2026/387 Exp. 1502/2026 Donar compte del Decret de l’Alcaldia",
+      "resultado": null,
+      "texto_redactado": "PRP2026/387 Exp. 1502/2026 Donar compte del Decret de l’Alcaldia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.118Z"
+      }
+    },
+    {
+      "id": "2026-05-28#11",
+      "sesion_id": "2026-05-28",
+      "orden": 11,
+      "titulo": "PRP2026/413 Exp. 1502/2026 Donar compte del Decret de l’Alcaldia",
+      "resultado": null,
+      "texto_redactado": "PRP2026/413 Exp. 1502/2026 Donar compte del Decret de l’Alcaldia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.118Z"
+      }
+    },
+    {
+      "id": "2026-05-28#12",
+      "sesion_id": "2026-05-28",
+      "orden": 12,
+      "titulo": "PRP2026/385 Exp.1854.2026 Donar compte de l' informe resum anual amb",
+      "resultado": null,
+      "texto_redactado": "PRP2026/385 Exp.1854.2026 Donar compte de l' informe resum anual amb",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.118Z"
+      }
+    },
+    {
+      "id": "2026-05-28#13",
+      "sesion_id": "2026-05-28",
+      "orden": 13,
+      "titulo": "PRP2026/386 Exp. 824/2026 Donar compte del Decret de l’Alcaldia",
+      "resultado": null,
+      "texto_redactado": "PRP2026/386 Exp. 824/2026 Donar compte del Decret de l’Alcaldia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.118Z"
+      }
+    },
+    {
+      "id": "2026-05-28#14",
+      "sesion_id": "2026-05-28",
+      "orden": 14,
+      "titulo": "PRP2026/412 Exp. 4653/2025 Donar compte de l’informe de la intervenció",
+      "resultado": null,
+      "texto_redactado": "PRP2026/412 Exp. 4653/2025 Donar compte de l’informe de la intervenció",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.118Z"
+      }
+    },
+    {
+      "id": "2026-05-28#15",
+      "sesion_id": "2026-05-28",
+      "orden": 15,
+      "titulo": "PRP2026/360 Exp. 4653/2026 Donar compte de l'informe de la tresoreria",
+      "resultado": null,
+      "texto_redactado": "PRP2026/360 Exp. 4653/2026 Donar compte de l'informe de la tresoreria",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.118Z"
+      }
+    },
+    {
+      "id": "2026-05-28#16",
+      "sesion_id": "2026-05-28",
+      "orden": 16,
+      "titulo": "PRP2026/305 Exp. 1578/206 i PRP2026/460 Exp. 2166/2026 Donar compte",
+      "resultado": null,
+      "texto_redactado": "PRP2026/305 Exp. 1578/206 i PRP2026/460 Exp. 2166/2026 Donar compte",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.118Z"
+      }
+    },
+    {
+      "id": "2026-05-28#17",
+      "sesion_id": "2026-05-28",
+      "orden": 17,
+      "titulo": "PRP2026/311 i PRP2026/451 Exp. 171/2026 Donar compte dels ordres del",
+      "resultado": null,
+      "texto_redactado": "PRP2026/311 i PRP2026/451 Exp. 171/2026 Donar compte dels ordres del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:29.118Z"
+      }
+    }
+  ]
+}

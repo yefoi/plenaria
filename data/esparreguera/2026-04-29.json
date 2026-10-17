@@ -1,0 +1,363 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "esparreguera",
+    "nombre": "Esparreguera",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "807650006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-04-29",
+    "municipio_id": "esparreguera",
+    "fecha": "2026-04-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/807650006/2026/e0a5ea1e-bb1d-42a8-9adf-9653b60805a5/Acta_Ple_ordinari_05_2026_04_29.pdf",
+    "hash_contenido": "68d45a47d629750e9a90d8ac69cb5527d74c6114a1f01083741dd0554cc188a1",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:36:29.820Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-04-29#1",
+      "sesion_id": "2026-04-29",
+      "orden": 1,
+      "titulo": "El Ple de la Corporació va celebrar la sessió ordinària en data 25 de març de 2026.",
+      "resultado": null,
+      "texto_redactado": "El Ple de la Corporació va celebrar la sessió ordinària en data 25 de març de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:29.820Z"
+      }
+    },
+    {
+      "id": "2026-04-29#2",
+      "sesion_id": "2026-04-29",
+      "orden": 2,
+      "titulo": "El secretari de l’òrgan ha confeccionat l’esborrany de l’acta de la referida sessió que sotmet",
+      "resultado": null,
+      "texto_redactado": "El secretari de l’òrgan ha confeccionat l’esborrany de l’acta de la referida sessió que sotmet",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:29.820Z"
+      }
+    },
+    {
+      "id": "2026-04-29#3",
+      "sesion_id": "2026-04-29",
+      "orden": 3,
+      "titulo": "En data 15 d’abril de 2026 la Cap del Servei de Recursos Humans emet informe tècnic.",
+      "resultado": null,
+      "texto_redactado": "En data 15 d’abril de 2026 la Cap del Servei de Recursos Humans emet informe tècnic.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:29.820Z"
+      }
+    },
+    {
+      "id": "2026-04-29#4",
+      "sesion_id": "2026-04-29",
+      "orden": 4,
+      "titulo": "Així mateix, amb la finalitat de fer del pla un document més flexible i ajustat a les necessitats",
+      "resultado": null,
+      "texto_redactado": "Així mateix, amb la finalitat de fer del pla un document més flexible i ajustat a les necessitats",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:29.820Z"
+      }
+    },
+    {
+      "id": "2026-04-29#5",
+      "sesion_id": "2026-04-29",
+      "orden": 5,
+      "titulo": "El Consultor de los Ayuntamientos, 17 de Julio de 2020, Wolters Kluwer.",
+      "resultado": null,
+      "texto_redactado": "El Consultor de los Ayuntamientos, 17 de Julio de 2020, Wolters Kluwer.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:29.820Z"
+      }
+    },
+    {
+      "id": "2026-04-29#6",
+      "sesion_id": "2026-04-29",
+      "orden": 6,
+      "titulo": "Art. 56 del Pla d’ordenació professional aprovat pel Ple de 15 de novembre de 2021.",
+      "resultado": null,
+      "texto_redactado": "Art. 56 del Pla d’ordenació professional aprovat pel Ple de 15 de novembre de 2021.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:29.820Z"
+      }
+    },
+    {
+      "id": "2026-04-29#7",
+      "sesion_id": "2026-04-29",
+      "orden": 7,
+      "titulo": "Art.37.1 f) del Reial Decret Legislatiu 5/2015, de 30 d’octubre, pel que se aprova el Text Refós",
+      "resultado": null,
+      "texto_redactado": "Art.37.1 f) del Reial Decret Legislatiu 5/2015, de 30 d’octubre, pel que se aprova el Text Refós",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:29.820Z"
+      }
+    },
+    {
+      "id": "2026-04-29#8",
+      "sesion_id": "2026-04-29",
+      "orden": 8,
+      "titulo": "Els articles 6, 8, 52, 66, 178 i 237 del Text Refós de la Llei Municipal i de Règim Local de",
+      "resultado": null,
+      "texto_redactado": "Els articles 6, 8, 52, 66, 178 i 237 del Text Refós de la Llei Municipal i de Règim Local de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:29.820Z"
+      }
+    },
+    {
+      "id": "2026-04-29#9",
+      "sesion_id": "2026-04-29",
+      "orden": 9,
+      "titulo": "Els articles 58 i següents del Reglament d'Obres, Activitats i Serveis de les Entitats Locals",
+      "resultado": null,
+      "texto_redactado": "Els articles 58 i següents del Reglament d'Obres, Activitats i Serveis de les Entitats Locals",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:29.820Z"
+      }
+    },
+    {
+      "id": "2026-04-29#10",
+      "sesion_id": "2026-04-29",
+      "orden": 10,
+      "titulo": "Els articles 128 al 131 i 133 de la Llei 39/2015, d'1 d'octubre, del Procediment Administratiu",
+      "resultado": null,
+      "texto_redactado": "Els articles 128 al 131 i 133 de la Llei 39/2015, d'1 d'octubre, del Procediment Administratiu",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:29.820Z"
+      }
+    },
+    {
+      "id": "2026-04-29#11",
+      "sesion_id": "2026-04-29",
+      "orden": 11,
+      "titulo": "Els articles 4, 22.2.d), 49, 70.2 i 90 de la Llei 7/1985, de 2 d'abril, Reguladora de les Bases del",
+      "resultado": null,
+      "texto_redactado": "Els articles 4, 22.2.d), 49, 70.2 i 90 de la Llei 7/1985, de 2 d'abril, Reguladora de les Bases del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:29.820Z"
+      }
+    },
+    {
+      "id": "2026-04-29#12",
+      "sesion_id": "2026-04-29",
+      "orden": 12,
+      "titulo": "L'article 10 de la Llei 19/2014, de 29 de desembre, de transparència, accés a la informació",
+      "resultado": null,
+      "texto_redactado": "L'article 10 de la Llei 19/2014, de 29 de desembre, de transparència, accés a la informació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:29.820Z"
+      }
+    },
+    {
+      "id": "2026-04-29#13",
+      "sesion_id": "2026-04-29",
+      "orden": 13,
+      "titulo": "Decret legislatiu 1/1997, de 31 d'octubre, pel qual s'aprova la refosa en un text únic dels",
+      "resultado": null,
+      "texto_redactado": "Decret legislatiu 1/1997, de 31 d'octubre, pel qual s'aprova la refosa en un text únic dels",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:29.820Z"
+      }
+    },
+    {
+      "id": "2026-04-29#14",
+      "sesion_id": "2026-04-29",
+      "orden": 14,
+      "titulo": "La competència en la matèria és del Ple de la Corporació, en virtut de les previsions dels",
+      "resultado": null,
+      "texto_redactado": "La competència en la matèria és del Ple de la Corporació, en virtut de les previsions dels",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:29.820Z"
+      }
+    }
+  ]
+}

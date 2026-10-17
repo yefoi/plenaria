@@ -1,0 +1,555 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "les-borges-blanques",
+    "nombre": "Les Borges Blanques",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2505820002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-08",
+    "municipio_id": "les-borges-blanques",
+    "fecha": "2026-07-08",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2505820002/2026/e40ae0a4-9542-4c85-989c-a3a958fe0787/Anonimitzada%20Acta%20JGVL%2027juliol8.pdf",
+    "hash_contenido": "863ca4756b997df04230031c887f3791ffd0c23b8c091e1986af91eec8d72689",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:46:31.863Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-08#1",
+      "sesion_id": "2026-07-08",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió anterior",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:31.863Z"
+      }
+    },
+    {
+      "id": "2026-07-08#2",
+      "sesion_id": "2026-07-08",
+      "orden": 2,
+      "titulo": "Expedient 1810/2026. Llicència urbanística Verlan, S.A",
+      "resultado": null,
+      "texto_redactado": "Expedient 1810/2026. Llicència urbanística Verlan, S.A",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:31.863Z"
+      }
+    },
+    {
+      "id": "2026-07-08#3",
+      "sesion_id": "2026-07-08",
+      "orden": 3,
+      "titulo": "Expedient 1909/2026. Exp. 171/26. Comunicació prèvia d'obres.............",
+      "resultado": null,
+      "texto_redactado": "Expedient 1909/2026. Exp. 171/26. Comunicació prèvia d'obres.............",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:31.863Z"
+      }
+    },
+    {
+      "id": "2026-07-08#4",
+      "sesion_id": "2026-07-08",
+      "orden": 4,
+      "titulo": "Expedient 1390/2026. Exp. 109/26. Comunicació prèvia d'obres. ................",
+      "resultado": null,
+      "texto_redactado": "Expedient 1390/2026. Exp. 109/26. Comunicació prèvia d'obres. ................",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:31.863Z"
+      }
+    },
+    {
+      "id": "2026-07-08#5",
+      "sesion_id": "2026-07-08",
+      "orden": 5,
+      "titulo": "Expedient 1531/2026. Sancionador per Infracció de Normativa",
+      "resultado": null,
+      "texto_redactado": "Expedient 1531/2026. Sancionador per Infracció de Normativa",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:31.863Z"
+      }
+    },
+    {
+      "id": "2026-07-08#6",
+      "sesion_id": "2026-07-08",
+      "orden": 6,
+      "titulo": "Expedient 1997/2026. Baixa activitat Bar Musical del C. Catalunya, 30",
+      "resultado": null,
+      "texto_redactado": "Expedient 1997/2026. Baixa activitat Bar Musical del C. Catalunya, 30",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:31.863Z"
+      }
+    },
+    {
+      "id": "2026-07-08#7",
+      "sesion_id": "2026-07-08",
+      "orden": 7,
+      "titulo": "Expedient 1946/2026. Adjudicació del contracte menor de subministrament",
+      "resultado": null,
+      "texto_redactado": "Expedient 1946/2026. Adjudicació del contracte menor de subministrament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:31.863Z"
+      }
+    },
+    {
+      "id": "2026-07-08#8",
+      "sesion_id": "2026-07-08",
+      "orden": 8,
+      "titulo": "Expedient 1417/2025. Llicència d'Activitat. Incorporació modificació",
+      "resultado": null,
+      "texto_redactado": "Expedient 1417/2025. Llicència d'Activitat. Incorporació modificació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:31.863Z"
+      }
+    },
+    {
+      "id": "2026-07-08#9",
+      "sesion_id": "2026-07-08",
+      "orden": 9,
+      "titulo": "Expedient 1815/2026. Aprovació del Conveni entre el centre educatiu Institut",
+      "resultado": null,
+      "texto_redactado": "Expedient 1815/2026. Aprovació del Conveni entre el centre educatiu Institut",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:31.863Z"
+      }
+    },
+    {
+      "id": "2026-07-08#10",
+      "sesion_id": "2026-07-08",
+      "orden": 10,
+      "titulo": "Expedient 968/2026. Aprovació del Conveni entre el Consell Comarcal de les",
+      "resultado": null,
+      "texto_redactado": "Expedient 968/2026. Aprovació del Conveni entre el Consell Comarcal de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:31.863Z"
+      }
+    },
+    {
+      "id": "2026-07-08#11",
+      "sesion_id": "2026-07-08",
+      "orden": 11,
+      "titulo": "Expedient 2037/2026. Aprovació de la sol·licitud de subvenció al Departament",
+      "resultado": null,
+      "texto_redactado": "Expedient 2037/2026. Aprovació de la sol·licitud de subvenció al Departament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:31.863Z"
+      }
+    },
+    {
+      "id": "2026-07-08#12",
+      "sesion_id": "2026-07-08",
+      "orden": 12,
+      "titulo": "Expedient 2043/2026. Aprovació de la sol·licitud de subvenció al Departament",
+      "resultado": null,
+      "texto_redactado": "Expedient 2043/2026. Aprovació de la sol·licitud de subvenció al Departament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:31.863Z"
+      }
+    },
+    {
+      "id": "2026-07-08#13",
+      "sesion_id": "2026-07-08",
+      "orden": 13,
+      "titulo": "Expedient 1982/2026. Aprovació de concessió de bestreta subvenció",
+      "resultado": null,
+      "texto_redactado": "Expedient 1982/2026. Aprovació de concessió de bestreta subvenció",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:31.863Z"
+      }
+    },
+    {
+      "id": "2026-07-08#14",
+      "sesion_id": "2026-07-08",
+      "orden": 14,
+      "titulo": "Expedient 1924/2026. Aprovació de concessió de bestreta subvenció",
+      "resultado": null,
+      "texto_redactado": "Expedient 1924/2026. Aprovació de concessió de bestreta subvenció",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:31.863Z"
+      }
+    },
+    {
+      "id": "2026-07-08#15",
+      "sesion_id": "2026-07-08",
+      "orden": 15,
+      "titulo": "Expedient 923/2024. Aprovació de la justificació de la subvenció a autònoms i",
+      "resultado": null,
+      "texto_redactado": "Expedient 923/2024. Aprovació de la justificació de la subvenció a autònoms i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:31.863Z"
+      }
+    },
+    {
+      "id": "2026-07-08#16",
+      "sesion_id": "2026-07-08",
+      "orden": 16,
+      "titulo": "Expedient 2765/2022. Aprovació de l’aportació al Consell Comarcal de les",
+      "resultado": null,
+      "texto_redactado": "Expedient 2765/2022. Aprovació de l’aportació al Consell Comarcal de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:31.863Z"
+      }
+    },
+    {
+      "id": "2026-07-08#17",
+      "sesion_id": "2026-07-08",
+      "orden": 17,
+      "titulo": "Expedient 2016/2026. Autorització d’assistència a la jornada tècnica «Els olis",
+      "resultado": null,
+      "texto_redactado": "Expedient 2016/2026. Autorització d’assistència a la jornada tècnica «Els olis",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:31.863Z"
+      }
+    },
+    {
+      "id": "2026-07-08#18",
+      "sesion_id": "2026-07-08",
+      "orden": 18,
+      "titulo": "Expedient 2510/2025. Llicència urbanística Cercle Tancat, S.L",
+      "resultado": null,
+      "texto_redactado": "Expedient 2510/2025. Llicència urbanística Cercle Tancat, S.L",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:31.863Z"
+      }
+    },
+    {
+      "id": "2026-07-08#19",
+      "sesion_id": "2026-07-08",
+      "orden": 19,
+      "titulo": "Expedient 2046/2026. Contracte menor de subministrament de productes per",
+      "resultado": null,
+      "texto_redactado": "Expedient 2046/2026. Contracte menor de subministrament de productes per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:31.863Z"
+      }
+    },
+    {
+      "id": "2026-07-08#20",
+      "sesion_id": "2026-07-08",
+      "orden": 20,
+      "titulo": "Expedient 2003/2026. Aprovació de relacions de despeses i factures",
+      "resultado": null,
+      "texto_redactado": "Expedient 2003/2026. Aprovació de relacions de despeses i factures",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:31.863Z"
+      }
+    },
+    {
+      "id": "2026-07-08#21",
+      "sesion_id": "2026-07-08",
+      "orden": 21,
+      "titulo": "Precs i preguntes A) PART RESOLUTIVA",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes A) PART RESOLUTIVA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:31.863Z"
+      }
+    },
+    {
+      "id": "2026-07-08#22",
+      "sesion_id": "2026-07-08",
+      "orden": 22,
+      "titulo": "SIS Les Borges 15.354,44 €",
+      "resultado": null,
+      "texto_redactado": "SIS Les Borges 15.354,44 €",
+      "importe_eur": 15354.44,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:31.863Z"
+      }
+    }
+  ]
+}

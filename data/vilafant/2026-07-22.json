@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vilafant",
+    "nombre": "Vilafant",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1722140003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-22",
+    "municipio_id": "vilafant",
+    "fecha": "2026-07-22",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1722140003/2026/b607efaf-6e9c-474b-a37d-82ad4e0a8a2c/ACTA%20PLE%2022%20JULIOL.pdf",
+    "hash_contenido": "03f5927016685664fdb58955196a2222e78e24fad5139b16c76c7713e8183a07",
+    "estado_ingesta": "redactada",
+    "actualizada_en": "2026-10-17T10:33:27.879Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-22#1",
+      "sesion_id": "2026-07-22",
+      "orden": 1,
+      "titulo": "Es dona compte del Decret d'Alcaldia de Delegació exclusiva per a la",
+      "resultado": null,
+      "texto_redactado": "Es dona compte del Decret d'Alcaldia de Delegació exclusiva per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-07-22#2",
+      "sesion_id": "2026-07-22",
+      "orden": 2,
+      "titulo": "Es dona compte del Decret d'Alcaldia, de Delegació de funcions, per a la",
+      "resultado": null,
+      "texto_redactado": "Es dona compte del Decret d'Alcaldia, de Delegació de funcions, per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-07-22#3",
+      "sesion_id": "2026-07-22",
+      "orden": 3,
+      "titulo": "Es dona compte del Decret d'Alcaldia de Delegació exclusiva per a la",
+      "resultado": null,
+      "texto_redactado": "Es dona compte del Decret d'Alcaldia de Delegació exclusiva per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}

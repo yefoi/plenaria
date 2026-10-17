@@ -1,0 +1,243 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "almacelles",
+    "nombre": "Almacelles",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2501940003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-04-09",
+    "municipio_id": "almacelles",
+    "fecha": "2026-04-09",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2501940003/2026/4f562bef-b3fd-4107-8ead-71a01cb0a272/3.%20Acta%20ple%20ordinari%2009-04-2026.pdf",
+    "hash_contenido": "5116dbc029a534e5cf60c579e97c3f3d42de05f5d267f34d9db4107f6fc15339",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:45:03.140Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-04-09#1",
+      "sesion_id": "2026-04-09",
+      "orden": 1,
+      "titulo": "MARC INSTITUCIONAL I FINALITAT DE LA MOCIÓ",
+      "resultado": null,
+      "texto_redactado": "MARC INSTITUCIONAL I FINALITAT DE LA MOCIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:03.140Z"
+      }
+    },
+    {
+      "id": "2026-04-09#2",
+      "sesion_id": "2026-04-09",
+      "orden": 2,
+      "titulo": "SITUACIÓ ACTUAL I AFECTACIÓ DEL DRET A LA PROTECCIÓ DE LA",
+      "resultado": null,
+      "texto_redactado": "SITUACIÓ ACTUAL I AFECTACIÓ DEL DRET A LA PROTECCIÓ DE LA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:03.140Z"
+      }
+    },
+    {
+      "id": "2026-04-09#3",
+      "sesion_id": "2026-04-09",
+      "orden": 3,
+      "titulo": "INCOMPLIMENT DE L'ARTICLE 7 DEL DECRET 321/1996 (SERVEIS FARMACÈUTICS D'URGÈNCIA)",
+      "resultado": null,
+      "texto_redactado": "INCOMPLIMENT DE L'ARTICLE 7 DEL DECRET 321/1996 (SERVEIS FARMACÈUTICS D'URGÈNCIA)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:03.140Z"
+      }
+    },
+    {
+      "id": "2026-04-09#4",
+      "sesion_id": "2026-04-09",
+      "orden": 4,
+      "titulo": "L'existència simultània de tres farmàcies reforça doblement , jal'obligació",
+      "resultado": null,
+      "texto_redactado": "L'existència simultània de tres farmàcies reforça doblement , jal'obligació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:03.140Z"
+      }
+    },
+    {
+      "id": "2026-04-09#5",
+      "sesion_id": "2026-04-09",
+      "orden": 5,
+      "titulo": "Inaplicabilitat de l’article 9 del Decret 321/1996 quan concorren els",
+      "resultado": null,
+      "texto_redactado": "Inaplicabilitat de l’article 9 del Decret 321/1996 quan concorren els",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:03.140Z"
+      }
+    },
+    {
+      "id": "2026-04-09#6",
+      "sesion_id": "2026-04-09",
+      "orden": 6,
+      "titulo": "IMPACTE SOBRE LA POBLACIÓ VULNERABLE",
+      "resultado": null,
+      "texto_redactado": "IMPACTE SOBRE LA POBLACIÓ VULNERABLE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:03.140Z"
+      }
+    },
+    {
+      "id": "2026-04-09#7",
+      "sesion_id": "2026-04-09",
+      "orden": 7,
+      "titulo": "INSUFICIÈNCIA I INVIABILITAT JURÍDICA DE LES AL·LEGACIONS BASADES EN RENDIBILITAT I CONCILIACIÓ",
+      "resultado": null,
+      "texto_redactado": "INSUFICIÈNCIA I INVIABILITAT JURÍDICA DE LES AL·LEGACIONS BASADES EN RENDIBILITAT I CONCILIACIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:03.140Z"
+      }
+    },
+    {
+      "id": "2026-04-09#8",
+      "sesion_id": "2026-04-09",
+      "orden": 8,
+      "titulo": "INACTIVITAT DE L'ADMINISTRACIÓ I NECESSITAT D'ACTUACIÓ",
+      "resultado": null,
+      "texto_redactado": "INACTIVITAT DE L'ADMINISTRACIÓ I NECESSITAT D'ACTUACIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:03.140Z"
+      }
+    },
+    {
+      "id": "2026-04-09#9",
+      "sesion_id": "2026-04-09",
+      "orden": 9,
+      "titulo": "VALORACIÓ FINAL",
+      "resultado": null,
+      "texto_redactado": "VALORACIÓ FINAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:03.140Z"
+      }
+    }
+  ]
+}

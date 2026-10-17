@@ -1,0 +1,268 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "corbera-de-llobregat",
+    "nombre": "Corbera de Llobregat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "807280001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-12",
+    "municipio_id": "corbera-de-llobregat",
+    "fecha": "2026-05-12",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/807280001/2026/2c853005-e97a-4e4f-a579-c58e60abc1c8/LOPD%20PLE%2012-5-2026.pdf",
+    "hash_contenido": "bcafaabf0e6ed5261a611083103fe210c715a929033f3ffebf085373be4763c3",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:38:53.180Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-12#1",
+      "sesion_id": "2026-05-12",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta del Ple ordinari 10/3/2026.",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’acta del Ple ordinari 10/3/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:53.180Z"
+      }
+    },
+    {
+      "id": "2026-05-12#2",
+      "sesion_id": "2026-05-12",
+      "orden": 2,
+      "titulo": "Aprovació provisional de la modificació del Pla general d’ordenació a",
+      "resultado": null,
+      "texto_redactado": "Aprovació provisional de la modificació del Pla general d’ordenació a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:53.180Z"
+      }
+    },
+    {
+      "id": "2026-05-12#3",
+      "sesion_id": "2026-05-12",
+      "orden": 3,
+      "titulo": "Aprovació de la massa salarial 2025-2026.",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la massa salarial 2025-2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:53.180Z"
+      }
+    },
+    {
+      "id": "2026-05-12#4",
+      "sesion_id": "2026-05-12",
+      "orden": 4,
+      "titulo": "Segona aprovació inicial del Document ònic de Protecció Municipal",
+      "resultado": null,
+      "texto_redactado": "Segona aprovació inicial del Document ònic de Protecció Municipal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:53.180Z"
+      }
+    },
+    {
+      "id": "2026-05-12#5",
+      "sesion_id": "2026-05-12",
+      "orden": 5,
+      "titulo": "Resolució d’al·legacions i aprovació definitiva de les Bases reguladores del",
+      "resultado": null,
+      "texto_redactado": "Resolució d’al·legacions i aprovació definitiva de les Bases reguladores del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:53.180Z"
+      }
+    },
+    {
+      "id": "2026-05-12#6",
+      "sesion_id": "2026-05-12",
+      "orden": 6,
+      "titulo": "Moció en suport a les mobilitzacions per l’educació pública del grup",
+      "resultado": null,
+      "texto_redactado": "Moció en suport a les mobilitzacions per l’educació pública del grup",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:53.180Z"
+      }
+    },
+    {
+      "id": "2026-05-12#7",
+      "sesion_id": "2026-05-12",
+      "orden": 7,
+      "titulo": "Donar compte de l’aprovació de la liquidació del pressupost de",
+      "resultado": null,
+      "texto_redactado": "Donar compte de l’aprovació de la liquidació del pressupost de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:53.180Z"
+      }
+    },
+    {
+      "id": "2026-05-12#8",
+      "sesion_id": "2026-05-12",
+      "orden": 8,
+      "titulo": "Estat de tresoreria.",
+      "resultado": null,
+      "texto_redactado": "Estat de tresoreria.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:53.180Z"
+      }
+    },
+    {
+      "id": "2026-05-12#9",
+      "sesion_id": "2026-05-12",
+      "orden": 9,
+      "titulo": "Estat del romanent de tresoreria.Per corroborar la veracitat d'aquest document consulti la següent pàgina web:",
+      "resultado": null,
+      "texto_redactado": "Estat del romanent de tresoreria.Per corroborar la veracitat d'aquest document consulti la següent pàgina web:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:53.180Z"
+      }
+    },
+    {
+      "id": "2026-05-12#10",
+      "sesion_id": "2026-05-12",
+      "orden": 10,
+      "titulo": "Desviacions de finançament.",
+      "resultado": null,
+      "texto_redactado": "Desviacions de finançament.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:53.180Z"
+      }
+    }
+  ]
+}

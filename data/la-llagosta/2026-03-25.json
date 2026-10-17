@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "la-llagosta",
+    "nombre": "La Llagosta",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "810560009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-03-25",
+    "municipio_id": "la-llagosta",
+    "fecha": "2026-03-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/810560009/2026/e476015f-aeba-4941-926c-d36a6b6f331e/AP%203-26%20(25-03-26).pdf",
+    "hash_contenido": "60ba04ab9b04025e6af8e446ccc2ebd38d11f304aa7f9d5a782820d24edb1577",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:40:09.903Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-03-25#1",
+      "sesion_id": "2026-03-25",
+      "orden": 1,
+      "titulo": "APROVACIÓ, SI S’ESCAU, DE L’ESBORRANY DE L’ACTA DE LA SESSIÓ ANTERIOR CELEBRADA AMB CARÀCTER EXTRAORDINARI EL DIA 4 DE",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ, SI S’ESCAU, DE L’ESBORRANY DE L’ACTA DE LA SESSIÓ ANTERIOR CELEBRADA AMB CARÀCTER EXTRAORDINARI EL DIA 4 DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:09.903Z"
+      }
+    },
+    {
+      "id": "2026-03-25#2",
+      "sesion_id": "2026-03-25",
+      "orden": 2,
+      "titulo": "DESPATX I DISPOSICIONS OFICIALS",
+      "resultado": null,
+      "texto_redactado": "DESPATX I DISPOSICIONS OFICIALS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:09.903Z"
+      }
+    },
+    {
+      "id": "2026-03-25#3",
+      "sesion_id": "2026-03-25",
+      "orden": 3,
+      "titulo": "El 24 de febrer de 2026, el coordinador de Serveis Jurídics va emetre informe en el",
+      "resultado": null,
+      "texto_redactado": "El 24 de febrer de 2026, el coordinador de Serveis Jurídics va emetre informe en el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:09.903Z"
+      }
+    },
+    {
+      "id": "2026-03-25#4",
+      "sesion_id": "2026-03-25",
+      "orden": 4,
+      "titulo": "GRUPS MUNICIPALS",
+      "resultado": null,
+      "texto_redactado": "GRUPS MUNICIPALS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:09.903Z"
+      }
+    },
+    {
+      "id": "2026-03-25#5",
+      "sesion_id": "2026-03-25",
+      "orden": 5,
+      "titulo": "PROPOSTES D’URGÈNCIA",
+      "resultado": null,
+      "texto_redactado": "PROPOSTES D’URGÈNCIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:09.903Z"
+      }
+    },
+    {
+      "id": "2026-03-25#6",
+      "sesion_id": "2026-03-25",
+      "orden": 6,
+      "titulo": "PRECS I PREGUNTES",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:09.903Z"
+      }
+    },
+    {
+      "id": "2026-03-25#7",
+      "sesion_id": "2026-03-25",
+      "orden": 7,
+      "titulo": "Regla 49.4 de la ICAL estableix que l’aprovació del Compte General és un acte",
+      "resultado": null,
+      "texto_redactado": "Regla 49.4 de la ICAL estableix que l’aprovació del Compte General és un acte",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:09.903Z"
+      }
+    }
+  ]
+}

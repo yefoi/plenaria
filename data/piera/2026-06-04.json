@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "piera",
+    "nombre": "Piera",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "816140003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-04",
+    "municipio_id": "piera",
+    "fecha": "2026-06-04",
+    "tipo": "extraordinaria_urgente",
+    "fuente_url": "https://media.seu-e.cat/acteca/816140003/2026/7109e542-661f-40d8-a9c6-e3a894252a27/2026-06-04_extr.urg.pdf",
+    "hash_contenido": "769134246370409f43f5fa5c9ff93d3def44de054e865c8b405064f594aebfe4",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-17T10:37:43.113Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-04#1",
+      "sesion_id": "2026-06-04",
+      "orden": 1,
+      "titulo": "2.346,67€ a la partida pressupostària 401/161/61900 i 8.195,94€ a la partida",
+      "resultado": null,
+      "texto_redactado": "2.346,67€ a la partida pressupostària 401/161/61900 i 8.195,94€ a la partida",
+      "importe_eur": 8195.94,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:43.113Z"
+      }
+    }
+  ]
+}

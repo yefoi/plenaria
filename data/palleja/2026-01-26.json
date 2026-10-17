@@ -1,0 +1,363 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "palleja",
+    "nombre": "Pallejà",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "815740003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-01-26",
+    "municipio_id": "palleja",
+    "fecha": "2026-01-26",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/815740003/2026/c2f8c534-19ff-4c22-8b79-15adac044880/ACTA%20PLE%20%202026.0001%20(29.01.2026)].pdf",
+    "hash_contenido": "a71c9fa141ec4470f8395f589f0c445f85643e67dd5c8111b6987cb9c036132c",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:41:25.891Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-01-26#1",
+      "sesion_id": "2026-01-26",
+      "orden": 1,
+      "titulo": "Aprovació, si escau, de l’esborrany de l’acta corresponent a la sessió",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de l’esborrany de l’acta corresponent a la sessió",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:25.891Z"
+      }
+    },
+    {
+      "id": "2026-01-26#2",
+      "sesion_id": "2026-01-26",
+      "orden": 2,
+      "titulo": "Aprovació, si escau, de l’esborrany de l’acta corresponent a la sessió",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de l’esborrany de l’acta corresponent a la sessió",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:25.891Z"
+      }
+    },
+    {
+      "id": "2026-01-26#3",
+      "sesion_id": "2026-01-26",
+      "orden": 3,
+      "titulo": "Aprovació, si escau, de l’esborrany de l’acta corresponent a la sessió",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de l’esborrany de l’acta corresponent a la sessió",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:25.891Z"
+      }
+    },
+    {
+      "id": "2026-01-26#4",
+      "sesion_id": "2026-01-26",
+      "orden": 4,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:25.891Z"
+      }
+    },
+    {
+      "id": "2026-01-26#5",
+      "sesion_id": "2026-01-26",
+      "orden": 5,
+      "titulo": "Aprovar, si escau, la modificació de crèdits del pressupost general de",
+      "resultado": null,
+      "texto_redactado": "Aprovar, si escau, la modificació de crèdits del pressupost general de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:25.891Z"
+      }
+    },
+    {
+      "id": "2026-01-26#6",
+      "sesion_id": "2026-01-26",
+      "orden": 6,
+      "titulo": "ASSUMPTE NO DICTAMINAT, PRÈVIA RATIFICACIÓ DE LA SEVA",
+      "resultado": null,
+      "texto_redactado": "ASSUMPTE NO DICTAMINAT, PRÈVIA RATIFICACIÓ DE LA SEVA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:25.891Z"
+      }
+    },
+    {
+      "id": "2026-01-26#7",
+      "sesion_id": "2026-01-26",
+      "orden": 7,
+      "titulo": "ASSUMPTE NO DICTAMINAT, PRÈVIA RATIFICACIÓ DE LA SEVA",
+      "resultado": null,
+      "texto_redactado": "ASSUMPTE NO DICTAMINAT, PRÈVIA RATIFICACIÓ DE LA SEVA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:25.891Z"
+      }
+    },
+    {
+      "id": "2026-01-26#8",
+      "sesion_id": "2026-01-26",
+      "orden": 8,
+      "titulo": "PUNT D'URGÈNCIA. ASSUMPTE NO DICTAMINAT, PRÈVIA RATIFICACIÓ",
+      "resultado": null,
+      "texto_redactado": "PUNT D'URGÈNCIA. ASSUMPTE NO DICTAMINAT, PRÈVIA RATIFICACIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:25.891Z"
+      }
+    },
+    {
+      "id": "2026-01-26#9",
+      "sesion_id": "2026-01-26",
+      "orden": 9,
+      "titulo": "Donar compte de les resolucions dictades per l’Alcaldia en els mesos de",
+      "resultado": null,
+      "texto_redactado": "Donar compte de les resolucions dictades per l’Alcaldia en els mesos de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:25.891Z"
+      }
+    },
+    {
+      "id": "2026-01-26#10",
+      "sesion_id": "2026-01-26",
+      "orden": 10,
+      "titulo": "Donar compte dels acords de la Junta de Govern Local adoptats en les",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels acords de la Junta de Govern Local adoptats en les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:25.891Z"
+      }
+    },
+    {
+      "id": "2026-01-26#11",
+      "sesion_id": "2026-01-26",
+      "orden": 11,
+      "titulo": "Donar compte de la Resolució d’Alcaldia núm. 2025-2381, de 14 de",
+      "resultado": null,
+      "texto_redactado": "Donar compte de la Resolució d’Alcaldia núm. 2025-2381, de 14 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:25.891Z"
+      }
+    },
+    {
+      "id": "2026-01-26#12",
+      "sesion_id": "2026-01-26",
+      "orden": 12,
+      "titulo": "Donar compte de la Resolució de l’Alcaldia núm. 2025-2498, d’1 de",
+      "resultado": null,
+      "texto_redactado": "Donar compte de la Resolució de l’Alcaldia núm. 2025-2498, d’1 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:25.891Z"
+      }
+    },
+    {
+      "id": "2026-01-26#13",
+      "sesion_id": "2026-01-26",
+      "orden": 13,
+      "titulo": "Donar compte de la Resolució d’Alcaldia núm. 2025-2667, de 17 de",
+      "resultado": null,
+      "texto_redactado": "Donar compte de la Resolució d’Alcaldia núm. 2025-2667, de 17 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:25.891Z"
+      }
+    },
+    {
+      "id": "2026-01-26#14",
+      "sesion_id": "2026-01-26",
+      "orden": 14,
+      "titulo": "Donar compte de la Resolució d’Alcaldia núm. 2026-0118, de 16 de",
+      "resultado": null,
+      "texto_redactado": "Donar compte de la Resolució d’Alcaldia núm. 2026-0118, de 16 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:25.891Z"
+      }
+    }
+  ]
+}

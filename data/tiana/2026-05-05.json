@@ -1,0 +1,344 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "tiana",
+    "nombre": "Tiana",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "828240003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-05",
+    "municipio_id": "tiana",
+    "fecha": "2026-05-05",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/828240003/2026/dd179716-13c3-4173-ac61-35322ad4d02d/ACTA%20DEL%20PLE%20A6-050526.pdf",
+    "hash_contenido": "7eb0f577373483da40514ff0dd950a96a964998a07240d7ee328bf3d266158e7",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:42:54.306Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-05#1",
+      "sesion_id": "2026-05-05",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L'ACTA DE LA SESSIÓ ORDINÀRIA DE 7 D'ABRIL I DE LA",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L'ACTA DE LA SESSIÓ ORDINÀRIA DE 7 D'ABRIL I DE LA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:54.306Z"
+      }
+    },
+    {
+      "id": "2026-05-05#2",
+      "sesion_id": "2026-05-05",
+      "orden": 2,
+      "titulo": "EXPEDIENT 1798/2026. PRESA DE POSSESSIÓ DEL REGIDOR DEL GRUP MUNICIPAL DEL PARTIT DELS SOCIALISTES DE CATALUNYA – CANDIDATURA DE PROGRÉS (PSC-CP)",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT 1798/2026. PRESA DE POSSESSIÓ DEL REGIDOR DEL GRUP MUNICIPAL DEL PARTIT DELS SOCIALISTES DE CATALUNYA – CANDIDATURA DE PROGRÉS (PSC-CP)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:54.306Z"
+      }
+    },
+    {
+      "id": "2026-05-05#3",
+      "sesion_id": "2026-05-05",
+      "orden": 3,
+      "titulo": "ASSUMPTES DE TRÀMIT",
+      "resultado": null,
+      "texto_redactado": "ASSUMPTES DE TRÀMIT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:54.306Z"
+      }
+    },
+    {
+      "id": "2026-05-05#4",
+      "sesion_id": "2026-05-05",
+      "orden": 4,
+      "titulo": "INFORMACIONS I COMUNICACIONS D’ALCALDIA PART RESOLUTIVA",
+      "resultado": null,
+      "texto_redactado": "INFORMACIONS I COMUNICACIONS D’ALCALDIA PART RESOLUTIVA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:54.306Z"
+      }
+    },
+    {
+      "id": "2026-05-05#5",
+      "sesion_id": "2026-05-05",
+      "orden": 5,
+      "titulo": "EXPEDIENT 4375/2025. APROVACIÓ DE LA CONCESSIÓ ADMINISTRATIVA",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT 4375/2025. APROVACIÓ DE LA CONCESSIÓ ADMINISTRATIVA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:54.306Z"
+      }
+    },
+    {
+      "id": "2026-05-05#6",
+      "sesion_id": "2026-05-05",
+      "orden": 6,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:54.306Z"
+      }
+    },
+    {
+      "id": "2026-05-05#7",
+      "sesion_id": "2026-05-05",
+      "orden": 7,
+      "titulo": "EXPEDIENT 1481/2026. SOL·LICITUD A LA GENERALITAT DE LES PLACES",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT 1481/2026. SOL·LICITUD A LA GENERALITAT DE LES PLACES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:54.306Z"
+      }
+    },
+    {
+      "id": "2026-05-05#8",
+      "sesion_id": "2026-05-05",
+      "orden": 8,
+      "titulo": "EXPEDIENT 2015/2026. MOCIÓ DE JUNTS PER TIANA PERQUÈ L’AJUNTAMENT DE TIANA INSTI LA GENERALITAT DE CATALUNYA A MILLORAR LES CONDICIONS LABORALS DE PERSONAL EDUCATIU I LA",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT 2015/2026. MOCIÓ DE JUNTS PER TIANA PERQUÈ L’AJUNTAMENT DE TIANA INSTI LA GENERALITAT DE CATALUNYA A MILLORAR LES CONDICIONS LABORALS DE PERSONAL EDUCATIU I LA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "personal",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:54.306Z"
+      }
+    },
+    {
+      "id": "2026-05-05#9",
+      "sesion_id": "2026-05-05",
+      "orden": 9,
+      "titulo": "EXPEDIENT 2016/2026. MOCIÓ D'ESQUERRA REPUBLICANA DE CATALUNYA PER A LA RECUPERACIÓ DE LA FIRA D'ATRACCIONS DE LA FESTA MAJOR DE TIANA PRECS I PREGUNTES",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT 2016/2026. MOCIÓ D'ESQUERRA REPUBLICANA DE CATALUNYA PER A LA RECUPERACIÓ DE LA FIRA D'ATRACCIONS DE LA FESTA MAJOR DE TIANA PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:54.306Z"
+      }
+    },
+    {
+      "id": "2026-05-05#10",
+      "sesion_id": "2026-05-05",
+      "orden": 10,
+      "titulo": "PREGUNTA DEL GRUP MUNICIPAL DE JUNTS PER CATALUNYA EN RELACIÓ ALS DIES QUE VA ROMANDRE TANCAT EL BAR DEL CASAL",
+      "resultado": null,
+      "texto_redactado": "PREGUNTA DEL GRUP MUNICIPAL DE JUNTS PER CATALUNYA EN RELACIÓ ALS DIES QUE VA ROMANDRE TANCAT EL BAR DEL CASAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:54.306Z"
+      }
+    },
+    {
+      "id": "2026-05-05#11",
+      "sesion_id": "2026-05-05",
+      "orden": 11,
+      "titulo": "PREGUNTES D'ESQUERRA REPUBLICANA DE CATALUNYA SOBRE ELS DESPERFECTES PRODUÏTS DURANT LA CELEBRACIÓ DEL FESTIVAL TUN",
+      "resultado": null,
+      "texto_redactado": "PREGUNTES D'ESQUERRA REPUBLICANA DE CATALUNYA SOBRE ELS DESPERFECTES PRODUÏTS DURANT LA CELEBRACIÓ DEL FESTIVAL TUN",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:54.306Z"
+      }
+    },
+    {
+      "id": "2026-05-05#12",
+      "sesion_id": "2026-05-05",
+      "orden": 12,
+      "titulo": "PREGUNTES D'ESQUERRA REPUBLICANA DE CATALUNYA SOBRE L’INICI DE LES OBRES DELS APARCAMENTS DE CAN MATAS",
+      "resultado": null,
+      "texto_redactado": "PREGUNTES D'ESQUERRA REPUBLICANA DE CATALUNYA SOBRE L’INICI DE LES OBRES DELS APARCAMENTS DE CAN MATAS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "movilidad_trafico",
+        "urbanismo_licencias",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:54.306Z"
+      }
+    },
+    {
+      "id": "2026-05-05#13",
+      "sesion_id": "2026-05-05",
+      "orden": 13,
+      "titulo": "PRECS I PREGUNTES A FORMULAR ORALMENT",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES A FORMULAR ORALMENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:54.306Z"
+      }
+    }
+  ]
+}

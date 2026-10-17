@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "la-senia",
+    "nombre": "La Sénia",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4304450006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-12",
+    "municipio_id": "la-senia",
+    "fecha": "2026-05-12",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4304450006/2026/fa1f5a32-4a6d-476f-8367-6ee7ba378f23/8_Ple%20extraordinari%20de%20data%2012052026%20(sessi%f3%20n%fam%2082026).pdf",
+    "hash_contenido": "2e1739b378dcb9c06d88d85710c1a035dc4ec7e57d551e8350d7b90b2fab2ee6",
+    "estado_ingesta": "redactada",
+    "actualizada_en": "2026-10-17T10:33:41.570Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-12#1",
+      "sesion_id": "2026-05-12",
+      "orden": 1,
+      "titulo": "Que es justifiqui tècnicament i jurídicament la necessitat de tramitar els dos trams com a",
+      "resultado": null,
+      "texto_redactado": "Que es justifiqui tècnicament i jurídicament la necessitat de tramitar els dos trams com a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-05-12#2",
+      "sesion_id": "2026-05-12",
+      "orden": 2,
+      "titulo": "Que, en cas que es tracti d’una actuació unitària, es valori la seva tramitació conjunta,",
+      "resultado": null,
+      "texto_redactado": "Que, en cas que es tracti d’una actuació unitària, es valori la seva tramitació conjunta,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-05-12#3",
+      "sesion_id": "2026-05-12",
+      "orden": 3,
+      "titulo": "Que es plantegi una actuació global i coherent que garanteixi la qualitat urbana de tot l’",
+      "resultado": null,
+      "texto_redactado": "Que es plantegi una actuació global i coherent que garanteixi la qualitat urbana de tot l’",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}

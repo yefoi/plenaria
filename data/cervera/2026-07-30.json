@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "cervera",
+    "nombre": "Cervera",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2507290004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-30",
+    "municipio_id": "cervera",
+    "fecha": "2026-07-30",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2507290004/2026/ca6366b6-aa31-4fc3-886a-6275e250764d/20261003_Acta_ACTA%20DEL%20PLE%202026-0007%20[Acta].pdf",
+    "hash_contenido": "af4df2b5864f293d14959a6a8713d7a8b5dead8f5035bd34b01291d937fa16be",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:42:21.250Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-30#1",
+      "sesion_id": "2026-07-30",
+      "orden": 1,
+      "titulo": "El present reglament té per objecte regular els honors, distincions, reconeixements i",
+      "resultado": null,
+      "texto_redactado": "El present reglament té per objecte regular els honors, distincions, reconeixements i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:21.250Z"
+      }
+    },
+    {
+      "id": "2026-07-30#2",
+      "sesion_id": "2026-07-30",
+      "orden": 2,
+      "titulo": "La finalitat d’aquest reglament és la de determinar la tipologia de reconeixements que es",
+      "resultado": null,
+      "texto_redactado": "La finalitat d’aquest reglament és la de determinar la tipologia de reconeixements que es",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:21.250Z"
+      }
+    },
+    {
+      "id": "2026-07-30#3",
+      "sesion_id": "2026-07-30",
+      "orden": 3,
+      "titulo": "En cap cas, els honors, distincions, reconeixements i felicitacions regulats en aquest",
+      "resultado": null,
+      "texto_redactado": "En cap cas, els honors, distincions, reconeixements i felicitacions regulats en aquest",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:21.250Z"
+      }
+    },
+    {
+      "id": "2026-07-30#4",
+      "sesion_id": "2026-07-30",
+      "orden": 4,
+      "titulo": "Placa de Membre Honorari",
+      "resultado": null,
+      "texto_redactado": "Placa de Membre Honorari",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:21.250Z"
+      }
+    },
+    {
+      "id": "2026-07-30#5",
+      "sesion_id": "2026-07-30",
+      "orden": 5,
+      "titulo": "Exposar a l’Assemblea i a la Junta Directiva tot el que considerin que pugui contribuir a",
+      "resultado": null,
+      "texto_redactado": "Exposar a l’Assemblea i a la Junta Directiva tot el que considerin que pugui contribuir a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:21.250Z"
+      }
+    },
+    {
+      "id": "2026-07-30#6",
+      "sesion_id": "2026-07-30",
+      "orden": 6,
+      "titulo": "Sol·licitar i obtenir explicacions sobre l’administració i la gestió de la Junta Directiva o",
+      "resultado": null,
+      "texto_redactado": "Sol·licitar i obtenir explicacions sobre l’administració i la gestió de la Junta Directiva o",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:21.250Z"
+      }
+    },
+    {
+      "id": "2026-07-30#7",
+      "sesion_id": "2026-07-30",
+      "orden": 7,
+      "titulo": "Ser escoltats abans que s’adoptin mesures disciplinàries.",
+      "resultado": null,
+      "texto_redactado": "Ser escoltats abans que s’adoptin mesures disciplinàries.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:21.250Z"
+      }
+    },
+    {
+      "id": "2026-07-30#8",
+      "sesion_id": "2026-07-30",
+      "orden": 8,
+      "titulo": "Rebre informació sobre les activitats de l’associació.",
+      "resultado": null,
+      "texto_redactado": "Rebre informació sobre les activitats de l’associació.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:21.250Z"
+      }
+    },
+    {
+      "id": "2026-07-30#9",
+      "sesion_id": "2026-07-30",
+      "orden": 9,
+      "titulo": "Fer ús dels serveis comuns que l’associació estableixi o tingui a la seva disposició.",
+      "resultado": null,
+      "texto_redactado": "Fer ús dels serveis comuns que l’associació estableixi o tingui a la seva disposició.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:21.250Z"
+      }
+    },
+    {
+      "id": "2026-07-30#10",
+      "sesion_id": "2026-07-30",
+      "orden": 10,
+      "titulo": "Posseir un exemplar dels estatuts.",
+      "resultado": null,
+      "texto_redactado": "Posseir un exemplar dels estatuts.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:21.250Z"
+      }
+    },
+    {
+      "id": "2026-07-30#11",
+      "sesion_id": "2026-07-30",
+      "orden": 11,
+      "titulo": "Consultar els llibres de l’associació.",
+      "resultado": null,
+      "texto_redactado": "Consultar els llibres de l’associació.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:21.250Z"
+      }
+    }
+  ]
+}

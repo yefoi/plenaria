@@ -1,0 +1,220 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-just-desvern",
+    "nombre": "Sant Just Desvern",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "822120002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2025-11-27",
+    "municipio_id": "sant-just-desvern",
+    "fecha": "2025-11-27",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/822120002/2025/c4d5b3f6-e96c-41ad-bd4c-04b30c69a2fe/20251127%20ACTA%20PLE.pdf",
+    "hash_contenido": "e2702702219247923fd1e4526b56ad4dfdd286c7a9ade9b2b73e423f64b0b251",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:36:37.145Z"
+  },
+  "puntos": [
+    {
+      "id": "2025-11-27#1",
+      "sesion_id": "2025-11-27",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE LES ACTES ANTERIORS DE DATA 30/10/2025 i 17/11/2025.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE LES ACTES ANTERIORS DE DATA 30/10/2025 i 17/11/2025.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:37.145Z"
+      }
+    },
+    {
+      "id": "2025-11-27#2",
+      "sesion_id": "2025-11-27",
+      "orden": 2,
+      "titulo": "DICTÀMENS:",
+      "resultado": null,
+      "texto_redactado": "DICTÀMENS:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:37.145Z"
+      }
+    },
+    {
+      "id": "2025-11-27#3",
+      "sesion_id": "2025-11-27",
+      "orden": 3,
+      "titulo": "Cada persona només podrà presentar una única sol·licitud, que agruparà els diferents",
+      "resultado": null,
+      "texto_redactado": "Cada persona només podrà presentar una única sol·licitud, que agruparà els diferents",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:37.145Z"
+      }
+    },
+    {
+      "id": "2025-11-27#4",
+      "sesion_id": "2025-11-27",
+      "orden": 4,
+      "titulo": "PROPOSICIONS D’URGÈNCIA.",
+      "resultado": null,
+      "texto_redactado": "PROPOSICIONS D’URGÈNCIA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:37.145Z"
+      }
+    },
+    {
+      "id": "2025-11-27#5",
+      "sesion_id": "2025-11-27",
+      "orden": 5,
+      "titulo": "MOCIONS D’URGÈNCIA.",
+      "resultado": null,
+      "texto_redactado": "MOCIONS D’URGÈNCIA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:37.145Z"
+      }
+    },
+    {
+      "id": "2025-11-27#6",
+      "sesion_id": "2025-11-27",
+      "orden": 6,
+      "titulo": "CONTROL DE L’ACCIÓ DE GOVERN:",
+      "resultado": null,
+      "texto_redactado": "CONTROL DE L’ACCIÓ DE GOVERN:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:37.145Z"
+      }
+    },
+    {
+      "id": "2025-11-27#7",
+      "sesion_id": "2025-11-27",
+      "orden": 7,
+      "titulo": "PRECS I PREGUNTES.",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:37.145Z"
+      }
+    },
+    {
+      "id": "2025-11-27#8",
+      "sesion_id": "2025-11-27",
+      "orden": 8,
+      "titulo": "PRENDRE CONEIXEMENT DE LA RENòNCIA A L’ACTA DE REGIDORA PRESENTADA PER LA SENYORA ANNA VILANOVA FERNÀNDEZ. EXP.: SEC 2025",
+      "resultado": null,
+      "texto_redactado": "PRENDRE CONEIXEMENT DE LA RENòNCIA A L’ACTA DE REGIDORA PRESENTADA PER LA SENYORA ANNA VILANOVA FERNÀNDEZ. EXP.: SEC 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional",
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:37.145Z"
+      }
+    }
+  ]
+}

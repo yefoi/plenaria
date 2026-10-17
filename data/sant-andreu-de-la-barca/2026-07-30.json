@@ -1,0 +1,243 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-andreu-de-la-barca",
+    "nombre": "Sant Andreu de la Barca",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "819600000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-30",
+    "municipio_id": "sant-andreu-de-la-barca",
+    "fecha": "2026-07-30",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/819600000/2026/5197f08e-f4cc-4b83-89fd-a81f613a329b/Ple_ordinari_30072026.pdf",
+    "hash_contenido": "b764b3347a9abf2fc38e2acf979af0c95bf5af77a5c7ea5d91ea6fefe2ee7361",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:36:09.393Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-30#1",
+      "sesion_id": "2026-07-30",
+      "orden": 1,
+      "titulo": "PART RESOLUTÒRIA",
+      "resultado": null,
+      "texto_redactado": "PART RESOLUTÒRIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:09.393Z"
+      }
+    },
+    {
+      "id": "2026-07-30#2",
+      "sesion_id": "2026-07-30",
+      "orden": 2,
+      "titulo": "Vist l’informe emès per la Secretaria accidental en data 14 de juliol de 2026.",
+      "resultado": null,
+      "texto_redactado": "Vist l’informe emès per la Secretaria accidental en data 14 de juliol de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:09.393Z"
+      }
+    },
+    {
+      "id": "2026-07-30#3",
+      "sesion_id": "2026-07-30",
+      "orden": 3,
+      "titulo": "Vist els informes emesos per l’Interventor Accidental en data 14 de juliol de 2026. FONAMENTS DE DRET",
+      "resultado": null,
+      "texto_redactado": "Vist els informes emesos per l’Interventor Accidental en data 14 de juliol de 2026. FONAMENTS DE DRET",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:09.393Z"
+      }
+    },
+    {
+      "id": "2026-07-30#4",
+      "sesion_id": "2026-07-30",
+      "orden": 4,
+      "titulo": "Vista la memòria justificativa del conveni de data 29 de juny de 2026, del Cap de la",
+      "resultado": null,
+      "texto_redactado": "Vista la memòria justificativa del conveni de data 29 de juny de 2026, del Cap de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:09.393Z"
+      }
+    },
+    {
+      "id": "2026-07-30#5",
+      "sesion_id": "2026-07-30",
+      "orden": 5,
+      "titulo": "Vist l’informe de fiscalització prèvia limitada emès en data 2 de juliol de 2026 per",
+      "resultado": null,
+      "texto_redactado": "Vist l’informe de fiscalització prèvia limitada emès en data 2 de juliol de 2026 per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:09.393Z"
+      }
+    },
+    {
+      "id": "2026-07-30#6",
+      "sesion_id": "2026-07-30",
+      "orden": 6,
+      "titulo": "Vist l’informe emès en data 2 de juliol de 2026 pels Serveis jurídics municipals, amb",
+      "resultado": null,
+      "texto_redactado": "Vist l’informe emès en data 2 de juliol de 2026 pels Serveis jurídics municipals, amb",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:09.393Z"
+      }
+    },
+    {
+      "id": "2026-07-30#7",
+      "sesion_id": "2026-07-30",
+      "orden": 7,
+      "titulo": "Règim jurídic i resolució de controvèrsies",
+      "resultado": null,
+      "texto_redactado": "Règim jurídic i resolució de controvèrsies",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:09.393Z"
+      }
+    },
+    {
+      "id": "2026-07-30#8",
+      "sesion_id": "2026-07-30",
+      "orden": 8,
+      "titulo": "Contingut econòmic",
+      "resultado": null,
+      "texto_redactado": "Contingut econòmic",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:09.393Z"
+      }
+    },
+    {
+      "id": "2026-07-30#9",
+      "sesion_id": "2026-07-30",
+      "orden": 9,
+      "titulo": "Protecció de dades i confidencialitat",
+      "resultado": null,
+      "texto_redactado": "Protecció de dades i confidencialitat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:09.393Z"
+      }
+    }
+  ]
+}

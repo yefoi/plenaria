@@ -1,0 +1,243 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "polinya",
+    "nombre": "Polinyà",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "816720002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-01",
+    "municipio_id": "polinya",
+    "fecha": "2026-07-01",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/816720002/2026/43c761a9-96ea-4ab0-9edd-8113bf7c0d8e/AP20260701-4.pdf",
+    "hash_contenido": "24ab0a2e1d9d48c69e00569168e17292000d3d368ce88c7d612890b15f75bc3b",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:43:16.909Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-01#1",
+      "sesion_id": "2026-07-01",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta de la sessió anterior",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’acta de la sessió anterior",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:16.909Z"
+      }
+    },
+    {
+      "id": "2026-07-01#2",
+      "sesion_id": "2026-07-01",
+      "orden": 2,
+      "titulo": "Proposta de Festes locals per al calendari laboral de l’any 2027. Expt.",
+      "resultado": null,
+      "texto_redactado": "Proposta de Festes locals per al calendari laboral de l’any 2027. Expt.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:16.909Z"
+      }
+    },
+    {
+      "id": "2026-07-01#3",
+      "sesion_id": "2026-07-01",
+      "orden": 3,
+      "titulo": "Aprovació de la revisió del padró municipal d'habitants a 1 de gener de",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la revisió del padró municipal d'habitants a 1 de gener de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:16.909Z"
+      }
+    },
+    {
+      "id": "2026-07-01#4",
+      "sesion_id": "2026-07-01",
+      "orden": 4,
+      "titulo": "Aprovació inicial de la modificació pressupostària núm. 20/2026. Expt.",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial de la modificació pressupostària núm. 20/2026. Expt.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:16.909Z"
+      }
+    },
+    {
+      "id": "2026-07-01#5",
+      "sesion_id": "2026-07-01",
+      "orden": 5,
+      "titulo": "Punto de expropiación",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:16.909Z"
+      }
+    },
+    {
+      "id": "2026-07-01#6",
+      "sesion_id": "2026-07-01",
+      "orden": 6,
+      "titulo": "Inici d’expedient i aprovació dels plecs de condicions per a la",
+      "resultado": null,
+      "texto_redactado": "Inici d’expedient i aprovació dels plecs de condicions per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:16.909Z"
+      }
+    },
+    {
+      "id": "2026-07-01#7",
+      "sesion_id": "2026-07-01",
+      "orden": 7,
+      "titulo": "Aprovació inicial de les bases específiques reguladores per a",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial de les bases específiques reguladores per a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:16.909Z"
+      }
+    },
+    {
+      "id": "2026-07-01#8",
+      "sesion_id": "2026-07-01",
+      "orden": 8,
+      "titulo": "Aprovació del programa de participació ciutadana de l’avanç de Pla",
+      "resultado": null,
+      "texto_redactado": "Aprovació del programa de participació ciutadana de l’avanç de Pla",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:16.909Z"
+      }
+    },
+    {
+      "id": "2026-07-01#9",
+      "sesion_id": "2026-07-01",
+      "orden": 9,
+      "titulo": "Assignació de major dedicació de 112 hores al lloc de treball de tècnic/a",
+      "resultado": null,
+      "texto_redactado": "Assignació de major dedicació de 112 hores al lloc de treball de tècnic/a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:16.909Z"
+      }
+    }
+  ]
+}

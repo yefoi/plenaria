@@ -1,0 +1,387 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-just-desvern",
+    "nombre": "Sant Just Desvern",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "822120002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2025-11-17",
+    "municipio_id": "sant-just-desvern",
+    "fecha": "2025-11-17",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/822120002/2025/96324bfb-6d7c-4526-9f09-c63eb846537c/20251117%20ACTA%20extr.pdf",
+    "hash_contenido": "9889a07d1031dd8b9020693a41aa6f9b9a7218831d4e4f092fbf28d4327d85a0",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:36:42.703Z"
+  },
+  "puntos": [
+    {
+      "id": "2025-11-17#1",
+      "sesion_id": "2025-11-17",
+      "orden": 1,
+      "titulo": "DICTÀMENS:",
+      "resultado": null,
+      "texto_redactado": "DICTÀMENS:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:42.703Z"
+      }
+    },
+    {
+      "id": "2025-11-17#2",
+      "sesion_id": "2025-11-17",
+      "orden": 2,
+      "titulo": "Descripció del lloc on es vol celebrar.",
+      "resultado": null,
+      "texto_redactado": "Descripció del lloc on es vol celebrar.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.41,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:42.703Z"
+      }
+    },
+    {
+      "id": "2025-11-17#3",
+      "sesion_id": "2025-11-17",
+      "orden": 3,
+      "titulo": "Dies i hores de celebració del certamen.",
+      "resultado": null,
+      "texto_redactado": "Dies i hores de celebració del certamen.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:42.703Z"
+      }
+    },
+    {
+      "id": "2025-11-17#4",
+      "sesion_id": "2025-11-17",
+      "orden": 4,
+      "titulo": "Nombre aproximat d’animals, classificat per espècies, que concorreran al certamen.",
+      "resultado": null,
+      "texto_redactado": "Nombre aproximat d’animals, classificat per espècies, que concorreran al certamen.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:42.703Z"
+      }
+    },
+    {
+      "id": "2025-11-17#5",
+      "sesion_id": "2025-11-17",
+      "orden": 5,
+      "titulo": "Programa de mesures sanitàries que s’adoptaran durant la celebració del certamen,",
+      "resultado": null,
+      "texto_redactado": "Programa de mesures sanitàries que s’adoptaran durant la celebració del certamen,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:42.703Z"
+      }
+    },
+    {
+      "id": "2025-11-17#6",
+      "sesion_id": "2025-11-17",
+      "orden": 6,
+      "titulo": "Nom, adreça i telèfon de la persona o persones encarregades de l’organització del",
+      "resultado": null,
+      "texto_redactado": "Nom, adreça i telèfon de la persona o persones encarregades de l’organització del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:42.703Z"
+      }
+    },
+    {
+      "id": "2025-11-17#7",
+      "sesion_id": "2025-11-17",
+      "orden": 7,
+      "titulo": "Normes de participació i memòria justificativa dels mitjans de neteja i desinfecció de les",
+      "resultado": null,
+      "texto_redactado": "Normes de participació i memòria justificativa dels mitjans de neteja i desinfecció de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:42.703Z"
+      }
+    },
+    {
+      "id": "2025-11-17#8",
+      "sesion_id": "2025-11-17",
+      "orden": 8,
+      "titulo": "CRITERIS D’ADJUDICACIÓ",
+      "resultado": null,
+      "texto_redactado": "CRITERIS D’ADJUDICACIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:42.703Z"
+      }
+    },
+    {
+      "id": "2025-11-17#9",
+      "sesion_id": "2025-11-17",
+      "orden": 9,
+      "titulo": "PROCEDIMENT D’ADJUDICACIÓ DELS HABITATGES",
+      "resultado": null,
+      "texto_redactado": "PROCEDIMENT D’ADJUDICACIÓ DELS HABITATGES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:42.703Z"
+      }
+    },
+    {
+      "id": "2025-11-17#10",
+      "sesion_id": "2025-11-17",
+      "orden": 10,
+      "titulo": "COMISSIÓ D’ASSIGNACIÓ D’HABITATGES",
+      "resultado": null,
+      "texto_redactado": "COMISSIÓ D’ASSIGNACIÓ D’HABITATGES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:42.703Z"
+      }
+    },
+    {
+      "id": "2025-11-17#11",
+      "sesion_id": "2025-11-17",
+      "orden": 11,
+      "titulo": "d) de les bases), en el sentit d’eximir de l’obligació de constituir-la o reduir el seu import",
+      "resultado": null,
+      "texto_redactado": "d) de les bases), en el sentit d’eximir de l’obligació de constituir-la o reduir el seu import",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:42.703Z"
+      }
+    },
+    {
+      "id": "2025-11-17#12",
+      "sesion_id": "2025-11-17",
+      "orden": 12,
+      "titulo": "FORMALITZACIÓ DEL CONTRACTE D'ARRENDAMENT/CESSIÓ D’òS",
+      "resultado": null,
+      "texto_redactado": "FORMALITZACIÓ DEL CONTRACTE D'ARRENDAMENT/CESSIÓ D’òS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:42.703Z"
+      }
+    },
+    {
+      "id": "2025-11-17#13",
+      "sesion_id": "2025-11-17",
+      "orden": 13,
+      "titulo": "RESOLUCIÓ CONTRACTUAL",
+      "resultado": null,
+      "texto_redactado": "RESOLUCIÓ CONTRACTUAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:42.703Z"
+      }
+    },
+    {
+      "id": "2025-11-17#14",
+      "sesion_id": "2025-11-17",
+      "orden": 14,
+      "titulo": "INTERPRETACIÓ DE LES BASES D’ADJUDICACIÓ",
+      "resultado": null,
+      "texto_redactado": "INTERPRETACIÓ DE LES BASES D’ADJUDICACIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:42.703Z"
+      }
+    },
+    {
+      "id": "2025-11-17#15",
+      "sesion_id": "2025-11-17",
+      "orden": 15,
+      "titulo": "INTERPRETACIÓ DE LES BASES D’ADJUDICACIÓ",
+      "resultado": null,
+      "texto_redactado": "INTERPRETACIÓ DE LES BASES D’ADJUDICACIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:42.703Z"
+      }
+    }
+  ]
+}

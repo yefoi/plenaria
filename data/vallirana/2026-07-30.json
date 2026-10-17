@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vallirana",
+    "nombre": "Vallirana",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "829560009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-30",
+    "municipio_id": "vallirana",
+    "fecha": "2026-07-30",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/829560009/2026/e30af0ce-2060-485a-b843-14d30c9e9062/Acta%20Ple%2030.07.2026.pdf",
+    "hash_contenido": "5a87e10589551dab3bbfc5fa06bce34c1d4c9c3edca35d72a5f5013ab3cd4b89",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:38:36.943Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-30#1",
+      "sesion_id": "2026-07-30",
+      "orden": 1,
+      "titulo": "Vist que en data 7 d’octubre de 2024, la Junta de Govern Local va aprovar l’expedient",
+      "resultado": null,
+      "texto_redactado": "Vist que en data 7 d’octubre de 2024, la Junta de Govern Local va aprovar l’expedient",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:36.943Z"
+      }
+    },
+    {
+      "id": "2026-07-30#2",
+      "sesion_id": "2026-07-30",
+      "orden": 2,
+      "titulo": "En data 3 de març de 2026, el contractista CARLOS BRICIO VILCHEZ, amb DNI",
+      "resultado": null,
+      "texto_redactado": "En data 3 de març de 2026, el contractista CARLOS BRICIO VILCHEZ, amb DNI",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:36.943Z"
+      }
+    },
+    {
+      "id": "2026-07-30#3",
+      "sesion_id": "2026-07-30",
+      "orden": 3,
+      "titulo": "En data 20 d’abril de 2026, la Tècnica superior de secretaria emet informe proposta en",
+      "resultado": null,
+      "texto_redactado": "En data 20 d’abril de 2026, la Tècnica superior de secretaria emet informe proposta en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:36.943Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,488 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "castellbisbal",
+    "nombre": "Castellbisbal",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "805430008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-25",
+    "municipio_id": "castellbisbal",
+    "fecha": "2026-05-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/805430008/2026/fa779c7b-4f14-4097-9183-b19fa0152fde/Acta%20sessi%f3%205_2026%20del%20Ple%20de%2025-05-2026%20-%20signada.pdf",
+    "hash_contenido": "be7e0e8fe04a62028d3bef54909e2386370a37afe210e19f3d92a714facbdd13",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:40:46.650Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-25#1",
+      "sesion_id": "2026-05-25",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L’ESBORRANY DE L’ACTA DE LA SESSIÓ ORDINÀRIA DEL DIA 27 D’ABRIL DE 2026",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’ESBORRANY DE L’ACTA DE LA SESSIÓ ORDINÀRIA DEL DIA 27 D’ABRIL DE 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:46.650Z"
+      }
+    },
+    {
+      "id": "2026-05-25#2",
+      "sesion_id": "2026-05-25",
+      "orden": 2,
+      "titulo": "ACORD PER APROVAR LA MODIFICACIÓ PRESSUPOSTÀRIA NòM. 13: CRÈDIT EXTRAORDINARI. EXP. 2026/13/IC",
+      "resultado": null,
+      "texto_redactado": "ACORD PER APROVAR LA MODIFICACIÓ PRESSUPOSTÀRIA NòM. 13: CRÈDIT EXTRAORDINARI. EXP. 2026/13/IC",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:46.650Z"
+      }
+    },
+    {
+      "id": "2026-05-25#3",
+      "sesion_id": "2026-05-25",
+      "orden": 3,
+      "titulo": "ACORD PER APROVAR LA MODIFICACIÓ PRESSUPOSTÀRIA NòM. 14: SUPLEMENTS DE CREDITS I CRÈDITS EXTRAORDINARIS. EXP. 2026/14/IC",
+      "resultado": null,
+      "texto_redactado": "ACORD PER APROVAR LA MODIFICACIÓ PRESSUPOSTÀRIA NòM. 14: SUPLEMENTS DE CREDITS I CRÈDITS EXTRAORDINARIS. EXP. 2026/14/IC",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:46.650Z"
+      }
+    },
+    {
+      "id": "2026-05-25#4",
+      "sesion_id": "2026-05-25",
+      "orden": 4,
+      "titulo": "ACORD PER APROVAR PROVISIONALMENT L’ESTABLIMENT DE PREUS PòBLICS PER L’EXCERCICI 2026 I SEGÜENTS, CORRESPONENTS A L’EXPOSICIÓ DE PANCARTES/CARTELLS DE PUBLICITAT D’EMPRESES COL·LABORADORES EN CAMPANYES DE DINAMITZACIÓ COMERCIAL. EXP. 2026/1/ICB",
+      "resultado": null,
+      "texto_redactado": "ACORD PER APROVAR PROVISIONALMENT L’ESTABLIMENT DE PREUS PòBLICS PER L’EXCERCICI 2026 I SEGÜENTS, CORRESPONENTS A L’EXPOSICIÓ DE PANCARTES/CARTELLS DE PUBLICITAT D’EMPRESES COL·LABORADORES EN CAMPANYES DE DINAMITZACIÓ COMERCIAL. EXP. 2026/1/ICB",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:46.650Z"
+      }
+    },
+    {
+      "id": "2026-05-25#5",
+      "sesion_id": "2026-05-25",
+      "orden": 5,
+      "titulo": "ACORD PER NOMENAR ELS MEMBRES DE LA MESA DE CONTRACTACIÓ CORRESPONENTS A LA CONTRACTACIÓ DELS ÒSERVEIS EDUCACTIUS INFANTILS DE PRIMER CICLE I SERVEIS COMPLEMENTARIS EN L’EBM LA CASETAÓ. EXP.",
+      "resultado": null,
+      "texto_redactado": "ACORD PER NOMENAR ELS MEMBRES DE LA MESA DE CONTRACTACIÓ CORRESPONENTS A LA CONTRACTACIÓ DELS ÒSERVEIS EDUCACTIUS INFANTILS DE PRIMER CICLE I SERVEIS COMPLEMENTARIS EN L’EBM LA CASETAÓ. EXP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:46.650Z"
+      }
+    },
+    {
+      "id": "2026-05-25#6",
+      "sesion_id": "2026-05-25",
+      "orden": 6,
+      "titulo": "ACORD PER ACTUALITZAR ELS MEMBRES INTEGRANTS DE LES DIFERENTS COMISSIONS, DE LA JUNTA DE PORTAVEUS I D’ALTRES ÒRGANS. EXP. 2026/7/GBF.-",
+      "resultado": null,
+      "texto_redactado": "ACORD PER ACTUALITZAR ELS MEMBRES INTEGRANTS DE LES DIFERENTS COMISSIONS, DE LA JUNTA DE PORTAVEUS I D’ALTRES ÒRGANS. EXP. 2026/7/GBF.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:46.650Z"
+      }
+    },
+    {
+      "id": "2026-05-25#7",
+      "sesion_id": "2026-05-25",
+      "orden": 7,
+      "titulo": "Comissió Interdepartamental de seguiment de l’ús de la llengua catalana:",
+      "resultado": null,
+      "texto_redactado": "Comissió Interdepartamental de seguiment de l’ús de la llengua catalana:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:46.650Z"
+      }
+    },
+    {
+      "id": "2026-05-25#8",
+      "sesion_id": "2026-05-25",
+      "orden": 8,
+      "titulo": "Consell de Cooperació",
+      "resultado": null,
+      "texto_redactado": "Consell de Cooperació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:46.650Z"
+      }
+    },
+    {
+      "id": "2026-05-25#9",
+      "sesion_id": "2026-05-25",
+      "orden": 9,
+      "titulo": "Consell Municipal de Salut",
+      "resultado": null,
+      "texto_redactado": "Consell Municipal de Salut",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:46.650Z"
+      }
+    },
+    {
+      "id": "2026-05-25#10",
+      "sesion_id": "2026-05-25",
+      "orden": 10,
+      "titulo": "Consell Urbà de Castellbisbal",
+      "resultado": null,
+      "texto_redactado": "Consell Urbà de Castellbisbal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional",
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:46.650Z"
+      }
+    },
+    {
+      "id": "2026-05-25#11",
+      "sesion_id": "2026-05-25",
+      "orden": 11,
+      "titulo": "Consell dels Infants i Adolescents",
+      "resultado": null,
+      "texto_redactado": "Consell dels Infants i Adolescents",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:46.650Z"
+      }
+    },
+    {
+      "id": "2026-05-25#12",
+      "sesion_id": "2026-05-25",
+      "orden": 12,
+      "titulo": "Comissió interdepartamental d’Innovació, Transformació digital i Gestió del",
+      "resultado": null,
+      "texto_redactado": "Comissió interdepartamental d’Innovació, Transformació digital i Gestió del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:46.650Z"
+      }
+    },
+    {
+      "id": "2026-05-25#13",
+      "sesion_id": "2026-05-25",
+      "orden": 13,
+      "titulo": "Comissió de Seguiment del Canal de Denúncies-Bústia Ètica",
+      "resultado": null,
+      "texto_redactado": "Comissió de Seguiment del Canal de Denúncies-Bústia Ètica",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:46.650Z"
+      }
+    },
+    {
+      "id": "2026-05-25#14",
+      "sesion_id": "2026-05-25",
+      "orden": 14,
+      "titulo": "Xarxa Local de Consum",
+      "resultado": null,
+      "texto_redactado": "Xarxa Local de Consum",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:46.650Z"
+      }
+    },
+    {
+      "id": "2026-05-25#15",
+      "sesion_id": "2026-05-25",
+      "orden": 15,
+      "titulo": "Associació de Municipis per la Independència",
+      "resultado": null,
+      "texto_redactado": "Associació de Municipis per la Independència",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:46.650Z"
+      }
+    },
+    {
+      "id": "2026-05-25#16",
+      "sesion_id": "2026-05-25",
+      "orden": 16,
+      "titulo": "Comissió de Seguiment Conveni de Col·laboració entre l’AMB i l’Ajuntament de",
+      "resultado": null,
+      "texto_redactado": "Comissió de Seguiment Conveni de Col·laboració entre l’AMB i l’Ajuntament de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:46.650Z"
+      }
+    },
+    {
+      "id": "2026-05-25#17",
+      "sesion_id": "2026-05-25",
+      "orden": 17,
+      "titulo": "Associació de Municipis i Entitats per l’Energia Pública. (AMEP)",
+      "resultado": null,
+      "texto_redactado": "Associació de Municipis i Entitats per l’Energia Pública. (AMEP)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:46.650Z"
+      }
+    },
+    {
+      "id": "2026-05-25#18",
+      "sesion_id": "2026-05-25",
+      "orden": 18,
+      "titulo": "Entitat mercantil Tractament i Selecció de Residus S.A (TERSA)",
+      "resultado": null,
+      "texto_redactado": "Entitat mercantil Tractament i Selecció de Residus S.A (TERSA)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "medio_ambiente",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:46.650Z"
+      }
+    },
+    {
+      "id": "2026-05-25#19",
+      "sesion_id": "2026-05-25",
+      "orden": 19,
+      "titulo": "Consorci per a la gestió de residus del Vallès Occidental",
+      "resultado": null,
+      "texto_redactado": "Consorci per a la gestió de residus del Vallès Occidental",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "medio_ambiente",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:46.650Z"
+      }
+    }
+  ]
+}

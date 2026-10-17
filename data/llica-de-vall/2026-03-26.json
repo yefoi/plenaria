@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "llica-de-vall",
+    "nombre": "Lliçà de Vall",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "810810007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-03-26",
+    "municipio_id": "llica-de-vall",
+    "fecha": "2026-03-26",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/810810007/2026/b97e4d7b-49f4-43ff-af36-39d2d3d517b8/Acta%20Ple%202.2026%20-%2026.03.2026.pdf",
+    "hash_contenido": "ccdf43fa11cbe7304628abc6c448e93fe4b4eabd21bb2d1802a7b9e340928ff4",
+    "estado_ingesta": "requiere_ocr",
+    "actualizada_en": "2026-10-17T10:31:28.019Z"
+  },
+  "puntos": []
+}

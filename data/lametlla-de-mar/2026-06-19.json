@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "lametlla-de-mar",
+    "nombre": "L'Ametlla de Mar",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4301360009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-19",
+    "municipio_id": "lametlla-de-mar",
+    "fecha": "2026-06-19",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4301360009/2026/e89fd22a-e580-477d-b291-e89bdae93702/Acta%20PLE%207_2026%20de%2019_06_2026.pdf",
+    "hash_contenido": "269c231b6d128335ea56c65be4818f55c35757f9572bbe661e4c581005305c87",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:44:51.330Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-19#1",
+      "sesion_id": "2026-06-19",
+      "orden": 1,
+      "titulo": "Aprovació del caràcter urgent d’aquesta convocatòria",
+      "resultado": null,
+      "texto_redactado": "Aprovació del caràcter urgent d’aquesta convocatòria",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:51.329Z"
+      }
+    },
+    {
+      "id": "2026-06-19#2",
+      "sesion_id": "2026-06-19",
+      "orden": 2,
+      "titulo": "Expedient 1065/2026. Estudi i resolució, si s’escau, de les al·legacions",
+      "resultado": null,
+      "texto_redactado": "Expedient 1065/2026. Estudi i resolució, si s’escau, de les al·legacions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:51.329Z"
+      }
+    },
+    {
+      "id": "2026-06-19#3",
+      "sesion_id": "2026-06-19",
+      "orden": 3,
+      "titulo": "En referència a l’al·legació 4, vistes les argumentacions de les",
+      "resultado": null,
+      "texto_redactado": "En referència a l’al·legació 4, vistes les argumentacions de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:51.329Z"
+      }
+    },
+    {
+      "id": "2026-06-19#4",
+      "sesion_id": "2026-06-19",
+      "orden": 4,
+      "titulo": "En sessió plenària de 19 de juny de 2026 s’ha aprovat desestimar la reclamació",
+      "resultado": null,
+      "texto_redactado": "En sessió plenària de 19 de juny de 2026 s’ha aprovat desestimar la reclamació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:51.329Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "llinars-del-valles",
+    "nombre": "Llinars del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "810690004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2025-12-22",
+    "municipio_id": "llinars-del-valles",
+    "fecha": "2025-12-22",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/810690004/2025/0beae096-a3cb-407d-b323-2081adc9af47/Acta%20Ple%20extraordinari%2022-12-2025.pdf",
+    "hash_contenido": "be1483b733f072609ba077668c06b0d9a61f54ab95cdcc2623a1d7e635737fdd",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:41:45.734Z"
+  },
+  "puntos": [
+    {
+      "id": "2025-12-22#1",
+      "sesion_id": "2025-12-22",
+      "orden": 1,
+      "titulo": "Expedient 8607/2025. Resolució de les al·legacions presentades i aprovació",
+      "resultado": null,
+      "texto_redactado": "Expedient 8607/2025. Resolució de les al·legacions presentades i aprovació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:45.734Z"
+      }
+    },
+    {
+      "id": "2025-12-22#2",
+      "sesion_id": "2025-12-22",
+      "orden": 2,
+      "titulo": "En l’escrit d’al·legacions presentat en data 24 de novembre de 2025 hi ha un total de 3",
+      "resultado": null,
+      "texto_redactado": "En l’escrit d’al·legacions presentat en data 24 de novembre de 2025 hi ha un total de 3",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:45.734Z"
+      }
+    },
+    {
+      "id": "2025-12-22#3",
+      "sesion_id": "2025-12-22",
+      "orden": 3,
+      "titulo": "En relació a l’exposat en l’apartat segon, s’analitzen cadascuna de les manifestacions de",
+      "resultado": null,
+      "texto_redactado": "En relació a l’exposat en l’apartat segon, s’analitzen cadascuna de les manifestacions de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:45.734Z"
+      }
+    },
+    {
+      "id": "2025-12-22#4",
+      "sesion_id": "2025-12-22",
+      "orden": 4,
+      "titulo": "En relació a la sisena al·legació presentada que porta per títol Òabsència de documents",
+      "resultado": null,
+      "texto_redactado": "En relació a la sisena al·legació presentada que porta per títol Òabsència de documents",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:45.734Z"
+      }
+    }
+  ]
+}

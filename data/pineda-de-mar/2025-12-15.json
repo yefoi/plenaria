@@ -1,0 +1,243 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "pineda-de-mar",
+    "nombre": "Pineda de Mar",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "816350006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2025-12-15",
+    "municipio_id": "pineda-de-mar",
+    "fecha": "2025-12-15",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/816350006/2025/90392abe-3fde-43a7-b790-cc0e7892ebbd/ActaPle_2025_12_15LOPD.pdf",
+    "hash_contenido": "bae4da2dad07cce09ca66c30c46f906ae7374f1b7c6bdc7f730db5ae6c6ab480",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:36:00.783Z"
+  },
+  "puntos": [
+    {
+      "id": "2025-12-15#1",
+      "sesion_id": "2025-12-15",
+      "orden": 1,
+      "titulo": "Lectura i aprovació, si escau de l’esborrany de l’acta de la sessió anterior",
+      "resultado": null,
+      "texto_redactado": "Lectura i aprovació, si escau de l’esborrany de l’acta de la sessió anterior",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:00.783Z"
+      }
+    },
+    {
+      "id": "2025-12-15#2",
+      "sesion_id": "2025-12-15",
+      "orden": 2,
+      "titulo": "9550/2024 - Medi Ambient",
+      "resultado": null,
+      "texto_redactado": "9550/2024 - Medi Ambient",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:00.783Z"
+      }
+    },
+    {
+      "id": "2025-12-15#3",
+      "sesion_id": "2025-12-15",
+      "orden": 3,
+      "titulo": "9676/2025 - Intervenció Municipal",
+      "resultado": null,
+      "texto_redactado": "9676/2025 - Intervenció Municipal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:00.783Z"
+      }
+    },
+    {
+      "id": "2025-12-15#4",
+      "sesion_id": "2025-12-15",
+      "orden": 4,
+      "titulo": "10288/2025 - Intervenció municipal",
+      "resultado": null,
+      "texto_redactado": "10288/2025 - Intervenció municipal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:00.783Z"
+      }
+    },
+    {
+      "id": "2025-12-15#5",
+      "sesion_id": "2025-12-15",
+      "orden": 5,
+      "titulo": "10289/2025 - Intervenció municipal",
+      "resultado": null,
+      "texto_redactado": "10289/2025 - Intervenció municipal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:00.783Z"
+      }
+    },
+    {
+      "id": "2025-12-15#6",
+      "sesion_id": "2025-12-15",
+      "orden": 6,
+      "titulo": "7716/2025 - Intervenció Municipal.",
+      "resultado": null,
+      "texto_redactado": "7716/2025 - Intervenció Municipal.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:00.783Z"
+      }
+    },
+    {
+      "id": "2025-12-15#7",
+      "sesion_id": "2025-12-15",
+      "orden": 7,
+      "titulo": "6058/2025 - Contractació i compres.",
+      "resultado": null,
+      "texto_redactado": "6058/2025 - Contractació i compres.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:00.783Z"
+      }
+    },
+    {
+      "id": "2025-12-15#8",
+      "sesion_id": "2025-12-15",
+      "orden": 8,
+      "titulo": "2669/2025 – Urbanisme",
+      "resultado": null,
+      "texto_redactado": "2669/2025 – Urbanisme",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:00.783Z"
+      }
+    },
+    {
+      "id": "2025-12-15#9",
+      "sesion_id": "2025-12-15",
+      "orden": 9,
+      "titulo": "10079/2025 - Urbanisme",
+      "resultado": null,
+      "texto_redactado": "10079/2025 - Urbanisme",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:00.783Z"
+      }
+    }
+  ]
+}

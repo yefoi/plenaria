@@ -1,0 +1,387 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "abrera",
+    "nombre": "Abrera",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "800180001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-28",
+    "municipio_id": "abrera",
+    "fecha": "2026-05-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/800180001/2026/821c7f05-e3d9-4b77-847e-30aa5a77fac8/ACTA%20DE%20PLE%202026-0005%20[ACTA%20PLE%2028-05-2026].pdf",
+    "hash_contenido": "c392c4bbca9d9ffcac345d625285b15393b1729bad02d276630c7e72b18b0197",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:40:26.993Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-28#1",
+      "sesion_id": "2026-05-28",
+      "orden": 1,
+      "titulo": "Aprovació de de les actes de les sessions anteriors; ordinària de data 26-03-",
+      "resultado": null,
+      "texto_redactado": "Aprovació de de les actes de les sessions anteriors; ordinària de data 26-03-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:26.993Z"
+      }
+    },
+    {
+      "id": "2026-05-28#2",
+      "sesion_id": "2026-05-28",
+      "orden": 2,
+      "titulo": "Expedient 3052/2026. Ratificació de l'acord d'Adhesió de l'Ajuntament d’Abrera",
+      "resultado": null,
+      "texto_redactado": "Expedient 3052/2026. Ratificació de l'acord d'Adhesió de l'Ajuntament d’Abrera",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:26.993Z"
+      }
+    },
+    {
+      "id": "2026-05-28#3",
+      "sesion_id": "2026-05-28",
+      "orden": 3,
+      "titulo": "Expedient 3678/2026. Adhesió a la ÒRed de Ciudades que CaminanÓ.",
+      "resultado": null,
+      "texto_redactado": "Expedient 3678/2026. Adhesió a la ÒRed de Ciudades que CaminanÓ.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:26.993Z"
+      }
+    },
+    {
+      "id": "2026-05-28#4",
+      "sesion_id": "2026-05-28",
+      "orden": 4,
+      "titulo": "Expedient 3713/2026. Adhesió a la Xarxa de pobles i ciutats pels Drets",
+      "resultado": null,
+      "texto_redactado": "Expedient 3713/2026. Adhesió a la Xarxa de pobles i ciutats pels Drets",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:26.993Z"
+      }
+    },
+    {
+      "id": "2026-05-28#5",
+      "sesion_id": "2026-05-28",
+      "orden": 5,
+      "titulo": "Expedient 3708/2026. Aprovació de l’expedient de modificació al Pressupost",
+      "resultado": null,
+      "texto_redactado": "Expedient 3708/2026. Aprovació de l’expedient de modificació al Pressupost",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:26.993Z"
+      }
+    },
+    {
+      "id": "2026-05-28#6",
+      "sesion_id": "2026-05-28",
+      "orden": 6,
+      "titulo": "Expedient 3465/2026. Moció presentada per VOX per la prioritat nacional",
+      "resultado": null,
+      "texto_redactado": "Expedient 3465/2026. Moció presentada per VOX per la prioritat nacional",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:26.993Z"
+      }
+    },
+    {
+      "id": "2026-05-28#7",
+      "sesion_id": "2026-05-28",
+      "orden": 7,
+      "titulo": "Expedient 3726/2026. Moció presentada per VOX per a la retransmissió en",
+      "resultado": null,
+      "texto_redactado": "Expedient 3726/2026. Moció presentada per VOX per a la retransmissió en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:26.993Z"
+      }
+    },
+    {
+      "id": "2026-05-28#8",
+      "sesion_id": "2026-05-28",
+      "orden": 8,
+      "titulo": "Expedient 3739/2026. Moció presentada pel PSC d'adhesió al Pacte Nacional",
+      "resultado": null,
+      "texto_redactado": "Expedient 3739/2026. Moció presentada pel PSC d'adhesió al Pacte Nacional",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:26.993Z"
+      }
+    },
+    {
+      "id": "2026-05-28#9",
+      "sesion_id": "2026-05-28",
+      "orden": 9,
+      "titulo": "Urgències.",
+      "resultado": null,
+      "texto_redactado": "Urgències.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:26.993Z"
+      }
+    },
+    {
+      "id": "2026-05-28#10",
+      "sesion_id": "2026-05-28",
+      "orden": 10,
+      "titulo": "Expedient 1789/2026. Dació en compte del Decret d’Alcaldia núm. 2026-0666,",
+      "resultado": null,
+      "texto_redactado": "Expedient 1789/2026. Dació en compte del Decret d’Alcaldia núm. 2026-0666,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:26.993Z"
+      }
+    },
+    {
+      "id": "2026-05-28#11",
+      "sesion_id": "2026-05-28",
+      "orden": 11,
+      "titulo": "Expedient 2954/2026. Dació en compte del període mitjà de pagament",
+      "resultado": null,
+      "texto_redactado": "Expedient 2954/2026. Dació en compte del període mitjà de pagament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:26.993Z"
+      }
+    },
+    {
+      "id": "2026-05-28#12",
+      "sesion_id": "2026-05-28",
+      "orden": 12,
+      "titulo": "Expedient 2957/2026. Dació de compte dels informes trimestrals morositat 1r",
+      "resultado": null,
+      "texto_redactado": "Expedient 2957/2026. Dació de compte dels informes trimestrals morositat 1r",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:26.993Z"
+      }
+    },
+    {
+      "id": "2026-05-28#13",
+      "sesion_id": "2026-05-28",
+      "orden": 13,
+      "titulo": "Expedient 3604/2026. Dació en compte execució pressupostària 1r trimestre de",
+      "resultado": null,
+      "texto_redactado": "Expedient 3604/2026. Dació en compte execució pressupostària 1r trimestre de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:26.993Z"
+      }
+    },
+    {
+      "id": "2026-05-28#14",
+      "sesion_id": "2026-05-28",
+      "orden": 14,
+      "titulo": "Expedient 3448/2026. Donar compte al Ple de la relació de decrets (del núm.",
+      "resultado": null,
+      "texto_redactado": "Expedient 3448/2026. Donar compte al Ple de la relació de decrets (del núm.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:26.993Z"
+      }
+    },
+    {
+      "id": "2026-05-28#15",
+      "sesion_id": "2026-05-28",
+      "orden": 15,
+      "titulo": "PUNT. Prec i Preguntes.",
+      "resultado": null,
+      "texto_redactado": "PUNT. Prec i Preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:26.993Z"
+      }
+    }
+  ]
+}

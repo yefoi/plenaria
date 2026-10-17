@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-fruitos-de-bages",
+    "nombre": "Sant Fruitós de Bages",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "821350006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-11",
+    "municipio_id": "sant-fruitos-de-bages",
+    "fecha": "2026-06-11",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/821350006/2026/a5e7ea11-ea54-4cf0-8583-f65680a7f0d0/20260722%20TRAMESA.pdf",
+    "hash_contenido": "21a80982ee9a84f5a7975c4389aa217bbd3f9a759344cb1abcf5957de16b885a",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-17T10:42:55.566Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-11#1",
+      "sesion_id": "2026-06-11",
+      "orden": 1,
+      "titulo": "Pàgina 1 de 1 [DIRECCIÓN] – Sant Fruitós de Bages (08272) - BARCELONA Telèfon 93 878 97 00 – Fax 93 876 04 86 • Poden descarregar l’acta del Ple de data 11.06.2026 (ordinari) al següent enllaç:",
+      "resultado": null,
+      "texto_redactado": "Pàgina 1 de 1 [DIRECCIÓN] – Sant Fruitós de Bages (08272) - BARCELONA Telèfon 93 878 97 00 – Fax 93 876 04 86 • Poden descarregar l’acta del Ple de data 11.06.2026 (ordinari) al següent enllaç:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:55.566Z"
+      }
+    }
+  ]
+}

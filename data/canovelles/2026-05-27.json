@@ -1,0 +1,581 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "canovelles",
+    "nombre": "Canovelles",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "804100000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-27",
+    "municipio_id": "canovelles",
+    "fecha": "2026-05-27",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/804100000/2026/2a0a53bd-902c-4fd2-971e-70b346241c0c/Acta%20de%20la%20sessi%f3%20celebrada%20el%20dia%2027%20de%20maig%20de%202026.pdf",
+    "hash_contenido": "469ed93f45f537ed2f2d0e7718d74372bce6e4e2be5583962da868f746ed5b29",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:38:07.072Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-27#1",
+      "sesion_id": "2026-05-27",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta de la sessió celebrada el dia 25 de març de 2026.",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’acta de la sessió celebrada el dia 25 de març de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    },
+    {
+      "id": "2026-05-27#2",
+      "sesion_id": "2026-05-27",
+      "orden": 2,
+      "titulo": "Donar compte de la informació tramesa al Ministeri d’Hisenda i a la Generalitat de",
+      "resultado": null,
+      "texto_redactado": "Donar compte de la informació tramesa al Ministeri d’Hisenda i a la Generalitat de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    },
+    {
+      "id": "2026-05-27#3",
+      "sesion_id": "2026-05-27",
+      "orden": 3,
+      "titulo": "L’article 4 de la Llei 15/2010, de 5 de juliol, de modificació de la Llei 3/2004, de 29 de",
+      "resultado": null,
+      "texto_redactado": "L’article 4 de la Llei 15/2010, de 5 de juliol, de modificació de la Llei 3/2004, de 29 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    },
+    {
+      "id": "2026-05-27#4",
+      "sesion_id": "2026-05-27",
+      "orden": 4,
+      "titulo": "Els articles 36 i 37 del Reial decret 424/2017, de 28 d’abril, pel qual es regula el règim",
+      "resultado": null,
+      "texto_redactado": "Els articles 36 i 37 del Reial decret 424/2017, de 28 d’abril, pel qual es regula el règim",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    },
+    {
+      "id": "2026-05-27#5",
+      "sesion_id": "2026-05-27",
+      "orden": 5,
+      "titulo": "Els article 4.1i 53 del Reial Decret128/2018, de 16 de març, pel qual es regula el règim",
+      "resultado": null,
+      "texto_redactado": "Els article 4.1i 53 del Reial Decret128/2018, de 16 de març, pel qual es regula el règim",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    },
+    {
+      "id": "2026-05-27#6",
+      "sesion_id": "2026-05-27",
+      "orden": 6,
+      "titulo": "Proposta d’aprovació de modificació de pressupost número 2/2026. Expedient",
+      "resultado": null,
+      "texto_redactado": "Proposta d’aprovació de modificació de pressupost número 2/2026. Expedient",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    },
+    {
+      "id": "2026-05-27#7",
+      "sesion_id": "2026-05-27",
+      "orden": 7,
+      "titulo": "Proposta d’aprovació de l’encàrrec de gestió al Consorci per a la Gestió dels",
+      "resultado": null,
+      "texto_redactado": "Proposta d’aprovació de l’encàrrec de gestió al Consorci per a la Gestió dels",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    },
+    {
+      "id": "2026-05-27#8",
+      "sesion_id": "2026-05-27",
+      "orden": 8,
+      "titulo": "D’acord amb l’article 3 dels seus estatuts, el CONSORCI esta integrat per: a) El",
+      "resultado": null,
+      "texto_redactado": "D’acord amb l’article 3 dels seus estatuts, el CONSORCI esta integrat per: a) El",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    },
+    {
+      "id": "2026-05-27#9",
+      "sesion_id": "2026-05-27",
+      "orden": 9,
+      "titulo": "Que el CONSORCI té per objecte la gestió unificada de les activitats i serveis en",
+      "resultado": null,
+      "texto_redactado": "Que el CONSORCI té per objecte la gestió unificada de les activitats i serveis en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    },
+    {
+      "id": "2026-05-27#10",
+      "sesion_id": "2026-05-27",
+      "orden": 10,
+      "titulo": "Que el CONSORCI gaudeix de personalitat jurídica pròpia i de plena capacitat jurídica i",
+      "resultado": null,
+      "texto_redactado": "Que el CONSORCI gaudeix de personalitat jurídica pròpia i de plena capacitat jurídica i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    },
+    {
+      "id": "2026-05-27#11",
+      "sesion_id": "2026-05-27",
+      "orden": 11,
+      "titulo": "Que l'AJUNTAMENT, en virtut del que disposen els articles 25.2 i 26 de la Llei 7/1985,",
+      "resultado": null,
+      "texto_redactado": "Que l'AJUNTAMENT, en virtut del que disposen els articles 25.2 i 26 de la Llei 7/1985,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    },
+    {
+      "id": "2026-05-27#12",
+      "sesion_id": "2026-05-27",
+      "orden": 12,
+      "titulo": "Que el Ple de l’AJUNTAMENT, en sessió ordinària de 23 de juliol de 2024, va aprovar",
+      "resultado": null,
+      "texto_redactado": "Que el Ple de l’AJUNTAMENT, en sessió ordinària de 23 de juliol de 2024, va aprovar",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    },
+    {
+      "id": "2026-05-27#13",
+      "sesion_id": "2026-05-27",
+      "orden": 13,
+      "titulo": "Que, segons les dades de l’Agència de Residus de Catalunya, el municipi de",
+      "resultado": null,
+      "texto_redactado": "Que, segons les dades de l’Agència de Residus de Catalunya, el municipi de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    },
+    {
+      "id": "2026-05-27#14",
+      "sesion_id": "2026-05-27",
+      "orden": 14,
+      "titulo": "Que la situació actual del servei es veu agreujada per l’estat de degradació del parc de",
+      "resultado": null,
+      "texto_redactado": "Que la situació actual del servei es veu agreujada per l’estat de degradació del parc de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    },
+    {
+      "id": "2026-05-27#15",
+      "sesion_id": "2026-05-27",
+      "orden": 15,
+      "titulo": "Que per assolir els objectius normatius, millorar l'eficiència del servei i avançar cap a la",
+      "resultado": null,
+      "texto_redactado": "Que per assolir els objectius normatius, millorar l'eficiència del servei i avançar cap a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    },
+    {
+      "id": "2026-05-27#16",
+      "sesion_id": "2026-05-27",
+      "orden": 16,
+      "titulo": "Donar compte de les actes de la Junta de Govern Local i Decrets d’Alcaldia. C) PRECS I PREGUNTES A) PART RESOLUTIVA",
+      "resultado": null,
+      "texto_redactado": "Donar compte de les actes de la Junta de Govern Local i Decrets d’Alcaldia. C) PRECS I PREGUNTES A) PART RESOLUTIVA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    },
+    {
+      "id": "2026-05-27#17",
+      "sesion_id": "2026-05-27",
+      "orden": 17,
+      "titulo": "Que el CONSORCI, per la seva banda, compta amb l'experiència, l'especialització i els",
+      "resultado": null,
+      "texto_redactado": "Que el CONSORCI, per la seva banda, compta amb l'experiència, l'especialització i els",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    },
+    {
+      "id": "2026-05-27#18",
+      "sesion_id": "2026-05-27",
+      "orden": 18,
+      "titulo": "Que l’article 11 de la Llei 40/2015, d’1 d’octubre, de règim jurídic del sector públic,",
+      "resultado": null,
+      "texto_redactado": "Que l’article 11 de la Llei 40/2015, d’1 d’octubre, de règim jurídic del sector públic,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    },
+    {
+      "id": "2026-05-27#19",
+      "sesion_id": "2026-05-27",
+      "orden": 19,
+      "titulo": "Que el Ple de l’AJUNTAMENT, en sessió ordinària de 22 de juliol de 2025 va aprovar el",
+      "resultado": null,
+      "texto_redactado": "Que el Ple de l’AJUNTAMENT, en sessió ordinària de 22 de juliol de 2025 va aprovar el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    },
+    {
+      "id": "2026-05-27#20",
+      "sesion_id": "2026-05-27",
+      "orden": 20,
+      "titulo": "Que, en aquest context, ambdues parts consideren que la figura de l’encàrrec de gestió",
+      "resultado": null,
+      "texto_redactado": "Que, en aquest context, ambdues parts consideren que la figura de l’encàrrec de gestió",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    },
+    {
+      "id": "2026-05-27#21",
+      "sesion_id": "2026-05-27",
+      "orden": 21,
+      "titulo": "Que l’AJUNTAMENT exercirà en tot moment les funcions de direcció, supervisió,",
+      "resultado": null,
+      "texto_redactado": "Que l’AJUNTAMENT exercirà en tot moment les funcions de direcció, supervisió,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    },
+    {
+      "id": "2026-05-27#22",
+      "sesion_id": "2026-05-27",
+      "orden": 22,
+      "titulo": "Que ambdues parts, en l’àmbit de les seves respectives competències, han acordat les",
+      "resultado": null,
+      "texto_redactado": "Que ambdues parts, en l’àmbit de les seves respectives competències, han acordat les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    },
+    {
+      "id": "2026-05-27#23",
+      "sesion_id": "2026-05-27",
+      "orden": 23,
+      "titulo": "Que ambdues parts es reconeixen mútuament la capacitat jurídica suficient per",
+      "resultado": null,
+      "texto_redactado": "Que ambdues parts es reconeixen mútuament la capacitat jurídica suficient per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:07.072Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "balaguer",
+    "nombre": "Balaguer",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2504040003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-25",
+    "municipio_id": "balaguer",
+    "fecha": "2026-06-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2504040003/2026/aee38ed8-2037-422b-b6ae-8dd693cbee05/Acta%20Ple%20ordinari%20de%2025%20de%20juny%20de%202026.pdf",
+    "hash_contenido": "a26407d6d216d947dd328a6ff3ff742a04094f834f943b1823c99ba2ffa97602",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:37:51.708Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-25#1",
+      "sesion_id": "2026-06-25",
+      "orden": 1,
+      "titulo": "De conformitat amb els Estatuts de l’Institut Municipal Progrés i Cultura, l’IMPIC és unCodi Validació: 3JHSSECTG67AY4DG9PQPAQ2R6",
+      "resultado": null,
+      "texto_redactado": "De conformitat amb els Estatuts de l’Institut Municipal Progrés i Cultura, l’IMPIC és unCodi Validació: 3JHSSECTG67AY4DG9PQPAQ2R6",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:51.708Z"
+      }
+    },
+    {
+      "id": "2026-06-25#2",
+      "sesion_id": "2026-06-25",
+      "orden": 2,
+      "titulo": "De conformitat amb l’article 29 de la Llei 17/1990, de 2 de novembre, de museus, els",
+      "resultado": null,
+      "texto_redactado": "De conformitat amb l’article 29 de la Llei 17/1990, de 2 de novembre, de museus, els",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:51.708Z"
+      }
+    },
+    {
+      "id": "2026-06-25#3",
+      "sesion_id": "2026-06-25",
+      "orden": 3,
+      "titulo": "Part dispositiva",
+      "resultado": null,
+      "texto_redactado": "Part dispositiva",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:51.708Z"
+      }
+    },
+    {
+      "id": "2026-06-25#4",
+      "sesion_id": "2026-06-25",
+      "orden": 4,
+      "titulo": "El Pla de Museus de Catalunya. Museus 2030 es va presentar el 22 de setembre del 2017",
+      "resultado": null,
+      "texto_redactado": "El Pla de Museus de Catalunya. Museus 2030 es va presentar el 22 de setembre del 2017",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:51.708Z"
+      }
+    },
+    {
+      "id": "2026-06-25#5",
+      "sesion_id": "2026-06-25",
+      "orden": 5,
+      "titulo": "El Museu de la Noguera té la consideració de Museu de Suport Territorial, aprovat i",
+      "resultado": null,
+      "texto_redactado": "El Museu de la Noguera té la consideració de Museu de Suport Territorial, aprovat i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:51.708Z"
+      }
+    },
+    {
+      "id": "2026-06-25#6",
+      "sesion_id": "2026-06-25",
+      "orden": 6,
+      "titulo": "És voluntat d’ambdues institucions establir una col·laboració que, de manera continuada,",
+      "resultado": null,
+      "texto_redactado": "És voluntat d’ambdues institucions establir una col·laboració que, de manera continuada,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:51.708Z"
+      }
+    },
+    {
+      "id": "2026-06-25#7",
+      "sesion_id": "2026-06-25",
+      "orden": 7,
+      "titulo": "Que el Departament de Drets Socials i Inclusió, a través de la Direcció General d'Acció",
+      "resultado": null,
+      "texto_redactado": "Que el Departament de Drets Socials i Inclusió, a través de la Direcció General d'Acció",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:51.708Z"
+      }
+    },
+    {
+      "id": "2026-06-25#8",
+      "sesion_id": "2026-06-25",
+      "orden": 8,
+      "titulo": "Que l'lnstitut Municipal de Progrés i Cultura, organisme autònom de l'Ajuntament de",
+      "resultado": null,
+      "texto_redactado": "Que l'lnstitut Municipal de Progrés i Cultura, organisme autònom de l'Ajuntament de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:51.708Z"
+      }
+    },
+    {
+      "id": "2026-06-25#9",
+      "sesion_id": "2026-06-25",
+      "orden": 9,
+      "titulo": "Que en el si del Departament de Drets Socials i Inclusió, la Direcció General d’Acció",
+      "resultado": null,
+      "texto_redactado": "Que en el si del Departament de Drets Socials i Inclusió, la Direcció General d’Acció",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:51.708Z"
+      }
+    },
+    {
+      "id": "2026-06-25#10",
+      "sesion_id": "2026-06-25",
+      "orden": 10,
+      "titulo": "Que el Departament de Drets Socials i Inclusió hi té ubicat des de 1999, un Casal CívicCodi Validació: 3JHSSECTG67AY4DG9PQPAQ2R6",
+      "resultado": null,
+      "texto_redactado": "Que el Departament de Drets Socials i Inclusió hi té ubicat des de 1999, un Casal CívicCodi Validació: 3JHSSECTG67AY4DG9PQPAQ2R6",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:51.708Z"
+      }
+    },
+    {
+      "id": "2026-06-25#11",
+      "sesion_id": "2026-06-25",
+      "orden": 11,
+      "titulo": "Que el Departament de Drets Socials i Inclusió ocupa una superfície de 549,67 m2 dels",
+      "resultado": null,
+      "texto_redactado": "Que el Departament de Drets Socials i Inclusió ocupa una superfície de 549,67 m2 dels",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:51.708Z"
+      }
+    },
+    {
+      "id": "2026-06-25#12",
+      "sesion_id": "2026-06-25",
+      "orden": 12,
+      "titulo": "Per tot això, les parts acorden subscriure el present conveni, subjecte a les següents :",
+      "resultado": null,
+      "texto_redactado": "Per tot això, les parts acorden subscriure el present conveni, subjecte a les següents :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:51.708Z"
+      }
+    }
+  ]
+}

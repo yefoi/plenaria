@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "bescano",
+    "nombre": "Bescanó",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1702090004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2025-10-28",
+    "municipio_id": "bescano",
+    "fecha": "2025-10-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1702090004/2025/cdcab7f9-c7c3-4ada-8a56-8e8f8669c057/Ple%20281025.pdf",
+    "hash_contenido": "c13ac1180a74bf1a19e09e152b6b9e58df4f438adb006c119967fe86263088c0",
+    "estado_ingesta": "redactada",
+    "actualizada_en": "2026-10-17T10:34:15.445Z"
+  },
+  "puntos": [
+    {
+      "id": "2025-10-28#1",
+      "sesion_id": "2025-10-28",
+      "orden": 1,
+      "titulo": "Modalitats de l´expedient de modificació:",
+      "resultado": null,
+      "texto_redactado": "Modalitats de l´expedient de modificació:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2025-10-28#2",
+      "sesion_id": "2025-10-28",
+      "orden": 2,
+      "titulo": "Estat del RLTDG-2024:",
+      "resultado": null,
+      "texto_redactado": "Estat del RLTDG-2024:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2025-10-28#3",
+      "sesion_id": "2025-10-28",
+      "orden": 3,
+      "titulo": "Estat del pressupost per capítols:",
+      "resultado": null,
+      "texto_redactado": "Estat del pressupost per capítols:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "lametlla-de-mar",
+    "nombre": "L'Ametlla de Mar",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4301360009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-21",
+    "municipio_id": "lametlla-de-mar",
+    "fecha": "2026-05-21",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4301360009/2026/47c71c3e-6f28-4e02-ae9f-2ce0708dbf72/Acta%20PLE%206_2026%20de%2021_05_2026.pdf",
+    "hash_contenido": "31eab79080dc0cbd7852b438008809c798733ad9108d43ba5643acd3175adaa2",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:44:54.800Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-21#1",
+      "sesion_id": "2026-05-21",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta de la sessió núm.5/2026 de data 08/05/2026",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’acta de la sessió núm.5/2026 de data 08/05/2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:54.800Z"
+      }
+    },
+    {
+      "id": "2026-05-21#2",
+      "sesion_id": "2026-05-21",
+      "orden": 2,
+      "titulo": "Expedient 7035/2025. Estudi i aprovació provisional, si s’escau, de la",
+      "resultado": null,
+      "texto_redactado": "Expedient 7035/2025. Estudi i aprovació provisional, si s’escau, de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:54.800Z"
+      }
+    },
+    {
+      "id": "2026-05-21#3",
+      "sesion_id": "2026-05-21",
+      "orden": 3,
+      "titulo": "En compliment de l’article 85.7 del Decret Legislatiu 1/2010, de 3 d’agost, pel qual",
+      "resultado": null,
+      "texto_redactado": "En compliment de l’article 85.7 del Decret Legislatiu 1/2010, de 3 d’agost, pel qual",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:54.800Z"
+      }
+    },
+    {
+      "id": "2026-05-21#4",
+      "sesion_id": "2026-05-21",
+      "orden": 4,
+      "titulo": "Durant el període d’exposició pública de l’acord d’aprovació inicial no s’ha rebut",
+      "resultado": null,
+      "texto_redactado": "Durant el període d’exposició pública de l’acord d’aprovació inicial no s’ha rebut",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:54.800Z"
+      }
+    },
+    {
+      "id": "2026-05-21#5",
+      "sesion_id": "2026-05-21",
+      "orden": 5,
+      "titulo": "Expedient 2409/2026. Estudi i aprovació, si s’escau, de la designació dels",
+      "resultado": null,
+      "texto_redactado": "Expedient 2409/2026. Estudi i aprovació, si s’escau, de la designació dels",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:54.800Z"
+      }
+    },
+    {
+      "id": "2026-05-21#6",
+      "sesion_id": "2026-05-21",
+      "orden": 6,
+      "titulo": "Expedient 2434/2026. Estudi i aprovació, si s’escau, de la moció en defensa del",
+      "resultado": null,
+      "texto_redactado": "Expedient 2434/2026. Estudi i aprovació, si s’escau, de la moció en defensa del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:54.800Z"
+      }
+    },
+    {
+      "id": "2026-05-21#7",
+      "sesion_id": "2026-05-21",
+      "orden": 7,
+      "titulo": "Expedient 1065/2026. Estudi i aprovació inicial, si s’escau, del Pressupost",
+      "resultado": null,
+      "texto_redactado": "Expedient 1065/2026. Estudi i aprovació inicial, si s’escau, del Pressupost",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:54.800Z"
+      }
+    },
+    {
+      "id": "2026-05-21#8",
+      "sesion_id": "2026-05-21",
+      "orden": 8,
+      "titulo": "Donar compte dels Decrets de l’Alcaldia del núm.337/2026 de data 20/03/2026",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels Decrets de l’Alcaldia del núm.337/2026 de data 20/03/2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:54.800Z"
+      }
+    },
+    {
+      "id": "2026-05-21#9",
+      "sesion_id": "2026-05-21",
+      "orden": 9,
+      "titulo": "Expedient 2100/2026. Donar compte de l’estat d’execució 1T 2026.",
+      "resultado": null,
+      "texto_redactado": "Expedient 2100/2026. Donar compte de l’estat d’execució 1T 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:54.800Z"
+      }
+    },
+    {
+      "id": "2026-05-21#10",
+      "sesion_id": "2026-05-21",
+      "orden": 10,
+      "titulo": "Expedient 2139/2026. Donar compte del PMP i morositat 1T 2026.",
+      "resultado": null,
+      "texto_redactado": "Expedient 2139/2026. Donar compte del PMP i morositat 1T 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:54.800Z"
+      }
+    },
+    {
+      "id": "2026-05-21#11",
+      "sesion_id": "2026-05-21",
+      "orden": 11,
+      "titulo": "Expedient 2167/2026. Donar compte del seguiment del Pla d’Ajust 1T 2026.",
+      "resultado": null,
+      "texto_redactado": "Expedient 2167/2026. Donar compte del seguiment del Pla d’Ajust 1T 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:54.800Z"
+      }
+    },
+    {
+      "id": "2026-05-21#12",
+      "sesion_id": "2026-05-21",
+      "orden": 12,
+      "titulo": "Informacions d’Alcaldia",
+      "resultado": null,
+      "texto_redactado": "Informacions d’Alcaldia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:54.800Z"
+      }
+    },
+    {
+      "id": "2026-05-21#13",
+      "sesion_id": "2026-05-21",
+      "orden": 13,
+      "titulo": "Precs i preguntes",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:54.800Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "taradell",
+    "nombre": "Taradell",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "827850006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-28",
+    "municipio_id": "taradell",
+    "fecha": "2026-05-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/827850006/2026/ab41951d-e54c-40de-8258-028aa71f0beb/Acta%20Ple%2005%2028%2005%202026%20-%20sense%20noms.pdf",
+    "hash_contenido": "62ef53304e2b121e95ffc15c54eb95b5c41cbc2bee86ecec8f451bdc5e3d261e",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:45:30.494Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-28#1",
+      "sesion_id": "2026-05-28",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta de la sessió anterior de data 27 d’abril de 2026. Exp.",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’acta de la sessió anterior de data 27 d’abril de 2026. Exp.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:30.494Z"
+      }
+    },
+    {
+      "id": "2026-05-28#2",
+      "sesion_id": "2026-05-28",
+      "orden": 2,
+      "titulo": "Donar compte dels acords de les Juntes de Govern Local.",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels acords de les Juntes de Govern Local.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:30.494Z"
+      }
+    },
+    {
+      "id": "2026-05-28#3",
+      "sesion_id": "2026-05-28",
+      "orden": 3,
+      "titulo": "Donar compte dels Decrets de l’alcaldessa.",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels Decrets de l’alcaldessa.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:30.494Z"
+      }
+    },
+    {
+      "id": "2026-05-28#4",
+      "sesion_id": "2026-05-28",
+      "orden": 4,
+      "titulo": "Aprovació de la pròrroga de la concessió del bar i terrassa lateral exterior",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la pròrroga de la concessió del bar i terrassa lateral exterior",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:30.494Z"
+      }
+    },
+    {
+      "id": "2026-05-28#5",
+      "sesion_id": "2026-05-28",
+      "orden": 5,
+      "titulo": "Aprovació inicial de la Modificació del POUM núm. 22-Àmbit de la Plaça del",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial de la Modificació del POUM núm. 22-Àmbit de la Plaça del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:30.494Z"
+      }
+    },
+    {
+      "id": "2026-05-28#6",
+      "sesion_id": "2026-05-28",
+      "orden": 6,
+      "titulo": "Donar compte del decret de l’alcaldessa núm.181/2026, de 21 de maig,",
+      "resultado": null,
+      "texto_redactado": "Donar compte del decret de l’alcaldessa núm.181/2026, de 21 de maig,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:30.494Z"
+      }
+    },
+    {
+      "id": "2026-05-28#7",
+      "sesion_id": "2026-05-28",
+      "orden": 7,
+      "titulo": "Donar compte del Decret de l’alcaldessa núm. 169/2026, d’aprovació de",
+      "resultado": null,
+      "texto_redactado": "Donar compte del Decret de l’alcaldessa núm. 169/2026, d’aprovació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:30.494Z"
+      }
+    },
+    {
+      "id": "2026-05-28#8",
+      "sesion_id": "2026-05-28",
+      "orden": 8,
+      "titulo": "Donar compte de l’informe de la Sindicatura de Comptes de Catalunya,",
+      "resultado": null,
+      "texto_redactado": "Donar compte de l’informe de la Sindicatura de Comptes de Catalunya,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:30.494Z"
+      }
+    },
+    {
+      "id": "2026-05-28#9",
+      "sesion_id": "2026-05-28",
+      "orden": 9,
+      "titulo": "Donar compte de l’informe anual de la intervenció municipal de control",
+      "resultado": null,
+      "texto_redactado": "Donar compte de l’informe anual de la intervenció municipal de control",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:30.494Z"
+      }
+    },
+    {
+      "id": "2026-05-28#10",
+      "sesion_id": "2026-05-28",
+      "orden": 10,
+      "titulo": "Donar compte de l’informe de la intervenció municipal relatiu al control intern",
+      "resultado": null,
+      "texto_redactado": "Donar compte de l’informe de la intervenció municipal relatiu al control intern",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:30.494Z"
+      }
+    },
+    {
+      "id": "2026-05-28#11",
+      "sesion_id": "2026-05-28",
+      "orden": 11,
+      "titulo": "Donar compte dels informes de la intervenció municipal relatius al PMP,",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels informes de la intervenció municipal relatius al PMP,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:30.494Z"
+      }
+    },
+    {
+      "id": "2026-05-28#12",
+      "sesion_id": "2026-05-28",
+      "orden": 12,
+      "titulo": "Aprovació de la moció sobre la iniciativa legislativa popular (ILP) per a la",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la moció sobre la iniciativa legislativa popular (ILP) per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:30.494Z"
+      }
+    },
+    {
+      "id": "2026-05-28#13",
+      "sesion_id": "2026-05-28",
+      "orden": 13,
+      "titulo": "Precs i preguntes.",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:30.494Z"
+      }
+    }
+  ]
+}

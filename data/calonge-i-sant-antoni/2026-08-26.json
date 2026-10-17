@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "calonge-i-sant-antoni",
+    "nombre": "Calonge i Sant Antoni",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1703400000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-08-26",
+    "municipio_id": "calonge-i-sant-antoni",
+    "fecha": "2026-08-26",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1703400000/2026/44cd88e3-f861-44a7-bffe-b0ee28209f50/PE_260826.pdf",
+    "hash_contenido": "b75f1d3803b4aa888218b6302377041f483988c4353f1c411180c124b18b67e4",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:41:10.887Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-08-26#1",
+      "sesion_id": "2026-08-26",
+      "orden": 1,
+      "titulo": "PRP2026/817 Aprovació definitiva modificació de pressupost exercici 2026 mitjançant un",
+      "resultado": null,
+      "texto_redactado": "PRP2026/817 Aprovació definitiva modificació de pressupost exercici 2026 mitjançant un",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:10.887Z"
+      }
+    },
+    {
+      "id": "2026-08-26#2",
+      "sesion_id": "2026-08-26",
+      "orden": 2,
+      "titulo": "PRP2026/806 Donar compte al Ple de les resolucions d'Alcaldia 2026/3940 i 2026/4254",
+      "resultado": null,
+      "texto_redactado": "PRP2026/806 Donar compte al Ple de les resolucions d'Alcaldia 2026/3940 i 2026/4254",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:10.887Z"
+      }
+    },
+    {
+      "id": "2026-08-26#3",
+      "sesion_id": "2026-08-26",
+      "orden": 3,
+      "titulo": "PRP2026/812 Aprovació del règim d’assistències als òrgans col·legiats municipals",
+      "resultado": null,
+      "texto_redactado": "PRP2026/812 Aprovació del règim d’assistències als òrgans col·legiats municipals",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:10.887Z"
+      }
+    },
+    {
+      "id": "2026-08-26#4",
+      "sesion_id": "2026-08-26",
+      "orden": 4,
+      "titulo": "PRP2026/828 Elecció del Síndic de Greuges local (Exp. 2026/9060) DINAMITZACIÓ COMUNITÀRIA",
+      "resultado": null,
+      "texto_redactado": "PRP2026/828 Elecció del Síndic de Greuges local (Exp. 2026/9060) DINAMITZACIÓ COMUNITÀRIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:10.887Z"
+      }
+    },
+    {
+      "id": "2026-08-26#5",
+      "sesion_id": "2026-08-26",
+      "orden": 5,
+      "titulo": "PRP2026/829 Aprovació del conveni de col·laboració de l'Administració de la Generalitat",
+      "resultado": null,
+      "texto_redactado": "PRP2026/829 Aprovació del conveni de col·laboració de l'Administració de la Generalitat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:10.887Z"
+      }
+    },
+    {
+      "id": "2026-08-26#6",
+      "sesion_id": "2026-08-26",
+      "orden": 6,
+      "titulo": "PRP2026/463 Aprovació provisional de la Modificació puntual del Pla d’Ordenació",
+      "resultado": null,
+      "texto_redactado": "PRP2026/463 Aprovació provisional de la Modificació puntual del Pla d’Ordenació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:10.887Z"
+      }
+    },
+    {
+      "id": "2026-08-26#7",
+      "sesion_id": "2026-08-26",
+      "orden": 7,
+      "titulo": "PRP2026/784 Aprovació provisional del nou document de la modificació puntual del",
+      "resultado": null,
+      "texto_redactado": "PRP2026/784 Aprovació provisional del nou document de la modificació puntual del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:10.887Z"
+      }
+    }
+  ]
+}

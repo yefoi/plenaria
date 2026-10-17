@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "santa-coloma-de-cervello",
+    "nombre": "Santa Coloma de Cervelló",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "824440003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-02-19",
+    "municipio_id": "santa-coloma-de-cervello",
+    "fecha": "2026-02-19",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/824440003/2026/a07da372-851e-4787-a3eb-ee677dee2031/A41_2023_2027_20260219.pdf",
+    "hash_contenido": "53891b7e82f0a7cc9f15983695d37c3bfa504b2688af87e3567701c91c162bd5",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:43:28.240Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-02-19#1",
+      "sesion_id": "2026-02-19",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta de la sessió anterior corresponent a la núm. 40/2023-2027,",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’acta de la sessió anterior corresponent a la núm. 40/2023-2027,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:28.240Z"
+      }
+    },
+    {
+      "id": "2026-02-19#2",
+      "sesion_id": "2026-02-19",
+      "orden": 2,
+      "titulo": "Donar compte de Decrets registrats per l’Alcaldia i les Regidories Delegades",
+      "resultado": null,
+      "texto_redactado": "Donar compte de Decrets registrats per l’Alcaldia i les Regidories Delegades",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:28.240Z"
+      }
+    },
+    {
+      "id": "2026-02-19#3",
+      "sesion_id": "2026-02-19",
+      "orden": 3,
+      "titulo": "Donar compte de l’estat d’Execució pressupostària corresponent al quart",
+      "resultado": null,
+      "texto_redactado": "Donar compte de l’estat d’Execució pressupostària corresponent al quart",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:28.240Z"
+      }
+    },
+    {
+      "id": "2026-02-19#4",
+      "sesion_id": "2026-02-19",
+      "orden": 4,
+      "titulo": "PATRIMONI I MEMÒRIA",
+      "resultado": null,
+      "texto_redactado": "PATRIMONI I MEMÒRIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:28.240Z"
+      }
+    },
+    {
+      "id": "2026-02-19#5",
+      "sesion_id": "2026-02-19",
+      "orden": 5,
+      "titulo": "MOCIONS DE GRUPS POLÍTICS",
+      "resultado": null,
+      "texto_redactado": "MOCIONS DE GRUPS POLÍTICS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:28.240Z"
+      }
+    },
+    {
+      "id": "2026-02-19#6",
+      "sesion_id": "2026-02-19",
+      "orden": 6,
+      "titulo": "MOCIONS DE GRUPS POLÍTICS MUNICIPALS",
+      "resultado": null,
+      "texto_redactado": "MOCIONS DE GRUPS POLÍTICS MUNICIPALS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:28.240Z"
+      }
+    },
+    {
+      "id": "2026-02-19#7",
+      "sesion_id": "2026-02-19",
+      "orden": 7,
+      "titulo": "La Diputació de Barcelona té la voluntat de continuar oferint als ajuntaments de la",
+      "resultado": null,
+      "texto_redactado": "La Diputació de Barcelona té la voluntat de continuar oferint als ajuntaments de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:28.240Z"
+      }
+    },
+    {
+      "id": "2026-02-19#8",
+      "sesion_id": "2026-02-19",
+      "orden": 8,
+      "titulo": "El passat 10/03/2025 l’Ajuntament de Santa Coloma de Cervelló va notificar a la",
+      "resultado": null,
+      "texto_redactado": "El passat 10/03/2025 l’Ajuntament de Santa Coloma de Cervelló va notificar a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:28.240Z"
+      }
+    },
+    {
+      "id": "2026-02-19#9",
+      "sesion_id": "2026-02-19",
+      "orden": 9,
+      "titulo": "Còpia d’assegurances d’incidents i de responsabilitat civil per danys a tercers i rebut vigent",
+      "resultado": null,
+      "texto_redactado": "Còpia d’assegurances d’incidents i de responsabilitat civil per danys a tercers i rebut vigent",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:28.240Z"
+      }
+    },
+    {
+      "id": "2026-02-19#10",
+      "sesion_id": "2026-02-19",
+      "orden": 10,
+      "titulo": "Certificats que acreditin formació en àmbits relacionats amb la cultura i/o l’organització",
+      "resultado": null,
+      "texto_redactado": "Certificats que acreditin formació en àmbits relacionats amb la cultura i/o l’organització",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:28.240Z"
+      }
+    },
+    {
+      "id": "2026-02-19#11",
+      "sesion_id": "2026-02-19",
+      "orden": 11,
+      "titulo": "Es valorarà amb 5 punts les entitats que hagin justificat correctament en temps i forma",
+      "resultado": null,
+      "texto_redactado": "Es valorarà amb 5 punts les entitats que hagin justificat correctament en temps i forma",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:28.240Z"
+      }
+    }
+  ]
+}

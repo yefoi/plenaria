@@ -1,0 +1,435 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "mont-roig-del-camp",
+    "nombre": "Mont-roig del Camp",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4309230008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-08",
+    "municipio_id": "mont-roig-del-camp",
+    "fecha": "2026-06-08",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4309230008/2026/6479c515-ecf7-4f33-bcb0-e5202027f966/09_2026%20Acta%20Ple%20de%20data%208%20de%20juny%20de%202026].pdf",
+    "hash_contenido": "f7e20886f5fbf02e09e5766e7b6906da575701f5426c227c60990d6bd3db3fea",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:39:45.276Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-08#1",
+      "sesion_id": "2026-06-08",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de les sessions de dates 11 de maig i 1 de juny de 2026.",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de les sessions de dates 11 de maig i 1 de juny de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:45.276Z"
+      }
+    },
+    {
+      "id": "2026-06-08#2",
+      "sesion_id": "2026-06-08",
+      "orden": 2,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:45.276Z"
+      }
+    },
+    {
+      "id": "2026-06-08#3",
+      "sesion_id": "2026-06-08",
+      "orden": 3,
+      "titulo": "Intervenció. Expedient 7640/2026. Reconeixement Extrajudicial de Crèdits",
+      "resultado": null,
+      "texto_redactado": "Intervenció. Expedient 7640/2026. Reconeixement Extrajudicial de Crèdits",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:45.276Z"
+      }
+    },
+    {
+      "id": "2026-06-08#4",
+      "sesion_id": "2026-06-08",
+      "orden": 4,
+      "titulo": "Hisenda. Expedient 8391/2026. Reconeixement Extrajudicial de Crèdits anualitats",
+      "resultado": null,
+      "texto_redactado": "Hisenda. Expedient 8391/2026. Reconeixement Extrajudicial de Crèdits anualitats",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:45.276Z"
+      }
+    },
+    {
+      "id": "2026-06-08#5",
+      "sesion_id": "2026-06-08",
+      "orden": 5,
+      "titulo": "Planejament. Expedient 14010/2022. Aprovació inicial de la Modificació puntual del",
+      "resultado": null,
+      "texto_redactado": "Planejament. Expedient 14010/2022. Aprovació inicial de la Modificació puntual del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:45.276Z"
+      }
+    },
+    {
+      "id": "2026-06-08#6",
+      "sesion_id": "2026-06-08",
+      "orden": 6,
+      "titulo": "Planejament. Expedient 4540/2023. Aprovació inicial de la modificació puntual del",
+      "resultado": null,
+      "texto_redactado": "Planejament. Expedient 4540/2023. Aprovació inicial de la modificació puntual del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:45.276Z"
+      }
+    },
+    {
+      "id": "2026-06-08#7",
+      "sesion_id": "2026-06-08",
+      "orden": 7,
+      "titulo": "Planejament. Expedient 16195/2025. Aprovació provisional de la Modificació",
+      "resultado": null,
+      "texto_redactado": "Planejament. Expedient 16195/2025. Aprovació provisional de la Modificació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:45.276Z"
+      }
+    },
+    {
+      "id": "2026-06-08#8",
+      "sesion_id": "2026-06-08",
+      "orden": 8,
+      "titulo": "Afers sobrevinguts. B) ACTIVITAT DE CONTROL",
+      "resultado": null,
+      "texto_redactado": "Afers sobrevinguts. B) ACTIVITAT DE CONTROL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:45.276Z"
+      }
+    },
+    {
+      "id": "2026-06-08#9",
+      "sesion_id": "2026-06-08",
+      "orden": 9,
+      "titulo": "Hisenda. Expedient 5418/2026. Informes de Control Financer. Informe d’Auditoria",
+      "resultado": null,
+      "texto_redactado": "Hisenda. Expedient 5418/2026. Informes de Control Financer. Informe d’Auditoria",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:45.276Z"
+      }
+    },
+    {
+      "id": "2026-06-08#10",
+      "sesion_id": "2026-06-08",
+      "orden": 10,
+      "titulo": "Hisenda. Expedient 6391/2026. Donar compte al Ple de l'Informe resum de les",
+      "resultado": null,
+      "texto_redactado": "Hisenda. Expedient 6391/2026. Donar compte al Ple de l'Informe resum de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:45.276Z"
+      }
+    },
+    {
+      "id": "2026-06-08#11",
+      "sesion_id": "2026-06-08",
+      "orden": 11,
+      "titulo": "Vist l’article 54.1 s) i el 333 del Decret 214/1990, de 30 de juliol, pel qual s'aprova el Reglament",
+      "resultado": null,
+      "texto_redactado": "Vist l’article 54.1 s) i el 333 del Decret 214/1990, de 30 de juliol, pel qual s'aprova el Reglament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:45.276Z"
+      }
+    },
+    {
+      "id": "2026-06-08#12",
+      "sesion_id": "2026-06-08",
+      "orden": 12,
+      "titulo": "Moció que presenta el grup municipal ERC-AM per a la creació d’un Pla Local",
+      "resultado": null,
+      "texto_redactado": "Moció que presenta el grup municipal ERC-AM per a la creació d’un Pla Local",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:45.276Z"
+      }
+    },
+    {
+      "id": "2026-06-08#13",
+      "sesion_id": "2026-06-08",
+      "orden": 13,
+      "titulo": "L’article 111.7 de la Llei 29/2002, de 30 de desembre per la qual es va aprovar la Llei del",
+      "resultado": null,
+      "texto_redactado": "L’article 111.7 de la Llei 29/2002, de 30 de desembre per la qual es va aprovar la Llei del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:45.276Z"
+      }
+    },
+    {
+      "id": "2026-06-08#14",
+      "sesion_id": "2026-06-08",
+      "orden": 14,
+      "titulo": "La sentència del Tribunal Suprem de 12 de desembre de 2012 en resolució del recurs número",
+      "resultado": null,
+      "texto_redactado": "La sentència del Tribunal Suprem de 12 de desembre de 2012 en resolució del recurs número",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:45.276Z"
+      }
+    },
+    {
+      "id": "2026-06-08#15",
+      "sesion_id": "2026-06-08",
+      "orden": 15,
+      "titulo": "El dictamen de la Comissió Jurídica Assessora de Catalunya número 394/12, de 4 de",
+      "resultado": null,
+      "texto_redactado": "El dictamen de la Comissió Jurídica Assessora de Catalunya número 394/12, de 4 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:45.276Z"
+      }
+    },
+    {
+      "id": "2026-06-08#16",
+      "sesion_id": "2026-06-08",
+      "orden": 16,
+      "titulo": "La Sentència de Tribunal Suprem (Sala del Contenciós-Administratiu, Secció Tercera,",
+      "resultado": null,
+      "texto_redactado": "La Sentència de Tribunal Suprem (Sala del Contenciós-Administratiu, Secció Tercera,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:45.276Z"
+      }
+    },
+    {
+      "id": "2026-06-08#17",
+      "sesion_id": "2026-06-08",
+      "orden": 17,
+      "titulo": "La Comissió Jurídica Assessora de Catalunya en el seu dictamen número 178 / 2009 de 11",
+      "resultado": null,
+      "texto_redactado": "La Comissió Jurídica Assessora de Catalunya en el seu dictamen número 178 / 2009 de 11",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:39:45.276Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-quirze-del-valles",
+    "nombre": "Sant Quirze del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "823840003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-01-29",
+    "municipio_id": "sant-quirze-del-valles",
+    "fecha": "2026-01-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/823840003/2026/fb7a2a22-50ee-44f8-b606-8b7fa0dc2e22/29.01.2026.pdf",
+    "hash_contenido": "d2c345c78e1ef387f91b6d93c79a7a006db39399407012362118ae653a7d30fa",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:37:12.002Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-01-29#1",
+      "sesion_id": "2026-01-29",
+      "orden": 1,
+      "titulo": "Aprovació acta",
+      "resultado": null,
+      "texto_redactado": "Aprovació acta",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:12.002Z"
+      }
+    },
+    {
+      "id": "2026-01-29#2",
+      "sesion_id": "2026-01-29",
+      "orden": 2,
+      "titulo": "Nomenar un representant que serà responsable del bon funcionament de la",
+      "resultado": null,
+      "texto_redactado": "Nomenar un representant que serà responsable del bon funcionament de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:12.002Z"
+      }
+    },
+    {
+      "id": "2026-01-29#3",
+      "sesion_id": "2026-01-29",
+      "orden": 3,
+      "titulo": "Donar compte decrets desembre-2025",
+      "resultado": null,
+      "texto_redactado": "Donar compte decrets desembre-2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:12.002Z"
+      }
+    },
+    {
+      "id": "2026-01-29#4",
+      "sesion_id": "2026-01-29",
+      "orden": 4,
+      "titulo": "Hisenda Pública. 2/2026/APRES",
+      "resultado": null,
+      "texto_redactado": "Hisenda Pública. 2/2026/APRES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:12.002Z"
+      }
+    },
+    {
+      "id": "2026-01-29#5",
+      "sesion_id": "2026-01-29",
+      "orden": 5,
+      "titulo": "Presidència. 2/2026/SQPART",
+      "resultado": null,
+      "texto_redactado": "Presidència. 2/2026/SQPART",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:12.002Z"
+      }
+    },
+    {
+      "id": "2026-01-29#6",
+      "sesion_id": "2026-01-29",
+      "orden": 6,
+      "titulo": "Respectar els locals assignats a altres entitats o associacions que comparteixin el",
+      "resultado": null,
+      "texto_redactado": "Respectar els locals assignats a altres entitats o associacions que comparteixin el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:12.002Z"
+      }
+    },
+    {
+      "id": "2026-01-29#7",
+      "sesion_id": "2026-01-29",
+      "orden": 7,
+      "titulo": "Respectar la finalitat i destinació dels locals o espais d'ús comú.",
+      "resultado": null,
+      "texto_redactado": "Respectar la finalitat i destinació dels locals o espais d'ús comú.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:12.002Z"
+      }
+    },
+    {
+      "id": "2026-01-29#8",
+      "sesion_id": "2026-01-29",
+      "orden": 8,
+      "titulo": "Evitar l’acumulació o abandonament de qualsevol material o deixalla, ja sigui a dins o",
+      "resultado": null,
+      "texto_redactado": "Evitar l’acumulació o abandonament de qualsevol material o deixalla, ja sigui a dins o",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:12.002Z"
+      }
+    },
+    {
+      "id": "2026-01-29#9",
+      "sesion_id": "2026-01-29",
+      "orden": 9,
+      "titulo": "Les activitats que s’hi desenvolupin no podran causar molèsties al veïnat ni vulnerar",
+      "resultado": null,
+      "texto_redactado": "Les activitats que s’hi desenvolupin no podran causar molèsties al veïnat ni vulnerar",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:12.002Z"
+      }
+    },
+    {
+      "id": "2026-01-29#10",
+      "sesion_id": "2026-01-29",
+      "orden": 10,
+      "titulo": "No pertorbar la tranquil·litat de la zona durant els horaris d'utilització, adoptant les",
+      "resultado": null,
+      "texto_redactado": "No pertorbar la tranquil·litat de la zona durant els horaris d'utilització, adoptant les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:12.002Z"
+      }
+    },
+    {
+      "id": "2026-01-29#11",
+      "sesion_id": "2026-01-29",
+      "orden": 11,
+      "titulo": "Conservar els locals assignats per al seu ús en òptimes condicions de salubritat i",
+      "resultado": null,
+      "texto_redactado": "Conservar els locals assignats per al seu ús en òptimes condicions de salubritat i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:12.002Z"
+      }
+    },
+    {
+      "id": "2026-01-29#12",
+      "sesion_id": "2026-01-29",
+      "orden": 12,
+      "titulo": "Custodiar les claus del centre i tancar-lo quan sigui l'última entitat en usar-lo. Alhora",
+      "resultado": null,
+      "texto_redactado": "Custodiar les claus del centre i tancar-lo quan sigui l'última entitat en usar-lo. Alhora",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:12.002Z"
+      }
+    },
+    {
+      "id": "2026-01-29#13",
+      "sesion_id": "2026-01-29",
+      "orden": 13,
+      "titulo": "Comunicar als Serveis Municipals competents per raó de l’activitat, qualsevol",
+      "resultado": null,
+      "texto_redactado": "Comunicar als Serveis Municipals competents per raó de l’activitat, qualsevol",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:12.002Z"
+      }
+    },
+    {
+      "id": "2026-01-29#14",
+      "sesion_id": "2026-01-29",
+      "orden": 14,
+      "titulo": "Revertir a l'Ajuntament, un cop extingit o resolt l'acord de cessió o autorització, l'ús",
+      "resultado": null,
+      "texto_redactado": "Revertir a l'Ajuntament, un cop extingit o resolt l'acord de cessió o autorització, l'ús",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:12.002Z"
+      }
+    },
+    {
+      "id": "2026-01-29#15",
+      "sesion_id": "2026-01-29",
+      "orden": 15,
+      "titulo": "Permetre en tot moment a l'Ajuntament l'exercici de la facultat de seguiment i",
+      "resultado": null,
+      "texto_redactado": "Permetre en tot moment a l'Ajuntament l'exercici de la facultat de seguiment i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:12.002Z"
+      }
+    },
+    {
+      "id": "2026-01-29#16",
+      "sesion_id": "2026-01-29",
+      "orden": 16,
+      "titulo": "Respectar les normatives de prevenció de riscos laborals i les directrius que preveu",
+      "resultado": null,
+      "texto_redactado": "Respectar les normatives de prevenció de riscos laborals i les directrius que preveu",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:12.002Z"
+      }
+    },
+    {
+      "id": "2026-01-29#17",
+      "sesion_id": "2026-01-29",
+      "orden": 17,
+      "titulo": "Respectar les normatives de protecció ambiental, no emmagatzemar materials",
+      "resultado": null,
+      "texto_redactado": "Respectar les normatives de protecció ambiental, no emmagatzemar materials",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:12.002Z"
+      }
+    },
+    {
+      "id": "2026-01-29#18",
+      "sesion_id": "2026-01-29",
+      "orden": 18,
+      "titulo": "Vetllar per fer un ús responsable dels consums del local, garantint així un estalvi",
+      "resultado": null,
+      "texto_redactado": "Vetllar per fer un ús responsable dels consums del local, garantint així un estalvi",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:12.002Z"
+      }
+    },
+    {
+      "id": "2026-01-29#19",
+      "sesion_id": "2026-01-29",
+      "orden": 19,
+      "titulo": "A l'interior del local cedit i dins del respecte a l'autonomia de l’entitat, no podran",
+      "resultado": null,
+      "texto_redactado": "A l'interior del local cedit i dins del respecte a l'autonomia de l’entitat, no podran",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:12.002Z"
+      }
+    }
+  ]
+}

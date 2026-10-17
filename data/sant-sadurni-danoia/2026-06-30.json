@@ -1,0 +1,579 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-sadurni-danoia",
+    "nombre": "Sant Sadurní d'Anoia",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "824010007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-30",
+    "municipio_id": "sant-sadurni-danoia",
+    "fecha": "2026-06-30",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/824010007/2026/69e8c0c3-df60-481d-a393-6f6f0952d947/ACTA%20DEL%20PLE%202026-0009%20[Acta%20PLN_2026_3].pdf",
+    "hash_contenido": "77b236f6d6cf21cefb5b0e89be038b1db5d23dd91859ca6cb406ae3f6fc8e2a2",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:40:51.150Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-30#1",
+      "sesion_id": "2026-06-30",
+      "orden": 1,
+      "titulo": "Aprovació de l'esborrany de l'acta de la sessió anterior PLN/2026/1 de data 26 de maig de",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'esborrany de l'acta de la sessió anterior PLN/2026/1 de data 26 de maig de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    },
+    {
+      "id": "2026-06-30#2",
+      "sesion_id": "2026-06-30",
+      "orden": 2,
+      "titulo": "Expedient 1120/2026. Aprovar la proposta de canvi de denominació específica del centre",
+      "resultado": null,
+      "texto_redactado": "Expedient 1120/2026. Aprovar la proposta de canvi de denominació específica del centre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    },
+    {
+      "id": "2026-06-30#3",
+      "sesion_id": "2026-06-30",
+      "orden": 3,
+      "titulo": "Expedient 1665/2026. Aprovar el reconeixement extrajudicial de crèdit i aprovar l’",
+      "resultado": null,
+      "texto_redactado": "Expedient 1665/2026. Aprovar el reconeixement extrajudicial de crèdit i aprovar l’",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    },
+    {
+      "id": "2026-06-30#4",
+      "sesion_id": "2026-06-30",
+      "orden": 4,
+      "titulo": "Expedient 1911/2026. Proposar al Departament d’Empresa i Treball, de la Generalitat de",
+      "resultado": null,
+      "texto_redactado": "Expedient 1911/2026. Proposar al Departament d’Empresa i Treball, de la Generalitat de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    },
+    {
+      "id": "2026-06-30#5",
+      "sesion_id": "2026-06-30",
+      "orden": 5,
+      "titulo": "Expedient 2281/2026. Aprovació dels expedients 1794/2026 I 1875/2026 de relacions de",
+      "resultado": null,
+      "texto_redactado": "Expedient 2281/2026. Aprovació dels expedients 1794/2026 I 1875/2026 de relacions de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    },
+    {
+      "id": "2026-06-30#6",
+      "sesion_id": "2026-06-30",
+      "orden": 6,
+      "titulo": "Expedient 726/2026. Declarar les obres de reforma de façana de l'edifici situat al carrer",
+      "resultado": null,
+      "texto_redactado": "Expedient 726/2026. Declarar les obres de reforma de façana de l'edifici situat al carrer",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    },
+    {
+      "id": "2026-06-30#7",
+      "sesion_id": "2026-06-30",
+      "orden": 7,
+      "titulo": "Expedient 2245/2026. Aprovació dels expedients 1793/2026 I 1879/2026 de relacions de",
+      "resultado": null,
+      "texto_redactado": "Expedient 2245/2026. Aprovació dels expedients 1793/2026 I 1879/2026 de relacions de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    },
+    {
+      "id": "2026-06-30#8",
+      "sesion_id": "2026-06-30",
+      "orden": 8,
+      "titulo": "Expedient 170/2026. Declarar les obres d’especial interès o utilitat municipal que",
+      "resultado": null,
+      "texto_redactado": "Expedient 170/2026. Declarar les obres d’especial interès o utilitat municipal que",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    },
+    {
+      "id": "2026-06-30#9",
+      "sesion_id": "2026-06-30",
+      "orden": 9,
+      "titulo": "Expedient 2523/2026. Aprovació inicial de la modificació de crèdit 22/2026 per suplement",
+      "resultado": null,
+      "texto_redactado": "Expedient 2523/2026. Aprovació inicial de la modificació de crèdit 22/2026 per suplement",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    },
+    {
+      "id": "2026-06-30#10",
+      "sesion_id": "2026-06-30",
+      "orden": 10,
+      "titulo": "Expedient 1955/2026. Aprovació dels expedients 1617/2026 I 1629/2026 de relacions de",
+      "resultado": null,
+      "texto_redactado": "Expedient 1955/2026. Aprovació dels expedients 1617/2026 I 1629/2026 de relacions de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    },
+    {
+      "id": "2026-06-30#11",
+      "sesion_id": "2026-06-30",
+      "orden": 11,
+      "titulo": "Expedient 1390/2026. Aprovar l’increment retributiu previst per l’any 2026 del 1,5% al",
+      "resultado": null,
+      "texto_redactado": "Expedient 1390/2026. Aprovar l’increment retributiu previst per l’any 2026 del 1,5% al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    },
+    {
+      "id": "2026-06-30#12",
+      "sesion_id": "2026-06-30",
+      "orden": 12,
+      "titulo": "Expedient 2758/2026. Aprovació dels expedients 1884/2026 I 2226/2026 de relacions de",
+      "resultado": null,
+      "texto_redactado": "Expedient 2758/2026. Aprovació dels expedients 1884/2026 I 2226/2026 de relacions de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    },
+    {
+      "id": "2026-06-30#13",
+      "sesion_id": "2026-06-30",
+      "orden": 13,
+      "titulo": "Expedient 2778/2026. Aprovació dels expedients 1888/2026 - 1891/2026 - 2112/2026 I 2597",
+      "resultado": null,
+      "texto_redactado": "Expedient 2778/2026. Aprovació dels expedients 1888/2026 - 1891/2026 - 2112/2026 I 2597",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    },
+    {
+      "id": "2026-06-30#14",
+      "sesion_id": "2026-06-30",
+      "orden": 14,
+      "titulo": "Expedient 2629/2026. Moció presentada pel grup municipal del PP sobre la instal·lació",
+      "resultado": null,
+      "texto_redactado": "Expedient 2629/2026. Moció presentada pel grup municipal del PP sobre la instal·lació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    },
+    {
+      "id": "2026-06-30#15",
+      "sesion_id": "2026-06-30",
+      "orden": 15,
+      "titulo": "Expedient 2630/2026. Moció presentada pel grup municipal del PP sobre la reparació",
+      "resultado": null,
+      "texto_redactado": "Expedient 2630/2026. Moció presentada pel grup municipal del PP sobre la reparació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    },
+    {
+      "id": "2026-06-30#16",
+      "sesion_id": "2026-06-30",
+      "orden": 16,
+      "titulo": "Expedient 2640/2026. Donar compte al Ple Municipal de les resolucions dictades per",
+      "resultado": null,
+      "texto_redactado": "Expedient 2640/2026. Donar compte al Ple Municipal de les resolucions dictades per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    },
+    {
+      "id": "2026-06-30#17",
+      "sesion_id": "2026-06-30",
+      "orden": 17,
+      "titulo": "Expedient 2644/2026. Donar compte al Ple Municipal dels acords de les Juntes de",
+      "resultado": null,
+      "texto_redactado": "Expedient 2644/2026. Donar compte al Ple Municipal dels acords de les Juntes de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    },
+    {
+      "id": "2026-06-30#18",
+      "sesion_id": "2026-06-30",
+      "orden": 18,
+      "titulo": "Expedient 56/2026. Prendre coneixement del Decret d’Alcaldia núm. 2026-1346 de data 08",
+      "resultado": null,
+      "texto_redactado": "Expedient 56/2026. Prendre coneixement del Decret d’Alcaldia núm. 2026-1346 de data 08",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    },
+    {
+      "id": "2026-06-30#19",
+      "sesion_id": "2026-06-30",
+      "orden": 19,
+      "titulo": "Expedient 1773/2026. Prendre coneixement de l’estat d’execució trimestral, del període",
+      "resultado": null,
+      "texto_redactado": "Expedient 1773/2026. Prendre coneixement de l’estat d’execució trimestral, del període",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    },
+    {
+      "id": "2026-06-30#20",
+      "sesion_id": "2026-06-30",
+      "orden": 20,
+      "titulo": "Expedient 525/2026. Prendre coneixement de l’informe definitiu de control financer de l’",
+      "resultado": null,
+      "texto_redactado": "Expedient 525/2026. Prendre coneixement de l’informe definitiu de control financer de l’",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    },
+    {
+      "id": "2026-06-30#21",
+      "sesion_id": "2026-06-30",
+      "orden": 21,
+      "titulo": "Prec presentat pel grup municipal del PP sobre la insuficìència de l’ombratge a la",
+      "resultado": null,
+      "texto_redactado": "Prec presentat pel grup municipal del PP sobre la insuficìència de l’ombratge a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    },
+    {
+      "id": "2026-06-30#22",
+      "sesion_id": "2026-06-30",
+      "orden": 22,
+      "titulo": "Pregunta presentada pel grup municipal del PP per a la seva resposta oral al PLE sobre",
+      "resultado": null,
+      "texto_redactado": "Pregunta presentada pel grup municipal del PP per a la seva resposta oral al PLE sobre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    },
+    {
+      "id": "2026-06-30#23",
+      "sesion_id": "2026-06-30",
+      "orden": 23,
+      "titulo": "Prec presentat pel grup municipal del PP sobre el canvi de nom de CAVATAST a",
+      "resultado": null,
+      "texto_redactado": "Prec presentat pel grup municipal del PP sobre el canvi de nom de CAVATAST a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:51.150Z"
+      }
+    }
+  ]
+}

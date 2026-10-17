@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "montblanc",
+    "nombre": "Montblanc",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4308620002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2025-11-25",
+    "municipio_id": "montblanc",
+    "fecha": "2025-11-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4308620002/2025/fc9e65c3-b260-4d3f-ab59-b3843cb35751/18_Ple%20Ordinari_25-11-2025_.pdf",
+    "hash_contenido": "15c63e7f0231af06a7742ae2a69ac21effaff555ecdf69aa896339970e0a6154",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:44:41.073Z"
+  },
+  "puntos": [
+    {
+      "id": "2025-11-25#1",
+      "sesion_id": "2025-11-25",
+      "orden": 1,
+      "titulo": "Articles 22.2 b) i 47.2 de la Llei 7/1985, de 2 d’abril, reguladora de les bases de règim local.",
+      "resultado": null,
+      "texto_redactado": "Articles 22.2 b) i 47.2 de la Llei 7/1985, de 2 d’abril, reguladora de les bases de règim local.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:41.073Z"
+      }
+    },
+    {
+      "id": "2025-11-25#2",
+      "sesion_id": "2025-11-25",
+      "orden": 2,
+      "titulo": "Articles 52.2 b); 114.3 i 133 del Tex refós de la Llei municipal i de règim local de Catalunya,",
+      "resultado": null,
+      "texto_redactado": "Articles 52.2 b); 114.3 i 133 del Tex refós de la Llei municipal i de règim local de Catalunya,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:41.073Z"
+      }
+    },
+    {
+      "id": "2025-11-25#3",
+      "sesion_id": "2025-11-25",
+      "orden": 3,
+      "titulo": "Articles 160.1; 313 i 322 del Reglament d’obres, activitats i serveis dels ens locals, aprovat",
+      "resultado": null,
+      "texto_redactado": "Articles 160.1; 313 i 322 del Reglament d’obres, activitats i serveis dels ens locals, aprovat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:41.073Z"
+      }
+    },
+    {
+      "id": "2025-11-25#4",
+      "sesion_id": "2025-11-25",
+      "orden": 4,
+      "titulo": "Articles 2; 8.2; 12.3; 13.1) i 21.2 dels vigents Estatuts del Consorci per a la Gestió de la",
+      "resultado": null,
+      "texto_redactado": "Articles 2; 8.2; 12.3; 13.1) i 21.2 dels vigents Estatuts del Consorci per a la Gestió de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:41.073Z"
+      }
+    }
+  ]
+}

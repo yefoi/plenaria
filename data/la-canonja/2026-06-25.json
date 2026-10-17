@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "la-canonja",
+    "nombre": "La Canonja",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4390760009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-25",
+    "municipio_id": "la-canonja",
+    "fecha": "2026-06-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4390760009/2026/cd598ac8-fd4d-48cf-be98-f7e4e7cb3afa/ACTA%20DEL%20PLE%202026-0004%20[ACTA].pdf",
+    "hash_contenido": "dc25f8df4a98d6bbc8bad1dbbf8d196b9de669b34b37cafd8105188009618a56",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-17T10:32:45.833Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-25#1",
+      "sesion_id": "2026-06-25",
+      "orden": 1,
+      "titulo": "1.- Proposta d'aprovar el conveni regulador de la continuïtat del servei de transport",
+      "resultado": null,
+      "texto_redactado": "1.- Proposta d'aprovar el conveni regulador de la continuïtat del servei de transport",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}

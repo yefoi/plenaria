@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "llagostera",
+    "nombre": "Llagostera",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1708900000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-28",
+    "municipio_id": "llagostera",
+    "fecha": "2026-05-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1708900000/2026/513d5114-048a-4ad6-81ec-34c723dd1bca/Acta%20Ple%20maig.pdf",
+    "hash_contenido": "07a69d7254ac6f8e2fefee9ed02f1ff6a52336aa69510cf7da147124f7457783",
+    "estado_ingesta": "requiere_ocr",
+    "actualizada_en": "2026-10-17T10:28:59.983Z"
+  },
+  "puntos": []
+}

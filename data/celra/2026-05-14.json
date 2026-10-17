@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "celra",
+    "nombre": "Celrà",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1704990004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-14",
+    "municipio_id": "celra",
+    "fecha": "2026-05-14",
+    "tipo": "extraordinaria_urgente",
+    "fuente_url": "https://media.seu-e.cat/acteca/1704990004/2026/a44ab1f3-69cc-4ad2-9557-bc1319cd4b17/ActaPle14maig2026.pdf",
+    "hash_contenido": "b05b4f4b59c5bf38216e9d01fe80010040efd6464aa27a0b636455fc347b9e74",
+    "estado_ingesta": "redactada",
+    "actualizada_en": "2026-10-17T10:33:38.946Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-14#1",
+      "sesion_id": "2026-05-14",
+      "orden": 1,
+      "titulo": "RATIFICACIÓ DEL CARÀCTER URGENT",
+      "resultado": null,
+      "texto_redactado": "RATIFICACIÓ DEL CARÀCTER URGENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-05-14#2",
+      "sesion_id": "2026-05-14",
+      "orden": 2,
+      "titulo": "DESESTIMACIÓ DE RECURS DE REPOSICIÓ PRESENTAT CONTRA L’ACORD DE PLE DE DATA 26 DE MARÇ [MATRÍCULA]’AMPLIACIÓ DEL TERMINI DEL",
+      "resultado": null,
+      "texto_redactado": "DESESTIMACIÓ DE RECURS DE REPOSICIÓ PRESENTAT CONTRA L’ACORD DE PLE DE DATA 26 DE MARÇ [MATRÍCULA]’AMPLIACIÓ DEL TERMINI DEL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-05-14#3",
+      "sesion_id": "2026-05-14",
+      "orden": 3,
+      "titulo": "En data 28 d’abril de 2026, registre de sortida m unicipal S026001765, es tram et el",
+      "resultado": null,
+      "texto_redactado": "En data 28 d’abril de 2026, registre de sortida m unicipal S026001765, es tram et el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-05-14#4",
+      "sesion_id": "2026-05-14",
+      "orden": 4,
+      "titulo": "En data 29 d’abril de 2026, registre d’entrada m unicipal E2026003645, el Consell",
+      "resultado": null,
+      "texto_redactado": "En data 29 d’abril de 2026, registre d’entrada m unicipal E2026003645, el Consell",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-05-14#5",
+      "sesion_id": "2026-05-14",
+      "orden": 5,
+      "titulo": "Consta a l’expedient inform e del secretari m unicipal, que conclou el següent: FONAMENTS DE DRET",
+      "resultado": null,
+      "texto_redactado": "Consta a l’expedient inform e del secretari m unicipal, que conclou el següent: FONAMENTS DE DRET",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}

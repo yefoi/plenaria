@@ -1,0 +1,603 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "calafell",
+    "nombre": "Calafell",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4303790004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-02-27",
+    "municipio_id": "calafell",
+    "fecha": "2026-02-27",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4303790004/2026/78ea40ff-6578-46fa-966c-cc40bfc120b8/Acta_2.pdf",
+    "hash_contenido": "3e7259020efd0e87a4d7a8dcfdd085d1d944dc5b614485988fcf8d66ed0ae34c",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:35:56.773Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-02-27#1",
+      "sesion_id": "2026-02-27",
+      "orden": 1,
+      "titulo": "APROVACIÓ ACTA ANTERIOR",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ ACTA ANTERIOR",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#2",
+      "sesion_id": "2026-02-27",
+      "orden": 2,
+      "titulo": "DONAR COMPTE DEL PAS I CONSIDERACIÓ COM A REGIDOR NO ADSCRIT DEL SENYOR MARC CASELLAS I GARCIA, MEMBRE DEL GRUP MUNICIPAL DE JUNTS PER",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DEL PAS I CONSIDERACIÓ COM A REGIDOR NO ADSCRIT DEL SENYOR MARC CASELLAS I GARCIA, MEMBRE DEL GRUP MUNICIPAL DE JUNTS PER",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#3",
+      "sesion_id": "2026-02-27",
+      "orden": 3,
+      "titulo": "El Ple de la corporació en sessió extraordinària celebrada el 28 de juny de 2023 va",
+      "resultado": null,
+      "texto_redactado": "El Ple de la corporació en sessió extraordinària celebrada el 28 de juny de 2023 va",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#4",
+      "sesion_id": "2026-02-27",
+      "orden": 4,
+      "titulo": "En data 2 de febrer de 2026, el senyor Marc Casellas i Garcia, regidor del grup",
+      "resultado": null,
+      "texto_redactado": "En data 2 de febrer de 2026, el senyor Marc Casellas i Garcia, regidor del grup",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#5",
+      "sesion_id": "2026-02-27",
+      "orden": 5,
+      "titulo": "Consta a l’expedient informe emès pel secretari.",
+      "resultado": null,
+      "texto_redactado": "Consta a l’expedient informe emès pel secretari.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#6",
+      "sesion_id": "2026-02-27",
+      "orden": 6,
+      "titulo": "Llei 19/2014, de 29 de desembre, de transparència, accés a la informació pública i bon",
+      "resultado": null,
+      "texto_redactado": "Llei 19/2014, de 29 de desembre, de transparència, accés a la informació pública i bon",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#7",
+      "sesion_id": "2026-02-27",
+      "orden": 7,
+      "titulo": "L'article 8 de la Llei 38/2003, de 17 de novembre, General de Subvenciones, pel cas de",
+      "resultado": null,
+      "texto_redactado": "L'article 8 de la Llei 38/2003, de 17 de novembre, General de Subvenciones, pel cas de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.41,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#8",
+      "sesion_id": "2026-02-27",
+      "orden": 8,
+      "titulo": "Aquest Pla estratègic podrà ser substituït per una ÒMemòria explicativaÓ en els supòsits",
+      "resultado": null,
+      "texto_redactado": "Aquest Pla estratègic podrà ser substituït per una ÒMemòria explicativaÓ en els supòsits",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#9",
+      "sesion_id": "2026-02-27",
+      "orden": 9,
+      "titulo": "Decret 52/2005, de 5 d'abril, de creació i regulació del Registre de convenis de",
+      "resultado": null,
+      "texto_redactado": "Decret 52/2005, de 5 d'abril, de creació i regulació del Registre de convenis de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#10",
+      "sesion_id": "2026-02-27",
+      "orden": 10,
+      "titulo": "Decret 52/2005, de 5 d'abril, de creació i regulació del Registre de convenis de",
+      "resultado": null,
+      "texto_redactado": "Decret 52/2005, de 5 d'abril, de creació i regulació del Registre de convenis de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#11",
+      "sesion_id": "2026-02-27",
+      "orden": 11,
+      "titulo": "Decret d’Alcaldia número 6353/2023, de 13 de setembre de constitució de les Àrees i",
+      "resultado": null,
+      "texto_redactado": "Decret d’Alcaldia número 6353/2023, de 13 de setembre de constitució de les Àrees i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#12",
+      "sesion_id": "2026-02-27",
+      "orden": 12,
+      "titulo": "La jurista responsable tècnic de contractació, compres i proveïments ha emès la",
+      "resultado": null,
+      "texto_redactado": "La jurista responsable tècnic de contractació, compres i proveïments ha emès la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#13",
+      "sesion_id": "2026-02-27",
+      "orden": 13,
+      "titulo": "El Secretari ha emès informe favorable.",
+      "resultado": null,
+      "texto_redactado": "El Secretari ha emès informe favorable.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#14",
+      "sesion_id": "2026-02-27",
+      "orden": 14,
+      "titulo": "La Interventora ha emès informe de fiscalització.",
+      "resultado": null,
+      "texto_redactado": "La Interventora ha emès informe de fiscalització.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#15",
+      "sesion_id": "2026-02-27",
+      "orden": 15,
+      "titulo": "Vist el Decret de l’Alcaldia núm. 6353/2023, de data 13 de setembre, de delegació",
+      "resultado": null,
+      "texto_redactado": "Vist el Decret de l’Alcaldia núm. 6353/2023, de data 13 de setembre, de delegació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#16",
+      "sesion_id": "2026-02-27",
+      "orden": 16,
+      "titulo": "Diferencias de cambio.",
+      "resultado": null,
+      "texto_redactado": "Diferencias de cambio.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#17",
+      "sesion_id": "2026-02-27",
+      "orden": 17,
+      "titulo": "Deterioro y resultado por enajenaciones de",
+      "resultado": null,
+      "texto_redactado": "Deterioro y resultado por enajenaciones de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#18",
+      "sesion_id": "2026-02-27",
+      "orden": 18,
+      "titulo": "DONAR COMPTE DE LES ACTES DE LA JUNTA DE GOVEN LOCAL DES DEL DARRER",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE LES ACTES DE LA JUNTA DE GOVEN LOCAL DES DEL DARRER",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#19",
+      "sesion_id": "2026-02-27",
+      "orden": 19,
+      "titulo": "Impuestos sobre beneficios. 15.162,64 D) RESULTADO DEL EJERCICIO (C+19) 33.434,00 835.214,80 674.472,31",
+      "resultado": null,
+      "texto_redactado": "Impuestos sobre beneficios. 15.162,64 D) RESULTADO DEL EJERCICIO (C+19) 33.434,00 835.214,80 674.472,31",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#20",
+      "sesion_id": "2026-02-27",
+      "orden": 20,
+      "titulo": "Arrendaments y Cànons 35,74 45 131.877,54 5 22.198,30",
+      "resultado": null,
+      "texto_redactado": "Arrendaments y Cànons 35,74 45 131.877,54 5 22.198,30",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#21",
+      "sesion_id": "2026-02-27",
+      "orden": 21,
+      "titulo": "Reparació, Manteniment i Conservació 30,17 129 127.667,32 27 50.516,70Per a descarregar una còpia d'aquest document consulti la següent pàgina web",
+      "resultado": null,
+      "texto_redactado": "Reparació, Manteniment i Conservació 30,17 129 127.667,32 27 50.516,70Per a descarregar una còpia d'aquest document consulti la següent pàgina web",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#22",
+      "sesion_id": "2026-02-27",
+      "orden": 22,
+      "titulo": "Material, Subministraments i Altres 19,74 618 6.601.316,29 148 1.055.257,5",
+      "resultado": null,
+      "texto_redactado": "Material, Subministraments i Altres 19,74 618 6.601.316,29 148 1.055.257,5",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#23",
+      "sesion_id": "2026-02-27",
+      "orden": 23,
+      "titulo": "Indemnitzacions per raó del servei 23,01 243 16.484,29 32 1.426,11",
+      "resultado": null,
+      "texto_redactado": "Indemnitzacions per raó del servei 23,01 243 16.484,29 32 1.426,11",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    },
+    {
+      "id": "2026-02-27#24",
+      "sesion_id": "2026-02-27",
+      "orden": 24,
+      "titulo": "Despeses de Publicacions 136,18 2 407,65 2 321,47",
+      "resultado": null,
+      "texto_redactado": "Despeses de Publicacions 136,18 2 407,65 2 321,47",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:56.773Z"
+      }
+    }
+  ]
+}

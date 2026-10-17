@@ -1,0 +1,268 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "alpicat",
+    "nombre": "Alpicat",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2502360009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-01-26",
+    "municipio_id": "alpicat",
+    "fecha": "2026-01-26",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2502360009/2026/bab81200-27fd-4065-a878-f981a69e4f92/260126%20PL%2002.pdf",
+    "hash_contenido": "5dd26109f29c9ecaf0c0a0c81796e9625e906323228c41fc95e2f341e610b39c",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:46:16.256Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-01-26#1",
+      "sesion_id": "2026-01-26",
+      "orden": 1,
+      "titulo": "Aprovació de les actes de les sessions anteriors",
+      "resultado": null,
+      "texto_redactado": "Aprovació de les actes de les sessions anteriors",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:16.256Z"
+      }
+    },
+    {
+      "id": "2026-01-26#2",
+      "sesion_id": "2026-01-26",
+      "orden": 2,
+      "titulo": "Instar la Comissió Europea, el Govern de l’Estat i la Generalitat de Catalunya a exigir i",
+      "resultado": null,
+      "texto_redactado": "Instar la Comissió Europea, el Govern de l’Estat i la Generalitat de Catalunya a exigir i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:16.256Z"
+      }
+    },
+    {
+      "id": "2026-01-26#3",
+      "sesion_id": "2026-01-26",
+      "orden": 3,
+      "titulo": "Instar el Govern de l’Estat i la Generalitat de Catalunya a reforçar i aplicar amb el màxim",
+      "resultado": null,
+      "texto_redactado": "Instar el Govern de l’Estat i la Generalitat de Catalunya a reforçar i aplicar amb el màxim",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:16.256Z"
+      }
+    },
+    {
+      "id": "2026-01-26#4",
+      "sesion_id": "2026-01-26",
+      "orden": 4,
+      "titulo": "Reclamar la realització d’estudis d’impacte rigorosos, públics i territorialitzats sobre els",
+      "resultado": null,
+      "texto_redactado": "Reclamar la realització d’estudis d’impacte rigorosos, públics i territorialitzats sobre els",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:16.256Z"
+      }
+    },
+    {
+      "id": "2026-01-26#5",
+      "sesion_id": "2026-01-26",
+      "orden": 5,
+      "titulo": "Adoptar el compromís de l’Ajuntament d’Alpicat d’impulsar una política municipal de",
+      "resultado": null,
+      "texto_redactado": "Adoptar el compromís de l’Ajuntament d’Alpicat d’impulsar una política municipal de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:16.256Z"
+      }
+    },
+    {
+      "id": "2026-01-26#6",
+      "sesion_id": "2026-01-26",
+      "orden": 6,
+      "titulo": "Promoure des del municipi iniciatives que fomentin els circuits curts de comercialització i",
+      "resultado": null,
+      "texto_redactado": "Promoure des del municipi iniciatives que fomentin els circuits curts de comercialització i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:16.256Z"
+      }
+    },
+    {
+      "id": "2026-01-26#7",
+      "sesion_id": "2026-01-26",
+      "orden": 7,
+      "titulo": "Impulsar mesures municipals orientades a la sobirania alimentària i a la resiliència",
+      "resultado": null,
+      "texto_redactado": "Impulsar mesures municipals orientades a la sobirania alimentària i a la resiliència",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:16.256Z"
+      }
+    },
+    {
+      "id": "2026-01-26#8",
+      "sesion_id": "2026-01-26",
+      "orden": 8,
+      "titulo": "Donar suport a les mobilitzacions i iniciatives del sector primari que defensin la viabilitat de",
+      "resultado": null,
+      "texto_redactado": "Donar suport a les mobilitzacions i iniciatives del sector primari que defensin la viabilitat de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:16.256Z"
+      }
+    },
+    {
+      "id": "2026-01-26#9",
+      "sesion_id": "2026-01-26",
+      "orden": 9,
+      "titulo": "Assumptes d’urgència",
+      "resultado": null,
+      "texto_redactado": "Assumptes d’urgència",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:16.256Z"
+      }
+    },
+    {
+      "id": "2026-01-26#10",
+      "sesion_id": "2026-01-26",
+      "orden": 10,
+      "titulo": "Precs i preguntes",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:46:16.256Z"
+      }
+    }
+  ]
+}

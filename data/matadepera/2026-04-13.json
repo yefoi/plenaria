@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "matadepera",
+    "nombre": "Matadepera",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "812060009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-04-13",
+    "municipio_id": "matadepera",
+    "fecha": "2026-04-13",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/812060009/2026/55a70c5f-6be2-4b98-945e-ff8730b6163b/Acta%20Junta%2013042026.pdf",
+    "hash_contenido": "f0bd0807e2dc39177adaa4b4f9dbd86735947ba237717606f7058ece32c3119e",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:42:14.967Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-04-13#1",
+      "sesion_id": "2026-04-13",
+      "orden": 1,
+      "titulo": "Aprovació de l'Acta de la sessió anterior de data 30.03.2026",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'Acta de la sessió anterior de data 30.03.2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:14.967Z"
+      }
+    },
+    {
+      "id": "2026-04-13#2",
+      "sesion_id": "2026-04-13",
+      "orden": 2,
+      "titulo": "Punto de responsabilidad patrimonial",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:14.967Z"
+      }
+    },
+    {
+      "id": "2026-04-13#3",
+      "sesion_id": "2026-04-13",
+      "orden": 3,
+      "titulo": "Punto de responsabilidad patrimonial",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:14.967Z"
+      }
+    }
+  ]
+}

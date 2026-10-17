@@ -1,0 +1,339 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-andreu-de-llavaneres",
+    "nombre": "Sant Andreu de Llavaneres",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "819760009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-03-24",
+    "municipio_id": "sant-andreu-de-llavaneres",
+    "fecha": "2026-03-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/819760009/2026/58f99ddd-0828-482b-ba3b-2665f765abbc/ACTA%20PLE%2024-03-26.pdf",
+    "hash_contenido": "debb305b7b8012a9b03842d5372d115b85d9521d51a255f441258f3622f22506",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:41:31.009Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-03-24#1",
+      "sesion_id": "2026-03-24",
+      "orden": 1,
+      "titulo": "APROVACIÓ, SI S’ESCAU, DE L’ACTA DE LA SESSIÓ ORDINÀRIA CELEBRADA EL DIA 24 DE FEBRER DE 2026.-",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ, SI S’ESCAU, DE L’ACTA DE LA SESSIÓ ORDINÀRIA CELEBRADA EL DIA 24 DE FEBRER DE 2026.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.009Z"
+      }
+    },
+    {
+      "id": "2026-03-24#2",
+      "sesion_id": "2026-03-24",
+      "orden": 2,
+      "titulo": "CONTROL I FISCALITZACIÓ DELS ÒRGANS DE GOVERN:Aquest document és una còpia autèntica d'un document electrònic validable a:",
+      "resultado": null,
+      "texto_redactado": "CONTROL I FISCALITZACIÓ DELS ÒRGANS DE GOVERN:Aquest document és una còpia autèntica d'un document electrònic validable a:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.009Z"
+      }
+    },
+    {
+      "id": "2026-03-24#3",
+      "sesion_id": "2026-03-24",
+      "orden": 3,
+      "titulo": "DONAR COMPTE DE LA RELACIÓ MENSUAL DE LES OPERACIONS DEL COMPTE 413 «CREDITORS PER OPERACIONS MERITADES» (EXP. 2023/874).-",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE LA RELACIÓ MENSUAL DE LES OPERACIONS DEL COMPTE 413 «CREDITORS PER OPERACIONS MERITADES» (EXP. 2023/874).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.009Z"
+      }
+    },
+    {
+      "id": "2026-03-24#4",
+      "sesion_id": "2026-03-24",
+      "orden": 4,
+      "titulo": "RATIFICACIÓ DEL DECRET DE L’ALCALDIA NòM. 423/2026, DE 13 DE MARÇ, DE RECTIFICACIÓ DE LES TARIFES APLICABLES ALS SERVEIS URBANS DE TAXI AL MUNICIPI DE SANT ANDREU DE LLAVANERES PER A L’ANY 2026. (EXP. 2025/8484).-",
+      "resultado": null,
+      "texto_redactado": "RATIFICACIÓ DEL DECRET DE L’ALCALDIA NòM. 423/2026, DE 13 DE MARÇ, DE RECTIFICACIÓ DE LES TARIFES APLICABLES ALS SERVEIS URBANS DE TAXI AL MUNICIPI DE SANT ANDREU DE LLAVANERES PER A L’ANY 2026. (EXP. 2025/8484).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.009Z"
+      }
+    },
+    {
+      "id": "2026-03-24#5",
+      "sesion_id": "2026-03-24",
+      "orden": 5,
+      "titulo": "Observacions",
+      "resultado": null,
+      "texto_redactado": "Observacions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.009Z"
+      }
+    },
+    {
+      "id": "2026-03-24#6",
+      "sesion_id": "2026-03-24",
+      "orden": 6,
+      "titulo": "ATORGAMENT AL CLUB NÀUTIC EL BALÍS DEL CONSENTIMENT EXPRÉS PER A LA UTILITZACIÓ DE LA BANDERA MUNICIPAL. (EXP. 2026/1496).-",
+      "resultado": null,
+      "texto_redactado": "ATORGAMENT AL CLUB NÀUTIC EL BALÍS DEL CONSENTIMENT EXPRÉS PER A LA UTILITZACIÓ DE LA BANDERA MUNICIPAL. (EXP. 2026/1496).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.009Z"
+      }
+    },
+    {
+      "id": "2026-03-24#7",
+      "sesion_id": "2026-03-24",
+      "orden": 7,
+      "titulo": "APROVACIÓ INICIAL DEL REGLAMENT D’ARMAMENT DE LA POLICIA LOCAL DE SANT ANDREU DE LLAVANERES. (EXP. 2026/1873).-",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ INICIAL DEL REGLAMENT D’ARMAMENT DE LA POLICIA LOCAL DE SANT ANDREU DE LLAVANERES. (EXP. 2026/1873).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.009Z"
+      }
+    },
+    {
+      "id": "2026-03-24#8",
+      "sesion_id": "2026-03-24",
+      "orden": 8,
+      "titulo": "RESOLUCIÓ DE LES AL·LEGACIONS PRESENTADES PER L’ASSOCIACIÓ RECREATIVA PISCINES PORT LLAVANERES, APROVACIÓ DEFINITIVA DELS PLECS DE CLÀUSULES ADMINISTRATIVES I ELS PLECS DE PRESCRIPCIONS TÈCNIQUES PARTICULARS PER A LA",
+      "resultado": null,
+      "texto_redactado": "RESOLUCIÓ DE LES AL·LEGACIONS PRESENTADES PER L’ASSOCIACIÓ RECREATIVA PISCINES PORT LLAVANERES, APROVACIÓ DEFINITIVA DELS PLECS DE CLÀUSULES ADMINISTRATIVES I ELS PLECS DE PRESCRIPCIONS TÈCNIQUES PARTICULARS PER A LA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.009Z"
+      }
+    },
+    {
+      "id": "2026-03-24#9",
+      "sesion_id": "2026-03-24",
+      "orden": 9,
+      "titulo": "MOCIÓ DEL GRUP MUNICIPAL D’ERC-AM, DE REPROVACIÓ A LA REGIDORA ANNABEL MARTÍNEZ DEL PARTIT DELS SOCIALISTES DE L’AJUNTAMENT DE SANT ANDREU DE",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ DEL GRUP MUNICIPAL D’ERC-AM, DE REPROVACIÓ A LA REGIDORA ANNABEL MARTÍNEZ DEL PARTIT DELS SOCIALISTES DE L’AJUNTAMENT DE SANT ANDREU DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.009Z"
+      }
+    },
+    {
+      "id": "2026-03-24#10",
+      "sesion_id": "2026-03-24",
+      "orden": 10,
+      "titulo": "PREGUNTES DEL SENYOR ORIOL GIRALT GILI, REGIDOR NO ADSCRIT.-",
+      "resultado": null,
+      "texto_redactado": "PREGUNTES DEL SENYOR ORIOL GIRALT GILI, REGIDOR NO ADSCRIT.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.009Z"
+      }
+    },
+    {
+      "id": "2026-03-24#11",
+      "sesion_id": "2026-03-24",
+      "orden": 11,
+      "titulo": "PREGUNTES DEL GRUP MUNICIPAL D'ERC-AM.-",
+      "resultado": null,
+      "texto_redactado": "PREGUNTES DEL GRUP MUNICIPAL D'ERC-AM.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.009Z"
+      }
+    },
+    {
+      "id": "2026-03-24#12",
+      "sesion_id": "2026-03-24",
+      "orden": 12,
+      "titulo": "PREC DEL SENYOR ORIOL GIRALT GILI, REGIDOR NO ADSCRIT.-",
+      "resultado": null,
+      "texto_redactado": "PREC DEL SENYOR ORIOL GIRALT GILI, REGIDOR NO ADSCRIT.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.009Z"
+      }
+    },
+    {
+      "id": "2026-03-24#13",
+      "sesion_id": "2026-03-24",
+      "orden": 13,
+      "titulo": "INFORMES.-",
+      "resultado": null,
+      "texto_redactado": "INFORMES.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:31.009Z"
+      }
+    }
+  ]
+}

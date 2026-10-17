@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "tona",
+    "nombre": "Tona",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "828300000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-14",
+    "municipio_id": "tona",
+    "fecha": "2026-05-14",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/828300000/2026/edc51025-ad02-4c40-82c6-72beb0c62d76/2026-05-14_Acta%20de%20la%20sessi%f3%20de%20la%20Junta%20de%20Govern%20Local.pdf",
+    "hash_contenido": "c4ae32a76e1866546e7b3c3e0f9b29428b9cfe20bd59d8a1a7e7351bf618e505",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:43:18.162Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-14#1",
+      "sesion_id": "2026-05-14",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la Junta de Govern Local del dia 7 de maig de 2026",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la Junta de Govern Local del dia 7 de maig de 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:18.162Z"
+      }
+    },
+    {
+      "id": "2026-05-14#2",
+      "sesion_id": "2026-05-14",
+      "orden": 2,
+      "titulo": "Aprovació del conveni interadministratiu de règim disciplinari amb el Departament",
+      "resultado": null,
+      "texto_redactado": "Aprovació del conveni interadministratiu de règim disciplinari amb el Departament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:18.162Z"
+      }
+    },
+    {
+      "id": "2026-05-14#3",
+      "sesion_id": "2026-05-14",
+      "orden": 3,
+      "titulo": "Liquidació del contracte del servei públic municipal de control i gestió d'aparcament en",
+      "resultado": null,
+      "texto_redactado": "Liquidació del contracte del servei públic municipal de control i gestió d'aparcament en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:18.162Z"
+      }
+    },
+    {
+      "id": "2026-05-14#4",
+      "sesion_id": "2026-05-14",
+      "orden": 4,
+      "titulo": "Precs i preguntes DESENVOLUPAMENT DE LA SESSIÓ",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes DESENVOLUPAMENT DE LA SESSIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:18.162Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "argentona",
+    "nombre": "Argentona",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "800950006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-10",
+    "municipio_id": "argentona",
+    "fecha": "2026-09-10",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/800950006/2026/f6028d7c-09f2-44d9-9d0e-06bd7e0a7c6c/Acta%20PC%20extr%20n%fam.%209%20de%2010%20setembre%202026.pdf",
+    "hash_contenido": "60047aa7a90b2632d280df25a654252aaebec66bb3db63aad76a3fea451076a3",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-17T10:40:54.339Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-10#1",
+      "sesion_id": "2026-09-10",
+      "orden": 1,
+      "titulo": "ACTA Expedient núm. Òrgan col·legiat PLN/2026/9 El ple",
+      "resultado": null,
+      "texto_redactado": "ACTA Expedient núm. Òrgan col·legiat PLN/2026/9 El ple",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:54.339Z"
+      }
+    }
+  ]
+}

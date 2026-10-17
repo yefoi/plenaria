@@ -1,0 +1,412 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "palafrugell",
+    "nombre": "Palafrugell",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1711750006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-08-25",
+    "municipio_id": "palafrugell",
+    "fecha": "2026-08-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1711750006/2026/9642a0f6-62aa-4fdd-ae2c-50de7f72ca49/Ple%2008_2026.pdf",
+    "hash_contenido": "e1915dc7384a881efbd830c7325c8e188249b36f02f65c2f841519c76cb8406b",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:36:16.181Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-08-25#1",
+      "sesion_id": "2026-08-25",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta de la sessió anterior",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’acta de la sessió anterior",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:16.181Z"
+      }
+    },
+    {
+      "id": "2026-08-25#2",
+      "sesion_id": "2026-08-25",
+      "orden": 2,
+      "titulo": "Resolucions d’alcaldia. InformacióJosep Rovira i Jofre - DNI ********P (1 de 2)",
+      "resultado": null,
+      "texto_redactado": "Resolucions d’alcaldia. InformacióJosep Rovira i Jofre - DNI ********P (1 de 2)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:16.181Z"
+      }
+    },
+    {
+      "id": "2026-08-25#3",
+      "sesion_id": "2026-08-25",
+      "orden": 3,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:16.181Z"
+      }
+    },
+    {
+      "id": "2026-08-25#4",
+      "sesion_id": "2026-08-25",
+      "orden": 4,
+      "titulo": "Arrendament i servei de manteniment equips impressió. Adhesió i encàrrec",
+      "resultado": null,
+      "texto_redactado": "Arrendament i servei de manteniment equips impressió. Adhesió i encàrrec",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:16.181Z"
+      }
+    },
+    {
+      "id": "2026-08-25#5",
+      "sesion_id": "2026-08-25",
+      "orden": 5,
+      "titulo": "Compensació despeses per ordre de continuïtat del contracte de manteniment de les vies",
+      "resultado": null,
+      "texto_redactado": "Compensació despeses per ordre de continuïtat del contracte de manteniment de les vies",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:16.181Z"
+      }
+    },
+    {
+      "id": "2026-08-25#6",
+      "sesion_id": "2026-08-25",
+      "orden": 6,
+      "titulo": "Empenyorament contracte aparcament Can Mario. Aprovació",
+      "resultado": null,
+      "texto_redactado": "Empenyorament contracte aparcament Can Mario. Aprovació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:16.181Z"
+      }
+    },
+    {
+      "id": "2026-08-25#7",
+      "sesion_id": "2026-08-25",
+      "orden": 7,
+      "titulo": "Generalitat Catalunya Ensenyament bonificació ICIO LMRC 245/2026. Aprovació",
+      "resultado": null,
+      "texto_redactado": "Generalitat Catalunya Ensenyament bonificació ICIO LMRC 245/2026. Aprovació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:16.181Z"
+      }
+    },
+    {
+      "id": "2026-08-25#8",
+      "sesion_id": "2026-08-25",
+      "orden": 8,
+      "titulo": "Generalitat Catalunya Ensenyament bonificació ICIO LMRC 231/2026. Aprovació A.2) ASSUMPTES DE LA COMISSIÓ INFORMATIVA DE TERRITORI.",
+      "resultado": null,
+      "texto_redactado": "Generalitat Catalunya Ensenyament bonificació ICIO LMRC 231/2026. Aprovació A.2) ASSUMPTES DE LA COMISSIÓ INFORMATIVA DE TERRITORI.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:16.181Z"
+      }
+    },
+    {
+      "id": "2026-08-25#9",
+      "sesion_id": "2026-08-25",
+      "orden": 9,
+      "titulo": "Pla de Millora Urbana [DIRECCIÓN] a Tamariu. Aprovació inicial",
+      "resultado": null,
+      "texto_redactado": "Pla de Millora Urbana [DIRECCIÓN] a Tamariu. Aprovació inicial",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:16.181Z"
+      }
+    },
+    {
+      "id": "2026-08-25#10",
+      "sesion_id": "2026-08-25",
+      "orden": 10,
+      "titulo": "Canvi modalitat del sistema de gestió urbanística del Sector PAU b1.24 ÒRegularització",
+      "resultado": null,
+      "texto_redactado": "Canvi modalitat del sistema de gestió urbanística del Sector PAU b1.24 ÒRegularització",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:16.181Z"
+      }
+    },
+    {
+      "id": "2026-08-25#11",
+      "sesion_id": "2026-08-25",
+      "orden": 11,
+      "titulo": "Exclusió de la màquina trituradora de restes vegetals de la relació de béns del servei públic",
+      "resultado": null,
+      "texto_redactado": "Exclusió de la màquina trituradora de restes vegetals de la relació de béns del servei públic",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:16.181Z"
+      }
+    },
+    {
+      "id": "2026-08-25#12",
+      "sesion_id": "2026-08-25",
+      "orden": 12,
+      "titulo": "Exclusió de dues embarcacions de la relació de béns del contracte del servei públic de",
+      "resultado": null,
+      "texto_redactado": "Exclusió de dues embarcacions de la relació de béns del contracte del servei públic de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:16.181Z"
+      }
+    },
+    {
+      "id": "2026-08-25#13",
+      "sesion_id": "2026-08-25",
+      "orden": 13,
+      "titulo": "Addenda al Conveni d’encàrrec de gestió, al CCBE, del Servei Municipal d'Acollida.",
+      "resultado": null,
+      "texto_redactado": "Addenda al Conveni d’encàrrec de gestió, al CCBE, del Servei Municipal d'Acollida.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:16.181Z"
+      }
+    },
+    {
+      "id": "2026-08-25#14",
+      "sesion_id": "2026-08-25",
+      "orden": 14,
+      "titulo": "Pròrroga conveni amb el Consell Comarcal del Baix Empordà per la gestió del servei de",
+      "resultado": null,
+      "texto_redactado": "Pròrroga conveni amb el Consell Comarcal del Baix Empordà per la gestió del servei de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:16.181Z"
+      }
+    },
+    {
+      "id": "2026-08-25#15",
+      "sesion_id": "2026-08-25",
+      "orden": 15,
+      "titulo": "Vist el dictamen de la Comissió Informativa d’Administració General, Economia i",
+      "resultado": null,
+      "texto_redactado": "Vist el dictamen de la Comissió Informativa d’Administració General, Economia i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:16.181Z"
+      }
+    },
+    {
+      "id": "2026-08-25#16",
+      "sesion_id": "2026-08-25",
+      "orden": 16,
+      "titulo": "Pròrroga conveni amb el Consell Comarcal del Baix Empordà per la gestió del servei de",
+      "resultado": null,
+      "texto_redactado": "Pròrroga conveni amb el Consell Comarcal del Baix Empordà per la gestió del servei de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:16.181Z"
+      }
+    }
+  ]
+}

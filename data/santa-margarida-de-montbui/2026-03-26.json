@@ -1,0 +1,531 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "santa-margarida-de-montbui",
+    "nombre": "Santa Margarida de Montbui",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "825080001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-03-26",
+    "municipio_id": "santa-margarida-de-montbui",
+    "fecha": "2026-03-26",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/825080001/2026/9aeb286f-a95c-488d-84eb-a69d4a464c18/ACTA%20PLE%202026-0002.pdf",
+    "hash_contenido": "9188307e102e009452bf849eacb8361fbff23d61460b63615a00aa119f5af45d",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:41:58.302Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-03-26#1",
+      "sesion_id": "2026-03-26",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió anterior de data 27 de novembre de 2025. PLE",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior de data 27 de novembre de 2025. PLE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:58.302Z"
+      }
+    },
+    {
+      "id": "2026-03-26#2",
+      "sesion_id": "2026-03-26",
+      "orden": 2,
+      "titulo": "Aprovació de l'acta de la sessió anterior de data 18 de desembre de 2025. PLE",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior de data 18 de desembre de 2025. PLE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:58.302Z"
+      }
+    },
+    {
+      "id": "2026-03-26#3",
+      "sesion_id": "2026-03-26",
+      "orden": 3,
+      "titulo": "Aprovació de l'acta de la sessió anterior de data 22 de gener de 2026. PLE/2026/01",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior de data 22 de gener de 2026. PLE/2026/01",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:58.302Z"
+      }
+    },
+    {
+      "id": "2026-03-26#4",
+      "sesion_id": "2026-03-26",
+      "orden": 4,
+      "titulo": "Expedient 148/2026. APROVAR les tarifes per l’exercici 2026 del Servei de Taxi de",
+      "resultado": null,
+      "texto_redactado": "Expedient 148/2026. APROVAR les tarifes per l’exercici 2026 del Servei de Taxi de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:58.302Z"
+      }
+    },
+    {
+      "id": "2026-03-26#5",
+      "sesion_id": "2026-03-26",
+      "orden": 5,
+      "titulo": "Expedient 2386/2025. APROVAR INICIALMENT la modificació de l’article 4.1 de l’",
+      "resultado": null,
+      "texto_redactado": "Expedient 2386/2025. APROVAR INICIALMENT la modificació de l’article 4.1 de l’",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:58.302Z"
+      }
+    },
+    {
+      "id": "2026-03-26#6",
+      "sesion_id": "2026-03-26",
+      "orden": 6,
+      "titulo": "Expedient 46/2025. DECLARAR d’especial interès i utilitat municipal, per concórrer",
+      "resultado": null,
+      "texto_redactado": "Expedient 46/2025. DECLARAR d’especial interès i utilitat municipal, per concórrer",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:58.302Z"
+      }
+    },
+    {
+      "id": "2026-03-26#7",
+      "sesion_id": "2026-03-26",
+      "orden": 7,
+      "titulo": "Expedient 260/2025. RATIFICAR la signatura de la Pròrroga del Conveni de",
+      "resultado": null,
+      "texto_redactado": "Expedient 260/2025. RATIFICAR la signatura de la Pròrroga del Conveni de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:58.302Z"
+      }
+    },
+    {
+      "id": "2026-03-26#8",
+      "sesion_id": "2026-03-26",
+      "orden": 8,
+      "titulo": "Expedient 576/2026. ADHERIR-SE a la Declaració Institucional amb motiu del 8 de",
+      "resultado": null,
+      "texto_redactado": "Expedient 576/2026. ADHERIR-SE a la Declaració Institucional amb motiu del 8 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:58.302Z"
+      }
+    },
+    {
+      "id": "2026-03-26#9",
+      "sesion_id": "2026-03-26",
+      "orden": 9,
+      "titulo": "Expedient 199/2026. APROVAR el Compte de la Gestió Recaptatòria de tributs · el",
+      "resultado": null,
+      "texto_redactado": "Expedient 199/2026. APROVAR el Compte de la Gestió Recaptatòria de tributs · el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:58.302Z"
+      }
+    },
+    {
+      "id": "2026-03-26#10",
+      "sesion_id": "2026-03-26",
+      "orden": 10,
+      "titulo": "Expedient 934/2025. Donar compte de l'execució del 4rt trimestre del Pressupost",
+      "resultado": null,
+      "texto_redactado": "Expedient 934/2025. Donar compte de l'execució del 4rt trimestre del Pressupost",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:58.302Z"
+      }
+    },
+    {
+      "id": "2026-03-26#11",
+      "sesion_id": "2026-03-26",
+      "orden": 11,
+      "titulo": "Expedient 382/2026. Donar compte de la liquidació del Pressupost de l'Ajuntament",
+      "resultado": null,
+      "texto_redactado": "Expedient 382/2026. Donar compte de la liquidació del Pressupost de l'Ajuntament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:58.302Z"
+      }
+    },
+    {
+      "id": "2026-03-26#12",
+      "sesion_id": "2026-03-26",
+      "orden": 12,
+      "titulo": "Expedient 911/2026. Donar compte de la liquidació del Pressupost de l'exercici",
+      "resultado": null,
+      "texto_redactado": "Expedient 911/2026. Donar compte de la liquidació del Pressupost de l'exercici",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:58.302Z"
+      }
+    },
+    {
+      "id": "2026-03-26#13",
+      "sesion_id": "2026-03-26",
+      "orden": 13,
+      "titulo": "Expedient 863/2026. APROVAR la modificació de crèdits núm. 863/2026 delCodi Validació: 9FT2PEAD2H9SPH6HPE4CRLKQH",
+      "resultado": null,
+      "texto_redactado": "Expedient 863/2026. APROVAR la modificació de crèdits núm. 863/2026 delCodi Validació: 9FT2PEAD2H9SPH6HPE4CRLKQH",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:58.302Z"
+      }
+    },
+    {
+      "id": "2026-03-26#14",
+      "sesion_id": "2026-03-26",
+      "orden": 14,
+      "titulo": "Expedient 915/2026. Donar compte de l'INFORME RESUM DE CONTROL INTERN",
+      "resultado": null,
+      "texto_redactado": "Expedient 915/2026. Donar compte de l'INFORME RESUM DE CONTROL INTERN",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:58.302Z"
+      }
+    },
+    {
+      "id": "2026-03-26#15",
+      "sesion_id": "2026-03-26",
+      "orden": 15,
+      "titulo": "Expedient 292/2026. Donar compte del Pla Anual de Control Financer 2026",
+      "resultado": null,
+      "texto_redactado": "Expedient 292/2026. Donar compte del Pla Anual de Control Financer 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:58.302Z"
+      }
+    },
+    {
+      "id": "2026-03-26#16",
+      "sesion_id": "2026-03-26",
+      "orden": 16,
+      "titulo": "Expedient 2162/2025. Donar compte de l'INFORME SINDICATURA DE COMPTESCodi Validació: 9FT2PEAD2H9SPH6HPE4CRLKQH",
+      "resultado": null,
+      "texto_redactado": "Expedient 2162/2025. Donar compte de l'INFORME SINDICATURA DE COMPTESCodi Validació: 9FT2PEAD2H9SPH6HPE4CRLKQH",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:58.302Z"
+      }
+    },
+    {
+      "id": "2026-03-26#17",
+      "sesion_id": "2026-03-26",
+      "orden": 17,
+      "titulo": "Expedient 908/2026. Dació de compte de la relació de Decrets d'Alcaldia des del",
+      "resultado": null,
+      "texto_redactado": "Expedient 908/2026. Dació de compte de la relació de Decrets d'Alcaldia des del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:58.302Z"
+      }
+    },
+    {
+      "id": "2026-03-26#18",
+      "sesion_id": "2026-03-26",
+      "orden": 18,
+      "titulo": "Expedient 217/2026. Dació de compte JUNTES DE GOVERN LOCAL 2026",
+      "resultado": null,
+      "texto_redactado": "Expedient 217/2026. Dació de compte JUNTES DE GOVERN LOCAL 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:58.302Z"
+      }
+    },
+    {
+      "id": "2026-03-26#19",
+      "sesion_id": "2026-03-26",
+      "orden": 19,
+      "titulo": "Expedient 485/2026. Moció presentada pel Grup Municipal de VOX, per regular",
+      "resultado": null,
+      "texto_redactado": "Expedient 485/2026. Moció presentada pel Grup Municipal de VOX, per regular",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:58.302Z"
+      }
+    },
+    {
+      "id": "2026-03-26#20",
+      "sesion_id": "2026-03-26",
+      "orden": 20,
+      "titulo": "Expedient 484/2026. Moció presentada pel Grup Municipal de VOX, sobre la",
+      "resultado": null,
+      "texto_redactado": "Expedient 484/2026. Moció presentada pel Grup Municipal de VOX, sobre la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:58.302Z"
+      }
+    },
+    {
+      "id": "2026-03-26#21",
+      "sesion_id": "2026-03-26",
+      "orden": 21,
+      "titulo": "Expedient 851/2023. PRENDRE CONEIXEMENT de la renúncia voluntària",
+      "resultado": null,
+      "texto_redactado": "Expedient 851/2023. PRENDRE CONEIXEMENT de la renúncia voluntària",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:58.302Z"
+      }
+    }
+  ]
+}

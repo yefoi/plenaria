@@ -1,0 +1,196 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "argentona",
+    "nombre": "Argentona",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "800950006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-27",
+    "municipio_id": "argentona",
+    "fecha": "2026-07-27",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/800950006/2026/d3df08d7-08dc-4e6e-8fa5-c1077636468a/Acta%20PC%20n%fam.%208%20de%2027%20de%20juliol%20de%202026.pdf",
+    "hash_contenido": "b8282175d5fd782f7d8241abeecbb50003d4d2daf27ac29f221569405bc8a0f0",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:41:01.216Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-27#1",
+      "sesion_id": "2026-07-27",
+      "orden": 1,
+      "titulo": "Base 21 de les Bases d’execució del pressupost vigent.",
+      "resultado": null,
+      "texto_redactado": "Base 21 de les Bases d’execució del pressupost vigent.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:01.216Z"
+      }
+    },
+    {
+      "id": "2026-07-27#2",
+      "sesion_id": "2026-07-27",
+      "orden": 2,
+      "titulo": "D’acord amb l’article 15.1 d’aquesta norma, correspon a les entitats locals",
+      "resultado": null,
+      "texto_redactado": "D’acord amb l’article 15.1 d’aquesta norma, correspon a les entitats locals",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:01.216Z"
+      }
+    },
+    {
+      "id": "2026-07-27#3",
+      "sesion_id": "2026-07-27",
+      "orden": 3,
+      "titulo": "Atès que l’Ajuntament disposa d’Ordenança General de Contribucions",
+      "resultado": null,
+      "texto_redactado": "Atès que l’Ajuntament disposa d’Ordenança General de Contribucions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:01.216Z"
+      }
+    },
+    {
+      "id": "2026-07-27#4",
+      "sesion_id": "2026-07-27",
+      "orden": 4,
+      "titulo": "Controlarà els resultats de les caracteritzacions del paper i cartó",
+      "resultado": null,
+      "texto_redactado": "Controlarà els resultats de les caracteritzacions del paper i cartó",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:01.216Z"
+      }
+    },
+    {
+      "id": "2026-07-27#5",
+      "sesion_id": "2026-07-27",
+      "orden": 5,
+      "titulo": "Presidirà la comissió de seguiment. QUART: OBLIGACIONS DE L'ARSPCC L DEL GRC",
+      "resultado": null,
+      "texto_redactado": "Presidirà la comissió de seguiment. QUART: OBLIGACIONS DE L'ARSPCC L DEL GRC",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:01.216Z"
+      }
+    },
+    {
+      "id": "2026-07-27#6",
+      "sesion_id": "2026-07-27",
+      "orden": 6,
+      "titulo": "Realitzar el seguiment de la qualitat del paper i cartró descarregat a",
+      "resultado": null,
+      "texto_redactado": "Realitzar el seguiment de la qualitat del paper i cartró descarregat a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:01.216Z"
+      }
+    },
+    {
+      "id": "2026-07-27#7",
+      "sesion_id": "2026-07-27",
+      "orden": 7,
+      "titulo": "Les empreses gestores de residus adherides al conveni hauran de",
+      "resultado": null,
+      "texto_redactado": "Les empreses gestores de residus adherides al conveni hauran de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:01.216Z"
+      }
+    }
+  ]
+}

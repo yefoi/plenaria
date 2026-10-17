@@ -1,0 +1,244 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "amposta",
+    "nombre": "Amposta",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4301410007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-01-26",
+    "municipio_id": "amposta",
+    "fecha": "2026-01-26",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4301410007/2026/1e850efa-850b-4e2c-8853-5cece338882f/acta_260126.pdf",
+    "hash_contenido": "8185d21bc83aaa1096156e2127de90b9af8ac70770492515449eb3567c023916",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:36:23.692Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-01-26#1",
+      "sesion_id": "2026-01-26",
+      "orden": 1,
+      "titulo": "EXPEDIENT: 1028/2026/1. APROVACIÓ DELS ESBORRANYS DE LES ACTES CELEBRADES EN DIA 29 DE DESEMBRE [MATRÍCULA] EN SESSIÓ EXTRAORDINÀRIA EL 29 DE DESEMBRE DE 2025",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT: 1028/2026/1. APROVACIÓ DELS ESBORRANYS DE LES ACTES CELEBRADES EN DIA 29 DE DESEMBRE [MATRÍCULA] EN SESSIÓ EXTRAORDINÀRIA EL 29 DE DESEMBRE DE 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:23.692Z"
+      }
+    },
+    {
+      "id": "2026-01-26#2",
+      "sesion_id": "2026-01-26",
+      "orden": 2,
+      "titulo": "Atès que d’acord amb el que disposa el Reial Decret 2568/1986, de 28 de novembre, pel qual",
+      "resultado": null,
+      "texto_redactado": "Atès que d’acord amb el que disposa el Reial Decret 2568/1986, de 28 de novembre, pel qual",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:23.692Z"
+      }
+    },
+    {
+      "id": "2026-01-26#3",
+      "sesion_id": "2026-01-26",
+      "orden": 3,
+      "titulo": "EXPEDIENT: 1515/2026/3. NOVES INCORPORACIONS DE PERSONAL GENER DE 2026",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT: 1515/2026/3. NOVES INCORPORACIONS DE PERSONAL GENER DE 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:23.692Z"
+      }
+    },
+    {
+      "id": "2026-01-26#4",
+      "sesion_id": "2026-01-26",
+      "orden": 4,
+      "titulo": "EXPEDIENT: 1619/2026/1. EXPEDIENT PER LA RECTIFICACIÓ D’ERRADA MATERIAL DETECTADA A L’ACORD ADOPTAT EN SESSIÓ PLENÀRIA EXTRAORDINÀRIA DEL DIA 29/12/2025 CORRESPONENT A L’APROVACIÓ INICIAL DEL PRESSUPOST DE L’AJUNTAMENT D’AMPOSTA PER L’EXERCICI 2026",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT: 1619/2026/1. EXPEDIENT PER LA RECTIFICACIÓ D’ERRADA MATERIAL DETECTADA A L’ACORD ADOPTAT EN SESSIÓ PLENÀRIA EXTRAORDINÀRIA DEL DIA 29/12/2025 CORRESPONENT A L’APROVACIÓ INICIAL DEL PRESSUPOST DE L’AJUNTAMENT D’AMPOSTA PER L’EXERCICI 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:23.692Z"
+      }
+    },
+    {
+      "id": "2026-01-26#5",
+      "sesion_id": "2026-01-26",
+      "orden": 5,
+      "titulo": "EXPEDIENT: 1376/2025/233. ADDENDA I PRÒRROGA DEL CONTRACTE PROGRAMA 20022-2025 PER A LA COORDINACIÓ, LA COOPERACIÓ I LA COL·LABORACIÓ ENTRE EL DEPARTAMENT DE DRETS SOCIALS DE LA GENERALITAT DE CATALUNYA I L’AJUNTAMENT D’AMPOSTA",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT: 1376/2025/233. ADDENDA I PRÒRROGA DEL CONTRACTE PROGRAMA 20022-2025 PER A LA COORDINACIÓ, LA COOPERACIÓ I LA COL·LABORACIÓ ENTRE EL DEPARTAMENT DE DRETS SOCIALS DE LA GENERALITAT DE CATALUNYA I L’AJUNTAMENT D’AMPOSTA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:23.692Z"
+      }
+    },
+    {
+      "id": "2026-01-26#6",
+      "sesion_id": "2026-01-26",
+      "orden": 6,
+      "titulo": "EXPEDIENT: 1029/2026/2. MOCIÓ DEL GRUP MUNICIPAL D’ESQUERRA D’AMPOSTA – ESQUERRA REPUBLICANA DE CATALUNYA – ACORD MUNICIPAL, PER L’ADHESIÓ AL PACTE NACIONAL PER LA",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT: 1029/2026/2. MOCIÓ DEL GRUP MUNICIPAL D’ESQUERRA D’AMPOSTA – ESQUERRA REPUBLICANA DE CATALUNYA – ACORD MUNICIPAL, PER L’ADHESIÓ AL PACTE NACIONAL PER LA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:23.692Z"
+      }
+    },
+    {
+      "id": "2026-01-26#7",
+      "sesion_id": "2026-01-26",
+      "orden": 7,
+      "titulo": "EXPEDIENT: 1029/2026/1. MOCIÓ DEL GRUP MUNICIPAL JUNTS PER AMPOSTA - COMPROMÍS MUNICIPAL PER A LA REVISIÓ I ACTUALITZACIÓ DEL NOMENCLÀTOR DE CARRERS DEL MUNICIPI",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT: 1029/2026/1. MOCIÓ DEL GRUP MUNICIPAL JUNTS PER AMPOSTA - COMPROMÍS MUNICIPAL PER A LA REVISIÓ I ACTUALITZACIÓ DEL NOMENCLÀTOR DE CARRERS DEL MUNICIPI",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:23.692Z"
+      }
+    },
+    {
+      "id": "2026-01-26#8",
+      "sesion_id": "2026-01-26",
+      "orden": 8,
+      "titulo": "EXPEDIENT: 1029/2026/3. MOCIÓ DEL GRUP MUNICIPAL D’ESQUERRA D’AMPOSTA – ESQUERRADocument electrònic Original, de dia 20/03/2026 . Podeu comprovar la seva autenticitat mitjançant el codi de verificació 16340407443440556252 a https://seu.amposta.cat/validador",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT: 1029/2026/3. MOCIÓ DEL GRUP MUNICIPAL D’ESQUERRA D’AMPOSTA – ESQUERRADocument electrònic Original, de dia 20/03/2026 . Podeu comprovar la seva autenticitat mitjançant el codi de verificació 16340407443440556252 a https://seu.amposta.cat/validador",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:23.692Z"
+      }
+    },
+    {
+      "id": "2026-01-26#9",
+      "sesion_id": "2026-01-26",
+      "orden": 9,
+      "titulo": "PRECS I PREGUNTES",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:23.692Z"
+      }
+    }
+  ]
+}

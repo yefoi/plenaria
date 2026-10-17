@@ -1,0 +1,268 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "lametlla-del-valles",
+    "nombre": "L'Ametlla del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "800570005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2025-12-23",
+    "municipio_id": "lametlla-del-valles",
+    "fecha": "2025-12-23",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/800570005/2025/a9e982d5-7557-41d0-b21c-1ccd7af63cf2/20260202_ACTA%20DEL%20PLE%202025-0012%20[ESBORRANY%20ACTA%2023%20-%2012%20-%202025].pdf",
+    "hash_contenido": "6906a28a301ff20b7b759f51e4639e0d5975d70c407f2591b16391a54eb194de",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:42:37.679Z"
+  },
+  "puntos": [
+    {
+      "id": "2025-12-23#1",
+      "sesion_id": "2025-12-23",
+      "orden": 1,
+      "titulo": "Crisant Tengo Valldeoriola",
+      "resultado": null,
+      "texto_redactado": "Crisant Tengo Valldeoriola",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:37.679Z"
+      }
+    },
+    {
+      "id": "2025-12-23#2",
+      "sesion_id": "2025-12-23",
+      "orden": 2,
+      "titulo": "Marc Palau AntojaCodi Validació: 57JRYZNDFSKZRCXDRT36X4TY6",
+      "resultado": null,
+      "texto_redactado": "Marc Palau AntojaCodi Validació: 57JRYZNDFSKZRCXDRT36X4TY6",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:37.679Z"
+      }
+    },
+    {
+      "id": "2025-12-23#3",
+      "sesion_id": "2025-12-23",
+      "orden": 3,
+      "titulo": "Informació de l'Equip de Govern.",
+      "resultado": null,
+      "texto_redactado": "Informació de l'Equip de Govern.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:37.679Z"
+      }
+    },
+    {
+      "id": "2025-12-23#4",
+      "sesion_id": "2025-12-23",
+      "orden": 4,
+      "titulo": "Regularització de sis (6) estacions transformadores (ET) ubicades en el municipi des de fa anys.",
+      "resultado": null,
+      "texto_redactado": "Regularització de sis (6) estacions transformadores (ET) ubicades en el municipi des de fa anys.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:37.679Z"
+      }
+    },
+    {
+      "id": "2025-12-23#5",
+      "sesion_id": "2025-12-23",
+      "orden": 5,
+      "titulo": "ET 786 POU DEL GLAÇ (Finca registral 5656, Volum 2533, Llibre117, foli 88).",
+      "resultado": null,
+      "texto_redactado": "ET 786 POU DEL GLAÇ (Finca registral 5656, Volum 2533, Llibre117, foli 88).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:37.679Z"
+      }
+    },
+    {
+      "id": "2025-12-23#6",
+      "sesion_id": "2025-12-23",
+      "orden": 6,
+      "titulo": "ET 932 ERMITA DE CAN CAMP (Finca registral 1727, Volum 2216, Llibre 85, foli 86).",
+      "resultado": null,
+      "texto_redactado": "ET 932 ERMITA DE CAN CAMP (Finca registral 1727, Volum 2216, Llibre 85, foli 86).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:37.679Z"
+      }
+    },
+    {
+      "id": "2025-12-23#7",
+      "sesion_id": "2025-12-23",
+      "orden": 7,
+      "titulo": "Aprovació inicial del Pla Local de Joventut per al període 2026-2029.",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial del Pla Local de Joventut per al període 2026-2029.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:37.679Z"
+      }
+    },
+    {
+      "id": "2025-12-23#8",
+      "sesion_id": "2025-12-23",
+      "orden": 8,
+      "titulo": "Donar compte de la modificació de l'organigrama de l’ajuntament de l’Ametlla.",
+      "resultado": null,
+      "texto_redactado": "Donar compte de la modificació de l'organigrama de l’ajuntament de l’Ametlla.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional",
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:37.679Z"
+      }
+    },
+    {
+      "id": "2025-12-23#9",
+      "sesion_id": "2025-12-23",
+      "orden": 9,
+      "titulo": "Donar compte dels acords adoptats per la Junta de Govern Local des de la darrera sessió de Ple",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels acords adoptats per la Junta de Govern Local des de la darrera sessió de Ple",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:37.679Z"
+      }
+    },
+    {
+      "id": "2025-12-23#10",
+      "sesion_id": "2025-12-23",
+      "orden": 10,
+      "titulo": "Donar compte del llistat dels decrets d'alcaldia (del núm. 1.421 de 11-11-2025 al núm. 1.568 de",
+      "resultado": null,
+      "texto_redactado": "Donar compte del llistat dels decrets d'alcaldia (del núm. 1.421 de 11-11-2025 al núm. 1.568 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:37.679Z"
+      }
+    }
+  ]
+}

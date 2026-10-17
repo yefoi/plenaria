@@ -1,0 +1,220 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "lametlla-del-valles",
+    "nombre": "L'Ametlla del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "800570005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-01-26",
+    "municipio_id": "lametlla-del-valles",
+    "fecha": "2026-01-26",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/800570005/2026/2927ac2b-b610-4e53-9e3c-f6dc9faeaa26/20260224_ACTA%20DEL%20PLE%202026-0001%20[Acta%20Ple%20Ordinari%2026-01-2026].pdf",
+    "hash_contenido": "21e2a58bd495d05ddf0ff86b0f2b31ff4ccfadfde8a1a4492878046d7e1afc65",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:42:33.310Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-01-26#1",
+      "sesion_id": "2026-01-26",
+      "orden": 1,
+      "titulo": "Crisant Tengo Valldeoriola",
+      "resultado": null,
+      "texto_redactado": "Crisant Tengo Valldeoriola",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:33.310Z"
+      }
+    },
+    {
+      "id": "2026-01-26#2",
+      "sesion_id": "2026-01-26",
+      "orden": 2,
+      "titulo": "Josep Ganduxé SolerCodi Validació: A49Q64SXHPWDSFF9YD76WXPD2",
+      "resultado": null,
+      "texto_redactado": "Josep Ganduxé SolerCodi Validació: A49Q64SXHPWDSFF9YD76WXPD2",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:33.310Z"
+      }
+    },
+    {
+      "id": "2026-01-26#3",
+      "sesion_id": "2026-01-26",
+      "orden": 3,
+      "titulo": "[Urbanisme i Serveis Jurídics] Regularització urbanística definitiva de la zona esportiva d’El Pinar",
+      "resultado": null,
+      "texto_redactado": "[Urbanisme i Serveis Jurídics] Regularització urbanística definitiva de la zona esportiva d’El Pinar",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:33.310Z"
+      }
+    },
+    {
+      "id": "2026-01-26#4",
+      "sesion_id": "2026-01-26",
+      "orden": 4,
+      "titulo": "[Mobilitat] Aprovació de les tarifes d'auto-taxi per a l’any 2026.",
+      "resultado": null,
+      "texto_redactado": "[Mobilitat] Aprovació de les tarifes d'auto-taxi per a l’any 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:33.310Z"
+      }
+    },
+    {
+      "id": "2026-01-26#5",
+      "sesion_id": "2026-01-26",
+      "orden": 5,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:33.310Z"
+      }
+    },
+    {
+      "id": "2026-01-26#6",
+      "sesion_id": "2026-01-26",
+      "orden": 6,
+      "titulo": "[Recursos Humans] Donar compte de l’aprovació de la modificació del organigrama de",
+      "resultado": null,
+      "texto_redactado": "[Recursos Humans] Donar compte de l’aprovació de la modificació del organigrama de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:33.310Z"
+      }
+    },
+    {
+      "id": "2026-01-26#7",
+      "sesion_id": "2026-01-26",
+      "orden": 7,
+      "titulo": "[Alcaldia] Donar compte de l'acta de la quarta reunió de seguiment de l'acord de pressupostos",
+      "resultado": null,
+      "texto_redactado": "[Alcaldia] Donar compte de l'acta de la quarta reunió de seguiment de l'acord de pressupostos",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:33.310Z"
+      }
+    },
+    {
+      "id": "2026-01-26#8",
+      "sesion_id": "2026-01-26",
+      "orden": 8,
+      "titulo": "[Mocions] Moció de suport al manteniment de la connexió directa de la línia R2 Nord amb",
+      "resultado": null,
+      "texto_redactado": "[Mocions] Moció de suport al manteniment de la connexió directa de la línia R2 Nord amb",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:33.310Z"
+      }
+    }
+  ]
+}

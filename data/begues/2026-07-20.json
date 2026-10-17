@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "begues",
+    "nombre": "Begues",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "802070005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-20",
+    "municipio_id": "begues",
+    "fecha": "2026-07-20",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/802070005/2026/2fd9b4c1-a36a-489d-bb8b-218b366afacd/01.%20ACTA_PLE%2020072026.pdf",
+    "hash_contenido": "0bcb4bc32565ccbab31f83f62a0659131d61b95a97c020961645fcb2c9e4150a",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:44:41.734Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-20#1",
+      "sesion_id": "2026-07-20",
+      "orden": 1,
+      "titulo": "PREGUNTES PRESENTADES PEL GRUP MUNICIPAL BECP-C. (R.E. 7590)",
+      "resultado": null,
+      "texto_redactado": "PREGUNTES PRESENTADES PEL GRUP MUNICIPAL BECP-C. (R.E. 7590)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:41.734Z"
+      }
+    },
+    {
+      "id": "2026-07-20#2",
+      "sesion_id": "2026-07-20",
+      "orden": 2,
+      "titulo": "PREGUNTA PRESENTADA PEL GRUP MUNICIPAL CUP-AMUNT SOBRE ELS HABITATGES DE L’ESCORXADOR. (R.E. 7596)",
+      "resultado": null,
+      "texto_redactado": "PREGUNTA PRESENTADA PEL GRUP MUNICIPAL CUP-AMUNT SOBRE ELS HABITATGES DE L’ESCORXADOR. (R.E. 7596)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:41.734Z"
+      }
+    },
+    {
+      "id": "2026-07-20#3",
+      "sesion_id": "2026-07-20",
+      "orden": 3,
+      "titulo": "PREC PRESENTAT PEL GRUP MUNICIPAL CUP-AMUNT SOBRE LES CONDICIONS EN QUÈ ES TROBEN LA PISCINA COBERTA I LA LLAR D’INFANTS. (R.E. 7596)",
+      "resultado": null,
+      "texto_redactado": "PREC PRESENTAT PEL GRUP MUNICIPAL CUP-AMUNT SOBRE LES CONDICIONS EN QUÈ ES TROBEN LA PISCINA COBERTA I LA LLAR D’INFANTS. (R.E. 7596)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion",
+        "servicios_sociales",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:41.734Z"
+      }
+    },
+    {
+      "id": "2026-07-20#4",
+      "sesion_id": "2026-07-20",
+      "orden": 4,
+      "titulo": "PREGUNTES PRESENTADES PEL GRUP MUNICIPAL ERC-AM. (R.E. 7597)",
+      "resultado": null,
+      "texto_redactado": "PREGUNTES PRESENTADES PEL GRUP MUNICIPAL ERC-AM. (R.E. 7597)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:41.734Z"
+      }
+    },
+    {
+      "id": "2026-07-20#5",
+      "sesion_id": "2026-07-20",
+      "orden": 5,
+      "titulo": "PRECS I PREGUNTES ORALS",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES ORALS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:41.734Z"
+      }
+    }
+  ]
+}

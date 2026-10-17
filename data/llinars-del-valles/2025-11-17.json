@@ -1,0 +1,267 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "llinars-del-valles",
+    "nombre": "Llinars del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "810690004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2025-11-17",
+    "municipio_id": "llinars-del-valles",
+    "fecha": "2025-11-17",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/810690004/2025/af3881e9-8ca8-4ebf-8f4e-8ca969490706/Acta%20Ple%20ordinari%2017-11-2025.pdf",
+    "hash_contenido": "637b2c8e7ef129561d292470339e2300a2d8c9997071a9c763665ade098d24ad",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:41:46.341Z"
+  },
+  "puntos": [
+    {
+      "id": "2025-11-17#1",
+      "sesion_id": "2025-11-17",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió anterior de data 29-09-2025",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior de data 29-09-2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:46.341Z"
+      }
+    },
+    {
+      "id": "2025-11-17#2",
+      "sesion_id": "2025-11-17",
+      "orden": 2,
+      "titulo": "Aprovació de l'acta de la sessió anterior de data 13-10-2025",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior de data 13-10-2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:46.341Z"
+      }
+    },
+    {
+      "id": "2025-11-17#3",
+      "sesion_id": "2025-11-17",
+      "orden": 3,
+      "titulo": "Expedient 7638/2025. Aprovació del pressupost per a l'exercici 2026",
+      "resultado": null,
+      "texto_redactado": "Expedient 7638/2025. Aprovació del pressupost per a l'exercici 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:46.341Z"
+      }
+    },
+    {
+      "id": "2025-11-17#4",
+      "sesion_id": "2025-11-17",
+      "orden": 4,
+      "titulo": "Expedient 8086/2025. Aprovar la delegació a favor de la Diputació de Barcelona de",
+      "resultado": null,
+      "texto_redactado": "Expedient 8086/2025. Aprovar la delegació a favor de la Diputació de Barcelona de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:46.341Z"
+      }
+    },
+    {
+      "id": "2025-11-17#5",
+      "sesion_id": "2025-11-17",
+      "orden": 5,
+      "titulo": "Aquesta atribució competencial genèrica d’assistència municipal de les diputacions,",
+      "resultado": null,
+      "texto_redactado": "Aquesta atribució competencial genèrica d’assistència municipal de les diputacions,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:46.341Z"
+      }
+    },
+    {
+      "id": "2025-11-17#6",
+      "sesion_id": "2025-11-17",
+      "orden": 6,
+      "titulo": "La selecció de personal és un procés de presa de decisió sobre l’adequació dels/de les",
+      "resultado": null,
+      "texto_redactado": "La selecció de personal és un procés de presa de decisió sobre l’adequació dels/de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:46.341Z"
+      }
+    },
+    {
+      "id": "2025-11-17#7",
+      "sesion_id": "2025-11-17",
+      "orden": 7,
+      "titulo": "Acord del ple de la Diputació de Barcelona pel qual s’aprovi la convocatòria del Catàleg",
+      "resultado": null,
+      "texto_redactado": "Acord del ple de la Diputació de Barcelona pel qual s’aprovi la convocatòria del Catàleg",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:46.341Z"
+      }
+    },
+    {
+      "id": "2025-11-17#8",
+      "sesion_id": "2025-11-17",
+      "orden": 8,
+      "titulo": "Expedient 9732/2025. Donar compte de la remissió de l'execució pressupostària del",
+      "resultado": null,
+      "texto_redactado": "Expedient 9732/2025. Donar compte de la remissió de l'execució pressupostària del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:46.341Z"
+      }
+    },
+    {
+      "id": "2025-11-17#9",
+      "sesion_id": "2025-11-17",
+      "orden": 9,
+      "titulo": "Expedient 9700/2025. Donar coneixement de les resolucions d'Alcaldia des de la",
+      "resultado": null,
+      "texto_redactado": "Expedient 9700/2025. Donar coneixement de les resolucions d'Alcaldia des de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:46.341Z"
+      }
+    },
+    {
+      "id": "2025-11-17#10",
+      "sesion_id": "2025-11-17",
+      "orden": 10,
+      "titulo": "Precs i preguntes",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:46.341Z"
+      }
+    }
+  ]
+}

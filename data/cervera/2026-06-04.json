@@ -1,0 +1,267 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "cervera",
+    "nombre": "Cervera",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2507290004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-04",
+    "municipio_id": "cervera",
+    "fecha": "2026-06-04",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2507290004/2026/3c0c5385-f0b6-47c0-81cc-e87a880b4dcc/ACTA%20DEL%20PLE%202026-0006.pdf",
+    "hash_contenido": "48ebf70f112bb08bbc402a2715f4628db451e4f2f41d93bb90998c5be37f263f",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:42:25.117Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-04#1",
+      "sesion_id": "2026-06-04",
+      "orden": 1,
+      "titulo": "Article 4 de la Llei 15/2010, assenyala:",
+      "resultado": null,
+      "texto_redactado": "Article 4 de la Llei 15/2010, assenyala:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:25.117Z"
+      }
+    },
+    {
+      "id": "2026-06-04#2",
+      "sesion_id": "2026-06-04",
+      "orden": 2,
+      "titulo": "L’article 4 de l’Ordre HAP/2105/2012, d’1 d’octubre, per la que es desenvolupen les",
+      "resultado": null,
+      "texto_redactado": "L’article 4 de l’Ordre HAP/2105/2012, d’1 d’octubre, per la que es desenvolupen les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:25.117Z"
+      }
+    },
+    {
+      "id": "2026-06-04#3",
+      "sesion_id": "2026-06-04",
+      "orden": 3,
+      "titulo": "L’article 10 de la Llei 25/2013, relatiu a les actuacions de l’òrgan competent en matèria",
+      "resultado": null,
+      "texto_redactado": "L’article 10 de la Llei 25/2013, relatiu a les actuacions de l’òrgan competent en matèria",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:25.117Z"
+      }
+    },
+    {
+      "id": "2026-06-04#4",
+      "sesion_id": "2026-06-04",
+      "orden": 4,
+      "titulo": "Sense perjudici que es pugui presentar i debatre en el ple de la corporació local, aquest",
+      "resultado": null,
+      "texto_redactado": "Sense perjudici que es pugui presentar i debatre en el ple de la corporació local, aquest",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:25.117Z"
+      }
+    },
+    {
+      "id": "2026-06-04#5",
+      "sesion_id": "2026-06-04",
+      "orden": 5,
+      "titulo": "L’informe trimestral de morositat s’ha d’ajustar als models normalitzats continguts en la",
+      "resultado": null,
+      "texto_redactado": "L’informe trimestral de morositat s’ha d’ajustar als models normalitzats continguts en la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:25.117Z"
+      }
+    },
+    {
+      "id": "2026-06-04#6",
+      "sesion_id": "2026-06-04",
+      "orden": 6,
+      "titulo": "El Reial decret 635/2014, de 25 de juliol, modificat pel Reial decret 1040/2017, de 22",
+      "resultado": null,
+      "texto_redactado": "El Reial decret 635/2014, de 25 de juliol, modificat pel Reial decret 1040/2017, de 22",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:25.117Z"
+      }
+    },
+    {
+      "id": "2026-06-04#7",
+      "sesion_id": "2026-06-04",
+      "orden": 7,
+      "titulo": "La disposició addicional de la Llei orgànica 9/2013, de 20 de desembre, de control del",
+      "resultado": null,
+      "texto_redactado": "La disposició addicional de la Llei orgànica 9/2013, de 20 de desembre, de control del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:25.117Z"
+      }
+    },
+    {
+      "id": "2026-06-04#8",
+      "sesion_id": "2026-06-04",
+      "orden": 8,
+      "titulo": "L’article 13 de la LLOEPSF 2/2012 indica que Ò",
+      "resultado": null,
+      "texto_redactado": "L’article 13 de la LLOEPSF 2/2012 indica que Ò",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:25.117Z"
+      }
+    },
+    {
+      "id": "2026-06-04#9",
+      "sesion_id": "2026-06-04",
+      "orden": 9,
+      "titulo": "A més la disposició addicional 5a de la LLOEPSF precisa que ÒLes referències en",
+      "resultado": null,
+      "texto_redactado": "A més la disposició addicional 5a de la LLOEPSF precisa que ÒLes referències en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:25.117Z"
+      }
+    },
+    {
+      "id": "2026-06-04#10",
+      "sesion_id": "2026-06-04",
+      "orden": 10,
+      "titulo": "Reial decret 128/2018, de 16 de març, pel qual es regula el règim jurídic dels",
+      "resultado": null,
+      "texto_redactado": "Reial decret 128/2018, de 16 de març, pel qual es regula el règim jurídic dels",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:25.117Z"
+      }
+    }
+  ]
+}

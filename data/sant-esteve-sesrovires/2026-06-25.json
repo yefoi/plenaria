@@ -1,0 +1,747 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-esteve-sesrovires",
+    "nombre": "Sant Esteve Sesrovires",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "820800000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-25",
+    "municipio_id": "sant-esteve-sesrovires",
+    "fecha": "2026-06-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/820800000/2026/7a35df3b-ef80-43d6-9b79-b4ad7afda31b/ACTA%20PLE%20EN%20JUNTA%20GENERAL%202026-0001%20[AP%20(JG)%2020260625O%20-%20LOPDGDD].pdf",
+    "hash_contenido": "14c396d0c5ba23461ad22f610d601ec37bc83e1cda829632045935952b013423",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:43:54.959Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-25#1",
+      "sesion_id": "2026-06-25",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió anterior (Ple (JG) 19.11.2025E)",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior (Ple (JG) 19.11.2025E)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#2",
+      "sesion_id": "2026-06-25",
+      "orden": 2,
+      "titulo": "Aprovació de l'acta de la sessió anterior (Ple (JG) 17.12.2025E)",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior (Ple (JG) 17.12.2025E)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#3",
+      "sesion_id": "2026-06-25",
+      "orden": 3,
+      "titulo": "Expedient 2831/2026. Aprovació dels comptes anuals de l’exercici 2024 de la societat",
+      "resultado": null,
+      "texto_redactado": "Expedient 2831/2026. Aprovació dels comptes anuals de l’exercici 2024 de la societat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#4",
+      "sesion_id": "2026-06-25",
+      "orden": 4,
+      "titulo": "Donar compte acord Consell d'Administració (aprovació iniciació del procés de licitació del",
+      "resultado": null,
+      "texto_redactado": "Donar compte acord Consell d'Administració (aprovació iniciació del procés de licitació del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#5",
+      "sesion_id": "2026-06-25",
+      "orden": 5,
+      "titulo": "Precs i preguntes A) PART RESOLUTIVA",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes A) PART RESOLUTIVA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#6",
+      "sesion_id": "2026-06-25",
+      "orden": 6,
+      "titulo": "DESTINACIÓ DELS INGRESSOS ...................................................................................4",
+      "resultado": null,
+      "texto_redactado": "DESTINACIÓ DELS INGRESSOS ...................................................................................4",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#7",
+      "sesion_id": "2026-06-25",
+      "orden": 7,
+      "titulo": "REVISIÓ DE PREUS ....................................................................................................4",
+      "resultado": null,
+      "texto_redactado": "REVISIÓ DE PREUS ....................................................................................................4",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#8",
+      "sesion_id": "2026-06-25",
+      "orden": 8,
+      "titulo": "PRINCIPIS ÈTICS I REGLES DE CONDUCTA ..................................................................4",
+      "resultado": null,
+      "texto_redactado": "PRINCIPIS ÈTICS I REGLES DE CONDUCTA ..................................................................4",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#9",
+      "sesion_id": "2026-06-25",
+      "orden": 9,
+      "titulo": "GARANTIA PROVISIONAL............................................................................................4",
+      "resultado": null,
+      "texto_redactado": "GARANTIA PROVISIONAL............................................................................................4",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#10",
+      "sesion_id": "2026-06-25",
+      "orden": 10,
+      "titulo": "TRAMITACIÓ DE L'EXPEDIENT I PROCEDIMENT D'ADJUDICACIÓ .................................4",
+      "resultado": null,
+      "texto_redactado": "TRAMITACIÓ DE L'EXPEDIENT I PROCEDIMENT D'ADJUDICACIÓ .................................4",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#11",
+      "sesion_id": "2026-06-25",
+      "orden": 11,
+      "titulo": "ÒRGAN DE CONTRACTACIÓ ......................................................................................4",
+      "resultado": null,
+      "texto_redactado": "ÒRGAN DE CONTRACTACIÓ ......................................................................................4",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#12",
+      "sesion_id": "2026-06-25",
+      "orden": 12,
+      "titulo": "RESPONSABLE DEL CONTRACTE................................................................................4",
+      "resultado": null,
+      "texto_redactado": "RESPONSABLE DEL CONTRACTE................................................................................4",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#13",
+      "sesion_id": "2026-06-25",
+      "orden": 13,
+      "titulo": "INFORMACIÓ ADDICIONAL .......................................................................................5",
+      "resultado": null,
+      "texto_redactado": "INFORMACIÓ ADDICIONAL .......................................................................................5",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#14",
+      "sesion_id": "2026-06-25",
+      "orden": 14,
+      "titulo": "APTITUD PER CONTRACTAR, CAPACITAT I SOLVÈNCIA...............................................5",
+      "resultado": null,
+      "texto_redactado": "APTITUD PER CONTRACTAR, CAPACITAT I SOLVÈNCIA...............................................5",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#15",
+      "sesion_id": "2026-06-25",
+      "orden": 15,
+      "titulo": "CRITERIS D'ADJUDICACIÓ ........................................................................................5",
+      "resultado": null,
+      "texto_redactado": "CRITERIS D'ADJUDICACIÓ ........................................................................................5",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#16",
+      "sesion_id": "2026-06-25",
+      "orden": 16,
+      "titulo": "PRESENTACIÓ DE PROPOSICIONS .............................................................................6",
+      "resultado": null,
+      "texto_redactado": "PRESENTACIÓ DE PROPOSICIONS .............................................................................6",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#17",
+      "sesion_id": "2026-06-25",
+      "orden": 17,
+      "titulo": "COMISSIÓ D'AVALUACIÓ D'OFERTES .........................................................................6",
+      "resultado": null,
+      "texto_redactado": "COMISSIÓ D'AVALUACIÓ D'OFERTES .........................................................................6",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#18",
+      "sesion_id": "2026-06-25",
+      "orden": 18,
+      "titulo": "CLASSIFICACIÓ DE LES OFERTES I REQUERIMENT DE DOCUMENTACIÓ ......................6",
+      "resultado": null,
+      "texto_redactado": "CLASSIFICACIÓ DE LES OFERTES I REQUERIMENT DE DOCUMENTACIÓ ......................6",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#19",
+      "sesion_id": "2026-06-25",
+      "orden": 19,
+      "titulo": "GARANTIA DEFINITIVA .............................................................................................7",
+      "resultado": null,
+      "texto_redactado": "GARANTIA DEFINITIVA .............................................................................................7",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#20",
+      "sesion_id": "2026-06-25",
+      "orden": 20,
+      "titulo": "ADJUDICACIÓ I FORMALITZACIÓ DEL CONTRACTE.....................................................7",
+      "resultado": null,
+      "texto_redactado": "ADJUDICACIÓ I FORMALITZACIÓ DEL CONTRACTE.....................................................7",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#21",
+      "sesion_id": "2026-06-25",
+      "orden": 21,
+      "titulo": "EXECUCIÓ DEL CONTRACTE......................................................................................7",
+      "resultado": null,
+      "texto_redactado": "EXECUCIÓ DEL CONTRACTE......................................................................................7",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#22",
+      "sesion_id": "2026-06-25",
+      "orden": 22,
+      "titulo": "DRETS I OBLIGACIONS DEL CONCESSIONARI ............................................................7",
+      "resultado": null,
+      "texto_redactado": "DRETS I OBLIGACIONS DEL CONCESSIONARI ............................................................7",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#23",
+      "sesion_id": "2026-06-25",
+      "orden": 23,
+      "titulo": "PENALITATS.............................................................................................................8",
+      "resultado": null,
+      "texto_redactado": "PENALITATS.............................................................................................................8",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#24",
+      "sesion_id": "2026-06-25",
+      "orden": 24,
+      "titulo": "MODIFICACIÓ DEL CONTRACTE ................................................................................8",
+      "resultado": null,
+      "texto_redactado": "MODIFICACIÓ DEL CONTRACTE ................................................................................8",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#25",
+      "sesion_id": "2026-06-25",
+      "orden": 25,
+      "titulo": "CESSIÓ DEL CONTRACTE I SUBCONTRACTACIÓ .........................................................8",
+      "resultado": null,
+      "texto_redactado": "CESSIÓ DEL CONTRACTE I SUBCONTRACTACIÓ .........................................................8",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#26",
+      "sesion_id": "2026-06-25",
+      "orden": 26,
+      "titulo": "RESOLUCIÓ DEL CONTRACTE....................................................................................8",
+      "resultado": null,
+      "texto_redactado": "RESOLUCIÓ DEL CONTRACTE....................................................................................8",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#27",
+      "sesion_id": "2026-06-25",
+      "orden": 27,
+      "titulo": "EXTINCIÓ DEL CONTRACTE PER EXPIRACIÓ DEL TERMINI..........................................9",
+      "resultado": null,
+      "texto_redactado": "EXTINCIÓ DEL CONTRACTE PER EXPIRACIÓ DEL TERMINI..........................................9",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#28",
+      "sesion_id": "2026-06-25",
+      "orden": 28,
+      "titulo": "FACULTATS DE GESTIÓ CONTRACTUAL DE LA SOCIETAT............................................9",
+      "resultado": null,
+      "texto_redactado": "FACULTATS DE GESTIÓ CONTRACTUAL DE LA SOCIETAT............................................9",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#29",
+      "sesion_id": "2026-06-25",
+      "orden": 29,
+      "titulo": "JURISDICCIÓ COMPETENT ........................................................................................9",
+      "resultado": null,
+      "texto_redactado": "JURISDICCIÓ COMPETENT ........................................................................................9",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    },
+    {
+      "id": "2026-06-25#30",
+      "sesion_id": "2026-06-25",
+      "orden": 30,
+      "titulo": "PROTECCIÓ DE DADES DE CARÀCTER PERSONAL .......................................................9",
+      "resultado": null,
+      "texto_redactado": "PROTECCIÓ DE DADES DE CARÀCTER PERSONAL .......................................................9",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:54.959Z"
+      }
+    }
+  ]
+}

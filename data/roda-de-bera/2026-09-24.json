@@ -1,0 +1,219 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "roda-de-bera",
+    "nombre": "Roda de Berà",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4313100000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-24",
+    "municipio_id": "roda-de-bera",
+    "fecha": "2026-09-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4313100000/2026/03c635e0-4a77-47b2-8286-c91405079242/ACTA%20DEL%20PLE%202026-0007%20[Acta%20sessi%f3%20PLE%207_2026%20de%20data%2030.07.2026].pdf",
+    "hash_contenido": "4440facdccacbcdcd921520ae5cec04259555f09b5baa43e8f2e251461bebac4",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:43:38.654Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-24#1",
+      "sesion_id": "2026-09-24",
+      "orden": 1,
+      "titulo": "En data 30 de setembre de 2022 es va signar el Contracte programa 2022-2025 per a la",
+      "resultado": null,
+      "texto_redactado": "En data 30 de setembre de 2022 es va signar el Contracte programa 2022-2025 per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:38.654Z"
+      }
+    },
+    {
+      "id": "2026-09-24#2",
+      "sesion_id": "2026-09-24",
+      "orden": 2,
+      "titulo": "En data 27 de setembre de 2022 el Ple del Consell Comarcal del Tarragonès va aprovar",
+      "resultado": null,
+      "texto_redactado": "En data 27 de setembre de 2022 el Ple del Consell Comarcal del Tarragonès va aprovar",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:38.654Z"
+      }
+    },
+    {
+      "id": "2026-09-24#3",
+      "sesion_id": "2026-09-24",
+      "orden": 3,
+      "titulo": "En data 10 de gener de 2023 es va formalitzar el conveni de col·laboració entre l'Institut",
+      "resultado": null,
+      "texto_redactado": "En data 10 de gener de 2023 es va formalitzar el conveni de col·laboració entre l'Institut",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:38.654Z"
+      }
+    },
+    {
+      "id": "2026-09-24#4",
+      "sesion_id": "2026-09-24",
+      "orden": 4,
+      "titulo": "En data 17 de desembre de 2025 el Consell Comarcal del Tarragonès va aprovar",
+      "resultado": null,
+      "texto_redactado": "En data 17 de desembre de 2025 el Consell Comarcal del Tarragonès va aprovar",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:38.654Z"
+      }
+    },
+    {
+      "id": "2026-09-24#5",
+      "sesion_id": "2026-09-24",
+      "orden": 5,
+      "titulo": "En data 10 de febrer de 2026 s'ha dictat la Resolució IFE/343/2026, per la qual es dona",
+      "resultado": null,
+      "texto_redactado": "En data 10 de febrer de 2026 s'ha dictat la Resolució IFE/343/2026, per la qual es dona",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:38.654Z"
+      }
+    },
+    {
+      "id": "2026-09-24#6",
+      "sesion_id": "2026-09-24",
+      "orden": 6,
+      "titulo": "Aquest escrit ha motivat la incoació de l'expedient 5025/2026, mitjançant provisió de",
+      "resultado": null,
+      "texto_redactado": "Aquest escrit ha motivat la incoació de l'expedient 5025/2026, mitjançant provisió de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:38.654Z"
+      }
+    },
+    {
+      "id": "2026-09-24#7",
+      "sesion_id": "2026-09-24",
+      "orden": 7,
+      "titulo": "Punto de servicios sociales",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:38.654Z"
+      }
+    },
+    {
+      "id": "2026-09-24#8",
+      "sesion_id": "2026-09-24",
+      "orden": 8,
+      "titulo": "En data 15/07/2026, la secretària accidental d'aquest Ajuntament ha emès l'informe",
+      "resultado": null,
+      "texto_redactado": "En data 15/07/2026, la secretària accidental d'aquest Ajuntament ha emès l'informe",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:38.654Z"
+      }
+    }
+  ]
+}

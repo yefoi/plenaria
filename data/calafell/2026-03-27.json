@@ -1,0 +1,243 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "calafell",
+    "nombre": "Calafell",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4303790004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-03-27",
+    "municipio_id": "calafell",
+    "fecha": "2026-03-27",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4303790004/2026/02912f01-cc7f-44f4-a446-c1a4a95b41e2/Acta_3.pdf",
+    "hash_contenido": "617f8118c4e056c05b778e32b84b9e18d31cd2494f52c1e2ca31eecfcd38c420",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:35:51.042Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-03-27#1",
+      "sesion_id": "2026-03-27",
+      "orden": 1,
+      "titulo": "APROVACIÓ ACTA ANTERIOR",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ ACTA ANTERIOR",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:51.042Z"
+      }
+    },
+    {
+      "id": "2026-03-27#2",
+      "sesion_id": "2026-03-27",
+      "orden": 2,
+      "titulo": "PROPOSTA D'ACORD DE RESOLUCIÓ DEL RECURS DE REPOSICIÓ PRESENTAT PEL SENYOR ÒSCAR ALBAICETA I ALBI, REGIDOR DEL GRUP MUNICIPAL D'ERC A L'ACORD DE PLE DE 30 DE GENER DE 2026, D'APROVACIÓ D'UN CONVENI DE COL·LABORACCIÓ AMB LA SOCIETAT LLOGUERALIA CALAFELL SL PER A LA GESTIÓ DE LES ADJUDICACIONS DELS HABITATGES DE LLOGUER ASSEQUIBLE.",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA D'ACORD DE RESOLUCIÓ DEL RECURS DE REPOSICIÓ PRESENTAT PEL SENYOR ÒSCAR ALBAICETA I ALBI, REGIDOR DEL GRUP MUNICIPAL D'ERC A L'ACORD DE PLE DE 30 DE GENER DE 2026, D'APROVACIÓ D'UN CONVENI DE COL·LABORACCIÓ AMB LA SOCIETAT LLOGUERALIA CALAFELL SL PER A LA GESTIÓ DE LES ADJUDICACIONS DELS HABITATGES DE LLOGUER ASSEQUIBLE.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:51.042Z"
+      }
+    },
+    {
+      "id": "2026-03-27#3",
+      "sesion_id": "2026-03-27",
+      "orden": 3,
+      "titulo": "En data de 29 de gener de 2026, s’adoptà en sessió ordinària pel Ple de la Corporació,",
+      "resultado": null,
+      "texto_redactado": "En data de 29 de gener de 2026, s’adoptà en sessió ordinària pel Ple de la Corporació,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:51.042Z"
+      }
+    },
+    {
+      "id": "2026-03-27#4",
+      "sesion_id": "2026-03-27",
+      "orden": 4,
+      "titulo": "En data de 22 de febrer de 2026, i amb Registre d’Entrada número 7235-2026, el Sr.",
+      "resultado": null,
+      "texto_redactado": "En data de 22 de febrer de 2026, i amb Registre d’Entrada número 7235-2026, el Sr.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:51.042Z"
+      }
+    },
+    {
+      "id": "2026-03-27#5",
+      "sesion_id": "2026-03-27",
+      "orden": 5,
+      "titulo": "El secretari ha emès informe amb les següents consideracions:",
+      "resultado": null,
+      "texto_redactado": "El secretari ha emès informe amb les següents consideracions:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:51.042Z"
+      }
+    },
+    {
+      "id": "2026-03-27#6",
+      "sesion_id": "2026-03-27",
+      "orden": 6,
+      "titulo": "APROVACIÓ DE LES JUSTIFICACIONS DE LES APORTACIONS ALS GRUPS MUNICIPALS CORRESPONENTS AL PERÍODE 17 DE JUNY 2023 AL 31 DE DESEMBRE 2024",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE LES JUSTIFICACIONS DE LES APORTACIONS ALS GRUPS MUNICIPALS CORRESPONENTS AL PERÍODE 17 DE JUNY 2023 AL 31 DE DESEMBRE 2024",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:51.042Z"
+      }
+    },
+    {
+      "id": "2026-03-27#7",
+      "sesion_id": "2026-03-27",
+      "orden": 7,
+      "titulo": "DONAR COMPTE DE LES RESOLUCIONS DICTADES DES DEL DARRER PLE ORDINARI DE LA CORPORACIÓ (761 [MATRÍCULA] L’ANY 2026)",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE LES RESOLUCIONS DICTADES DES DEL DARRER PLE ORDINARI DE LA CORPORACIÓ (761 [MATRÍCULA] L’ANY 2026)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:51.042Z"
+      }
+    },
+    {
+      "id": "2026-03-27#8",
+      "sesion_id": "2026-03-27",
+      "orden": 8,
+      "titulo": "DONAR COMPTE DE LES ACTES DE LA JUNTA DE GOVEN LOCAL DES DEL DARRER PLE",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE LES ACTES DE LA JUNTA DE GOVEN LOCAL DES DEL DARRER PLE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:51.042Z"
+      }
+    },
+    {
+      "id": "2026-03-27#9",
+      "sesion_id": "2026-03-27",
+      "orden": 9,
+      "titulo": "PRECS I PREGUNTES",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:51.042Z"
+      }
+    }
+  ]
+}

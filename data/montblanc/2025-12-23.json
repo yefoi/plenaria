@@ -1,0 +1,531 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "montblanc",
+    "nombre": "Montblanc",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4308620002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2025-12-23",
+    "municipio_id": "montblanc",
+    "fecha": "2025-12-23",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4308620002/2025/70b69a60-02a5-47e0-97dd-aaea774376db/19_Ple%20Ordinari_23-12-2025_.pdf",
+    "hash_contenido": "9d74cdc876a53cd43a68c453e097d97d159e42c7cdbf062cfc241f80478dcdf6",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:44:40.477Z"
+  },
+  "puntos": [
+    {
+      "id": "2025-12-23#1",
+      "sesion_id": "2025-12-23",
+      "orden": 1,
+      "titulo": "Representants a Consells escolars:",
+      "resultado": null,
+      "texto_redactado": "Representants a Consells escolars:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:40.477Z"
+      }
+    },
+    {
+      "id": "2025-12-23#2",
+      "sesion_id": "2025-12-23",
+      "orden": 2,
+      "titulo": "D’acord amb l’anterior, al BOE de 3 de desembre de 2025 ha sortit publicat el Reial Decret",
+      "resultado": null,
+      "texto_redactado": "D’acord amb l’anterior, al BOE de 3 de desembre de 2025 ha sortit publicat el Reial Decret",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:40.477Z"
+      }
+    },
+    {
+      "id": "2025-12-23#3",
+      "sesion_id": "2025-12-23",
+      "orden": 3,
+      "titulo": "Museu Comarcal de la Conca de Barberà:",
+      "resultado": null,
+      "texto_redactado": "Museu Comarcal de la Conca de Barberà:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:40.477Z"
+      }
+    },
+    {
+      "id": "2025-12-23#4",
+      "sesion_id": "2025-12-23",
+      "orden": 4,
+      "titulo": "Consorci d’Aigües de Tarragona:",
+      "resultado": null,
+      "texto_redactado": "Consorci d’Aigües de Tarragona:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:40.477Z"
+      }
+    },
+    {
+      "id": "2025-12-23#5",
+      "sesion_id": "2025-12-23",
+      "orden": 5,
+      "titulo": "Consorci LOCALRET:",
+      "resultado": null,
+      "texto_redactado": "Consorci LOCALRET:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:40.477Z"
+      }
+    },
+    {
+      "id": "2025-12-23#6",
+      "sesion_id": "2025-12-23",
+      "orden": 6,
+      "titulo": "L’art. 38 del TREBEP disposa que per la validesa i eficàcia dels Acords és necessària la",
+      "resultado": null,
+      "texto_redactado": "L’art. 38 del TREBEP disposa que per la validesa i eficàcia dels Acords és necessària la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:40.477Z"
+      }
+    },
+    {
+      "id": "2025-12-23#7",
+      "sesion_id": "2025-12-23",
+      "orden": 7,
+      "titulo": "Representants Tac 12:",
+      "resultado": null,
+      "texto_redactado": "Representants Tac 12:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:40.477Z"
+      }
+    },
+    {
+      "id": "2025-12-23#8",
+      "sesion_id": "2025-12-23",
+      "orden": 8,
+      "titulo": "Representants de la Comissió Municipal de Delimitació:",
+      "resultado": null,
+      "texto_redactado": "Representants de la Comissió Municipal de Delimitació:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:40.477Z"
+      }
+    },
+    {
+      "id": "2025-12-23#9",
+      "sesion_id": "2025-12-23",
+      "orden": 9,
+      "titulo": "Consell administració de l'empresa d'aigües:",
+      "resultado": null,
+      "texto_redactado": "Consell administració de l'empresa d'aigües:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:40.477Z"
+      }
+    },
+    {
+      "id": "2025-12-23#10",
+      "sesion_id": "2025-12-23",
+      "orden": 10,
+      "titulo": "Comissió de Garanties d’admissió:",
+      "resultado": null,
+      "texto_redactado": "Comissió de Garanties d’admissió:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:40.477Z"
+      }
+    },
+    {
+      "id": "2025-12-23#11",
+      "sesion_id": "2025-12-23",
+      "orden": 11,
+      "titulo": "Comissió d’Igualtat del distintiu per la igualtat de gènere SG City 50-50:",
+      "resultado": null,
+      "texto_redactado": "Comissió d’Igualtat del distintiu per la igualtat de gènere SG City 50-50:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:40.477Z"
+      }
+    },
+    {
+      "id": "2025-12-23#12",
+      "sesion_id": "2025-12-23",
+      "orden": 12,
+      "titulo": "Comissió d’Igualtat del Pla d’Igualtat per la ciutadania:",
+      "resultado": null,
+      "texto_redactado": "Comissió d’Igualtat del Pla d’Igualtat per la ciutadania:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:40.477Z"
+      }
+    },
+    {
+      "id": "2025-12-23#13",
+      "sesion_id": "2025-12-23",
+      "orden": 13,
+      "titulo": "Protocol per la prevenció i abordatge de l’assetjament i violència en el treball:",
+      "resultado": null,
+      "texto_redactado": "Protocol per la prevenció i abordatge de l’assetjament i violència en el treball:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:40.477Z"
+      }
+    },
+    {
+      "id": "2025-12-23#14",
+      "sesion_id": "2025-12-23",
+      "orden": 14,
+      "titulo": "Comissió paritària de seguiment del Conveni Col.lectiu del Personal de l’Ajuntament:",
+      "resultado": null,
+      "texto_redactado": "Comissió paritària de seguiment del Conveni Col.lectiu del Personal de l’Ajuntament:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:40.477Z"
+      }
+    },
+    {
+      "id": "2025-12-23#15",
+      "sesion_id": "2025-12-23",
+      "orden": 15,
+      "titulo": "Comissió de Formació del Conveni Col.lectiu del Personal de l’Ajuntament:",
+      "resultado": null,
+      "texto_redactado": "Comissió de Formació del Conveni Col.lectiu del Personal de l’Ajuntament:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:40.477Z"
+      }
+    },
+    {
+      "id": "2025-12-23#16",
+      "sesion_id": "2025-12-23",
+      "orden": 16,
+      "titulo": "Comité de Seguretat i Salut del Conveni Col.lectiu del Personal de l’Ajuntament:",
+      "resultado": null,
+      "texto_redactado": "Comité de Seguretat i Salut del Conveni Col.lectiu del Personal de l’Ajuntament:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:40.477Z"
+      }
+    },
+    {
+      "id": "2025-12-23#17",
+      "sesion_id": "2025-12-23",
+      "orden": 17,
+      "titulo": "Inversions realitzades per la corporació local per compte d'una altra administració pública 0,00",
+      "resultado": null,
+      "texto_redactado": "Inversions realitzades per la corporació local per compte d'una altra administració pública 0,00",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:40.477Z"
+      }
+    },
+    {
+      "id": "2025-12-23#18",
+      "sesion_id": "2025-12-23",
+      "orden": 18,
+      "titulo": "Prèstecs 0,00",
+      "resultado": null,
+      "texto_redactado": "Prèstecs 0,00",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:40.477Z"
+      }
+    },
+    {
+      "id": "2025-12-23#19",
+      "sesion_id": "2025-12-23",
+      "orden": 19,
+      "titulo": "Devolucions d'ingressos pendents d'aplicar a pressupost 0,00",
+      "resultado": null,
+      "texto_redactado": "Devolucions d'ingressos pendents d'aplicar a pressupost 0,00",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:40.477Z"
+      }
+    },
+    {
+      "id": "2025-12-23#20",
+      "sesion_id": "2025-12-23",
+      "orden": 20,
+      "titulo": "DOS.4 DE LA LLEI 31/2022, DE 23 DE DESEMBRE, DE PRESSUPOSTOS GENERALS DE L’ESTAT PER A L’ANY 2023.",
+      "resultado": null,
+      "texto_redactado": "DOS.4 DE LA LLEI 31/2022, DE 23 DE DESEMBRE, DE PRESSUPOSTOS GENERALS DE L’ESTAT PER A L’ANY 2023.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:40.477Z"
+      }
+    },
+    {
+      "id": "2025-12-23#21",
+      "sesion_id": "2025-12-23",
+      "orden": 21,
+      "titulo": "Altres 0,00 CAPACITAT/NECESSITAT DE FINANÇAMENT (3 + 4 - 5) 62.166,67 AJUSTOS AL SALDO PRESSUPOSTARI EN TERMES SEC",
+      "resultado": null,
+      "texto_redactado": "Altres 0,00 CAPACITAT/NECESSITAT DE FINANÇAMENT (3 + 4 - 5) 62.166,67 AJUSTOS AL SALDO PRESSUPOSTARI EN TERMES SEC",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:40.477Z"
+      }
+    }
+  ]
+}

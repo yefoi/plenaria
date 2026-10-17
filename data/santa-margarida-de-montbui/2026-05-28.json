@@ -1,0 +1,652 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "santa-margarida-de-montbui",
+    "nombre": "Santa Margarida de Montbui",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "825080001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-28",
+    "municipio_id": "santa-margarida-de-montbui",
+    "fecha": "2026-05-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/825080001/2026/3cf5f3d0-abb5-48f4-a12a-05b1331de18a/ACTA%20PLE%202026-0003.pdf",
+    "hash_contenido": "c28cd2c4202c437179390450ea99ee79b04bfd30f415024c6e0aed72403c8b42",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:41:54.696Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-28#1",
+      "sesion_id": "2026-05-28",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió anterior de data 26/03/2026. PLE/2026/02",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior de data 26/03/2026. PLE/2026/02",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#2",
+      "sesion_id": "2026-05-28",
+      "orden": 2,
+      "titulo": "Expedient 851/2023_85. DONAR COMPTE de la presa de possessió de la Sra. JUDIT",
+      "resultado": null,
+      "texto_redactado": "Expedient 851/2023_85. DONAR COMPTE de la presa de possessió de la Sra. JUDIT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#3",
+      "sesion_id": "2026-05-28",
+      "orden": 3,
+      "titulo": "Expedient 851/2023_23. NOMENAR com a NOU representant de l’Ajuntament de",
+      "resultado": null,
+      "texto_redactado": "Expedient 851/2023_23. NOMENAR com a NOU representant de l’Ajuntament de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#4",
+      "sesion_id": "2026-05-28",
+      "orden": 4,
+      "titulo": "Expedient 851/2023_29. NOMENAR com a NOU representant de l’Ajuntament de",
+      "resultado": null,
+      "texto_redactado": "Expedient 851/2023_29. NOMENAR com a NOU representant de l’Ajuntament de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#5",
+      "sesion_id": "2026-05-28",
+      "orden": 5,
+      "titulo": "Expedient 851/2023_31. NOMENAR com a NOU representant de l’Ajuntament de",
+      "resultado": null,
+      "texto_redactado": "Expedient 851/2023_31. NOMENAR com a NOU representant de l’Ajuntament de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#6",
+      "sesion_id": "2026-05-28",
+      "orden": 6,
+      "titulo": "Expedient 851/2023_07. DONAR COMPTE del Decret d'Alcaldia núm. 550/2026 de",
+      "resultado": null,
+      "texto_redactado": "Expedient 851/2023_07. DONAR COMPTE del Decret d'Alcaldia núm. 550/2026 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#7",
+      "sesion_id": "2026-05-28",
+      "orden": 7,
+      "titulo": "Expedient 851/2023_08. DONAR COMPTE del Decret d'Alcaldia núm. 552/2026 de",
+      "resultado": null,
+      "texto_redactado": "Expedient 851/2023_08. DONAR COMPTE del Decret d'Alcaldia núm. 552/2026 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#8",
+      "sesion_id": "2026-05-28",
+      "orden": 8,
+      "titulo": "Expedient 851/2023_09b. DONAR COMPTE del Decret d'Alcaldia núm. 556/2026 de",
+      "resultado": null,
+      "texto_redactado": "Expedient 851/2023_09b. DONAR COMPTE del Decret d'Alcaldia núm. 556/2026 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#9",
+      "sesion_id": "2026-05-28",
+      "orden": 9,
+      "titulo": "Expedient 851/2023_09c. DONAR COMPTE del Decret d'Alcaldia núm. 564/2026 de",
+      "resultado": null,
+      "texto_redactado": "Expedient 851/2023_09c. DONAR COMPTE del Decret d'Alcaldia núm. 564/2026 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#10",
+      "sesion_id": "2026-05-28",
+      "orden": 10,
+      "titulo": "Expedient 851/2023_14. DONAR COMPTE del Decret 753/2026 ref. NOMENAR, NOU",
+      "resultado": null,
+      "texto_redactado": "Expedient 851/2023_14. DONAR COMPTE del Decret 753/2026 ref. NOMENAR, NOU",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#11",
+      "sesion_id": "2026-05-28",
+      "orden": 11,
+      "titulo": "Expedient 851/2023_28. DONAR COMPTE del Decret 754/2026 ref. NOMENAR, com",
+      "resultado": null,
+      "texto_redactado": "Expedient 851/2023_28. DONAR COMPTE del Decret 754/2026 ref. NOMENAR, com",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#12",
+      "sesion_id": "2026-05-28",
+      "orden": 12,
+      "titulo": "Expedient 851/2023_92. DONAR COMPTE del Decret 769/2026 ref. NOMENAR, com",
+      "resultado": null,
+      "texto_redactado": "Expedient 851/2023_92. DONAR COMPTE del Decret 769/2026 ref. NOMENAR, com",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#13",
+      "sesion_id": "2026-05-28",
+      "orden": 13,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#14",
+      "sesion_id": "2026-05-28",
+      "orden": 14,
+      "titulo": "Expedient 2643/2025. APROVAR, la Declaració de Bé Cultural d’Interès Local",
+      "resultado": null,
+      "texto_redactado": "Expedient 2643/2025. APROVAR, la Declaració de Bé Cultural d’Interès Local",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#15",
+      "sesion_id": "2026-05-28",
+      "orden": 15,
+      "titulo": "Punto de expropiación",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#16",
+      "sesion_id": "2026-05-28",
+      "orden": 16,
+      "titulo": "Expedient 1194/2026. Ampliació de l'aportació a la MICOD per a la nova",
+      "resultado": null,
+      "texto_redactado": "Expedient 1194/2026. Ampliació de l'aportació a la MICOD per a la nova",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#17",
+      "sesion_id": "2026-05-28",
+      "orden": 17,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#18",
+      "sesion_id": "2026-05-28",
+      "orden": 18,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#19",
+      "sesion_id": "2026-05-28",
+      "orden": 19,
+      "titulo": "Expedient 1725/2019. APROVAR la justificació econòmica de l’exercici 2025 i",
+      "resultado": null,
+      "texto_redactado": "Expedient 1725/2019. APROVAR la justificació econòmica de l’exercici 2025 i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#20",
+      "sesion_id": "2026-05-28",
+      "orden": 20,
+      "titulo": "Expedient 1413/2026. APROVAR la Moció per a la millora de l'educació infantil 0-",
+      "resultado": null,
+      "texto_redactado": "Expedient 1413/2026. APROVAR la Moció per a la millora de l'educació infantil 0-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#21",
+      "sesion_id": "2026-05-28",
+      "orden": 21,
+      "titulo": "Expedient 1520/2026. APROVAR la Moció presentada pel grup municipal Vox,",
+      "resultado": null,
+      "texto_redactado": "Expedient 1520/2026. APROVAR la Moció presentada pel grup municipal Vox,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#22",
+      "sesion_id": "2026-05-28",
+      "orden": 22,
+      "titulo": "Expedient 1521/2026. APROVAR la Moció presentada pel grup municipal Vox",
+      "resultado": null,
+      "texto_redactado": "Expedient 1521/2026. APROVAR la Moció presentada pel grup municipal Vox",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#23",
+      "sesion_id": "2026-05-28",
+      "orden": 23,
+      "titulo": "Expedient 1529/2026. APROVAR l’adhesió de l’Ajuntament de Santa Margarida de",
+      "resultado": null,
+      "texto_redactado": "Expedient 1529/2026. APROVAR l’adhesió de l’Ajuntament de Santa Margarida de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#24",
+      "sesion_id": "2026-05-28",
+      "orden": 24,
+      "titulo": "Expedient 1579/2026. APROVAR l’adhesió de l’Ajuntament de Santa Margarida",
+      "resultado": null,
+      "texto_redactado": "Expedient 1579/2026. APROVAR l’adhesió de l’Ajuntament de Santa Margarida",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#25",
+      "sesion_id": "2026-05-28",
+      "orden": 25,
+      "titulo": "Expedient 1566/2026. DACIÓ DE COMPTE de la relació de Decrets d'Alcaldia des",
+      "resultado": null,
+      "texto_redactado": "Expedient 1566/2026. DACIÓ DE COMPTE de la relació de Decrets d'Alcaldia des",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    },
+    {
+      "id": "2026-05-28#26",
+      "sesion_id": "2026-05-28",
+      "orden": 26,
+      "titulo": "Expedient 926/2026. Dació de compte JUNTES DE GOVERN LOCAL 2026",
+      "resultado": null,
+      "texto_redactado": "Expedient 926/2026. Dació de compte JUNTES DE GOVERN LOCAL 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.696Z"
+      }
+    }
+  ]
+}

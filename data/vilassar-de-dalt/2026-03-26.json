@@ -1,0 +1,267 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vilassar-de-dalt",
+    "nombre": "Vilassar de Dalt",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "821400000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-03-26",
+    "municipio_id": "vilassar-de-dalt",
+    "fecha": "2026-03-26",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/821400000/2026/bddbcd2d-47bc-43ca-9d16-94cfa5fed3df/Acta_26_03_2026_ple%20Ambiser.pdf",
+    "hash_contenido": "f2b9d373fabf5f369c018ca1ffe465c8f243d31feb4959c86aff8332b5e6aa07",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:42:38.460Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-03-26#1",
+      "sesion_id": "2026-03-26",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió ordinària de 26 de febrer 2026.",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió ordinària de 26 de febrer 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:38.460Z"
+      }
+    },
+    {
+      "id": "2026-03-26#2",
+      "sesion_id": "2026-03-26",
+      "orden": 2,
+      "titulo": "Aprovació inicial del Reglament d’us dels espais i equipaments municipals de Vilassar",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial del Reglament d’us dels espais i equipaments municipals de Vilassar",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:38.460Z"
+      }
+    },
+    {
+      "id": "2026-03-26#3",
+      "sesion_id": "2026-03-26",
+      "orden": 3,
+      "titulo": "Reconeixement de la bonificació de l'Impost sobre Construccions, Instal·lacions i Obres",
+      "resultado": null,
+      "texto_redactado": "Reconeixement de la bonificació de l'Impost sobre Construccions, Instal·lacions i Obres",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:38.460Z"
+      }
+    },
+    {
+      "id": "2026-03-26#4",
+      "sesion_id": "2026-03-26",
+      "orden": 4,
+      "titulo": "Reconeixement de la bonificació de l'Impost sobre Construccions, Instal·lacions i Obres",
+      "resultado": null,
+      "texto_redactado": "Reconeixement de la bonificació de l'Impost sobre Construccions, Instal·lacions i Obres",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:38.460Z"
+      }
+    },
+    {
+      "id": "2026-03-26#5",
+      "sesion_id": "2026-03-26",
+      "orden": 5,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:38.460Z"
+      }
+    },
+    {
+      "id": "2026-03-26#6",
+      "sesion_id": "2026-03-26",
+      "orden": 6,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:38.460Z"
+      }
+    },
+    {
+      "id": "2026-03-26#7",
+      "sesion_id": "2026-03-26",
+      "orden": 7,
+      "titulo": "Donar compte de l'informe de Morositat corresponent al 4r trimestre 2026.",
+      "resultado": null,
+      "texto_redactado": "Donar compte de l'informe de Morositat corresponent al 4r trimestre 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:38.460Z"
+      }
+    },
+    {
+      "id": "2026-03-26#8",
+      "sesion_id": "2026-03-26",
+      "orden": 8,
+      "titulo": "Donar compte de l’aprovació de les liquidacions dels Pressupostos de l’exercici 2025, de",
+      "resultado": null,
+      "texto_redactado": "Donar compte de l’aprovació de les liquidacions dels Pressupostos de l’exercici 2025, de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:38.460Z"
+      }
+    },
+    {
+      "id": "2026-03-26#9",
+      "sesion_id": "2026-03-26",
+      "orden": 9,
+      "titulo": "Donar compte dels Decrets d'Alcaldia dictats durant el mes de febrer de 2026.",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels Decrets d'Alcaldia dictats durant el mes de febrer de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:38.460Z"
+      }
+    },
+    {
+      "id": "2026-03-26#10",
+      "sesion_id": "2026-03-26",
+      "orden": 10,
+      "titulo": "Precs i preguntes.",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:38.460Z"
+      }
+    }
+  ]
+}

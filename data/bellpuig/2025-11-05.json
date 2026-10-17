@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "bellpuig",
+    "nombre": "Bellpuig",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2505010007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2025-11-05",
+    "municipio_id": "bellpuig",
+    "fecha": "2025-11-05",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2505010007/2025/575148ae-ce27-47b4-9af1-9560722a0320/PLE_05-11-2025.pdf",
+    "hash_contenido": "d7a9c1a22bd1da2f79b19551dc8055eb5b559c6b1c4fce5f496f4cdd2cf24853",
+    "estado_ingesta": "redactada",
+    "actualizada_en": "2026-10-17T10:33:52.665Z"
+  },
+  "puntos": [
+    {
+      "id": "2025-11-05#1",
+      "sesion_id": "2025-11-05",
+      "orden": 1,
+      "titulo": "Votació de la urgència de la sessió",
+      "resultado": null,
+      "texto_redactado": "Votació de la urgència de la sessió",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2025-11-05#2",
+      "sesion_id": "2025-11-05",
+      "orden": 2,
+      "titulo": "Aprovació de l'ordenança fiscal núm. 57, reguladora de la taxa per la prestació del servei de",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'ordenança fiscal núm. 57, reguladora de la taxa per la prestació del servei de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2025-11-05#3",
+      "sesion_id": "2025-11-05",
+      "orden": 3,
+      "titulo": "Adjudicació del contracte per l’execució de les obres contingudes en el ÒNou projecte d'obres",
+      "resultado": null,
+      "texto_redactado": "Adjudicació del contracte per l’execució de les obres contingudes en el ÒNou projecte d'obres",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}

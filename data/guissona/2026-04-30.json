@@ -1,0 +1,461 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "guissona",
+    "nombre": "Guissona",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2511090004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-04-30",
+    "municipio_id": "guissona",
+    "fecha": "2026-04-30",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2511090004/2026/f522dc05-6849-4422-a15b-271a5fd9552f/ACTA%20DEL%20PLE%202026-0002%20[PLE20260430].pdf",
+    "hash_contenido": "502d601207aa459f1f15746ffe3a8b92ad3be69fb1b5944d7245077898d46216",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:44:15.633Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-04-30#1",
+      "sesion_id": "2026-04-30",
+      "orden": 1,
+      "titulo": "Estan exempts de pagament de l’impost, la realització de qualsevol construcció,",
+      "resultado": null,
+      "texto_redactado": "Estan exempts de pagament de l’impost, la realització de qualsevol construcció,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:15.633Z"
+      }
+    },
+    {
+      "id": "2026-04-30#2",
+      "sesion_id": "2026-04-30",
+      "orden": 2,
+      "titulo": "En concret, s’aplicaran les següents bonificacions:",
+      "resultado": null,
+      "texto_redactado": "En concret, s’aplicaran les següents bonificacions:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:15.633Z"
+      }
+    },
+    {
+      "id": "2026-04-30#3",
+      "sesion_id": "2026-04-30",
+      "orden": 3,
+      "titulo": "Vist que s’han generat noves necessitats de caràcter organitzatiu existents a la",
+      "resultado": null,
+      "texto_redactado": "Vist que s’han generat noves necessitats de caràcter organitzatiu existents a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:15.633Z"
+      }
+    },
+    {
+      "id": "2026-04-30#4",
+      "sesion_id": "2026-04-30",
+      "orden": 4,
+      "titulo": "Aquestes necessitats es concreten en les següents modificacions respecte la",
+      "resultado": null,
+      "texto_redactado": "Aquestes necessitats es concreten en les següents modificacions respecte la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:15.633Z"
+      }
+    },
+    {
+      "id": "2026-04-30#5",
+      "sesion_id": "2026-04-30",
+      "orden": 5,
+      "titulo": "L’article 37.2.a) del Text refós de la Llei de l’Estatut Bàsic de l’Empleat Públic,",
+      "resultado": null,
+      "texto_redactado": "L’article 37.2.a) del Text refós de la Llei de l’Estatut Bàsic de l’Empleat Públic,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:15.633Z"
+      }
+    },
+    {
+      "id": "2026-04-30#6",
+      "sesion_id": "2026-04-30",
+      "orden": 6,
+      "titulo": "Aquesta negociació s’ha dut a terme en el marc de la Mesa General de",
+      "resultado": null,
+      "texto_redactado": "Aquesta negociació s’ha dut a terme en el marc de la Mesa General de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:15.633Z"
+      }
+    },
+    {
+      "id": "2026-04-30#7",
+      "sesion_id": "2026-04-30",
+      "orden": 7,
+      "titulo": "El Ple de data 17 de novembre de 2025, va aprovar el Pressupost, la plantilla i les",
+      "resultado": null,
+      "texto_redactado": "El Ple de data 17 de novembre de 2025, va aprovar el Pressupost, la plantilla i les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:15.633Z"
+      }
+    },
+    {
+      "id": "2026-04-30#8",
+      "sesion_id": "2026-04-30",
+      "orden": 8,
+      "titulo": "El pressupost municipal per l’any 2026, aprovat inicialment pel Ple de data 17 de",
+      "resultado": null,
+      "texto_redactado": "El pressupost municipal per l’any 2026, aprovat inicialment pel Ple de data 17 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:15.633Z"
+      }
+    },
+    {
+      "id": "2026-04-30#9",
+      "sesion_id": "2026-04-30",
+      "orden": 9,
+      "titulo": "A l’expedient hi consta informe jurídic favorable, emès pel Secretari.",
+      "resultado": null,
+      "texto_redactado": "A l’expedient hi consta informe jurídic favorable, emès pel Secretari.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:15.633Z"
+      }
+    },
+    {
+      "id": "2026-04-30#10",
+      "sesion_id": "2026-04-30",
+      "orden": 10,
+      "titulo": "Vist que d’acord amb l’article 22.2 de la Llei 7/1985, de 2 d’abril, de bases de",
+      "resultado": null,
+      "texto_redactado": "Vist que d’acord amb l’article 22.2 de la Llei 7/1985, de 2 d’abril, de bases de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:15.633Z"
+      }
+    },
+    {
+      "id": "2026-04-30#11",
+      "sesion_id": "2026-04-30",
+      "orden": 11,
+      "titulo": "L'article 74 del Reial Decret Legislatiu 5/2015, de 30 d'octubre, pel qual s'aprova",
+      "resultado": null,
+      "texto_redactado": "L'article 74 del Reial Decret Legislatiu 5/2015, de 30 d'octubre, pel qual s'aprova",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:15.633Z"
+      }
+    },
+    {
+      "id": "2026-04-30#12",
+      "sesion_id": "2026-04-30",
+      "orden": 12,
+      "titulo": "La Llei 7/1985, de 2 d'abril, Reguladora de les Bases del Règim Local -LRBRL-,",
+      "resultado": null,
+      "texto_redactado": "La Llei 7/1985, de 2 d'abril, Reguladora de les Bases del Règim Local -LRBRL-,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:15.633Z"
+      }
+    },
+    {
+      "id": "2026-04-30#13",
+      "sesion_id": "2026-04-30",
+      "orden": 13,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:15.633Z"
+      }
+    },
+    {
+      "id": "2026-04-30#14",
+      "sesion_id": "2026-04-30",
+      "orden": 14,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:15.633Z"
+      }
+    },
+    {
+      "id": "2026-04-30#15",
+      "sesion_id": "2026-04-30",
+      "orden": 15,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:15.633Z"
+      }
+    },
+    {
+      "id": "2026-04-30#16",
+      "sesion_id": "2026-04-30",
+      "orden": 16,
+      "titulo": "La proposta haurà de ser objecte de negociació prèvia a la respectiva taula de",
+      "resultado": null,
+      "texto_redactado": "La proposta haurà de ser objecte de negociació prèvia a la respectiva taula de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:15.633Z"
+      }
+    },
+    {
+      "id": "2026-04-30#17",
+      "sesion_id": "2026-04-30",
+      "orden": 17,
+      "titulo": "Després de la negociació i amb caràcter previ a qualsevol acord plenari,",
+      "resultado": null,
+      "texto_redactado": "Després de la negociació i amb caràcter previ a qualsevol acord plenari,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:15.633Z"
+      }
+    },
+    {
+      "id": "2026-04-30#18",
+      "sesion_id": "2026-04-30",
+      "orden": 18,
+      "titulo": "L'acord s'ha de publicar en el Butlletí Oficial de la Província i comunicar-se a",
+      "resultado": null,
+      "texto_redactado": "L'acord s'ha de publicar en el Butlletí Oficial de la Província i comunicar-se a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:15.633Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "roquetes",
+    "nombre": "Roquetes",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4313310007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-12--1115b65f",
+    "municipio_id": "roquetes",
+    "fecha": "2026-05-12",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4313310007/2026/744fa66d-53f8-40ee-b78d-d0cddb727ea0/PLE_12_05-26.pdf",
+    "hash_contenido": "44cd394d6dbeaccb9bd7b16c001979d2d86998803c54f1c001719cc4c09e14d7",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-17T10:43:13.729Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-12--1115b65f#1",
+      "sesion_id": "2026-05-12--1115b65f",
+      "orden": 1,
+      "titulo": "1. L'àrea d'intervenció ha informat que cal aprovar un Pla econòmic financer per a l'exercici",
+      "resultado": null,
+      "texto_redactado": "1. L'àrea d'intervenció ha informat que cal aprovar un Pla econòmic financer per a l'exercici",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:13.729Z"
+      }
+    }
+  ]
+}

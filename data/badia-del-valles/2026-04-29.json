@@ -1,0 +1,243 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "badia-del-valles",
+    "nombre": "Badia del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "890450006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-04-29",
+    "municipio_id": "badia-del-valles",
+    "fecha": "2026-04-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/890450006/2026/938fc30b-8b25-4005-9c01-c581f978f073/ACTA%20DEL%20PLE%202026-0005%20[Acta%20Ple%2029.04.2026].pdf",
+    "hash_contenido": "1b8bbe259679b0363c193216ef41307e365fab2917222125edc3d50e859463fa",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:40:31.353Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-04-29#1",
+      "sesion_id": "2026-04-29",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió anterior",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:31.353Z"
+      }
+    },
+    {
+      "id": "2026-04-29#2",
+      "sesion_id": "2026-04-29",
+      "orden": 2,
+      "titulo": "Aprovar la justificació de les aportacions als Grups Polítics Municipals",
+      "resultado": null,
+      "texto_redactado": "Aprovar la justificació de les aportacions als Grups Polítics Municipals",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:31.353Z"
+      }
+    },
+    {
+      "id": "2026-04-29#3",
+      "sesion_id": "2026-04-29",
+      "orden": 3,
+      "titulo": "Grup Municipal de VOX",
+      "resultado": null,
+      "texto_redactado": "Grup Municipal de VOX",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:31.353Z"
+      }
+    },
+    {
+      "id": "2026-04-29#4",
+      "sesion_id": "2026-04-29",
+      "orden": 4,
+      "titulo": "Grup Municipal del Partit Popular",
+      "resultado": null,
+      "texto_redactado": "Grup Municipal del Partit Popular",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:31.353Z"
+      }
+    },
+    {
+      "id": "2026-04-29#5",
+      "sesion_id": "2026-04-29",
+      "orden": 5,
+      "titulo": "Grup Municipal Esquerra Republicana de Catalunya",
+      "resultado": null,
+      "texto_redactado": "Grup Municipal Esquerra Republicana de Catalunya",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:31.353Z"
+      }
+    },
+    {
+      "id": "2026-04-29#6",
+      "sesion_id": "2026-04-29",
+      "orden": 6,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:31.353Z"
+      }
+    },
+    {
+      "id": "2026-04-29#7",
+      "sesion_id": "2026-04-29",
+      "orden": 7,
+      "titulo": "Temes d'urgència",
+      "resultado": null,
+      "texto_redactado": "Temes d'urgència",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:31.353Z"
+      }
+    },
+    {
+      "id": "2026-04-29#8",
+      "sesion_id": "2026-04-29",
+      "orden": 8,
+      "titulo": "Donar compte de les resolucions de l'alcaldia",
+      "resultado": null,
+      "texto_redactado": "Donar compte de les resolucions de l'alcaldia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:31.353Z"
+      }
+    },
+    {
+      "id": "2026-04-29#9",
+      "sesion_id": "2026-04-29",
+      "orden": 9,
+      "titulo": "Donar compte dels acord aprovats per la Junta de Govern Local",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels acord aprovats per la Junta de Govern Local",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:31.353Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,772 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-sadurni-danoia",
+    "nombre": "Sant Sadurní d'Anoia",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "824010007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-28",
+    "municipio_id": "sant-sadurni-danoia",
+    "fecha": "2026-07-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/824010007/2026/6b471480-b14d-42f1-b0ba-689bccf31d00/ACTA%20DEL%20PLE%202026-0010%20[Acta%20PLN_2026_4].pdf",
+    "hash_contenido": "162b0b07471aa18245dfa2858e6ba81594529f96fe36d0992afa8c6db07b12a8",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:40:48.052Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-28#1",
+      "sesion_id": "2026-07-28",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió anterior PLN/2026/2 de data 16 de juny de 2026",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior PLN/2026/2 de data 16 de juny de 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#2",
+      "sesion_id": "2026-07-28",
+      "orden": 2,
+      "titulo": "Aprovació de l'acta de la sessió anterior PLN/2026/3 de data 30 de juny de 2026",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior PLN/2026/3 de data 30 de juny de 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#3",
+      "sesion_id": "2026-07-28",
+      "orden": 3,
+      "titulo": "Expedient 2884/2026. Convenis . Aprovar la Memòria Tècnica anomenada ÒInstal·lació de",
+      "resultado": null,
+      "texto_redactado": "Expedient 2884/2026. Convenis . Aprovar la Memòria Tècnica anomenada ÒInstal·lació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#4",
+      "sesion_id": "2026-07-28",
+      "orden": 4,
+      "titulo": "Expedient 1444/2026. Aprovar que Sumar contracti un catering durant cinc dies en motiu",
+      "resultado": null,
+      "texto_redactado": "Expedient 1444/2026. Aprovar que Sumar contracti un catering durant cinc dies en motiu",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#5",
+      "sesion_id": "2026-07-28",
+      "orden": 5,
+      "titulo": "Expedient 3451/2026. Aprovar el Projecte d'Actuacions urgents de climatització en els",
+      "resultado": null,
+      "texto_redactado": "Expedient 3451/2026. Aprovar el Projecte d'Actuacions urgents de climatització en els",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#6",
+      "sesion_id": "2026-07-28",
+      "orden": 6,
+      "titulo": "Expedient 1782/2026. Aprovar declarar les obres obres per pintar la façana de l’edifici del",
+      "resultado": null,
+      "texto_redactado": "Expedient 1782/2026. Aprovar declarar les obres obres per pintar la façana de l’edifici del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#7",
+      "sesion_id": "2026-07-28",
+      "orden": 7,
+      "titulo": "Expedient 2930/2026. Aprovar declarar les obres per reparació sota balconada de l'edifici",
+      "resultado": null,
+      "texto_redactado": "Expedient 2930/2026. Aprovar declarar les obres per reparació sota balconada de l'edifici",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#8",
+      "sesion_id": "2026-07-28",
+      "orden": 8,
+      "titulo": "Expedient 3407/2026. Aprovar declarar les obres de rehabilitació balcons façana de",
+      "resultado": null,
+      "texto_redactado": "Expedient 3407/2026. Aprovar declarar les obres de rehabilitació balcons façana de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#9",
+      "sesion_id": "2026-07-28",
+      "orden": 9,
+      "titulo": "Expedient 3109/2026. Aprovar declarar les obres per rehabilitació de la façana de l'edifici",
+      "resultado": null,
+      "texto_redactado": "Expedient 3109/2026. Aprovar declarar les obres per rehabilitació de la façana de l'edifici",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#10",
+      "sesion_id": "2026-07-28",
+      "orden": 10,
+      "titulo": "Expedient 568/2026. Aprovar declarar les obres per reparació façana de l'edifici situat al",
+      "resultado": null,
+      "texto_redactado": "Expedient 568/2026. Aprovar declarar les obres per reparació façana de l'edifici situat al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#11",
+      "sesion_id": "2026-07-28",
+      "orden": 11,
+      "titulo": "Expedient 458/2026. Aprovar declarar les obres per rehabilitació façana planta baixa de",
+      "resultado": null,
+      "texto_redactado": "Expedient 458/2026. Aprovar declarar les obres per rehabilitació façana planta baixa de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#12",
+      "sesion_id": "2026-07-28",
+      "orden": 12,
+      "titulo": "Expedient 3510/2026. Delegar en la Diputació de Barcelona les facultats de recaptació",
+      "resultado": null,
+      "texto_redactado": "Expedient 3510/2026. Delegar en la Diputació de Barcelona les facultats de recaptació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#13",
+      "sesion_id": "2026-07-28",
+      "orden": 13,
+      "titulo": "Expedient 3454/2026. Aprovació dels expedients amb reconeixement extrajudicial de",
+      "resultado": null,
+      "texto_redactado": "Expedient 3454/2026. Aprovació dels expedients amb reconeixement extrajudicial de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#14",
+      "sesion_id": "2026-07-28",
+      "orden": 14,
+      "titulo": "Expedient 1294/2026. Aprovar declarar les obres de rehabilitació façana de l'habitatge",
+      "resultado": null,
+      "texto_redactado": "Expedient 1294/2026. Aprovar declarar les obres de rehabilitació façana de l'habitatge",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#15",
+      "sesion_id": "2026-07-28",
+      "orden": 15,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#16",
+      "sesion_id": "2026-07-28",
+      "orden": 16,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#17",
+      "sesion_id": "2026-07-28",
+      "orden": 17,
+      "titulo": "Expedient 3669/2026. APROVAR com a dies addicionals d’obertura comercial",
+      "resultado": null,
+      "texto_redactado": "Expedient 3669/2026. APROVAR com a dies addicionals d’obertura comercial",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#18",
+      "sesion_id": "2026-07-28",
+      "orden": 18,
+      "titulo": "Expedient 3739/2026. Aprovació dels expedients 3496 i 3505/2026 de relacions de",
+      "resultado": null,
+      "texto_redactado": "Expedient 3739/2026. Aprovació dels expedients 3496 i 3505/2026 de relacions de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#19",
+      "sesion_id": "2026-07-28",
+      "orden": 19,
+      "titulo": "Expedient 222/2026. Aprovació definitiva del projecte de les obres de construcció de l’",
+      "resultado": null,
+      "texto_redactado": "Expedient 222/2026. Aprovació definitiva del projecte de les obres de construcció de l’",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#20",
+      "sesion_id": "2026-07-28",
+      "orden": 20,
+      "titulo": "Expedient 495/2026. Aprovar inicialment la Modificació Puntual del Pla d'Ordenació",
+      "resultado": null,
+      "texto_redactado": "Expedient 495/2026. Aprovar inicialment la Modificació Puntual del Pla d'Ordenació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#21",
+      "sesion_id": "2026-07-28",
+      "orden": 21,
+      "titulo": "Expedient 3474/2026. Aprovació inicial projecte obres de reforma i millora del parc de la",
+      "resultado": null,
+      "texto_redactado": "Expedient 3474/2026. Aprovació inicial projecte obres de reforma i millora del parc de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#22",
+      "sesion_id": "2026-07-28",
+      "orden": 22,
+      "titulo": "Expedient 3511/2026. Compatibilitats del personal al servei de l'administració pública",
+      "resultado": null,
+      "texto_redactado": "Expedient 3511/2026. Compatibilitats del personal al servei de l'administració pública",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#23",
+      "sesion_id": "2026-07-28",
+      "orden": 23,
+      "titulo": "Expedient 3809/2026. Moció presentada pel grup municipal del PP sobre la sol·licitud a",
+      "resultado": null,
+      "texto_redactado": "Expedient 3809/2026. Moció presentada pel grup municipal del PP sobre la sol·licitud a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#24",
+      "sesion_id": "2026-07-28",
+      "orden": 24,
+      "titulo": "Expedient 3810/2026. Moció presentada pel grup municipal de JUNTS sobre la creació",
+      "resultado": null,
+      "texto_redactado": "Expedient 3810/2026. Moció presentada pel grup municipal de JUNTS sobre la creació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#25",
+      "sesion_id": "2026-07-28",
+      "orden": 25,
+      "titulo": "Expedient 3849/2026. Donar compte al Ple Municipal de les resolucions dictades per",
+      "resultado": null,
+      "texto_redactado": "Expedient 3849/2026. Donar compte al Ple Municipal de les resolucions dictades per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#26",
+      "sesion_id": "2026-07-28",
+      "orden": 26,
+      "titulo": "Expedient 3871/2026. Donar compte al Ple Municipal dels acords de les Juntes de",
+      "resultado": null,
+      "texto_redactado": "Expedient 3871/2026. Donar compte al Ple Municipal dels acords de les Juntes de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#27",
+      "sesion_id": "2026-07-28",
+      "orden": 27,
+      "titulo": "Expedient 3077/2026. Prendre coneixement del Decret d’Alcaldia núm. 2026-1946 de data",
+      "resultado": null,
+      "texto_redactado": "Expedient 3077/2026. Prendre coneixement del Decret d’Alcaldia núm. 2026-1946 de data",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#28",
+      "sesion_id": "2026-07-28",
+      "orden": 28,
+      "titulo": "Pregunta presentada pel grup municipal del PP sobre la climatització de la Casa dels",
+      "resultado": null,
+      "texto_redactado": "Pregunta presentada pel grup municipal del PP sobre la climatització de la Casa dels",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#29",
+      "sesion_id": "2026-07-28",
+      "orden": 29,
+      "titulo": "Prec presentat pel grup municipal del PP sobre reparar íntegrament i/o substituir els",
+      "resultado": null,
+      "texto_redactado": "Prec presentat pel grup municipal del PP sobre reparar íntegrament i/o substituir els",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#30",
+      "sesion_id": "2026-07-28",
+      "orden": 30,
+      "titulo": "Prec presentat pel grup municipal del PP sobre la rehabilitació i manteniment del parc",
+      "resultado": null,
+      "texto_redactado": "Prec presentat pel grup municipal del PP sobre la rehabilitació i manteniment del parc",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    },
+    {
+      "id": "2026-07-28#31",
+      "sesion_id": "2026-07-28",
+      "orden": 31,
+      "titulo": "Prec presentat pel grup municipal del PP sobre la plaça del barri Sant Llorenç PREC PER L’ACTUACIÓ URGENT A LA PLAÇA DEL BARRI SANT LLORENÇ EXPOSICIÓ DE",
+      "resultado": null,
+      "texto_redactado": "Prec presentat pel grup municipal del PP sobre la plaça del barri Sant Llorenç PREC PER L’ACTUACIÓ URGENT A LA PLAÇA DEL BARRI SANT LLORENÇ EXPOSICIÓ DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:48.052Z"
+      }
+    }
+  ]
+}

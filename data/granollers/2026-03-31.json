@@ -1,0 +1,411 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "granollers",
+    "nombre": "Granollers",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "809610007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-03-31",
+    "municipio_id": "granollers",
+    "fecha": "2026-03-31",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/809610007/2026/374fbeed-75ac-4cc2-a1dc-495917f7b3ae/Acta%20Ple%2031-03-2026.pdf",
+    "hash_contenido": "6af499cb7ff72f1c437f4d8e6305237e511e7330762b77fb32f80223d3ea299b",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:35:38.573Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-03-31#1",
+      "sesion_id": "2026-03-31",
+      "orden": 1,
+      "titulo": "Aprovar l'acta de la sessió ordinària del 24 de febrer de 2026.-",
+      "resultado": null,
+      "texto_redactado": "Aprovar l'acta de la sessió ordinària del 24 de febrer de 2026.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:38.573Z"
+      }
+    },
+    {
+      "id": "2026-03-31#2",
+      "sesion_id": "2026-03-31",
+      "orden": 2,
+      "titulo": "Control i fiscalització pel Ple dels acords adoptats per la Junta de Govern",
+      "resultado": null,
+      "texto_redactado": "Control i fiscalització pel Ple dels acords adoptats per la Junta de Govern",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:38.573Z"
+      }
+    },
+    {
+      "id": "2026-03-31#3",
+      "sesion_id": "2026-03-31",
+      "orden": 3,
+      "titulo": "Control i fiscalització pel Ple de les resolucions de l'alcaldia-presidència i les",
+      "resultado": null,
+      "texto_redactado": "Control i fiscalització pel Ple de les resolucions de l'alcaldia-presidència i les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:38.573Z"
+      }
+    },
+    {
+      "id": "2026-03-31#4",
+      "sesion_id": "2026-03-31",
+      "orden": 4,
+      "titulo": "Aprovar l’atorgament de les Medalles de la Ciutat 2026. Exp. 1/2026/323.-",
+      "resultado": null,
+      "texto_redactado": "Aprovar l’atorgament de les Medalles de la Ciutat 2026. Exp. 1/2026/323.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:38.573Z"
+      }
+    },
+    {
+      "id": "2026-03-31#5",
+      "sesion_id": "2026-03-31",
+      "orden": 5,
+      "titulo": "Donar compte al Ple de la resolució d’alcaldia núm. E-1769/2026, de 13 de",
+      "resultado": null,
+      "texto_redactado": "Donar compte al Ple de la resolució d’alcaldia núm. E-1769/2026, de 13 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:38.573Z"
+      }
+    },
+    {
+      "id": "2026-03-31#6",
+      "sesion_id": "2026-03-31",
+      "orden": 6,
+      "titulo": "Donar compte al Ple de la resolució d’alcaldia núm. E-1663/2026, d’11 de",
+      "resultado": null,
+      "texto_redactado": "Donar compte al Ple de la resolució d’alcaldia núm. E-1663/2026, d’11 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:38.573Z"
+      }
+    },
+    {
+      "id": "2026-03-31#7",
+      "sesion_id": "2026-03-31",
+      "orden": 7,
+      "titulo": "Donar compte al Ple de la resolució d’alcaldia núm. E-1662/2026, d’11 de",
+      "resultado": null,
+      "texto_redactado": "Donar compte al Ple de la resolució d’alcaldia núm. E-1662/2026, d’11 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:38.573Z"
+      }
+    },
+    {
+      "id": "2026-03-31#8",
+      "sesion_id": "2026-03-31",
+      "orden": 8,
+      "titulo": "Donar compte dels Informes anuals emesos per la Intervenció general de",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels Informes anuals emesos per la Intervenció general de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:38.573Z"
+      }
+    },
+    {
+      "id": "2026-03-31#9",
+      "sesion_id": "2026-03-31",
+      "orden": 9,
+      "titulo": "Aprovar provisionalment la revisió anual del Padró municipal d'Habitants de",
+      "resultado": null,
+      "texto_redactado": "Aprovar provisionalment la revisió anual del Padró municipal d'Habitants de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:38.573Z"
+      }
+    },
+    {
+      "id": "2026-03-31#10",
+      "sesion_id": "2026-03-31",
+      "orden": 10,
+      "titulo": "Aprovar l’aplanament en el procediment abreujat 503/2025-46A seguit a la",
+      "resultado": null,
+      "texto_redactado": "Aprovar l’aplanament en el procediment abreujat 503/2025-46A seguit a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:38.573Z"
+      }
+    },
+    {
+      "id": "2026-03-31#11",
+      "sesion_id": "2026-03-31",
+      "orden": 11,
+      "titulo": "Pel que fa a l’òrgan competent per a resoldre el procediment de revisió d’actes",
+      "resultado": null,
+      "texto_redactado": "Pel que fa a l’òrgan competent per a resoldre el procediment de revisió d’actes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:38.573Z"
+      }
+    },
+    {
+      "id": "2026-03-31#12",
+      "sesion_id": "2026-03-31",
+      "orden": 12,
+      "titulo": "L’article 75 de la Llei 29/1998, de 13 de juliol, reguladora de la Jurisdicció",
+      "resultado": null,
+      "texto_redactado": "L’article 75 de la Llei 29/1998, de 13 de juliol, reguladora de la Jurisdicció",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:38.573Z"
+      }
+    },
+    {
+      "id": "2026-03-31#13",
+      "sesion_id": "2026-03-31",
+      "orden": 13,
+      "titulo": "L’apartat sisè l’article 74 LRJCA disposa que el desistiment no implicarà",
+      "resultado": null,
+      "texto_redactado": "L’apartat sisè l’article 74 LRJCA disposa que el desistiment no implicarà",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:38.573Z"
+      }
+    },
+    {
+      "id": "2026-03-31#14",
+      "sesion_id": "2026-03-31",
+      "orden": 14,
+      "titulo": "En el present procediment abreujat, la quantia objecte de controvèrsia",
+      "resultado": null,
+      "texto_redactado": "En el present procediment abreujat, la quantia objecte de controvèrsia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:38.573Z"
+      }
+    },
+    {
+      "id": "2026-03-31#15",
+      "sesion_id": "2026-03-31",
+      "orden": 15,
+      "titulo": "D’acord amb l’article 139 de la Ley 29/1998 de la Jurisdicció Contenciosa-",
+      "resultado": null,
+      "texto_redactado": "D’acord amb l’article 139 de la Ley 29/1998 de la Jurisdicció Contenciosa-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:38.573Z"
+      }
+    },
+    {
+      "id": "2026-03-31#16",
+      "sesion_id": "2026-03-31",
+      "orden": 16,
+      "titulo": "En aquest context, i atesa la limitada entitat econòmica de la discrepància, la",
+      "resultado": null,
+      "texto_redactado": "En aquest context, i atesa la limitada entitat econòmica de la discrepància, la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:38.573Z"
+      }
+    }
+  ]
+}

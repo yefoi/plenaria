@@ -1,0 +1,221 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vilanova-del-cami",
+    "nombre": "Vilanova del Camí",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "830200000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-13",
+    "municipio_id": "vilanova-del-cami",
+    "fecha": "2026-07-13",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/830200000/2026/5b67bad9-0c15-4597-ac83-dd322dde0c76/ACTA%20PLE%20ORDINARI%20N%BA.%205%20DEL%2013-07-2026.pdf",
+    "hash_contenido": "4281a726da95a3ad2f29ff1c091cd6c2fb8ed8d305402cf0739bf0e41454404f",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:41:01.821Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-13#1",
+      "sesion_id": "2026-07-13",
+      "orden": 1,
+      "titulo": "APROVACIÓ, SI S’ESCAU, DE L'ESBORRANY DE L’ACTA DEL PLE ORDINARI Nº. 3 DE DATA 11 DE MAIG DE 2026.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ, SI S’ESCAU, DE L'ESBORRANY DE L’ACTA DEL PLE ORDINARI Nº. 3 DE DATA 11 DE MAIG DE 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:01.821Z"
+      }
+    },
+    {
+      "id": "2026-07-13#2",
+      "sesion_id": "2026-07-13",
+      "orden": 2,
+      "titulo": "APROVACIÓ, SI S’ESCAU, DE L'ESBORRANY DE L’ACTA DEL PLE EXTRAORDINARI Nº. 4 DE DATA 15 DE JUNY DE 2026.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ, SI S’ESCAU, DE L'ESBORRANY DE L’ACTA DEL PLE EXTRAORDINARI Nº. 4 DE DATA 15 DE JUNY DE 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:01.821Z"
+      }
+    },
+    {
+      "id": "2026-07-13#3",
+      "sesion_id": "2026-07-13",
+      "orden": 3,
+      "titulo": "DONAR COMPTE DELS DECRETS D’ALCALDIA",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DELS DECRETS D’ALCALDIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:01.821Z"
+      }
+    },
+    {
+      "id": "2026-07-13#4",
+      "sesion_id": "2026-07-13",
+      "orden": 4,
+      "titulo": "PROPOSTA D’ACORD DE MODIFICACIÓ DE L’ORDENANÇA MUNICIPAL SOBRE TINENÇA D’ANIMALS DOMÈSTICS.",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA D’ACORD DE MODIFICACIÓ DE L’ORDENANÇA MUNICIPAL SOBRE TINENÇA D’ANIMALS DOMÈSTICS.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:01.821Z"
+      }
+    },
+    {
+      "id": "2026-07-13#5",
+      "sesion_id": "2026-07-13",
+      "orden": 5,
+      "titulo": "PROPOSTA D’ACORD D’APROVACIÓ DELS DIES FESTIUS LOCALS DE VILANOVA DEL [DIRECCIÓN].",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA D’ACORD D’APROVACIÓ DELS DIES FESTIUS LOCALS DE VILANOVA DEL [DIRECCIÓN].",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:01.821Z"
+      }
+    },
+    {
+      "id": "2026-07-13#6",
+      "sesion_id": "2026-07-13",
+      "orden": 6,
+      "titulo": "PROPOSTA D’ACORD D’APROVACIÓ DEL CONVENI DE COL·LABORACIÓ ENTRE EL CONSELL COMARCAL DE L’ANOIA I L’AJUNTAMENT DE VILANOVA DEL CAMÍ PEL PROGRAMA ÒANOIA TURISMEÓ PER LES ANUALITATS 2026-2029.",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA D’ACORD D’APROVACIÓ DEL CONVENI DE COL·LABORACIÓ ENTRE EL CONSELL COMARCAL DE L’ANOIA I L’AJUNTAMENT DE VILANOVA DEL CAMÍ PEL PROGRAMA ÒANOIA TURISMEÓ PER LES ANUALITATS 2026-2029.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:01.821Z"
+      }
+    },
+    {
+      "id": "2026-07-13#7",
+      "sesion_id": "2026-07-13",
+      "orden": 7,
+      "titulo": "PROPOSTA D’ACORD D’APROVACIÓ PROVISIONAL DE LA MODIFICACIÓ DE",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA D’ACORD D’APROVACIÓ PROVISIONAL DE LA MODIFICACIÓ DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:01.821Z"
+      }
+    },
+    {
+      "id": "2026-07-13#8",
+      "sesion_id": "2026-07-13",
+      "orden": 8,
+      "titulo": "PROPOSTA D'ACORD D'ADHESIÓ DE L'AJUNTAMENT DE VILANOVA DEL CAMÍ A LA XARXA D'ESCOLES BRESSOL MUNICIPALS (XEBM) DE LA DIPUTACIÓ DE BARCELONA.",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA D'ACORD D'ADHESIÓ DE L'AJUNTAMENT DE VILANOVA DEL CAMÍ A LA XARXA D'ESCOLES BRESSOL MUNICIPALS (XEBM) DE LA DIPUTACIÓ DE BARCELONA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:01.821Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "caldes-de-montbui",
+    "nombre": "Caldes de Montbui",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "803330008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-04-30",
+    "municipio_id": "caldes-de-montbui",
+    "fecha": "2026-04-30",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/803330008/2026/9e3cc15c-a3dc-4bf9-bd2c-71ecd791cd0b/ACTA%20PLE%2030-04-26.pdf",
+    "hash_contenido": "cc92e28d5113372e45dbe9815f423b36772a4a9713a27381491283ac96d4d1ef",
+    "estado_ingesta": "requiere_ocr",
+    "actualizada_en": "2026-10-17T10:25:52.794Z"
+  },
+  "puntos": []
+}

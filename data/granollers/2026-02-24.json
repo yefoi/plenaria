@@ -1,0 +1,267 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "granollers",
+    "nombre": "Granollers",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "809610007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-02-24",
+    "municipio_id": "granollers",
+    "fecha": "2026-02-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/809610007/2026/e4feb7fe-d2ca-4029-88ba-a17f7ea9fb3e/Acta%20PLE%2024-02-2026.pdf",
+    "hash_contenido": "0e0ba4540dda66730a0562092263d24ac08ef731feedc2ed421541837975ae70",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:35:41.887Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-02-24#1",
+      "sesion_id": "2026-02-24",
+      "orden": 1,
+      "titulo": "Aprovar l'acta de la sessió del 27 de gener de 2026.-",
+      "resultado": null,
+      "texto_redactado": "Aprovar l'acta de la sessió del 27 de gener de 2026.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:41.887Z"
+      }
+    },
+    {
+      "id": "2026-02-24#2",
+      "sesion_id": "2026-02-24",
+      "orden": 2,
+      "titulo": "Control i fiscalització pel Ple dels acords adoptats per la Junta de Govern",
+      "resultado": null,
+      "texto_redactado": "Control i fiscalització pel Ple dels acords adoptats per la Junta de Govern",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:41.887Z"
+      }
+    },
+    {
+      "id": "2026-02-24#3",
+      "sesion_id": "2026-02-24",
+      "orden": 3,
+      "titulo": "Control i fiscalització pel Ple de les resolucions de l'alcaldia-presidència i les",
+      "resultado": null,
+      "texto_redactado": "Control i fiscalització pel Ple de les resolucions de l'alcaldia-presidència i les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:41.887Z"
+      }
+    },
+    {
+      "id": "2026-02-24#4",
+      "sesion_id": "2026-02-24",
+      "orden": 4,
+      "titulo": "Donar compte de l'estat d'execució del Pressupost de l'Ajuntament i del",
+      "resultado": null,
+      "texto_redactado": "Donar compte de l'estat d'execució del Pressupost de l'Ajuntament i del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:41.887Z"
+      }
+    },
+    {
+      "id": "2026-02-24#5",
+      "sesion_id": "2026-02-24",
+      "orden": 5,
+      "titulo": "Un resumen del estado de ejecución del presupuesto acumulado a final de cada",
+      "resultado": null,
+      "texto_redactado": "Un resumen del estado de ejecución del presupuesto acumulado a final de cada",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:41.887Z"
+      }
+    },
+    {
+      "id": "2026-02-24#6",
+      "sesion_id": "2026-02-24",
+      "orden": 6,
+      "titulo": "El informe trimestral, regulado en el artículo 4 de la Ley 15/2010, de 5 de julio, de",
+      "resultado": null,
+      "texto_redactado": "El informe trimestral, regulado en el artículo 4 de la Ley 15/2010, de 5 de julio, de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:41.887Z"
+      }
+    },
+    {
+      "id": "2026-02-24#7",
+      "sesion_id": "2026-02-24",
+      "orden": 7,
+      "titulo": "Las actualizaciones de su Plan de tesorería y detalle de las operaciones de deuda viva",
+      "resultado": null,
+      "texto_redactado": "Las actualizaciones de su Plan de tesorería y detalle de las operaciones de deuda viva",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:41.887Z"
+      }
+    },
+    {
+      "id": "2026-02-24#8",
+      "sesion_id": "2026-02-24",
+      "orden": 8,
+      "titulo": "De acuerdo con lo previsto en el Real Decreto 635/2014, de 25 de julio, por el que se",
+      "resultado": null,
+      "texto_redactado": "De acuerdo con lo previsto en el Real Decreto 635/2014, de 25 de julio, por el que se",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:41.887Z"
+      }
+    },
+    {
+      "id": "2026-02-24#9",
+      "sesion_id": "2026-02-24",
+      "orden": 9,
+      "titulo": "Los datos de ejecución previstos en los apartados 1 y 2 del artículo 7 relativos a las",
+      "resultado": null,
+      "texto_redactado": "Los datos de ejecución previstos en los apartados 1 y 2 del artículo 7 relativos a las",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:41.887Z"
+      }
+    },
+    {
+      "id": "2026-02-24#10",
+      "sesion_id": "2026-02-24",
+      "orden": 10,
+      "titulo": "Del cumplimiento de la obligación de suministro de información a la que se refiere",
+      "resultado": null,
+      "texto_redactado": "Del cumplimiento de la obligación de suministro de información a la que se refiere",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:35:41.887Z"
+      }
+    }
+  ]
+}

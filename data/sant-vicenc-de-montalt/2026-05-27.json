@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-vicenc-de-montalt",
+    "nombre": "Sant Vicenç de Montalt",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "826490004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-27",
+    "municipio_id": "sant-vicenc-de-montalt",
+    "fecha": "2026-05-27",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/826490004/2026/6158971f-6a32-497e-a6d5-66da6be9050c/PLE%202026%205.pdf",
+    "hash_contenido": "9529f17d655bef28cfbc0b41f6075881a3f0aed1f7b2b2e40197606c112ae6a5",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-17T10:45:32.244Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-27#1",
+      "sesion_id": "2026-05-27",
+      "orden": 1,
+      "titulo": "El contingut del document ha estat anonimitzat per complir amb el Reglament General de Protecció de Dades relatiu a la protecció de dades de les persones físiques en el que respecta al tractament de dades personals i a la lliure circulació d'aquestes dades i pel que es deroga la Directiva 95/46/CE (",
+      "resultado": null,
+      "texto_redactado": "El contingut del document ha estat anonimitzat per complir amb el Reglament General de Protecció de Dades relatiu a la protecció de dades de les persones físiques en el que respecta al tractament de dades personals i a la lliure circulació d'aquestes dades i pel que es deroga la Directiva 95/46/CE (",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:32.244Z"
+      }
+    }
+  ]
+}

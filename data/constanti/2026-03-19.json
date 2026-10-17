@@ -1,0 +1,315 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "constanti",
+    "nombre": "Constantí",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4304770005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-03-19",
+    "municipio_id": "constanti",
+    "fecha": "2026-03-19",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4304770005/2026/48070214-b3ca-4809-baa0-77626eeba8be/ACTA%20AP%2002-26%20%20%20-%20%2019-02-26.doc.pdf",
+    "hash_contenido": "67933f53148c6f50a14a279696153797cb3145c511e5acbb486e990dcfb59c5e",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:45:10.578Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-03-19#2",
+      "sesion_id": "2026-03-19",
+      "orden": 2,
+      "titulo": "Es podria plantejar una modificació d’aquest contracte, si bé, analitzat",
+      "resultado": null,
+      "texto_redactado": "Es podria plantejar una modificació d’aquest contracte, si bé, analitzat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:10.578Z"
+      }
+    },
+    {
+      "id": "2026-03-19#3",
+      "sesion_id": "2026-03-19",
+      "orden": 3,
+      "titulo": "La Llei 40/2025, d’1 d’octubre, de règim jurídic de les administracions públiques.",
+      "resultado": null,
+      "texto_redactado": "La Llei 40/2025, d’1 d’octubre, de règim jurídic de les administracions públiques.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:10.578Z"
+      }
+    },
+    {
+      "id": "2026-03-19#4",
+      "sesion_id": "2026-03-19",
+      "orden": 4,
+      "titulo": "Llei 39/2015, d’1 d’octubre, de procediment administratiu de les administracions",
+      "resultado": null,
+      "texto_redactado": "Llei 39/2015, d’1 d’octubre, de procediment administratiu de les administracions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:10.578Z"
+      }
+    },
+    {
+      "id": "2026-03-19#5",
+      "sesion_id": "2026-03-19",
+      "orden": 5,
+      "titulo": "L’òrgan competent per a la seva aprovació, li correspon al Ple municipal ja que",
+      "resultado": null,
+      "texto_redactado": "L’òrgan competent per a la seva aprovació, li correspon al Ple municipal ja que",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:10.578Z"
+      }
+    },
+    {
+      "id": "2026-03-19#6",
+      "sesion_id": "2026-03-19",
+      "orden": 6,
+      "titulo": "Decret 179/1995, de 13 de juny, pel qual s’aprova el Reglament d’obres,",
+      "resultado": null,
+      "texto_redactado": "Decret 179/1995, de 13 de juny, pel qual s’aprova el Reglament d’obres,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:10.578Z"
+      }
+    },
+    {
+      "id": "2026-03-19#7",
+      "sesion_id": "2026-03-19",
+      "orden": 7,
+      "titulo": "En data 23 d’octubre de 2025 La Comissió Informativa de Ple en sessió",
+      "resultado": null,
+      "texto_redactado": "En data 23 d’octubre de 2025 La Comissió Informativa de Ple en sessió",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:10.578Z"
+      }
+    },
+    {
+      "id": "2026-03-19#8",
+      "sesion_id": "2026-03-19",
+      "orden": 8,
+      "titulo": "En data 30 d’octubre de 2025 el PLE de l’Ajuntament en sessió extraordinària",
+      "resultado": null,
+      "texto_redactado": "En data 30 d’octubre de 2025 el PLE de l’Ajuntament en sessió extraordinària",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:10.578Z"
+      }
+    },
+    {
+      "id": "2026-03-19#9",
+      "sesion_id": "2026-03-19",
+      "orden": 9,
+      "titulo": "En data del 3 de novembre al 3 de desembre del 2025 consta a l’expedient",
+      "resultado": null,
+      "texto_redactado": "En data del 3 de novembre al 3 de desembre del 2025 consta a l’expedient",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:10.578Z"
+      }
+    },
+    {
+      "id": "2026-03-19#10",
+      "sesion_id": "2026-03-19",
+      "orden": 10,
+      "titulo": "Que durant aquest termini d’informació pública s'han presentat les següents",
+      "resultado": null,
+      "texto_redactado": "Que durant aquest termini d’informació pública s'han presentat les següents",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:10.578Z"
+      }
+    },
+    {
+      "id": "2026-03-19#11",
+      "sesion_id": "2026-03-19",
+      "orden": 11,
+      "titulo": "En data 05 de febrer de 2026 l’arquitecte municipal de l’Ajuntament emet",
+      "resultado": null,
+      "texto_redactado": "En data 05 de febrer de 2026 l’arquitecte municipal de l’Ajuntament emet",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:10.578Z"
+      }
+    },
+    {
+      "id": "2026-03-19#12",
+      "sesion_id": "2026-03-19",
+      "orden": 12,
+      "titulo": "Consta a l’expedient les notificacions individualment realitzades als interessats",
+      "resultado": null,
+      "texto_redactado": "Consta a l’expedient les notificacions individualment realitzades als interessats",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:10.578Z"
+      }
+    },
+    {
+      "id": "2026-03-19#13",
+      "sesion_id": "2026-03-19",
+      "orden": 13,
+      "titulo": "En data 09 de març de 2026 la Secretaria General de l’Ajuntament emet",
+      "resultado": null,
+      "texto_redactado": "En data 09 de març de 2026 la Secretaria General de l’Ajuntament emet",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:45:10.578Z"
+      }
+    }
+  ]
+}

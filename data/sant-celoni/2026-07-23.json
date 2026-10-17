@@ -1,0 +1,436 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-celoni",
+    "nombre": "Sant Celoni",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "820210007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-23",
+    "municipio_id": "sant-celoni",
+    "fecha": "2026-07-23",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/820210007/2026/0d15a62e-ce32-4c97-bb8c-f9b3e042d711/Acta%20Ple%20230726.pdf",
+    "hash_contenido": "12da7ad2b120d5b48a768fad861c75b8f962c81fe4abae45f8f0c54d75510ea6",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:37:29.308Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-23#1",
+      "sesion_id": "2026-07-23",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta de la sessió ordinària del Ple municipal de data 30.04.2026.",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’acta de la sessió ordinària del Ple municipal de data 30.04.2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:29.308Z"
+      }
+    },
+    {
+      "id": "2026-07-23#2",
+      "sesion_id": "2026-07-23",
+      "orden": 2,
+      "titulo": "Presa de possessió del càrrec de regidor municipal del Sr. [NOMBRE] per la llista",
+      "resultado": null,
+      "texto_redactado": "Presa de possessió del càrrec de regidor municipal del Sr. [NOMBRE] per la llista",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:29.308Z"
+      }
+    },
+    {
+      "id": "2026-07-23#3",
+      "sesion_id": "2026-07-23",
+      "orden": 3,
+      "titulo": "Donar compte de la Resolució d'Alcaldia número 2026/1888, de 2 de juliol de 2026, relativa a",
+      "resultado": null,
+      "texto_redactado": "Donar compte de la Resolució d'Alcaldia número 2026/1888, de 2 de juliol de 2026, relativa a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:29.308Z"
+      }
+    },
+    {
+      "id": "2026-07-23#4",
+      "sesion_id": "2026-07-23",
+      "orden": 4,
+      "titulo": "Incorporació de la 3a modificació del Pla Estratègic de Subvencions 2024-2026, annex per a",
+      "resultado": null,
+      "texto_redactado": "Incorporació de la 3a modificació del Pla Estratègic de Subvencions 2024-2026, annex per a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:29.308Z"
+      }
+    },
+    {
+      "id": "2026-07-23#5",
+      "sesion_id": "2026-07-23",
+      "orden": 5,
+      "titulo": "Aprovació definitiva del projecte de millora i compatibilització de l'ús públic i la conservació",
+      "resultado": null,
+      "texto_redactado": "Aprovació definitiva del projecte de millora i compatibilització de l'ús públic i la conservació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente",
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:29.308Z"
+      }
+    },
+    {
+      "id": "2026-07-23#6",
+      "sesion_id": "2026-07-23",
+      "orden": 6,
+      "titulo": "Constitució de la comissió d’estudi per a l’elaboració de l’avantprojecte de la modificació iPer descarregar una copia d’aquest document consulti la següent pàgina web",
+      "resultado": null,
+      "texto_redactado": "Constitució de la comissió d’estudi per a l’elaboració de l’avantprojecte de la modificació iPer descarregar una copia d’aquest document consulti la següent pàgina web",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:29.308Z"
+      }
+    },
+    {
+      "id": "2026-07-23#7",
+      "sesion_id": "2026-07-23",
+      "orden": 7,
+      "titulo": "Constitució de la comissió d’estudi per a l’elaboració de la memòria justificativa del projecte",
+      "resultado": null,
+      "texto_redactado": "Constitució de la comissió d’estudi per a l’elaboració de la memòria justificativa del projecte",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:29.308Z"
+      }
+    },
+    {
+      "id": "2026-07-23#8",
+      "sesion_id": "2026-07-23",
+      "orden": 8,
+      "titulo": "Constitució de la comissió d’estudi per a l’elaboració de l’avantprojecte de la modificació de",
+      "resultado": null,
+      "texto_redactado": "Constitució de la comissió d’estudi per a l’elaboració de l’avantprojecte de la modificació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:29.308Z"
+      }
+    },
+    {
+      "id": "2026-07-23#9",
+      "sesion_id": "2026-07-23",
+      "orden": 9,
+      "titulo": "Constitució de la comissió d’estudi per a l’elaboració de l’avantprojecte del Reglament dels",
+      "resultado": null,
+      "texto_redactado": "Constitució de la comissió d’estudi per a l’elaboració de l’avantprojecte del Reglament dels",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:29.308Z"
+      }
+    },
+    {
+      "id": "2026-07-23#10",
+      "sesion_id": "2026-07-23",
+      "orden": 10,
+      "titulo": "Constitució de la comissió d’estudi per a l’elaboració de l’avantprojecte del Reglament",
+      "resultado": null,
+      "texto_redactado": "Constitució de la comissió d’estudi per a l’elaboració de l’avantprojecte del Reglament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:29.308Z"
+      }
+    },
+    {
+      "id": "2026-07-23#11",
+      "sesion_id": "2026-07-23",
+      "orden": 11,
+      "titulo": "Incoació d'expedient per modificar el contracte del servei per a la gestió del Centre",
+      "resultado": null,
+      "texto_redactado": "Incoació d'expedient per modificar el contracte del servei per a la gestió del Centre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:29.308Z"
+      }
+    },
+    {
+      "id": "2026-07-23#12",
+      "sesion_id": "2026-07-23",
+      "orden": 12,
+      "titulo": "Aprovació de la tercera pròrroga del contracte per a la prestació del servei de recollida,",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la tercera pròrroga del contracte per a la prestació del servei de recollida,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:29.308Z"
+      }
+    },
+    {
+      "id": "2026-07-23#13",
+      "sesion_id": "2026-07-23",
+      "orden": 13,
+      "titulo": "Aprovació de la segona pròrroga del contracte amb la mercantil Sivianes y Gómez",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la segona pròrroga del contracte amb la mercantil Sivianes y Gómez",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:29.308Z"
+      }
+    },
+    {
+      "id": "2026-07-23#14",
+      "sesion_id": "2026-07-23",
+      "orden": 14,
+      "titulo": "Informació de les resolucions dictades el mes de juny de 2026.",
+      "resultado": null,
+      "texto_redactado": "Informació de les resolucions dictades el mes de juny de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:29.308Z"
+      }
+    },
+    {
+      "id": "2026-07-23#15",
+      "sesion_id": "2026-07-23",
+      "orden": 15,
+      "titulo": "Precs i preguntes.",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:29.308Z"
+      }
+    },
+    {
+      "id": "2026-07-23#16",
+      "sesion_id": "2026-07-23",
+      "orden": 16,
+      "titulo": "En data 25.06.2026 la tècnica municipal de medi ambient ha emès informe favorable a",
+      "resultado": null,
+      "texto_redactado": "En data 25.06.2026 la tècnica municipal de medi ambient ha emès informe favorable a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:29.308Z"
+      }
+    },
+    {
+      "id": "2026-07-23#17",
+      "sesion_id": "2026-07-23",
+      "orden": 17,
+      "titulo": "Consta a l’expedient informe jurídic emès en data 26.06.2026 per la tècnica d’administració",
+      "resultado": null,
+      "texto_redactado": "Consta a l’expedient informe jurídic emès en data 26.06.2026 per la tècnica d’administració",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:29.308Z"
+      }
+    }
+  ]
+}

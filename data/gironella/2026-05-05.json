@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "gironella",
+    "nombre": "Gironella",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "809240003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-05",
+    "municipio_id": "gironella",
+    "fecha": "2026-05-05",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/809240003/2026/d724922e-c082-4d52-9426-dfb163c5583c/2026-05-05%20ORD.pdf",
+    "hash_contenido": "daaa670ccbc4323a524b95aef1e916592ac09b10e71f8a970cd06b846b8d9aad",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-17T10:34:18.038Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-05#1",
+      "sesion_id": "2026-05-05",
+      "orden": 1,
+      "titulo": "Ajuntament de Gironella [DIRECCIÓN], Gironella. 08680 (Barcelona). Tel. [TELÉFONO]. Fax: [TELÉFONO] ACTA",
+      "resultado": null,
+      "texto_redactado": "Ajuntament de Gironella [DIRECCIÓN], Gironella. 08680 (Barcelona). Tel. [TELÉFONO]. Fax: [TELÉFONO] ACTA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}

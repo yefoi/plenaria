@@ -1,0 +1,822 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "palafolls",
+    "nombre": "Palafolls",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "815550006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-21",
+    "municipio_id": "palafolls",
+    "fecha": "2026-05-21",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/815550006/2026/358df624-9331-413e-aea6-be2b598c7eef/260521PLE%206-2026.pdf",
+    "hash_contenido": "a364759e2f3ad8f9cb884acf2975581fc5407880a9ca117cf08e20f5789bc06e",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:42:11.651Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-21#1",
+      "sesion_id": "2026-05-21",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L'ACTA ANTERIOR.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L'ACTA ANTERIOR.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#2",
+      "sesion_id": "2026-05-21",
+      "orden": 2,
+      "titulo": "INFORMACIONS DE PRESIDÈNCIA.",
+      "resultado": null,
+      "texto_redactado": "INFORMACIONS DE PRESIDÈNCIA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#3",
+      "sesion_id": "2026-05-21",
+      "orden": 3,
+      "titulo": "DACIÓ DE COMPTE DELS DECRETS D'ALCALDIA 1659/2026 A 2397/2026 I DELS ACORDS DE LA JUNTA DE GOVERN LOCAL PRESOS A PARTIR DEL 08/04/2026 I FINS",
+      "resultado": null,
+      "texto_redactado": "DACIÓ DE COMPTE DELS DECRETS D'ALCALDIA 1659/2026 A 2397/2026 I DELS ACORDS DE LA JUNTA DE GOVERN LOCAL PRESOS A PARTIR DEL 08/04/2026 I FINS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#4",
+      "sesion_id": "2026-05-21",
+      "orden": 4,
+      "titulo": "DONAR COMPTE AL PLE DEL DECRET NòMERO 2106/2026 DE DATA 28 D’ABRIL, D’ACCEPTACIÓ DEL TEXT REFÓS DEL PROJECTE EXECUTIU PER A LA CONSTRUCCIÓ DE LA PROMOCIÓ DE 2 EDIFICIS PER A 20 HABITATGES AL [DIRECCIÓN]-30 CORRESPONENT A LA VERSIÓ PER LA QUAL L'AGÈNCIA DE L'HABITATGE DE CATALUNYA VA EMETRE RESOLUCIÓ FAVORABLE DE LA MODIFICACIÓ DE LA",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DEL DECRET NòMERO 2106/2026 DE DATA 28 D’ABRIL, D’ACCEPTACIÓ DEL TEXT REFÓS DEL PROJECTE EXECUTIU PER A LA CONSTRUCCIÓ DE LA PROMOCIÓ DE 2 EDIFICIS PER A 20 HABITATGES AL [DIRECCIÓN]-30 CORRESPONENT A LA VERSIÓ PER LA QUAL L'AGÈNCIA DE L'HABITATGE DE CATALUNYA VA EMETRE RESOLUCIÓ FAVORABLE DE LA MODIFICACIÓ DE LA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#5",
+      "sesion_id": "2026-05-21",
+      "orden": 5,
+      "titulo": "DONAR COMPTE AL PLE DEL DECRET NòM. 1738/2026, DE DATA 13 D’ABRIL DE",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DEL DECRET NòM. 1738/2026, DE DATA 13 D’ABRIL DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#6",
+      "sesion_id": "2026-05-21",
+      "orden": 6,
+      "titulo": "DONAR COMPTE AL PLE DEL DECRET NòM. 2315/2026, DE DATA 8 DE MAIG DE",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DEL DECRET NòM. 2315/2026, DE DATA 8 DE MAIG DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#7",
+      "sesion_id": "2026-05-21",
+      "orden": 7,
+      "titulo": "DONAR COMPTE AL PLE DEL DECRET NòM. 2200/2026, DE DATA 5 DE MAIG DE",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DEL DECRET NòM. 2200/2026, DE DATA 5 DE MAIG DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#8",
+      "sesion_id": "2026-05-21",
+      "orden": 8,
+      "titulo": "DONAR COMPTE AL PLE DE L'ACORD DE JUNTA DE GOVERN LOCAL, DE DATA 28 D'ABRIL DE 2026, D'ACCEPTACIÓ DE LA MODIFICACIÓ DE LA RESOLUCIÓ DE CONCESSIÓ DE SUBVENCIONS PER AL FINANÇAMENT DEL PROGRAMA D’AJUTS A LA",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DE L'ACORD DE JUNTA DE GOVERN LOCAL, DE DATA 28 D'ABRIL DE 2026, D'ACCEPTACIÓ DE LA MODIFICACIÓ DE LA RESOLUCIÓ DE CONCESSIÓ DE SUBVENCIONS PER AL FINANÇAMENT DEL PROGRAMA D’AJUTS A LA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#9",
+      "sesion_id": "2026-05-21",
+      "orden": 9,
+      "titulo": "DONAR COMPTE AL PLE DE L’ACORD DE JUNTA DE GOVERN LOCAL, EN SESSIÓ CELEBRADA EL DIA 21 D’ABRIL DE 2026, DE CONCURRÈNCIA AL PROGRAMA D'AJUTS PER A LES ENTITATS QUE INTEGREN L'ADMINISTRACIÓ LOCAL DE CATALUNYA QUE PROMOUEN I/O GESTIONEN HABITATGES QUE FORMEN PART DEL FONS",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DE L’ACORD DE JUNTA DE GOVERN LOCAL, EN SESSIÓ CELEBRADA EL DIA 21 D’ABRIL DE 2026, DE CONCURRÈNCIA AL PROGRAMA D'AJUTS PER A LES ENTITATS QUE INTEGREN L'ADMINISTRACIÓ LOCAL DE CATALUNYA QUE PROMOUEN I/O GESTIONEN HABITATGES QUE FORMEN PART DEL FONS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#10",
+      "sesion_id": "2026-05-21",
+      "orden": 10,
+      "titulo": "DONAR COMPTE AL PLE DEL DECRET NòMERO 1890/2026 DE DATA 17 D’ABRIL, D’APROVACIÓ DEL ÒPROJECTE MODIFICAT DEL PROJECTE BÀSIC I D’EXECUCIÓ PER A LA RESTAURACIÓ PARCIAL DEL CASTELL DE PALAFOLLS, ÀREES 2, 3, 4, 5, 6, 8, 9, 11 DEL RECINTE SOBIRÀ I 7 DEL RECINTE JUSSÀ AMB AJUT DEL PROGRAMA DE MILLORA",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DEL DECRET NòMERO 1890/2026 DE DATA 17 D’ABRIL, D’APROVACIÓ DEL ÒPROJECTE MODIFICAT DEL PROJECTE BÀSIC I D’EXECUCIÓ PER A LA RESTAURACIÓ PARCIAL DEL CASTELL DE PALAFOLLS, ÀREES 2, 3, 4, 5, 6, 8, 9, 11 DEL RECINTE SOBIRÀ I 7 DEL RECINTE JUSSÀ AMB AJUT DEL PROGRAMA DE MILLORA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#11",
+      "sesion_id": "2026-05-21",
+      "orden": 11,
+      "titulo": "DONAR COMPTE AL PLE DEL DECRET NòM. 1740/2026, DE DATA 13 D’ABRIL DE",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DEL DECRET NòM. 1740/2026, DE DATA 13 D’ABRIL DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#12",
+      "sesion_id": "2026-05-21",
+      "orden": 12,
+      "titulo": "DONAR COMPTE AL PLE DEL DECRET NòM. 2150/2026, DE DATA 30 D’ABRIL DE",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DEL DECRET NòM. 2150/2026, DE DATA 30 D’ABRIL DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#13",
+      "sesion_id": "2026-05-21",
+      "orden": 13,
+      "titulo": "DONAR COMPTE AL PLE DEL DECRET NòM. 1985/2026, DE DATA 23 D’ABRIL DE",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DEL DECRET NòM. 1985/2026, DE DATA 23 D’ABRIL DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#14",
+      "sesion_id": "2026-05-21",
+      "orden": 14,
+      "titulo": "DONAR COMPTE AL PLE DEL DECRET NòM. 2183/2026, DE DATA 5 DE MAIG DE",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DEL DECRET NòM. 2183/2026, DE DATA 5 DE MAIG DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#15",
+      "sesion_id": "2026-05-21",
+      "orden": 15,
+      "titulo": "DONAR COMPTE AL PLE DE L’ACORD DE JUNTA DE GOVERN LOCAL, DE DATA 21 D’ABRIL DE 2026, D’APROVACIÓ DE LA MEMÒRIA DE SOL·LICITUD DE MODIFICACIÓ DE CONCESSIÓ DE LA SUBVENCIÓ PER A LA REHABILITACIÓ DEL CASTELL DE",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DE L’ACORD DE JUNTA DE GOVERN LOCAL, DE DATA 21 D’ABRIL DE 2026, D’APROVACIÓ DE LA MEMÒRIA DE SOL·LICITUD DE MODIFICACIÓ DE CONCESSIÓ DE LA SUBVENCIÓ PER A LA REHABILITACIÓ DEL CASTELL DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#16",
+      "sesion_id": "2026-05-21",
+      "orden": 16,
+      "titulo": "DONAR COMPTE AL PLE DEL DECRET NòM. 2184/2026, DE DATA 5 DE MAIG DE",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DEL DECRET NòM. 2184/2026, DE DATA 5 DE MAIG DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#17",
+      "sesion_id": "2026-05-21",
+      "orden": 17,
+      "titulo": "DONAR COMPTE AL PLE DEL DECRET NòM. 2185/2026, DE DATA 5 DE MAIG DE",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DEL DECRET NòM. 2185/2026, DE DATA 5 DE MAIG DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#18",
+      "sesion_id": "2026-05-21",
+      "orden": 18,
+      "titulo": "DONAR COMPTE AL PLE DEL DECRET NòM. 2272/2026, DE DATA 7 DE MAIG DE",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DEL DECRET NòM. 2272/2026, DE DATA 7 DE MAIG DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#19",
+      "sesion_id": "2026-05-21",
+      "orden": 19,
+      "titulo": "DONAR COMPTE AL PLE DELS DECRETS DE DELEGACIÓ DE COMPETÈNCIES PER",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DELS DECRETS DE DELEGACIÓ DE COMPETÈNCIES PER",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#20",
+      "sesion_id": "2026-05-21",
+      "orden": 20,
+      "titulo": "DONAR COMPTE DE LA FERMESA DE LA SENTÈNCIA NòM. 3761/2025, DE DATA",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE LA FERMESA DE LA SENTÈNCIA NòM. 3761/2025, DE DATA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#21",
+      "sesion_id": "2026-05-21",
+      "orden": 21,
+      "titulo": "DONAR COMPTE DE L’INFORME D’INTERVENCIÓ I DE TRESORERIA DEL PERÍODE",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE L’INFORME D’INTERVENCIÓ I DE TRESORERIA DEL PERÍODE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#22",
+      "sesion_id": "2026-05-21",
+      "orden": 22,
+      "titulo": "DONAR COMPTE DE L’INFORME D’INTERVENCIÓ I DE TRESORERIA DE COMPLIMENT AMB L’ARTICLE 4 DE LA LLEI 15/2010, DE 5 DE JULIOL, DE MODIFICACIÓ DE LA LLEI 3/2004, DE 29 DE DESEMBRE, PER LA QUAL S’ESTABLEIXEN MESURES DE LLUITA CONTRA LA MOROSITAT EN LES OPERACIONS COMERCIALS,",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE L’INFORME D’INTERVENCIÓ I DE TRESORERIA DE COMPLIMENT AMB L’ARTICLE 4 DE LA LLEI 15/2010, DE 5 DE JULIOL, DE MODIFICACIÓ DE LA LLEI 3/2004, DE 29 DE DESEMBRE, PER LA QUAL S’ESTABLEIXEN MESURES DE LLUITA CONTRA LA MOROSITAT EN LES OPERACIONS COMERCIALS,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#23",
+      "sesion_id": "2026-05-21",
+      "orden": 23,
+      "titulo": "DONAR COMPTE AL PLE DE LA TRAMESA D’INFORMACIÓ CONFORME ESTABLEIX L’ARTICLE 16 DE L’ORDRE MINHAP/2105/2012. EXECUCIÓ TRIMESTRAL",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DE LA TRAMESA D’INFORMACIÓ CONFORME ESTABLEIX L’ARTICLE 16 DE L’ORDRE MINHAP/2105/2012. EXECUCIÓ TRIMESTRAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#24",
+      "sesion_id": "2026-05-21",
+      "orden": 24,
+      "titulo": "DONAR COMPTE AL PLE DEL DECRET NòM. 2026DECR001903 DE DATA",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DEL DECRET NòM. 2026DECR001903 DE DATA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#25",
+      "sesion_id": "2026-05-21",
+      "orden": 25,
+      "titulo": "DECLARACIÓ INSTITUCIONAL AMB MOTIU DEL 17 DE MAIG, DIA",
+      "resultado": null,
+      "texto_redactado": "DECLARACIÓ INSTITUCIONAL AMB MOTIU DEL 17 DE MAIG, DIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#26",
+      "sesion_id": "2026-05-21",
+      "orden": 26,
+      "titulo": "APROVACIÓ DE LA MODIFICACIÓ Nº. 6/2026 DE CRÈDIT EXTRAORDINARI I SUPLEMENT DE CRÈDIT FINANÇAT AMB ANUL·LACIONS O BAIXES DE CRÈDITS",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE LA MODIFICACIÓ Nº. 6/2026 DE CRÈDIT EXTRAORDINARI I SUPLEMENT DE CRÈDIT FINANÇAT AMB ANUL·LACIONS O BAIXES DE CRÈDITS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#27",
+      "sesion_id": "2026-05-21",
+      "orden": 27,
+      "titulo": "Punto de expropiación",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#28",
+      "sesion_id": "2026-05-21",
+      "orden": 28,
+      "titulo": "APROVACIÓ DE LA CERTIFICACIÓ D’OBRA NòM. 2 CORRESPONENT A L’EXECUCIÓ DE LES OBRES I TREBALLS PER A LA RENOVACIÓ I MILLORA DE LA XARXA",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE LA CERTIFICACIÓ D’OBRA NòM. 2 CORRESPONENT A L’EXECUCIÓ DE LES OBRES I TREBALLS PER A LA RENOVACIÓ I MILLORA DE LA XARXA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#29",
+      "sesion_id": "2026-05-21",
+      "orden": 29,
+      "titulo": "RATIFICACIÓ PEL PLE DEL DECRET NòM. 2218/2026, DE DATA 5 DE MAIG DE",
+      "resultado": null,
+      "texto_redactado": "RATIFICACIÓ PEL PLE DEL DECRET NòM. 2218/2026, DE DATA 5 DE MAIG DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#30",
+      "sesion_id": "2026-05-21",
+      "orden": 30,
+      "titulo": "ENCÀRREC AL CONCESSIONARI MUNICIPAL DEL SERVEI DE CLAVEGUERAM DE L’EXECUCIÓ DE LES OBRES DE RENOVACIÓ I MILLORA DE LA XARXA DE TRANSPORT",
+      "resultado": null,
+      "texto_redactado": "ENCÀRREC AL CONCESSIONARI MUNICIPAL DEL SERVEI DE CLAVEGUERAM DE L’EXECUCIÓ DE LES OBRES DE RENOVACIÓ I MILLORA DE LA XARXA DE TRANSPORT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#31",
+      "sesion_id": "2026-05-21",
+      "orden": 31,
+      "titulo": "APROVACIÓ DE L’ADDENDA DE PRÒRROGA DEL CONVENI DE COL·LABORACIÓ ENTRE L’AJUNTAMENT DE PALAFOLLS I LA DIPUTACIÓ DE BARCELONA PER A LA GESTIÓ INTEGRADA A LA XARXA DE BIBLIOTEQUES MUNICIPALS (XBM) DE LA",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’ADDENDA DE PRÒRROGA DEL CONVENI DE COL·LABORACIÓ ENTRE L’AJUNTAMENT DE PALAFOLLS I LA DIPUTACIÓ DE BARCELONA PER A LA GESTIÓ INTEGRADA A LA XARXA DE BIBLIOTEQUES MUNICIPALS (XBM) DE LA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "servicios_publicos",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#32",
+      "sesion_id": "2026-05-21",
+      "orden": 32,
+      "titulo": "APROVACIÓ DEL CONVENI D’ENCÀRREC DE GESTIÓ ENTRE L’AJUNTAMENT DE SANTA SUSANNA I L’AJUNTAMENT DE PALAFOLLS, RELATIU ALS SERVEIS DE GESTIÓ",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEL CONVENI D’ENCÀRREC DE GESTIÓ ENTRE L’AJUNTAMENT DE SANTA SUSANNA I L’AJUNTAMENT DE PALAFOLLS, RELATIU ALS SERVEIS DE GESTIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    },
+    {
+      "id": "2026-05-21#33",
+      "sesion_id": "2026-05-21",
+      "orden": 33,
+      "titulo": "PRECS I PREGUNTES.",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:11.651Z"
+      }
+    }
+  ]
+}

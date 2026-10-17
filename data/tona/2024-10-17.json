@@ -1,0 +1,219 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "tona",
+    "nombre": "Tona",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "828300000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2024-10-17",
+    "municipio_id": "tona",
+    "fecha": "2024-10-17",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/828300000/2024/05cb0434-f0ca-49b8-9490-03e116d4a386/2024-10-17_Acta%20de%20la%20sesi%f3%20del%20Ple.pdf",
+    "hash_contenido": "0ba3dc5bbe141d7bc4597315d52d3f25279d0b6f489c27df71d4e3c4235788d6",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:43:21.994Z"
+  },
+  "puntos": [
+    {
+      "id": "2024-10-17#1",
+      "sesion_id": "2024-10-17",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió ordinària del Ple del dia 26 de setembre de",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió ordinària del Ple del dia 26 de setembre de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:21.994Z"
+      }
+    },
+    {
+      "id": "2024-10-17#2",
+      "sesion_id": "2024-10-17",
+      "orden": 2,
+      "titulo": "Comunicació de feminicidis i altres assassinats de dones per violència",
+      "resultado": null,
+      "texto_redactado": "Comunicació de feminicidis i altres assassinats de dones per violència",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:21.994Z"
+      }
+    },
+    {
+      "id": "2024-10-17#3",
+      "sesion_id": "2024-10-17",
+      "orden": 3,
+      "titulo": "Atorgament Premi Mil·liari 2024",
+      "resultado": null,
+      "texto_redactado": "Atorgament Premi Mil·liari 2024",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:21.994Z"
+      }
+    },
+    {
+      "id": "2024-10-17#4",
+      "sesion_id": "2024-10-17",
+      "orden": 4,
+      "titulo": "Aprovació de la modificació de les Ordenances Fiscals, exercici 2025",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la modificació de les Ordenances Fiscals, exercici 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:21.994Z"
+      }
+    },
+    {
+      "id": "2024-10-17#5",
+      "sesion_id": "2024-10-17",
+      "orden": 5,
+      "titulo": "Aprovació del Pla de Mesures Antifrau i adhesió al Codi Ètic del servei públic",
+      "resultado": null,
+      "texto_redactado": "Aprovació del Pla de Mesures Antifrau i adhesió al Codi Ètic del servei públic",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:21.994Z"
+      }
+    },
+    {
+      "id": "2024-10-17#6",
+      "sesion_id": "2024-10-17",
+      "orden": 6,
+      "titulo": "Aprovació de les bases dels Pressupostos participatius joves de Tona 2025 B) PART DE CONTROL I FISCALITZACIÓ",
+      "resultado": null,
+      "texto_redactado": "Aprovació de les bases dels Pressupostos participatius joves de Tona 2025 B) PART DE CONTROL I FISCALITZACIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:21.994Z"
+      }
+    },
+    {
+      "id": "2024-10-17#7",
+      "sesion_id": "2024-10-17",
+      "orden": 7,
+      "titulo": "Aprovació de la urgència d'un punt no inclòs a l'ordre del dia",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la urgència d'un punt no inclòs a l'ordre del dia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:21.994Z"
+      }
+    },
+    {
+      "id": "2024-10-17#8",
+      "sesion_id": "2024-10-17",
+      "orden": 8,
+      "titulo": "Aprovació Festius amb obertura comercial autoritzada any 2025 C) PRECS I PREGUNTES DESENVOLUPAMENT DE LA SESSIÓ SETEMBRE DE 2024",
+      "resultado": null,
+      "texto_redactado": "Aprovació Festius amb obertura comercial autoritzada any 2025 C) PRECS I PREGUNTES DESENVOLUPAMENT DE LA SESSIÓ SETEMBRE DE 2024",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:21.994Z"
+      }
+    }
+  ]
+}

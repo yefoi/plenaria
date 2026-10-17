@@ -1,0 +1,244 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vacarisses",
+    "nombre": "Vacarisses",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "829170005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-04-13",
+    "municipio_id": "vacarisses",
+    "fecha": "2026-04-13",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/829170005/2026/9a9a2a56-8458-4107-aed2-6ea40fde95fe/AJGL%2013042026.pdf",
+    "hash_contenido": "12d9c44ffb38fc480acb0c03fee9af3838f411d63a3ac616874ac8e558e1bddf",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:44:31.408Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-04-13#1",
+      "sesion_id": "2026-04-13",
+      "orden": 1,
+      "titulo": "APROVACIÓ ACTA SESSIÓ ANTERIOR",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ ACTA SESSIÓ ANTERIOR",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:31.407Z"
+      }
+    },
+    {
+      "id": "2026-04-13#2",
+      "sesion_id": "2026-04-13",
+      "orden": 2,
+      "titulo": "Punto de responsabilidad patrimonial",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:31.407Z"
+      }
+    },
+    {
+      "id": "2026-04-13#3",
+      "sesion_id": "2026-04-13",
+      "orden": 3,
+      "titulo": "APROVACIO FACTURES JUNTA GOVERN LOCAL 13 04 2026",
+      "resultado": null,
+      "texto_redactado": "APROVACIO FACTURES JUNTA GOVERN LOCAL 13 04 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:31.407Z"
+      }
+    },
+    {
+      "id": "2026-04-13#4",
+      "sesion_id": "2026-04-13",
+      "orden": 4,
+      "titulo": "PROPOSTA DE LA REGIDORA DE EDUCACIÓ, DE APROVACIÓ DEL INICI DEL EXPEDIENT DEL CONTRACTE DE SUBMINISTRAMENT I INSTAL.LACIÓ DE VENTILADORS A LES ESCOLES: PAU CASALS I FONT DE LA ORPINA, DEL MUNICIPI",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA DE LA REGIDORA DE EDUCACIÓ, DE APROVACIÓ DEL INICI DEL EXPEDIENT DEL CONTRACTE DE SUBMINISTRAMENT I INSTAL.LACIÓ DE VENTILADORS A LES ESCOLES: PAU CASALS I FONT DE LA ORPINA, DEL MUNICIPI",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:31.407Z"
+      }
+    },
+    {
+      "id": "2026-04-13#5",
+      "sesion_id": "2026-04-13",
+      "orden": 5,
+      "titulo": "Punt d'Urgència:APROVACIO FACTURES JUNTA GOVERN LOCAL 13 04 2023",
+      "resultado": null,
+      "texto_redactado": "Punt d'Urgència:APROVACIO FACTURES JUNTA GOVERN LOCAL 13 04 2023",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:31.407Z"
+      }
+    },
+    {
+      "id": "2026-04-13#6",
+      "sesion_id": "2026-04-13",
+      "orden": 6,
+      "titulo": "Punt d'Urgència:PROPOSTA DE LA REGIDORA DE PROMOCIÓ ECONÒMICA,",
+      "resultado": null,
+      "texto_redactado": "Punt d'Urgència:PROPOSTA DE LA REGIDORA DE PROMOCIÓ ECONÒMICA,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:31.407Z"
+      }
+    },
+    {
+      "id": "2026-04-13#7",
+      "sesion_id": "2026-04-13",
+      "orden": 7,
+      "titulo": "COMISSIÓ TÈCNICA DE VALORACIÓ",
+      "resultado": null,
+      "texto_redactado": "COMISSIÓ TÈCNICA DE VALORACIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:31.407Z"
+      }
+    },
+    {
+      "id": "2026-04-13#8",
+      "sesion_id": "2026-04-13",
+      "orden": 8,
+      "titulo": "RELACIÓ D’APROVATS/DES i CONTRACTACIÓ",
+      "resultado": null,
+      "texto_redactado": "RELACIÓ D’APROVATS/DES i CONTRACTACIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:31.407Z"
+      }
+    },
+    {
+      "id": "2026-04-13#9",
+      "sesion_id": "2026-04-13",
+      "orden": 9,
+      "titulo": "INCIDÈNCIES I REGIM D’IMPUGNACIONS",
+      "resultado": null,
+      "texto_redactado": "INCIDÈNCIES I REGIM D’IMPUGNACIONS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:31.407Z"
+      }
+    }
+  ]
+}

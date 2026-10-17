@@ -1,0 +1,580 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "matadepera",
+    "nombre": "Matadepera",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "812060009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-03-30",
+    "municipio_id": "matadepera",
+    "fecha": "2026-03-30",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/812060009/2026/56260d85-dd44-4beb-8c9b-817c9a8c7d79/Acta%20Junta%2030032026.pdf",
+    "hash_contenido": "cd195ecb2dda09b1047a5234693ce48fd8d78d3b7d2b0892a4128dcc0cd325ab",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:42:15.683Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-03-30#1",
+      "sesion_id": "2026-03-30",
+      "orden": 1,
+      "titulo": "Aprovació de l'Acta de la sessió anterior de data 16/02.2026",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'Acta de la sessió anterior de data 16/02.2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    },
+    {
+      "id": "2026-03-30#2",
+      "sesion_id": "2026-03-30",
+      "orden": 2,
+      "titulo": "Aprovació de l'Acta de la sessió anterior de data 02.03.2026",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'Acta de la sessió anterior de data 02.03.2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    },
+    {
+      "id": "2026-03-30#3",
+      "sesion_id": "2026-03-30",
+      "orden": 3,
+      "titulo": "Aprovació de l'Acta de la sessió anterior de data 16.03.2026",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'Acta de la sessió anterior de data 16.03.2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    },
+    {
+      "id": "2026-03-30#4",
+      "sesion_id": "2026-03-30",
+      "orden": 4,
+      "titulo": "Donar compte a la Junta de Govern Local dels Decrets d'aprovació de factures núm.",
+      "resultado": null,
+      "texto_redactado": "Donar compte a la Junta de Govern Local dels Decrets d'aprovació de factures núm.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    },
+    {
+      "id": "2026-03-30#5",
+      "sesion_id": "2026-03-30",
+      "orden": 5,
+      "titulo": "Estimació de la sol•licitud de devolució d’ingressos indeguts de les taxes per la",
+      "resultado": null,
+      "texto_redactado": "Estimació de la sol•licitud de devolució d’ingressos indeguts de les taxes per la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    },
+    {
+      "id": "2026-03-30#6",
+      "sesion_id": "2026-03-30",
+      "orden": 6,
+      "titulo": "Estimació de la sol•licitud de devolució d’ingressos indeguts de la taxa per l’ocupació",
+      "resultado": null,
+      "texto_redactado": "Estimació de la sol•licitud de devolució d’ingressos indeguts de la taxa per l’ocupació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    },
+    {
+      "id": "2026-03-30#7",
+      "sesion_id": "2026-03-30",
+      "orden": 7,
+      "titulo": "Estimació de la sol•licitud de devolució d’ingressos indeguts de les taxes per a",
+      "resultado": null,
+      "texto_redactado": "Estimació de la sol•licitud de devolució d’ingressos indeguts de les taxes per a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    },
+    {
+      "id": "2026-03-30#8",
+      "sesion_id": "2026-03-30",
+      "orden": 8,
+      "titulo": "Estimació de la sol·licitud de devolució d’ingressos indeguts de taxa per informe",
+      "resultado": null,
+      "texto_redactado": "Estimació de la sol·licitud de devolució d’ingressos indeguts de taxa per informe",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    },
+    {
+      "id": "2026-03-30#9",
+      "sesion_id": "2026-03-30",
+      "orden": 9,
+      "titulo": "Estimació de la sol•licitud de devolució d’ingressos indeguts de la taxa i l’ICIO de",
+      "resultado": null,
+      "texto_redactado": "Estimació de la sol•licitud de devolució d’ingressos indeguts de la taxa i l’ICIO de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    },
+    {
+      "id": "2026-03-30#10",
+      "sesion_id": "2026-03-30",
+      "orden": 10,
+      "titulo": "Liquidació definitiva de tributs de la llicència 108/2028 exp. X2022013444",
+      "resultado": null,
+      "texto_redactado": "Liquidació definitiva de tributs de la llicència 108/2028 exp. X2022013444",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    },
+    {
+      "id": "2026-03-30#11",
+      "sesion_id": "2026-03-30",
+      "orden": 11,
+      "titulo": "Donar per lliurats el Compte de la Gestió i Recaptació dels tributs i altres ingressos",
+      "resultado": null,
+      "texto_redactado": "Donar per lliurats el Compte de la Gestió i Recaptació dels tributs i altres ingressos",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    },
+    {
+      "id": "2026-03-30#12",
+      "sesion_id": "2026-03-30",
+      "orden": 12,
+      "titulo": "Concessió de llicència d'obres per a la construcció d’una piscina al c. de Vilomara",
+      "resultado": null,
+      "texto_redactado": "Concessió de llicència d'obres per a la construcció d’una piscina al c. de Vilomara",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    },
+    {
+      "id": "2026-03-30#13",
+      "sesion_id": "2026-03-30",
+      "orden": 13,
+      "titulo": "Concessió de llicència d'obres per a la construcció d’un habitatge aïllat i una piscina",
+      "resultado": null,
+      "texto_redactado": "Concessió de llicència d'obres per a la construcció d’un habitatge aïllat i una piscina",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    },
+    {
+      "id": "2026-03-30#14",
+      "sesion_id": "2026-03-30",
+      "orden": 14,
+      "titulo": "Concessió de llicència d'obres per a la construcció d’una piscina al c. de Can Candi",
+      "resultado": null,
+      "texto_redactado": "Concessió de llicència d'obres per a la construcció d’una piscina al c. de Can Candi",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    },
+    {
+      "id": "2026-03-30#15",
+      "sesion_id": "2026-03-30",
+      "orden": 15,
+      "titulo": "Concessió de llicència d'obres per a la modificació de la implantació de l'habitatge del",
+      "resultado": null,
+      "texto_redactado": "Concessió de llicència d'obres per a la modificació de la implantació de l'habitatge del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    },
+    {
+      "id": "2026-03-30#16",
+      "sesion_id": "2026-03-30",
+      "orden": 16,
+      "titulo": "Concessió de llicència d'obres per a la construcció d'una piscina a l'avinguda de",
+      "resultado": null,
+      "texto_redactado": "Concessió de llicència d'obres per a la construcció d'una piscina a l'avinguda de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    },
+    {
+      "id": "2026-03-30#17",
+      "sesion_id": "2026-03-30",
+      "orden": 17,
+      "titulo": "Concessió de llicència per a la instal·lació d'una grua torre",
+      "resultado": null,
+      "texto_redactado": "Concessió de llicència per a la instal·lació d'una grua torre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    },
+    {
+      "id": "2026-03-30#18",
+      "sesion_id": "2026-03-30",
+      "orden": 18,
+      "titulo": "Concessió de llicència d'obres per a la construcció d’un habitatge unifamiliar aïllada i",
+      "resultado": null,
+      "texto_redactado": "Concessió de llicència d'obres per a la construcció d’un habitatge unifamiliar aïllada i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    },
+    {
+      "id": "2026-03-30#19",
+      "sesion_id": "2026-03-30",
+      "orden": 19,
+      "titulo": "Concessió de llicència d'obres per a la construcció d’una piscina al c. de Sant",
+      "resultado": null,
+      "texto_redactado": "Concessió de llicència d'obres per a la construcció d’una piscina al c. de Sant",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    },
+    {
+      "id": "2026-03-30#20",
+      "sesion_id": "2026-03-30",
+      "orden": 20,
+      "titulo": "Concessió de llicència d'obres obertura d'una rasa de 3 metres al c. de Sant",
+      "resultado": null,
+      "texto_redactado": "Concessió de llicència d'obres obertura d'una rasa de 3 metres al c. de Sant",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    },
+    {
+      "id": "2026-03-30#21",
+      "sesion_id": "2026-03-30",
+      "orden": 21,
+      "titulo": "Concessió de llicència d'obres per a l'obertura d'una rasa de 569 metres al c. del",
+      "resultado": null,
+      "texto_redactado": "Concessió de llicència d'obres per a l'obertura d'una rasa de 569 metres al c. del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    },
+    {
+      "id": "2026-03-30#22",
+      "sesion_id": "2026-03-30",
+      "orden": 22,
+      "titulo": "Concessió de llicència d'obres per a la modificació de la implantació de l'habitatge",
+      "resultado": null,
+      "texto_redactado": "Concessió de llicència d'obres per a la modificació de la implantació de l'habitatge",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    },
+    {
+      "id": "2026-03-30#23",
+      "sesion_id": "2026-03-30",
+      "orden": 23,
+      "titulo": "Punto de responsabilidad patrimonial",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:15.683Z"
+      }
+    }
+  ]
+}

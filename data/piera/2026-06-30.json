@@ -1,0 +1,339 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "piera",
+    "nombre": "Piera",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "816140003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-30",
+    "municipio_id": "piera",
+    "fecha": "2026-06-30",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/816140003/2026/60388c28-3525-4267-99bb-964f7481574c/2026-06-30_extr..pdf",
+    "hash_contenido": "55dcd7c98fcc508345d031411f0b605fe30e6507862e36ea2786937e88444200",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:37:40.385Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-30#1",
+      "sesion_id": "2026-06-30",
+      "orden": 1,
+      "titulo": "Manifest del dia internacional de les persones grans 2026.-",
+      "resultado": null,
+      "texto_redactado": "Manifest del dia internacional de les persones grans 2026.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:40.385Z"
+      }
+    },
+    {
+      "id": "2026-06-30#2",
+      "sesion_id": "2026-06-30",
+      "orden": 2,
+      "titulo": "Expedient 8690/2025. Resoldre la discrepància i aprovar la certificació número 6",
+      "resultado": null,
+      "texto_redactado": "Expedient 8690/2025. Resoldre la discrepància i aprovar la certificació número 6",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:40.385Z"
+      }
+    },
+    {
+      "id": "2026-06-30#3",
+      "sesion_id": "2026-06-30",
+      "orden": 3,
+      "titulo": "Expedient 8691/2025. Resoldre discrepància i aprovar les certificacions número 4",
+      "resultado": null,
+      "texto_redactado": "Expedient 8691/2025. Resoldre discrepància i aprovar les certificacions número 4",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:40.385Z"
+      }
+    },
+    {
+      "id": "2026-06-30#4",
+      "sesion_id": "2026-06-30",
+      "orden": 4,
+      "titulo": "Expedient 7928/2025. Resoldre discrepància i aprovar la certificació número 4 de",
+      "resultado": null,
+      "texto_redactado": "Expedient 7928/2025. Resoldre discrepància i aprovar la certificació número 4 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:40.385Z"
+      }
+    },
+    {
+      "id": "2026-06-30#5",
+      "sesion_id": "2026-06-30",
+      "orden": 5,
+      "titulo": "Expedient 7170/2025. Resoldre la discrepància i aprovar la certificació número 3",
+      "resultado": null,
+      "texto_redactado": "Expedient 7170/2025. Resoldre la discrepància i aprovar la certificació número 3",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:40.385Z"
+      }
+    },
+    {
+      "id": "2026-06-30#6",
+      "sesion_id": "2026-06-30",
+      "orden": 6,
+      "titulo": "Expedient 4447/2026. Aprovació inicial de la modificació de crèdits número 15",
+      "resultado": null,
+      "texto_redactado": "Expedient 4447/2026. Aprovació inicial de la modificació de crèdits número 15",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:40.385Z"
+      }
+    },
+    {
+      "id": "2026-06-30#7",
+      "sesion_id": "2026-06-30",
+      "orden": 7,
+      "titulo": "Expedient 4795/2026. Aprovació del reconeixement extrajudicial de crèdits H/2026",
+      "resultado": null,
+      "texto_redactado": "Expedient 4795/2026. Aprovació del reconeixement extrajudicial de crèdits H/2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:40.385Z"
+      }
+    },
+    {
+      "id": "2026-06-30#8",
+      "sesion_id": "2026-06-30",
+      "orden": 8,
+      "titulo": "Expedient 4688/2026. Aprovació de les festes locals per a l'any 2027 al municipi.-",
+      "resultado": null,
+      "texto_redactado": "Expedient 4688/2026. Aprovació de les festes locals per a l'any 2027 al municipi.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:40.385Z"
+      }
+    },
+    {
+      "id": "2026-06-30#9",
+      "sesion_id": "2026-06-30",
+      "orden": 9,
+      "titulo": "Expedient 8329/2025. Jutge de Pau Titular.-",
+      "resultado": null,
+      "texto_redactado": "Expedient 8329/2025. Jutge de Pau Titular.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:40.385Z"
+      }
+    },
+    {
+      "id": "2026-06-30#10",
+      "sesion_id": "2026-06-30",
+      "orden": 10,
+      "titulo": "Expedient 1465/2025. Convalidació a l'acord de Ple d'aprovació definitiva del",
+      "resultado": null,
+      "texto_redactado": "Expedient 1465/2025. Convalidació a l'acord de Ple d'aprovació definitiva del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:40.385Z"
+      }
+    },
+    {
+      "id": "2026-06-30#11",
+      "sesion_id": "2026-06-30",
+      "orden": 11,
+      "titulo": "Expedient 4071/2025. Aprovar la pròrroga de la suspensió de llicències en sòl no",
+      "resultado": null,
+      "texto_redactado": "Expedient 4071/2025. Aprovar la pròrroga de la suspensió de llicències en sòl no",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:40.385Z"
+      }
+    },
+    {
+      "id": "2026-06-30#12",
+      "sesion_id": "2026-06-30",
+      "orden": 12,
+      "titulo": "Expedient 4933/2026. Establiment del servei i reglament del centre de dia.-",
+      "resultado": null,
+      "texto_redactado": "Expedient 4933/2026. Establiment del servei i reglament del centre de dia.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:40.385Z"
+      }
+    },
+    {
+      "id": "2026-06-30#13",
+      "sesion_id": "2026-06-30",
+      "orden": 13,
+      "titulo": "Discrepància en Exp. 2865/2025 (Arrendament de local al C/. de la Plaça, 27 per",
+      "resultado": null,
+      "texto_redactado": "Discrepància en Exp. 2865/2025 (Arrendament de local al C/. de la Plaça, 27 per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:40.385Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "badia-del-valles",
+    "nombre": "Badia del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "890450006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-27",
+    "municipio_id": "badia-del-valles",
+    "fecha": "2026-05-27",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/890450006/2026/28445cbf-5182-46f7-9d55-7d6bb4386979/ACTA%20DEL%20PLE%202026-0006%20[Acta%20Ple%2027.05.2026].pdf",
+    "hash_contenido": "7af01acf104bd936391fb961a32a5b791ed43f4dc27be4c5f688bc3f6ae9ba2a",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:40:27.689Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-27#1",
+      "sesion_id": "2026-05-27",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió anterior",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:27.689Z"
+      }
+    },
+    {
+      "id": "2026-05-27#2",
+      "sesion_id": "2026-05-27",
+      "orden": 2,
+      "titulo": "Restar assabentat de l’informe d’estabilitat pressupostària i execució trimestral de",
+      "resultado": null,
+      "texto_redactado": "Restar assabentat de l’informe d’estabilitat pressupostària i execució trimestral de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:27.689Z"
+      }
+    },
+    {
+      "id": "2026-05-27#3",
+      "sesion_id": "2026-05-27",
+      "orden": 3,
+      "titulo": "Restar assabentat de l’informe de període mig de pagaments del sector",
+      "resultado": null,
+      "texto_redactado": "Restar assabentat de l’informe de període mig de pagaments del sector",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:27.689Z"
+      }
+    },
+    {
+      "id": "2026-05-27#4",
+      "sesion_id": "2026-05-27",
+      "orden": 4,
+      "titulo": "Restar assabentat de l'informe sobre el compliment dels terminis de pagament a",
+      "resultado": null,
+      "texto_redactado": "Restar assabentat de l'informe sobre el compliment dels terminis de pagament a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:27.689Z"
+      }
+    },
+    {
+      "id": "2026-05-27#5",
+      "sesion_id": "2026-05-27",
+      "orden": 5,
+      "titulo": "Restar assabentat de l'informe sobre el compliment dels terminis de pagament a",
+      "resultado": null,
+      "texto_redactado": "Restar assabentat de l'informe sobre el compliment dels terminis de pagament a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:27.689Z"
+      }
+    },
+    {
+      "id": "2026-05-27#6",
+      "sesion_id": "2026-05-27",
+      "orden": 6,
+      "titulo": "Restar assabentat de l’informe d’estabilitat pressupostària i execució trimestral de",
+      "resultado": null,
+      "texto_redactado": "Restar assabentat de l’informe d’estabilitat pressupostària i execució trimestral de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:27.689Z"
+      }
+    },
+    {
+      "id": "2026-05-27#7",
+      "sesion_id": "2026-05-27",
+      "orden": 7,
+      "titulo": "Restar assabentat de l’informe de període mig de pagaments del sector",
+      "resultado": null,
+      "texto_redactado": "Restar assabentat de l’informe de període mig de pagaments del sector",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:27.689Z"
+      }
+    },
+    {
+      "id": "2026-05-27#8",
+      "sesion_id": "2026-05-27",
+      "orden": 8,
+      "titulo": "Aprovar inicialment el Document ònic de Protecció Civil Municipal (DUPROCIM)",
+      "resultado": null,
+      "texto_redactado": "Aprovar inicialment el Document ònic de Protecció Civil Municipal (DUPROCIM)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:27.689Z"
+      }
+    },
+    {
+      "id": "2026-05-27#9",
+      "sesion_id": "2026-05-27",
+      "orden": 9,
+      "titulo": "Aprovar inicialment la revisió del Pla d'Autoprotecció de la Festa Major de Badia",
+      "resultado": null,
+      "texto_redactado": "Aprovar inicialment la revisió del Pla d'Autoprotecció de la Festa Major de Badia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:27.689Z"
+      }
+    },
+    {
+      "id": "2026-05-27#10",
+      "sesion_id": "2026-05-27",
+      "orden": 10,
+      "titulo": "Aprovar inicialment la modificació puntual del text del Reglament de Teletreball",
+      "resultado": null,
+      "texto_redactado": "Aprovar inicialment la modificació puntual del text del Reglament de Teletreball",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:27.689Z"
+      }
+    },
+    {
+      "id": "2026-05-27#11",
+      "sesion_id": "2026-05-27",
+      "orden": 11,
+      "titulo": "Moció VOX: Sobre la regularització massiva (Expedient 2256/2026)",
+      "resultado": null,
+      "texto_redactado": "Moció VOX: Sobre la regularització massiva (Expedient 2256/2026)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:27.689Z"
+      }
+    },
+    {
+      "id": "2026-05-27#12",
+      "sesion_id": "2026-05-27",
+      "orden": 12,
+      "titulo": "Moció VOX: Prioritat Nacional (Expedient 2257/2026)",
+      "resultado": null,
+      "texto_redactado": "Moció VOX: Prioritat Nacional (Expedient 2257/2026)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:27.689Z"
+      }
+    },
+    {
+      "id": "2026-05-27#13",
+      "sesion_id": "2026-05-27",
+      "orden": 13,
+      "titulo": "Moció TFB: De suport a les mobilitzacions de la comunitat educativa i per un",
+      "resultado": null,
+      "texto_redactado": "Moció TFB: De suport a les mobilitzacions de la comunitat educativa i per un",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:27.689Z"
+      }
+    },
+    {
+      "id": "2026-05-27#14",
+      "sesion_id": "2026-05-27",
+      "orden": 14,
+      "titulo": "Moció TFB: Per la retirada del pla pilot del Departament d'Educació de",
+      "resultado": null,
+      "texto_redactado": "Moció TFB: Per la retirada del pla pilot del Departament d'Educació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:27.689Z"
+      }
+    },
+    {
+      "id": "2026-05-27#15",
+      "sesion_id": "2026-05-27",
+      "orden": 15,
+      "titulo": "Temes d'urgència",
+      "resultado": null,
+      "texto_redactado": "Temes d'urgència",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:27.689Z"
+      }
+    },
+    {
+      "id": "2026-05-27#16",
+      "sesion_id": "2026-05-27",
+      "orden": 16,
+      "titulo": "Donar compte resolucions de l'alcaldia",
+      "resultado": null,
+      "texto_redactado": "Donar compte resolucions de l'alcaldia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:27.689Z"
+      }
+    },
+    {
+      "id": "2026-05-27#17",
+      "sesion_id": "2026-05-27",
+      "orden": 17,
+      "titulo": "Donar compte dels acords aprovats per la Junta de Govern LocalCodi Validació: A3PCCCMWQCCZ3REPNF64NALA9",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels acords aprovats per la Junta de Govern LocalCodi Validació: A3PCCCMWQCCZ3REPNF64NALA9",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:27.689Z"
+      }
+    }
+  ]
+}

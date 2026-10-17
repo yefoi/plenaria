@@ -1,0 +1,243 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "roda-de-bera",
+    "nombre": "Roda de Berà",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4313100000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-30",
+    "municipio_id": "roda-de-bera",
+    "fecha": "2026-07-30",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4313100000/2026/ff9387d1-8804-4820-9259-968349f197bd/20260723_Acta_Acta%20ple_ACTA%20DEL%20PLE%202026-0006%20[Acta%20sessi%f3%20PLE%206_2026%20de%20data%2025.06.2026].pdf",
+    "hash_contenido": "be4d518651415975cc8ad9c6e5373f99ce416d5b5cc67a8d1cb38de5c4097df3",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:43:43.744Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-30#1",
+      "sesion_id": "2026-07-30",
+      "orden": 1,
+      "titulo": "El departament d’Empresa i Treball ha fixat les festes laborals generals per a l’any 2027",
+      "resultado": null,
+      "texto_redactado": "El departament d’Empresa i Treball ha fixat les festes laborals generals per a l’any 2027",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:43.744Z"
+      }
+    },
+    {
+      "id": "2026-07-30#2",
+      "sesion_id": "2026-07-30",
+      "orden": 2,
+      "titulo": "D’acord amb l’article 37.2 del Reial Decret legislatiu 2/2015, de 23 d’octubre, pel qual s’",
+      "resultado": null,
+      "texto_redactado": "D’acord amb l’article 37.2 del Reial Decret legislatiu 2/2015, de 23 d’octubre, pel qual s’",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:43.744Z"
+      }
+    },
+    {
+      "id": "2026-07-30#3",
+      "sesion_id": "2026-07-30",
+      "orden": 3,
+      "titulo": "El 18 de maig de 2026, mitjançant registre d’entrada 2026-E-RC-3004, el Departament d’",
+      "resultado": null,
+      "texto_redactado": "El 18 de maig de 2026, mitjançant registre d’entrada 2026-E-RC-3004, el Departament d’",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:43.744Z"
+      }
+    },
+    {
+      "id": "2026-07-30#4",
+      "sesion_id": "2026-07-30",
+      "orden": 4,
+      "titulo": "Mitjançant acord del Ple de la Corporació de data 28 de maig de 2026, es va autoritzar la",
+      "resultado": null,
+      "texto_redactado": "Mitjançant acord del Ple de la Corporació de data 28 de maig de 2026, es va autoritzar la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:43.744Z"
+      }
+    },
+    {
+      "id": "2026-07-30#5",
+      "sesion_id": "2026-07-30",
+      "orden": 5,
+      "titulo": "El contracte administratiu i el projecte d’establiment del servei contemplen la constitució d’",
+      "resultado": null,
+      "texto_redactado": "El contracte administratiu i el projecte d’establiment del servei contemplen la constitució d’",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:43.744Z"
+      }
+    },
+    {
+      "id": "2026-07-30#6",
+      "sesion_id": "2026-07-30",
+      "orden": 6,
+      "titulo": "En data 9 de juny de 2026, registre d’entrada número 2026-E-RE-2757, JOSI SPORTS",
+      "resultado": null,
+      "texto_redactado": "En data 9 de juny de 2026, registre d’entrada número 2026-E-RE-2757, JOSI SPORTS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:43.744Z"
+      }
+    },
+    {
+      "id": "2026-07-30#7",
+      "sesion_id": "2026-07-30",
+      "orden": 7,
+      "titulo": "En data 15 de juny de 2026, es va reunir la Comissió de Seguiment de la ZEM Eixample",
+      "resultado": null,
+      "texto_redactado": "En data 15 de juny de 2026, es va reunir la Comissió de Seguiment de la ZEM Eixample",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:43.744Z"
+      }
+    },
+    {
+      "id": "2026-07-30#8",
+      "sesion_id": "2026-07-30",
+      "orden": 8,
+      "titulo": "Consta a l’expedient informe favorable del responsable del contracte respecte de la",
+      "resultado": null,
+      "texto_redactado": "Consta a l’expedient informe favorable del responsable del contracte respecte de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:43.744Z"
+      }
+    },
+    {
+      "id": "2026-07-30#9",
+      "sesion_id": "2026-07-30",
+      "orden": 9,
+      "titulo": "Així mateix, la Comissió de Seguiment va informar favorablement la proposta de tarifes",
+      "resultado": null,
+      "texto_redactado": "Així mateix, la Comissió de Seguiment va informar favorablement la proposta de tarifes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:43.744Z"
+      }
+    }
+  ]
+}

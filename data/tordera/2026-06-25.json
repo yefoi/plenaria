@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "tordera",
+    "nombre": "Tordera",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "828450006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-25",
+    "municipio_id": "tordera",
+    "fecha": "2026-06-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/828450006/2026/d6e7851f-278c-4ae6-924a-dc20e6524c03/6.%20Acta%20del%20Ple%20ordinari%20de%2025%20de%20juny%20de%202026_compressed.pdf",
+    "hash_contenido": "7422a5df0cf1d3d4762e90c54487ad877d1d9fdcba9ca7b387cdf152d06f4dd8",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:37:20.136Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-25#1",
+      "sesion_id": "2026-06-25",
+      "orden": 1,
+      "titulo": "(PLE2026/5). Aprovació de l’Acta i de la Vídeo Acta de la sessió Ordinària del Ple de 28 de maig de 2026.......................4",
+      "resultado": null,
+      "texto_redactado": "(PLE2026/5). Aprovació de l’Acta i de la Vídeo Acta de la sessió Ordinària del Ple de 28 de maig de 2026.......................4",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:20.136Z"
+      }
+    },
+    {
+      "id": "2026-06-25#2",
+      "sesion_id": "2026-06-25",
+      "orden": 2,
+      "titulo": "(PRP2026/227). Donar compte al Ple dels Decrets 2026/1637 i 2026/1977 relatius a l'avocació específica de",
+      "resultado": null,
+      "texto_redactado": "(PRP2026/227). Donar compte al Ple dels Decrets 2026/1637 i 2026/1977 relatius a l'avocació específica de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:20.136Z"
+      }
+    },
+    {
+      "id": "2026-06-25#3",
+      "sesion_id": "2026-06-25",
+      "orden": 3,
+      "titulo": "(PRP2026/206). Fixació de les dues festes locals per a l'any 2027......................................................................................7",
+      "resultado": null,
+      "texto_redactado": "(PRP2026/206). Fixació de les dues festes locals per a l'any 2027......................................................................................7",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:20.136Z"
+      }
+    },
+    {
+      "id": "2026-06-25#4",
+      "sesion_id": "2026-06-25",
+      "orden": 4,
+      "titulo": "(PRP2026/210). Aprovació inicial del Reglament del Fons d'Acció Social de l'Ajuntament de Tordera .............................9",
+      "resultado": null,
+      "texto_redactado": "(PRP2026/210). Aprovació inicial del Reglament del Fons d'Acció Social de l'Ajuntament de Tordera .............................9",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:20.136Z"
+      }
+    },
+    {
+      "id": "2026-06-25#5",
+      "sesion_id": "2026-06-25",
+      "orden": 5,
+      "titulo": "(PRP2026/214). Aprovació de extrajudicial de crèdit de les remeses: F/2026/46 , F/2026/47, F/2026/54 i F/2026/57.13",
+      "resultado": null,
+      "texto_redactado": "(PRP2026/214). Aprovació de extrajudicial de crèdit de les remeses: F/2026/46 , F/2026/47, F/2026/54 i F/2026/57.13",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:20.136Z"
+      }
+    },
+    {
+      "id": "2026-06-25#6",
+      "sesion_id": "2026-06-25",
+      "orden": 6,
+      "titulo": "(PRP2026/224). Aprovació de reconeixement extrajudicial de crèdit de les remeses: F/2026/36 i F/2026/58. ............16 MOCIONS.................................................................................................................................................................18",
+      "resultado": null,
+      "texto_redactado": "(PRP2026/224). Aprovació de reconeixement extrajudicial de crèdit de les remeses: F/2026/36 i F/2026/58. ............16 MOCIONS.................................................................................................................................................................18",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:20.136Z"
+      }
+    },
+    {
+      "id": "2026-06-25#7",
+      "sesion_id": "2026-06-25",
+      "orden": 7,
+      "titulo": "(PRP2026/216). Moció que presenten els grups municipals d'ERC-GdT-Jovent-AM i En Comú Podem-Tordera per a un",
+      "resultado": null,
+      "texto_redactado": "(PRP2026/216). Moció que presenten els grups municipals d'ERC-GdT-Jovent-AM i En Comú Podem-Tordera per a un",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:20.136Z"
+      }
+    }
+  ]
+}

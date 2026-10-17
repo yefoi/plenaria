@@ -1,0 +1,483 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "lescala",
+    "nombre": "L'Escala",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1706220002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-03-31",
+    "municipio_id": "lescala",
+    "fecha": "2026-03-31",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1706220002/2026/46dee589-05a2-4e80-9db1-375418b828ba/4-31032026.pdf",
+    "hash_contenido": "44d2196cb00747112f25d7629a8f01d6170d952b684b3e34145029b03f5b9a97",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:41:54.018Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-03-31#1",
+      "sesion_id": "2026-03-31",
+      "orden": 1,
+      "titulo": "APROVACIÓ, SI S’ESCAU, D’ACTES ANTERIORS",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ, SI S’ESCAU, D’ACTES ANTERIORS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.39,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.018Z"
+      }
+    },
+    {
+      "id": "2026-03-31#2",
+      "sesion_id": "2026-03-31",
+      "orden": 2,
+      "titulo": "DONAR COMPTE D’ACTIVITATS DE L’ALCALDIA",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE D’ACTIVITATS DE L’ALCALDIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.018Z"
+      }
+    },
+    {
+      "id": "2026-03-31#3",
+      "sesion_id": "2026-03-31",
+      "orden": 3,
+      "titulo": "DONAR COMPTE DE DECRETS D’ALCALDIA",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE DECRETS D’ALCALDIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.018Z"
+      }
+    },
+    {
+      "id": "2026-03-31#4",
+      "sesion_id": "2026-03-31",
+      "orden": 4,
+      "titulo": "CONVALIDACIÓ PLENÀRIA DE FACTURES PER OMISSIONS I RECONEIXEMENT",
+      "resultado": null,
+      "texto_redactado": "CONVALIDACIÓ PLENÀRIA DE FACTURES PER OMISSIONS I RECONEIXEMENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.018Z"
+      }
+    },
+    {
+      "id": "2026-03-31#5",
+      "sesion_id": "2026-03-31",
+      "orden": 5,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.018Z"
+      }
+    },
+    {
+      "id": "2026-03-31#6",
+      "sesion_id": "2026-03-31",
+      "orden": 6,
+      "titulo": "APROVAR ACTUALITZACIÓ DE PREUS SERVEIS TAXI D’ACORD AMB L’ORDRE TER/255/2025, DE 22 DE DESEMBRE, PER LA QUAL S’ESTABLEIXEN LES TARIFES APLICABLES ALS SERVEIS INTERURBANS DE TAXI",
+      "resultado": null,
+      "texto_redactado": "APROVAR ACTUALITZACIÓ DE PREUS SERVEIS TAXI D’ACORD AMB L’ORDRE TER/255/2025, DE 22 DE DESEMBRE, PER LA QUAL S’ESTABLEIXEN LES TARIFES APLICABLES ALS SERVEIS INTERURBANS DE TAXI",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.018Z"
+      }
+    },
+    {
+      "id": "2026-03-31#7",
+      "sesion_id": "2026-03-31",
+      "orden": 7,
+      "titulo": "APROVACIÓ INICIAL BASES REGULADORES DE SUBVENCIONS PER A LA REHABILITACIÓ I MILLORA D’HABITATGES DESTINATS A LA BORSA DE LLOGUER ASSEQUIBLE DEL MUNICIPI DE L’ESCALA.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ INICIAL BASES REGULADORES DE SUBVENCIONS PER A LA REHABILITACIÓ I MILLORA D’HABITATGES DESTINATS A LA BORSA DE LLOGUER ASSEQUIBLE DEL MUNICIPI DE L’ESCALA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.018Z"
+      }
+    },
+    {
+      "id": "2026-03-31#8",
+      "sesion_id": "2026-03-31",
+      "orden": 8,
+      "titulo": "SOL•LICITUD",
+      "resultado": null,
+      "texto_redactado": "SOL•LICITUD",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.018Z"
+      }
+    },
+    {
+      "id": "2026-03-31#9",
+      "sesion_id": "2026-03-31",
+      "orden": 9,
+      "titulo": "INSTRUCCIÓ DEL PROCEDIMENT I AVALUACIÓ DE LES SOL·LICITUDS",
+      "resultado": null,
+      "texto_redactado": "INSTRUCCIÓ DEL PROCEDIMENT I AVALUACIÓ DE LES SOL·LICITUDS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.018Z"
+      }
+    },
+    {
+      "id": "2026-03-31#10",
+      "sesion_id": "2026-03-31",
+      "orden": 10,
+      "titulo": "PROCEDIMENT DE CONCESSIÓ, ACCEPTACIÓ, RESOLUCIÓ I NOTIFICACIÓ",
+      "resultado": null,
+      "texto_redactado": "PROCEDIMENT DE CONCESSIÓ, ACCEPTACIÓ, RESOLUCIÓ I NOTIFICACIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.018Z"
+      }
+    },
+    {
+      "id": "2026-03-31#11",
+      "sesion_id": "2026-03-31",
+      "orden": 11,
+      "titulo": "JUSTIFICACIÓ DE LA SUBVENCIÓ",
+      "resultado": null,
+      "texto_redactado": "JUSTIFICACIÓ DE LA SUBVENCIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.018Z"
+      }
+    },
+    {
+      "id": "2026-03-31#12",
+      "sesion_id": "2026-03-31",
+      "orden": 12,
+      "titulo": "PAGAMENT",
+      "resultado": null,
+      "texto_redactado": "PAGAMENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.018Z"
+      }
+    },
+    {
+      "id": "2026-03-31#13",
+      "sesion_id": "2026-03-31",
+      "orden": 13,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.018Z"
+      }
+    },
+    {
+      "id": "2026-03-31#14",
+      "sesion_id": "2026-03-31",
+      "orden": 14,
+      "titulo": "REFORMULACIÓ I MODIFICACIÓ DE SOL·LICITUD",
+      "resultado": null,
+      "texto_redactado": "REFORMULACIÓ I MODIFICACIÓ DE SOL·LICITUD",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.018Z"
+      }
+    },
+    {
+      "id": "2026-03-31#15",
+      "sesion_id": "2026-03-31",
+      "orden": 15,
+      "titulo": "INVALIDESA, REVOCACIÓ I REINTEGRAMENT",
+      "resultado": null,
+      "texto_redactado": "INVALIDESA, REVOCACIÓ I REINTEGRAMENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.018Z"
+      }
+    },
+    {
+      "id": "2026-03-31#16",
+      "sesion_id": "2026-03-31",
+      "orden": 16,
+      "titulo": "SEGUIMENT, CONTROL I AVALUACIÓ",
+      "resultado": null,
+      "texto_redactado": "SEGUIMENT, CONTROL I AVALUACIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.018Z"
+      }
+    },
+    {
+      "id": "2026-03-31#17",
+      "sesion_id": "2026-03-31",
+      "orden": 17,
+      "titulo": "PROTECCIÓ DE DADES DE CARÀCTER PERSONAL",
+      "resultado": null,
+      "texto_redactado": "PROTECCIÓ DE DADES DE CARÀCTER PERSONAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.018Z"
+      }
+    },
+    {
+      "id": "2026-03-31#18",
+      "sesion_id": "2026-03-31",
+      "orden": 18,
+      "titulo": "RÈGIM JURÍDIC",
+      "resultado": null,
+      "texto_redactado": "RÈGIM JURÍDIC",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.018Z"
+      }
+    },
+    {
+      "id": "2026-03-31#19",
+      "sesion_id": "2026-03-31",
+      "orden": 19,
+      "titulo": "INFORMACIÓ PòBLICA DE LES BASES I VIGÈNCIA",
+      "resultado": null,
+      "texto_redactado": "INFORMACIÓ PòBLICA DE LES BASES I VIGÈNCIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:54.018Z"
+      }
+    }
+  ]
+}

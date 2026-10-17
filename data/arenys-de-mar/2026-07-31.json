@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "arenys-de-mar",
+    "nombre": "Arenys de Mar",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "800600000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-31",
+    "municipio_id": "arenys-de-mar",
+    "fecha": "2026-07-31",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/800600000/2026/2e560ab1-e20e-44ea-99f3-478e70ad5c7b/Enlla%e7%20al%20document%20Acta%20PLE%202026-8%20de%2031%20juliol.pdf",
+    "hash_contenido": "69f1b51e264fffbe394973f1e78fe727f8b0c3ffd5b107c82d1c16bd078ee594",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-17T10:38:32.789Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-31#1",
+      "sesion_id": "2026-07-31",
+      "orden": 1,
+      "titulo": "Ajuntament d' Arenys de Mar [DIRECCIÓN], Arenys de Mar. 08350 (Barcelona). Tel. [TELÉFONO]. Fax: [TELÉFONO] En aquesta URL electrònica està el document Acta PLE 2026-8 de 31 juliol :",
+      "resultado": null,
+      "texto_redactado": "Ajuntament d' Arenys de Mar [DIRECCIÓN], Arenys de Mar. 08350 (Barcelona). Tel. [TELÉFONO]. Fax: [TELÉFONO] En aquesta URL electrònica està el document Acta PLE 2026-8 de 31 juliol :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:38:32.789Z"
+      }
+    }
+  ]
+}

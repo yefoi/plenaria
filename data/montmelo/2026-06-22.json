@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "montmelo",
+    "nombre": "Montmeló",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "813500000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-22",
+    "municipio_id": "montmelo",
+    "fecha": "2026-06-22",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/813500000/2026/c37b9076-369d-4750-bdd1-55f66572323f/04_20260622_Acta%20Ple%20extraordinari.pdf",
+    "hash_contenido": "0e5a6c3e7918077adf818b60df0e662ef8f7d3aab36f6ceaf4dbeb39995824f0",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:42:59.185Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-22#1",
+      "sesion_id": "2026-06-22",
+      "orden": 1,
+      "titulo": "En data 16 de novembre de 2023, el ple de l’Ajuntament va aprovar inicialment l’adjudicació",
+      "resultado": null,
+      "texto_redactado": "En data 16 de novembre de 2023, el ple de l’Ajuntament va aprovar inicialment l’adjudicació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:59.185Z"
+      }
+    },
+    {
+      "id": "2026-06-22#2",
+      "sesion_id": "2026-06-22",
+      "orden": 2,
+      "titulo": "En data 21 de desembre de 2023, el ple de l’Ajuntament va aprovar definitivament l’adjudicació",
+      "resultado": null,
+      "texto_redactado": "En data 21 de desembre de 2023, el ple de l’Ajuntament va aprovar definitivament l’adjudicació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:59.185Z"
+      }
+    },
+    {
+      "id": "2026-06-22#3",
+      "sesion_id": "2026-06-22",
+      "orden": 3,
+      "titulo": "En data 21 de desembre de 2023 l’Ajuntament de Montmeló i la Fundació Privada Salas per l’",
+      "resultado": null,
+      "texto_redactado": "En data 21 de desembre de 2023 l’Ajuntament de Montmeló i la Fundació Privada Salas per l’",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:59.185Z"
+      }
+    },
+    {
+      "id": "2026-06-22#4",
+      "sesion_id": "2026-06-22",
+      "orden": 4,
+      "titulo": "El plec de clàusules estableix explícitament en la clàusula 7.3.1.13 que la concessionària podrà",
+      "resultado": null,
+      "texto_redactado": "El plec de clàusules estableix explícitament en la clàusula 7.3.1.13 que la concessionària podrà",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:59.185Z"
+      }
+    },
+    {
+      "id": "2026-06-22#5",
+      "sesion_id": "2026-06-22",
+      "orden": 5,
+      "titulo": "En data 31 de juliol de 2024 la Fundació Privada Salas per l’Accessibilitat va atorgar davant el",
+      "resultado": null,
+      "texto_redactado": "En data 31 de juliol de 2024 la Fundació Privada Salas per l’Accessibilitat va atorgar davant el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:59.185Z"
+      }
+    },
+    {
+      "id": "2026-06-22#6",
+      "sesion_id": "2026-06-22",
+      "orden": 6,
+      "titulo": "En data 24 d’abril de 2026, la Fundació Privada Salas per l’Accessibilitat amb NIF [CIF],",
+      "resultado": null,
+      "texto_redactado": "En data 24 d’abril de 2026, la Fundació Privada Salas per l’Accessibilitat amb NIF [CIF],",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:59.185Z"
+      }
+    },
+    {
+      "id": "2026-06-22#7",
+      "sesion_id": "2026-06-22",
+      "orden": 7,
+      "titulo": "Consta en l’expedient que la Fundació Privada Nou Lloc Habitatge Social disposa de l’",
+      "resultado": null,
+      "texto_redactado": "Consta en l’expedient que la Fundació Privada Nou Lloc Habitatge Social disposa de l’",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:59.185Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "tiana",
+    "nombre": "Tiana",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "828240003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-02",
+    "municipio_id": "tiana",
+    "fecha": "2026-06-02",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/828240003/2026/f525acdd-174e-4a1f-b657-4b7a8635a056/ACTA%20DEL%20PLE%20A7-020626.pdf",
+    "hash_contenido": "2ab8a44837de59af01c14866f8465c091f113ffd1893ed52ddc3f13bfb38d2fd",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:42:50.347Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-02#1",
+      "sesion_id": "2026-06-02",
+      "orden": 1,
+      "titulo": "QUIN ÉS EL CALENDARI PREVIST PEL GOVERN MUNICIPAL PER COMPLETAR DEFINITIVAMENT L’ACTUACIÓ DE MILLORA I OPTIMITZACIÓ DE LA CIRCULACIÓ DE VEHICLES A L’ENCREUAMENT DEL PASSEIG DE LA VILESA AMB EL CARRER CASTELLAR",
+      "resultado": null,
+      "texto_redactado": "QUIN ÉS EL CALENDARI PREVIST PEL GOVERN MUNICIPAL PER COMPLETAR DEFINITIVAMENT L’ACTUACIÓ DE MILLORA I OPTIMITZACIÓ DE LA CIRCULACIÓ DE VEHICLES A L’ENCREUAMENT DEL PASSEIG DE LA VILESA AMB EL CARRER CASTELLAR",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.99,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:50.347Z"
+      }
+    },
+    {
+      "id": "2026-06-02#2",
+      "sesion_id": "2026-06-02",
+      "orden": 2,
+      "titulo": "CONÈIXER SI EL GOVERN MUNICIPAL JA TÉ PREVIST UN",
+      "resultado": null,
+      "texto_redactado": "CONÈIXER SI EL GOVERN MUNICIPAL JA TÉ PREVIST UN",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:50.347Z"
+      }
+    },
+    {
+      "id": "2026-06-02#3",
+      "sesion_id": "2026-06-02",
+      "orden": 3,
+      "titulo": "SABER QUINES ACTUACIONS HA PREVIST DUR A TERME EL GOVERN MUNICIPAL DAVANT LA PRESÈNCIA DE RATES I PANEROLES A LA ZONA DEL PARC DEL TRAMVIA I QUIN ÉS EL CALENDARI D’INTERVENCIÓ PREVIST",
+      "resultado": null,
+      "texto_redactado": "SABER QUINES ACTUACIONS HA PREVIST DUR A TERME EL GOVERN MUNICIPAL DAVANT LA PRESÈNCIA DE RATES I PANEROLES A LA ZONA DEL PARC DEL TRAMVIA I QUIN ÉS EL CALENDARI D’INTERVENCIÓ PREVIST",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:50.347Z"
+      }
+    },
+    {
+      "id": "2026-06-02#4",
+      "sesion_id": "2026-06-02",
+      "orden": 4,
+      "titulo": "VOLEM SABER SI L’AJUNTAMENT DE TIANA PENSA PRENDRE ALGUNA MESURA DAVANT LES REITERADES PETICIONS VEÏNALS D’AUGMENTAR EL NOMBRE DE CONTENIDORS PER PLÀSTIC, VIDRE I PAPER A MÉS DE DISPOSAR D’UNS CONTENIDORS D’EMERGÈNCIA A LA ZONA DE LA VIRREINA, AMB L’OBJECTIU DE PREVENIR L’ABANDONAMENT",
+      "resultado": null,
+      "texto_redactado": "VOLEM SABER SI L’AJUNTAMENT DE TIANA PENSA PRENDRE ALGUNA MESURA DAVANT LES REITERADES PETICIONS VEÏNALS D’AUGMENTAR EL NOMBRE DE CONTENIDORS PER PLÀSTIC, VIDRE I PAPER A MÉS DE DISPOSAR D’UNS CONTENIDORS D’EMERGÈNCIA A LA ZONA DE LA VIRREINA, AMB L’OBJECTIU DE PREVENIR L’ABANDONAMENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:50.347Z"
+      }
+    },
+    {
+      "id": "2026-06-02#5",
+      "sesion_id": "2026-06-02",
+      "orden": 5,
+      "titulo": "SOBRE L´AMPLIACIÓ DE LES VORERES, ELIMINACIÓ DE LES PILONES I ALTRES A L’AVINGUDA ONZE DE SETEMBRE",
+      "resultado": null,
+      "texto_redactado": "SOBRE L´AMPLIACIÓ DE LES VORERES, ELIMINACIÓ DE LES PILONES I ALTRES A L’AVINGUDA ONZE DE SETEMBRE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:50.347Z"
+      }
+    },
+    {
+      "id": "2026-06-02#6",
+      "sesion_id": "2026-06-02",
+      "orden": 6,
+      "titulo": "SOBRE LES OBRES DE L’APARCAMENT DE CAN MATAS",
+      "resultado": null,
+      "texto_redactado": "SOBRE LES OBRES DE L’APARCAMENT DE CAN MATAS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "movilidad_trafico",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:50.347Z"
+      }
+    },
+    {
+      "id": "2026-06-02#7",
+      "sesion_id": "2026-06-02",
+      "orden": 7,
+      "titulo": "SOBRE L’ENDERROC DE LA CASA DEL C. ESCALFAPÉ",
+      "resultado": null,
+      "texto_redactado": "SOBRE L’ENDERROC DE LA CASA DEL C. ESCALFAPÉ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:50.347Z"
+      }
+    },
+    {
+      "id": "2026-06-02#8",
+      "sesion_id": "2026-06-02",
+      "orden": 8,
+      "titulo": "SOBRE LES OBRES DE REPARACIÓ DEL DENOMINAT ÒMUR DE LES MONGESÓ",
+      "resultado": null,
+      "texto_redactado": "SOBRE LES OBRES DE REPARACIÓ DEL DENOMINAT ÒMUR DE LES MONGESÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:50.347Z"
+      }
+    },
+    {
+      "id": "2026-06-02#9",
+      "sesion_id": "2026-06-02",
+      "orden": 9,
+      "titulo": "SOBRE EL COMPROMÍS DE CONVOCAR UNA REUNIÓ PER TRACTAR EL TEMA DE LA FIRA DE LA FESTA MAJOR",
+      "resultado": null,
+      "texto_redactado": "SOBRE EL COMPROMÍS DE CONVOCAR UNA REUNIÓ PER TRACTAR EL TEMA DE LA FIRA DE LA FESTA MAJOR",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:50.347Z"
+      }
+    }
+  ]
+}

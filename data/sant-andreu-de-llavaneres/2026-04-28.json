@@ -1,0 +1,388 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-andreu-de-llavaneres",
+    "nombre": "Sant Andreu de Llavaneres",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "819760009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-04-28",
+    "municipio_id": "sant-andreu-de-llavaneres",
+    "fecha": "2026-04-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/819760009/2026/54ea2367-5353-4f73-a29d-f038c4f9234a/ACTA%20PLE%2028-04-26.pdf",
+    "hash_contenido": "c59a1331beb2f008f3ff12bb92fc0992e0874ec010b0221e1a8c49f4cd6505bc",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:41:30.424Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-04-28#1",
+      "sesion_id": "2026-04-28",
+      "orden": 1,
+      "titulo": "APROVACIÓ, SI S’ESCAU, DE L’ACTA DE LA SESSIÓ ORDINÀRIA CELEBRADA EL DIA 24 DE MARÇ DE 2026.-",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ, SI S’ESCAU, DE L’ACTA DE LA SESSIÓ ORDINÀRIA CELEBRADA EL DIA 24 DE MARÇ DE 2026.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.43,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:30.424Z"
+      }
+    },
+    {
+      "id": "2026-04-28#2",
+      "sesion_id": "2026-04-28",
+      "orden": 2,
+      "titulo": "CONTROL I FISCALITZACIÓ DELS ÒRGANS DE GOVERN: A) RESOLUCIONS DE L’ALCALDIA I REGIDORS-DELEGATS.-",
+      "resultado": null,
+      "texto_redactado": "CONTROL I FISCALITZACIÓ DELS ÒRGANS DE GOVERN: A) RESOLUCIONS DE L’ALCALDIA I REGIDORS-DELEGATS.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:30.424Z"
+      }
+    },
+    {
+      "id": "2026-04-28#3",
+      "sesion_id": "2026-04-28",
+      "orden": 3,
+      "titulo": "DONAR COMPTE DE LA RELACIÓ MENSUAL DE LES OPERACIONS DEL COMPTE 413 «CREDITORS PER OPERACIONS MERITADES» (EXP. 2023/874).-",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE LA RELACIÓ MENSUAL DE LES OPERACIONS DEL COMPTE 413 «CREDITORS PER OPERACIONS MERITADES» (EXP. 2023/874).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:30.424Z"
+      }
+    },
+    {
+      "id": "2026-04-28#4",
+      "sesion_id": "2026-04-28",
+      "orden": 4,
+      "titulo": "PROPOSTA AL DEPARTAMENT D’EMPRESA I TREBALL DE LES DUES FESTES LOCALS PER A L’ANY 2027. (EXP. 2026/2396).-",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA AL DEPARTAMENT D’EMPRESA I TREBALL DE LES DUES FESTES LOCALS PER A L’ANY 2027. (EXP. 2026/2396).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:30.424Z"
+      }
+    },
+    {
+      "id": "2026-04-28#5",
+      "sesion_id": "2026-04-28",
+      "orden": 5,
+      "titulo": "ACTUALITZACIÓ DEL PLA ESTRATÈGIC DE SUBVENCIONS DE L’EXERCICI 2026. (EXP.",
+      "resultado": null,
+      "texto_redactado": "ACTUALITZACIÓ DEL PLA ESTRATÈGIC DE SUBVENCIONS DE L’EXERCICI 2026. (EXP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:30.424Z"
+      }
+    },
+    {
+      "id": "2026-04-28#6",
+      "sesion_id": "2026-04-28",
+      "orden": 6,
+      "titulo": "AIXECAMENT DELS REPARAMENTS SUSPENSIUS INTERPOSATS PER LA",
+      "resultado": null,
+      "texto_redactado": "AIXECAMENT DELS REPARAMENTS SUSPENSIUS INTERPOSATS PER LA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:30.424Z"
+      }
+    },
+    {
+      "id": "2026-04-28#7",
+      "sesion_id": "2026-04-28",
+      "orden": 7,
+      "titulo": "APROVACIÓ DE LA TERCERA I òLTIMA PRÒRROGA DE LA CONCESSIÓ DE L'EXPLOTACIÓ DEL BAR UBICAT A LA PISCINA MUNICIPAL, PER LA TEMPORADA",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE LA TERCERA I òLTIMA PRÒRROGA DE LA CONCESSIÓ DE L'EXPLOTACIÓ DEL BAR UBICAT A LA PISCINA MUNICIPAL, PER LA TEMPORADA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:30.424Z"
+      }
+    },
+    {
+      "id": "2026-04-28#8",
+      "sesion_id": "2026-04-28",
+      "orden": 8,
+      "titulo": "APROVACIÓ DE LA SEGONA PRÒRROGA DE LA CESSIÓ D’òS EN PRECARI A FAVOR DE L’ASSOCIACIÓ LA INESTABLE, COMPANYIA DE TEATRE, D’UN LOCAL DE",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE LA SEGONA PRÒRROGA DE LA CESSIÓ D’òS EN PRECARI A FAVOR DE L’ASSOCIACIÓ LA INESTABLE, COMPANYIA DE TEATRE, D’UN LOCAL DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:30.424Z"
+      }
+    },
+    {
+      "id": "2026-04-28#9",
+      "sesion_id": "2026-04-28",
+      "orden": 9,
+      "titulo": "APROVACIÓ DEFINITIVA DEL PROJECTE DE REURBANITZACIÓ DE LA VORERA OEST DE L’AVINGUDA CATALUNYA (EXP. 2025/6306).-",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEFINITIVA DEL PROJECTE DE REURBANITZACIÓ DE LA VORERA OEST DE L’AVINGUDA CATALUNYA (EXP. 2025/6306).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias",
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:30.424Z"
+      }
+    },
+    {
+      "id": "2026-04-28#10",
+      "sesion_id": "2026-04-28",
+      "orden": 10,
+      "titulo": "MOCIÓ DEL SENYOR ORIOL GIRAT GILI, REGIDOR NO ADSCRIT, EN RELACIÓ AMB LA REGULARITZACIÓ D’IMMIGRANTS ESTRANGERS A L’ESTAT ESPANYOL I LA MARGINACIÓ DE LA LLENGUA CATALANA EN AQUEST PROCÉS.-",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ DEL SENYOR ORIOL GIRAT GILI, REGIDOR NO ADSCRIT, EN RELACIÓ AMB LA REGULARITZACIÓ D’IMMIGRANTS ESTRANGERS A L’ESTAT ESPANYOL I LA MARGINACIÓ DE LA LLENGUA CATALANA EN AQUEST PROCÉS.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:30.424Z"
+      }
+    },
+    {
+      "id": "2026-04-28#11",
+      "sesion_id": "2026-04-28",
+      "orden": 11,
+      "titulo": "PREGUNTES DEL SENYOR ORIOL GIRALT GILI, REGIDOR NO ADSCRIT.-",
+      "resultado": null,
+      "texto_redactado": "PREGUNTES DEL SENYOR ORIOL GIRALT GILI, REGIDOR NO ADSCRIT.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:30.424Z"
+      }
+    },
+    {
+      "id": "2026-04-28#12",
+      "sesion_id": "2026-04-28",
+      "orden": 12,
+      "titulo": "PREGUNTES DEL GRUP MUNICIPAL D'ERC-AM.-",
+      "resultado": null,
+      "texto_redactado": "PREGUNTES DEL GRUP MUNICIPAL D'ERC-AM.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:30.424Z"
+      }
+    },
+    {
+      "id": "2026-04-28#13",
+      "sesion_id": "2026-04-28",
+      "orden": 13,
+      "titulo": "PREC DEL SENYOR ORIOL GIRALT GILI, REGIDOR NO ADSCRIT.-",
+      "resultado": null,
+      "texto_redactado": "PREC DEL SENYOR ORIOL GIRALT GILI, REGIDOR NO ADSCRIT.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:30.424Z"
+      }
+    },
+    {
+      "id": "2026-04-28#14",
+      "sesion_id": "2026-04-28",
+      "orden": 14,
+      "titulo": "PREC DEL GRUP MUNICIPAL D'ERC-AM.-",
+      "resultado": null,
+      "texto_redactado": "PREC DEL GRUP MUNICIPAL D'ERC-AM.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:30.424Z"
+      }
+    },
+    {
+      "id": "2026-04-28#15",
+      "sesion_id": "2026-04-28",
+      "orden": 15,
+      "titulo": "INFORMES.-",
+      "resultado": null,
+      "texto_redactado": "INFORMES.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:30.424Z"
+      }
+    }
+  ]
+}

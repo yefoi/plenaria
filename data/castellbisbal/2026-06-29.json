@@ -1,0 +1,219 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "castellbisbal",
+    "nombre": "Castellbisbal",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "805430008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-29",
+    "municipio_id": "castellbisbal",
+    "fecha": "2026-06-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/805430008/2026/e3cdc28f-855f-4892-bd30-54dc0dc6b0f5/Acta%20sessi%f3%206_2026%20del%20Ple%20de%2029-06-2026%20-%20signada.pdf",
+    "hash_contenido": "e14967850b749d9550a9756acb7059581493a8fd8de4a545aca3b2309becc500",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:40:35.724Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-29#1",
+      "sesion_id": "2026-06-29",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L’ESBORRANY DE L’ACTA DE LA SESSIÓ ORDINÀRIA DEL DIA 25 DE MAIG DE 2026",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’ESBORRANY DE L’ACTA DE LA SESSIÓ ORDINÀRIA DEL DIA 25 DE MAIG DE 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:35.724Z"
+      }
+    },
+    {
+      "id": "2026-06-29#2",
+      "sesion_id": "2026-06-29",
+      "orden": 2,
+      "titulo": "ACORD PER APROVAR L’APORTACIÓ ECONÒMICA A L’ÀREA METROPOLITANA DE BARCELONA EN CONCEPTE DE PARTICIPACIÓ EN ELS TRIBUTS DE L’ESTAT PER A",
+      "resultado": null,
+      "texto_redactado": "ACORD PER APROVAR L’APORTACIÓ ECONÒMICA A L’ÀREA METROPOLITANA DE BARCELONA EN CONCEPTE DE PARTICIPACIÓ EN ELS TRIBUTS DE L’ESTAT PER A",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:35.724Z"
+      }
+    },
+    {
+      "id": "2026-06-29#3",
+      "sesion_id": "2026-06-29",
+      "orden": 3,
+      "titulo": "El Consell Metropolità, previ informe favorable de la Comissió Informativa de data",
+      "resultado": null,
+      "texto_redactado": "El Consell Metropolità, previ informe favorable de la Comissió Informativa de data",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:35.724Z"
+      }
+    },
+    {
+      "id": "2026-06-29#4",
+      "sesion_id": "2026-06-29",
+      "orden": 4,
+      "titulo": "El Gerent de l’Àrea Metropolitana de Barcelona va dictar el Decret de Gerència número",
+      "resultado": null,
+      "texto_redactado": "El Gerent de l’Àrea Metropolitana de Barcelona va dictar el Decret de Gerència número",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:35.724Z"
+      }
+    },
+    {
+      "id": "2026-06-29#5",
+      "sesion_id": "2026-06-29",
+      "orden": 5,
+      "titulo": "L’aportació de l’Ajuntament de Castellbisbal en concepte de participació dels tributs de",
+      "resultado": null,
+      "texto_redactado": "L’aportació de l’Ajuntament de Castellbisbal en concepte de participació dels tributs de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:35.724Z"
+      }
+    },
+    {
+      "id": "2026-06-29#6",
+      "sesion_id": "2026-06-29",
+      "orden": 6,
+      "titulo": "Les aportacions mensuals a l’ Àrea Metropolitana de Barcelona (AMB) de l’exercici 2025",
+      "resultado": null,
+      "texto_redactado": "Les aportacions mensuals a l’ Àrea Metropolitana de Barcelona (AMB) de l’exercici 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:35.724Z"
+      }
+    },
+    {
+      "id": "2026-06-29#7",
+      "sesion_id": "2026-06-29",
+      "orden": 7,
+      "titulo": "Vist el reconeixement de l’obligació (O) a favor de l’Àrea Metropolitana de Barcelona per",
+      "resultado": null,
+      "texto_redactado": "Vist el reconeixement de l’obligació (O) a favor de l’Àrea Metropolitana de Barcelona per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:35.724Z"
+      }
+    },
+    {
+      "id": "2026-06-29#8",
+      "sesion_id": "2026-06-29",
+      "orden": 8,
+      "titulo": "PRECS, PREGUNTES I MOCIONS D’URGÈNCIA",
+      "resultado": null,
+      "texto_redactado": "PRECS, PREGUNTES I MOCIONS D’URGÈNCIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:40:35.724Z"
+      }
+    }
+  ]
+}

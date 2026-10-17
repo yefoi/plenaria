@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "olesa-de-montserrat",
+    "nombre": "Olesa de Montserrat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "814770005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2025-12-18",
+    "municipio_id": "olesa-de-montserrat",
+    "fecha": "2025-12-18",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/814770005/2025/50477f6b-a9e4-47dd-8b80-4e20be844eb3/(14)%20Acta%20Ple%2018-12-25%20Ordin%e0ria.pdf",
+    "hash_contenido": "5ae9bf3d487d8d3f371ea34518d62a6d4de2214f8b9f729c55fdedc511359761",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:36:12.316Z"
+  },
+  "puntos": [
+    {
+      "id": "2025-12-18#1",
+      "sesion_id": "2025-12-18",
+      "orden": 1,
+      "titulo": "Acta de sessió Ordinària de data 27 de novembre de 2025. Exp. 2025/010623 DOCUMENT ACTA_PLE - ACTA PLE ÒRGAN",
+      "resultado": null,
+      "texto_redactado": "Acta de sessió Ordinària de data 27 de novembre de 2025. Exp. 2025/010623 DOCUMENT ACTA_PLE - ACTA PLE ÒRGAN",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:12.316Z"
+      }
+    },
+    {
+      "id": "2025-12-18#2",
+      "sesion_id": "2025-12-18",
+      "orden": 2,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:12.316Z"
+      }
+    },
+    {
+      "id": "2025-12-18#3",
+      "sesion_id": "2025-12-18",
+      "orden": 3,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:12.316Z"
+      }
+    },
+    {
+      "id": "2025-12-18#4",
+      "sesion_id": "2025-12-18",
+      "orden": 4,
+      "titulo": "Moció presentada per l’Associació per la Sanitat Publica i de Qualitat a Olesa de",
+      "resultado": null,
+      "texto_redactado": "Moció presentada per l’Associació per la Sanitat Publica i de Qualitat a Olesa de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:12.316Z"
+      }
+    },
+    {
+      "id": "2025-12-18#5",
+      "sesion_id": "2025-12-18",
+      "orden": 5,
+      "titulo": "Donar compte de la relació de Decrets del mes de novembre de 2025",
+      "resultado": null,
+      "texto_redactado": "Donar compte de la relació de Decrets del mes de novembre de 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:12.316Z"
+      }
+    },
+    {
+      "id": "2025-12-18#6",
+      "sesion_id": "2025-12-18",
+      "orden": 6,
+      "titulo": "Precs i preguntes",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:12.316Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "alella",
+    "nombre": "Alella",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "800390004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-27",
+    "municipio_id": "alella",
+    "fecha": "2026-07-27",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/800390004/2026/1115ae98-7217-4c93-843c-c5e010cbc762/20260727_Acta%20Ple.pdf",
+    "hash_contenido": "5af396b6de5f8bec19ee94f593be7b4aa62a690e108744632ed4d40e6ccb7c56",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:42:01.993Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-27#1",
+      "sesion_id": "2026-07-27",
+      "orden": 1,
+      "titulo": "Declaració del caràcter ordinari de la sessió.",
+      "resultado": null,
+      "texto_redactado": "Declaració del caràcter ordinari de la sessió.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:01.993Z"
+      }
+    },
+    {
+      "id": "2026-07-27#2",
+      "sesion_id": "2026-07-27",
+      "orden": 2,
+      "titulo": "Aprovació de l’esborrany de l’acta de la sessió ordinària del Ple municipal celebrada el dia",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’esborrany de l’acta de la sessió ordinària del Ple municipal celebrada el dia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:01.993Z"
+      }
+    },
+    {
+      "id": "2026-07-27#3",
+      "sesion_id": "2026-07-27",
+      "orden": 3,
+      "titulo": "Control i fiscalització òrgans de govern:",
+      "resultado": null,
+      "texto_redactado": "Control i fiscalització òrgans de govern:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:01.993Z"
+      }
+    },
+    {
+      "id": "2026-07-27#4",
+      "sesion_id": "2026-07-27",
+      "orden": 4,
+      "titulo": "Proposta de l’Alcaldia per donar compte del Decret de l’Alcaldia número 2026DECR000808,",
+      "resultado": null,
+      "texto_redactado": "Proposta de l’Alcaldia per donar compte del Decret de l’Alcaldia número 2026DECR000808,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:01.993Z"
+      }
+    },
+    {
+      "id": "2026-07-27#5",
+      "sesion_id": "2026-07-27",
+      "orden": 5,
+      "titulo": "Proposta de l’Alcaldia sobre modificació del Conveni Col·lectiu regulador de les condicions",
+      "resultado": null,
+      "texto_redactado": "Proposta de l’Alcaldia sobre modificació del Conveni Col·lectiu regulador de les condicions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:01.993Z"
+      }
+    },
+    {
+      "id": "2026-07-27#6",
+      "sesion_id": "2026-07-27",
+      "orden": 6,
+      "titulo": "Proposta de l’Alcaldia sobre modificació de l'Acord regulador de les condicions de treball del",
+      "resultado": null,
+      "texto_redactado": "Proposta de l’Alcaldia sobre modificació de l'Acord regulador de les condicions de treball del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:01.993Z"
+      }
+    },
+    {
+      "id": "2026-07-27#7",
+      "sesion_id": "2026-07-27",
+      "orden": 7,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:01.993Z"
+      }
+    },
+    {
+      "id": "2026-07-27#8",
+      "sesion_id": "2026-07-27",
+      "orden": 8,
+      "titulo": "Proposta de l’Alcaldia per declarar d’especial interès les obres per a la construcció d’edifici",
+      "resultado": null,
+      "texto_redactado": "Proposta de l’Alcaldia per declarar d’especial interès les obres per a la construcció d’edifici",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:01.993Z"
+      }
+    },
+    {
+      "id": "2026-07-27#9",
+      "sesion_id": "2026-07-27",
+      "orden": 9,
+      "titulo": "Proposta de l’Alcaldia sobre aprovació inicial del projecte de rehabilitació energètica de Can",
+      "resultado": null,
+      "texto_redactado": "Proposta de l’Alcaldia sobre aprovació inicial del projecte de rehabilitació energètica de Can",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:01.993Z"
+      }
+    },
+    {
+      "id": "2026-07-27#10",
+      "sesion_id": "2026-07-27",
+      "orden": 10,
+      "titulo": "Proposta de l’Alcaldia sobre aprovació inicial de la Modificació del POUM número 15 a",
+      "resultado": null,
+      "texto_redactado": "Proposta de l’Alcaldia sobre aprovació inicial de la Modificació del POUM número 15 a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:01.993Z"
+      }
+    },
+    {
+      "id": "2026-07-27#11",
+      "sesion_id": "2026-07-27",
+      "orden": 11,
+      "titulo": "Moció del grup municipal Per Alella Junts – Compromís Municipal, per al foment de la",
+      "resultado": null,
+      "texto_redactado": "Moció del grup municipal Per Alella Junts – Compromís Municipal, per al foment de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:01.993Z"
+      }
+    },
+    {
+      "id": "2026-07-27#12",
+      "sesion_id": "2026-07-27",
+      "orden": 12,
+      "titulo": "Moció del grup municipal Per Alella Junts – Compromís Municipal, en defensa del català",
+      "resultado": null,
+      "texto_redactado": "Moció del grup municipal Per Alella Junts – Compromís Municipal, en defensa del català",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:01.993Z"
+      }
+    },
+    {
+      "id": "2026-07-27#13",
+      "sesion_id": "2026-07-27",
+      "orden": 13,
+      "titulo": "Moció del regidor no adscrit, Sr. Bernal, per a la implantació d'un nou model de recollida de",
+      "resultado": null,
+      "texto_redactado": "Moció del regidor no adscrit, Sr. Bernal, per a la implantació d'un nou model de recollida de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:01.993Z"
+      }
+    },
+    {
+      "id": "2026-07-27#14",
+      "sesion_id": "2026-07-27",
+      "orden": 14,
+      "titulo": "PROPOSTA DE L’ALCALDIA SOBRE APROVACIÓ DE RECONEIXEMENT EXTRAJUDICIAL DE CRÈDITS (EXPEDIENT X2024004129).",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA DE L’ALCALDIA SOBRE APROVACIÓ DE RECONEIXEMENT EXTRAJUDICIAL DE CRÈDITS (EXPEDIENT X2024004129).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:42:01.993Z"
+      }
+    }
+  ]
+}

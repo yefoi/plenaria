@@ -1,0 +1,507 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "pineda-de-mar",
+    "nombre": "Pineda de Mar",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "816350006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2025-11-24",
+    "municipio_id": "pineda-de-mar",
+    "fecha": "2025-11-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/816350006/2025/84ad9e75-e3e2-46d0-84ab-8e48f4d8ddf7/ActaPle_2025_11_24LOPD.pdf",
+    "hash_contenido": "5fc4c6b0b494dd12826bfef4c6ad0263e9c66ee3929745cf812b9ec6fcf9dbf9",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:36:06.008Z"
+  },
+  "puntos": [
+    {
+      "id": "2025-11-24#1",
+      "sesion_id": "2025-11-24",
+      "orden": 1,
+      "titulo": "Lectura i aprovació, si escau de l’esborrany de l’acta de la sessió anterior.",
+      "resultado": null,
+      "texto_redactado": "Lectura i aprovació, si escau de l’esborrany de l’acta de la sessió anterior.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:06.008Z"
+      }
+    },
+    {
+      "id": "2025-11-24#2",
+      "sesion_id": "2025-11-24",
+      "orden": 2,
+      "titulo": "287/2025 -Benestar Social",
+      "resultado": null,
+      "texto_redactado": "287/2025 -Benestar Social",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:06.008Z"
+      }
+    },
+    {
+      "id": "2025-11-24#3",
+      "sesion_id": "2025-11-24",
+      "orden": 3,
+      "titulo": "9587/2025 - Participació Ciutadana i Gent Gran Activa",
+      "resultado": null,
+      "texto_redactado": "9587/2025 - Participació Ciutadana i Gent Gran Activa",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:06.008Z"
+      }
+    },
+    {
+      "id": "2025-11-24#4",
+      "sesion_id": "2025-11-24",
+      "orden": 4,
+      "titulo": "10782/2025 - Secretaria General.",
+      "resultado": null,
+      "texto_redactado": "10782/2025 - Secretaria General.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:06.008Z"
+      }
+    },
+    {
+      "id": "2025-11-24#5",
+      "sesion_id": "2025-11-24",
+      "orden": 5,
+      "titulo": "10811/2025 - Recursos Humans.",
+      "resultado": null,
+      "texto_redactado": "10811/2025 - Recursos Humans.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:06.008Z"
+      }
+    },
+    {
+      "id": "2025-11-24#6",
+      "sesion_id": "2025-11-24",
+      "orden": 6,
+      "titulo": "10400/2025 - Intervenció",
+      "resultado": null,
+      "texto_redactado": "10400/2025 - Intervenció",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:06.008Z"
+      }
+    },
+    {
+      "id": "2025-11-24#7",
+      "sesion_id": "2025-11-24",
+      "orden": 7,
+      "titulo": "Donar compte dels Decrets d'Alcaldia del mes d'octubre de 2025, que van des del n. 2.527/2025 al n.",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels Decrets d'Alcaldia del mes d'octubre de 2025, que van des del n. 2.527/2025 al n.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:06.008Z"
+      }
+    },
+    {
+      "id": "2025-11-24#8",
+      "sesion_id": "2025-11-24",
+      "orden": 8,
+      "titulo": "Donar compte dels acords de la Junta de Govern Local del mes d'octubre de 2025, de dates 6, 13, 20 i",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels acords de la Junta de Govern Local del mes d'octubre de 2025, de dates 6, 13, 20 i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:06.008Z"
+      }
+    },
+    {
+      "id": "2025-11-24#9",
+      "sesion_id": "2025-11-24",
+      "orden": 9,
+      "titulo": "PREGUNTA - Assumpte: Escorrancs Avinguda Mediterrani",
+      "resultado": null,
+      "texto_redactado": "PREGUNTA - Assumpte: Escorrancs Avinguda Mediterrani",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:06.008Z"
+      }
+    },
+    {
+      "id": "2025-11-24#10",
+      "sesion_id": "2025-11-24",
+      "orden": 10,
+      "titulo": "PREC- Assumpte: Pla d'arbrat.",
+      "resultado": null,
+      "texto_redactado": "PREC- Assumpte: Pla d'arbrat.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:06.008Z"
+      }
+    },
+    {
+      "id": "2025-11-24#11",
+      "sesion_id": "2025-11-24",
+      "orden": 11,
+      "titulo": "PREGUNTA – Oficina de barris",
+      "resultado": null,
+      "texto_redactado": "PREGUNTA – Oficina de barris",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:06.008Z"
+      }
+    },
+    {
+      "id": "2025-11-24#12",
+      "sesion_id": "2025-11-24",
+      "orden": 12,
+      "titulo": "PREGUNTA.- Gent de Pineda",
+      "resultado": null,
+      "texto_redactado": "PREGUNTA.- Gent de Pineda",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:06.008Z"
+      }
+    },
+    {
+      "id": "2025-11-24#13",
+      "sesion_id": "2025-11-24",
+      "orden": 13,
+      "titulo": "PREGUNTA.- ERMITA SANT RAFAEL.",
+      "resultado": null,
+      "texto_redactado": "PREGUNTA.- ERMITA SANT RAFAEL.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:06.008Z"
+      }
+    },
+    {
+      "id": "2025-11-24#14",
+      "sesion_id": "2025-11-24",
+      "orden": 14,
+      "titulo": "PREGUNTA.- ARTS D’ESTIU",
+      "resultado": null,
+      "texto_redactado": "PREGUNTA.- ARTS D’ESTIU",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:06.008Z"
+      }
+    },
+    {
+      "id": "2025-11-24#15",
+      "sesion_id": "2025-11-24",
+      "orden": 15,
+      "titulo": "PREC.- ABOCADORS",
+      "resultado": null,
+      "texto_redactado": "PREC.- ABOCADORS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:06.008Z"
+      }
+    },
+    {
+      "id": "2025-11-24#16",
+      "sesion_id": "2025-11-24",
+      "orden": 16,
+      "titulo": "PREGUNTA – Persones sense llars.",
+      "resultado": null,
+      "texto_redactado": "PREGUNTA – Persones sense llars.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:06.008Z"
+      }
+    },
+    {
+      "id": "2025-11-24#17",
+      "sesion_id": "2025-11-24",
+      "orden": 17,
+      "titulo": "PREGUNTA – SUBVENCIÓ",
+      "resultado": null,
+      "texto_redactado": "PREGUNTA – SUBVENCIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:06.008Z"
+      }
+    },
+    {
+      "id": "2025-11-24#18",
+      "sesion_id": "2025-11-24",
+      "orden": 18,
+      "titulo": "PREGUNTA.- CONSELL ESCOLAR MUNICIPAL",
+      "resultado": null,
+      "texto_redactado": "PREGUNTA.- CONSELL ESCOLAR MUNICIPAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:06.008Z"
+      }
+    },
+    {
+      "id": "2025-11-24#19",
+      "sesion_id": "2025-11-24",
+      "orden": 19,
+      "titulo": "PRECUNTA – REGLAMENT DE PARTCIPACIÓ",
+      "resultado": null,
+      "texto_redactado": "PRECUNTA – REGLAMENT DE PARTCIPACIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:06.008Z"
+      }
+    },
+    {
+      "id": "2025-11-24#20",
+      "sesion_id": "2025-11-24",
+      "orden": 20,
+      "titulo": "PREGUNTA – BANCS PLAÇA DEL PILAR",
+      "resultado": null,
+      "texto_redactado": "PREGUNTA – BANCS PLAÇA DEL PILAR",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:36:06.008Z"
+      }
+    }
+  ]
+}

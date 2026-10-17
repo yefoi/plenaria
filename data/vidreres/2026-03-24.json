@@ -1,0 +1,388 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vidreres",
+    "nombre": "Vidreres",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1721370005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-03-24",
+    "municipio_id": "vidreres",
+    "fecha": "2026-03-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1721370005/2026/0844f013-8b49-4a87-9f8b-22e001848991/PLE2026000003_ACTA.pdf",
+    "hash_contenido": "72613adbbd260f0d322ebdae9acea7c7e0881bcbc5f3d965bf5c99a994d17030",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:43:10.946Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-03-24#1",
+      "sesion_id": "2026-03-24",
+      "orden": 1,
+      "titulo": "X2025000376. Aprovació de les actes de les sessions extraordinàries del Ple",
+      "resultado": null,
+      "texto_redactado": "X2025000376. Aprovació de les actes de les sessions extraordinàries del Ple",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.946Z"
+      }
+    },
+    {
+      "id": "2026-03-24#2",
+      "sesion_id": "2026-03-24",
+      "orden": 2,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.946Z"
+      }
+    },
+    {
+      "id": "2026-03-24#3",
+      "sesion_id": "2026-03-24",
+      "orden": 3,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.946Z"
+      }
+    },
+    {
+      "id": "2026-03-24#4",
+      "sesion_id": "2026-03-24",
+      "orden": 4,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.946Z"
+      }
+    },
+    {
+      "id": "2026-03-24#5",
+      "sesion_id": "2026-03-24",
+      "orden": 5,
+      "titulo": "X2026000329. Aprovació del reconeixement extrajudicial de crèdit de les",
+      "resultado": null,
+      "texto_redactado": "X2026000329. Aprovació del reconeixement extrajudicial de crèdit de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.946Z"
+      }
+    },
+    {
+      "id": "2026-03-24#6",
+      "sesion_id": "2026-03-24",
+      "orden": 6,
+      "titulo": "X2026001084. Aprovació inicial de la modificació de crèdit 5/2026 de",
+      "resultado": null,
+      "texto_redactado": "X2026001084. Aprovació inicial de la modificació de crèdit 5/2026 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.946Z"
+      }
+    },
+    {
+      "id": "2026-03-24#7",
+      "sesion_id": "2026-03-24",
+      "orden": 7,
+      "titulo": "X2026001071. Aprovació provisional de la modificació de les taxes per a la",
+      "resultado": null,
+      "texto_redactado": "X2026001071. Aprovació provisional de la modificació de les taxes per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.946Z"
+      }
+    },
+    {
+      "id": "2026-03-24#8",
+      "sesion_id": "2026-03-24",
+      "orden": 8,
+      "titulo": "X2026001106. Aprovació inicial de la Modificació Puntual del PGOU de",
+      "resultado": null,
+      "texto_redactado": "X2026001106. Aprovació inicial de la Modificació Puntual del PGOU de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.946Z"
+      }
+    },
+    {
+      "id": "2026-03-24#9",
+      "sesion_id": "2026-03-24",
+      "orden": 9,
+      "titulo": "X2026001123. Aprovació inicial de la Modificació Puntual del PGOU de",
+      "resultado": null,
+      "texto_redactado": "X2026001123. Aprovació inicial de la Modificació Puntual del PGOU de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.946Z"
+      }
+    },
+    {
+      "id": "2026-03-24#10",
+      "sesion_id": "2026-03-24",
+      "orden": 10,
+      "titulo": "X2026001193. Aprovació del pla de sanejament financer per la concertació",
+      "resultado": null,
+      "texto_redactado": "X2026001193. Aprovació del pla de sanejament financer per la concertació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.946Z"
+      }
+    },
+    {
+      "id": "2026-03-24#11",
+      "sesion_id": "2026-03-24",
+      "orden": 11,
+      "titulo": "X2026001180. Aprovació inicial de la modificació de crèdit 6/2026 de crèdit",
+      "resultado": null,
+      "texto_redactado": "X2026001180. Aprovació inicial de la modificació de crèdit 6/2026 de crèdit",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.946Z"
+      }
+    },
+    {
+      "id": "2026-03-24#12",
+      "sesion_id": "2026-03-24",
+      "orden": 12,
+      "titulo": "X2026001218. Moció de suport a l'Associació Espanyola contra el càncer a",
+      "resultado": null,
+      "texto_redactado": "X2026001218. Moció de suport a l'Associació Espanyola contra el càncer a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.946Z"
+      }
+    },
+    {
+      "id": "2026-03-24#13",
+      "sesion_id": "2026-03-24",
+      "orden": 13,
+      "titulo": "SERVEI UTILITZACIÓ INSTAL.LACIONS ESPORTIVES I CULTURALS - PISCINA MUNICIPAL",
+      "resultado": null,
+      "texto_redactado": "SERVEI UTILITZACIÓ INSTAL.LACIONS ESPORTIVES I CULTURALS - PISCINA MUNICIPAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.946Z"
+      }
+    },
+    {
+      "id": "2026-03-24#14",
+      "sesion_id": "2026-03-24",
+      "orden": 14,
+      "titulo": "X2025001237. Donar compte dels decrets de l’alcaldia des del 04/02/2026 fins",
+      "resultado": null,
+      "texto_redactado": "X2025001237. Donar compte dels decrets de l’alcaldia des del 04/02/2026 fins",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.946Z"
+      }
+    },
+    {
+      "id": "2026-03-24#15",
+      "sesion_id": "2026-03-24",
+      "orden": 15,
+      "titulo": "X2026001249. Donar compte al Ple de les disposicions de la Junta de Govern",
+      "resultado": null,
+      "texto_redactado": "X2026001249. Donar compte al Ple de les disposicions de la Junta de Govern",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:43:10.946Z"
+      }
+    }
+  ]
+}

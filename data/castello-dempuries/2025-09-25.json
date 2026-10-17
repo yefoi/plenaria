@@ -1,0 +1,363 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "castello-dempuries",
+    "nombre": "Castelló d'Empúries",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1704700000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2025-09-25",
+    "municipio_id": "castello-dempuries",
+    "fecha": "2025-09-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1704700000/2025/3cce1898-7429-4767-821b-099283f38417/07-25.%20ACTA%20PLE%20ORDINARI%2025-09-25%20-SIG.pdf",
+    "hash_contenido": "267e35b95ddd0b140b08b4a941bd8f5b379922c7952f312f73c8ed9b85745bb7",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:41:10.239Z"
+  },
+  "puntos": [
+    {
+      "id": "2025-09-25#1",
+      "sesion_id": "2025-09-25",
+      "orden": 1,
+      "titulo": "Aprovació si s’escau, acta de la sessió anterior, núm. 05/25, ordinària del dia 29 de",
+      "resultado": null,
+      "texto_redactado": "Aprovació si s’escau, acta de la sessió anterior, núm. 05/25, ordinària del dia 29 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:10.239Z"
+      }
+    },
+    {
+      "id": "2025-09-25#2",
+      "sesion_id": "2025-09-25",
+      "orden": 2,
+      "titulo": "Donar compte de les Resolucions d’Alcaldia des de la núm. 506 del dia 18 de juliol",
+      "resultado": null,
+      "texto_redactado": "Donar compte de les Resolucions d’Alcaldia des de la núm. 506 del dia 18 de juliol",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:10.239Z"
+      }
+    },
+    {
+      "id": "2025-09-25#3",
+      "sesion_id": "2025-09-25",
+      "orden": 3,
+      "titulo": "Donar compte dels Informes de control financer de l’exercici 2024",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels Informes de control financer de l’exercici 2024",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:10.239Z"
+      }
+    },
+    {
+      "id": "2025-09-25#4",
+      "sesion_id": "2025-09-25",
+      "orden": 4,
+      "titulo": "Donar compte de l’Informe resum anual dels resultats del control intern de l’exercici",
+      "resultado": null,
+      "texto_redactado": "Donar compte de l’Informe resum anual dels resultats del control intern de l’exercici",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:10.239Z"
+      }
+    },
+    {
+      "id": "2025-09-25#5",
+      "sesion_id": "2025-09-25",
+      "orden": 5,
+      "titulo": "Aprovació provisional si s’escau, de la modificació puntual núm. 20 del POUM, en",
+      "resultado": null,
+      "texto_redactado": "Aprovació provisional si s’escau, de la modificació puntual núm. 20 del POUM, en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:10.239Z"
+      }
+    },
+    {
+      "id": "2025-09-25#6",
+      "sesion_id": "2025-09-25",
+      "orden": 6,
+      "titulo": "Aprovació provisional si s’escau, de la modificació puntual POUM 21 sector Mas Nou",
+      "resultado": null,
+      "texto_redactado": "Aprovació provisional si s’escau, de la modificació puntual POUM 21 sector Mas Nou",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:10.239Z"
+      }
+    },
+    {
+      "id": "2025-09-25#7",
+      "sesion_id": "2025-09-25",
+      "orden": 7,
+      "titulo": "Aprovació si s’escau, modificació Pla Estratègic de Subvencions",
+      "resultado": null,
+      "texto_redactado": "Aprovació si s’escau, modificació Pla Estratègic de Subvencions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:10.239Z"
+      }
+    },
+    {
+      "id": "2025-09-25#8",
+      "sesion_id": "2025-09-25",
+      "orden": 8,
+      "titulo": "Aprovació si s’escau, Conveni de cooperació entre l’Ajuntament de Castelló",
+      "resultado": null,
+      "texto_redactado": "Aprovació si s’escau, Conveni de cooperació entre l’Ajuntament de Castelló",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:10.239Z"
+      }
+    },
+    {
+      "id": "2025-09-25#9",
+      "sesion_id": "2025-09-25",
+      "orden": 9,
+      "titulo": "Aprovació si s’escau, Conveni de col·laboració entre el Síndic de Greuges de",
+      "resultado": null,
+      "texto_redactado": "Aprovació si s’escau, Conveni de col·laboració entre el Síndic de Greuges de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:10.239Z"
+      }
+    },
+    {
+      "id": "2025-09-25#10",
+      "sesion_id": "2025-09-25",
+      "orden": 10,
+      "titulo": "Aprovació si s’escau, Compte General de l’exercici 2024",
+      "resultado": null,
+      "texto_redactado": "Aprovació si s’escau, Compte General de l’exercici 2024",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:10.239Z"
+      }
+    },
+    {
+      "id": "2025-09-25#11",
+      "sesion_id": "2025-09-25",
+      "orden": 11,
+      "titulo": "Aprovació si s’escau, Conveni entre l’Ajuntament de Castelló d’Empúries i la",
+      "resultado": null,
+      "texto_redactado": "Aprovació si s’escau, Conveni entre l’Ajuntament de Castelló d’Empúries i la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:10.239Z"
+      }
+    },
+    {
+      "id": "2025-09-25#12",
+      "sesion_id": "2025-09-25",
+      "orden": 12,
+      "titulo": "Aprovació si s’escau, conveni entre l’Ajuntament de Castelló d’Empúries i els",
+      "resultado": null,
+      "texto_redactado": "Aprovació si s’escau, conveni entre l’Ajuntament de Castelló d’Empúries i els",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:10.239Z"
+      }
+    },
+    {
+      "id": "2025-09-25#13",
+      "sesion_id": "2025-09-25",
+      "orden": 13,
+      "titulo": "Aprovació si s’escau, assumptes urgents.",
+      "resultado": null,
+      "texto_redactado": "Aprovació si s’escau, assumptes urgents.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:10.239Z"
+      }
+    },
+    {
+      "id": "2025-09-25#14",
+      "sesion_id": "2025-09-25",
+      "orden": 14,
+      "titulo": "Precs i preguntes.",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:10.239Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "cassa-de-la-selva",
+    "nombre": "Cassà de la Selva",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1704480001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-01-29",
+    "municipio_id": "cassa-de-la-selva",
+    "fecha": "2026-01-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1704480001/2026/8f85b019-4bc5-4b3f-8acb-cc81e8816f3a/acta%20ple%2029012026.pdf",
+    "hash_contenido": "0feacd0dbf95b0df3bbd4d2f8451d829d1e8dc84177fcf8b02261bfe0296c505",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:41:33.123Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-01-29#1",
+      "sesion_id": "2026-01-29",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta anterior de 18 de desembre de 2025",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta anterior de 18 de desembre de 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:33.123Z"
+      }
+    },
+    {
+      "id": "2026-01-29#2",
+      "sesion_id": "2026-01-29",
+      "orden": 2,
+      "titulo": "Donar compte dels decrets d'alcaldia del núm. 2025/3173 al 2026/0134",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels decrets d'alcaldia del núm. 2025/3173 al 2026/0134",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:33.123Z"
+      }
+    },
+    {
+      "id": "2026-01-29#3",
+      "sesion_id": "2026-01-29",
+      "orden": 3,
+      "titulo": "Aprovació definitiva de l'ordenança reguladora de civisme i convivència ciutadana",
+      "resultado": null,
+      "texto_redactado": "Aprovació definitiva de l'ordenança reguladora de civisme i convivència ciutadana",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:33.123Z"
+      }
+    },
+    {
+      "id": "2026-01-29#4",
+      "sesion_id": "2026-01-29",
+      "orden": 4,
+      "titulo": "Aprovació inicial de la modificació de l'ordenança fiscal núm. 22 reguladora de la taxa",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial de la modificació de l'ordenança fiscal núm. 22 reguladora de la taxa",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:33.123Z"
+      }
+    },
+    {
+      "id": "2026-01-29#5",
+      "sesion_id": "2026-01-29",
+      "orden": 5,
+      "titulo": "Aprovació de la declaració de concurrència de bonificació d'ICIO",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la declaració de concurrència de bonificació d'ICIO",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:33.123Z"
+      }
+    },
+    {
+      "id": "2026-01-29#6",
+      "sesion_id": "2026-01-29",
+      "orden": 6,
+      "titulo": "Moció en defensa de la pagesia i per la protecció del sector agrari davant l'acord",
+      "resultado": null,
+      "texto_redactado": "Moció en defensa de la pagesia i per la protecció del sector agrari davant l'acord",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:33.123Z"
+      }
+    },
+    {
+      "id": "2026-01-29#7",
+      "sesion_id": "2026-01-29",
+      "orden": 7,
+      "titulo": "PROPOSTES URGENTS",
+      "resultado": null,
+      "texto_redactado": "PROPOSTES URGENTS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:33.123Z"
+      }
+    },
+    {
+      "id": "2026-01-29#8",
+      "sesion_id": "2026-01-29",
+      "orden": 8,
+      "titulo": "Informes d'alcaldia i regidors",
+      "resultado": null,
+      "texto_redactado": "Informes d'alcaldia i regidors",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:33.123Z"
+      }
+    },
+    {
+      "id": "2026-01-29#9",
+      "sesion_id": "2026-01-29",
+      "orden": 9,
+      "titulo": "Precs i preguntes",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:33.123Z"
+      }
+    },
+    {
+      "id": "2026-01-29#10",
+      "sesion_id": "2026-01-29",
+      "orden": 10,
+      "titulo": "Sens perjudici de la responsabilitat civil subsidiària dels pares o mares o tutors o tutores o guardadors o",
+      "resultado": null,
+      "texto_redactado": "Sens perjudici de la responsabilitat civil subsidiària dels pares o mares o tutors o tutores o guardadors o",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:33.123Z"
+      }
+    },
+    {
+      "id": "2026-01-29#11",
+      "sesion_id": "2026-01-29",
+      "orden": 11,
+      "titulo": "Els jocs infantils estan destinats exclusivament als nens, i els elements de salut a",
+      "resultado": null,
+      "texto_redactado": "Els jocs infantils estan destinats exclusivament als nens, i els elements de salut a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:33.123Z"
+      }
+    },
+    {
+      "id": "2026-01-29#12",
+      "sesion_id": "2026-01-29",
+      "orden": 12,
+      "titulo": "La realització de foc amb qualsevol sistema o artefacte, excepte en el cas",
+      "resultado": null,
+      "texto_redactado": "La realització de foc amb qualsevol sistema o artefacte, excepte en el cas",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:33.123Z"
+      }
+    },
+    {
+      "id": "2026-01-29#13",
+      "sesion_id": "2026-01-29",
+      "orden": 13,
+      "titulo": "En cas que l’Ajuntament de Cassà de la Selva doni permís per realitzar algun tipus",
+      "resultado": null,
+      "texto_redactado": "En cas que l’Ajuntament de Cassà de la Selva doni permís per realitzar algun tipus",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:41:33.123Z"
+      }
+    }
+  ]
+}

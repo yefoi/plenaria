@@ -1,0 +1,219 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vacarisses",
+    "nombre": "Vacarisses",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "829170005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-04-30",
+    "municipio_id": "vacarisses",
+    "fecha": "2026-04-30",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/829170005/2026/775df760-1b96-463d-ac2e-0c9084769d8a/ACTA%20PLE%20300426%20anonimitzada.pdf",
+    "hash_contenido": "ee0e34ca508cbd35633b7714d38c6c0e257c6247f9c8c224e73bd27ee3e4e48a",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:44:24.774Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-04-30#1",
+      "sesion_id": "2026-04-30",
+      "orden": 1,
+      "titulo": "APROVACIÓ ACTA DE LA SESSIÓ ANTERIOR DE DATA 26 DE MARÇ DE 2026",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ ACTA DE LA SESSIÓ ANTERIOR DE DATA 26 DE MARÇ DE 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:24.774Z"
+      }
+    },
+    {
+      "id": "2026-04-30#2",
+      "sesion_id": "2026-04-30",
+      "orden": 2,
+      "titulo": "PROPOSTA ALCALDIA PER ACORDAR LES FESTES LOCALS DE VACARISSES PER",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA ALCALDIA PER ACORDAR LES FESTES LOCALS DE VACARISSES PER",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:24.774Z"
+      }
+    },
+    {
+      "id": "2026-04-30#3",
+      "sesion_id": "2026-04-30",
+      "orden": 3,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:24.774Z"
+      }
+    },
+    {
+      "id": "2026-04-30#4",
+      "sesion_id": "2026-04-30",
+      "orden": 4,
+      "titulo": "Sense perjudici que es pugui presentar i debatre en el ple de la corporació local,",
+      "resultado": null,
+      "texto_redactado": "Sense perjudici que es pugui presentar i debatre en el ple de la corporació local,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:24.774Z"
+      }
+    },
+    {
+      "id": "2026-04-30#5",
+      "sesion_id": "2026-04-30",
+      "orden": 5,
+      "titulo": "DONAR COMPTE DE LES ACTES DE LES SESSIONS ORDINÀRIES I EXTRAORDINÀRIES CELEBRADES PER LA JUNTA DE GOVERN LOCAL ELS DIES",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE LES ACTES DE LES SESSIONS ORDINÀRIES I EXTRAORDINÀRIES CELEBRADES PER LA JUNTA DE GOVERN LOCAL ELS DIES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:24.774Z"
+      }
+    },
+    {
+      "id": "2026-04-30#6",
+      "sesion_id": "2026-04-30",
+      "orden": 6,
+      "titulo": "DONAR COMPTE DELS DECRETS DICTATS DES DE LA CELEBRACIÓ DE LA",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DELS DECRETS DICTATS DES DE LA CELEBRACIÓ DE LA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:24.774Z"
+      }
+    },
+    {
+      "id": "2026-04-30#7",
+      "sesion_id": "2026-04-30",
+      "orden": 7,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:24.774Z"
+      }
+    },
+    {
+      "id": "2026-04-30#8",
+      "sesion_id": "2026-04-30",
+      "orden": 8,
+      "titulo": "DONAR COMPTE INFORME TRIMESTRAL DE TRESORERIA TRAMÈS AL MINISTERI HISENDA I A LA DIRECCIÓ GENERAL DE POLÍTICA FINANCERA DE LA GENERALITAT DE CATALUNYA, EN COMPLIMENT DE LA LLEI 15/2010, RELATIU AL PRIMER TRIMESTRE DEL 2026 INFORME DE TRESORERIA I INTERVENCIÓ",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE INFORME TRIMESTRAL DE TRESORERIA TRAMÈS AL MINISTERI HISENDA I A LA DIRECCIÓ GENERAL DE POLÍTICA FINANCERA DE LA GENERALITAT DE CATALUNYA, EN COMPLIMENT DE LA LLEI 15/2010, RELATIU AL PRIMER TRIMESTRE DEL 2026 INFORME DE TRESORERIA I INTERVENCIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:24.774Z"
+      }
+    }
+  ]
+}

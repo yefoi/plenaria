@@ -1,0 +1,604 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "cabrils",
+    "nombre": "Cabrils",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "803050006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2025-11-27",
+    "municipio_id": "cabrils",
+    "fecha": "2025-11-27",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/803050006/2025/8a323c33-8e29-4563-b7c1-fecb1cd431a3/ACTA%20DEL%20PLE%202025-0007%20[07.-%20ACTA%20PLE%20ORDINARI%2027.11.2025].pdf",
+    "hash_contenido": "9decf259ef5536562869e5f2f51cd0afe1ce4030f78ab4188b38dbe6eff60152",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:44:07.105Z"
+  },
+  "puntos": [
+    {
+      "id": "2025-11-27#1",
+      "sesion_id": "2025-11-27",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió anterior",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#2",
+      "sesion_id": "2025-11-27",
+      "orden": 2,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#3",
+      "sesion_id": "2025-11-27",
+      "orden": 3,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#4",
+      "sesion_id": "2025-11-27",
+      "orden": 4,
+      "titulo": "Dictamen d'aprovació de la modificació de l’instrument d’ordenació dels llocs de treball de",
+      "resultado": null,
+      "texto_redactado": "Dictamen d'aprovació de la modificació de l’instrument d’ordenació dels llocs de treball de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#5",
+      "sesion_id": "2025-11-27",
+      "orden": 5,
+      "titulo": "Dictamen d'aprovació de la fitxa Tècnic/a mitjà/na de festes dins de l'organigrama (exp.",
+      "resultado": null,
+      "texto_redactado": "Dictamen d'aprovació de la fitxa Tècnic/a mitjà/na de festes dins de l'organigrama (exp.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#6",
+      "sesion_id": "2025-11-27",
+      "orden": 6,
+      "titulo": "Dictamen d'aprovació inicial del Pressupost General de la Corporació per l’any 2026 i Bases",
+      "resultado": null,
+      "texto_redactado": "Dictamen d'aprovació inicial del Pressupost General de la Corporació per l’any 2026 i Bases",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#7",
+      "sesion_id": "2025-11-27",
+      "orden": 7,
+      "titulo": "Dictamen d'aprovació inicial de modificació de pressupost número 42 (exp. 3095/2025)",
+      "resultado": null,
+      "texto_redactado": "Dictamen d'aprovació inicial de modificació de pressupost número 42 (exp. 3095/2025)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#8",
+      "sesion_id": "2025-11-27",
+      "orden": 8,
+      "titulo": "Dictamen d'aprovació inicial de l’expedient de modificació de pressupost número 44/2025",
+      "resultado": null,
+      "texto_redactado": "Dictamen d'aprovació inicial de l’expedient de modificació de pressupost número 44/2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#9",
+      "sesion_id": "2025-11-27",
+      "orden": 9,
+      "titulo": "Ratificació de la inclusió a l'ordre del dia i posterior aprovació, si s'escau, de la proposta",
+      "resultado": null,
+      "texto_redactado": "Ratificació de la inclusió a l'ordre del dia i posterior aprovació, si s'escau, de la proposta",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#10",
+      "sesion_id": "2025-11-27",
+      "orden": 10,
+      "titulo": "Dictamen d'aprovació de la 2a pròrroga del conveni de col·laboració amb el Consell",
+      "resultado": null,
+      "texto_redactado": "Dictamen d'aprovació de la 2a pròrroga del conveni de col·laboració amb el Consell",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#11",
+      "sesion_id": "2025-11-27",
+      "orden": 11,
+      "titulo": "Dictamen d'aprovació inicial del el text refós del Reglament per a l’obtenció del Carnet de la",
+      "resultado": null,
+      "texto_redactado": "Dictamen d'aprovació inicial del el text refós del Reglament per a l’obtenció del Carnet de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#12",
+      "sesion_id": "2025-11-27",
+      "orden": 12,
+      "titulo": "Dictamen de l'aprovació provisional de la Modificació puntual del POUM de l’àmbit PAU-2",
+      "resultado": null,
+      "texto_redactado": "Dictamen de l'aprovació provisional de la Modificació puntual del POUM de l’àmbit PAU-2",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#13",
+      "sesion_id": "2025-11-27",
+      "orden": 13,
+      "titulo": "Dictamen d'aprovació provisional del Pla Especial de Protecció de la ÒTorre LarramendiÓ de",
+      "resultado": null,
+      "texto_redactado": "Dictamen d'aprovació provisional del Pla Especial de Protecció de la ÒTorre LarramendiÓ de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#14",
+      "sesion_id": "2025-11-27",
+      "orden": 14,
+      "titulo": "Dictamen d'aprovació definitiva del plànol de delimitació de les urbanitzacions, els nuclis de",
+      "resultado": null,
+      "texto_redactado": "Dictamen d'aprovació definitiva del plànol de delimitació de les urbanitzacions, els nuclis de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.95,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#15",
+      "sesion_id": "2025-11-27",
+      "orden": 15,
+      "titulo": "Dictamen d'aprovació provisional del Text Refós del Pla Especial de Protecció masia «Cal",
+      "resultado": null,
+      "texto_redactado": "Dictamen d'aprovació provisional del Text Refós del Pla Especial de Protecció masia «Cal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#16",
+      "sesion_id": "2025-11-27",
+      "orden": 16,
+      "titulo": "Donar Compte del decret d'Alcaldia 745/2025 de 26/09/25 relatiu a la delegació de les",
+      "resultado": null,
+      "texto_redactado": "Donar Compte del decret d'Alcaldia 745/2025 de 26/09/25 relatiu a la delegació de les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#17",
+      "sesion_id": "2025-11-27",
+      "orden": 17,
+      "titulo": "Donar Compte del Decret d'Alcaldia 831/2025 relaiu a la intervenció municipal de la",
+      "resultado": null,
+      "texto_redactado": "Donar Compte del Decret d'Alcaldia 831/2025 relaiu a la intervenció municipal de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#18",
+      "sesion_id": "2025-11-27",
+      "orden": 18,
+      "titulo": "Donar Compte de l’informe de la Tresoreria Municipal sobre el compliment de la Llei de",
+      "resultado": null,
+      "texto_redactado": "Donar Compte de l’informe de la Tresoreria Municipal sobre el compliment de la Llei de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#19",
+      "sesion_id": "2025-11-27",
+      "orden": 19,
+      "titulo": "Dictamen de la moció presentada pel grup del PSC per a la regulació i retirada del cablejat",
+      "resultado": null,
+      "texto_redactado": "Dictamen de la moció presentada pel grup del PSC per a la regulació i retirada del cablejat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#20",
+      "sesion_id": "2025-11-27",
+      "orden": 20,
+      "titulo": "Donar Compte de les resolucions dictades per l'alcaldia i dels acords adoptats per la Junta",
+      "resultado": null,
+      "texto_redactado": "Donar Compte de les resolucions dictades per l'alcaldia i dels acords adoptats per la Junta",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#21",
+      "sesion_id": "2025-11-27",
+      "orden": 21,
+      "titulo": "En data 8 de juliol de 2025, mitjançant registre d’entrada municipal 2025-E-RC-2305, la",
+      "resultado": null,
+      "texto_redactado": "En data 8 de juliol de 2025, mitjançant registre d’entrada municipal 2025-E-RC-2305, la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#22",
+      "sesion_id": "2025-11-27",
+      "orden": 22,
+      "titulo": "En data 8 de juliol de 2025, el Departament de Cultura notifica l’informe núm. d’expedient",
+      "resultado": null,
+      "texto_redactado": "En data 8 de juliol de 2025, el Departament de Cultura notifica l’informe núm. d’expedient",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#23",
+      "sesion_id": "2025-11-27",
+      "orden": 23,
+      "titulo": "Consta a l’expedient informe tècnic emès per l’arquitecta municipal, en data 15 d’octubre",
+      "resultado": null,
+      "texto_redactado": "Consta a l’expedient informe tècnic emès per l’arquitecta municipal, en data 15 d’octubre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    },
+    {
+      "id": "2025-11-27#24",
+      "sesion_id": "2025-11-27",
+      "orden": 24,
+      "titulo": "Consta a l’expedient informe jurídic, emès per la assessora jurídica en matèria d’urbanisme,",
+      "resultado": null,
+      "texto_redactado": "Consta a l’expedient informe jurídic, emès per la assessora jurídica en matèria d’urbanisme,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:44:07.105Z"
+      }
+    }
+  ]
+}

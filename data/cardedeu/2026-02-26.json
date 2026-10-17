@@ -1,0 +1,487 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "cardedeu",
+    "nombre": "Cardedeu",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "804620002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-02-26",
+    "municipio_id": "cardedeu",
+    "fecha": "2026-02-26",
+    "tipo": "extraordinaria_urgente",
+    "fuente_url": "https://media.seu-e.cat/acteca/804620002/2026/a3c3ef17-0978-4561-83a5-3dcbdceea780/03-%20Acta%20n%BA%203%20-%20Ple%2026-02-2026%20extraordinaria%20i%20urgent.pdf",
+    "hash_contenido": "0a1ab2456e42165086838c38d40ae9f7d8032e2f1cadbd05de8078a5666fe176",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-17T10:37:19.522Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-02-26#1",
+      "sesion_id": "2026-02-26",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L’ACTA DE LA SESSIÓ Nº1/2026 DEL PLE, CORRESPONENT A LA SESSIÓ DEL DIA 29/01/2026.-",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’ACTA DE LA SESSIÓ Nº1/2026 DEL PLE, CORRESPONENT A LA SESSIÓ DEL DIA 29/01/2026.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:19.522Z"
+      }
+    },
+    {
+      "id": "2026-02-26#2",
+      "sesion_id": "2026-02-26",
+      "orden": 2,
+      "titulo": "PRP2026/57 EXP. 2026/976- APROVACIÓ DEL PLA NORMATIU MUNICIPAL DE CARDEDEU PER A L'EXERCICI 2026.-",
+      "resultado": null,
+      "texto_redactado": "PRP2026/57 EXP. 2026/976- APROVACIÓ DEL PLA NORMATIU MUNICIPAL DE CARDEDEU PER A L'EXERCICI 2026.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:19.522Z"
+      }
+    },
+    {
+      "id": "2026-02-26#3",
+      "sesion_id": "2026-02-26",
+      "orden": 3,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:19.522Z"
+      }
+    },
+    {
+      "id": "2026-02-26#4",
+      "sesion_id": "2026-02-26",
+      "orden": 4,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:19.522Z"
+      }
+    },
+    {
+      "id": "2026-02-26#5",
+      "sesion_id": "2026-02-26",
+      "orden": 5,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:19.522Z"
+      }
+    },
+    {
+      "id": "2026-02-26#6",
+      "sesion_id": "2026-02-26",
+      "orden": 6,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:19.522Z"
+      }
+    },
+    {
+      "id": "2026-02-26#7",
+      "sesion_id": "2026-02-26",
+      "orden": 7,
+      "titulo": "PRP2026/24 EXP.2024/364 - MODIFICACIÓ CONVENI PER A LA PRESTACIÓ D’ASSISTÈNCIA TÈCNICA EN MATÈRIA D’ENGINYERIA AMB EL CONSELL COMARCAL DEL VALLÈS ORIENTAL.-",
+      "resultado": null,
+      "texto_redactado": "PRP2026/24 EXP.2024/364 - MODIFICACIÓ CONVENI PER A LA PRESTACIÓ D’ASSISTÈNCIA TÈCNICA EN MATÈRIA D’ENGINYERIA AMB EL CONSELL COMARCAL DEL VALLÈS ORIENTAL.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:19.522Z"
+      }
+    },
+    {
+      "id": "2026-02-26#8",
+      "sesion_id": "2026-02-26",
+      "orden": 8,
+      "titulo": "PRP2026/14 EXP.2024/364 - APROVACIÓ DE LA SEGONA PRÒRROGA DEL CONVENI PER A LA PRESTACIÓ D’ASSISTÈNCIA TÈCNICA EN MATERIA D'ENGINYERIA PER PART DEL CONSELL COMARCAL DEL VALLÈS ORIENTAL A L’AJUNTAMENT DE CARDEDEU.-",
+      "resultado": null,
+      "texto_redactado": "PRP2026/14 EXP.2024/364 - APROVACIÓ DE LA SEGONA PRÒRROGA DEL CONVENI PER A LA PRESTACIÓ D’ASSISTÈNCIA TÈCNICA EN MATERIA D'ENGINYERIA PER PART DEL CONSELL COMARCAL DEL VALLÈS ORIENTAL A L’AJUNTAMENT DE CARDEDEU.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:19.522Z"
+      }
+    },
+    {
+      "id": "2026-02-26#9",
+      "sesion_id": "2026-02-26",
+      "orden": 9,
+      "titulo": "PRP2026/48 EXP.2026/451 - APROVACIÓ DE L’ENCÀRREC DE GESTIÓ I DEL CONVENI PER A LA PRESTACIÓ D’ASSISTÈNCIA TÈCNICA PER PART DEL CONSELL COMARCAL DEL VALLÈS ORIENTAL A L’AJUNTAMENT DE CARDEDEU EN MATÈRIA DE GESTIÓ ENERGÈTICA I D’AIGUA.-",
+      "resultado": null,
+      "texto_redactado": "PRP2026/48 EXP.2026/451 - APROVACIÓ DE L’ENCÀRREC DE GESTIÓ I DEL CONVENI PER A LA PRESTACIÓ D’ASSISTÈNCIA TÈCNICA PER PART DEL CONSELL COMARCAL DEL VALLÈS ORIENTAL A L’AJUNTAMENT DE CARDEDEU EN MATÈRIA DE GESTIÓ ENERGÈTICA I D’AIGUA.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "medio_ambiente",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:19.522Z"
+      }
+    },
+    {
+      "id": "2026-02-26#10",
+      "sesion_id": "2026-02-26",
+      "orden": 10,
+      "titulo": "PRP2026/67 EXP.2025/6294 - RESOLUCIÓ D’AL·LEGACIONS PRESENTADES I APROVACIÓ DEFINITIVA DE L’EXPEDIENT D’ESTABLIMENT",
+      "resultado": null,
+      "texto_redactado": "PRP2026/67 EXP.2025/6294 - RESOLUCIÓ D’AL·LEGACIONS PRESENTADES I APROVACIÓ DEFINITIVA DE L’EXPEDIENT D’ESTABLIMENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:19.522Z"
+      }
+    },
+    {
+      "id": "2026-02-26#11",
+      "sesion_id": "2026-02-26",
+      "orden": 11,
+      "titulo": "PRP2026/63 EXP. 2024/1428 - APROVACIÓ DE LA SOL·LICITUD DE PRÒRROGA DEL CONVENI INTERADMINISTRATIU PER A LA PRESTACIÓ DEL SERVEI DE CENTRE DE DIA PER A GENT GRAN ÒLES TEIXIDORESÓ, AMB DATA D’EFECTE 1 DE GENER DE 2027.-",
+      "resultado": null,
+      "texto_redactado": "PRP2026/63 EXP. 2024/1428 - APROVACIÓ DE LA SOL·LICITUD DE PRÒRROGA DEL CONVENI INTERADMINISTRATIU PER A LA PRESTACIÓ DEL SERVEI DE CENTRE DE DIA PER A GENT GRAN ÒLES TEIXIDORESÓ, AMB DATA D’EFECTE 1 DE GENER DE 2027.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:19.522Z"
+      }
+    },
+    {
+      "id": "2026-02-26#12",
+      "sesion_id": "2026-02-26",
+      "orden": 12,
+      "titulo": "PRP2026/59 EXP.2022/2065 - RESOLUCIÓ DE RECURS DE REPOSICIÓ I DESESTIMACIÓ DE LES AL.LEGACIONS PRESENTADES PER L'ASSOCIACIÓ CEPS, CONTRA L'ACORD DE PLE DE 25 DE SETEMBRE [MATRÍCULA] PRÒRROGA DEL CONTRACTE DE SERVEI DE LES ESCOLES BRESSOL MUNICIPALS \"ELS DAUS\" I \"CAN SERRA\".-",
+      "resultado": null,
+      "texto_redactado": "PRP2026/59 EXP.2022/2065 - RESOLUCIÓ DE RECURS DE REPOSICIÓ I DESESTIMACIÓ DE LES AL.LEGACIONS PRESENTADES PER L'ASSOCIACIÓ CEPS, CONTRA L'ACORD DE PLE DE 25 DE SETEMBRE [MATRÍCULA] PRÒRROGA DEL CONTRACTE DE SERVEI DE LES ESCOLES BRESSOL MUNICIPALS \"ELS DAUS\" I \"CAN SERRA\".-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:19.522Z"
+      }
+    },
+    {
+      "id": "2026-02-26#13",
+      "sesion_id": "2026-02-26",
+      "orden": 13,
+      "titulo": "PRP2026/66 EXP. 2026/1209 - INICI DE L’EXPEDIENT PER L’ESTABLIMENT DEL SERVEI D’ESCOLES BRESSOL MUNICIPALS, AMB LA INCORPORACIÓ D’UNA TERCERA ESCOLA BRESSOL DE TITULARITAT",
+      "resultado": null,
+      "texto_redactado": "PRP2026/66 EXP. 2026/1209 - INICI DE L’EXPEDIENT PER L’ESTABLIMENT DEL SERVEI D’ESCOLES BRESSOL MUNICIPALS, AMB LA INCORPORACIÓ D’UNA TERCERA ESCOLA BRESSOL DE TITULARITAT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:19.522Z"
+      }
+    },
+    {
+      "id": "2026-02-26#14",
+      "sesion_id": "2026-02-26",
+      "orden": 14,
+      "titulo": "PRP2026/76 EXP.2026/1277 - MOCIÓ AMB MOTIU DEL DIA INTERNACIONAL DE LES DONES TREBALLADORES, QUE PRESENTEN CONJUNTAMENT ELS GRUPS MUNICIPALS DE LA CUP I D'ERC. III.-PART DE CONTROL",
+      "resultado": null,
+      "texto_redactado": "PRP2026/76 EXP.2026/1277 - MOCIÓ AMB MOTIU DEL DIA INTERNACIONAL DE LES DONES TREBALLADORES, QUE PRESENTEN CONJUNTAMENT ELS GRUPS MUNICIPALS DE LA CUP I D'ERC. III.-PART DE CONTROL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:19.522Z"
+      }
+    },
+    {
+      "id": "2026-02-26#15",
+      "sesion_id": "2026-02-26",
+      "orden": 15,
+      "titulo": "PRP2026/50 EXP.2026/923 - DONAR COMPTE AL PLE DEL DECRET D'ALCALDIA Nº 2026/187, D'APROVACIÓ DE LES INSTRUCCIONS SOBRE LES BONES PRÀCTIQUES PER A LA GESTIÓ DE LES CONTRACTACIONS I ENCÀRRECS A MITJANS PROPIS QUE DUGUI A TERME L'AJUNTAMENT DE",
+      "resultado": null,
+      "texto_redactado": "PRP2026/50 EXP.2026/923 - DONAR COMPTE AL PLE DEL DECRET D'ALCALDIA Nº 2026/187, D'APROVACIÓ DE LES INSTRUCCIONS SOBRE LES BONES PRÀCTIQUES PER A LA GESTIÓ DE LES CONTRACTACIONS I ENCÀRRECS A MITJANS PROPIS QUE DUGUI A TERME L'AJUNTAMENT DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:19.522Z"
+      }
+    },
+    {
+      "id": "2026-02-26#16",
+      "sesion_id": "2026-02-26",
+      "orden": 16,
+      "titulo": "PRP2026/71 EXP.2026/345 - DONAR COMPTE DE LES ACTES DE LA JUNTA DE GOVERN LOCAL NºS 3 A 6/2026.",
+      "resultado": null,
+      "texto_redactado": "PRP2026/71 EXP.2026/345 - DONAR COMPTE DE LES ACTES DE LA JUNTA DE GOVERN LOCAL NºS 3 A 6/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:19.522Z"
+      }
+    },
+    {
+      "id": "2026-02-26#17",
+      "sesion_id": "2026-02-26",
+      "orden": 17,
+      "titulo": "PRP2026/74 EXP.2026/256 DONAR COMPTE DELS DECRETS",
+      "resultado": null,
+      "texto_redactado": "PRP2026/74 EXP.2026/256 DONAR COMPTE DELS DECRETS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:19.522Z"
+      }
+    },
+    {
+      "id": "2026-02-26#18",
+      "sesion_id": "2026-02-26",
+      "orden": 18,
+      "titulo": "PRECS I PREGUNTES.",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:19.522Z"
+      }
+    },
+    {
+      "id": "2026-02-26#19",
+      "sesion_id": "2026-02-26",
+      "orden": 19,
+      "titulo": "PRECS I PREGUNTES",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-17T10:37:19.522Z"
+      }
+    }
+  ]
+}

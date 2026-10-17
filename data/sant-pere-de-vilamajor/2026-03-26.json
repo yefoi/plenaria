@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-pere-de-vilamajor",
+    "nombre": "Sant Pere de Vilamajor",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "823460009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-03-26",
+    "municipio_id": "sant-pere-de-vilamajor",
+    "fecha": "2026-03-26",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/823460009/2026/b36d6116-f6ce-41ff-90be-62f49e1ba63b/ACTA%20DEL%20PLE%202026-0002%20[ACTA%20PLE%2026%20de%20mar%e7%20de%202026].pdf",
+    "hash_contenido": "e7e61d4bb341db7fe07b5a7fcae292ad70682031753f8619148a2a4997625af7",
+    "estado_ingesta": "redactada",
+    "actualizada_en": "2026-10-17T10:34:24.638Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-03-26#1",
+      "sesion_id": "2026-03-26",
+      "orden": 1,
+      "titulo": "Per altra part, de manera lleugerament paral·lela al camí públic descrit anteriorment (Camí A) i",
+      "resultado": null,
+      "texto_redactado": "Per altra part, de manera lleugerament paral·lela al camí públic descrit anteriorment (Camí A) i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-03-26#2",
+      "sesion_id": "2026-03-26",
+      "orden": 2,
+      "titulo": "L’esmentat camí privat està format per les següents parcel·les cadastrals:",
+      "resultado": null,
+      "texto_redactado": "L’esmentat camí privat està format per les següents parcel·les cadastrals:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-03-26#3",
+      "sesion_id": "2026-03-26",
+      "orden": 3,
+      "titulo": "Segons el registre de la propietat, les porcions de les parcel·les cadastrals del Cami B",
+      "resultado": null,
+      "texto_redactado": "Segons el registre de la propietat, les porcions de les parcel·les cadastrals del Cami B",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-03-26#4",
+      "sesion_id": "2026-03-26",
+      "orden": 4,
+      "titulo": "Igualment segons el registre de la propietat, la porció de la parcel·la cadastral del Cami B",
+      "resultado": null,
+      "texto_redactado": "Igualment segons el registre de la propietat, la porció de la parcel·la cadastral del Cami B",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}
