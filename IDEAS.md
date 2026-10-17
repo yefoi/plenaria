@@ -9,6 +9,29 @@ Ideas fuera del alcance actual. No implementar sin acordarlo antes.
 - Traducción de títulos catalán→castellano en la interfaz, manteniendo el
   original como fuente (requiere proveedor de traducción).
 
+## Cruce con datos de gestión
+
+Idea surgida al comparar con `ayuntamientostransparentes.es`, que cubre 8.132
+municipios con datos económicos agregados pero no entra en el contenido de los
+plenos. Nuestro hueco es el contrario: llevar el dato oficial de ejecución al
+**punto del pleno que lo decide**, no al municipio en general.
+
+- **CONPREL** (liquidaciones de presupuestos, Ministerio de Hacienda): cuando un
+  punto aprueba una modificación de crédito, la cuenta general o una ordenanza
+  fiscal, enlazar con la ejecución real (gasto por capítulos, inversiones,
+  remanente de tesorería, periodo medio de pago).
+- **Contratos**: para puntos de obra, servicio o suministro, buscar el contrato
+  adjudicado en la Plataforma de Contratación del Sector Público y, en
+  Cataluña, en el Registre públic de contractes de la Generalitat (que incluye
+  los menores), y mostrar importe, procedimiento y si hubo una sola oferta.
+- **Subvenciones**: Base de Datos Nacional de Subvenciones, siempre sin nombres
+  de beneficiarios.
+- **Deuda viva** y **periodo medio de pago a proveedores** como contexto del
+  municipio en la ficha, con la fecha del dato a la vista.
+- Requisito de diseño: la asociación punto↔dato debe ser por identificador
+  (número de expediente, contrato, ejercicio), nunca por heurística de texto.
+  Si no hay coincidencia verificable, no se muestra nada.
+
 ## Fuentes
 
 - Área metropolitana de Madrid, siguientes candidatos verificados a medias:
@@ -43,6 +66,11 @@ Ideas fuera del alcance actual. No implementar sin acordarlo antes.
 - Suscripción por palabras clave.
 - Mostrar en el mapa los municipios «en cartera» sin datos todavía, con estado
   diferenciado.
+- Sección «Qué no está disponible» en `/fuentes`: lista explícita de lo que no
+  se puede mostrar y por qué (reparos del interventor sin contenido publicado,
+  mociones de censura sin registro oficial, plantilla por municipio, causas
+  judiciales sin desglose municipal). Refuerza la honestidad sobre los límites
+  sin necesidad de código nuevo.
 
 ## Clasificación
 
@@ -56,7 +84,7 @@ Ideas fuera del alcance actual. No implementar sin acordarlo antes.
 
 ## Infraestructura
 
-- Con 61 municipios el JSON versionado sigue yendo bien; reconsiderar una base
+- Con 81 municipios el JSON versionado sigue yendo bien; reconsiderar una base
   de datos si la cobertura crece mucho más (la interfaz `Repository` ya lo
   aísla).
 - Ingesta incremental del CSV por ETag a nivel de fila (hoy se filtra en
