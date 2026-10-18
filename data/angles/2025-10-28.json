@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/1700840003/2025/93d4bed4-3da2-4696-8829-988131d9d179/PLE2025000010.pdf",
     "hash_contenido": "dd6a1f0700ed159ccded2faf0ba8096974a8ff8292d6d5d5ea24a595b2241711",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-10-17T10:32:52.955Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-18T10:18:49.705Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "Vist l’informe d’intervenció emès en el marc de l’expedient de l’aprovació de la",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.97,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:49.705Z"
+      }
     },
     {
       "id": "2025-10-28#2",
@@ -49,13 +56,20 @@
       "texto_redactado": "Vist l’informe d’intervenció de 08 d’octubre de 2025 sobre l’import pendent",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.93,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:49.705Z"
+      }
     },
     {
       "id": "2025-10-28#3",
@@ -66,13 +80,20 @@
       "texto_redactado": "Vist el decret d’alcaldia número 2025DECR001346 de 9 d’octubre de 2025,",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
       "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:49.705Z"
+      }
     },
     {
       "id": "2025-10-28#4",
@@ -83,13 +104,20 @@
       "texto_redactado": "Atès que existeix romanent de tresoreria per despeses generals disponible.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.94,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:49.705Z"
+      }
     },
     {
       "id": "2025-10-28#5",
@@ -100,13 +128,20 @@
       "texto_redactado": "Vistos els informes emesos per part de la Intervenció.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 1,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:49.705Z"
+      }
     },
     {
       "id": "2025-10-28#6",
@@ -117,13 +152,20 @@
       "texto_redactado": "Vist l’informe jurídic emès per la tècnica de gestió i amb nota de conformitat de la",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.99,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:49.705Z"
+      }
     },
     {
       "id": "2025-10-28#7",
@@ -134,13 +176,20 @@
       "texto_redactado": "Vist que la proposta ha estat fiscalitzada per la intervenció municipal.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 1,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:49.705Z"
+      }
     },
     {
       "id": "2025-10-28#8",
@@ -151,13 +200,20 @@
       "texto_redactado": "Vist que la present proposta ha estat dictaminada per la Comissió Informativa del",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.99,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:49.705Z"
+      }
     },
     {
       "id": "2025-10-28#9",
@@ -168,13 +224,20 @@
       "texto_redactado": "Els vehicles tot terreny i autocaravanes es consideraran com a turismes.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.71,
+      "impacto": 3,
+      "confianza_min": 0.07,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:49.705Z"
+      }
     },
     {
       "id": "2025-10-28#10",
@@ -185,13 +248,20 @@
       "texto_redactado": "En els casos de primera adquisició o baixa definitiva del vehicle la quota que correspongui",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.77,
+      "impacto": 2,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:49.705Z"
+      }
     },
     {
       "id": "2025-10-28#11",
@@ -202,13 +272,20 @@
       "texto_redactado": "Sobre la quota que correspongui, segons el quadre de tarifes anterior, s’aplicaran les",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.6,
+      "impacto": 2,
+      "confianza_min": 0.34,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:49.705Z"
+      }
     }
   ]
 }

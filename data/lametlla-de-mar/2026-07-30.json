@@ -1,0 +1,339 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "lametlla-de-mar",
+    "nombre": "L'Ametlla de Mar",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4301360009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-30",
+    "municipio_id": "lametlla-de-mar",
+    "fecha": "2026-07-30",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4301360009/2026/fdc5b6d5-f2a2-4486-ab35-c67e7c85e99d/Acta%20Ple%208_2026%20de%2030_07_2026.pdf",
+    "hash_contenido": "17742e10c95ce9d12332159d013436355d2185a1a8ebe002fed18aeef8ac2dd5",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-18T10:18:12.341Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-30#1",
+      "sesion_id": "2026-07-30",
+      "orden": 1,
+      "titulo": "Aprovació de les actes de la sessió núm.6/2026 de data 21/05/2026 ordinària i",
+      "resultado": null,
+      "texto_redactado": "Aprovació de les actes de la sessió núm.6/2026 de data 21/05/2026 ordinària i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:12.341Z"
+      }
+    },
+    {
+      "id": "2026-07-30#2",
+      "sesion_id": "2026-07-30",
+      "orden": 2,
+      "titulo": "Expedient 2944/2026. Estudi i determinació, si s’escau, de les dues festes",
+      "resultado": null,
+      "texto_redactado": "Expedient 2944/2026. Estudi i determinació, si s’escau, de les dues festes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.3,
+      "impacto": 2,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:12.341Z"
+      }
+    },
+    {
+      "id": "2026-07-30#3",
+      "sesion_id": "2026-07-30",
+      "orden": 3,
+      "titulo": "Expedient 3591/2026. Estudi i determinació, si s’escau, de la derogació parcial",
+      "resultado": null,
+      "texto_redactado": "Expedient 3591/2026. Estudi i determinació, si s’escau, de la derogació parcial",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:12.341Z"
+      }
+    },
+    {
+      "id": "2026-07-30#4",
+      "sesion_id": "2026-07-30",
+      "orden": 4,
+      "titulo": "Expedient 3409/2026. Estudi i aprovació, si s’escau de la creació de la",
+      "resultado": null,
+      "texto_redactado": "Expedient 3409/2026. Estudi i aprovació, si s’escau de la creació de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:12.341Z"
+      }
+    },
+    {
+      "id": "2026-07-30#5",
+      "sesion_id": "2026-07-30",
+      "orden": 5,
+      "titulo": "Expedient 675/2024. Estudi i resolució, si s’escau, de l’al·legació interposada",
+      "resultado": null,
+      "texto_redactado": "Expedient 675/2024. Estudi i resolució, si s’escau, de l’al·legació interposada",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:12.341Z"
+      }
+    },
+    {
+      "id": "2026-07-30#6",
+      "sesion_id": "2026-07-30",
+      "orden": 6,
+      "titulo": "Resposta a la petició subsidiària d’establir una excepció o prohibició general per",
+      "resultado": null,
+      "texto_redactado": "Resposta a la petició subsidiària d’establir una excepció o prohibició general per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 2,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:12.341Z"
+      }
+    },
+    {
+      "id": "2026-07-30#7",
+      "sesion_id": "2026-07-30",
+      "orden": 7,
+      "titulo": "Consideració sobre els fets relatius a eventuals ocupacions prèvies sense",
+      "resultado": null,
+      "texto_redactado": "Consideració sobre els fets relatius a eventuals ocupacions prèvies sense",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 1,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:12.341Z"
+      }
+    },
+    {
+      "id": "2026-07-30#8",
+      "sesion_id": "2026-07-30",
+      "orden": 8,
+      "titulo": "Conclusions",
+      "resultado": null,
+      "texto_redactado": "Conclusions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:12.341Z"
+      }
+    },
+    {
+      "id": "2026-07-30#9",
+      "sesion_id": "2026-07-30",
+      "orden": 9,
+      "titulo": "Expedient 2198/2026. Donar compte del Pla de Tresoreria exercici 2026.",
+      "resultado": null,
+      "texto_redactado": "Expedient 2198/2026. Donar compte del Pla de Tresoreria exercici 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:12.341Z"
+      }
+    },
+    {
+      "id": "2026-07-30#10",
+      "sesion_id": "2026-07-30",
+      "orden": 10,
+      "titulo": "Expedient 2241/2026. Donar compte del Decret de l’Alcaldia núm.1064/2026",
+      "resultado": null,
+      "texto_redactado": "Expedient 2241/2026. Donar compte del Decret de l’Alcaldia núm.1064/2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:12.341Z"
+      }
+    },
+    {
+      "id": "2026-07-30#11",
+      "sesion_id": "2026-07-30",
+      "orden": 11,
+      "titulo": "Informacions d’AlcaldiaCodi Validació: 5CA6YCNNQQATAKANCYKWRD93H",
+      "resultado": null,
+      "texto_redactado": "Informacions d’AlcaldiaCodi Validació: 5CA6YCNNQQATAKANCYKWRD93H",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:12.341Z"
+      }
+    },
+    {
+      "id": "2026-07-30#12",
+      "sesion_id": "2026-07-30",
+      "orden": 12,
+      "titulo": "Precs i preguntes",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:12.341Z"
+      }
+    },
+    {
+      "id": "2026-07-30#13",
+      "sesion_id": "2026-07-30",
+      "orden": 13,
+      "titulo": "Un altre prec per acabar referent al pàrquing mateix que estàvem parlant ara. Una",
+      "resultado": null,
+      "texto_redactado": "Un altre prec per acabar referent al pàrquing mateix que estàvem parlant ara. Una",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.7,
+      "impacto": 2,
+      "confianza_min": 0.2,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:12.341Z"
+      }
+    }
+  ]
+}

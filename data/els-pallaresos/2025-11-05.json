@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/4310090004/2025/b44ce1e4-f872-4194-a9c9-125c84779a3b/8%20ACTA%20DEL%20PLE%2025%20Set%202025%20ordinari.pdf",
     "hash_contenido": "6fe8e8ff0198e5a6e7726721017ed74953afdae528115b12d2beb361b3982a96",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-10-17T10:34:32.665Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-18T10:20:11.031Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "Aprovació de les actes anteriors.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.7,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:20:11.031Z"
+      }
     },
     {
       "id": "2025-11-05#2",
@@ -49,13 +56,20 @@
       "texto_redactado": "Expedient 903/2025. Proposta d'acord per l'aprovació, si s'escau, d'aprovació inicial del",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.78,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:20:11.031Z"
+      }
     },
     {
       "id": "2025-11-05#3",
@@ -66,13 +80,20 @@
       "texto_redactado": "Expedient 1097/2025. Proposta d'acord per l'aprovació, si s'escau, de l'acord regulador",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:20:11.031Z"
+      }
     },
     {
       "id": "2025-11-05#4",
@@ -83,13 +104,20 @@
       "texto_redactado": "Expedient 1033/2025. Proposta d'acord per l'aprovació, si s'escau, del reconeixement de",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.74,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:20:11.031Z"
+      }
     },
     {
       "id": "2025-11-05#5",
@@ -100,13 +128,20 @@
       "texto_redactado": "Expedient 1112/2025. Proposta d'acord per l'aprovació, si s'escau, de taxació dels béns i",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.6,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:20:11.031Z"
+      }
     },
     {
       "id": "2025-11-05#6",
@@ -117,13 +152,20 @@
       "texto_redactado": "Expedient 1035/2025. Proposta d'acord per l'aprovació, si s'escau, del protocol municipal",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.78,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:20:11.031Z"
+      }
     },
     {
       "id": "2025-11-05#7",
@@ -134,13 +176,20 @@
       "texto_redactado": "Expedient 1118/2025. Proposta d'acord per l'aprovació, si s'escau, de la modificació de",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:20:11.031Z"
+      }
     },
     {
       "id": "2025-11-05#8",
@@ -151,13 +200,20 @@
       "texto_redactado": "Expedient 1124/2025. Proposta d'acord per l'aprovació, si s'escau, de la modificació de",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 1,
+      "confianza_min": 0.7,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:20:11.031Z"
+      }
     },
     {
       "id": "2025-11-05#9",
@@ -168,13 +224,20 @@
       "texto_redactado": "Expedient 1111/2025. Proposta d'acord per l'aprovació, si s'escau, de l'aprovació del",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.74,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:20:11.031Z"
+      }
     },
     {
       "id": "2025-11-05#10",
@@ -185,13 +248,20 @@
       "texto_redactado": "Expedient 695/2025. Proposta d'acord per l'aprovació, si s'escau, de l'expedient de",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.75,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:20:11.031Z"
+      }
     },
     {
       "id": "2025-11-05#11",
@@ -202,13 +272,20 @@
       "texto_redactado": "Expedient 1128/2025. Proposta d'acord per l'aprovació, si s'escau, de la distinció",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:20:11.031Z"
+      }
     },
     {
       "id": "2025-11-05#12",
@@ -219,13 +296,20 @@
       "texto_redactado": "Donar compte de les resolucions d'alcaldia C) PRECS I PREGUNTES.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.73,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:20:11.031Z"
+      }
     },
     {
       "id": "2025-11-05#13",
@@ -236,13 +320,20 @@
       "texto_redactado": "En data 04/06/2025, es contracten els serveis tècnics de l’enginyer agrònom Josep Maria Gil",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "contratacion_obras"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.72,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:20:11.031Z"
+      }
     },
     {
       "id": "2025-11-05#14",
@@ -253,13 +344,20 @@
       "texto_redactado": "Per resolució d’alcaldia número 2025-1454 s’ha resolt aprovar provisionalment la següent la",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:20:11.031Z"
+      }
     },
     {
       "id": "2025-11-05#15",
@@ -270,13 +368,20 @@
       "texto_redactado": "A l’expedient consta certificat en el qual s’especifica que durant el termini d’exposició pública",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.96,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:20:11.031Z"
+      }
     },
     {
       "id": "2025-11-05#16",
@@ -287,13 +392,20 @@
       "texto_redactado": "L’article 22. 2. e i 47 de la LBRL estableix que l’aprovació de la modificació del pressupost",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.32,
+      "impacto": 1,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:20:11.031Z"
+      }
     },
     {
       "id": "2025-11-05#17",
@@ -304,13 +416,20 @@
       "texto_redactado": "L’article 169 del TRLRHL disposa que l’expedient s’ha de publicar al BOP i al tauler d'anuncis",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:20:11.031Z"
+      }
     }
   ]
 }

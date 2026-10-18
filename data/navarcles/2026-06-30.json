@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/814020002/2026/469e3cb0-6103-48e5-ad20-f53545535415/ACTA_Ple_30-06-2026.pdf",
     "hash_contenido": "1f21a7218d4b8d28045befca0bf601d93a087f76755a9643ec0a631396d7b311",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-10-17T10:32:12.089Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-18T10:18:16.408Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "APROVACIÓ DE L'ACTA DE LA SESSIÓ ANTERIOR DE DATA 26/05/2026 ......................................................... 3",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:16.408Z"
+      }
     },
     {
       "id": "2026-06-30#2",
@@ -49,13 +56,20 @@
       "texto_redactado": "DICTAMEN APROVACIÓ PROVISIONAL MODIFICACIO NNSS NUM. 29 PER INCORPORAR L'òS COMERCIAL ALS USOS ACTUALMENT EXISTENTS EN L'ÀMBIT DE LA FÀBRIVCA DEL MOLÍ D'EN SERRA. (X2022001001) ................... 3",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.42,
+      "impacto": 3,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:16.408Z"
+      }
     },
     {
       "id": "2026-06-30#3",
@@ -66,13 +80,20 @@
       "texto_redactado": "DICTAMEN APROVACIÓ INICIAL CONVENI DE COL·LABORACIÓ ER A LA GESTIÓ DE L’AULA ASSOCIADA DE MòSICA",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 3,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:16.408Z"
+      }
     },
     {
       "id": "2026-06-30#4",
@@ -83,13 +104,20 @@
       "texto_redactado": "DICTAMEN APROVACIÓ FESTES LOCALS I OBERTURA COMERCIAL AUTORITZADA ANY 2027 (X2026000219) 32",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.61,
+      "impacto": 3,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:16.408Z"
+      }
     },
     {
       "id": "2026-06-30#5",
@@ -100,13 +128,22 @@
       "texto_redactado": "MOCIÓ PRESENTADA PER NECP-C PER UN NOU SERVEI DE BUS INTERURBÀ PòBLIC, EFICAÇ I AL SERVEI DE NAVARCLES (X2026000897) ........................................................................................................................ 33",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "movilidad_trafico",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.75,
+      "impacto": 3,
+      "confianza_min": 0.33,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:16.408Z"
+      }
     },
     {
       "id": "2026-06-30#6",
@@ -117,13 +154,20 @@
       "texto_redactado": "MOCIÓ PRESENTADA PER TOTS ELS GRUPS MUNICIPALS DE LA CORPORACIÓ PER IMPULSAR MILLORES A LA",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.8,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:16.408Z"
+      }
     },
     {
       "id": "2026-06-30#7",
@@ -134,13 +178,20 @@
       "texto_redactado": "DONAR COMPTE DE LES RESOLUCIONS DICTADES PER L'ALCALDESSA DES DE L'ANTERIOR DONACIÓ DE COMPTE AL PLE MUNICIPAL, EN EL BENENTÈS QUE ELS MEMBRES DE LA CORPORACIÓ PODEN ACCEDIR A LLIBRE DE RESOLUCIONS D’ALCALDIA MITJANÇANT L’APLICACIÓ INFORMÀTICA DE GESTOR D’EXPEDIENTS: ................................................................... 39",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.85,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:16.408Z"
+      }
     },
     {
       "id": "2026-06-30#8",
@@ -151,13 +202,20 @@
       "texto_redactado": "DONAR COMPTE DE LES ACTES APROVADES DE LA JUNTA DE GOVERN LOCAL NòM. 18/2026, 19/2026, 20/2026, 21/2026 I 22/2026, QUE CORRESPONEN A LES SESSIONS DELS DIES 19/05/2026, 296/05/2026, 02/06/2026, 09/06/2026 I 16/06/2026, RESPECTIVAMENT. ............................................................................. 42",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.85,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:16.408Z"
+      }
     }
   ]
 }

@@ -1,0 +1,196 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "santpedor",
+    "nombre": "Santpedor",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "819230008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-08",
+    "municipio_id": "santpedor",
+    "fecha": "2026-09-08",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/819230008/2026/4bfe3cfe-4258-40c1-a7cd-f640dd9f45da/ACTA%20PLE%2008092026.pdf",
+    "hash_contenido": "3997373613b89bd1a29d0e3b2c5105e0993050dbf14ac386afc3d62d858678ef",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-18T10:17:40.121Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-08#1",
+      "sesion_id": "2026-09-08",
+      "orden": 1,
+      "titulo": "DICTAMEN PER APROVAR LA LICITACIÓ DE LES OBRES CONTINGUDES EN EL ÒPROJECTE D’ARRANJAMENT DE LA RENOVACIÓ DE LA COBERTA I REPARACIÓ DE PERÍMETRE DE LA SALA CAL LLOVETÓ (X2025003243)",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN PER APROVAR LA LICITACIÓ DE LES OBRES CONTINGUDES EN EL ÒPROJECTE D’ARRANJAMENT DE LA RENOVACIÓ DE LA COBERTA I REPARACIÓ DE PERÍMETRE DE LA SALA CAL LLOVETÓ (X2025003243)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.4,
+      "impacto": 2,
+      "confianza_min": 0.31,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:40.121Z"
+      }
+    },
+    {
+      "id": "2026-09-08#2",
+      "sesion_id": "2026-09-08",
+      "orden": 2,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:40.121Z"
+      }
+    },
+    {
+      "id": "2026-09-08#3",
+      "sesion_id": "2026-09-08",
+      "orden": 3,
+      "titulo": "DICTAMEN APROVACIÓ EXPEDIENT MODIFICACIÓ DE CRÈDITS 20/2026 DE SUPLEMENT DE CRÈDIT FINANÇAT AMB CÀRREC AL ROMANENT DE TRESORERIA PER A DESPESES GENERALS (X2026003480)",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN APROVACIÓ EXPEDIENT MODIFICACIÓ DE CRÈDITS 20/2026 DE SUPLEMENT DE CRÈDIT FINANÇAT AMB CÀRREC AL ROMANENT DE TRESORERIA PER A DESPESES GENERALS (X2026003480)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 2,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:40.121Z"
+      }
+    },
+    {
+      "id": "2026-09-08#4",
+      "sesion_id": "2026-09-08",
+      "orden": 4,
+      "titulo": "DICTAMEN PER A LA DECLARACIÓ D'OBRA D'ESPECIAL INTERÉS, PER AL RECONEIXEMENT DE BONIFICACIÓ DE L'IMPOST SOBRE CONSTRUCCIONS, INSTAL·LACIONS I OBRES, AL BARRI ANTIC (X2026003586)",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN PER A LA DECLARACIÓ D'OBRA D'ESPECIAL INTERÉS, PER AL RECONEIXEMENT DE BONIFICACIÓ DE L'IMPOST SOBRE CONSTRUCCIONS, INSTAL·LACIONS I OBRES, AL BARRI ANTIC (X2026003586)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.61,
+      "impacto": 3,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:40.121Z"
+      }
+    },
+    {
+      "id": "2026-09-08#5",
+      "sesion_id": "2026-09-08",
+      "orden": 5,
+      "titulo": "DICTAMEN APROVACIÓ ADHESIÓ AL PACTE TERRITORIAL PER A LA",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN APROVACIÓ ADHESIÓ AL PACTE TERRITORIAL PER A LA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 2,
+      "confianza_min": 0.3,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:40.121Z"
+      }
+    },
+    {
+      "id": "2026-09-08#6",
+      "sesion_id": "2026-09-08",
+      "orden": 6,
+      "titulo": "DICTAMEN APROVACIÓ RECONEIXEMENTS EXTRAJUDICIALS DE CRÈDIT (X2026003020)",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN APROVACIÓ RECONEIXEMENTS EXTRAJUDICIALS DE CRÈDIT (X2026003020)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:40.121Z"
+      }
+    },
+    {
+      "id": "2026-09-08#7",
+      "sesion_id": "2026-09-08",
+      "orden": 7,
+      "titulo": "DONAR COMPTE AL PLE DE L’INFORME D’AVALUACIÓ DEL COMPLIMENT DELS OBJECTIUS DE LA LLEI ORGÀNICA 2/2012 EN EL 2ON TRIMESTRE DE 2026 (X2026001862)",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DE L’INFORME D’AVALUACIÓ DEL COMPLIMENT DELS OBJECTIUS DE LA LLEI ORGÀNICA 2/2012 EN EL 2ON TRIMESTRE DE 2026 (X2026001862)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:40.121Z"
+      }
+    }
+  ]
+}

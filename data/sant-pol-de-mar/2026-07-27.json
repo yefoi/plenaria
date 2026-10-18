@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/823590004/2026/ea1fc88f-7250-4e70-9f8f-29d149b27861/8.%20ACTA%20PLE%20ORD.%2027.7.26.pdf",
     "hash_contenido": "081c977da233022c2a29ac80a083f56f5accfa20f1ad6756246b1a38e6d5178f",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-10-17T10:33:13.761Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-18T10:19:03.619Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "APROVACIÓ DE L’ACTA DE LA SESSIÓ ANTERIOR DE DATA 29 DE JUNY DE 2026.-",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:19:03.619Z"
+      }
     },
     {
       "id": "2026-07-27#2",
@@ -49,13 +56,20 @@
       "texto_redactado": "ACORD DE MODIFICACIÓ DE L’ORDENANÇA GENERAL REGULADORA DELS PREUS",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.78,
+      "impacto": 4,
+      "confianza_min": 0.12,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:19:03.619Z"
+      }
     },
     {
       "id": "2026-07-27#3",
@@ -66,13 +80,20 @@
       "texto_redactado": "DACIÓ DE COMPTE DE L’INFORME RESUM ANUAL DE L’AJUNTAMENT DE SANT POL DE MAR DELS RESULTATS DEL CONTROL INTERN, QUE S’ESTABLEIX A L’ARTICLE",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:19:03.619Z"
+      }
     },
     {
       "id": "2026-07-27#4",
@@ -83,13 +104,20 @@
       "texto_redactado": "PROPOSTA MODIFICACIÓ REGLAMENT PISOS SOCIALS EXP. 2026/1049.-",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.75,
+      "impacto": 3,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:19:03.619Z"
+      }
     },
     {
       "id": "2026-07-27#5",
@@ -100,13 +128,20 @@
       "texto_redactado": "ESMENA D’ERROR MATERIAL L’ACORD PLENARI ADOPTAT EN DATA DE 29DE JUNY DE 2026 CORRESPONENT A LARESOLUCIÓ DE DISCREPÀNCIA, RECONEIXEMENT DE",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.88,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:19:03.619Z"
+      }
     },
     {
       "id": "2026-07-27#6",
@@ -117,13 +152,20 @@
       "texto_redactado": "PROPOSTA TRAMITACIÓ ACTA DE PREUS CONTRADICTORIS OBRA PLATAFORMA",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.79,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:19:03.619Z"
+      }
     },
     {
       "id": "2026-07-27#7",
@@ -134,13 +176,20 @@
       "texto_redactado": "ASSUMPTES URGENTS.-",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.81,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:19:03.619Z"
+      }
     },
     {
       "id": "2026-07-27#8",
@@ -151,13 +200,20 @@
       "texto_redactado": "PRECS I PREGUNTES.-",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:19:03.619Z"
+      }
     }
   ]
 }

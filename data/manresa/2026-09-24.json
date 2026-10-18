@@ -1,0 +1,1016 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "manresa",
+    "nombre": "Manresa",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "811360009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-24",
+    "municipio_id": "manresa",
+    "fecha": "2026-09-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/811360009/2026/77c46d5f-b78f-489f-b9b6-afad04fdd772/2026%2009%2024%20Acta%20Web%20Ple.pdf",
+    "hash_contenido": "a1d4253b906083c6e403131e9b4268e3d54f02e06835513c7a57e5c58708d6be",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-18T10:17:48.962Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-24#1",
+      "sesion_id": "2026-09-24",
+      "orden": 1,
+      "titulo": "Modificació del Pla Anual de Control Financer per a l’exercici 2026, elaborat per la",
+      "resultado": null,
+      "texto_redactado": "Modificació del Pla Anual de Control Financer per a l’exercici 2026, elaborat per la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#2",
+      "sesion_id": "2026-09-24",
+      "orden": 2,
+      "titulo": "Resolució de l’alcalde, núm. 15219, de 3 de setembre de 2026, sobre la formalització",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde, núm. 15219, de 3 de setembre de 2026, sobre la formalització",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#3",
+      "sesion_id": "2026-09-24",
+      "orden": 3,
+      "titulo": "Informe d’Intervenció relatiu al període mitjà de pagament a proveïdors – Juny 2026. (INT.DON 2026000021).-",
+      "resultado": null,
+      "texto_redactado": "Informe d’Intervenció relatiu al període mitjà de pagament a proveïdors – Juny 2026. (INT.DON 2026000021).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#4",
+      "sesion_id": "2026-09-24",
+      "orden": 4,
+      "titulo": "Informe d’Intervenció relatiu al període mitjà de pagament a proveïdors – Juliol 2026. (INT.DON 2026000023).-",
+      "resultado": null,
+      "texto_redactado": "Informe d’Intervenció relatiu al període mitjà de pagament a proveïdors – Juliol 2026. (INT.DON 2026000023).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#5",
+      "sesion_id": "2026-09-24",
+      "orden": 5,
+      "titulo": "Informe trimestral d’Intervenció relatiu a les dades d’execució del pressupost",
+      "resultado": null,
+      "texto_redactado": "Informe trimestral d’Intervenció relatiu a les dades d’execució del pressupost",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#6",
+      "sesion_id": "2026-09-24",
+      "orden": 6,
+      "titulo": "Informe trimestral de Tresoreria sobre la llei 15/2010, per la qual s’estableixen",
+      "resultado": null,
+      "texto_redactado": "Informe trimestral de Tresoreria sobre la llei 15/2010, per la qual s’estableixen",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#7",
+      "sesion_id": "2026-09-24",
+      "orden": 7,
+      "titulo": "Informe d’Intervenció relatiu al càlcul de l’estabilitat pressupostària relacionat amb",
+      "resultado": null,
+      "texto_redactado": "Informe d’Intervenció relatiu al càlcul de l’estabilitat pressupostària relacionat amb",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#8",
+      "sesion_id": "2026-09-24",
+      "orden": 8,
+      "titulo": "Resolució de l’alcalde, núm. 12733, de 15 de juliol de 2026, sobre aprovació de",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde, núm. 12733, de 15 de juliol de 2026, sobre aprovació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#9",
+      "sesion_id": "2026-09-24",
+      "orden": 9,
+      "titulo": "Resolució de l’alcalde, núm. 13862, de 31 de juliol de 2026, sobre aprovació de",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde, núm. 13862, de 31 de juliol de 2026, sobre aprovació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 1,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#10",
+      "sesion_id": "2026-09-24",
+      "orden": 10,
+      "titulo": "Resolució de l’alcalde, núm. 15191, de 3 de setembre de 2026, sobre aprovació de",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde, núm. 15191, de 3 de setembre de 2026, sobre aprovació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 1,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#11",
+      "sesion_id": "2026-09-24",
+      "orden": 11,
+      "titulo": "Resolució de l’alcalde, núm. 13168, de 23 de juliol de 2026, per la qual es declara",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde, núm. 13168, de 23 de juliol de 2026, per la qual es declara",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#12",
+      "sesion_id": "2026-09-24",
+      "orden": 12,
+      "titulo": "Resolució de l’alcaldessa accidental, núm. 14604, de 18 d’agost de 2026, per la qual",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcaldessa accidental, núm. 14604, de 18 d’agost de 2026, per la qual",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#13",
+      "sesion_id": "2026-09-24",
+      "orden": 13,
+      "titulo": "Resolució de l’alcaldessa accidental, núm. 14680, de 21 d’agost de 2026, per la qual",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcaldessa accidental, núm. 14680, de 21 d’agost de 2026, per la qual",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#14",
+      "sesion_id": "2026-09-24",
+      "orden": 14,
+      "titulo": "Resolució de l’alcalde núm. 15359, de 8 de setembre de 2026, per la qual es declara",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde núm. 15359, de 8 de setembre de 2026, per la qual es declara",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 1,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#15",
+      "sesion_id": "2026-09-24",
+      "orden": 15,
+      "titulo": "Resolució de la segona tinent d’alcalde, núm. 12816, de 20 de juliol de 2026, per la",
+      "resultado": null,
+      "texto_redactado": "Resolució de la segona tinent d’alcalde, núm. 12816, de 20 de juliol de 2026, per la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#16",
+      "sesion_id": "2026-09-24",
+      "orden": 16,
+      "titulo": "Resolució de l’alcalde, núm. 13382, de 27 de juliol de 2026, sobre substitució de",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde, núm. 13382, de 27 de juliol de 2026, sobre substitució de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#17",
+      "sesion_id": "2026-09-24",
+      "orden": 17,
+      "titulo": "Resolució de l’alcalde accidental, núm. 13926, de 3 d’agost de 2026, sobre",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde accidental, núm. 13926, de 3 d’agost de 2026, sobre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#18",
+      "sesion_id": "2026-09-24",
+      "orden": 18,
+      "titulo": "Resolució de l’alcalde, núm. 14439, de 13 d’agost de 2026, sobre aprovació de la",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde, núm. 14439, de 13 d’agost de 2026, sobre aprovació de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 1,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#19",
+      "sesion_id": "2026-09-24",
+      "orden": 19,
+      "titulo": "Resolució de l’alcaldessa accidental, núm. 14689, de 21 d’agost de 2026, sobre",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcaldessa accidental, núm. 14689, de 21 d’agost de 2026, sobre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#20",
+      "sesion_id": "2026-09-24",
+      "orden": 20,
+      "titulo": "Aprovació, si escau, del Compte General del Pressupost de l’exercici 2025. (INT.CTE 2026000001).-",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, del Compte General del Pressupost de l’exercici 2025. (INT.CTE 2026000001).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 2,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#21",
+      "sesion_id": "2026-09-24",
+      "orden": 21,
+      "titulo": "Aprovació, si escau, de la modificació del Pla Estratègic de Subvencions 2025-2027. (AJT.DIC 2026000093).-",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de la modificació del Pla Estratègic de Subvencions 2025-2027. (AJT.DIC 2026000093).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#22",
+      "sesion_id": "2026-09-24",
+      "orden": 22,
+      "titulo": "Aprovació inicial, si escau, de la modificació de les Bases d’Execució del Pressupost",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial, si escau, de la modificació de les Bases d’Execució del Pressupost",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 2,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#23",
+      "sesion_id": "2026-09-24",
+      "orden": 23,
+      "titulo": "Aprovació, si escau, de reconeixements extrajudicials de crèdit a favor de diversos",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de reconeixements extrajudicials de crèdit a favor de diversos",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 2,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#24",
+      "sesion_id": "2026-09-24",
+      "orden": 24,
+      "titulo": "Aprovació inicial, si escau, de l’expedient de modificació de crèdits núm. P38/2026,",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial, si escau, de l’expedient de modificació de crèdits núm. P38/2026,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#25",
+      "sesion_id": "2026-09-24",
+      "orden": 25,
+      "titulo": "Aprovació inicial, si escau, de l’expedient de modificació de crèdits núm. P39/2026,",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial, si escau, de l’expedient de modificació de crèdits núm. P39/2026,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#26",
+      "sesion_id": "2026-09-24",
+      "orden": 26,
+      "titulo": "Aprovació inicial, si escau, de les bases reguladores per a l’atorgament de",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial, si escau, de les bases reguladores per a l’atorgament de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 1,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#27",
+      "sesion_id": "2026-09-24",
+      "orden": 27,
+      "titulo": "Aprovació inicial, si escau, de les bases reguladores per a l’atorgament de",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial, si escau, de les bases reguladores per a l’atorgament de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#28",
+      "sesion_id": "2026-09-24",
+      "orden": 28,
+      "titulo": "Aprovació inicial, si escau, de les bases reguladores per a l’atorgament de",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial, si escau, de les bases reguladores per a l’atorgament de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#29",
+      "sesion_id": "2026-09-24",
+      "orden": 29,
+      "titulo": "Aprovació, si escau, de la ratificació de la modificació dels Estatuts del Consorci per",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de la ratificació de la modificació dels Estatuts del Consorci per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#30",
+      "sesion_id": "2026-09-24",
+      "orden": 30,
+      "titulo": "Aprovació, si escau, de la deducció en la facturació del servei d’escoles bressol",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de la deducció en la facturació del servei d’escoles bressol",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.69,
+      "impacto": 3,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#31",
+      "sesion_id": "2026-09-24",
+      "orden": 31,
+      "titulo": "Aprovació, si escau, de la deducció en la facturació del servei d’escoles bressol",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de la deducció en la facturació del servei d’escoles bressol",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.64,
+      "impacto": 3,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#32",
+      "sesion_id": "2026-09-24",
+      "orden": 32,
+      "titulo": "Prèvia ratificació de la seva inclusió a l’ordre del dia, per no haver estat sotmès a",
+      "resultado": null,
+      "texto_redactado": "Prèvia ratificació de la seva inclusió a l’ordre del dia, per no haver estat sotmès a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 1,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#33",
+      "sesion_id": "2026-09-24",
+      "orden": 33,
+      "titulo": "Moció del Grup Municipal de Fem Manresa per a la creació de la figura de",
+      "resultado": null,
+      "texto_redactado": "Moció del Grup Municipal de Fem Manresa per a la creació de la figura de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#34",
+      "sesion_id": "2026-09-24",
+      "orden": 34,
+      "titulo": "Moció del Grup Municipal de VOX en suport i solidaritat amb el poble de Ceuta i en",
+      "resultado": null,
+      "texto_redactado": "Moció del Grup Municipal de VOX en suport i solidaritat amb el poble de Ceuta i en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#35",
+      "sesion_id": "2026-09-24",
+      "orden": 35,
+      "titulo": "Moció del Grup Municipal de VOX per al reforç de la defensa, la seguretat i les",
+      "resultado": null,
+      "texto_redactado": "Moció del Grup Municipal de VOX per al reforç de la defensa, la seguretat i les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "seguridad",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 2,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#36",
+      "sesion_id": "2026-09-24",
+      "orden": 36,
+      "titulo": "Moció del Grup Municipal de Junts per a la creació d’una Comissió Informativa",
+      "resultado": null,
+      "texto_redactado": "Moció del Grup Municipal de Junts per a la creació d’una Comissió Informativa",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#37",
+      "sesion_id": "2026-09-24",
+      "orden": 37,
+      "titulo": "Moció del Grup Municipal de Junts per a la detecció i actuació davant habitatges",
+      "resultado": null,
+      "texto_redactado": "Moció del Grup Municipal de Junts per a la detecció i actuació davant habitatges",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.52,
+      "impacto": 2,
+      "confianza_min": 0.07,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#38",
+      "sesion_id": "2026-09-24",
+      "orden": 38,
+      "titulo": "Moció del Grup Municipal de Junts per a la prevenció del risc d’incendi en àrees de",
+      "resultado": null,
+      "texto_redactado": "Moció del Grup Municipal de Junts per a la prevenció del risc d’incendi en àrees de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.42,
+      "impacto": 2,
+      "confianza_min": 0.22,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#39",
+      "sesion_id": "2026-09-24",
+      "orden": 39,
+      "titulo": "Moció dels Grups Municipals d’ERC, Junts, PSC, Fem Manresa, Impulsem i",
+      "resultado": null,
+      "texto_redactado": "Moció dels Grups Municipals d’ERC, Junts, PSC, Fem Manresa, Impulsem i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#40",
+      "sesion_id": "2026-09-24",
+      "orden": 40,
+      "titulo": "Previsió de CF a 31/12/2026 (F.3.2)",
+      "resultado": null,
+      "texto_redactado": "Previsió de CF a 31/12/2026 (F.3.2)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    },
+    {
+      "id": "2026-09-24#41",
+      "sesion_id": "2026-09-24",
+      "orden": 41,
+      "titulo": "Previsió de deute viu PDE a 31/12/2026 (F.3.4)",
+      "resultado": null,
+      "texto_redactado": "Previsió de deute viu PDE a 31/12/2026 (F.3.4)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:48.962Z"
+      }
+    }
+  ]
+}

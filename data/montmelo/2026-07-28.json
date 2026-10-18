@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "montmelo",
+    "nombre": "Montmeló",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "813500000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-28",
+    "municipio_id": "montmelo",
+    "fecha": "2026-07-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/813500000/2026/6a68db20-35d0-436d-9e3f-b08f584d4c80/05_20260728_Acta%20Ple%20ordinari.pdf",
+    "hash_contenido": "e0adfc8541f10740c2c630b612b3d78e16239168ae31c26427d0c90a12b2e980",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-18T10:18:06.169Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-28#1",
+      "sesion_id": "2026-07-28",
+      "orden": 1,
+      "titulo": "Drets de matriculació (inclou cobertura sanitària obligatòria)",
+      "resultado": null,
+      "texto_redactado": "Drets de matriculació (inclou cobertura sanitària obligatòria)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.71,
+      "impacto": 3,
+      "confianza_min": 0.12,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:06.168Z"
+      }
+    },
+    {
+      "id": "2026-07-28#2",
+      "sesion_id": "2026-07-28",
+      "orden": 2,
+      "titulo": "Quota mensual 24,00 €",
+      "resultado": null,
+      "texto_redactado": "Quota mensual 24,00 €",
+      "importe_eur": 24,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.84,
+      "impacto": 3,
+      "confianza_min": 0.25,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:06.168Z"
+      }
+    },
+    {
+      "id": "2026-07-28#3",
+      "sesion_id": "2026-07-28",
+      "orden": 3,
+      "titulo": "Quota mensual rítmica 32,00 €",
+      "resultado": null,
+      "texto_redactado": "Quota mensual rítmica 32,00 €",
+      "importe_eur": 32,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.8,
+      "impacto": 3,
+      "confianza_min": 0.06,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:06.168Z"
+      }
+    }
+  ]
+}

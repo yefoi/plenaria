@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/1716420002/2026/57df15ea-5b86-4ef2-90f6-6e64ed908707/PLE%2027%20MAIG%202026.pdf",
     "hash_contenido": "c37de86441969bc0c7c630f3efa389d0b672fb8dcf47bec603568476e4b7045a",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-10-17T10:32:39.342Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-18T10:18:32.199Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "APROVACIÓ ACTA ANTERIOR",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:32.199Z"
+      }
     },
     {
       "id": "2026-05-27#2",
@@ -49,13 +56,20 @@
       "texto_redactado": "ASSUMPTES D'INTERÈS GENERAL",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 1,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:32.199Z"
+      }
     },
     {
       "id": "2026-05-27#3",
@@ -66,13 +80,20 @@
       "texto_redactado": "DONAR COMPTE DELS DECRETS D'ALCALDIA DEL 28 AL 52 I JUNTES DE GOVERN LOCAL 16/23/30 MARÇ - 8/13/20/27 ABRIL - 4/11 MAIG DEL 2026",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.84,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:32.199Z"
+      }
     },
     {
       "id": "2026-05-27#4",
@@ -83,13 +104,21 @@
       "texto_redactado": "RATIFICACIÓ DE L’APROVACIÓ DE L’ADDENDA PER LA QUAL ES PRORROGA LA VIGÈNCIA DEL CONVENI AMB EL CONSELL COMARCAL DE LA SELVA, PER LA DELEGACIÓ DE COMPETÈNCIES PER LA GESTIÓ DEL SERVEI DE MENJADOR DE LA LLAR D’INFANTS MUNICIPAL LA BALDUFA PER AL CURS ESCOLAR 2026/2027",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.47,
+      "impacto": 3,
+      "confianza_min": 0.75,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:32.199Z"
+      }
     },
     {
       "id": "2026-05-27#5",
@@ -100,13 +129,20 @@
       "texto_redactado": "RATIFICACIÓ DE L’APROVACIÓ DE L’ADDENDA PER LA QUAL ES MODIFICA EL CONVENI, AMB EL CONSELL COMARCAL DE LA SELVA, PER LA DELEGACIÓ DE COMPETÈNCIES PER LA GESTIÓ DEL SERVEI DE MENJADOR DE LA LLAR D’INFANTS MUNICIPAL LA BALDUFA, PER AL CURS ESCOLAR 2026/2027",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 3,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:32.199Z"
+      }
     },
     {
       "id": "2026-05-27#6",
@@ -117,13 +153,20 @@
       "texto_redactado": "PRORROGA DEL CONVENI DE COL.LABORACIO INTERADMINISTRATIVA AMB EL DEPARTAMENT DE DRETS SOCIALS I INCLUSIÓ DE LA GENERALITAT DE CATALUNYA PER A LA PRESTACIO DEL SERVEI DE RESIDENCIA ASSISTIDA I CENTRE DE DIA PER A GENT DEPENDENT \"SANT HILARI\"",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 3,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:32.199Z"
+      }
     },
     {
       "id": "2026-05-27#7",
@@ -134,13 +177,20 @@
       "texto_redactado": "CONVENI DE COL·LABORACIÓ AMB L’AJUNTAMENT D’ARBòCIES EN MATÈRIA DE VOLUNTARIAT DE PROTECCIÓ CIVIL",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 3,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:32.199Z"
+      }
     },
     {
       "id": "2026-05-27#8",
@@ -151,13 +201,20 @@
       "texto_redactado": "APROVACIÓ DEL DOCUMENT òNIC DE PROTECCIÓ CIVIL MUNICIPAL, DUPROCIM",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:32.199Z"
+      }
     },
     {
       "id": "2026-05-27#9",
@@ -168,13 +225,20 @@
       "texto_redactado": "PRÒRROGA SISENA DE LES BASES PER L'ATORGAMENT DE SUBVENCIONS PER A LA IMPLANTACIÓ DE NOVES ACTIVITATS ECONÒMIQUES AL NUCLI ANTIC DE SANT HILARI SACALM",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.44,
+      "impacto": 2,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:32.199Z"
+      }
     },
     {
       "id": "2026-05-27#10",
@@ -185,13 +249,20 @@
       "texto_redactado": "MOCIO DE JUNTS PER SANT HILARI SOL.LICITANT RECTIFICACIO DE VOT I MANIFESTACIO DE DISCONFORMITAT DE L'APROVACIO DEL CONVENI PEL PLE DE",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 2,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:32.199Z"
+      }
     },
     {
       "id": "2026-05-27#11",
@@ -202,13 +273,20 @@
       "texto_redactado": "RESOLUCIO DE RECURS DE REPOSICIO INTERPOSAT CONTRA L’ACORD DEL PLE DE 25 DE MARÇ DE 2026 RELATIU A UN CONVENI AMB L’ASSOCIACIO BUP BUP",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:32.199Z"
+      }
     },
     {
       "id": "2026-05-27#12",
@@ -219,13 +297,21 @@
       "texto_redactado": "MODIFICACIO DEL CONTRACTE DE CONCESSIÓ DELS SERVEIS D'EXPLOTACIÓ, GESTIÓ I MANTENIMENT INTEGRALS D'INSTAL.LACIONS ESPORTIVES MUNICIPALS",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 3,
+      "confianza_min": 0.27,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:32.199Z"
+      }
     },
     {
       "id": "2026-05-27#13",
@@ -236,13 +322,21 @@
       "texto_redactado": "APROVACIÓ DE L'EXPEDIENT DE CONTRACTACIÓ I CONVOCATÒRIA DE LA LICITACIÓ DEL CONTRACTE DE SERVEIS DE NETEJA VIÀRIA DE SANT HILARI",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.66,
+      "impacto": 3,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:32.199Z"
+      }
     },
     {
       "id": "2026-05-27#14",
@@ -253,13 +347,20 @@
       "texto_redactado": "VENDA PER SUBHASTA DE CINC PARCEL.LES DEL SECTOR CAL SASTRE",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 3,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:32.199Z"
+      }
     },
     {
       "id": "2026-05-27#15",
@@ -270,13 +371,20 @@
       "texto_redactado": "FESTIUS LOCALS 2027",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.43,
+      "impacto": 2,
+      "confianza_min": 0.17,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:32.199Z"
+      }
     },
     {
       "id": "2026-05-27#16",
@@ -287,13 +395,23 @@
       "texto_redactado": "MOCIÓ D'ESQUERRA SANT HILARI PER A UNA PLANIFICACIÓ EFICIENT I SOSTENIBLE DE LES ACTUACIONS D'ASFALTATGE ALS CARRERS DE SANT HILARI",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "movilidad_trafico",
+        "urbanismo_licencias",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.68,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:32.199Z"
+      }
     },
     {
       "id": "2026-05-27#17",
@@ -304,13 +422,21 @@
       "texto_redactado": "MOCIO MANIFEST INSTITUCIONAL REFERENT AL SERVEI D'AMBULÀNCIES DE",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.47,
+      "impacto": 3,
+      "confianza_min": 0.33,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:32.199Z"
+      }
     },
     {
       "id": "2026-05-27#18",
@@ -321,13 +447,20 @@
       "texto_redactado": "PRECS I PREGUNTES",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:32.199Z"
+      }
     }
   ]
 }

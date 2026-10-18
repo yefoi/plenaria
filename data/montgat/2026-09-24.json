@@ -1,0 +1,411 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "montgat",
+    "nombre": "Montgat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "812650006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-24",
+    "municipio_id": "montgat",
+    "fecha": "2026-09-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/812650006/2026/0ef67177-9fab-421e-8eaf-a7e40cfb2676/Esborrany%20acta%20Ple%209-2026%20ordinari%20de%20data%2024-9-2026.pdf",
+    "hash_contenido": "3c39dea2e2c3c07cd8dc5684b4eba39ccc3d3d9ef20dd4034e414a8c174c0ee1",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-18T10:17:39.372Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-24#1",
+      "sesion_id": "2026-09-24",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta núm. 8/2026, corresponents a la sessió celebrada el dia 30 de juliol de 2026.- 2",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’acta núm. 8/2026, corresponents a la sessió celebrada el dia 30 de juliol de 2026.- 2",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:39.372Z"
+      }
+    },
+    {
+      "id": "2026-09-24#2",
+      "sesion_id": "2026-09-24",
+      "orden": 2,
+      "titulo": "Despatx d’ofici.-",
+      "resultado": null,
+      "texto_redactado": "Despatx d’ofici.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:39.372Z"
+      }
+    },
+    {
+      "id": "2026-09-24#3",
+      "sesion_id": "2026-09-24",
+      "orden": 3,
+      "titulo": "Donar compte de les resolucions d’alcaldia i resolucions dels regidors delegats, des del",
+      "resultado": null,
+      "texto_redactado": "Donar compte de les resolucions d’alcaldia i resolucions dels regidors delegats, des del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:39.372Z"
+      }
+    },
+    {
+      "id": "2026-09-24#4",
+      "sesion_id": "2026-09-24",
+      "orden": 4,
+      "titulo": "Assabentar de les resolucions de l’alcaldia següents:",
+      "resultado": null,
+      "texto_redactado": "Assabentar de les resolucions de l’alcaldia següents:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:39.372Z"
+      }
+    },
+    {
+      "id": "2026-09-24#5",
+      "sesion_id": "2026-09-24",
+      "orden": 5,
+      "titulo": "Assabentar de la resolució de l’alcaldia núm. 1867-2026, de data 10 de setembre, relativa a",
+      "resultado": null,
+      "texto_redactado": "Assabentar de la resolució de l’alcaldia núm. 1867-2026, de data 10 de setembre, relativa a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:39.372Z"
+      }
+    },
+    {
+      "id": "2026-09-24#6",
+      "sesion_id": "2026-09-24",
+      "orden": 6,
+      "titulo": "Assabentar de la resolució de l’alcaldia núm. 1881-2026, de data 14 de setembre, relativa a",
+      "resultado": null,
+      "texto_redactado": "Assabentar de la resolució de l’alcaldia núm. 1881-2026, de data 14 de setembre, relativa a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:39.372Z"
+      }
+    },
+    {
+      "id": "2026-09-24#7",
+      "sesion_id": "2026-09-24",
+      "orden": 7,
+      "titulo": "Donar compte al Ple de l’informe trimestral de morositat i període mitjà de pagament a",
+      "resultado": null,
+      "texto_redactado": "Donar compte al Ple de l’informe trimestral de morositat i període mitjà de pagament a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:39.372Z"
+      }
+    },
+    {
+      "id": "2026-09-24#8",
+      "sesion_id": "2026-09-24",
+      "orden": 8,
+      "titulo": "Donar compte al Ple de l’execució trimestral corresponent al segon trimestre de 2026.-",
+      "resultado": null,
+      "texto_redactado": "Donar compte al Ple de l’execució trimestral corresponent al segon trimestre de 2026.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:39.372Z"
+      }
+    },
+    {
+      "id": "2026-09-24#9",
+      "sesion_id": "2026-09-24",
+      "orden": 9,
+      "titulo": "Donar compte al Ple de l’informe de la Sindicatura de Comptes de Catalunya, relatiu al",
+      "resultado": null,
+      "texto_redactado": "Donar compte al Ple de l’informe de la Sindicatura de Comptes de Catalunya, relatiu al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:39.372Z"
+      }
+    },
+    {
+      "id": "2026-09-24#10",
+      "sesion_id": "2026-09-24",
+      "orden": 10,
+      "titulo": "Dictamen relatiu a l’aprovació del Compte General de la Corporació corresponent a",
+      "resultado": null,
+      "texto_redactado": "Dictamen relatiu a l’aprovació del Compte General de la Corporació corresponent a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:39.372Z"
+      }
+    },
+    {
+      "id": "2026-09-24#11",
+      "sesion_id": "2026-09-24",
+      "orden": 11,
+      "titulo": "Dictamen relatiu a l’aprovació de l’expedient de modificació de crèdit número 13/2026, per",
+      "resultado": null,
+      "texto_redactado": "Dictamen relatiu a l’aprovació de l’expedient de modificació de crèdit número 13/2026, per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 1,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:39.372Z"
+      }
+    },
+    {
+      "id": "2026-09-24#12",
+      "sesion_id": "2026-09-24",
+      "orden": 12,
+      "titulo": "Dictamen relatiu a l’aprovació de l’expedient de modificació de crèdit número 17/2026, per",
+      "resultado": null,
+      "texto_redactado": "Dictamen relatiu a l’aprovació de l’expedient de modificació de crèdit número 17/2026, per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:39.372Z"
+      }
+    },
+    {
+      "id": "2026-09-24#13",
+      "sesion_id": "2026-09-24",
+      "orden": 13,
+      "titulo": "Dictamen relatiu a l’aprovació de l’expedient de reconeixement extrajudicial de crèdit",
+      "resultado": null,
+      "texto_redactado": "Dictamen relatiu a l’aprovació de l’expedient de reconeixement extrajudicial de crèdit",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:39.372Z"
+      }
+    },
+    {
+      "id": "2026-09-24#14",
+      "sesion_id": "2026-09-24",
+      "orden": 14,
+      "titulo": "Dictamen relatiu a l’aprovació del conveni ESCO de col·laboració entre l’Àrea",
+      "resultado": null,
+      "texto_redactado": "Dictamen relatiu a l’aprovació del conveni ESCO de col·laboració entre l’Àrea",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 2,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:39.372Z"
+      }
+    },
+    {
+      "id": "2026-09-24#15",
+      "sesion_id": "2026-09-24",
+      "orden": 15,
+      "titulo": "Dictamen relatiu a l’aprovació de l’estimació parcialment les al·legacions presentades i",
+      "resultado": null,
+      "texto_redactado": "Dictamen relatiu a l’aprovació de l’estimació parcialment les al·legacions presentades i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:39.372Z"
+      }
+    },
+    {
+      "id": "2026-09-24#16",
+      "sesion_id": "2026-09-24",
+      "orden": 16,
+      "titulo": "Precs i Preguntes.-",
+      "resultado": null,
+      "texto_redactado": "Precs i Preguntes.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:17:39.372Z"
+      }
+    }
+  ]
+}

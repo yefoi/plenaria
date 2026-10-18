@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/2523470005/2026/1d61060e-66dc-4648-95b0-c75cac2aeed3/PLE%2020260915%20(08)%20signada%20i%20PD.pdf",
     "hash_contenido": "e4a4744e073573de5c6b07d84deded40f64fd3a7aae90640475075b40c27c848",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-10-17T10:32:34.608Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-18T10:18:30.481Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "EXP. X2026001738. PLE 07/2026 DE 06.07.2026 ORDINARI. APROVACIÓ DE L'ACTA.-",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:30.481Z"
+      }
     },
     {
       "id": "2026-09-15#2",
@@ -49,13 +56,20 @@
       "texto_redactado": "DECRETS D'ALCALDIA DEL NòM. 720 AL 974 DE L'ANY 2026 (256). DONAR COMPTE.-",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:30.481Z"
+      }
     },
     {
       "id": "2026-09-15#3",
@@ -66,13 +80,20 @@
       "texto_redactado": "EXP. X2026001739. JUNTA DE GOVERN LOCAL 12/2026 DE 06.07.2026 ORDINÀRIA. DONAR COMPTE.-",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:30.481Z"
+      }
     },
     {
       "id": "2026-09-15#4",
@@ -83,13 +104,20 @@
       "texto_redactado": "EXP. X2026001919. JUNTA DE GOVERN LOCAL 13/2026 DE 20.07.2026 ORDINÀRIA. DONAR COMPTE.-",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:30.481Z"
+      }
     },
     {
       "id": "2026-09-15#5",
@@ -100,13 +128,20 @@
       "texto_redactado": "EXP. X2026001093. PR.2026/07-105. COMPTE GENERAL DE L’EXERCICI 2025. APROVACIÓ.-",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 2,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:30.481Z"
+      }
     },
     {
       "id": "2026-09-15#6",
@@ -117,13 +152,21 @@
       "texto_redactado": "EXP. X2026000295. PR.2026/08-135. MODIFICACIÓ ORDENANÇA FISCAL NòM. 5.3 PREU PUBLIC PER UTILITZACIÓ DELS SERVEIS DE LA REGIDORIA D’ESPORTS. APROVACIÓ PROVISIONAL.-",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.83,
+      "impacto": 3,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:30.481Z"
+      }
     },
     {
       "id": "2026-09-15#7",
@@ -134,13 +177,20 @@
       "texto_redactado": "MOCIÓ PEL MIL·LENARI DE LES ASSEMBLEES DE PAU I TREVA (1027-2027).- QUÒRUM",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.06,
+      "impacto": 1,
+      "confianza_min": 0.93,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:30.481Z"
+      }
     },
     {
       "id": "2026-09-15#8",
@@ -151,13 +201,20 @@
       "texto_redactado": "EXP. X2026001167. PR.2026/07-041. SUBVENCIÓ DE BENESTAR A L'ESCOLA VALLDEFLORS PER L'ANY 2026.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 3,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:30.481Z"
+      }
     },
     {
       "id": "2026-09-15#9",
@@ -168,13 +225,20 @@
       "texto_redactado": "EXP. X2026001386. PR.2026/07-040. SUBVENCIÓ DE BENESTAR AL SERVEI DE DOL DE PONENT PER L'ANY 2026.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.61,
+      "impacto": 3,
+      "confianza_min": 0.73,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:30.481Z"
+      }
     },
     {
       "id": "2026-09-15#10",
@@ -185,13 +249,20 @@
       "texto_redactado": "EXP. X2026001494. PR. 2026/07-042. SUBVENCIÓ DE BENESTAR A L’ASSOCIACIO DE DONES ROSA D'ABRIL PER L'ANY 2026.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.48,
+      "impacto": 2,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:30.481Z"
+      }
     },
     {
       "id": "2026-09-15#11",
@@ -202,13 +273,20 @@
       "texto_redactado": "EXP. X2026001513. PR.2026/07-044. SUBVENCIÓ DE BENESTAR A L’ASSOCIACIÓ ESPANYOLA CONTRA EL CANCER PER L'ANY 2026.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.44,
+      "impacto": 3,
+      "confianza_min": 0.43,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:30.481Z"
+      }
     },
     {
       "id": "2026-09-15#12",
@@ -219,13 +297,20 @@
       "texto_redactado": "EXP. X2026001828. PR.2026/07-007. TARGETA D'APARCAMENT PER A PERSONES AMB DISCAPACITAT AHV (NO CONDUCTOR). CONCESSIÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.71,
+      "impacto": 2,
+      "confianza_min": 0.7,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:30.481Z"
+      }
     },
     {
       "id": "2026-09-15#13",
@@ -236,13 +321,20 @@
       "texto_redactado": "EXP. X2026001829. PR.2026/07-008. TARGETA D'APARCAMENT PER A PERSONES AMB DISCAPACITAT SAS (NO CONDUCTOR). CONCESSIÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.66,
+      "impacto": 2,
+      "confianza_min": 0.77,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:30.481Z"
+      }
     },
     {
       "id": "2026-09-15#14",
@@ -253,13 +345,20 @@
       "texto_redactado": "EXP. X2023000954. PR.2026/07-067. TARGETA APARCAMENT PERSONES AMB DISCAPACITAT APC (NO CONDUCTOR). BAIXA.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.53,
+      "impacto": 2,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-18T10:18:30.481Z"
+      }
     }
   ]
 }
