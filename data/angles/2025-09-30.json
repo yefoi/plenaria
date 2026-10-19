@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/1700840003/2025/15c7ebff-f3d4-41d0-9931-7c387d7abbac/PLE2025000009.pdf",
     "hash_contenido": "37db7806fb0e8a57faec1395e3e2ffaea3c1ecc8bf7e8f16d95607d970bff8b2",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-10-17T10:32:55.440Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-19T11:33:51.894Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "Entitat Local",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.8,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#2",
@@ -49,13 +56,20 @@
       "texto_redactado": "Així mateix, amb efectes d'1 de gener de 2024, s'aplicarà, si és el cas, un",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.48,
+      "impacto": 2,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#3",
@@ -66,13 +80,20 @@
       "texto_redactado": "D’acord amb l’article 58 del Reial decret 500/1990, de 20 d’abril, l’aprovació",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.96,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#4",
@@ -83,13 +104,22 @@
       "texto_redactado": "Article 59 RD 500/1990 respecte els requisits que s’han d’acreditar prèviament al",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias",
+        "presupuesto_impuestos",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.53,
+      "impacto": 2,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#5",
@@ -100,13 +130,21 @@
       "texto_redactado": "Garantir el compliment de l’Esquema Nacional de seguretat.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#6",
@@ -117,13 +155,20 @@
       "texto_redactado": "D’acord amb l’article 23.1 e) del Reial Decret Legislatiu 781/1986, de 18 d’abril,",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.95,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#7",
@@ -134,13 +179,21 @@
       "texto_redactado": "Article 552.1 Llei 5/2006, de 10 de maig, del llibre cinquè del Codi civil de",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.57,
+      "impacto": 2,
+      "confianza_min": 0.4,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#8",
@@ -151,13 +204,20 @@
       "texto_redactado": "No subministrar ni comunicar les dades personals a terceres persones, ni tan",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 2,
+      "confianza_min": 0.13,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#9",
@@ -168,13 +228,20 @@
       "texto_redactado": "No fer còpies ni extreure la informació a què tingui accés, llevat que sigui",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.79,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#10",
@@ -185,13 +252,20 @@
       "texto_redactado": "qualsevol tractament temporal que hagi calgut generar en el",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.95,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#11",
@@ -202,13 +276,21 @@
       "texto_redactado": "No compartir les contrasenyes amb altres persones. L’identificador i",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "seguridad",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#12",
@@ -219,13 +301,21 @@
       "texto_redactado": "Garantir la confidencialitat de les credencials emprant contrasenyes que no",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "seguridad",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#13",
@@ -236,13 +326,20 @@
       "texto_redactado": "En finalitzar la jornada laboral o durant absències prolongades, mantenir la",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.94,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#14",
@@ -253,13 +350,20 @@
       "texto_redactado": "Tancar o blocar les sessions actives a l'ordinador (Ctrl+Alt+Supr) en",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.87,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#15",
@@ -270,13 +374,21 @@
       "texto_redactado": "No deixar sense recollir documents confidencials als dispositius de",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_publicos",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#16",
@@ -287,13 +399,20 @@
       "texto_redactado": "Notificar a la unitat gestora del conveni del Departament qualsevol",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.06,
+      "impacto": 1,
+      "confianza_min": 0.99,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#17",
@@ -304,13 +423,20 @@
       "texto_redactado": "Entregar qualsevol còpia o versió de la informació disponible durant la",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.83,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#18",
@@ -321,13 +447,21 @@
       "texto_redactado": "En els guals correctament senyalitzats i autoritzats.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "movilidad_trafico",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.7,
+      "impacto": 2,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#19",
@@ -338,13 +472,21 @@
       "texto_redactado": "En un mateix lloc més de 72 hores consecutives, sense cap motiu justificat.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "seguridad",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.53,
+      "impacto": 2,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#20",
@@ -355,13 +497,21 @@
       "texto_redactado": "A les entrades o sortides dels aparcaments autoritzats.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "movilidad_trafico",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.68,
+      "impacto": 2,
+      "confianza_min": 0.43,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#21",
@@ -372,13 +522,21 @@
       "texto_redactado": "Fora dels límits de les marques viàries de delimitació de places en els",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "movilidad_trafico",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.7,
+      "impacto": 2,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#22",
@@ -389,13 +547,21 @@
       "texto_redactado": "Als carrers o vies sense voreres, sense mantenir una distància mínima d’un",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "movilidad_trafico",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.75,
+      "impacto": 3,
+      "confianza_min": 0.33,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#23",
@@ -406,13 +572,22 @@
       "texto_redactado": "En les zones que, eventualment, hagin de ser ocupades per a activitats",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias",
+        "servicios_publicos",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 2,
+      "confianza_min": 0.27,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#24",
@@ -423,13 +598,21 @@
       "texto_redactado": "Als llocs habilitats com a estacionament amb limitació horària",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "movilidad_trafico",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.82,
+      "impacto": 3,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#25",
@@ -440,13 +623,21 @@
       "texto_redactado": "En sentit contrari al que correspon al d’una via de sentit únic de circulació.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "movilidad_trafico",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.79,
+      "impacto": 3,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#26",
@@ -457,13 +648,21 @@
       "texto_redactado": "A la vora esquerra de la calçada, en relació amb el sentit de marxa del vehicle,",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "movilidad_trafico",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.48,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#27",
@@ -474,13 +673,21 @@
       "texto_redactado": "Les motocicletes, ciclomotors o bicicletes lligades o encadenades a elements",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "movilidad_trafico",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.72,
+      "impacto": 2,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#28",
@@ -491,13 +698,21 @@
       "texto_redactado": "L’estacionament de remolcs i semiremolcs sense vehicle tractor.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "movilidad_trafico",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.67,
+      "impacto": 2,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     },
     {
       "id": "2025-09-30#29",
@@ -508,13 +723,21 @@
       "texto_redactado": "L’ús de la via pública per a promoció i venda de vehicles nous i/o usats, tant per",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.75,
+      "impacto": 3,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:33:51.894Z"
+      }
     }
   ]
 }

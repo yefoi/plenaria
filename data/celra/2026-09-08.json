@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/1704990004/2026/a06978b7-4d43-4fc5-970a-3bcacf39296b/ActaPle_8set.pdf",
     "hash_contenido": "483dc57986e1712b768357a887bf1d63f820f138cdc318dcec95e32052bb7fe7",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-10-18T10:14:46.624Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-19T11:46:58.430Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "APROVACIÓ DE L’ACTA DE LA SESSIÓ ORDINÀRIA DEL DIA 14 DE JULIOL DE",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "organizacion_institucional"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
       "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,google/gemini-3.8-flash,inception/mercury-2.5,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:46:58.430Z"
+      }
     },
     {
       "id": "2026-09-08#2",
@@ -49,13 +56,21 @@
       "texto_redactado": "APROVACIÓ DE L'ACTA DE LA SESSIÓ EXTRAORDINÀRIA URGENT DE DATA",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "seguridad",
+        "organizacion_institucional"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
       "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,google/gemini-3.8-flash,inception/mercury-2.5,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:46:58.430Z"
+      }
     },
     {
       "id": "2026-09-08#3",
@@ -66,13 +81,21 @@
       "texto_redactado": "DICTAMEN SOBRE LA DECLARACIÓ D'INTERÈS MUNICIPAL PER A LA UTILITZACIÓ TEMPORAL DE LES INSTAL·LACIONS DE L'ESCOLA MUNICIPAL DE DANSA, PER PART DE L'INSTITUT DE CELRÀ, PER A LA REALITZACIÓ DEL CICLE FORMATIU DE GRAU MITJÀ DE DANSES URBANES, CURS 2026-2027",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 2,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,google/gemini-3.8-flash,inception/mercury-2.5,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:46:58.430Z"
+      }
     },
     {
       "id": "2026-09-08#4",
@@ -83,13 +106,22 @@
       "texto_redactado": "DICTAMEN PER A L'APROVACIÓ DEL PLA DE SERVEIS DE LA DIPUTACIÓ DE GIRONA D’ASSISTÈNCIA I COOPERACIÓ ALS MUNICIPIS PER A LA GESTIÓ DE",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "servicios_sociales",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,google/gemini-3.8-flash,inception/mercury-2.5,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:46:58.430Z"
+      }
     },
     {
       "id": "2026-09-08#5",
@@ -100,13 +132,20 @@
       "texto_redactado": "DICTAMEN PER A LA MODIFICACIÓ DE PRESSUPOST NòMERO 11 DEL PRESSUPOST 2026, PER SUPLEMENTS DE CRÈDITS I CRÈDITS",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,google/gemini-3.8-flash,inception/mercury-2.5,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:46:58.430Z"
+      }
     },
     {
       "id": "2026-09-08#6",
@@ -117,13 +156,22 @@
       "texto_redactado": "DICTAMEN PER A L'APROVACIÓ DE LA MODIFICACIÓ DEL PROJECTE D'OBRA ORDINÀRIA D'OBERTURA DE FRANGES DE PROTECCIÓ D'INCENDIS FORESTALS DE CELRÀ I DEL TEXT REFÓS INCORPORANT AQUESTA",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias",
+        "contratacion_obras",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 3,
+      "confianza_min": 0.32,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,google/gemini-3.8-flash,inception/mercury-2.5,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:46:58.430Z"
+      }
     },
     {
       "id": "2026-09-08#7",
@@ -134,13 +182,21 @@
       "texto_redactado": "En data 16 de juny de 2026 es va adjudicar a l’empresa Vigué – Subirà, SCCP, el",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.42,
+      "impacto": 2,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,google/gemini-3.8-flash,inception/mercury-2.5,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:46:58.430Z"
+      }
     },
     {
       "id": "2026-09-08#8",
@@ -151,13 +207,20 @@
       "texto_redactado": "En data 31 de juliol de 2026, registre d’entrada E2026006806, el Sr. [NOMBRE]",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.99,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,google/gemini-3.8-flash,inception/mercury-2.5,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:46:58.430Z"
+      }
     },
     {
       "id": "2026-09-08#9",
@@ -168,13 +231,21 @@
       "texto_redactado": "En la redacció del text ref ós s’han adequat als preus de mercat actuals els imports",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,google/gemini-3.8-flash,inception/mercury-2.5,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:46:58.430Z"
+      }
     },
     {
       "id": "2026-09-08#10",
@@ -185,13 +256,20 @@
       "texto_redactado": "Consta a l’expedient inf orme del tècnic de medi ambient.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.98,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,google/gemini-3.8-flash,inception/mercury-2.5,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:46:58.430Z"
+      }
     },
     {
       "id": "2026-09-08#11",
@@ -202,13 +280,20 @@
       "texto_redactado": "També consta en l’expedient l’inf orme del secretari de la corporació sobre la",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 1,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,google/gemini-3.8-flash,inception/mercury-2.5,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:46:58.430Z"
+      }
     },
     {
       "id": "2026-09-08#12",
@@ -219,13 +304,21 @@
       "texto_redactado": "En data 28 d’agost de 2026, l’arquitecta municipal emet el següent inf orme:",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 1,
+      "confianza_min": 0.92,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,google/gemini-3.8-flash,inception/mercury-2.5,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:46:58.430Z"
+      }
     },
     {
       "id": "2026-09-08#13",
@@ -236,13 +329,20 @@
       "texto_redactado": "Ha emès inf orme el secretari de la corporació sobre la normativa aplicable i el",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.98,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,google/gemini-3.8-flash,inception/mercury-2.5,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:46:58.430Z"
+      }
     },
     {
       "id": "2026-09-08#14",
@@ -253,13 +353,20 @@
       "texto_redactado": "PRECS I PREGUNTES",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,google/gemini-3.8-flash,inception/mercury-2.5,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:46:58.430Z"
+      }
     }
   ]
 }

@@ -20,7 +20,7 @@
     "fuente_url": "https://media.seu-e.cat/acteca/890240003/2026/541505a7-44c7-403e-9dbc-96a4d9be516d/ACTA%20DEL%20PLE%202026-0008%20[ACTA%20PLE%20EXTRAORDINARI%2014.7.2026].pdf",
     "hash_contenido": "6247ebc9236e576ef18c07e9d4032e8c0133cdbb3f28f5132ced11882cc27639",
     "estado_ingesta": "segmentacion_pobre",
-    "actualizada_en": "2026-10-17T10:33:25.234Z"
+    "actualizada_en": "2026-10-19T11:44:25.037Z"
   },
   "puntos": [
     {
@@ -32,13 +32,21 @@
       "texto_redactado": "Ajuntament de Vilanova del Vallès ACTA Expedient núm. Òrgan col·legiat",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "seguridad",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.97,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:44:25.037Z"
+      }
     }
   ]
 }

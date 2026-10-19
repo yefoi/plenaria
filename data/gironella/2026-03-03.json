@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/809240003/2026/433977be-1262-460c-aff0-ad17e11bd28b/2026-03-03%20ORD.pdf",
     "hash_contenido": "44fe3fbac7bc6cef1accac97dff7da99d277d0ee44d554c1c757cc13f0e6ebd4",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-10-17T10:34:19.992Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-19T11:49:53.162Z"
   },
   "puntos": [
     {
@@ -32,13 +32,21 @@
       "texto_redactado": "L’article 2.1 de la Llei 5/2003, de 22 d’abril, de mesures de prevenció dels incendis forestals en les",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.5,
+      "impacto": 2,
+      "confianza_min": 0.04,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:53.162Z"
+      }
     },
     {
       "id": "2026-03-03#2",
@@ -49,13 +57,21 @@
       "texto_redactado": "En base a això, la Diputació de Barcelona, a través de l’Oficina Tècnica de Prevenció Municipal d’",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.83,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:53.162Z"
+      }
     },
     {
       "id": "2026-03-03#3",
@@ -66,13 +82,20 @@
       "texto_redactado": "El contingut del plànol de delimitació s'haurà de tenir en compte en l'elaboració dels instruments",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 2,
+      "confianza_min": 0.4,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:53.162Z"
+      }
     },
     {
       "id": "2026-03-03#4",
@@ -83,13 +106,21 @@
       "texto_redactado": "El procediment d'aprovació del plànol de delimitació s'ha d’ajustar a la tramitació següent (art. 4.5",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.74,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:53.162Z"
+      }
     },
     {
       "id": "2026-03-03#5",
@@ -100,13 +131,20 @@
       "texto_redactado": "Mitjançant anunci publicat al BOPB de data 20/11/2025 i a la seu electrònica de l’ajuntament el dia",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.94,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:53.162Z"
+      }
     },
     {
       "id": "2026-03-03#6",
@@ -117,13 +155,21 @@
       "texto_redactado": "A través d’ofici de de data 17/11/2025, s’ha atorgat tràmit d’audiència a tots els afectats en el qual",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:53.162Z"
+      }
     },
     {
       "id": "2026-03-03#7",
@@ -134,13 +180,20 @@
       "texto_redactado": "La Direcció General de Polítiques Ambientals i Medi Natural de la Generalitat de Catalunya ha",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.9,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:53.162Z"
+      }
     },
     {
       "id": "2026-03-03#8",
@@ -151,13 +204,21 @@
       "texto_redactado": "Segons l’article 2.1 de la LPIF, és competència del Ple de l’ajuntament l’aprovació del pla de",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.37,
+      "impacto": 2,
+      "confianza_min": 0.18,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:53.162Z"
+      }
     }
   ]
 }

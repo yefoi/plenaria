@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/1718640003/2026/2fa70d1e-e608-4bde-8b94-94e53a43eb4a/PLE%202026%2007%202026%2006%2030.pdf",
     "hash_contenido": "a9b73b4d9585c92fbf2923e7f84468e6297630d4fee946e53d2308f1b54d6b9d",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-10-17T10:34:01.648Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-19T11:49:10.380Z"
   },
   "puntos": [
     {
@@ -32,13 +32,21 @@
       "texto_redactado": "Crear la Subcomissió 50 anys de l’Escola Montserrat amb la participació de",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 0.75,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,inclusionai/ling-3.0-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:10.380Z"
+      }
     },
     {
       "id": "2026-06-30#2",
@@ -49,13 +57,22 @@
       "texto_redactado": "Elevar aquesta proposta a l’Escola Montserrat, a l’AFA, als membres de la",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "cultura_deporte_educacion",
+        "servicios_sociales",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.93,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,inclusionai/ling-3.0-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:10.380Z"
+      }
     },
     {
       "id": "2026-06-30#3",
@@ -66,13 +83,20 @@
       "texto_redactado": "Ajuntament de Sarrià de Ter. Acta aprovada per l'Ajuntament en Ple en sessió ordinària de 28 de juliol de",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
       "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,inclusionai/ling-3.0-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:10.380Z"
+      }
     },
     {
       "id": "2026-06-30#4",
@@ -83,13 +107,21 @@
       "texto_redactado": "Parada Bus biblioteca.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "movilidad_trafico",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.78,
+      "impacto": 2,
+      "confianza_min": 0.33,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,inclusionai/ling-3.0-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:10.380Z"
+      }
     },
     {
       "id": "2026-06-30#5",
@@ -100,13 +132,21 @@
       "texto_redactado": "Vorera vianants des de S.I. Xuncla , f ins entrada Girona.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "movilidad_trafico",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.81,
+      "impacto": 3,
+      "confianza_min": 0.39,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,inclusionai/ling-3.0-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:10.380Z"
+      }
     }
   ]
 }

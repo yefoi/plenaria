@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/802910007/2026/e84b51d7-f2a3-4c2f-99ca-3bf81c502406/Acta%20JGL%2030.06.2026.pdf",
     "hash_contenido": "91e1aab2e558d30ede8acced57e8e27dc8f90ead11381efaa32bd053ccad5c53",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-10-17T10:34:29.273Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-19T11:50:11.863Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "APROVACIÓ ACES ANTERIORS",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "organizacion_institucional"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
       "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:50:11.863Z"
+      }
     },
     {
       "id": "2026-06-30#2",
@@ -49,13 +56,20 @@
       "texto_redactado": "DESPATX OFICIAL",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:50:11.863Z"
+      }
     },
     {
       "id": "2026-06-30#3",
@@ -66,13 +80,20 @@
       "texto_redactado": "ÀREA DE GOVERNACIÓ, SERVEIS GENERALS I PLANIFICACIÓ",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:50:11.863Z"
+      }
     },
     {
       "id": "2026-06-30#4",
@@ -83,13 +104,22 @@
       "texto_redactado": "ÀREA DE TERRITORI I SOSTENIBILITAT ÀMBIT DE PLANIFICACIÓ URBANÍSTICA, LLICÈNCIES, HABITATGE I SOSTENIBILITAT. SERVEI DE PLANIFICACIÓ URBANÍSTICA, LLICÈNCIA I HABITATGE",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias",
+        "vivienda",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.62,
+      "impacto": 2,
+      "confianza_min": 0.12,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:50:11.863Z"
+      }
     },
     {
       "id": "2026-06-30#5",
@@ -100,13 +130,20 @@
       "texto_redactado": "Articles 187 i següents del Text refós de la Llei d’urbanisme, aprovat per",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.68,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:50:11.863Z"
+      }
     },
     {
       "id": "2026-06-30#6",
@@ -117,13 +154,20 @@
       "texto_redactado": "Pla d’ordenació urbanística municipal aprovat per la Comissió Territorial",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
       "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:50:11.863Z"
+      }
     },
     {
       "id": "2026-06-30#7",
@@ -134,13 +178,20 @@
       "texto_redactado": "Ordenança fiscal número 3 Reguladora de l’Impost sobre construccions,",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.83,
+      "impacto": 3,
+      "confianza_min": 0.17,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:50:11.863Z"
+      }
     }
   ]
 }

@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/814020002/2026/df2ba61c-1a90-4cdd-9a92-94ea50bbc420/ACTA_PLE_26-05-2026.pdf",
     "hash_contenido": "1ca4dec582b91fc6db53de03b493ef393d9c5e0526e23ab4ba0d3584d6d33874",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-10-17T10:32:13.586Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-19T11:28:49.752Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "APROVACIÓ DE L'ACTA DE LA SESSIÓ ANTERIOR DE DATA 28/04/2026 ......................................................... 3",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "organizacion_institucional"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
       "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:28:49.752Z"
+      }
     },
     {
       "id": "2026-05-26#2",
@@ -49,13 +56,20 @@
       "texto_redactado": "DICTAMEN APROVACIÓ MODIFICACIÓ DE CRÈDIT 2.26 MODALITAT TRANSFERÈNCIA DE CRÈDIT (X2026000699) .............................................................................................................................................. 3",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.83,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:28:49.752Z"
+      }
     },
     {
       "id": "2026-05-26#3",
@@ -66,13 +80,21 @@
       "texto_redactado": "DICTAMEN APROVACIÓ EXPEDIENT CONTRACTACIÓ NETEJA EDIFICIS (X2026000299) ................................. 4",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.5,
+      "impacto": 3,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:28:49.752Z"
+      }
     },
     {
       "id": "2026-05-26#4",
@@ -83,13 +105,20 @@
       "texto_redactado": "",
       "importe_eur": null,
       "sensible": true,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.85,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:28:49.752Z"
+      }
     },
     {
       "id": "2026-05-26#5",
@@ -100,13 +129,21 @@
       "texto_redactado": "Donar compte decret 2026DECR000282 - Decret aprovació Pla Seguretat i Salut contracte",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "contratacion_obras",
+        "personal"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
       "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:28:49.752Z"
+      }
     },
     {
       "id": "2026-05-26#6",
@@ -117,13 +154,21 @@
       "texto_redactado": "DONAR COMPTE DE LES RESOLUCIONS DICTADES PER L'ALCALDESSA DES DE L'ANTERIOR DONACIÓ DE COMPTE AL PLE MUNICIPAL, EN EL BENENTÈS QUE ELS MEMBRES DE LA CORPORACIÓ PODEN ACCEDIR A LLIBRE DE RESOLUCIONS D’ALCALDIA MITJANÇANT L’APLICACIÓ INFORMÀTICA DE GESTOR D’EXPEDIENTS: ................................................................... 11",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "seguridad",
+        "organizacion_institucional"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
       "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:28:49.752Z"
+      }
     },
     {
       "id": "2026-05-26#7",
@@ -134,13 +179,21 @@
       "texto_redactado": "DONAR COMPTE DE LES ACTES APROVADES DE LA JUNTA DE GOVERN LOCAL NòM. 14/2026, 15/2026, 16/2026 I 17/2026, QUE CORRESPONEN A LES SESSIONS DELS DIES 21/04/2026, 28/04/2026, 05/05/2026 I 12/05/2026, RESPECTIVAMENT. ..................................................................................................................... 13",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "seguridad",
+        "organizacion_institucional"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
       "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash,inclusionai/ling-3.0-flash,jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:28:49.752Z"
+      }
     }
   ]
 }

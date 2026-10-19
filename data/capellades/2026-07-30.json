@@ -20,7 +20,7 @@
     "fuente_url": "https://media.seu-e.cat/acteca/804460009/2026/9fc097ab-7546-4cf2-ad54-c2fab00af481/Cambio%20usuario%20esPublico.pdf",
     "hash_contenido": "d0e7c40be4ed8d13cecc96eb90b2b8740aafa9f843f861ab184b0eeb6e22f3ef",
     "estado_ingesta": "segmentacion_pobre",
-    "actualizada_en": "2026-10-17T10:33:45.758Z"
+    "actualizada_en": "2026-10-19T11:47:14.027Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "D/Dña. Salvador Vives Alari, como Representante Legal del Ayuntamiento de Capellades, en nombre y representación del mismo, SOLICITA",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.99,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inception/mercury-2.5,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:47:14.027Z"
+      }
     }
   ]
 }

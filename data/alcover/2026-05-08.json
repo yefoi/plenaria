@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/4300560009/2026/a47368db-eade-49ff-b5aa-dd2c7dd10335/10.%20ACTA%20DEL%20PLE%202026-0004%20[Acta%20sessi%f3%20ordin%e0ria%20Ple%2008.05.26]_Censurado.pdf",
     "hash_contenido": "5ddb3242f98e18a6cc5f4f724dfc7cb0842639bfd52de571f7b20842adb5fb2b",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-10-17T10:34:10.965Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-19T11:49:27.458Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "APROVACIÓ DE L’ACTA DE LA SESSIÓ ANTERIOR.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:27.458Z"
+      }
     },
     {
       "id": "2026-05-08#2",
@@ -49,13 +56,20 @@
       "texto_redactado": "DONAR COMPTE.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.72,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:27.458Z"
+      }
     },
     {
       "id": "2026-05-08#3",
@@ -66,13 +80,21 @@
       "texto_redactado": "Tasas y otros ingresos 282.930,34 205.328,74 488.259,08 152.727,86 141.184,24 152.509,01 446.421,11 2.643.293,47",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.52,
+      "impacto": 4,
+      "confianza_min": 0.07,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:27.458Z"
+      }
     },
     {
       "id": "2026-05-08#4",
@@ -83,13 +105,22 @@
       "texto_redactado": "Transferencias corrientes 548.809,90 59.159,51 607.969,41 220.102,37 187.546,69 206.674,81 614.323,87 2.791.370,08",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos",
+        "servicios_sociales",
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.42,
+      "impacto": 4,
+      "confianza_min": 0.19,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:27.458Z"
+      }
     },
     {
       "id": "2026-05-08#5",
@@ -100,13 +131,20 @@
       "texto_redactado": "Ingresos patrimoniales 810,00 810,00 2.356,94 2.080,47 893,03 5.330,44 28.048,83",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.3,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:27.458Z"
+      }
     },
     {
       "id": "2026-05-08#6",
@@ -117,13 +155,21 @@
       "texto_redactado": "Enajenación de inversiones reales 0,00 0,00 0,00 0,00 31.500,00",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos",
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 2,
+      "confianza_min": 0.02,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:27.458Z"
+      }
     },
     {
       "id": "2026-05-08#7",
@@ -134,13 +180,20 @@
       "texto_redactado": "Transferencias de capital 614.944,14 250.000,00 864.944,14 8.558,99 98.132,32 21.020,74 127.712,05 249.125,11",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.36,
+      "impacto": 4,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:27.458Z"
+      }
     },
     {
       "id": "2026-05-08#8",
@@ -151,13 +204,20 @@
       "texto_redactado": "Activos financieros 0,00 0,00 0,00 0,00 0,00",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.99,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:27.458Z"
+      }
     },
     {
       "id": "2026-05-08#9",
@@ -168,13 +228,21 @@
       "texto_redactado": "Pasivos financieros 0,00 0,00 0,00 0,00 488.000,00",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:27.458Z"
+      }
     },
     {
       "id": "2026-05-08#10",
@@ -185,13 +253,21 @@
       "texto_redactado": "Termini de vigència del conveni",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:27.458Z"
+      }
     },
     {
       "id": "2026-05-08#11",
@@ -202,13 +278,21 @@
       "texto_redactado": "Interpretació i jurisdicció",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "seguridad",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,inclusionai/ling-3.0-flash,google/gemini-3.8-flash,inception/mercury-2.5) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:49:27.458Z"
+      }
     }
   ]
 }

@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/1716420002/2026/c3e25f39-7cde-434a-a139-9d889e3854d0/PLE%2025%20MAR%c7%202026.pdf",
     "hash_contenido": "82c611c09f569a83aea693d53ead426a997524fae6e79f8af6c61413a95255bc",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-10-17T10:32:41.484Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-19T11:32:42.343Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "Criteris d´accés al Centre",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.45,
+      "impacto": 2,
+      "confianza_min": 0.32,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:32:42.343Z"
+      }
     },
     {
       "id": "2026-03-25#2",
@@ -49,13 +56,21 @@
       "texto_redactado": "Reserva de plaça:",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.49,
+      "impacto": 2,
+      "confianza_min": 0.3,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:32:42.343Z"
+      }
     },
     {
       "id": "2026-03-25#3",
@@ -66,13 +81,21 @@
       "texto_redactado": "Es modifica l’article 8 titulat ÒClasses de tarifes en funció de l’ús de l’aigua",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.79,
+      "impacto": 4,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:32:42.343Z"
+      }
     },
     {
       "id": "2026-03-25#4",
@@ -83,13 +106,21 @@
       "texto_redactado": "Es modifica l’Annex 1 de l’Ordenança, que queda redactat en els termes següents: 39 ÒANNEX 1 TARIFES DEL SERVEI DE SUBMINISTRAMENT DOMICILIARI D’AIGUA DE CONSUM",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.86,
+      "impacto": 4,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:32:42.343Z"
+      }
     },
     {
       "id": "2026-03-25#5",
@@ -100,13 +131,21 @@
       "texto_redactado": "Es modifica l’article 5 titulat ÒTipologia d’usuaris i de tarifesÓ, en el seu apartat 2,",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.61,
+      "impacto": 2,
+      "confianza_min": 0.16,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:32:42.343Z"
+      }
     },
     {
       "id": "2026-03-25#6",
@@ -117,13 +156,21 @@
       "texto_redactado": "Es modifica l’Annex 1 de l’Ordenança, que queda redactat en els termes següents: ÒANNEX 1 TARIFES DEL SERVEI DE CLAVEGUERAM QUOTA DE SERVEI",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.8,
+      "impacto": 4,
+      "confianza_min": 0.37,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-19T11:32:42.343Z"
+      }
     }
   ]
 }
