@@ -1,0 +1,317 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "el-masnou",
+    "nombre": "El Masnou",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "811890004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-15",
+    "municipio_id": "el-masnou",
+    "fecha": "2026-10-15",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/811890004/2026/201848ff-b633-4bd8-9a69-b5ec3707d575/Extractes%20Ple%20ordinari%20151026.pdf",
+    "hash_contenido": "77755a500c87391d18576a4fc1927afced2fa1935148deb0ef10d01efc8ea061",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-20T10:46:27.233Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-15#1",
+      "sesion_id": "2026-10-15",
+      "orden": 1,
+      "titulo": "Aprovació de l’esborrany de l’acta del Ple ordinari del 17 de setembre de 2026.",
+      "resultado": "aprovat",
+      "texto_redactado": "Aprovació de l’esborrany de l’acta del Ple ordinari del 17 de setembre de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:27.233Z"
+      }
+    },
+    {
+      "id": "2026-10-15#2",
+      "sesion_id": "2026-10-15",
+      "orden": 2,
+      "titulo": "Informacions de l’Alcaldia.",
+      "resultado": "en resten assabentats",
+      "texto_redactado": "Informacions de l’Alcaldia.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:27.233Z"
+      }
+    },
+    {
+      "id": "2026-10-15#3",
+      "sesion_id": "2026-10-15",
+      "orden": 3,
+      "titulo": "Donar compte de l'informe 13/2026 de la Sindicatura de Comptes de Catalunya, del Compte General de les Corporacions locals exercici 2024.",
+      "resultado": "en resten assabentats",
+      "texto_redactado": "Donar compte de l'informe 13/2026 de la Sindicatura de Comptes de Catalunya, del Compte General de les Corporacions locals exercici 2024.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:27.233Z"
+      }
+    },
+    {
+      "id": "2026-10-15#4",
+      "sesion_id": "2026-10-15",
+      "orden": 4,
+      "titulo": "Donar compte del decret d'Alcaldia amb número 3.490 de data 28 de setembre de 2026, de fixació de les línies fonamentals del pressupost 2027 de l’Ajuntament del Masnou en compliment de l’article 27 de la LO 2/2012, de la Llei d’Estabilitat Pressupostària i Sostenibilitat Financera.",
+      "resultado": "en resten assabentats",
+      "texto_redactado": "Donar compte del decret d'Alcaldia amb número 3.490 de data 28 de setembre de 2026, de fixació de les línies fonamentals del pressupost 2027 de l’Ajuntament del Masnou en compliment de l’article 27 de la LO 2/2012, de la Llei d’Estabilitat Pressupostària i Sostenibilitat Financera.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:27.233Z"
+      }
+    },
+    {
+      "id": "2026-10-15#5",
+      "sesion_id": "2026-10-15",
+      "orden": 5,
+      "titulo": "Aprovació inicial de la modificació de les ordenances fiscals reguladores de preus públics per al proper exercici 2027.",
+      "resultado": "aprovat",
+      "texto_redactado": "Aprovació inicial de la modificació de les ordenances fiscals reguladores de preus públics per al proper exercici 2027.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.77,
+      "impacto": 3,
+      "confianza_min": 0.16,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:27.233Z"
+      }
+    },
+    {
+      "id": "2026-10-15#6",
+      "sesion_id": "2026-10-15",
+      "orden": 6,
+      "titulo": "Aprovació inicial de la modificació de les ordenances fiscals reguladores d'impostos i taxes per al proper exercici 2027.",
+      "resultado": "aprovat",
+      "texto_redactado": "Aprovació inicial de la modificació de les ordenances fiscals reguladores d'impostos i taxes per al proper exercici 2027.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.79,
+      "impacto": 4,
+      "confianza_min": 0.17,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:27.233Z"
+      }
+    },
+    {
+      "id": "2026-10-15#7",
+      "sesion_id": "2026-10-15",
+      "orden": 7,
+      "titulo": "Autorització de la pròrroga del conveni de la delegació de competències de la Deixalleria de la Mancomunitat Intermunicipal de Serveis d’Alella, El Masnou i Teià a favor del Consell Comarcal del Maresme (CCM) per l’exercici 2027.",
+      "resultado": "aprovat",
+      "texto_redactado": "Autorització de la pròrroga del conveni de la delegació de competències de la Deixalleria de la Mancomunitat Intermunicipal de Serveis d’Alella, El Masnou i Teià a favor del Consell Comarcal del Maresme (CCM) per l’exercici 2027.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 3,
+      "confianza_min": 0.3,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:27.233Z"
+      }
+    },
+    {
+      "id": "2026-10-15#8",
+      "sesion_id": "2026-10-15",
+      "orden": 8,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:27.233Z"
+      }
+    },
+    {
+      "id": "2026-10-15#9",
+      "sesion_id": "2026-10-15",
+      "orden": 9,
+      "titulo": "Resolució del recurs de reposició interposat contra el manual de valoració de llocs de treball i política retributiva.",
+      "resultado": "aprovat",
+      "texto_redactado": "Resolució del recurs de reposició interposat contra el manual de valoració de llocs de treball i política retributiva.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:27.233Z"
+      }
+    },
+    {
+      "id": "2026-10-15#10",
+      "sesion_id": "2026-10-15",
+      "orden": 10,
+      "titulo": "Donar compte dels decrets d'Alcaldia i de les regidories delegades del mes de setembre de 2026.",
+      "resultado": "en resten assabentats",
+      "texto_redactado": "Donar compte dels decrets d'Alcaldia i de les regidories delegades del mes de setembre de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:27.233Z"
+      }
+    },
+    {
+      "id": "2026-10-15#11",
+      "sesion_id": "2026-10-15",
+      "orden": 11,
+      "titulo": "Donar compte de les actes de la Junta de Govern Local del mes de setembre de 2026.",
+      "resultado": "en resten assabentats",
+      "texto_redactado": "Donar compte de les actes de la Junta de Govern Local del mes de setembre de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:27.233Z"
+      }
+    },
+    {
+      "id": "2026-10-15#12",
+      "sesion_id": "2026-10-15",
+      "orden": 12,
+      "titulo": "Moció presentada pel Grup Municipal de Fem Masnou per a l'estudi de la climatització dels centres educatius del Masnou.",
+      "resultado": "aprovat",
+      "texto_redactado": "Moció presentada pel Grup Municipal de Fem Masnou per a l'estudi de la climatització dels centres educatius del Masnou.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 2,
+      "confianza_min": 0.3,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:27.233Z"
+      }
+    }
+  ]
+}

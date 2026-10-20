@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/804310007/2023/72f7b106-c346-41a5-84d4-c625817c4e84/18%20-%20Ple%20ordinari%2026.09.2023_Presencial_LOPDPigdd.pdf",
     "hash_contenido": "9dfdcf2800a1fb2fbaabf4a059d9da8ed5a08adaacb6370f2a74194ec7be10da",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-10-17T10:33:57.189Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-20T10:47:34.589Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "APROVACIÓ DE LES ACTES DE LES SESSIONS ANTERIORS",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:47:34.589Z"
+      }
     },
     {
       "id": "2023-09-26#2",
@@ -49,13 +56,21 @@
       "texto_redactado": "DE LA RATIFICACIÓ DE LA CONTRACTACIÓ, D’ACORD AMB LES NECESSITATS MANIFESTADES PER LA DIRECTORA DE LA LLAR D’INFANTS MUNICIPAL, DE DUES PERSONES EN CATEGORIA DE TÈCNIC/A D’EDUCACIÓ INFANTIL.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.39,
+      "impacto": 3,
+      "confianza_min": 0.7,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:47:34.589Z"
+      }
     },
     {
       "id": "2023-09-26#3",
@@ -66,13 +81,20 @@
       "texto_redactado": "DE LA RATIFICACIÓ RELATIVA A L'APROVACIÓ DE L'AIXECAMENT DE",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 2,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:47:34.589Z"
+      }
     },
     {
       "id": "2023-09-26#4",
@@ -83,13 +105,20 @@
       "texto_redactado": "DE LA VERIFICACIÓ, SI S’ESCAU, DELS CANVIS INCORPORATS EN EL TEXT REFÓS DEL POUM DE CANYELLES DE RESULTES DE L’ACORD ADOPTAT PER LA CTUP DE 12.06.2023.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.79,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:47:34.589Z"
+      }
     },
     {
       "id": "2023-09-26#5",
@@ -100,13 +129,20 @@
       "texto_redactado": "DE L’APROVACIÓ, SI S’ESCAU, DE LA MODIFICACIÓ PRESSUPOSTÀRIA",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.43,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:47:34.589Z"
+      }
     },
     {
       "id": "2023-09-26#6",
@@ -117,13 +153,20 @@
       "texto_redactado": "DEL REQUERIMENT, SI S’ESCAU, A ÒLES ONADES CENTRE DE DIA CANYELLES, S.L.Ó EN RELACIÓ A L’ESCRIT D’AL·LEGACIONS PRESENTAT EN L’EXPEDIENT DE RESCISSIÓ DEL CONTRACTE DE CONCESSIÓ D’OBRES DE REHABILITACIÓ DE L’ANTIC GIMNÀS MUNICIPAL PER A CENTRE DE DIA I POSTERIOR EXPLOTACIÓ DE L’EQUIPAMENT.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 3,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:47:34.589Z"
+      }
     },
     {
       "id": "2023-09-26#7",
@@ -134,13 +177,20 @@
       "texto_redactado": "DE LA MODIFICACIÓ, SI S’ESCAU, DE LES BASES DE CONVOCATÒRIA DELS PROCESSOS DE SELECCIÓ EMMARCATS DINS DE L’ESTABILITZACIÓ",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:47:34.589Z"
+      }
     },
     {
       "id": "2023-09-26#8",
@@ -151,13 +201,20 @@
       "texto_redactado": "DONAR COMPTE AL PLE DE LA CORPORACIÓ DE L’INFORME DE PAGAMENT MIG A PROVEÏDORS CORRESPONENT AL SEGON TRIMESTRE DE L’EXERCICI 2023 I DE LES CONSEQÜÈNCIES DEL SEU INCOMPLIMENT.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.87,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:47:34.589Z"
+      }
     },
     {
       "id": "2023-09-26#9",
@@ -168,13 +225,20 @@
       "texto_redactado": "DONAR COMPTE DEL LLISTAT EXTRACTAT DELS DECRETS D'ALCALDIA I DELS ACORDS ADOPTATS EN LES JUNTES DE GOVERN LOCAL",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.77,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:47:34.589Z"
+      }
     },
     {
       "id": "2023-09-26#10",
@@ -185,13 +249,20 @@
       "texto_redactado": "MOCIONS A CONSIDERAR - SI S’ESCAU –",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.95,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:47:34.589Z"
+      }
     },
     {
       "id": "2023-09-26#11",
@@ -202,13 +273,20 @@
       "texto_redactado": "TORN OBERT DE PARAULES",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.92,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:47:34.589Z"
+      }
     }
   ]
 }

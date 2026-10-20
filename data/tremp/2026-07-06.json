@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/2523470005/2026/ea281b59-38b8-4a9b-b988-547603682a40/PLE%2020260706%20(07)%20signada%20PD.pdf",
     "hash_contenido": "c8a44fc6b11b271a1699c405a97714fd5f756a021eb4eae3cf80ebf30cfbaf4e",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-10-17T10:32:36.704Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-20T10:46:42.802Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "EXP. X2026001228. PLE 06/2026 DE 01.06.2026 ORDINARI. APROVACIÓ DE L'ACTA.-",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#2",
@@ -49,13 +56,20 @@
       "texto_redactado": "DECRETS DE L'ALCALDIA A DONAR COMPTE. DEL NòM. 583 AL 719 DE L'ANY 2026 (136).-",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.73,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#3",
@@ -66,13 +80,20 @@
       "texto_redactado": "EXP. X2026001194. JUNTA DE GOVERN LOCAL 10/2026 DE 01.06.2026 ORDINÀRIA. DONAR COMPTE.-",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#4",
@@ -83,13 +104,20 @@
       "texto_redactado": "EXP. X2026001467. JUNTA DE GOVERN LOCAL 11/2026 DE 15.06.2026 ORDINÀRIA. DONAR COMPTE.-",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#5",
@@ -100,13 +128,21 @@
       "texto_redactado": "EXP. X2026001450. PR 2026/06-092. SUBVENCIÓ PER AL MILLORAMENT URBÀ, AMBIENTAL I SOCIAL DE BARRIS I VILES PER AL 2026. SOL·LICITUD.-",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.49,
+      "impacto": 2,
+      "confianza_min": 0.14,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#6",
@@ -117,13 +153,20 @@
       "texto_redactado": "EXP. X2026001547. PR.2026/06-073. MODIFICACIÓ NòMERO 7 DEL PRESSUPOST 2026. APROVACIÓ INICIAL.-",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.45,
+      "impacto": 2,
+      "confianza_min": 0.32,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#7",
@@ -134,13 +177,20 @@
       "texto_redactado": "EXP. X2026000130. PR.2026/06-050. ORDENANÇA FISCAL REGULADORA DE LA TAXA",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.83,
+      "impacto": 3,
+      "confianza_min": 0.06,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#8",
@@ -151,13 +201,21 @@
       "texto_redactado": "EXP. 2026000295. PR.2026/06-081. MODIFICACIÓ ORDENANÇA FISCAL NòM. 5.3 PREU PUBLIC PER UTILITZACIÓ DEL SERVEIS DE LA REGIDORIA D’ESPORTS.-",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.83,
+      "impacto": 3,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#9",
@@ -168,13 +226,20 @@
       "texto_redactado": "EXP. X2025002954. PR.2026/06-074. PLANTILLA ORGÀNICA I MODIFICACIÓ DEL CATÀLEG DE LLOCS DE TREBALL 2026. CORRECCIÓ DEL COMPLEMENT DE DESTÍ DEL LLOC DE TREBALL AEA1- 01-L. APROVACIÓ.-",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 0.9,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#10",
@@ -185,13 +250,20 @@
       "texto_redactado": "EXP. X2026001233. PR2026/05-093. CALENDARI OFICIAL DE FESTES LABORALS PER A L’ANY 2027.-",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.75,
+      "impacto": 4,
+      "confianza_min": 0.32,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#11",
@@ -202,13 +274,22 @@
       "texto_redactado": "EXP. X2026001769. MOCIÓ PER GARANTIR L'ACCÉS A L'EDUCACIÓ INFANTIL DE 0 A 3 ANYS A TREMP I DONAR SUPORT A LES FAMÍLIES SENSE PLAÇA A L'ESCOLA BRESSOL MUNICIPAL.- QUÒRUM",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "cultura_deporte_educacion",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.73,
+      "impacto": 3,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#12",
@@ -219,13 +300,20 @@
       "texto_redactado": "EXP. X2026001206. PR.2026/05-079. LLICÈNCIA URBANÍSTICA CARRER DE LA COSTA, NòM. 24 DEVILAMITJANA. ATORGAMENT.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.51,
+      "impacto": 2,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#13",
@@ -236,13 +324,20 @@
       "texto_redactado": "EXP. X2026001230. PR.2026/05-089. LLICÈNCIA URBANÍSTICA CARRER RESPIRI, NòM. 12 – CASA 6 - DE TREMP. ATORGAMENT.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 2,
+      "confianza_min": 0.81,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#14",
@@ -253,13 +348,20 @@
       "texto_redactado": "EXP. X2026000074. PR.2026/01-089. LLICÈNCIA URBANÍSTICA PER DESTINAR A òS TURÍSTIC",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.47,
+      "impacto": 3,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#15",
@@ -270,13 +372,20 @@
       "texto_redactado": "EXP. X2026001111. PR.2026/05-014 LLICÈNCIA URBANÍSTICA PER DESTINAR A òS",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 2,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#16",
@@ -287,13 +396,20 @@
       "texto_redactado": "EXP. X2026001116. PR.2026/05-016. LLICÈNCIA URBANÍSTICA PER DESTINAR A òS TURÍSTIC",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.48,
+      "impacto": 3,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#17",
@@ -304,13 +420,20 @@
       "texto_redactado": "EXP. X2026001127. PR. 2026/05-073. LLICÈNCIA URBANÍSTICA PER DESTINAR A òS",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 2,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#18",
@@ -321,13 +444,20 @@
       "texto_redactado": "EXP. X2026001136. PR.2026/05-076. LLICÈNCIA URBANÍSTICA PER DESTINAR A òS TURÍSTIC",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.48,
+      "impacto": 3,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#19",
@@ -338,13 +468,20 @@
       "texto_redactado": "EXP. X2026001140. PR.2026/05-077. LLICÈNCIA URBANÍSTICA PER DESTINAR A òS TURÍSTIC",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.47,
+      "impacto": 3,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#20",
@@ -355,13 +492,20 @@
       "texto_redactado": "EXP. X2026001149. PR.2026/05-027. LLICÈNCIA URBANÍSTICA PER DESTINAR A òS TURÍSTIC",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 3,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#21",
@@ -372,13 +516,20 @@
       "texto_redactado": "EXP. X2019000591. PR.2026/05-019. HABITATGE D'òS TURÍSTIC SITUAT A LA PLAÇA DE LA",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 2,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#22",
@@ -389,13 +540,20 @@
       "texto_redactado": "EXP. X2026000952. PR.2026/05-020. HABITATGE D'òS TURÍSTIC SITUAT AL PASSEIG PARE",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 2,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#23",
@@ -406,13 +564,20 @@
       "texto_redactado": "EXP. X2026001266. PR.2026/05-070. TARGETA APARCAMENT PERSONES AMB DISCAPACITAT DVS (NO CONDUCTOR). CONCESSIÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.7,
+      "impacto": 2,
+      "confianza_min": 0.73,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#24",
@@ -423,13 +588,20 @@
       "texto_redactado": "EXP. X2026001156. PR.2026/05-040. TARGETA APARCAMENT PERSONES AMB DISCAPACITAT DCG (CONDUCTOR). RENOVACIÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.61,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#25",
@@ -440,13 +612,20 @@
       "texto_redactado": "EXP. X2019002740. PR.2026/05-099. LLICÈNCIA D’OCUPACIÓ TEMPORAL AVINGUDA",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 2,
+      "confianza_min": 0.35,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#26",
@@ -457,13 +636,20 @@
       "texto_redactado": "EXP. X2026001193. PR.2026/05-051. PROTOCOL D’ACTUACIÓ ENTRE L’AJUNTAMENT DE TREMPI LA UNIVERSITAT DE LLEIDA PER A LA PROMOCIÓ DE L’ESPORT ENTRE ELS ESTUDIANTS",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 2,
+      "confianza_min": 0.73,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#27",
@@ -474,13 +660,20 @@
       "texto_redactado": "EXP. X2026001128. PR.2026/05-060. CAMP DE TREBALL LOCAL. ACORDS DE COL·LABORACIÓ. APROVACIÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0.41,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#28",
@@ -491,13 +684,20 @@
       "texto_redactado": "EXP. X2026000678. PR.2026/03-164. CONVENI LA CASA DEL SOL NAIXENT 2026. APROVACIÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 2,
+      "confianza_min": 0.37,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#29",
@@ -508,13 +708,20 @@
       "texto_redactado": "EXP. X2026001163. PR.2026/05-046. BASES ESPECÍFIQUES I CONVOCATÒRIA DE SUBVENCIONS PER A ENTITATS ESPORTIVES EN EL MUNICIPI DE TREMP PER A L’ANY 2026. APROVACIÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.64,
+      "impacto": 3,
+      "confianza_min": 0.43,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#30",
@@ -525,13 +732,20 @@
       "texto_redactado": "EXP. X2026000550. PR.2026/05-090. OFERTA PòBLICA D’OCUPACIÓ 2026. MODIFICACIÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 2,
+      "confianza_min": 0.37,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#31",
@@ -542,13 +756,20 @@
       "texto_redactado": "EXP. X2026001314. PR.2026/05-092. PROVISIÓ DE LA [DIRECCIÓN]-06-F DE TÈCNIC ESPECIALISTA DE CULTURA I FESTES. PROMOCIÓ INTERNA. APROVACIÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 0.88,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     },
     {
       "id": "2026-07-06#32",
@@ -559,13 +780,20 @@
       "texto_redactado": "EXP. X2026000260. PR.2026/01-136. MOSTRA DE CINEMA RURAL MOSTREMP 2026. APROVACIÓ BASES DEL CONCURS.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 2,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:42.802Z"
+      }
     }
   ]
 }

@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-vicenc-de-castellet",
+    "nombre": "Sant Vicenç de Castellet",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "826280001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-11",
+    "municipio_id": "sant-vicenc-de-castellet",
+    "fecha": "2026-07-11",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/826280001/2026/4031352a-2ae1-4f11-abcf-6c6d1145a64b/ACTA%20LOPD%20PLE07-2026%20extr.%2011%20JULIOL.pdf",
+    "hash_contenido": "b2271a89e98ad1ee501155ad44943fd09985ad5ca7c99553cf441590de41aa35",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-20T10:46:32.559Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-11#1",
+      "sesion_id": "2026-07-11",
+      "orden": 1,
+      "titulo": "1.- ALCALDIA – PRESIDÈNCIA................................................................................................... 2",
+      "resultado": null,
+      "texto_redactado": "1.- ALCALDIA – PRESIDÈNCIA................................................................................................... 2",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:32.559Z"
+      }
+    }
+  ]
+}

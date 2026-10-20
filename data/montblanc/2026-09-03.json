@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "montblanc",
+    "nombre": "Montblanc",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4308620002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-03",
+    "municipio_id": "montblanc",
+    "fecha": "2026-09-03",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4308620002/2026/b270b4e5-a389-468c-8260-61d3f1832202/07_Ple%20Extraordinari_03-09-2026_.pdf",
+    "hash_contenido": "d91fe2d99adf9c67d47a648548b4eb94e932904f08fb4c7ec1f589dc86fc8968",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-20T10:46:37.601Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-03#1",
+      "sesion_id": "2026-09-03",
+      "orden": 1,
+      "titulo": "Acta del Ple Identificació de la sessió Sessió: Ple extraordinari 7/2026 honors i distincions",
+      "resultado": null,
+      "texto_redactado": "Acta del Ple Identificació de la sessió Sessió: Ple extraordinari 7/2026 honors i distincions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.78,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-20T10:46:37.601Z"
+      }
+    }
+  ]
+}
