@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/4308620002/2026/f10ab1a0-792f-4455-9d89-4518af240fe9/06_Ple%20Ordinari_28-07-2026_.pdf",
     "hash_contenido": "a4cbb6c37c30dd0fd0f1fbcf4c9cb7d38c3f592b2113efddd35143a2ecd807f0",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-10-20T10:37:05.070Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-21T10:47:06.417Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "Els òrgans de les diferents administracions públiques poden delegar l'exercici de les",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.72,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-21T10:47:06.417Z"
+      }
     },
     {
       "id": "2026-07-28#2",
@@ -49,13 +56,20 @@
       "texto_redactado": "En cap cas poden ser objecte de delegació les competències relatives a:",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.93,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-21T10:47:06.417Z"
+      }
     },
     {
       "id": "2026-07-28#3",
@@ -66,13 +80,20 @@
       "texto_redactado": "Una planificació més flexible i adaptada a l'evolució tecnològica",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-21T10:47:06.417Z"
+      }
     },
     {
       "id": "2026-07-28#4",
@@ -83,13 +104,20 @@
       "texto_redactado": "Vist que en data 26 de maig de 2026 el Ple de l’Ajuntament de Montblanc, mitjançant Acord",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-21T10:47:06.417Z"
+      }
     },
     {
       "id": "2026-07-28#5",
@@ -100,13 +128,20 @@
       "texto_redactado": "AL·LEGACIONS PARTICULARS INCORPORADES A PARTIR DE LES APORTACIONS",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 2,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-21T10:47:06.417Z"
+      }
     },
     {
       "id": "2026-07-28#6",
@@ -117,13 +152,20 @@
       "texto_redactado": "Contradiccions amb els criteris del PLATER",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.47,
+      "impacto": 2,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-21T10:47:06.417Z"
+      }
     },
     {
       "id": "2026-07-28#7",
@@ -134,13 +176,20 @@
       "texto_redactado": "Vist el certificat de Secretaria de no presentació d'al·legacions dins el termini d'informació",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-21T10:47:06.417Z"
+      }
     },
     {
       "id": "2026-07-28#8",
@@ -151,13 +200,20 @@
       "texto_redactado": "Tenint en compte que l'article 39.3 de la Llei 39/2015, permet, de forma excepcional, atorgar",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.97,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-21T10:47:06.417Z"
+      }
     },
     {
       "id": "2026-07-28#9",
@@ -168,13 +224,20 @@
       "texto_redactado": "L’article 47 de la Llei 39/2015, d’1 d’octubre, del Procediment administratiu comú de les",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-21T10:47:06.417Z"
+      }
     },
     {
       "id": "2026-07-28#10",
@@ -185,13 +248,20 @@
       "texto_redactado": "L’article 39 de la Llei 9/2017, de 8 de novembre, de Contractes del sector públic disposa",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 1,
+      "confianza_min": 0.84,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-21T10:47:06.417Z"
+      }
     },
     {
       "id": "2026-07-28#11",
@@ -202,13 +272,20 @@
       "texto_redactado": "L’article 434 del RD de 24 de juliol de 1889 pel qual es publica el Codi Civil estableix que la",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0.4,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-21T10:47:06.417Z"
+      }
     },
     {
       "id": "2026-07-28#12",
@@ -219,13 +296,20 @@
       "texto_redactado": "L’article 3.1 de la Llei 40/2015, d’1 d’octubre de Règim jurídic del sector públic estableix que",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.72,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-21T10:47:06.417Z"
+      }
     },
     {
       "id": "2026-07-28#13",
@@ -236,13 +320,20 @@
       "texto_redactado": "L’article 111.7 de la Llei 29/2002, de 30 de desembre per la qual es va aprovar la Llei del",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.3,
+      "impacto": 1,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-21T10:47:06.417Z"
+      }
     },
     {
       "id": "2026-07-28#14",
@@ -253,13 +344,20 @@
       "texto_redactado": "La sentència del Tribunal Suprem de 12 de desembre de 2012 en resolució del recurs",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-21T10:47:06.417Z"
+      }
     },
     {
       "id": "2026-07-28#15",
@@ -270,13 +368,20 @@
       "texto_redactado": "El dictamen de la Comissió Jurídica Assessora de Catalunya número 394/12, de 4 de",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.95,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-21T10:47:06.417Z"
+      }
     },
     {
       "id": "2026-07-28#16",
@@ -287,13 +392,20 @@
       "texto_redactado": "La Sentència de Tribunal Suprem (Sala del Contenciós-Administratiu, Secció Tercera,",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-21T10:47:06.417Z"
+      }
     },
     {
       "id": "2026-07-28#17",
@@ -304,13 +416,20 @@
       "texto_redactado": "La Comissió Jurídica Assessora de Catalunya en el seu dictamen número 178 / 2009 de 11",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.7,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-21T10:47:06.417Z"
+      }
     }
   ]
 }
