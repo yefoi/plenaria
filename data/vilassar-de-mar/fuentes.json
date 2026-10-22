@@ -1,11 +1,13 @@
 {
   "municipio_id": "vilassar-de-mar",
   "fuente_tipo": "ckan-seu-e",
-  "actualizado_en": "2026-10-21T10:18:22.719Z",
-  "ultima_descarga": "2026-10-21T10:18:22.717Z",
+  "actualizado_en": "2026-10-22T10:23:49.896Z",
+  "ultima_descarga": "2026-10-22T10:23:49.894Z",
   "ultima_sesion_fecha": "2026-09-24",
   "sesiones_procesadas": 0,
-  "errores": [],
+  "errores": [
+    "2026-09-24 https://media.seu-e.cat/acteca/821910007/2026/0e1d2ac3-ca35-4fbd-9417-54be3fe87e44/ACTA%20JUNTA%20DE%20GOVERN%2024-09-2026.pdf: HTTP 404 al descargar https://media.seu-e.cat/acteca/821910007/2026/0e1d2ac3-ca35-4fbd-9417-54be3fe87e44/ACTA%20JUNTA%20DE%20GOVERN%2024-09-2026.pdf"
+  ],
   "robots": {
     "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv": "permitido por robots.txt",
     "https://media.seu-e.cat/acteca/821910007/2026/0e1d2ac3-ca35-4fbd-9417-54be3fe87e44/ACTA%20JUNTA%20DE%20GOVERN%2024-09-2026.pdf": "permitido por robots.txt"

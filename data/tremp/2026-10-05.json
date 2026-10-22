@@ -1,0 +1,1419 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "tremp",
+    "nombre": "Tremp",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2523470005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-05",
+    "municipio_id": "tremp",
+    "fecha": "2026-10-05",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2523470005/2026/8f7f6c3c-9ac7-48da-b12f-4d6ff106474b/PLE%2020261005%20(09)%20signada%20PD.pdf",
+    "hash_contenido": "c7a4a0e0c19bef67bad1fddf9fc8b1b5dab888ffde96789aea9ba8a7e063b5f6",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-22T10:56:45.483Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-05#1",
+      "sesion_id": "2026-10-05",
+      "orden": 1,
+      "titulo": "EXP. X2026002196. PLE 08/2026 DE 15.09.2026 ORDINARI. APROVACIÓ DE L'ACTA.-",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002196. PLE 08/2026 DE 15.09.2026 ORDINARI. APROVACIÓ DE L'ACTA.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#2",
+      "sesion_id": "2026-10-05",
+      "orden": 2,
+      "titulo": "DECRETS D'ALCALDIA DEL NòM. 975 [MATRÍCULA] L'ANY 2026. DONAR COMPTE.-",
+      "resultado": null,
+      "texto_redactado": "DECRETS D'ALCALDIA DEL NòM. 975 [MATRÍCULA] L'ANY 2026. DONAR COMPTE.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#3",
+      "sesion_id": "2026-10-05",
+      "orden": 3,
+      "titulo": "EXP. X2026002352. JUNTA DE GOVERN LOCAL 14/2026 DE 21.09.2026 ORDINÀRIA. DONAR COMPTE.-",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002352. JUNTA DE GOVERN LOCAL 14/2026 DE 21.09.2026 ORDINÀRIA. DONAR COMPTE.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#4",
+      "sesion_id": "2026-10-05",
+      "orden": 4,
+      "titulo": "EXP. X2026002505. PR.2026/09-104. MODIFICACIÓ NòMERO 10 DEL PRESSUPOST 2026. APROVACIÓ INICIAL.-",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002505. PR.2026/09-104. MODIFICACIÓ NòMERO 10 DEL PRESSUPOST 2026. APROVACIÓ INICIAL.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.48,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#5",
+      "sesion_id": "2026-10-05",
+      "orden": 5,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#6",
+      "sesion_id": "2026-10-05",
+      "orden": 6,
+      "titulo": "EXP. X2026002510. PR.2026/09-105. PLA LOCAL D'IMPULS AL CATALÀ DE L'AJUNTAMENT DE TREMP. VALIDACIÓ.-",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002510. PR.2026/09-105. PLA LOCAL D'IMPULS AL CATALÀ DE L'AJUNTAMENT DE TREMP. VALIDACIÓ.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 2,
+      "confianza_min": 0.18,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#7",
+      "sesion_id": "2026-10-05",
+      "orden": 7,
+      "titulo": "EXP. X2025002918. PR.2026/09-132. MODIFICACIÓ NòM. 9 DEL POUM. REASSIGNACIÓ D’òS A UNA PARCEL·LA D’EQUIPAMENTS. APROVACIÓ PROVISIONAL.-",
+      "resultado": null,
+      "texto_redactado": "EXP. X2025002918. PR.2026/09-132. MODIFICACIÓ NòM. 9 DEL POUM. REASSIGNACIÓ D’òS A UNA PARCEL·LA D’EQUIPAMENTS. APROVACIÓ PROVISIONAL.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.57,
+      "impacto": 3,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#8",
+      "sesion_id": "2026-10-05",
+      "orden": 8,
+      "titulo": "EXP. X2026002345. PR.2026/09-068. LLICÈNCIA URBANÍSTICA PER DESTINAR A òS TURÍSTIC",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002345. PR.2026/09-068. LLICÈNCIA URBANÍSTICA PER DESTINAR A òS TURÍSTIC",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.56,
+      "impacto": 3,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#9",
+      "sesion_id": "2026-10-05",
+      "orden": 9,
+      "titulo": "EXP. X2026002331. PR.2026/09-045. HABITATGE D’òS TURÍSTIC SITUAT A L’AVINGUDA",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002331. PR.2026/09-045. HABITATGE D’òS TURÍSTIC SITUAT A L’AVINGUDA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.51,
+      "impacto": 2,
+      "confianza_min": 0.3,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#10",
+      "sesion_id": "2026-10-05",
+      "orden": 10,
+      "titulo": "EXP. X2019000583. PR.2026/09-071. HABITATGE D'òS TURÍSTICS SITUAT AL CARRER DE",
+      "resultado": null,
+      "texto_redactado": "EXP. X2019000583. PR.2026/09-071. HABITATGE D'òS TURÍSTICS SITUAT AL CARRER DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.58,
+      "impacto": 2,
+      "confianza_min": 0.34,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#11",
+      "sesion_id": "2026-10-05",
+      "orden": 11,
+      "titulo": "EXP. X2026001157. PR.2026/09-070. HABITATGE D'òS TURÍSTICS SITUAT AL CARRER DEL",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026001157. PR.2026/09-070. HABITATGE D'òS TURÍSTICS SITUAT AL CARRER DEL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 2,
+      "confianza_min": 0.27,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#12",
+      "sesion_id": "2026-10-05",
+      "orden": 12,
+      "titulo": "EXP. X2026001743. PR.2026/08-005. CONVOCATÒRIA DE SUBVENCIONS PER A CENTRES EDUCATIUS, ASSOCIACIONS DE FAMÍLIES I DE MARES I PARES PER A L’ANY 2026. COL·LEGI MARIA IMMACULADA. ADJUDICACIÓ.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026001743. PR.2026/08-005. CONVOCATÒRIA DE SUBVENCIONS PER A CENTRES EDUCATIUS, ASSOCIACIONS DE FAMÍLIES I DE MARES I PARES PER A L’ANY 2026. COL·LEGI MARIA IMMACULADA. ADJUDICACIÓ.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.53,
+      "impacto": 3,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#13",
+      "sesion_id": "2026-10-05",
+      "orden": 13,
+      "titulo": "EXP. X2026001744. PR.2026/08-028. CONVOCATORIA DE SUBVENCIONS PER A CENTRES EDUCATIUS, ASSOCIACIONS DE FAMÍLIES I DE MARES I PARES PER A L’ANY 2026. ESCOLA ESPLUGA DE SERRA. ADJUDICACIÓ.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026001744. PR.2026/08-028. CONVOCATORIA DE SUBVENCIONS PER A CENTRES EDUCATIUS, ASSOCIACIONS DE FAMÍLIES I DE MARES I PARES PER A L’ANY 2026. ESCOLA ESPLUGA DE SERRA. ADJUDICACIÓ.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 3,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#14",
+      "sesion_id": "2026-10-05",
+      "orden": 14,
+      "titulo": "EXP. X2026001745. PR.2026/07-138. CONVOCATÒRIA DE SUBVENCIONS PER A CENTRES EDUCATIUS, ASSOCIACIONS DE FAMÍLIES I DE MARES I PARES PER A L’ANY 2026. ESCOLA VALLDEFLORS. ADJUDICACIÓ.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026001745. PR.2026/07-138. CONVOCATÒRIA DE SUBVENCIONS PER A CENTRES EDUCATIUS, ASSOCIACIONS DE FAMÍLIES I DE MARES I PARES PER A L’ANY 2026. ESCOLA VALLDEFLORS. ADJUDICACIÓ.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.53,
+      "impacto": 3,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#15",
+      "sesion_id": "2026-10-05",
+      "orden": 15,
+      "titulo": "EXP. X2026001746. PR.2026/08-026. CONVOCATÒRIA DE SUBVENCIONS PER A CENTRES EDUCATIUS, ASSOCIACIONS DE FAMÍLIES I DE MARES I PARES PER A L’ANY 2026. AFA ESCOLA VALLDEFLORS. ADJUDICACIÓ.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026001746. PR.2026/08-026. CONVOCATÒRIA DE SUBVENCIONS PER A CENTRES EDUCATIUS, ASSOCIACIONS DE FAMÍLIES I DE MARES I PARES PER A L’ANY 2026. AFA ESCOLA VALLDEFLORS. ADJUDICACIÓ.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.56,
+      "impacto": 3,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#16",
+      "sesion_id": "2026-10-05",
+      "orden": 16,
+      "titulo": "EXP. X2026001747. PR.2026/08-025. CONVOCATÒRIA DE SUBVENCIONS PER A CENTRES EDUCATIUS, ASSOCIACIONS DE FAMÍLIES I DE MARES I PARES PER A L’ANY 2026. AMPA ESPLUGA DE SERRA. ADJUDICACIÓ.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026001747. PR.2026/08-025. CONVOCATÒRIA DE SUBVENCIONS PER A CENTRES EDUCATIUS, ASSOCIACIONS DE FAMÍLIES I DE MARES I PARES PER A L’ANY 2026. AMPA ESPLUGA DE SERRA. ADJUDICACIÓ.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.55,
+      "impacto": 3,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#17",
+      "sesion_id": "2026-10-05",
+      "orden": 17,
+      "titulo": "EXP. X2026001751. PR.2026/08-027. CONVOCATÒRIA DE SUBVENCIONS PER A CENTRES EDUCATIUS, ASSOCIACIONS DE FAMÍLIES I DE MARES I PARES PER A L’ANY 2026. CENTRE DE FORMACIÓ D’ADULTS. ADJUDICACIÓ.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026001751. PR.2026/08-027. CONVOCATÒRIA DE SUBVENCIONS PER A CENTRES EDUCATIUS, ASSOCIACIONS DE FAMÍLIES I DE MARES I PARES PER A L’ANY 2026. CENTRE DE FORMACIÓ D’ADULTS. ADJUDICACIÓ.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.5,
+      "impacto": 3,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#18",
+      "sesion_id": "2026-10-05",
+      "orden": 18,
+      "titulo": "EXP. X2026001753. PR.2026/08-034. CONVOCATÒRIA DE SUBVENCIONS PER A ACTIVITATS CULTURALS PER A L’ANY 2026. ASSOCIACIÓ MALFARGATS DE PALLARS. ADJUDICACIÓ.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026001753. PR.2026/08-034. CONVOCATÒRIA DE SUBVENCIONS PER A ACTIVITATS CULTURALS PER A L’ANY 2026. ASSOCIACIÓ MALFARGATS DE PALLARS. ADJUDICACIÓ.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.43,
+      "impacto": 2,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#19",
+      "sesion_id": "2026-10-05",
+      "orden": 19,
+      "titulo": "EXP. X2026001754. PR.2026/08-038. CONVOCATÒRIA DE SUBVENCIONS PER A ACTIVITATS CULTURALS PER A L’ANY 2026. CASAL CULTURAL DE TREMP. ADJUDICACIÓ.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026001754. PR.2026/08-038. CONVOCATÒRIA DE SUBVENCIONS PER A ACTIVITATS CULTURALS PER A L’ANY 2026. CASAL CULTURAL DE TREMP. ADJUDICACIÓ.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.48,
+      "impacto": 3,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#20",
+      "sesion_id": "2026-10-05",
+      "orden": 20,
+      "titulo": "EXP. X2026001755. PR.2026/08-037. CONVOCATÒRIA DE SUBVENCIONS PER A ACTIVITATS CULTURALS PER A L’ANY 2026. ASSOCIACIÓ COLLA DE DIABLES LO PEIROT. ADJUDICACIÓ.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026001755. PR.2026/08-037. CONVOCATÒRIA DE SUBVENCIONS PER A ACTIVITATS CULTURALS PER A L’ANY 2026. ASSOCIACIÓ COLLA DE DIABLES LO PEIROT. ADJUDICACIÓ.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.36,
+      "impacto": 2,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#21",
+      "sesion_id": "2026-10-05",
+      "orden": 21,
+      "titulo": "EXP. X2026001756. PR.2026/08-035. CONVOCATÒRIA DE SUBVENCIONS PER A ACTIVITATS CULTURALS PER A L’ANY 2026. ASSOCIACIÓ DE PROFESSIONALS DE LES ARTS ESCÈNIQUES DEL PALLARS. ADJUDICACIÓ.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026001756. PR.2026/08-035. CONVOCATÒRIA DE SUBVENCIONS PER A ACTIVITATS CULTURALS PER A L’ANY 2026. ASSOCIACIÓ DE PROFESSIONALS DE LES ARTS ESCÈNIQUES DEL PALLARS. ADJUDICACIÓ.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 2,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#22",
+      "sesion_id": "2026-10-05",
+      "orden": 22,
+      "titulo": "EXP. X2026001757. PR.2026/08-033. CONVOCATÒRIA DE SUBVENCIONS PER A ACTIVITATS CULTURALS PER A L’ANY 2026. ASSOCIACIÓ PALATIUM. ADJUDICACIÓ.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026001757. PR.2026/08-033. CONVOCATÒRIA DE SUBVENCIONS PER A ACTIVITATS CULTURALS PER A L’ANY 2026. ASSOCIACIÓ PALATIUM. ADJUDICACIÓ.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 2,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#23",
+      "sesion_id": "2026-10-05",
+      "orden": 23,
+      "titulo": "EXP. X2026001758. PR.2026/08-036. CONVOCATÒRIA DE SUBVENCIONS PER A ACTIVITATS CULTURALS PER A L’ANY 2026. ASSOCIACIÓ DE VEÏNS DE SAPEIRA. ADJUDICACIÓ.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026001758. PR.2026/08-036. CONVOCATÒRIA DE SUBVENCIONS PER A ACTIVITATS CULTURALS PER A L’ANY 2026. ASSOCIACIÓ DE VEÏNS DE SAPEIRA. ADJUDICACIÓ.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.55,
+      "impacto": 3,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#24",
+      "sesion_id": "2026-10-05",
+      "orden": 24,
+      "titulo": "EXP. X2026002075. PR.2026/09-055. SUBVENCIONS A ENTITATS ESPORTIVES 2026. RESOLUCIÓ CLUB TENNIS TAULA TREMP.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002075. PR.2026/09-055. SUBVENCIONS A ENTITATS ESPORTIVES 2026. RESOLUCIÓ CLUB TENNIS TAULA TREMP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.4,
+      "impacto": 2,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#25",
+      "sesion_id": "2026-10-05",
+      "orden": 25,
+      "titulo": "EXP. X2026002076. PR.2026/09-053. SUBVENCIONS A ENTITATS ESPORTIVES 2026. RESOLUCIÓ CLUB FUTBOL SALA TREMP.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002076. PR.2026/09-053. SUBVENCIONS A ENTITATS ESPORTIVES 2026. RESOLUCIÓ CLUB FUTBOL SALA TREMP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 2,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#26",
+      "sesion_id": "2026-10-05",
+      "orden": 26,
+      "titulo": "EXP. X2026002078. PR.2026/09-049. SUBVENCIONS A ENTITATS ESPORTIVES 2026. RESOLUCIÓ CLUB BÀSQUET TREMP.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002078. PR.2026/09-049. SUBVENCIONS A ENTITATS ESPORTIVES 2026. RESOLUCIÓ CLUB BÀSQUET TREMP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 2,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#27",
+      "sesion_id": "2026-10-05",
+      "orden": 27,
+      "titulo": "EXP. X2026002079. PR.2026/09-054. SUBVENCIONS A ENTITATS ESPORTIVES 2026. RESOLUCIÓ CLUB ESQUÍ TREMP.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002079. PR.2026/09-054. SUBVENCIONS A ENTITATS ESPORTIVES 2026. RESOLUCIÓ CLUB ESQUÍ TREMP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.37,
+      "impacto": 2,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#28",
+      "sesion_id": "2026-10-05",
+      "orden": 28,
+      "titulo": "EXP. X2026002093. PR.2026/09-050. SUBVENCIONS A ENTITATS ESPORTIVES 2026. RESOLUCIÓ CLUB PATÍ TREMP.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002093. PR.2026/09-050. SUBVENCIONS A ENTITATS ESPORTIVES 2026. RESOLUCIÓ CLUB PATÍ TREMP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.39,
+      "impacto": 2,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#29",
+      "sesion_id": "2026-10-05",
+      "orden": 29,
+      "titulo": "EXP. X2026002214. PR.2026/09-051. SUBVENCIONS A ENTITATS ESPORTIVES 2026. RESOLUCIÓ CLUB UNIÓ CICLISTA TREMP.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002214. PR.2026/09-051. SUBVENCIONS A ENTITATS ESPORTIVES 2026. RESOLUCIÓ CLUB UNIÓ CICLISTA TREMP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.35,
+      "impacto": 2,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#30",
+      "sesion_id": "2026-10-05",
+      "orden": 30,
+      "titulo": "EXP. X2026002215. PR.2026/09-056. SUBVENCIONS A ENTITATS ESPORTIVES 2026.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002215. PR.2026/09-056. SUBVENCIONS A ENTITATS ESPORTIVES 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.47,
+      "impacto": 3,
+      "confianza_min": 0.29,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#31",
+      "sesion_id": "2026-10-05",
+      "orden": 31,
+      "titulo": "EXP. X2026002216. PR.2026/09-048. SUBVENCIONS A ENTITATS ESPORTIVES 2026. RESOLUCIÓ CLUB FUTBOL TREMP.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002216. PR.2026/09-048. SUBVENCIONS A ENTITATS ESPORTIVES 2026. RESOLUCIÓ CLUB FUTBOL TREMP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 2,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#32",
+      "sesion_id": "2026-10-05",
+      "orden": 32,
+      "titulo": "EXP. X2026002217. PR.2026/09-052. SUBVENCIONS A ENTITATS ESPORTIVES 2026. RESOLUCIÓ CLUB ESCOLA FUTBOL TREMP.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002217. PR.2026/09-052. SUBVENCIONS A ENTITATS ESPORTIVES 2026. RESOLUCIÓ CLUB ESCOLA FUTBOL TREMP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.43,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#33",
+      "sesion_id": "2026-10-05",
+      "orden": 33,
+      "titulo": "EXP. X2026001553. PR.2026/07-097. SUBVENCIÓ DE BENESTAR LA CREU ROJA PER A L’ANY 2026. RESOLUCIÓ.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026001553. PR.2026/07-097. SUBVENCIÓ DE BENESTAR LA CREU ROJA PER A L’ANY 2026. RESOLUCIÓ.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.58,
+      "impacto": 3,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#34",
+      "sesion_id": "2026-10-05",
+      "orden": 34,
+      "titulo": "EXP. X2026002006. PR.2026/07-117. TARGETA D'APARCAMENT PER A PERSONES AMB DISCAPACITAT. IFC (NO CONDUCTOR). CONCESSIÓ.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002006. PR.2026/07-117. TARGETA D'APARCAMENT PER A PERSONES AMB DISCAPACITAT. IFC (NO CONDUCTOR). CONCESSIÓ.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.7,
+      "impacto": 2,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#35",
+      "sesion_id": "2026-10-05",
+      "orden": 35,
+      "titulo": "EXP. X2026002300. PR.2026/09-013. TARGETA D'APARCAMENT PER A PERSONES AMB DISCAPACITAT. MMS (NO CONDUCTOR). CONCESSIÓ.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002300. PR.2026/09-013. TARGETA D'APARCAMENT PER A PERSONES AMB DISCAPACITAT. MMS (NO CONDUCTOR). CONCESSIÓ.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.72,
+      "impacto": 2,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#36",
+      "sesion_id": "2026-10-05",
+      "orden": 36,
+      "titulo": "EXP. X2026002301. PR.2026/09-014. TARGETA D'APARCAMENT PER A PERSONES AMB DISCAPACITAT. FMS (NO CONDUCTOR). CONCESSIÓ.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002301. PR.2026/09-014. TARGETA D'APARCAMENT PER A PERSONES AMB DISCAPACITAT. FMS (NO CONDUCTOR). CONCESSIÓ.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.72,
+      "impacto": 2,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#37",
+      "sesion_id": "2026-10-05",
+      "orden": 37,
+      "titulo": "EXP. X2026002310. PR.2026/09-027. TARGETA D'APARCAMENT PER A PERSONES AMB DISCAPACITAT. DRB (NO CONDUCTOR). CONCESSIÓ.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002310. PR.2026/09-027. TARGETA D'APARCAMENT PER A PERSONES AMB DISCAPACITAT. DRB (NO CONDUCTOR). CONCESSIÓ.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.71,
+      "impacto": 2,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#38",
+      "sesion_id": "2026-10-05",
+      "orden": 38,
+      "titulo": "EXP. X2026002302. PR.2026/09-017. TARGETA D'APARCAMENT PER A PERSONES AMB DISCAPACITAT. TOG (NO CONDUCTOR). RENOVACIÓ.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002302. PR.2026/09-017. TARGETA D'APARCAMENT PER A PERSONES AMB DISCAPACITAT. TOG (NO CONDUCTOR). RENOVACIÓ.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.65,
+      "impacto": 2,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#39",
+      "sesion_id": "2026-10-05",
+      "orden": 39,
+      "titulo": "EXP. X2023001588. PR.2026/07-101. TARGETA D'APARCAMENT PER A PERSONES AMB DISCAPACITAT. APC (NO CONDUCTOR). BAIXA.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2023001588. PR.2026/07-101. TARGETA D'APARCAMENT PER A PERSONES AMB DISCAPACITAT. APC (NO CONDUCTOR). BAIXA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.55,
+      "impacto": 2,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#40",
+      "sesion_id": "2026-10-05",
+      "orden": 40,
+      "titulo": "EXP. X2019003285. PR.2026/09-018. TARGETA D'APARCAMENT PER A PERSONES AMB DISCAPACITAT. EBP (NO CONDUCTOR). BAIXA.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2019003285. PR.2026/09-018. TARGETA D'APARCAMENT PER A PERSONES AMB DISCAPACITAT. EBP (NO CONDUCTOR). BAIXA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 2,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#41",
+      "sesion_id": "2026-10-05",
+      "orden": 41,
+      "titulo": "EXP. X2026001988. PR.2026/08-056. DRETS FUNERARIS. TR-CN-0937/CN-0941. CONCESSIÓ. AST.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026001988. PR.2026/08-056. DRETS FUNERARIS. TR-CN-0937/CN-0941. CONCESSIÓ. AST.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.49,
+      "impacto": 2,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#42",
+      "sesion_id": "2026-10-05",
+      "orden": 42,
+      "titulo": "EXP. X2026002326. PR.2026/09-038. DRETS FUNERARIS. TR-[MATRÍCULA]. CONCESSIÓ. JMJO.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002326. PR.2026/09-038. DRETS FUNERARIS. TR-[MATRÍCULA]. CONCESSIÓ. JMJO.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.51,
+      "impacto": 2,
+      "confianza_min": 0.29,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#43",
+      "sesion_id": "2026-10-05",
+      "orden": 43,
+      "titulo": "EXP. X2026002057. PR.2026/08-132. DESIGNACIÓ DE BENEFICIARI DE DRETS FUNERARIS. NRB.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002057. PR.2026/08-132. DESIGNACIÓ DE BENEFICIARI DE DRETS FUNERARIS. NRB.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.39,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#44",
+      "sesion_id": "2026-10-05",
+      "orden": 44,
+      "titulo": "EXP. X2026002229. PR.2026/09-002. DESIGNACIÓ DE BENEFICIARI DE DRETS FUNERARIS. LCR.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002229. PR.2026/09-002. DESIGNACIÓ DE BENEFICIARI DE DRETS FUNERARIS. LCR.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.32,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#45",
+      "sesion_id": "2026-10-05",
+      "orden": 45,
+      "titulo": "EXP. X2026001963. PR.2026/07-106. DRETS FUNERARIS. TR-[MATRÍCULA]-D. TRANSMISSIÓ I DESIGNACIÓ DE BENEFICIARI. FMD.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026001963. PR.2026/07-106. DRETS FUNERARIS. TR-[MATRÍCULA]-D. TRANSMISSIÓ I DESIGNACIÓ DE BENEFICIARI. FMD.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 1,
+      "confianza_min": 0.37,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#46",
+      "sesion_id": "2026-10-05",
+      "orden": 46,
+      "titulo": "EXP. X2026001995. PR.2026/07-118. DRETS FUNERARIS. TR-CN-0510/ TR-CR-0017. TRANSMISSIÓ. EFM.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026001995. PR.2026/07-118. DRETS FUNERARIS. TR-CN-0510/ TR-CR-0017. TRANSMISSIÓ. EFM.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 1,
+      "confianza_min": 0.36,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#47",
+      "sesion_id": "2026-10-05",
+      "orden": 47,
+      "titulo": "EXP. X2026002155. PR.2026/08-064. DRETS FUNERARIS. TR-[MATRÍCULA]/B. TRANSMISSIÓ. JBP.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002155. PR.2026/08-064. DRETS FUNERARIS. TR-[MATRÍCULA]/B. TRANSMISSIÓ. JBP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.45,
+      "impacto": 1,
+      "confianza_min": 0.33,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#48",
+      "sesion_id": "2026-10-05",
+      "orden": 48,
+      "titulo": "EXP. X2026002156. PR.2026/09-015. DRETS FUNERARIS. TR-[MATRÍCULA]. TRANSMISSIÓ. JJBR.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002156. PR.2026/09-015. DRETS FUNERARIS. TR-[MATRÍCULA]. TRANSMISSIÓ. JJBR.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 1,
+      "confianza_min": 0.33,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#49",
+      "sesion_id": "2026-10-05",
+      "orden": 49,
+      "titulo": "EXP. X2026002157. PR.2026/09-019. DRETS FUNERARIS. TR-[MATRÍCULA]. TRANSMISSIÓ. FCC.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002157. PR.2026/09-019. DRETS FUNERARIS. TR-[MATRÍCULA]. TRANSMISSIÓ. FCC.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 2,
+      "confianza_min": 0.36,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#50",
+      "sesion_id": "2026-10-05",
+      "orden": 50,
+      "titulo": "EXP. X2026002159. PR.2026/09-022. DRETS FUNERARIS. TR-[MATRÍCULA]-1/TR-[MATRÍCULA]. TRANSMISSIÓ. AFL.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002159. PR.2026/09-022. DRETS FUNERARIS. TR-[MATRÍCULA]-1/TR-[MATRÍCULA]. TRANSMISSIÓ. AFL.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.42,
+      "impacto": 1,
+      "confianza_min": 0.33,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#51",
+      "sesion_id": "2026-10-05",
+      "orden": 51,
+      "titulo": "EXP. X2026002197. PR.2026/09-026. DRETS FUNERARIS. TR-CN-0085. TRANSMISSIÓ. MLFM.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002197. PR.2026/09-026. DRETS FUNERARIS. TR-CN-0085. TRANSMISSIÓ. MLFM.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.4,
+      "impacto": 1,
+      "confianza_min": 0.4,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#52",
+      "sesion_id": "2026-10-05",
+      "orden": 52,
+      "titulo": "EXP. X2026002254. PR.2026/09-003. DRETS FUNERARIS. TR-[MATRÍCULA]-B-C-D-E. TRANSMISSIÓ. ILG.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002254. PR.2026/09-003. DRETS FUNERARIS. TR-[MATRÍCULA]-B-C-D-E. TRANSMISSIÓ. ILG.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.45,
+      "impacto": 1,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#53",
+      "sesion_id": "2026-10-05",
+      "orden": 53,
+      "titulo": "EXP. X2026002287. PR.2026/09-067. DRETS FUNERARIS. TR-CN-0835. TRANSMISSIÓ. JBA.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002287. PR.2026/09-067. DRETS FUNERARIS. TR-CN-0835. TRANSMISSIÓ. JBA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.38,
+      "impacto": 1,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#54",
+      "sesion_id": "2026-10-05",
+      "orden": 54,
+      "titulo": "EXP. X2026002288. PR.2026/09-005. DRETS FUNERARIS. TR-CN-0331-0332. TRANSMISSIÓ. CFM.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002288. PR.2026/09-005. DRETS FUNERARIS. TR-CN-0331-0332. TRANSMISSIÓ. CFM.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.42,
+      "impacto": 2,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#55",
+      "sesion_id": "2026-10-05",
+      "orden": 55,
+      "titulo": "EXP. X2026002289. PR.2026/09-007. DRETS FUNERARIS. TR-CN-0408-0888. TRANSMISSIÓ. GFM.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002289. PR.2026/09-007. DRETS FUNERARIS. TR-CN-0408-0888. TRANSMISSIÓ. GFM.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.42,
+      "impacto": 1,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#56",
+      "sesion_id": "2026-10-05",
+      "orden": 56,
+      "titulo": "EXP. X2026001496. PR.2026/09-010. DRETS FUNERARIS. TR-CN-0204. RETROCESSIÓ I TRASLLAT DE RESTES A L'OSSERA COMUNA. MDRL.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026001496. PR.2026/09-010. DRETS FUNERARIS. TR-CN-0204. RETROCESSIÓ I TRASLLAT DE RESTES A L'OSSERA COMUNA. MDRL.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 2,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#57",
+      "sesion_id": "2026-10-05",
+      "orden": 57,
+      "titulo": "EXP. X2026002327. PR.2026/09-039. TRASLLAT DE RESTES AL CEMENTIRI DE TREMP. JMJM.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2026002327. PR.2026/09-039. TRASLLAT DE RESTES AL CEMENTIRI DE TREMP. JMJM.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 2,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    },
+    {
+      "id": "2026-10-05#58",
+      "sesion_id": "2026-10-05",
+      "orden": 58,
+      "titulo": "EXP. X2024001535. PR.2026/08-124. DOCUMENT òNIC DE PROTECCIÓ CIVIL DE TREMP (20262030). APROVACIÓ INICIAL DEL PROJECTE.",
+      "resultado": null,
+      "texto_redactado": "EXP. X2024001535. PR.2026/08-124. DOCUMENT òNIC DE PROTECCIÓ CIVIL DE TREMP (20262030). APROVACIÓ INICIAL DEL PROJECTE.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 4,
+      "confianza_min": 0.08,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:45.483Z"
+      }
+    }
+  ]
+}

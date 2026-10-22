@@ -1,0 +1,247 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "santa-cristina-daro",
+    "nombre": "Santa Cristina d'Aro",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1718120002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-08-25",
+    "municipio_id": "santa-cristina-daro",
+    "fecha": "2026-08-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1718120002/2026/48b964c6-5127-4e03-a653-7b1da238b9de/Acta%20Ple%20agost%202026.pdf",
+    "hash_contenido": "6b8e7cf46eb88d978567eb86b722f229a45542ba5bed13da2941069ded8c8c42",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-22T10:56:47.170Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-08-25#1",
+      "sesion_id": "2026-08-25",
+      "orden": 1,
+      "titulo": "ACTA DE PLE DE LA SESSIÓ ANTERIOR. Lectura i aprovació",
+      "resultado": null,
+      "texto_redactado": "ACTA DE PLE DE LA SESSIÓ ANTERIOR. Lectura i aprovació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:47.170Z"
+      }
+    },
+    {
+      "id": "2026-08-25#2",
+      "sesion_id": "2026-08-25",
+      "orden": 2,
+      "titulo": "PROPOSTA DE RECTIFICACIÓ DE L'ERROR ARITMÈTIC CONTINGUT EN L'ACORD DEL PLE DE 28 DE JULIOL DE 2026, RELATIU AL DESGLOSSAMENT PER APLICACIONS PRESSUPOSTÀRIES DE LA DESPESA DE LA PRÒRROGA DEL CONTRACTE DE SERVEIS DE RECOLLIDA I TRANSPORT DE RESIDUS MUNICIPALS I NETEJA VIÀRIA, I RESOLUCIÓ DE L'EXPEDIENT D'OMISSIÓ DE LA FUNCIÓ INTERVENTORA RELATIU AL",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA DE RECTIFICACIÓ DE L'ERROR ARITMÈTIC CONTINGUT EN L'ACORD DEL PLE DE 28 DE JULIOL DE 2026, RELATIU AL DESGLOSSAMENT PER APLICACIONS PRESSUPOSTÀRIES DE LA DESPESA DE LA PRÒRROGA DEL CONTRACTE DE SERVEIS DE RECOLLIDA I TRANSPORT DE RESIDUS MUNICIPALS I NETEJA VIÀRIA, I RESOLUCIÓ DE L'EXPEDIENT D'OMISSIÓ DE LA FUNCIÓ INTERVENTORA RELATIU AL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "servicios_publicos",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 2,
+      "confianza_min": 0.17,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:47.170Z"
+      }
+    },
+    {
+      "id": "2026-08-25#3",
+      "sesion_id": "2026-08-25",
+      "orden": 3,
+      "titulo": "El Ple municipal, en sessió de 28 de juliol de 2026, punt 9è, va acordar per unanimitat rectificar l'acord",
+      "resultado": null,
+      "texto_redactado": "El Ple municipal, en sessió de 28 de juliol de 2026, punt 9è, va acordar per unanimitat rectificar l'acord",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:47.170Z"
+      }
+    },
+    {
+      "id": "2026-08-25#4",
+      "sesion_id": "2026-08-25",
+      "orden": 4,
+      "titulo": "El tècnic municipal de Medi Ambient i responsable del contracte, en informe complementari",
+      "resultado": null,
+      "texto_redactado": "El tècnic municipal de Medi Ambient i responsable del contracte, en informe complementari",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "medio_ambiente",
+        "servicios_publicos",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.4,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:47.170Z"
+      }
+    },
+    {
+      "id": "2026-08-25#5",
+      "sesion_id": "2026-08-25",
+      "orden": 5,
+      "titulo": "La Intervenció municipal ha emès informe de control permanent en el qual conclou que el",
+      "resultado": null,
+      "texto_redactado": "La Intervenció municipal ha emès informe de control permanent en el qual conclou que el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:47.170Z"
+      }
+    },
+    {
+      "id": "2026-08-25#6",
+      "sesion_id": "2026-08-25",
+      "orden": 6,
+      "titulo": "La Intervenció municipal ha emès igualment informe d'omissió de la funció interventora a l'empara de",
+      "resultado": null,
+      "texto_redactado": "La Intervenció municipal ha emès igualment informe d'omissió de la funció interventora a l'empara de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:47.170Z"
+      }
+    },
+    {
+      "id": "2026-08-25#7",
+      "sesion_id": "2026-08-25",
+      "orden": 7,
+      "titulo": "La Secretaria de la corporació ha emès informe, de conformitat amb la base 20 de les bases",
+      "resultado": null,
+      "texto_redactado": "La Secretaria de la corporació ha emès informe, de conformitat amb la base 20 de les bases",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.4,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:47.170Z"
+      }
+    },
+    {
+      "id": "2026-08-25#8",
+      "sesion_id": "2026-08-25",
+      "orden": 8,
+      "titulo": "Per resolució d'Alcaldia s'ha acordat elevar l'expedient d'omissió de la funció interventora al Ple de la",
+      "resultado": null,
+      "texto_redactado": "Per resolució d'Alcaldia s'ha acordat elevar l'expedient d'omissió de la funció interventora al Ple de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:47.170Z"
+      }
+    },
+    {
+      "id": "2026-08-25#9",
+      "sesion_id": "2026-08-25",
+      "orden": 9,
+      "titulo": "La proposta de rectificació ha estat sotmesa a fiscalització prèvia de la Intervenció municipal, amb",
+      "resultado": null,
+      "texto_redactado": "La proposta de rectificació ha estat sotmesa a fiscalització prèvia de la Intervenció municipal, amb",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:47.170Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "castellbisbal",
+    "nombre": "Castellbisbal",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "805430008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-27",
+    "municipio_id": "castellbisbal",
+    "fecha": "2026-07-27",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/805430008/2026/3706f8cb-70a8-47d7-b675-4646eec97716/Acta%20sessi%f3%207_2026%20del%20Ple%20de%2027-07-2026%20-%20signada.pdf",
+    "hash_contenido": "5d4d84ab1da3ad091ab8ad360522bcee205429c76b0ff1f81bbe78b5834e487d",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-22T10:56:39.677Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-27#1",
+      "sesion_id": "2026-07-27",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L’ESBORRANY DE L’ACTA DE LA SESSIÓ ORDINÀRIA DEL DIA 29 DE JUNY DE 2026",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’ESBORRANY DE L’ACTA DE LA SESSIÓ ORDINÀRIA DEL DIA 29 DE JUNY DE 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:39.677Z"
+      }
+    },
+    {
+      "id": "2026-07-27#2",
+      "sesion_id": "2026-07-27",
+      "orden": 2,
+      "titulo": "Punto de servicios sociales",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:39.677Z"
+      }
+    },
+    {
+      "id": "2026-07-27#3",
+      "sesion_id": "2026-07-27",
+      "orden": 3,
+      "titulo": "ACORD PER APROVAR LA SEGONA ADDENDA DEL CONVENI DE COL•LABORACIÓ AMB L’ÀREA METROPOLITANA DE BARCELONA PEL FINANÇAMENT DE LES OBRES DEL PROJECTE CONSTRUCTIU DE XARXA EN BAIXA DE SANEJAMENT I DEPURACIÓ DE LES URBANITZACIONS DE CAN SANTEUGINI, COSTABLANCA, CA N’OLIVERÓ I COLÒNIA DEL CARME. EXP. 2026/22/GDG",
+      "resultado": null,
+      "texto_redactado": "ACORD PER APROVAR LA SEGONA ADDENDA DEL CONVENI DE COL•LABORACIÓ AMB L’ÀREA METROPOLITANA DE BARCELONA PEL FINANÇAMENT DE LES OBRES DEL PROJECTE CONSTRUCTIU DE XARXA EN BAIXA DE SANEJAMENT I DEPURACIÓ DE LES URBANITZACIONS DE CAN SANTEUGINI, COSTABLANCA, CA N’OLIVERÓ I COLÒNIA DEL CARME. EXP. 2026/22/GDG",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.61,
+      "impacto": 4,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:39.677Z"
+      }
+    },
+    {
+      "id": "2026-07-27#4",
+      "sesion_id": "2026-07-27",
+      "orden": 4,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:39.677Z"
+      }
+    },
+    {
+      "id": "2026-07-27#5",
+      "sesion_id": "2026-07-27",
+      "orden": 5,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:39.677Z"
+      }
+    },
+    {
+      "id": "2026-07-27#6",
+      "sesion_id": "2026-07-27",
+      "orden": 6,
+      "titulo": "ACORD PER L’APROVACIÓ DE LES CARTES DE SERVEIS DE L’OFICINA D’ATENCIÓ CIUTADANA, SERVEI DE COMUNICACIÓ, SERVEI ARXIU I GESTIÓ DOCUMENTAL. EXP.",
+      "resultado": null,
+      "texto_redactado": "ACORD PER L’APROVACIÓ DE LES CARTES DE SERVEIS DE L’OFICINA D’ATENCIÓ CIUTADANA, SERVEI DE COMUNICACIÓ, SERVEI ARXIU I GESTIÓ DOCUMENTAL. EXP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 2,
+      "confianza_min": 0.17,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:39.677Z"
+      }
+    },
+    {
+      "id": "2026-07-27#7",
+      "sesion_id": "2026-07-27",
+      "orden": 7,
+      "titulo": "ACORD PER CREAR DE NOU LA COMISSIÓ D’ESTUDI PER LA MODIFICACIÓ DEL",
+      "resultado": null,
+      "texto_redactado": "ACORD PER CREAR DE NOU LA COMISSIÓ D’ESTUDI PER LA MODIFICACIÓ DEL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:39.677Z"
+      }
+    },
+    {
+      "id": "2026-07-27#8",
+      "sesion_id": "2026-07-27",
+      "orden": 8,
+      "titulo": "ACORD PER APROVAR LES DATES DE LES DUES FESTES LOCALS DEL MUNICIPI",
+      "resultado": null,
+      "texto_redactado": "ACORD PER APROVAR LES DATES DE LES DUES FESTES LOCALS DEL MUNICIPI",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 4,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:39.677Z"
+      }
+    },
+    {
+      "id": "2026-07-27#9",
+      "sesion_id": "2026-07-27",
+      "orden": 9,
+      "titulo": "ACORD PER APROVAR INICIALMENT EL PLA MUNICIPAL DE PREVENCIÓ D’INCENDIS FORESTAL DEL MUNICIPI DE CASTELLBISBAL PER AL PERÍODE 2026-",
+      "resultado": null,
+      "texto_redactado": "ACORD PER APROVAR INICIALMENT EL PLA MUNICIPAL DE PREVENCIÓ D’INCENDIS FORESTAL DEL MUNICIPI DE CASTELLBISBAL PER AL PERÍODE 2026-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente",
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.37,
+      "impacto": 3,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:39.677Z"
+      }
+    },
+    {
+      "id": "2026-07-27#10",
+      "sesion_id": "2026-07-27",
+      "orden": 10,
+      "titulo": "MOCIÓ PRESENTADA PER L’AJUNTAMENT DE CASTELLBISBAL, PER L’ADHESIÓ AL PACTE NACIONAL PER LA LLENGUA. EXP. 2026/12/GGA",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ PRESENTADA PER L’AJUNTAMENT DE CASTELLBISBAL, PER L’ADHESIÓ AL PACTE NACIONAL PER LA LLENGUA. EXP. 2026/12/GGA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 2,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:39.677Z"
+      }
+    },
+    {
+      "id": "2026-07-27#11",
+      "sesion_id": "2026-07-27",
+      "orden": 11,
+      "titulo": "CONTROL D’ÒRGANS DE GOVERN I RATIFICACIÓ DE DECRETS",
+      "resultado": null,
+      "texto_redactado": "CONTROL D’ÒRGANS DE GOVERN I RATIFICACIÓ DE DECRETS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:39.677Z"
+      }
+    },
+    {
+      "id": "2026-07-27#12",
+      "sesion_id": "2026-07-27",
+      "orden": 12,
+      "titulo": "PRECS, PREGUNTES I MOCIONS D’URGÈNCIA",
+      "resultado": null,
+      "texto_redactado": "PRECS, PREGUNTES I MOCIONS D’URGÈNCIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-22T10:56:39.677Z"
+      }
+    }
+  ]
+}
