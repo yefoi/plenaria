@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "la-seu-d-urgell",
+    "nombre": "La Seu d'Urgell",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2520380001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-14--af1b1c46",
+    "municipio_id": "la-seu-d-urgell",
+    "fecha": "2026-09-14",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2520380001/2026/04c82910-b7c8-4c47-bdcd-c1a2f6a626c0/ple%202026.09.14_signat.pdf",
+    "hash_contenido": "311d204b6abd91d14ba185a030efdf55e3504edeb7016e9444ccd72becc070e6",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-23T10:42:42.255Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-14--af1b1c46#1",
+      "sesion_id": "2026-09-14--af1b1c46",
+      "orden": 1,
+      "titulo": "L'article 4 de la Llei 3/2004 per la què s'estableixen mesures de lluita contra la morositat",
+      "resultado": null,
+      "texto_redactado": "L'article 4 de la Llei 3/2004 per la què s'estableixen mesures de lluita contra la morositat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:42.255Z"
+      }
+    },
+    {
+      "id": "2026-09-14--af1b1c46#2",
+      "sesion_id": "2026-09-14--af1b1c46",
+      "orden": 2,
+      "titulo": "La intervenció de l'Ajuntament ha elaborat l'informe amb els càlculs corresponents.",
+      "resultado": null,
+      "texto_redactado": "La intervenció de l'Ajuntament ha elaborat l'informe amb els càlculs corresponents.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:42.255Z"
+      }
+    },
+    {
+      "id": "2026-09-14--af1b1c46#3",
+      "sesion_id": "2026-09-14--af1b1c46",
+      "orden": 3,
+      "titulo": "La intervenció municipal ha fet els càlculs per a determinar el Període mitjà de pagament",
+      "resultado": null,
+      "texto_redactado": "La intervenció municipal ha fet els càlculs per a determinar el Període mitjà de pagament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:42.255Z"
+      }
+    },
+    {
+      "id": "2026-09-14--af1b1c46#4",
+      "sesion_id": "2026-09-14--af1b1c46",
+      "orden": 4,
+      "titulo": "Instar al Departament d’Interior i Seguretat Pública de la Generalitat de Catalunya a",
+      "resultado": null,
+      "texto_redactado": "Instar al Departament d’Interior i Seguretat Pública de la Generalitat de Catalunya a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:42.255Z"
+      }
+    },
+    {
+      "id": "2026-09-14--af1b1c46#5",
+      "sesion_id": "2026-09-14--af1b1c46",
+      "orden": 5,
+      "titulo": "Donar suport institucional a totes les concentracions i mobilitzacions promogudes per La",
+      "resultado": null,
+      "texto_redactado": "Donar suport institucional a totes les concentracions i mobilitzacions promogudes per La",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 2,
+      "confianza_min": 0.23,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:42.255Z"
+      }
+    },
+    {
+      "id": "2026-09-14--af1b1c46#6",
+      "sesion_id": "2026-09-14--af1b1c46",
+      "orden": 6,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:42.255Z"
+      }
+    },
+    {
+      "id": "2026-09-14--af1b1c46#7",
+      "sesion_id": "2026-09-14--af1b1c46",
+      "orden": 7,
+      "titulo": "Remetre els acords al Departament d’Interior i Seguretat Pública i a la Generalitat de",
+      "resultado": null,
+      "texto_redactado": "Remetre els acords al Departament d’Interior i Seguretat Pública i a la Generalitat de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 0.98,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:42.255Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "lleida",
+    "nombre": "Lleida",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2512070005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-20",
+    "municipio_id": "lleida",
+    "fecha": "2026-10-20",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2512070005/2026/f1f0e547-4482-4484-b91d-c1e768e9c9b5/Acta%20Ple%20extraordinari%20OOFF%20de%2020-10-2026_pendent%20aprovaci%f3_signada.pdf",
+    "hash_contenido": "909c6a1e60c5124fc5f3846cccbc4df0ab81082fd450030f2ca9747376dfc1a6",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-23T10:42:43.667Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-20#1",
+      "sesion_id": "2026-10-20",
+      "orden": 1,
+      "titulo": "APROVAR PROVISIONALMENT L’EXPEDIENT DE MODIFICACIÓ DE LES ORDENANCES FISCALS QUE HAN DE REGIR A PARTIR DE L’ANY 2027.-",
+      "resultado": null,
+      "texto_redactado": "APROVAR PROVISIONALMENT L’EXPEDIENT DE MODIFICACIÓ DE LES ORDENANCES FISCALS QUE HAN DE REGIR A PARTIR DE L’ANY 2027.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.8,
+      "impacto": 4,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:43.667Z"
+      }
+    },
+    {
+      "id": "2026-10-20#2",
+      "sesion_id": "2026-10-20",
+      "orden": 2,
+      "titulo": "Els habitatges de protecció oficial gaudiran d’una bonificació del 50% de la quota íntegra de",
+      "resultado": null,
+      "texto_redactado": "Els habitatges de protecció oficial gaudiran d’una bonificació del 50% de la quota íntegra de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda",
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.9,
+      "impacto": 3,
+      "confianza_min": 0.39,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:43.667Z"
+      }
+    },
+    {
+      "id": "2026-10-20#3",
+      "sesion_id": "2026-10-20",
+      "orden": 3,
+      "titulo": "Per raó de capacitat econòmica i càrregues familiars, d’acord amb l’article 24.4 del text refós de la",
+      "resultado": null,
+      "texto_redactado": "Per raó de capacitat econòmica i càrregues familiars, d’acord amb l’article 24.4 del text refós de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.59,
+      "impacto": 2,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:43.667Z"
+      }
+    }
+  ]
+}

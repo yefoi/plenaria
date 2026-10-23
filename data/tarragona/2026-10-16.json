@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "tarragona",
+    "nombre": "Tarragona",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4314820002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-16",
+    "municipio_id": "tarragona",
+    "fecha": "2026-10-16",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4314820002/2026/4a2caccd-20c1-44a5-8c05-93f210653edd/CP-%202026-10-16.pdf",
+    "hash_contenido": "3531d30ad61e089f11273d16a8e05dedf807bbc61a11a392d8969517dc37f891",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-23T10:42:40.232Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-16#1",
+      "sesion_id": "2026-10-16",
+      "orden": 1,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/10-G104; Expedient: 2026/8-G104:",
+      "resultado": null,
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/10-G104; Expedient: 2026/8-G104:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:40.232Z"
+      }
+    },
+    {
+      "id": "2026-10-16#2",
+      "sesion_id": "2026-10-16",
+      "orden": 2,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient 2026/2-G277:",
+      "resultado": null,
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient 2026/2-G277:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:40.232Z"
+      }
+    },
+    {
+      "id": "2026-10-16#3",
+      "sesion_id": "2026-10-16",
+      "orden": 3,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient 2026/6-G133:",
+      "resultado": null,
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient 2026/6-G133:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:40.232Z"
+      }
+    },
+    {
+      "id": "2026-10-16#4",
+      "sesion_id": "2026-10-16",
+      "orden": 4,
+      "titulo": "Béns. Expedient: 2025/2-G750 :",
+      "resultado": null,
+      "texto_redactado": "Béns. Expedient: 2025/2-G750 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:40.232Z"
+      }
+    }
+  ]
+}

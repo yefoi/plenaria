@@ -1,0 +1,389 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "martorell",
+    "nombre": "Martorell",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "811410007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-19",
+    "municipio_id": "martorell",
+    "fecha": "2026-10-19",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/811410007/2026/1549ecd5-085b-44d7-9ff4-1cc4f8a12921/Ex_acta_ple_10_2026.pdf",
+    "hash_contenido": "2bcb67c97983e3b194e47d981e2163c47256559851c287ef9dd71ed23fe70b73",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-23T10:42:42.128Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-19#1",
+      "sesion_id": "2026-10-19",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L'ACTA DE LA SESSIÓ ORDINÀRIA (21-09-26).",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L'ACTA DE LA SESSIÓ ORDINÀRIA (21-09-26).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:42.128Z"
+      }
+    },
+    {
+      "id": "2026-10-19#2",
+      "sesion_id": "2026-10-19",
+      "orden": 2,
+      "titulo": "APROVACIÓ DEL COMPTE GENERAL DE L’AJUNTAMENT CORRESPONENT A L’EXERCICI 2025. (EXP. 9966/2026).",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEL COMPTE GENERAL DE L’AJUNTAMENT CORRESPONENT A L’EXERCICI 2025. (EXP. 9966/2026).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 2,
+      "confianza_min": 0.03,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:42.128Z"
+      }
+    },
+    {
+      "id": "2026-10-19#3",
+      "sesion_id": "2026-10-19",
+      "orden": 3,
+      "titulo": "APROVACIÓ PROVISIONAL DE LES MODIFICACIONS DE LES ORDENANCES FISCALS PER A L’EXERCICI DE 2027. (EXP. 9794/2026).",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ PROVISIONAL DE LES MODIFICACIONS DE LES ORDENANCES FISCALS PER A L’EXERCICI DE 2027. (EXP. 9794/2026).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.82,
+      "impacto": 4,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:42.128Z"
+      }
+    },
+    {
+      "id": "2026-10-19#4",
+      "sesion_id": "2026-10-19",
+      "orden": 4,
+      "titulo": "ORDENANÇA FISCAL NòMERO 5, REGULADORA DE L’IMPOST SOBRE L'INCREMENT DEL VALOR DELS TERRENYS DE NATURALESA URBANA",
+      "resultado": null,
+      "texto_redactado": "ORDENANÇA FISCAL NòMERO 5, REGULADORA DE L’IMPOST SOBRE L'INCREMENT DEL VALOR DELS TERRENYS DE NATURALESA URBANA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.89,
+      "impacto": 4,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:42.128Z"
+      }
+    },
+    {
+      "id": "2026-10-19#5",
+      "sesion_id": "2026-10-19",
+      "orden": 5,
+      "titulo": "ORDENANÇA FISCAL NòMERO 7, REGULADORA DE LA TAXA PER EXPEDICIÓ",
+      "resultado": null,
+      "texto_redactado": "ORDENANÇA FISCAL NòMERO 7, REGULADORA DE LA TAXA PER EXPEDICIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.79,
+      "impacto": 3,
+      "confianza_min": 0.14,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:42.128Z"
+      }
+    },
+    {
+      "id": "2026-10-19#6",
+      "sesion_id": "2026-10-19",
+      "orden": 6,
+      "titulo": "ORDENANÇA FISCAL NòMERO 12, REGULADORA DE LA TAXA PEL SERVEI DE RECOLLIDA I ELIMINACIÓ DE RESIDUS SÒLIDS URBANS",
+      "resultado": null,
+      "texto_redactado": "ORDENANÇA FISCAL NòMERO 12, REGULADORA DE LA TAXA PEL SERVEI DE RECOLLIDA I ELIMINACIÓ DE RESIDUS SÒLIDS URBANS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.96,
+      "impacto": 5,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:42.128Z"
+      }
+    },
+    {
+      "id": "2026-10-19#7",
+      "sesion_id": "2026-10-19",
+      "orden": 7,
+      "titulo": "ORDENANÇA FISCAL NòMERO 19, REGULADORA DE LA TAXA PER DRETS D’EXAMEN I PARTICIPACIÓ EN PROVES SELECTIVES",
+      "resultado": null,
+      "texto_redactado": "ORDENANÇA FISCAL NòMERO 19, REGULADORA DE LA TAXA PER DRETS D’EXAMEN I PARTICIPACIÓ EN PROVES SELECTIVES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.66,
+      "impacto": 2,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:42.128Z"
+      }
+    },
+    {
+      "id": "2026-10-19#8",
+      "sesion_id": "2026-10-19",
+      "orden": 8,
+      "titulo": "Autorització sanitària de les activitats segons normativa vigent 59,40€",
+      "resultado": null,
+      "texto_redactado": "Autorització sanitària de les activitats segons normativa vigent 59,40€",
+      "importe_eur": 59.4,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.53,
+      "impacto": 2,
+      "confianza_min": 0.35,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:42.128Z"
+      }
+    },
+    {
+      "id": "2026-10-19#9",
+      "sesion_id": "2026-10-19",
+      "orden": 9,
+      "titulo": "Digitalització o escaneig de documentació en suport paper",
+      "resultado": null,
+      "texto_redactado": "Digitalització o escaneig de documentació en suport paper",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:42.128Z"
+      }
+    },
+    {
+      "id": "2026-10-19#10",
+      "sesion_id": "2026-10-19",
+      "orden": 10,
+      "titulo": "DACIÓ DE COMPTE DE LES ACTES DE LA JUNTA DE GOVERN LOCAL.",
+      "resultado": null,
+      "texto_redactado": "DACIÓ DE COMPTE DE LES ACTES DE LA JUNTA DE GOVERN LOCAL.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:42.128Z"
+      }
+    },
+    {
+      "id": "2026-10-19#11",
+      "sesion_id": "2026-10-19",
+      "orden": 11,
+      "titulo": "DACIÓ DE COMPTE DE L’INFORME TRIMESTRAL REGULAT PER L’ARTICLE QUATRE DE LA LLEI 15/2010, DE 5 DE JULIOL, DE MODIFICACIÓ DE LA LLEI 3 /2004, DE 29 DE DESEMBRE, PER LA QUAL S’ESTABLEIXEN MESURES DE LLUITA CONTRA LA MOROSITAT EN LES OPERACIONS COMERCIALS. (EXP. 5611/2026)",
+      "resultado": null,
+      "texto_redactado": "DACIÓ DE COMPTE DE L’INFORME TRIMESTRAL REGULAT PER L’ARTICLE QUATRE DE LA LLEI 15/2010, DE 5 DE JULIOL, DE MODIFICACIÓ DE LA LLEI 3 /2004, DE 29 DE DESEMBRE, PER LA QUAL S’ESTABLEIXEN MESURES DE LLUITA CONTRA LA MOROSITAT EN LES OPERACIONS COMERCIALS. (EXP. 5611/2026)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:42.128Z"
+      }
+    },
+    {
+      "id": "2026-10-19#12",
+      "sesion_id": "2026-10-19",
+      "orden": 12,
+      "titulo": "DACIÓ DE COMPTE DE L’EXECUCIÓ DELS PRESSUPOSTOS QUE INTEGREN EL PRESSUPOST GENERAL DE 2026, I DEL MOVIMENT DE LA TRESORERIA (PER OPERACIONS PRESSUPOSTÀRIES I NO PRESSUPOSTÀRIES) I DE LA SEVA SITUACIÓ CORRESPONENTS AL TERCER TRIMESTRE DE 2026. (EXP. 5132/2026).",
+      "resultado": null,
+      "texto_redactado": "DACIÓ DE COMPTE DE L’EXECUCIÓ DELS PRESSUPOSTOS QUE INTEGREN EL PRESSUPOST GENERAL DE 2026, I DEL MOVIMENT DE LA TRESORERIA (PER OPERACIONS PRESSUPOSTÀRIES I NO PRESSUPOSTÀRIES) I DE LA SEVA SITUACIÓ CORRESPONENTS AL TERCER TRIMESTRE DE 2026. (EXP. 5132/2026).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:42.128Z"
+      }
+    },
+    {
+      "id": "2026-10-19#13",
+      "sesion_id": "2026-10-19",
+      "orden": 13,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:42.128Z"
+      }
+    },
+    {
+      "id": "2026-10-19#14",
+      "sesion_id": "2026-10-19",
+      "orden": 14,
+      "titulo": "INTERPELꞏLACIONS.",
+      "resultado": null,
+      "texto_redactado": "INTERPELꞏLACIONS.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:42.128Z"
+      }
+    },
+    {
+      "id": "2026-10-19#15",
+      "sesion_id": "2026-10-19",
+      "orden": 15,
+      "titulo": "PREGUNTES.",
+      "resultado": null,
+      "texto_redactado": "PREGUNTES.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-23T10:42:42.128Z"
+      }
+    }
+  ]
+}
