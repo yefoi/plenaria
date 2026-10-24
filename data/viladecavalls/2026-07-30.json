@@ -1,0 +1,364 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "viladecavalls",
+    "nombre": "Viladecavalls",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "830080001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-30",
+    "municipio_id": "viladecavalls",
+    "fecha": "2026-07-30",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/830080001/2026/85a05f4b-abce-40c4-9218-a6d7fe7e1c28/ACTA%20PLE2026000007%20(20260730)_ANM.pdf",
+    "hash_contenido": "2f73d03e492527f01db755ddb01ddca6c9c51d898fd5cd67ba351e3ed8a83b80",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-24T10:13:42.237Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-30#1",
+      "sesion_id": "2026-07-30",
+      "orden": 1,
+      "titulo": "Lectura i aprovació de l'acta de la sessió ordinària del Ple de data 25 de juny de 2026. PART RESOLUTIVA",
+      "resultado": null,
+      "texto_redactado": "Lectura i aprovació de l'acta de la sessió ordinària del Ple de data 25 de juny de 2026. PART RESOLUTIVA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:42.237Z"
+      }
+    },
+    {
+      "id": "2026-07-30#2",
+      "sesion_id": "2026-07-30",
+      "orden": 2,
+      "titulo": "Assenyalar els dies de les dues festes locals per a l'any 2027 per al municipi de",
+      "resultado": null,
+      "texto_redactado": "Assenyalar els dies de les dues festes locals per a l'any 2027 per al municipi de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 3,
+      "confianza_min": 0.05,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:42.237Z"
+      }
+    },
+    {
+      "id": "2026-07-30#3",
+      "sesion_id": "2026-07-30",
+      "orden": 3,
+      "titulo": "Aprovar l'expedient de modificació de crèdits número 11/2026 del pressupost de",
+      "resultado": null,
+      "texto_redactado": "Aprovar l'expedient de modificació de crèdits número 11/2026 del pressupost de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.32,
+      "impacto": 2,
+      "confianza_min": 0.39,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:42.237Z"
+      }
+    },
+    {
+      "id": "2026-07-30#4",
+      "sesion_id": "2026-07-30",
+      "orden": 4,
+      "titulo": "Aprovar el reconeixement extrajudicial d'obligacions de la relació núm. 2026/27 REC.",
+      "resultado": null,
+      "texto_redactado": "Aprovar el reconeixement extrajudicial d'obligacions de la relació núm. 2026/27 REC.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:42.237Z"
+      }
+    },
+    {
+      "id": "2026-07-30#5",
+      "sesion_id": "2026-07-30",
+      "orden": 5,
+      "titulo": "Autoritzar a l’Associació de municipis per la Mobilitat i el Transport Urbà (AMTU) a",
+      "resultado": null,
+      "texto_redactado": "Autoritzar a l’Associació de municipis per la Mobilitat i el Transport Urbà (AMTU) a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 2,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:42.237Z"
+      }
+    },
+    {
+      "id": "2026-07-30#6",
+      "sesion_id": "2026-07-30",
+      "orden": 6,
+      "titulo": "Ratificar el decret número 2026DECR000955 de data 15 de juliol de 2026 de nomenar",
+      "resultado": null,
+      "texto_redactado": "Ratificar el decret número 2026DECR000955 de data 15 de juliol de 2026 de nomenar",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:42.237Z"
+      }
+    },
+    {
+      "id": "2026-07-30#7",
+      "sesion_id": "2026-07-30",
+      "orden": 7,
+      "titulo": "Aprovar definitivament el reglament intern sobre la utilització de les armes i altres eines",
+      "resultado": null,
+      "texto_redactado": "Aprovar definitivament el reglament intern sobre la utilització de les armes i altres eines",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional",
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:42.237Z"
+      }
+    },
+    {
+      "id": "2026-07-30#8",
+      "sesion_id": "2026-07-30",
+      "orden": 8,
+      "titulo": "Donar compte al Ple del decret número 2026DECR000923 d'aprovació de l'increment",
+      "resultado": null,
+      "texto_redactado": "Donar compte al Ple del decret número 2026DECR000923 d'aprovació de l'increment",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:42.237Z"
+      }
+    },
+    {
+      "id": "2026-07-30#9",
+      "sesion_id": "2026-07-30",
+      "orden": 9,
+      "titulo": "Donar compte al Ple del decret número 2026DECR000817 de 19 de juny, d'inici del",
+      "resultado": null,
+      "texto_redactado": "Donar compte al Ple del decret número 2026DECR000817 de 19 de juny, d'inici del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:42.237Z"
+      }
+    },
+    {
+      "id": "2026-07-30#10",
+      "sesion_id": "2026-07-30",
+      "orden": 10,
+      "titulo": "Donar compte al Ple de l'informe de morositat del segon trimestre de l'exercici 2026. DONAR COMPTE DELS DECRETS DICTATS PER L'ALCALDIA I DELS ACORDS DE LA JUNTA DE GOVERN LOCAL.",
+      "resultado": null,
+      "texto_redactado": "Donar compte al Ple de l'informe de morositat del segon trimestre de l'exercici 2026. DONAR COMPTE DELS DECRETS DICTATS PER L'ALCALDIA I DELS ACORDS DE LA JUNTA DE GOVERN LOCAL.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:42.237Z"
+      }
+    },
+    {
+      "id": "2026-07-30#11",
+      "sesion_id": "2026-07-30",
+      "orden": 11,
+      "titulo": "Decrets dictats per l'Alcaldia del 2026DECR000838 de data 22 de juny de 2026 al",
+      "resultado": null,
+      "texto_redactado": "Decrets dictats per l'Alcaldia del 2026DECR000838 de data 22 de juny de 2026 al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:42.237Z"
+      }
+    },
+    {
+      "id": "2026-07-30#12",
+      "sesion_id": "2026-07-30",
+      "orden": 12,
+      "titulo": "Acords de la Junta de Govern Local de data 25 de juny i 2 i 9 de juliol de 2026.",
+      "resultado": null,
+      "texto_redactado": "Acords de la Junta de Govern Local de data 25 de juny i 2 i 9 de juliol de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:42.237Z"
+      }
+    },
+    {
+      "id": "2026-07-30#13",
+      "sesion_id": "2026-07-30",
+      "orden": 13,
+      "titulo": "Assumptes d'urgència.",
+      "resultado": null,
+      "texto_redactado": "Assumptes d'urgència.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:42.237Z"
+      }
+    },
+    {
+      "id": "2026-07-30#14",
+      "sesion_id": "2026-07-30",
+      "orden": 14,
+      "titulo": "Precs i preguntes.",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:42.237Z"
+      }
+    }
+  ]
+}

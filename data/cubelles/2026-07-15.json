@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "cubelles",
+    "nombre": "Cubelles",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "807490004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-15",
+    "municipio_id": "cubelles",
+    "fecha": "2026-07-15",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/807490004/2026/98d97943-110b-4f39-af87-e7cbecce8ad5/ACTAPLE15JULIOL2026.pdf",
+    "hash_contenido": "b2e220a039217fd05d2033b7defdbca11cccde76e4731a8c6c58f9b8ba211079",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-24T10:13:40.875Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-15#1",
+      "sesion_id": "2026-07-15",
+      "orden": 1,
+      "titulo": "Transparència i rendició de comptes La ciutadania té dret a conèixer quin és",
+      "resultado": null,
+      "texto_redactado": "Transparència i rendició de comptes La ciutadania té dret a conèixer quin és",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 2,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:40.875Z"
+      }
+    },
+    {
+      "id": "2026-07-15#2",
+      "sesion_id": "2026-07-15",
+      "orden": 2,
+      "titulo": "Millora de la qualitat democràtica Un debat sobre l'estat del municipi afavoreix la",
+      "resultado": null,
+      "texto_redactado": "Millora de la qualitat democràtica Un debat sobre l'estat del municipi afavoreix la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 2,
+      "confianza_min": 0.39,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:40.875Z"
+      }
+    },
+    {
+      "id": "2026-07-15#3",
+      "sesion_id": "2026-07-15",
+      "orden": 3,
+      "titulo": "Necessitat d'avaluar el mandat Quan ha transcorregut una part significativa del",
+      "resultado": null,
+      "texto_redactado": "Necessitat d'avaluar el mandat Quan ha transcorregut una part significativa del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:40.875Z"
+      }
+    },
+    {
+      "id": "2026-07-15#4",
+      "sesion_id": "2026-07-15",
+      "orden": 4,
+      "titulo": "Demanda de la ciutadania Cada vegada és més habitual que els veïns exigeixin",
+      "resultado": null,
+      "texto_redactado": "Demanda de la ciutadania Cada vegada és més habitual que els veïns exigeixin",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.36,
+      "impacto": 2,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:40.875Z"
+      }
+    },
+    {
+      "id": "2026-07-15#5",
+      "sesion_id": "2026-07-15",
+      "orden": 5,
+      "titulo": "Normalitat institucional La celebració periòdica d'aquest tipus de debats és una",
+      "resultado": null,
+      "texto_redactado": "Normalitat institucional La celebració periòdica d'aquest tipus de debats és una",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:40.875Z"
+      }
+    }
+  ]
+}

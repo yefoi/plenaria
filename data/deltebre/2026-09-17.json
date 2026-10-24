@@ -1,0 +1,294 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "deltebre",
+    "nombre": "Deltebre",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4390180001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-17",
+    "municipio_id": "deltebre",
+    "fecha": "2026-09-17",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4390180001/2026/60d4ff5a-c73a-4382-a6b8-529533ae08c9/Acta%20PM%2009172026.pdf",
+    "hash_contenido": "05917710137a29e9021688c83bf75c1072bed35d5dcd5bc4fdf1fd952071c72a",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-24T10:13:38.496Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-17#1",
+      "sesion_id": "2026-09-17",
+      "orden": 1,
+      "titulo": "PLE MUNICIPAL NÚM. 7, DE DATA 16 DE JULIOL DE 2026 DONAR COMPTE DE L'ESCRIT PRESENTAT PEL SR. ALEIX CASANOVA FRANCH, DEMANANT PASSAR A LA CONDICIÓ DE REGIDOR NO",
+      "resultado": null,
+      "texto_redactado": "PLE MUNICIPAL NÚM. 7, DE DATA 16 DE JULIOL DE 2026 DONAR COMPTE DE L'ESCRIT PRESENTAT PEL SR. ALEIX CASANOVA FRANCH, DEMANANT PASSAR A LA CONDICIÓ DE REGIDOR NO",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:38.496Z"
+      }
+    },
+    {
+      "id": "2026-09-17#2",
+      "sesion_id": "2026-09-17",
+      "orden": 2,
+      "titulo": "DONAR COMPTE DE L'ESCRIT PRESENTAT PEL SR. ALEIX CASANOVA FRANCH, DEMANANT PASSAR A LA CONDICIÓ DE REGIDOR NO ADSCRIT",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE L'ESCRIT PRESENTAT PEL SR. ALEIX CASANOVA FRANCH, DEMANANT PASSAR A LA CONDICIÓ DE REGIDOR NO ADSCRIT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:38.496Z"
+      }
+    },
+    {
+      "id": "2026-09-17#3",
+      "sesion_id": "2026-09-17",
+      "orden": 3,
+      "titulo": "PROPOSTA DE MODIFICACIÓ DE LA COMPOSICIÓ DE LES COMISSIONS INFORMATIVES PERMANENTS, MODIFICACIÓ DE LA COMPOSICIÓ DE LA COMISSIÓ ESPECIAL DE COMPTES I DONAR COMPTE DE LA CONSTITUCIÓ DEL GRUP MUNICIPAL DE REGIDOR NO",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA DE MODIFICACIÓ DE LA COMPOSICIÓ DE LES COMISSIONS INFORMATIVES PERMANENTS, MODIFICACIÓ DE LA COMPOSICIÓ DE LA COMISSIÓ ESPECIAL DE COMPTES I DONAR COMPTE DE LA CONSTITUCIÓ DEL GRUP MUNICIPAL DE REGIDOR NO",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:38.496Z"
+      }
+    },
+    {
+      "id": "2026-09-17#4",
+      "sesion_id": "2026-09-17",
+      "orden": 4,
+      "titulo": "PROPOSTA D'APROVACIÓ DEFINITIVA DE LA SEGONA MODIFICACIÓ DEL CONTRACTE DE CONCESSIÓ DEL SERVEI D’ABASTAMENT D’AIGUA POTABLE I CLAVEGUERAM DEL MUNICIPI DE DELTEBRE.",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA D'APROVACIÓ DEFINITIVA DE LA SEGONA MODIFICACIÓ DEL CONTRACTE DE CONCESSIÓ DEL SERVEI D’ABASTAMENT D’AIGUA POTABLE I CLAVEGUERAM DEL MUNICIPI DE DELTEBRE.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.59,
+      "impacto": 4,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:38.496Z"
+      }
+    },
+    {
+      "id": "2026-09-17#5",
+      "sesion_id": "2026-09-17",
+      "orden": 5,
+      "titulo": "PROPOSTA D’APROVACIÓ DEL CODI DE BON GOVERN DE L’ AJUNTAMENT DE DELTEBRE.",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA D’APROVACIÓ DEL CODI DE BON GOVERN DE L’ AJUNTAMENT DE DELTEBRE.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:38.496Z"
+      }
+    },
+    {
+      "id": "2026-09-17#6",
+      "sesion_id": "2026-09-17",
+      "orden": 6,
+      "titulo": "PROPOSTA D’APROVACIÓ DE LA MODIFICACIÓ DEL PROTOCOL CONTRA L’ASSETJAMENT SEXUAL I PER RAÓ DE SEXE I DEL PLA DE DIVERSITAT I INCLUSIÓ DEL COL·LECTIU LGTBIQ+.",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA D’APROVACIÓ DE LA MODIFICACIÓ DEL PROTOCOL CONTRA L’ASSETJAMENT SEXUAL I PER RAÓ DE SEXE I DEL PLA DE DIVERSITAT I INCLUSIÓ DEL COL·LECTIU LGTBIQ+.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 2,
+      "confianza_min": 0.3,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:38.496Z"
+      }
+    },
+    {
+      "id": "2026-09-17#7",
+      "sesion_id": "2026-09-17",
+      "orden": 7,
+      "titulo": "DONAR COMPTE DEL DECRET D'ALCALDIA NÚM. 2026-0001331 D'APROVACIÓ DE LES LÍNIES FONAMENTALS DEL PRESSUPOST 2027",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DEL DECRET D'ALCALDIA NÚM. 2026-0001331 D'APROVACIÓ DE LES LÍNIES FONAMENTALS DEL PRESSUPOST 2027",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:38.496Z"
+      }
+    },
+    {
+      "id": "2026-09-17#8",
+      "sesion_id": "2026-09-17",
+      "orden": 8,
+      "titulo": "PROPOSTA DE RESPOSTA D’AL·LEGACIONS I APROVACIÓ DEFINITIVA DE LA MODIFICACIÓ DEL REGLAMENT DEL SERVEI MUNICIPAL D’",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA DE RESPOSTA D’AL·LEGACIONS I APROVACIÓ DEFINITIVA DE LA MODIFICACIÓ DEL REGLAMENT DEL SERVEI MUNICIPAL D’",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.44,
+      "impacto": 2,
+      "confianza_min": 0.32,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:38.496Z"
+      }
+    },
+    {
+      "id": "2026-09-17#9",
+      "sesion_id": "2026-09-17",
+      "orden": 9,
+      "titulo": "PROPOSTA DE FORMALITZACIÓ D’UN CONTRACTE ENTRE L’ AJUNTAMENT DE DELTEBRE I EL CONSORCI COPATE, DE CESSIÓ DE L’ ÚS D’UN LOCAL SITUAT A L’AV. LA PAU, 103-B",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA DE FORMALITZACIÓ D’UN CONTRACTE ENTRE L’ AJUNTAMENT DE DELTEBRE I EL CONSORCI COPATE, DE CESSIÓ DE L’ ÚS D’UN LOCAL SITUAT A L’AV. LA PAU, 103-B",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 2,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:38.496Z"
+      }
+    },
+    {
+      "id": "2026-09-17#10",
+      "sesion_id": "2026-09-17",
+      "orden": 10,
+      "titulo": "MOCIÓ DE MANIFEST DEL MIL·LENARI DE LES ASSEMBLEES DE PAU I TREVA (1027-2027). PART DE CONTROL DONAR COMPTE DE LES RESOLUCIONS DE L'ALCALDIA:",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ DE MANIFEST DEL MIL·LENARI DE LES ASSEMBLEES DE PAU I TREVA (1027-2027). PART DE CONTROL DONAR COMPTE DE LES RESOLUCIONS DE L'ALCALDIA:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:38.496Z"
+      }
+    },
+    {
+      "id": "2026-09-17#11",
+      "sesion_id": "2026-09-17",
+      "orden": 11,
+      "titulo": "Dació de compte dels decrets de la Presidència del núm. 1050 al núm.",
+      "resultado": null,
+      "texto_redactado": "Dació de compte dels decrets de la Presidència del núm. 1050 al núm.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:38.496Z"
+      }
+    }
+  ]
+}

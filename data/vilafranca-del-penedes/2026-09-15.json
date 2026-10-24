@@ -1,0 +1,413 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vilafranca-del-penedes",
+    "nombre": "Vilafranca del Penedès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "830540003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-15",
+    "municipio_id": "vilafranca-del-penedes",
+    "fecha": "2026-09-15",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/830540003/2026/4afdaf5f-4769-4f13-a434-6821699c0c97/Acta_SETEMBRE%2026_%20SIGNAR.pdf",
+    "hash_contenido": "27b4c557ae07c399d745d9c29c9d1dce1c5308bf7a30d9cd17e31cf816181470",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-24T10:13:36.605Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-15#1",
+      "sesion_id": "2026-09-15",
+      "orden": 1,
+      "titulo": "Aprovar l’acta de la sessió anterior.",
+      "resultado": null,
+      "texto_redactado": "Aprovar l’acta de la sessió anterior.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:36.605Z"
+      }
+    },
+    {
+      "id": "2026-09-15#2",
+      "sesion_id": "2026-09-15",
+      "orden": 2,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:36.605Z"
+      }
+    },
+    {
+      "id": "2026-09-15#3",
+      "sesion_id": "2026-09-15",
+      "orden": 3,
+      "titulo": "ÀREA DE SERVEIS GENERALS Expedient: 2/2026/1754 : Donar compte dels informes",
+      "resultado": null,
+      "texto_redactado": "ÀREA DE SERVEIS GENERALS Expedient: 2/2026/1754 : Donar compte dels informes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:36.605Z"
+      }
+    },
+    {
+      "id": "2026-09-15#4",
+      "sesion_id": "2026-09-15",
+      "orden": 4,
+      "titulo": "ÀREA DE SERVEIS GENERALS Expedient: 3/2026/1754 : Donar compte dels informes",
+      "resultado": null,
+      "texto_redactado": "ÀREA DE SERVEIS GENERALS Expedient: 3/2026/1754 : Donar compte dels informes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:36.605Z"
+      }
+    },
+    {
+      "id": "2026-09-15#5",
+      "sesion_id": "2026-09-15",
+      "orden": 5,
+      "titulo": "ÀREA DE SERVEIS GENERALS Expedient: 2/2026/9012 : Donar compte al Ple de la",
+      "resultado": null,
+      "texto_redactado": "ÀREA DE SERVEIS GENERALS Expedient: 2/2026/9012 : Donar compte al Ple de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:36.605Z"
+      }
+    },
+    {
+      "id": "2026-09-15#6",
+      "sesion_id": "2026-09-15",
+      "orden": 6,
+      "titulo": "ÀREA DE SERVEIS GENERALS Expedient: 1/2026/1640 : Aprovació Compte General exercici",
+      "resultado": null,
+      "texto_redactado": "ÀREA DE SERVEIS GENERALS Expedient: 1/2026/1640 : Aprovació Compte General exercici",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:36.605Z"
+      }
+    },
+    {
+      "id": "2026-09-15#7",
+      "sesion_id": "2026-09-15",
+      "orden": 7,
+      "titulo": "ÀREA DE SERVEIS GENERALS Expedient: 3/2026/1455 : Modificació d’una plaça de la",
+      "resultado": null,
+      "texto_redactado": "ÀREA DE SERVEIS GENERALS Expedient: 3/2026/1455 : Modificació d’una plaça de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:36.605Z"
+      }
+    },
+    {
+      "id": "2026-09-15#8",
+      "sesion_id": "2026-09-15",
+      "orden": 8,
+      "titulo": "ÀREA DE SERVEIS A LES PERSONES I PROMOCIÓ SOCIAL Expedient: 1/2026/1284 :",
+      "resultado": null,
+      "texto_redactado": "ÀREA DE SERVEIS A LES PERSONES I PROMOCIÓ SOCIAL Expedient: 1/2026/1284 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.35,
+      "impacto": 1,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:36.605Z"
+      }
+    },
+    {
+      "id": "2026-09-15#9",
+      "sesion_id": "2026-09-15",
+      "orden": 9,
+      "titulo": "ÀREA DE DESENVOLUPAMENT ECONÒMIC Expedient: 7/2026/2992 :",
+      "resultado": null,
+      "texto_redactado": "ÀREA DE DESENVOLUPAMENT ECONÒMIC Expedient: 7/2026/2992 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:36.605Z"
+      }
+    },
+    {
+      "id": "2026-09-15#10",
+      "sesion_id": "2026-09-15",
+      "orden": 10,
+      "titulo": "ÀREA D'ALCALDIA Expedient: 36/2026/1029 : Moció presentada pel grup municipal del",
+      "resultado": null,
+      "texto_redactado": "ÀREA D'ALCALDIA Expedient: 36/2026/1029 : Moció presentada pel grup municipal del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:36.605Z"
+      }
+    },
+    {
+      "id": "2026-09-15#11",
+      "sesion_id": "2026-09-15",
+      "orden": 11,
+      "titulo": "PRECS I PREGUNTES. INTERVENCIONS:",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES. INTERVENCIONS:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:36.605Z"
+      }
+    },
+    {
+      "id": "2026-09-15#12",
+      "sesion_id": "2026-09-15",
+      "orden": 12,
+      "titulo": "A dia d’avui al centre hi ha contenidors, plataforma mòbil, persones que encara deixen",
+      "resultado": null,
+      "texto_redactado": "A dia d’avui al centre hi ha contenidors, plataforma mòbil, persones que encara deixen",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.84,
+      "impacto": 3,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:36.605Z"
+      }
+    },
+    {
+      "id": "2026-09-15#13",
+      "sesion_id": "2026-09-15",
+      "orden": 13,
+      "titulo": "Quina planificació té l’ajuntament per tancar els contenidors?",
+      "resultado": null,
+      "texto_redactado": "Quina planificació té l’ajuntament per tancar els contenidors?",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.87,
+      "impacto": 4,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:36.605Z"
+      }
+    },
+    {
+      "id": "2026-09-15#14",
+      "sesion_id": "2026-09-15",
+      "orden": 14,
+      "titulo": "L’any passat aquest Ple va aprovar un préstec per fer front a les despeses ocasionades per la",
+      "resultado": null,
+      "texto_redactado": "L’any passat aquest Ple va aprovar un préstec per fer front a les despeses ocasionades per la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.51,
+      "impacto": 3,
+      "confianza_min": 0.09,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:36.605Z"
+      }
+    },
+    {
+      "id": "2026-09-15#15",
+      "sesion_id": "2026-09-15",
+      "orden": 15,
+      "titulo": "Demanen aclariments sobre els horaris d’obertura de la biblioteca. La regidora es va",
+      "resultado": null,
+      "texto_redactado": "Demanen aclariments sobre els horaris d’obertura de la biblioteca. La regidora es va",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.78,
+      "impacto": 3,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:36.605Z"
+      }
+    },
+    {
+      "id": "2026-09-15#16",
+      "sesion_id": "2026-09-15",
+      "orden": 16,
+      "titulo": "Quan acaba la concessió del complex aquàtic? Que s’ha previst?",
+      "resultado": null,
+      "texto_redactado": "Quan acaba la concessió del complex aquàtic? Que s’ha previst?",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.66,
+      "impacto": 3,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:36.605Z"
+      }
+    }
+  ]
+}

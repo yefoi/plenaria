@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "puigcerda",
+    "nombre": "Puigcerdà",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1714110007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-08-10",
+    "municipio_id": "puigcerda",
+    "fecha": "2026-08-10",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1714110007/2026/48ca9a60-1657-45be-9754-d5a62399d40a/20261007_Acta_ACTA%20DE%20PLE%202026-0005%20[ACTA%20PLE%2010-08-2026%20(SA)].pdf",
+    "hash_contenido": "48ee4104595f2130b2b5dabb0102de97323b9ac2ac1b45be144c74932a175fb5",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-24T10:13:39.251Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-08-10#1",
+      "sesion_id": "2026-08-10",
+      "orden": 1,
+      "titulo": "2.464 € bruts mensuals, amb efectes retributius a partir del dia 1/09/2026.",
+      "resultado": null,
+      "texto_redactado": "2.464 € bruts mensuals, amb efectes retributius a partir del dia 1/09/2026.",
+      "importe_eur": 2464,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0.25,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-24T10:13:39.251Z"
+      }
+    }
+  ]
+}
