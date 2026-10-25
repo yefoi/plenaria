@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "angles",
+    "nombre": "Anglès",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1700840003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2025-12-17",
+    "municipio_id": "angles",
+    "fecha": "2025-12-17",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1700840003/2025/68500d6a-5b82-434c-b0ef-bb71d7004ce4/ACTA%20PLE%2017122025.pdf",
+    "hash_contenido": "045f088a29c9ffb42ae1c73ae0ea4298da4d34d1e29616054a8b9d53f93ed883",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-25T10:28:29.671Z"
+  },
+  "puntos": [
+    {
+      "id": "2025-12-17#1",
+      "sesion_id": "2025-12-17",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de les sessions dels dies 30 de setembre de 2025, 29",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de les sessions dels dies 30 de setembre de 2025, 29",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-25T10:28:29.671Z"
+      }
+    },
+    {
+      "id": "2025-12-17#2",
+      "sesion_id": "2025-12-17",
+      "orden": 2,
+      "titulo": "Donar compte dels decrets d'Alcaldia",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels decrets d'Alcaldia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-25T10:28:29.671Z"
+      }
+    },
+    {
+      "id": "2025-12-17#3",
+      "sesion_id": "2025-12-17",
+      "orden": 3,
+      "titulo": "Donar compte del Pla Anual de Control Financer 2025 (PACF 2025)",
+      "resultado": null,
+      "texto_redactado": "Donar compte del Pla Anual de Control Financer 2025 (PACF 2025)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-25T10:28:29.671Z"
+      }
+    },
+    {
+      "id": "2025-12-17#4",
+      "sesion_id": "2025-12-17",
+      "orden": 4,
+      "titulo": "OBJECTIUS O RESULTATS QUE ES PRETENEN ACONSEGUIR",
+      "resultado": null,
+      "texto_redactado": "OBJECTIUS O RESULTATS QUE ES PRETENEN ACONSEGUIR",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-25T10:28:29.671Z"
+      }
+    },
+    {
+      "id": "2025-12-17#5",
+      "sesion_id": "2025-12-17",
+      "orden": 5,
+      "titulo": "ACTIVITATS (cal relacionar-les amb els objectius).",
+      "resultado": null,
+      "texto_redactado": "ACTIVITATS (cal relacionar-les amb els objectius).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-25T10:28:29.671Z"
+      }
+    },
+    {
+      "id": "2025-12-17#6",
+      "sesion_id": "2025-12-17",
+      "orden": 6,
+      "titulo": "PLA DE TREBALL CALENDARITZAT",
+      "resultado": null,
+      "texto_redactado": "PLA DE TREBALL CALENDARITZAT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-25T10:28:29.671Z"
+      }
+    },
+    {
+      "id": "2025-12-17#7",
+      "sesion_id": "2025-12-17",
+      "orden": 7,
+      "titulo": "Precs i preguntes",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-25T10:28:29.671Z"
+      }
+    }
+  ]
+}
