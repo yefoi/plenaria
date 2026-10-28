@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "moia",
+    "nombre": "Moià",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "813850006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-09--effad0aa",
+    "municipio_id": "moia",
+    "fecha": "2026-10-09",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/813850006/2026/512b510c-e135-4234-9107-91c20310201d/20261008_DILIGENCIA%20Anul_lacio%20de%20l%27expedient%20PLN_2026_11..pdf",
+    "hash_contenido": "df1e997caf5e6df3252c5fa37a64130479f3245c35dbe8b21323fef3fbe31d62",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-28T12:03:01.613Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-09--effad0aa#1",
+      "sesion_id": "2026-10-09--effad0aa",
+      "orden": 1,
+      "titulo": "Pàgina 1 de 1 DILIGÈNCIA DE SECRETARIA – S’estén la present diligència per fer constar que per motius tècnics informàtics, l’expedient PLN/2026/11 s’ha anul·lat i per tant no existeix",
+      "resultado": null,
+      "texto_redactado": "Pàgina 1 de 1 DILIGÈNCIA DE SECRETARIA – S’estén la present diligència per fer constar que per motius tècnics informàtics, l’expedient PLN/2026/11 s’ha anul·lat i per tant no existeix",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 0.88,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-28T12:03:01.613Z"
+      }
+    }
+  ]
+}

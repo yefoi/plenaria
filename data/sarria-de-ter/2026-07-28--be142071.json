@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sarria-de-ter",
+    "nombre": "Sarrià de Ter",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1718640003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-28--be142071",
+    "municipio_id": "sarria-de-ter",
+    "fecha": "2026-07-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1718640003/2026/be8b90da-ba00-4d2e-9a9c-2a8fcdd36039/Acta%20sessi%f3%20%20Ple%2028-07-2026.pdf",
+    "hash_contenido": "af3caa6006cda8542ec27a4827a000f9040870e1f787bb920b377e01853a7440",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-28T12:03:34.808Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-28--be142071#1",
+      "sesion_id": "2026-07-28--be142071",
+      "orden": 1,
+      "titulo": "2.- Ajuntament de Sarrià de Ter. Acta aprovada per l'Ajuntament en Ple en sessió ordinària de 22 de setembre",
+      "resultado": null,
+      "texto_redactado": "2.- Ajuntament de Sarrià de Ter. Acta aprovada per l'Ajuntament en Ple en sessió ordinària de 22 de setembre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-28T12:03:34.808Z"
+      }
+    }
+  ]
+}

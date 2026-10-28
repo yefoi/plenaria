@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "la-roca-del-valles",
+    "nombre": "La Roca del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "818100000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-27",
+    "municipio_id": "la-roca-del-valles",
+    "fecha": "2026-07-27",
+    "tipo": "extraordinaria_urgente",
+    "fuente_url": "https://media.seu-e.cat/acteca/818100000/2026/c9f2cc76-b5de-4d38-b9eb-0f920dae6dac/Acta%20Ple%20Extraordinari%20Urgent%2027%20Juliol%202026_Exp.230125T_SEFYCU%20254721.pdf",
+    "hash_contenido": "52a91250ad5f3a85c6f2cbe8216703a716925f15f56d7113320fb883f068f215",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-28T12:03:14.534Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-27#1",
+      "sesion_id": "2026-07-27",
+      "orden": 1,
+      "titulo": "Qualificar la planta baixa de l’Àmbit A com a sistema d'equipament comunitari",
+      "resultado": null,
+      "texto_redactado": "Qualificar la planta baixa de l’Àmbit A com a sistema d'equipament comunitari",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.57,
+      "impacto": 3,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-28T12:03:14.534Z"
+      }
+    },
+    {
+      "id": "2026-07-27#2",
+      "sesion_id": "2026-07-27",
+      "orden": 2,
+      "titulo": "A l’Àmbit B, en l’actualitat qualificat com a sistema d’equipaments varis (clau Ev),",
+      "resultado": null,
+      "texto_redactado": "A l’Àmbit B, en l’actualitat qualificat com a sistema d’equipaments varis (clau Ev),",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.39,
+      "impacto": 2,
+      "confianza_min": 0.36,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-28T12:03:14.534Z"
+      }
+    },
+    {
+      "id": "2026-07-27#3",
+      "sesion_id": "2026-07-27",
+      "orden": 3,
+      "titulo": "Ajustar els paràmetres d’ordenació i d’edificació necessaris per a permetre la",
+      "resultado": null,
+      "texto_redactado": "Ajustar els paràmetres d’ordenació i d’edificació necessaris per a permetre la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.56,
+      "impacto": 3,
+      "confianza_min": 0.15,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-28T12:03:14.534Z"
+      }
+    },
+    {
+      "id": "2026-07-27#4",
+      "sesion_id": "2026-07-27",
+      "orden": 4,
+      "titulo": "Es corregeixen les incongruències entre la documentació gràfica i",
+      "resultado": null,
+      "texto_redactado": "Es corregeixen les incongruències entre la documentació gràfica i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-28T12:03:14.534Z"
+      }
+    }
+  ]
+}

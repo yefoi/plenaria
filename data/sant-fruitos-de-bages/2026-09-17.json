@@ -1,0 +1,244 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-fruitos-de-bages",
+    "nombre": "Sant Fruitós de Bages",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "821350006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-17",
+    "municipio_id": "sant-fruitos-de-bages",
+    "fecha": "2026-09-17",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/821350006/2026/58063d3d-8ea0-40c0-b4b3-514691ef7625/20261026%20Acta%20de%20la%20sessi%f3%20ordin%e0ria%20del%20Ple%20de%2017%20de%20setembre%20de%202026%20aprovat%20en%20ple%20de%2008.10.2026%20SDP.pdf",
+    "hash_contenido": "48bd212424201dba9aaf3cdded7a8bd1220352b66b0551fca729f35682f5eaed",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-28T12:03:24.938Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-17#1",
+      "sesion_id": "2026-09-17",
+      "orden": 1,
+      "titulo": "Ser copartícips de la generació d’energia verda de la instal·lació fotovoltaica",
+      "resultado": null,
+      "texto_redactado": "Ser copartícips de la generació d’energia verda de la instal·lació fotovoltaica",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.43,
+      "impacto": 2,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-28T12:03:24.938Z"
+      }
+    },
+    {
+      "id": "2026-09-17#2",
+      "sesion_id": "2026-09-17",
+      "orden": 2,
+      "titulo": "Poder consumir l’energia generada en el moment de la seva generació i injectar laCodi Validació: 66ANZYZ7SF2X7SJC2SSQ7NMPW",
+      "resultado": null,
+      "texto_redactado": "Poder consumir l’energia generada en el moment de la seva generació i injectar laCodi Validació: 66ANZYZ7SF2X7SJC2SSQ7NMPW",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.56,
+      "impacto": 2,
+      "confianza_min": 0.41,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-28T12:03:24.938Z"
+      }
+    },
+    {
+      "id": "2026-09-17#3",
+      "sesion_id": "2026-09-17",
+      "orden": 3,
+      "titulo": "Accedir, si escau, a una plataforma digital amb informació sobre consums i generació",
+      "resultado": null,
+      "texto_redactado": "Accedir, si escau, a una plataforma digital amb informació sobre consums i generació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.3,
+      "impacto": 2,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-28T12:03:24.938Z"
+      }
+    },
+    {
+      "id": "2026-09-17#4",
+      "sesion_id": "2026-09-17",
+      "orden": 4,
+      "titulo": "En cas que els criteris i barems esmentats no hagin estat aprovats en el moment de la",
+      "resultado": null,
+      "texto_redactado": "En cas que els criteris i barems esmentats no hagin estat aprovats en el moment de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.89,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-28T12:03:24.938Z"
+      }
+    },
+    {
+      "id": "2026-09-17#5",
+      "sesion_id": "2026-09-17",
+      "orden": 5,
+      "titulo": "Les quotes incloses en el procediment general tindran una potència individual d’1 kW",
+      "resultado": null,
+      "texto_redactado": "Les quotes incloses en el procediment general tindran una potència individual d’1 kW",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.44,
+      "impacto": 2,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-28T12:03:24.938Z"
+      }
+    },
+    {
+      "id": "2026-09-17#6",
+      "sesion_id": "2026-09-17",
+      "orden": 6,
+      "titulo": "La convocatòria podrà concretar la potència disponible, el nombre de quotes, la",
+      "resultado": null,
+      "texto_redactado": "La convocatòria podrà concretar la potència disponible, el nombre de quotes, la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.3,
+      "impacto": 2,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-28T12:03:24.938Z"
+      }
+    },
+    {
+      "id": "2026-09-17#7",
+      "sesion_id": "2026-09-17",
+      "orden": 7,
+      "titulo": "Les sol·licituds admeses que no obtinguin quota integraran una llista d’espera, ordenadaCodi Validació: 66ANZYZ7SF2X7SJC2SSQ7NMPW",
+      "resultado": null,
+      "texto_redactado": "Les sol·licituds admeses que no obtinguin quota integraran una llista d’espera, ordenadaCodi Validació: 66ANZYZ7SF2X7SJC2SSQ7NMPW",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.45,
+      "impacto": 2,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-28T12:03:24.938Z"
+      }
+    },
+    {
+      "id": "2026-09-17#8",
+      "sesion_id": "2026-09-17",
+      "orden": 8,
+      "titulo": "Si alguna persona adjudicatària renuncia, no aporta la documentació necessària, no",
+      "resultado": null,
+      "texto_redactado": "Si alguna persona adjudicatària renuncia, no aporta la documentació necessària, no",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.79,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-28T12:03:24.938Z"
+      }
+    },
+    {
+      "id": "2026-09-17#9",
+      "sesion_id": "2026-09-17",
+      "orden": 9,
+      "titulo": "La potència reservada per a finalitats socials que no pugui ser assignada per manca de",
+      "resultado": null,
+      "texto_redactado": "La potència reservada per a finalitats socials que no pugui ser assignada per manca de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-28T12:03:24.938Z"
+      }
+    }
+  ]
+}
