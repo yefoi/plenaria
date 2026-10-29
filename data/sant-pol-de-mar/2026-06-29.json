@@ -1,0 +1,196 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-pol-de-mar",
+    "nombre": "Sant Pol de Mar",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "823590004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-29",
+    "municipio_id": "sant-pol-de-mar",
+    "fecha": "2026-06-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/823590004/2026/4bcd850d-93da-46e3-8749-04bb8e16b03c/7.%20ACTA%20PLE%20ORD.%2029.6.26.pdf",
+    "hash_contenido": "911c2cc8597ca21b4c24b41c142fd42347df971d453d669494fc7353f264b5f9",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-29T12:11:31.559Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-29#1",
+      "sesion_id": "2026-06-29",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L’ACTA DE LA SESSIÓ ANTERIOR DE DATA 1 DE JUNY DE",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’ACTA DE LA SESSIÓ ANTERIOR DE DATA 1 DE JUNY DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:31.559Z"
+      }
+    },
+    {
+      "id": "2026-06-29#2",
+      "sesion_id": "2026-06-29",
+      "orden": 2,
+      "titulo": "ACORD D’APROVACIÓ DE LA XIFRA OFICIAL DE POBLACIÓ A 1 DE GENER DE",
+      "resultado": null,
+      "texto_redactado": "ACORD D’APROVACIÓ DE LA XIFRA OFICIAL DE POBLACIÓ A 1 DE GENER DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 2,
+      "confianza_min": 0.25,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:31.559Z"
+      }
+    },
+    {
+      "id": "2026-06-29#3",
+      "sesion_id": "2026-06-29",
+      "orden": 3,
+      "titulo": "PROPOSTA RELATIVA A LA DETERMINACIÓ DE LES 2 FESTES LOCALS PER L’ANY 2027 -EXP. 2026/1152.-",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA RELATIVA A LA DETERMINACIÓ DE LES 2 FESTES LOCALS PER L’ANY 2027 -EXP. 2026/1152.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.42,
+      "impacto": 4,
+      "confianza_min": 0.43,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:31.559Z"
+      }
+    },
+    {
+      "id": "2026-06-29#4",
+      "sesion_id": "2026-06-29",
+      "orden": 4,
+      "titulo": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DE L’ORDENANÇA FISCAL NÚM. 14 REGULADORA DE LA TAXA PER L’ESTACIONAMENT DE VEHICLES DE TRACCIÓ MECÀNICA EN LES VIES PÚBLIQUES MUNICIPALS 2021/298.-",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DE L’ORDENANÇA FISCAL NÚM. 14 REGULADORA DE LA TAXA PER L’ESTACIONAMENT DE VEHICLES DE TRACCIÓ MECÀNICA EN LES VIES PÚBLIQUES MUNICIPALS 2021/298.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.86,
+      "impacto": 3,
+      "confianza_min": 0.4,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:31.559Z"
+      }
+    },
+    {
+      "id": "2026-06-29#5",
+      "sesion_id": "2026-06-29",
+      "orden": 5,
+      "titulo": "RESOLUCIÓ DE DISCREPÀNCIA, RECONEIXEMENT DE L'OBLIGACIÓ I PAGAMENT DE LA CERITIFICACIÓ NÚM.12 PLATAFORMA ÚNICA 2026-1389.-",
+      "resultado": null,
+      "texto_redactado": "RESOLUCIÓ DE DISCREPÀNCIA, RECONEIXEMENT DE L'OBLIGACIÓ I PAGAMENT DE LA CERITIFICACIÓ NÚM.12 PLATAFORMA ÚNICA 2026-1389.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:31.559Z"
+      }
+    },
+    {
+      "id": "2026-06-29#6",
+      "sesion_id": "2026-06-29",
+      "orden": 6,
+      "titulo": "ASSUMPTES URGENTS.-",
+      "resultado": null,
+      "texto_redactado": "ASSUMPTES URGENTS.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:31.559Z"
+      }
+    },
+    {
+      "id": "2026-06-29#7",
+      "sesion_id": "2026-06-29",
+      "orden": 7,
+      "titulo": "PRECS I PREGUNTES.-",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:31.559Z"
+      }
+    }
+  ]
+}

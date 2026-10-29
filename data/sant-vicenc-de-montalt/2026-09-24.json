@@ -1,0 +1,2147 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-vicenc-de-montalt",
+    "nombre": "Sant Vicenç de Montalt",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "826490004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-24",
+    "municipio_id": "sant-vicenc-de-montalt",
+    "fecha": "2026-09-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/826490004/2026/55a9f87f-9e22-4f7f-9a4f-260f6f41bb30/PLE%202026%209.pdf",
+    "hash_contenido": "cd01891ba3cf5481a08d97540101f7daf157552623838111c19c86e7a68507c4",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-29T12:11:26.767Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-24#1",
+      "sesion_id": "2026-09-24",
+      "orden": 1,
+      "titulo": "Execució de les obres del projecte constructiu ÒPacificació de la",
+      "resultado": null,
+      "texto_redactado": "Execució de les obres del projecte constructiu ÒPacificació de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.75,
+      "impacto": 3,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#2",
+      "sesion_id": "2026-09-24",
+      "orden": 2,
+      "titulo": "La contractació d’aquestes obres.",
+      "resultado": null,
+      "texto_redactado": "La contractació d’aquestes obres.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 2,
+      "confianza_min": 0.18,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#3",
+      "sesion_id": "2026-09-24",
+      "orden": 3,
+      "titulo": "La direcció facultativa de les obres i la coordinació de seguretat i salut, del",
+      "resultado": null,
+      "texto_redactado": "La direcció facultativa de les obres i la coordinació de seguretat i salut, del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 2,
+      "confianza_min": 0.18,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#4",
+      "sesion_id": "2026-09-24",
+      "orden": 4,
+      "titulo": "Lliurament a l’Ajuntament de la documentació necessària per a que",
+      "resultado": null,
+      "texto_redactado": "Lliurament a l’Ajuntament de la documentació necessària per a que",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.87,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#5",
+      "sesion_id": "2026-09-24",
+      "orden": 5,
+      "titulo": "Un cop finalitzada l’execució de les obres objecte d’aquest conveni, i dins",
+      "resultado": null,
+      "texto_redactado": "Un cop finalitzada l’execució de les obres objecte d’aquest conveni, i dins",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 1,
+      "confianza_min": 0.79,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#6",
+      "sesion_id": "2026-09-24",
+      "orden": 6,
+      "titulo": "Les activitats portades a les instal·lacions d’ús públic hauran de complir la",
+      "resultado": null,
+      "texto_redactado": "Les activitats portades a les instal·lacions d’ús públic hauran de complir la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.44,
+      "impacto": 2,
+      "confianza_min": 0.16,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#7",
+      "sesion_id": "2026-09-24",
+      "orden": 7,
+      "titulo": "El subjecte autoritzat de cada instal·lació serà responsable del",
+      "resultado": null,
+      "texto_redactado": "El subjecte autoritzat de cada instal·lació serà responsable del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.92,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#8",
+      "sesion_id": "2026-09-24",
+      "orden": 8,
+      "titulo": "Aquests artefactes han de realitzar l’entrada i la sortida pels canals",
+      "resultado": null,
+      "texto_redactado": "Aquests artefactes han de realitzar l’entrada i la sortida pels canals",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 2,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#9",
+      "sesion_id": "2026-09-24",
+      "orden": 9,
+      "titulo": "Es prohibeix el bany i l’estada en les zones destinades a varada i dins dels",
+      "resultado": null,
+      "texto_redactado": "Es prohibeix el bany i l’estada en les zones destinades a varada i dins dels",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.79,
+      "impacto": 3,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#10",
+      "sesion_id": "2026-09-24",
+      "orden": 10,
+      "titulo": "El subjecte autoritzat ha d'informar les persones usuàries del dret",
+      "resultado": null,
+      "texto_redactado": "El subjecte autoritzat ha d'informar les persones usuàries del dret",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.35,
+      "impacto": 2,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#11",
+      "sesion_id": "2026-09-24",
+      "orden": 11,
+      "titulo": "El subjecte autoritzat haurà de demanar a les autoritats competents els",
+      "resultado": null,
+      "texto_redactado": "El subjecte autoritzat haurà de demanar a les autoritats competents els",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.93,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#12",
+      "sesion_id": "2026-09-24",
+      "orden": 12,
+      "titulo": "En les zones de bany abalisades queda prohibida la navegació esportiva",
+      "resultado": null,
+      "texto_redactado": "En les zones de bany abalisades queda prohibida la navegació esportiva",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.82,
+      "impacto": 3,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#13",
+      "sesion_id": "2026-09-24",
+      "orden": 13,
+      "titulo": "En les zones de bany dels trams de costa que no estiguin abalisats, les",
+      "resultado": null,
+      "texto_redactado": "En les zones de bany dels trams de costa que no estiguin abalisats, les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.67,
+      "impacto": 3,
+      "confianza_min": 0.22,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#14",
+      "sesion_id": "2026-09-24",
+      "orden": 14,
+      "titulo": "Les varades d'aquest tipus d'embarcacions estaran dins dels clubs nàutics",
+      "resultado": null,
+      "texto_redactado": "Les varades d'aquest tipus d'embarcacions estaran dins dels clubs nàutics",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.37,
+      "impacto": 2,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#15",
+      "sesion_id": "2026-09-24",
+      "orden": 15,
+      "titulo": "Les escoles nàutiques tenen un espai reservat per a la recepció",
+      "resultado": null,
+      "texto_redactado": "Les escoles nàutiques tenen un espai reservat per a la recepció",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 2,
+      "confianza_min": 0.25,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#16",
+      "sesion_id": "2026-09-24",
+      "orden": 16,
+      "titulo": "En el Pla d’usos s’incorporarà la possibilitat d'admetre la pràctica de la",
+      "resultado": null,
+      "texto_redactado": "En el Pla d’usos s’incorporarà la possibilitat d'admetre la pràctica de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.43,
+      "impacto": 2,
+      "confianza_min": 0.36,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#17",
+      "sesion_id": "2026-09-24",
+      "orden": 17,
+      "titulo": "Fora de la temporada de bany es permet la pràctica del \"kitesurf\" a totes",
+      "resultado": null,
+      "texto_redactado": "Fora de la temporada de bany es permet la pràctica del \"kitesurf\" a totes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.77,
+      "impacto": 3,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#18",
+      "sesion_id": "2026-09-24",
+      "orden": 18,
+      "titulo": "Es prohibeixen l’estacionament i circulació no autoritzada de vehicles a la",
+      "resultado": null,
+      "texto_redactado": "Es prohibeixen l’estacionament i circulació no autoritzada de vehicles a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.9,
+      "impacto": 3,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#19",
+      "sesion_id": "2026-09-24",
+      "orden": 19,
+      "titulo": "L’accés a la platja dels vehicles de proveïment dels serveis de temporada",
+      "resultado": null,
+      "texto_redactado": "L’accés a la platja dels vehicles de proveïment dels serveis de temporada",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.58,
+      "impacto": 3,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#20",
+      "sesion_id": "2026-09-24",
+      "orden": 20,
+      "titulo": "Queden autoritzades per estacionar i circular per les platges les cadires",
+      "resultado": null,
+      "texto_redactado": "Queden autoritzades per estacionar i circular per les platges les cadires",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.81,
+      "impacto": 3,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#21",
+      "sesion_id": "2026-09-24",
+      "orden": 21,
+      "titulo": "Estan prohibits els campaments i les acampades a les platges, en els",
+      "resultado": null,
+      "texto_redactado": "Estan prohibits els campaments i les acampades a les platges, en els",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.78,
+      "impacto": 3,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#22",
+      "sesion_id": "2026-09-24",
+      "orden": 22,
+      "titulo": "En tot cas s'assimila a acampar el fet d'instal·lar-se a dormir a la platja.",
+      "resultado": null,
+      "texto_redactado": "En tot cas s'assimila a acampar el fet d'instal·lar-se a dormir a la platja.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.69,
+      "impacto": 2,
+      "confianza_min": 0.36,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#23",
+      "sesion_id": "2026-09-24",
+      "orden": 23,
+      "titulo": "Resta prohibit, a la sorra i dins de l’aigua, durant tota la temporada de",
+      "resultado": null,
+      "texto_redactado": "Resta prohibit, a la sorra i dins de l’aigua, durant tota la temporada de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.81,
+      "impacto": 3,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#24",
+      "sesion_id": "2026-09-24",
+      "orden": 24,
+      "titulo": "Pel cas que s’autoritzin activitats esportives, culturals i jocs, en el",
+      "resultado": null,
+      "texto_redactado": "Pel cas que s’autoritzin activitats esportives, culturals i jocs, en el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.56,
+      "impacto": 2,
+      "confianza_min": 0.08,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#25",
+      "sesion_id": "2026-09-24",
+      "orden": 25,
+      "titulo": "Cal que les activitats realitzades per empreses o entitats privades que",
+      "resultado": null,
+      "texto_redactado": "Cal que les activitats realitzades per empreses o entitats privades que",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.38,
+      "impacto": 1,
+      "confianza_min": 0.88,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#26",
+      "sesion_id": "2026-09-24",
+      "orden": 26,
+      "titulo": "En el cas de realització, prèvia autorització municipal, d’activitats o",
+      "resultado": null,
+      "texto_redactado": "En el cas de realització, prèvia autorització municipal, d’activitats o",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 2,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#27",
+      "sesion_id": "2026-09-24",
+      "orden": 27,
+      "titulo": "Amb la finalitat de mantenir un equilibri amb l’espai natural es prohibeix la",
+      "resultado": null,
+      "texto_redactado": "Amb la finalitat de mantenir un equilibri amb l’espai natural es prohibeix la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.64,
+      "impacto": 2,
+      "confianza_min": 0.33,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#28",
+      "sesion_id": "2026-09-24",
+      "orden": 28,
+      "titulo": "Les guinguetes o quioscs, prèvia autorització de l’Ajuntament, podran",
+      "resultado": null,
+      "texto_redactado": "Les guinguetes o quioscs, prèvia autorització de l’Ajuntament, podran",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.64,
+      "impacto": 2,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#29",
+      "sesion_id": "2026-09-24",
+      "orden": 29,
+      "titulo": "Llevat d'autorització especial, solament està permès el sistema de",
+      "resultado": null,
+      "texto_redactado": "Llevat d'autorització especial, solament està permès el sistema de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.47,
+      "impacto": 2,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#30",
+      "sesion_id": "2026-09-24",
+      "orden": 30,
+      "titulo": "A les platges queda prohibida la venda ambulant de qualsevol tipus de",
+      "resultado": null,
+      "texto_redactado": "A les platges queda prohibida la venda ambulant de qualsevol tipus de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.81,
+      "impacto": 3,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#31",
+      "sesion_id": "2026-09-24",
+      "orden": 31,
+      "titulo": "Es prohibeix igualment la realització d'activitats o prestació de serveis com",
+      "resultado": null,
+      "texto_redactado": "Es prohibeix igualment la realització d'activitats o prestació de serveis com",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.52,
+      "impacto": 2,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#32",
+      "sesion_id": "2026-09-24",
+      "orden": 32,
+      "titulo": "Als efectes previstos en els dos apartats anteriors, la llicència o",
+      "resultado": null,
+      "texto_redactado": "Als efectes previstos en els dos apartats anteriors, la llicència o",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 1,
+      "confianza_min": 0.77,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#33",
+      "sesion_id": "2026-09-24",
+      "orden": 33,
+      "titulo": "L’autoritat competent podrà comissar els productes a aquelles persones",
+      "resultado": null,
+      "texto_redactado": "L’autoritat competent podrà comissar els productes a aquelles persones",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 2,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#34",
+      "sesion_id": "2026-09-24",
+      "orden": 34,
+      "titulo": "Es prohibeix la realització d’escultures de sorra a la platja, de grans",
+      "resultado": null,
+      "texto_redactado": "Es prohibeix la realització d’escultures de sorra a la platja, de grans",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.76,
+      "impacto": 3,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#35",
+      "sesion_id": "2026-09-24",
+      "orden": 35,
+      "titulo": "La cerca amb detector de metalls només es podrà fer durant la temporada",
+      "resultado": null,
+      "texto_redactado": "La cerca amb detector de metalls només es podrà fer durant la temporada",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.47,
+      "impacto": 2,
+      "confianza_min": 0.71,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#36",
+      "sesion_id": "2026-09-24",
+      "orden": 36,
+      "titulo": "Queda prohibida la publicitat a les platges per mitjà de rètols, tanques,",
+      "resultado": null,
+      "texto_redactado": "Queda prohibida la publicitat a les platges per mitjà de rètols, tanques,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.7,
+      "impacto": 3,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#37",
+      "sesion_id": "2026-09-24",
+      "orden": 37,
+      "titulo": "El deteriorament de les platges i de les seves instal·lacions i mobiliari d’ús",
+      "resultado": null,
+      "texto_redactado": "El deteriorament de les platges i de les seves instal·lacions i mobiliari d’ús",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.86,
+      "impacto": 3,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#38",
+      "sesion_id": "2026-09-24",
+      "orden": 38,
+      "titulo": "La retirada dels elements publicitaris l'han d’efectuar els subjectes",
+      "resultado": null,
+      "texto_redactado": "La retirada dels elements publicitaris l'han d’efectuar els subjectes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 2,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#39",
+      "sesion_id": "2026-09-24",
+      "orden": 39,
+      "titulo": "Queda prohibit realitzar qualsevol tipus de pintada o grafit a les",
+      "resultado": null,
+      "texto_redactado": "Queda prohibit realitzar qualsevol tipus de pintada o grafit a les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.8,
+      "impacto": 3,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#40",
+      "sesion_id": "2026-09-24",
+      "orden": 40,
+      "titulo": "L’autoritat competent pot retirar o intervenir els materials o mitjans",
+      "resultado": null,
+      "texto_redactado": "L’autoritat competent pot retirar o intervenir els materials o mitjans",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.4,
+      "impacto": 2,
+      "confianza_min": 0.35,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#41",
+      "sesion_id": "2026-09-24",
+      "orden": 41,
+      "titulo": "Si per les característiques de l’expressió gràfica, el material emprat o el",
+      "resultado": null,
+      "texto_redactado": "Si per les característiques de l’expressió gràfica, el material emprat o el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.93,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#42",
+      "sesion_id": "2026-09-24",
+      "orden": 42,
+      "titulo": "Queda totalment prohibida l'evacuació fisiològica en el mar o en les",
+      "resultado": null,
+      "texto_redactado": "Queda totalment prohibida l'evacuació fisiològica en el mar o en les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.71,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#43",
+      "sesion_id": "2026-09-24",
+      "orden": 43,
+      "titulo": "L’Ajuntament informarà a les persones usuàries respecte a la ubicació de",
+      "resultado": null,
+      "texto_redactado": "L’Ajuntament informarà a les persones usuàries respecte a la ubicació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.6,
+      "impacto": 2,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#44",
+      "sesion_id": "2026-09-24",
+      "orden": 44,
+      "titulo": "Les cabines sanitàries s’han de netejar d’acord amb l’ús que se’n faci.",
+      "resultado": null,
+      "texto_redactado": "Les cabines sanitàries s’han de netejar d’acord amb l’ús que se’n faci.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 3,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#45",
+      "sesion_id": "2026-09-24",
+      "orden": 45,
+      "titulo": "Resta prohibit rentar-se dins del mar utilitzant sabó, gel, xampú o",
+      "resultado": null,
+      "texto_redactado": "Resta prohibit rentar-se dins del mar utilitzant sabó, gel, xampú o",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.82,
+      "impacto": 3,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#46",
+      "sesion_id": "2026-09-24",
+      "orden": 46,
+      "titulo": "Resta prohibit donar un ús diferent d’aquell per al qual estan destinades",
+      "resultado": null,
+      "texto_redactado": "Resta prohibit donar un ús diferent d’aquell per al qual estan destinades",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.36,
+      "impacto": 2,
+      "confianza_min": 0.18,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#47",
+      "sesion_id": "2026-09-24",
+      "orden": 47,
+      "titulo": "Es prohibeix qualsevol manipulació i ús indegut del mobiliari urbà que",
+      "resultado": null,
+      "texto_redactado": "Es prohibeix qualsevol manipulació i ús indegut del mobiliari urbà que",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.85,
+      "impacto": 3,
+      "confianza_min": 0.36,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#48",
+      "sesion_id": "2026-09-24",
+      "orden": 48,
+      "titulo": "Cal vetllar perquè no es mantinguin les aixetes obertes més temps de",
+      "resultado": null,
+      "texto_redactado": "Cal vetllar perquè no es mantinguin les aixetes obertes més temps de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.75,
+      "impacto": 3,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#49",
+      "sesion_id": "2026-09-24",
+      "orden": 49,
+      "titulo": "L’Ajuntament instal·larà a les dutxes de les platges informació sobre el",
+      "resultado": null,
+      "texto_redactado": "L’Ajuntament instal·larà a les dutxes de les platges informació sobre el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.74,
+      "impacto": 3,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#50",
+      "sesion_id": "2026-09-24",
+      "orden": 50,
+      "titulo": "En situacions de sequera o en d'altres que ho facin aconsellable,",
+      "resultado": null,
+      "texto_redactado": "En situacions de sequera o en d'altres que ho facin aconsellable,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "medio_ambiente",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.62,
+      "impacto": 3,
+      "confianza_min": 0.02,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#51",
+      "sesion_id": "2026-09-24",
+      "orden": 51,
+      "titulo": "Amb caràcter general a la zona de platja s’ha de donar compliment a allò",
+      "resultado": null,
+      "texto_redactado": "Amb caràcter general a la zona de platja s’ha de donar compliment a allò",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#52",
+      "sesion_id": "2026-09-24",
+      "orden": 52,
+      "titulo": "Per a l’ús correcte de les papereres de la platja, cal seguir les següents",
+      "resultado": null,
+      "texto_redactado": "Per a l’ús correcte de les papereres de la platja, cal seguir les següents",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.81,
+      "impacto": 3,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#53",
+      "sesion_id": "2026-09-24",
+      "orden": 53,
+      "titulo": "Es prohibeix netejar en la sorra de la platja, en l’aigua del mar, en les",
+      "resultado": null,
+      "texto_redactado": "Es prohibeix netejar en la sorra de la platja, en l’aigua del mar, en les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.84,
+      "impacto": 3,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#54",
+      "sesion_id": "2026-09-24",
+      "orden": 54,
+      "titulo": "A efectes de recollida de residus, l'Ajuntament ha de realitzar les gestions",
+      "resultado": null,
+      "texto_redactado": "A efectes de recollida de residus, l'Ajuntament ha de realitzar les gestions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.48,
+      "impacto": 3,
+      "confianza_min": 0.18,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#55",
+      "sesion_id": "2026-09-24",
+      "orden": 55,
+      "titulo": "L'Ajuntament, per encàrrec de gestió o delegació, realitza, per gestió",
+      "resultado": null,
+      "texto_redactado": "L'Ajuntament, per encàrrec de gestió o delegació, realitza, per gestió",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.82,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#56",
+      "sesion_id": "2026-09-24",
+      "orden": 56,
+      "titulo": "Queda prohibit pertorbar o impedir el normal funcionament del servei de",
+      "resultado": null,
+      "texto_redactado": "Queda prohibit pertorbar o impedir el normal funcionament del servei de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.76,
+      "impacto": 3,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#57",
+      "sesion_id": "2026-09-24",
+      "orden": 57,
+      "titulo": "La neteja dels espais de domini públic marítim terrestre embrutats com a",
+      "resultado": null,
+      "texto_redactado": "La neteja dels espais de domini públic marítim terrestre embrutats com a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.64,
+      "impacto": 3,
+      "confianza_min": 0.29,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#58",
+      "sesion_id": "2026-09-24",
+      "orden": 58,
+      "titulo": "En les zones o parcel·les ocupades pels serveis de temporada,",
+      "resultado": null,
+      "texto_redactado": "En les zones o parcel·les ocupades pels serveis de temporada,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.37,
+      "impacto": 2,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#59",
+      "sesion_id": "2026-09-24",
+      "orden": 59,
+      "titulo": "Queda terminantment prohibit qualsevol acte que pugui embrutar les",
+      "resultado": null,
+      "texto_redactado": "Queda terminantment prohibit qualsevol acte que pugui embrutar les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.71,
+      "impacto": 3,
+      "confianza_min": 0.3,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#60",
+      "sesion_id": "2026-09-24",
+      "orden": 60,
+      "titulo": "Les persones usuàries de les platges han de respectar especialment la",
+      "resultado": null,
+      "texto_redactado": "Les persones usuàries de les platges han de respectar especialment la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.61,
+      "impacto": 2,
+      "confianza_min": 0.11,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#61",
+      "sesion_id": "2026-09-24",
+      "orden": 61,
+      "titulo": "En aquest espai resta prohibit arrencar la flora, caçar o matar la fauna o",
+      "resultado": null,
+      "texto_redactado": "En aquest espai resta prohibit arrencar la flora, caçar o matar la fauna o",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#62",
+      "sesion_id": "2026-09-24",
+      "orden": 62,
+      "titulo": "En els espais dunars delimitats resta prohibida la circulació de persones,",
+      "resultado": null,
+      "texto_redactado": "En els espais dunars delimitats resta prohibida la circulació de persones,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#63",
+      "sesion_id": "2026-09-24",
+      "orden": 63,
+      "titulo": "Durant la temporada de bany, l'Ajuntament ha de posar un servei de",
+      "resultado": null,
+      "texto_redactado": "Durant la temporada de bany, l'Ajuntament ha de posar un servei de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#64",
+      "sesion_id": "2026-09-24",
+      "orden": 64,
+      "titulo": "L'Ajuntament, per complir allò relacionat amb el salvament i seguretat de",
+      "resultado": null,
+      "texto_redactado": "L'Ajuntament, per complir allò relacionat amb el salvament i seguretat de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#65",
+      "sesion_id": "2026-09-24",
+      "orden": 65,
+      "titulo": "A les platges es vetllarà perquè els mitjans tècnics d’emergència sanitària",
+      "resultado": null,
+      "texto_redactado": "A les platges es vetllarà perquè els mitjans tècnics d’emergència sanitària",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#66",
+      "sesion_id": "2026-09-24",
+      "orden": 66,
+      "titulo": "El servei de vigilància ha de senyalitzar les zones de bany d'acord amb la",
+      "resultado": null,
+      "texto_redactado": "El servei de vigilància ha de senyalitzar les zones de bany d'acord amb la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#67",
+      "sesion_id": "2026-09-24",
+      "orden": 67,
+      "titulo": "Segons les circumstàncies, les platges es classificaran de la següent",
+      "resultado": null,
+      "texto_redactado": "Segons les circumstàncies, les platges es classificaran de la següent",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#68",
+      "sesion_id": "2026-09-24",
+      "orden": 68,
+      "titulo": "Per identificar els tipus de platges esmentats anteriorment es",
+      "resultado": null,
+      "texto_redactado": "Per identificar els tipus de platges esmentats anteriorment es",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#69",
+      "sesion_id": "2026-09-24",
+      "orden": 69,
+      "titulo": "Les causes que poden derivar un canvi de tipus o classificació de platja i",
+      "resultado": null,
+      "texto_redactado": "Les causes que poden derivar un canvi de tipus o classificació de platja i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#70",
+      "sesion_id": "2026-09-24",
+      "orden": 70,
+      "titulo": "Les condicions mínimes que s'han de donar per a la col·locació de",
+      "resultado": null,
+      "texto_redactado": "Les condicions mínimes que s'han de donar per a la col·locació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#71",
+      "sesion_id": "2026-09-24",
+      "orden": 71,
+      "titulo": "Es prohibeix el bany, o si cal l'accés a la platja, en cas que la bandera",
+      "resultado": null,
+      "texto_redactado": "Es prohibeix el bany, o si cal l'accés a la platja, en cas que la bandera",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#72",
+      "sesion_id": "2026-09-24",
+      "orden": 72,
+      "titulo": "Resta prohibit llançar-se a l’aigua en zona d'espigó, rocall, embarcador,",
+      "resultado": null,
+      "texto_redactado": "Resta prohibit llançar-se a l’aigua en zona d'espigó, rocall, embarcador,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#73",
+      "sesion_id": "2026-09-24",
+      "orden": 73,
+      "titulo": "Llevat que hi hagi autorització municipal, queda prohibit fer qualsevol tipus",
+      "resultado": null,
+      "texto_redactado": "Llevat que hi hagi autorització municipal, queda prohibit fer qualsevol tipus",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#74",
+      "sesion_id": "2026-09-24",
+      "orden": 74,
+      "titulo": "Excepte autorització expressa municipal, resta prohibit cuinar a la platja.",
+      "resultado": null,
+      "texto_redactado": "Excepte autorització expressa municipal, resta prohibit cuinar a la platja.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#75",
+      "sesion_id": "2026-09-24",
+      "orden": 75,
+      "titulo": "Queda prohibida la pirotècnia i l’encesa de fanalets voladors de foc, llevat",
+      "resultado": null,
+      "texto_redactado": "Queda prohibida la pirotècnia i l’encesa de fanalets voladors de foc, llevat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "seguridad",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#76",
+      "sesion_id": "2026-09-24",
+      "orden": 76,
+      "titulo": "L’Ajuntament podrà prestar el servei d’assistència al bany de persones",
+      "resultado": null,
+      "texto_redactado": "L’Ajuntament podrà prestar el servei d’assistència al bany de persones",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#77",
+      "sesion_id": "2026-09-24",
+      "orden": 77,
+      "titulo": "L’Ajuntament podrà prestar altres serveis d’assistència a les persones",
+      "resultado": null,
+      "texto_redactado": "L’Ajuntament podrà prestar altres serveis d’assistència a les persones",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#78",
+      "sesion_id": "2026-09-24",
+      "orden": 78,
+      "titulo": "Punto sancionador",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#79",
+      "sesion_id": "2026-09-24",
+      "orden": 79,
+      "titulo": "Són responsables, subsidiàriament, en cas que no es puguin identificar",
+      "resultado": null,
+      "texto_redactado": "Són responsables, subsidiàriament, en cas que no es puguin identificar",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#80",
+      "sesion_id": "2026-09-24",
+      "orden": 80,
+      "titulo": "En relació amb la neteja de la brutícia originada pels animals domèstics",
+      "resultado": null,
+      "texto_redactado": "En relació amb la neteja de la brutícia originada pels animals domèstics",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#81",
+      "sesion_id": "2026-09-24",
+      "orden": 81,
+      "titulo": "Si fossin diverses les persones responsables i no fos possible determinar",
+      "resultado": null,
+      "texto_redactado": "Si fossin diverses les persones responsables i no fos possible determinar",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#82",
+      "sesion_id": "2026-09-24",
+      "orden": 82,
+      "titulo": "Punto sancionador",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#83",
+      "sesion_id": "2026-09-24",
+      "orden": 83,
+      "titulo": "Punto sancionador",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#84",
+      "sesion_id": "2026-09-24",
+      "orden": 84,
+      "titulo": "És una infracció molt greu:",
+      "resultado": null,
+      "texto_redactado": "És una infracció molt greu:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#85",
+      "sesion_id": "2026-09-24",
+      "orden": 85,
+      "titulo": "És una infracció greu:",
+      "resultado": null,
+      "texto_redactado": "És una infracció greu:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#86",
+      "sesion_id": "2026-09-24",
+      "orden": 86,
+      "titulo": "És una infracció lleu:",
+      "resultado": null,
+      "texto_redactado": "És una infracció lleu:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#87",
+      "sesion_id": "2026-09-24",
+      "orden": 87,
+      "titulo": "Punto sancionador",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    },
+    {
+      "id": "2026-09-24#88",
+      "sesion_id": "2026-09-24",
+      "orden": 88,
+      "titulo": "Punto sancionador",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:26.767Z"
+      }
+    }
+  ]
+}

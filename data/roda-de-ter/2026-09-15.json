@@ -1,0 +1,537 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "roda-de-ter",
+    "nombre": "Roda de Ter",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "818310007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-15",
+    "municipio_id": "roda-de-ter",
+    "fecha": "2026-09-15",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/818310007/2026/90a1f8bf-a9cc-4824-ac1e-a2ed401f944c/ACTA%20PLE%2015%20SETEMBRE%202026.pdf",
+    "hash_contenido": "4f576ae8a551c9051cf6269d7d754716476eda0c09dc6350ad9785211f21fb7c",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-29T12:10:39.090Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-15#1",
+      "sesion_id": "2026-09-15",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L'ACTA DE LA SESSIÓ ORDINÀRIA DE 21 DE JULIOL",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L'ACTA DE LA SESSIÓ ORDINÀRIA DE 21 DE JULIOL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:39.090Z"
+      }
+    },
+    {
+      "id": "2026-09-15#2",
+      "sesion_id": "2026-09-15",
+      "orden": 2,
+      "titulo": "DICTAMEN RELATIU A L’APROVACIÓ DE LA PRÒRROGA I LA REVISIÓ DE PREUS DEL CONVENI REGULADOR DE LA DELEGACIÓ DE COMPETÈNCIES PER A LA PRESTACIÓ DEL SERVEI DE RECOLLIDA SELECTIVA DE RESIDUS, NETEJA VIÀRIA I DEIXALLERIA ENTRE EL DOCUMENT ACTA_PLE ÒRGAN",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN RELATIU A L’APROVACIÓ DE LA PRÒRROGA I LA REVISIÓ DE PREUS DEL CONVENI REGULADOR DE LA DELEGACIÓ DE COMPETÈNCIES PER A LA PRESTACIÓ DEL SERVEI DE RECOLLIDA SELECTIVA DE RESIDUS, NETEJA VIÀRIA I DEIXALLERIA ENTRE EL DOCUMENT ACTA_PLE ÒRGAN",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.59,
+      "impacto": 4,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:39.090Z"
+      }
+    },
+    {
+      "id": "2026-09-15#3",
+      "sesion_id": "2026-09-15",
+      "orden": 3,
+      "titulo": "DICTAMEN RELATIU AL DESISTIMENT DE LA LICITACIÓ DE LES OBRES D’URBANITZACIÓ DEL CARRER VERGE SÒL DEL PONT – FASE II",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN RELATIU AL DESISTIMENT DE LA LICITACIÓ DE LES OBRES D’URBANITZACIÓ DEL CARRER VERGE SÒL DEL PONT – FASE II",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.61,
+      "impacto": 3,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:39.090Z"
+      }
+    },
+    {
+      "id": "2026-09-15#4",
+      "sesion_id": "2026-09-15",
+      "orden": 4,
+      "titulo": "DICTAMEN RELATIU A L’APROVACIÓ DE L’EXPEDIENT DE LICITACIÓ DEL CONTRACTE D’OBRES PER A L’EXECUCIÓ DE LES OBRES CONTEMPLADES EN EL PROJECTE D’URBANITZACIÓ DELS CARRERS VERGE DEL SOL DEL PONT I CALL DE LA CAPELLA – FASE 2 – DE RODA DE TER",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN RELATIU A L’APROVACIÓ DE L’EXPEDIENT DE LICITACIÓ DEL CONTRACTE D’OBRES PER A L’EXECUCIÓ DE LES OBRES CONTEMPLADES EN EL PROJECTE D’URBANITZACIÓ DELS CARRERS VERGE DEL SOL DEL PONT I CALL DE LA CAPELLA – FASE 2 – DE RODA DE TER",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.76,
+      "impacto": 3,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:39.090Z"
+      }
+    },
+    {
+      "id": "2026-09-15#5",
+      "sesion_id": "2026-09-15",
+      "orden": 5,
+      "titulo": "DICTAMEN RELATIU A LA DECLARACIÓ DE DESERTA DE LA LICTACIÓ DEL CONTRACTE D’OBRES PER A L’EXECUCIÓ DE LES OBRES CONTEMPLADES EN EL PROJECTE D’OBRES DE RECONSTRUCCIÓ DE LA PORXADA DE CAN PLANOLES",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN RELATIU A LA DECLARACIÓ DE DESERTA DE LA LICTACIÓ DEL CONTRACTE D’OBRES PER A L’EXECUCIÓ DE LES OBRES CONTEMPLADES EN EL PROJECTE D’OBRES DE RECONSTRUCCIÓ DE LA PORXADA DE CAN PLANOLES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.39,
+      "impacto": 2,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:39.090Z"
+      }
+    },
+    {
+      "id": "2026-09-15#6",
+      "sesion_id": "2026-09-15",
+      "orden": 6,
+      "titulo": "DICTAMEN RELATIU A L’ACORD DE VERIFICACIÓ DEL TEXT REFÓS DE LA",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN RELATIU A L’ACORD DE VERIFICACIÓ DEL TEXT REFÓS DE LA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.88,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:39.090Z"
+      }
+    },
+    {
+      "id": "2026-09-15#7",
+      "sesion_id": "2026-09-15",
+      "orden": 7,
+      "titulo": "DICTAMEN RELATIU A LA RATIFICACIÓ DE LA SOL·LICITUD DE SUBVENCIÓ DIRECCIÓ GENERAL ADMINISTRACIÓ LOCAL PER CONCURRÈNCIA NO COMPETITIVA PRESSUPOST GENERALITAT 2026",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN RELATIU A LA RATIFICACIÓ DE LA SOL·LICITUD DE SUBVENCIÓ DIRECCIÓ GENERAL ADMINISTRACIÓ LOCAL PER CONCURRÈNCIA NO COMPETITIVA PRESSUPOST GENERALITAT 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:39.090Z"
+      }
+    },
+    {
+      "id": "2026-09-15#8",
+      "sesion_id": "2026-09-15",
+      "orden": 8,
+      "titulo": "DICTAMEN RELATIU A LA RATIFICACIÓ DE LA SOL·LICITUD DE SUBVENCIÓ DE MILLORAMENT URBÀ, AMBIENTAL I SOCIAL DELS BARRIS I LES VILES",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN RELATIU A LA RATIFICACIÓ DE LA SOL·LICITUD DE SUBVENCIÓ DE MILLORAMENT URBÀ, AMBIENTAL I SOCIAL DELS BARRIS I LES VILES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente",
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.45,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:39.090Z"
+      }
+    },
+    {
+      "id": "2026-09-15#9",
+      "sesion_id": "2026-09-15",
+      "orden": 9,
+      "titulo": "DICTAMEN RELATIU A LA RESOLUCIÓ DE LA SOL·LICITUD D’ESTABLIMENT DE DIES ADDICIONALS D’OBERTURA AUTORITZADA EN FESTIU PER L’ANY 2027",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN RELATIU A LA RESOLUCIÓ DE LA SOL·LICITUD D’ESTABLIMENT DE DIES ADDICIONALS D’OBERTURA AUTORITZADA EN FESTIU PER L’ANY 2027",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 3,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:39.090Z"
+      }
+    },
+    {
+      "id": "2026-09-15#10",
+      "sesion_id": "2026-09-15",
+      "orden": 10,
+      "titulo": "DICTAMEN RELATIU A L’APROVACIÓ DE LA JUSTIFICACIÓ DE LES DESPESES PRESENTADA PEL GRUP MUNICIPAL RODEM CORRESPONENT A LA DOTACIÓ ECONÒMICA DE L’EXERCICI 2025",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN RELATIU A L’APROVACIÓ DE LA JUSTIFICACIÓ DE LES DESPESES PRESENTADA PEL GRUP MUNICIPAL RODEM CORRESPONENT A LA DOTACIÓ ECONÒMICA DE L’EXERCICI 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:39.090Z"
+      }
+    },
+    {
+      "id": "2026-09-15#11",
+      "sesion_id": "2026-09-15",
+      "orden": 11,
+      "titulo": "DICTAMEN RELATIU A L’APROVACIÓ DE LA JUSTIFICACIÓ DE LES DESPESES PRESENTADA PEL GRUP MUNICIPA JUNTS RODA DE TER- COMPROMÍS MUNICIPAL CORRESPONENT A LA DOTACIÓ ECONÒMICA DE L’EXERCICI 2025",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN RELATIU A L’APROVACIÓ DE LA JUSTIFICACIÓ DE LES DESPESES PRESENTADA PEL GRUP MUNICIPA JUNTS RODA DE TER- COMPROMÍS MUNICIPAL CORRESPONENT A LA DOTACIÓ ECONÒMICA DE L’EXERCICI 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:39.090Z"
+      }
+    },
+    {
+      "id": "2026-09-15#12",
+      "sesion_id": "2026-09-15",
+      "orden": 12,
+      "titulo": "DICTAMEN RELATIU A L’APROVACIÓ DE LA JUSTIFICACIÓ DE LES DESPESES PRESENTADA PEL GRUP MUNICIPAL SUMEM PER RODA DE TER – CANDIDATURA DE PROGRÉS CORRESPONENT A LA DOTACIÓ ECONÒMICA DE L’EXERCICI 2025",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN RELATIU A L’APROVACIÓ DE LA JUSTIFICACIÓ DE LES DESPESES PRESENTADA PEL GRUP MUNICIPAL SUMEM PER RODA DE TER – CANDIDATURA DE PROGRÉS CORRESPONENT A LA DOTACIÓ ECONÒMICA DE L’EXERCICI 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:39.090Z"
+      }
+    },
+    {
+      "id": "2026-09-15#13",
+      "sesion_id": "2026-09-15",
+      "orden": 13,
+      "titulo": "DICTAMEN RELATIU A L’APROVACIÓ DE LA JUSTIFICACIÓ DE LES DESPESES PRESENTADA PEL GRUP MUNICIPAL INDEPENDENTS PER AL PROGRÉS DE RODA CORRESPONENT A LA DOTACIÓ ECONÒMICA DE L’EXERCICI 2025",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN RELATIU A L’APROVACIÓ DE LA JUSTIFICACIÓ DE LES DESPESES PRESENTADA PEL GRUP MUNICIPAL INDEPENDENTS PER AL PROGRÉS DE RODA CORRESPONENT A LA DOTACIÓ ECONÒMICA DE L’EXERCICI 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:39.090Z"
+      }
+    },
+    {
+      "id": "2026-09-15#14",
+      "sesion_id": "2026-09-15",
+      "orden": 14,
+      "titulo": "DICTAMEN RELATIU A L’APROVACIÓ DE LA JUSTIFICACIÓ DE LES DESPESES PRESENTADA PEL GRUP MUNICIPAL D’ARA RODA CORRESPONENT A LA DOTACIÓ ECONÒMICA DE L’EXERCICI 2025",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN RELATIU A L’APROVACIÓ DE LA JUSTIFICACIÓ DE LES DESPESES PRESENTADA PEL GRUP MUNICIPAL D’ARA RODA CORRESPONENT A LA DOTACIÓ ECONÒMICA DE L’EXERCICI 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:39.090Z"
+      }
+    },
+    {
+      "id": "2026-09-15#15",
+      "sesion_id": "2026-09-15",
+      "orden": 15,
+      "titulo": "DICTAMEN RELATIVU A L’APROVACIÓ DE LA JUSTIFICACIÓ DE LES DESPESES PRESENTADA PEL GRUP MUNICIPAL ESQUERRA-AM RODA DE TER CORRESPONENT A LA DOTACIÓ ECONÒMICA DE L’EXERCICI 2025",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN RELATIVU A L’APROVACIÓ DE LA JUSTIFICACIÓ DE LES DESPESES PRESENTADA PEL GRUP MUNICIPAL ESQUERRA-AM RODA DE TER CORRESPONENT A LA DOTACIÓ ECONÒMICA DE L’EXERCICI 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:39.090Z"
+      }
+    },
+    {
+      "id": "2026-09-15#16",
+      "sesion_id": "2026-09-15",
+      "orden": 16,
+      "titulo": "DONAR COMPTE DE LES RESOLUCIONS D'ALCALDIA",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE LES RESOLUCIONS D'ALCALDIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:39.090Z"
+      }
+    },
+    {
+      "id": "2026-09-15#17",
+      "sesion_id": "2026-09-15",
+      "orden": 17,
+      "titulo": "DONAR COMPTE DELS ACORDS DE LA JUNTA DE GOVERN LOCAL DOCUMENT ACTA_PLE ÒRGAN ALCALDIA EXPEDIENT 1032-000009-2026",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DELS ACORDS DE LA JUNTA DE GOVERN LOCAL DOCUMENT ACTA_PLE ÒRGAN ALCALDIA EXPEDIENT 1032-000009-2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:39.090Z"
+      }
+    },
+    {
+      "id": "2026-09-15#18",
+      "sesion_id": "2026-09-15",
+      "orden": 18,
+      "titulo": "DONAR COMPTE AL PLE DE LA EXECUCIÓ TRIMESTRAL DEL SEGON TRIMESTRE DE L'EXERCICI 2026",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DE LA EXECUCIÓ TRIMESTRAL DEL SEGON TRIMESTRE DE L'EXERCICI 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:39.090Z"
+      }
+    },
+    {
+      "id": "2026-09-15#19",
+      "sesion_id": "2026-09-15",
+      "orden": 19,
+      "titulo": "DONR COMPTE DE L' INFORME DE TRESORERIA SOBRE EL PERÍODE MIG DE PAGAMENT",
+      "resultado": null,
+      "texto_redactado": "DONR COMPTE DE L' INFORME DE TRESORERIA SOBRE EL PERÍODE MIG DE PAGAMENT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:39.090Z"
+      }
+    },
+    {
+      "id": "2026-09-15#20",
+      "sesion_id": "2026-09-15",
+      "orden": 20,
+      "titulo": "PROPOSTA DE MOCIÓ DEL GRUP RODEM RELATIVA A L'IMPULS IMMEDIANT DE LA VARIANT NORD-OEST DE RODA DE TER ARRAN DEL PROCÉS PARTICIPATIU",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA DE MOCIÓ DEL GRUP RODEM RELATIVA A L'IMPULS IMMEDIANT DE LA VARIANT NORD-OEST DE RODA DE TER ARRAN DEL PROCÉS PARTICIPATIU",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "movilidad_trafico",
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.75,
+      "impacto": 4,
+      "confianza_min": 0.32,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:39.090Z"
+      }
+    },
+    {
+      "id": "2026-09-15#21",
+      "sesion_id": "2026-09-15",
+      "orden": 21,
+      "titulo": "DONAR COMPTE DE L’INFORME TRIMESTRAL SOBRE LA RELACIÓ DE FACTURES RESPECTE LES QUALS HAGIN TRANSCORREGUT MÉS DE TRES MESOS DES QUE VAN SER ANOTADES I NO S’HAGI EFECTUAT EL RECONEIXEMENT DE L’OBLIGACIÓ CORRESPONENT AL SEGON TRIMESTRE DE L’EXERCICI 2026 EXP. X2026001212",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE L’INFORME TRIMESTRAL SOBRE LA RELACIÓ DE FACTURES RESPECTE LES QUALS HAGIN TRANSCORREGUT MÉS DE TRES MESOS DES QUE VAN SER ANOTADES I NO S’HAGI EFECTUAT EL RECONEIXEMENT DE L’OBLIGACIÓ CORRESPONENT AL SEGON TRIMESTRE DE L’EXERCICI 2026 EXP. X2026001212",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:39.090Z"
+      }
+    }
+  ]
+}

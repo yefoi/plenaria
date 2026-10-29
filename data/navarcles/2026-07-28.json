@@ -1,0 +1,317 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "navarcles",
+    "nombre": "Navarcles",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "814020002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-28",
+    "municipio_id": "navarcles",
+    "fecha": "2026-07-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/814020002/2026/70a11357-6547-4225-b435-4593b01c9d14/ACTA_Ple_28-07-2026.pdf",
+    "hash_contenido": "c703587f2a1ab198f8896376550ad9e9cd9c0d037412367d28f4e423d9a07bde",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-29T12:11:27.779Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-28#1",
+      "sesion_id": "2026-07-28",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L'ACTA DE LA SESSIÓ ANTERIOR DE DATA 30/06/2026 ......................................................... 3",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L'ACTA DE LA SESSIÓ ANTERIOR DE DATA 30/06/2026 ......................................................... 3",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:27.779Z"
+      }
+    },
+    {
+      "id": "2026-07-28#2",
+      "sesion_id": "2026-07-28",
+      "orden": 2,
+      "titulo": "DICTAMEN DESISTIMENT DE DOS PRÉSTECS APROVATS PER L'ICF (X2025001398) ..................................... 3",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN DESISTIMENT DE DOS PRÉSTECS APROVATS PER L'ICF (X2025001398) ..................................... 3",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 2,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:27.779Z"
+      }
+    },
+    {
+      "id": "2026-07-28#3",
+      "sesion_id": "2026-07-28",
+      "orden": 3,
+      "titulo": "DICTAMEN APROVACIÓ CONVENI DE COL·LABORACIÓ D'ENCOMANDA DE GESTIÓ DEL SERVEI DE MENJADOR A LES ESCOLES BRESSOL (MONITORATGE MENJADOR) (X2026000818) ................................................................. 6",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN APROVACIÓ CONVENI DE COL·LABORACIÓ D'ENCOMANDA DE GESTIÓ DEL SERVEI DE MENJADOR A LES ESCOLES BRESSOL (MONITORATGE MENJADOR) (X2026000818) ................................................................. 6",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 3,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:27.779Z"
+      }
+    },
+    {
+      "id": "2026-07-28#4",
+      "sesion_id": "2026-07-28",
+      "orden": 4,
+      "titulo": "DICTAMEN APROVACIÓ XIFRA DE POBLACIÓ A 1 DE GENER DE 2026 (X2026000427) ................................ 16",
+      "resultado": null,
+      "texto_redactado": "DICTAMEN APROVACIÓ XIFRA DE POBLACIÓ A 1 DE GENER DE 2026 (X2026000427) ................................ 16",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:27.779Z"
+      }
+    },
+    {
+      "id": "2026-07-28#5",
+      "sesion_id": "2026-07-28",
+      "orden": 5,
+      "titulo": "Donar compte acord JGL 22/06/2026 aprovació Pla de Seguretat i Salut obres Lot 1 Fotovoltaica (X20250015428) ...................................................................................................................................... 18",
+      "resultado": null,
+      "texto_redactado": "Donar compte acord JGL 22/06/2026 aprovació Pla de Seguretat i Salut obres Lot 1 Fotovoltaica (X20250015428) ...................................................................................................................................... 18",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:27.779Z"
+      }
+    },
+    {
+      "id": "2026-07-28#6",
+      "sesion_id": "2026-07-28",
+      "orden": 6,
+      "titulo": "Donar compte acord JGL 22/06/2026 aprovació Pla de Seguretat i Salut obres Lot 2 Fotovoltaica (X2025001429) ........................................................................................................................................ 19",
+      "resultado": null,
+      "texto_redactado": "Donar compte acord JGL 22/06/2026 aprovació Pla de Seguretat i Salut obres Lot 2 Fotovoltaica (X2025001429) ........................................................................................................................................ 19",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:27.779Z"
+      }
+    },
+    {
+      "id": "2026-07-28#7",
+      "sesion_id": "2026-07-28",
+      "orden": 7,
+      "titulo": "Donar compte aprovació Pla de Seguretat i Salut obres Lot 4 Fotovoltaica (X2025001431) ......... 20",
+      "resultado": null,
+      "texto_redactado": "Donar compte aprovació Pla de Seguretat i Salut obres Lot 4 Fotovoltaica (X2025001431) ......... 20",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:27.779Z"
+      }
+    },
+    {
+      "id": "2026-07-28#8",
+      "sesion_id": "2026-07-28",
+      "orden": 8,
+      "titulo": "Donar compte decret 2026DECR000386 - DECRET Represa tramitació expedient aprovació",
+      "resultado": null,
+      "texto_redactado": "Donar compte decret 2026DECR000386 - DECRET Represa tramitació expedient aprovació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:27.779Z"
+      }
+    },
+    {
+      "id": "2026-07-28#9",
+      "sesion_id": "2026-07-28",
+      "orden": 9,
+      "titulo": "Donar compte decret 2026DECR000421 - Liquidació pressupost 2025 ........................................ 24",
+      "resultado": null,
+      "texto_redactado": "Donar compte decret 2026DECR000421 - Liquidació pressupost 2025 ........................................ 24",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:27.779Z"
+      }
+    },
+    {
+      "id": "2026-07-28#10",
+      "sesion_id": "2026-07-28",
+      "orden": 10,
+      "titulo": "Donar compte decret 2026DECR000432 - DEC Activació Pla incendis forestals en fase",
+      "resultado": null,
+      "texto_redactado": "Donar compte decret 2026DECR000432 - DEC Activació Pla incendis forestals en fase",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "seguridad",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:27.779Z"
+      }
+    },
+    {
+      "id": "2026-07-28#11",
+      "sesion_id": "2026-07-28",
+      "orden": 11,
+      "titulo": "DONAR COMPTE DE LES RESOLUCIONS DICTADES PER L'ALCALDESSA DES DE L'ANTERIOR DONACIÓ DE COMPTE AL PLE MUNICIPAL, EN EL BENENTÈS QUE ELS MEMBRES DE LA CORPORACIÓ PODEN ACCEDIR A LLIBRE DE RESOLUCIONS D’ALCALDIA MITJANÇANT L’APLICACIÓ INFORMÀTICA DE GESTOR D’EXPEDIENTS: ................................................................... 28",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE LES RESOLUCIONS DICTADES PER L'ALCALDESSA DES DE L'ANTERIOR DONACIÓ DE COMPTE AL PLE MUNICIPAL, EN EL BENENTÈS QUE ELS MEMBRES DE LA CORPORACIÓ PODEN ACCEDIR A LLIBRE DE RESOLUCIONS D’ALCALDIA MITJANÇANT L’APLICACIÓ INFORMÀTICA DE GESTOR D’EXPEDIENTS: ................................................................... 28",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:27.779Z"
+      }
+    },
+    {
+      "id": "2026-07-28#12",
+      "sesion_id": "2026-07-28",
+      "orden": 12,
+      "titulo": "DONAR COMPTE DE LES ACTES APROVADES DE LA JUNTA DE GOVERN LOCAL NòM. 22/2026, 24/2026, 25/2026 I 26/2026, QUE CORRESPONEN A LES SESSIONS DELS DIES 22/06/2026, 30/06/2026, 07/07/2026 I 14/07/2026, RESPECTIVAMENT. ..................................................................................................................... 30",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE LES ACTES APROVADES DE LA JUNTA DE GOVERN LOCAL NòM. 22/2026, 24/2026, 25/2026 I 26/2026, QUE CORRESPONEN A LES SESSIONS DELS DIES 22/06/2026, 30/06/2026, 07/07/2026 I 14/07/2026, RESPECTIVAMENT. ..................................................................................................................... 30",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:11:27.779Z"
+      }
+    }
+  ]
+}

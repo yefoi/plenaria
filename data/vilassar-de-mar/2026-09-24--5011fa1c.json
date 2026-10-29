@@ -1,0 +1,388 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vilassar-de-mar",
+    "nombre": "Vilassar de Mar",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "821910007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-24--5011fa1c",
+    "municipio_id": "vilassar-de-mar",
+    "fecha": "2026-09-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/821910007/2026/6dd6aed3-41f8-4693-b47f-2f906b93fd27/ACTA%20PLE%20ORDINARI%2024-09-2026_ANONIMITZADA.docx",
+    "hash_contenido": "613b085839f3a43729a9a95b17fb6280e0d705ded1436dddbc22a8010cc27c04",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-29T12:10:45.060Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-24--5011fa1c#1",
+      "sesion_id": "2026-09-24--5011fa1c",
+      "orden": 1,
+      "titulo": "APROVACIO DE L'ACTA DE LA SESSIÓ ANTERIOR DEL DIA 23-07-2026",
+      "resultado": null,
+      "texto_redactado": "APROVACIO DE L'ACTA DE LA SESSIÓ ANTERIOR DEL DIA 23-07-2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:45.060Z"
+      }
+    },
+    {
+      "id": "2026-09-24--5011fa1c#2",
+      "sesion_id": "2026-09-24--5011fa1c",
+      "orden": 2,
+      "titulo": "DACIÓ EN COMPTE DE L'INFORME DE CONTROL FINANCER POSTERIOR CORRESPONENT A LA MOROSITAT 2025",
+      "resultado": null,
+      "texto_redactado": "DACIÓ EN COMPTE DE L'INFORME DE CONTROL FINANCER POSTERIOR CORRESPONENT A LA MOROSITAT 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:45.060Z"
+      }
+    },
+    {
+      "id": "2026-09-24--5011fa1c#3",
+      "sesion_id": "2026-09-24--5011fa1c",
+      "orden": 3,
+      "titulo": "APROVACIÓ INICIAL MC.13/2026 MITJANÇANT CRÈDIT EXTRAORDINARI I SUPLEMENT DE CRÈDIT",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ INICIAL MC.13/2026 MITJANÇANT CRÈDIT EXTRAORDINARI I SUPLEMENT DE CRÈDIT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 2,
+      "confianza_min": 0.23,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:45.060Z"
+      }
+    },
+    {
+      "id": "2026-09-24--5011fa1c#4",
+      "sesion_id": "2026-09-24--5011fa1c",
+      "orden": 4,
+      "titulo": "ACORD D'APROVACIÓ DE RECONEIXEMENT EXTRAJUDICIAL DE CREDIT D'OBLIGACIONS - SETEMBRE 2026",
+      "resultado": null,
+      "texto_redactado": "ACORD D'APROVACIÓ DE RECONEIXEMENT EXTRAJUDICIAL DE CREDIT D'OBLIGACIONS - SETEMBRE 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 2,
+      "confianza_min": 0.25,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:45.060Z"
+      }
+    },
+    {
+      "id": "2026-09-24--5011fa1c#5",
+      "sesion_id": "2026-09-24--5011fa1c",
+      "orden": 5,
+      "titulo": "MODIFICACIÓ DE LA PLANTILLA RLT",
+      "resultado": null,
+      "texto_redactado": "MODIFICACIÓ DE LA PLANTILLA RLT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:45.060Z"
+      }
+    },
+    {
+      "id": "2026-09-24--5011fa1c#6",
+      "sesion_id": "2026-09-24--5011fa1c",
+      "orden": 6,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:45.060Z"
+      }
+    },
+    {
+      "id": "2026-09-24--5011fa1c#7",
+      "sesion_id": "2026-09-24--5011fa1c",
+      "orden": 7,
+      "titulo": "ACORD DE RESOLUCIÓ D'AL·LEGACIONS I IMPOSICIÓ DE PENALITATS A LA GUINGUETA \"AL SOLETE\". EXPEDIENT X2026001577.",
+      "resultado": null,
+      "texto_redactado": "ACORD DE RESOLUCIÓ D'AL·LEGACIONS I IMPOSICIÓ DE PENALITATS A LA GUINGUETA \"AL SOLETE\". EXPEDIENT X2026001577.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.51,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:45.060Z"
+      }
+    },
+    {
+      "id": "2026-09-24--5011fa1c#8",
+      "sesion_id": "2026-09-24--5011fa1c",
+      "orden": 8,
+      "titulo": "APROVACIÓ DE L'ACORD DE TERMINACIÓ CONVENCIONAL DE LES RECLAMACIONS INTERPOSADES PER GEAFE",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L'ACORD DE TERMINACIÓ CONVENCIONAL DE LES RECLAMACIONS INTERPOSADES PER GEAFE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 2,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:45.060Z"
+      }
+    },
+    {
+      "id": "2026-09-24--5011fa1c#9",
+      "sesion_id": "2026-09-24--5011fa1c",
+      "orden": 9,
+      "titulo": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DEL REGLAMENT REGULADOR DE LES BASES DE LA MOSTRA LITERÀRIA MN PERE RIBOT",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DEL REGLAMENT REGULADOR DE LES BASES DE LA MOSTRA LITERÀRIA MN PERE RIBOT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:45.060Z"
+      }
+    },
+    {
+      "id": "2026-09-24--5011fa1c#10",
+      "sesion_id": "2026-09-24--5011fa1c",
+      "orden": 10,
+      "titulo": "MODIFICACIÓ DELS ESTATUTS DEL CONSORCI PER A LA NORMALITZACIÓ LINGÜÍSTICA",
+      "resultado": null,
+      "texto_redactado": "MODIFICACIÓ DELS ESTATUTS DEL CONSORCI PER A LA NORMALITZACIÓ LINGÜÍSTICA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 2,
+      "confianza_min": 0.26,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:45.060Z"
+      }
+    },
+    {
+      "id": "2026-09-24--5011fa1c#11",
+      "sesion_id": "2026-09-24--5011fa1c",
+      "orden": 11,
+      "titulo": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DEL REGLAMENT REGULADOR DEL CONSELL MUNICIPAL DE CULTURA",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DEL REGLAMENT REGULADOR DEL CONSELL MUNICIPAL DE CULTURA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:45.060Z"
+      }
+    },
+    {
+      "id": "2026-09-24--5011fa1c#12",
+      "sesion_id": "2026-09-24--5011fa1c",
+      "orden": 12,
+      "titulo": "RESOLUCIÓ D'AL·LEGACIONS A L’APROVACIÓ INICIAL DE LA MODIFICACIÓ DE L’ORDENANÇA MUNICIPAL DE CIRCULACIÓ DE VEHICLES I VIANANTS DEL VILASSAR DE MAR - RELATIVA A LA ZONA VERDA EXCLUSIVA PER VEÏNS I ASSIMILATS (ART. 34.4)",
+      "resultado": null,
+      "texto_redactado": "RESOLUCIÓ D'AL·LEGACIONS A L’APROVACIÓ INICIAL DE LA MODIFICACIÓ DE L’ORDENANÇA MUNICIPAL DE CIRCULACIÓ DE VEHICLES I VIANANTS DEL VILASSAR DE MAR - RELATIVA A LA ZONA VERDA EXCLUSIVA PER VEÏNS I ASSIMILATS (ART. 34.4)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.83,
+      "impacto": 3,
+      "confianza_min": 0.43,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:45.060Z"
+      }
+    },
+    {
+      "id": "2026-09-24--5011fa1c#13",
+      "sesion_id": "2026-09-24--5011fa1c",
+      "orden": 13,
+      "titulo": "DONAR COMPTE DELS DECRETS DE L'ALCALDIA DES DEL 2645/2026 FINS EL 3383/2026",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DELS DECRETS DE L'ALCALDIA DES DEL 2645/2026 FINS EL 3383/2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:45.060Z"
+      }
+    },
+    {
+      "id": "2026-09-24--5011fa1c#14",
+      "sesion_id": "2026-09-24--5011fa1c",
+      "orden": 14,
+      "titulo": "PRECS I PREGUNTES",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:45.060Z"
+      }
+    },
+    {
+      "id": "2026-09-24--5011fa1c#15",
+      "sesion_id": "2026-09-24--5011fa1c",
+      "orden": 15,
+      "titulo": "Annex 2 — Membres del Consorci",
+      "resultado": null,
+      "texto_redactado": "Annex 2 — Membres del Consorci",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:45.060Z"
+      }
+    }
+  ]
+}

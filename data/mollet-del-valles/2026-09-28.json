@@ -1,0 +1,339 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "mollet-del-valles",
+    "nombre": "Mollet del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "812490004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-28",
+    "municipio_id": "mollet-del-valles",
+    "fecha": "2026-09-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/812490004/2026/753b6eda-c05c-46ab-866f-6d475b540817/Acta%20Ple_Exp231337C_sessi%f3%20ordinaria%2028-09-26.pdf",
+    "hash_contenido": "228fc566c0a712dd1acdec6e714aa8fd3d798f23414cdeaf690a12b51a07072e",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-29T12:10:42.935Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-28#1",
+      "sesion_id": "2026-09-28",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta de la sessió ordinària de data 20 de juliol de 2026 (expedient 224589E). DICTÀMENS DE LA COMISSIÓ INFORMATIVA DE SERVEIS GENERALS, DESENVOLUPAMENT ECONÒMIC I TERRITORI",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’acta de la sessió ordinària de data 20 de juliol de 2026 (expedient 224589E). DICTÀMENS DE LA COMISSIÓ INFORMATIVA DE SERVEIS GENERALS, DESENVOLUPAMENT ECONÒMIC I TERRITORI",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:42.935Z"
+      }
+    },
+    {
+      "id": "2026-09-28#2",
+      "sesion_id": "2026-09-28",
+      "orden": 2,
+      "titulo": "Dictamen per donar conformitat als resums numèrics resultants de la revisió anual del padró",
+      "resultado": null,
+      "texto_redactado": "Dictamen per donar conformitat als resums numèrics resultants de la revisió anual del padró",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 2,
+      "confianza_min": 0.17,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:42.935Z"
+      }
+    },
+    {
+      "id": "2026-09-28#3",
+      "sesion_id": "2026-09-28",
+      "orden": 3,
+      "titulo": "Dictamen d’aprovació de l’adhesió a l’Acord marc de subministrament de maquinària tècnica,",
+      "resultado": null,
+      "texto_redactado": "Dictamen d’aprovació de l’adhesió a l’Acord marc de subministrament de maquinària tècnica,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 2,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:42.935Z"
+      }
+    },
+    {
+      "id": "2026-09-28#4",
+      "sesion_id": "2026-09-28",
+      "orden": 4,
+      "titulo": "Dictamen per a la ratificació del Decret d’Alcaldia número 3890/2026, de 28 de juliol de",
+      "resultado": null,
+      "texto_redactado": "Dictamen per a la ratificació del Decret d’Alcaldia número 3890/2026, de 28 de juliol de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:42.935Z"
+      }
+    },
+    {
+      "id": "2026-09-28#5",
+      "sesion_id": "2026-09-28",
+      "orden": 5,
+      "titulo": "Dictamen d’aprovació provisional del Pla Especial Urbanístic (PEU) de concreció de l’ús",
+      "resultado": null,
+      "texto_redactado": "Dictamen d’aprovació provisional del Pla Especial Urbanístic (PEU) de concreció de l’ús",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.53,
+      "impacto": 3,
+      "confianza_min": 0.41,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:42.935Z"
+      }
+    },
+    {
+      "id": "2026-09-28#6",
+      "sesion_id": "2026-09-28",
+      "orden": 6,
+      "titulo": "Dictamen d’aprovació del compte general corresponent a l’exercici 2025, així com els seus",
+      "resultado": null,
+      "texto_redactado": "Dictamen d’aprovació del compte general corresponent a l’exercici 2025, així com els seus",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 2,
+      "confianza_min": 0.22,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:42.935Z"
+      }
+    },
+    {
+      "id": "2026-09-28#7",
+      "sesion_id": "2026-09-28",
+      "orden": 7,
+      "titulo": "Moció que presenta el grup municipal Ara Mollet ERC-EUiA per mantenir Mollet com a zona",
+      "resultado": null,
+      "texto_redactado": "Moció que presenta el grup municipal Ara Mollet ERC-EUiA per mantenir Mollet com a zona",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.55,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:42.935Z"
+      }
+    },
+    {
+      "id": "2026-09-28#8",
+      "sesion_id": "2026-09-28",
+      "orden": 8,
+      "titulo": "Moció que presenten els grups municipals Mollet en Comú Podem i Ara Mollet ERC-EUiA",
+      "resultado": null,
+      "texto_redactado": "Moció que presenten els grups municipals Mollet en Comú Podem i Ara Mollet ERC-EUiA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:42.935Z"
+      }
+    },
+    {
+      "id": "2026-09-28#9",
+      "sesion_id": "2026-09-28",
+      "orden": 9,
+      "titulo": "Lectura del manifest del Dia Internacional de les Persones Grans, a proposta de la comissió",
+      "resultado": null,
+      "texto_redactado": "Lectura del manifest del Dia Internacional de les Persones Grans, a proposta de la comissió",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.84,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:42.935Z"
+      }
+    },
+    {
+      "id": "2026-09-28#10",
+      "sesion_id": "2026-09-28",
+      "orden": 10,
+      "titulo": "Donació de compte del decret d’Alcaldia núm. 4638 de data 21 de setembre de 2026",
+      "resultado": null,
+      "texto_redactado": "Donació de compte del decret d’Alcaldia núm. 4638 de data 21 de setembre de 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:42.935Z"
+      }
+    },
+    {
+      "id": "2026-09-28#11",
+      "sesion_id": "2026-09-28",
+      "orden": 11,
+      "titulo": "Donació de compte dels decrets de l'Alcaldia núm. 3500/2026 de data 8 de juliol de 2026",
+      "resultado": null,
+      "texto_redactado": "Donació de compte dels decrets de l'Alcaldia núm. 3500/2026 de data 8 de juliol de 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:42.935Z"
+      }
+    },
+    {
+      "id": "2026-09-28#12",
+      "sesion_id": "2026-09-28",
+      "orden": 12,
+      "titulo": "Punts d’urgència.",
+      "resultado": null,
+      "texto_redactado": "Punts d’urgència.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 2,
+      "confianza_min": 0.43,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:42.935Z"
+      }
+    },
+    {
+      "id": "2026-09-28#13",
+      "sesion_id": "2026-09-28",
+      "orden": 13,
+      "titulo": "Precs i preguntes.",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:42.935Z"
+      }
+    }
+  ]
+}

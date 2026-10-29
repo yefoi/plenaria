@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-vicenc-de-castellet",
+    "nombre": "Sant Vicenç de Castellet",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "826280001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-29",
+    "municipio_id": "sant-vicenc-de-castellet",
+    "fecha": "2026-07-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/826280001/2026/ddfb65c2-13c6-4a16-b96e-a2dd72cdc535/ACTA%20LOPD%20PLE8-2026%2029%20JULIOL.pdf",
+    "hash_contenido": "e3733c2fdb3936dfabd7ddc25db61c157bf05febcfe8e3f6255dc9b65b38e065",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-29T12:10:34.864Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-29#1",
+      "sesion_id": "2026-07-29",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L'ACTA DE LA SESSIÓ DEL PLE DE L’AJUNTAMENT DEL DIA 1 DE JULIOL DE 2026 ........................................................................................................................... 3",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L'ACTA DE LA SESSIÓ DEL PLE DE L’AJUNTAMENT DEL DIA 1 DE JULIOL DE 2026 ........................................................................................................................... 3",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:34.864Z"
+      }
+    },
+    {
+      "id": "2026-07-29#2",
+      "sesion_id": "2026-07-29",
+      "orden": 2,
+      "titulo": "Exp. X2026003601",
+      "resultado": null,
+      "texto_redactado": "Exp. X2026003601",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:34.864Z"
+      }
+    },
+    {
+      "id": "2026-07-29#3",
+      "sesion_id": "2026-07-29",
+      "orden": 3,
+      "titulo": "Exp. X2026003677 APROVACIÓ DEL CONVENI ENTRE L’ADMINISTRACIÓ DE LA GENERALITAT DE CATALUNYA, MITJANÇANT EL DEPARTAMENT DE TERRITORI, HABITATGE I TRANSICIÓ ECOLÒGICA, L’AUTORITAT DEL TRANSPORT METROPOLITÀ, L’AJUNTAMENT DE SANT VICENÇ DE CASTELLET I EMPRESA 17 BAGES BUS SA PER A LA MILLORA DE LES",
+      "resultado": null,
+      "texto_redactado": "Exp. X2026003677 APROVACIÓ DEL CONVENI ENTRE L’ADMINISTRACIÓ DE LA GENERALITAT DE CATALUNYA, MITJANÇANT EL DEPARTAMENT DE TERRITORI, HABITATGE I TRANSICIÓ ECOLÒGICA, L’AUTORITAT DEL TRANSPORT METROPOLITÀ, L’AJUNTAMENT DE SANT VICENÇ DE CASTELLET I EMPRESA 17 BAGES BUS SA PER A LA MILLORA DE LES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.73,
+      "impacto": 3,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:34.864Z"
+      }
+    },
+    {
+      "id": "2026-07-29#4",
+      "sesion_id": "2026-07-29",
+      "orden": 4,
+      "titulo": "REGIDORIA D’HISENDA",
+      "resultado": null,
+      "texto_redactado": "REGIDORIA D’HISENDA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.66,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:34.864Z"
+      }
+    },
+    {
+      "id": "2026-07-29#5",
+      "sesion_id": "2026-07-29",
+      "orden": 5,
+      "titulo": "MOCIÓ",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:34.864Z"
+      }
+    },
+    {
+      "id": "2026-07-29#6",
+      "sesion_id": "2026-07-29",
+      "orden": 6,
+      "titulo": "REGIDORIA D’HISENDA",
+      "resultado": null,
+      "texto_redactado": "REGIDORIA D’HISENDA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.6,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:34.864Z"
+      }
+    },
+    {
+      "id": "2026-07-29#7",
+      "sesion_id": "2026-07-29",
+      "orden": 7,
+      "titulo": "REGIDORIA D’HISENDA",
+      "resultado": null,
+      "texto_redactado": "REGIDORIA D’HISENDA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.39,
+      "impacto": 1,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:34.864Z"
+      }
+    },
+    {
+      "id": "2026-07-29#8",
+      "sesion_id": "2026-07-29",
+      "orden": 8,
+      "titulo": "REGIDORIA DE PROMOCIÓ ECONÒMICA",
+      "resultado": null,
+      "texto_redactado": "REGIDORIA DE PROMOCIÓ ECONÒMICA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.36,
+      "impacto": 2,
+      "confianza_min": 0.35,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:34.864Z"
+      }
+    },
+    {
+      "id": "2026-07-29#9",
+      "sesion_id": "2026-07-29",
+      "orden": 9,
+      "titulo": "REGIDORIA D’URBANISME",
+      "resultado": null,
+      "texto_redactado": "REGIDORIA D’URBANISME",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.73,
+      "impacto": 2,
+      "confianza_min": 0.17,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:34.864Z"
+      }
+    },
+    {
+      "id": "2026-07-29#10",
+      "sesion_id": "2026-07-29",
+      "orden": 10,
+      "titulo": "REGIDORIA DE CULTURA",
+      "resultado": null,
+      "texto_redactado": "REGIDORIA DE CULTURA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.42,
+      "impacto": 2,
+      "confianza_min": 0.15,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:34.864Z"
+      }
+    },
+    {
+      "id": "2026-07-29#11",
+      "sesion_id": "2026-07-29",
+      "orden": 11,
+      "titulo": "REGIDORIA D’HISENDA",
+      "resultado": null,
+      "texto_redactado": "REGIDORIA D’HISENDA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.63,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-29T12:10:34.864Z"
+      }
+    }
+  ]
+}
