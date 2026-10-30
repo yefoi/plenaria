@@ -1,0 +1,364 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "santa-margarida-i-els-monjos",
+    "nombre": "Santa Margarida i els Monjos",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "825150006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-28",
+    "municipio_id": "santa-margarida-i-els-monjos",
+    "fecha": "2026-09-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/825150006/2026/6bb744a0-ae47-4355-a377-e6cb4c929cca/260928.pdf",
+    "hash_contenido": "493e7cd1e4ed30edeffc2dbd5ec17d2004f3157938264618132c9b87a571a639",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-30T12:05:34.378Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-28#1",
+      "sesion_id": "2026-09-28",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L'ACTA DE LA SESSIÓ ANTERIOR",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L'ACTA DE LA SESSIÓ ANTERIOR",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:34.378Z"
+      }
+    },
+    {
+      "id": "2026-09-28#2",
+      "sesion_id": "2026-09-28",
+      "orden": 2,
+      "titulo": "Expedient 2475/2026. APROVACIÓ DE LA XIFRA DE PADRÓ A DATA 01/01/2026",
+      "resultado": null,
+      "texto_redactado": "Expedient 2475/2026. APROVACIÓ DE LA XIFRA DE PADRÓ A DATA 01/01/2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:34.378Z"
+      }
+    },
+    {
+      "id": "2026-09-28#3",
+      "sesion_id": "2026-09-28",
+      "orden": 3,
+      "titulo": "Expedient 4288/2026. APROVACIÓ DE LES BASES GENERALS I ESPECÍFIQUES REGULADORES DE L’ATORGAMENT DE SUBVENCIONS PER A LA PARTICIPACIÓ A LA RUA DE CARNAVAL DE SANTA MARGARIDA I ELS",
+      "resultado": null,
+      "texto_redactado": "Expedient 4288/2026. APROVACIÓ DE LES BASES GENERALS I ESPECÍFIQUES REGULADORES DE L’ATORGAMENT DE SUBVENCIONS PER A LA PARTICIPACIÓ A LA RUA DE CARNAVAL DE SANTA MARGARIDA I ELS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.65,
+      "impacto": 3,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:34.378Z"
+      }
+    },
+    {
+      "id": "2026-09-28#4",
+      "sesion_id": "2026-09-28",
+      "orden": 4,
+      "titulo": "Expedient 4315/2026. APROVACIÓ DEL CONVENI DE COL·LABORACIÓ ENTRE L’AGÈNCIA DE L’HABITATGE DE CATALUNYA I L’AJUNTAMENT DE SANTA MARGARIDA I ELS MONJOS RELATIU A LA PROMOCIÓ D’HABITATGES AMB",
+      "resultado": null,
+      "texto_redactado": "Expedient 4315/2026. APROVACIÓ DEL CONVENI DE COL·LABORACIÓ ENTRE L’AGÈNCIA DE L’HABITATGE DE CATALUNYA I L’AJUNTAMENT DE SANTA MARGARIDA I ELS MONJOS RELATIU A LA PROMOCIÓ D’HABITATGES AMB",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.68,
+      "impacto": 3,
+      "confianza_min": 0.43,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:34.378Z"
+      }
+    },
+    {
+      "id": "2026-09-28#5",
+      "sesion_id": "2026-09-28",
+      "orden": 5,
+      "titulo": "Expedient 4508/2026. APROVACIÓ INICIAL DE L’EXPEDIENT DE MODIFICACIÓ",
+      "resultado": null,
+      "texto_redactado": "Expedient 4508/2026. APROVACIÓ INICIAL DE L’EXPEDIENT DE MODIFICACIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.38,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:34.378Z"
+      }
+    },
+    {
+      "id": "2026-09-28#6",
+      "sesion_id": "2026-09-28",
+      "orden": 6,
+      "titulo": "EXPEDIENT 161/2026. APROVACIÓ CANVI DE FINANÇAMENT AL CAPÍTOL D'INVERSIONS DEL PRESSUPOST EXERCICI 2026",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT 161/2026. APROVACIÓ CANVI DE FINANÇAMENT AL CAPÍTOL D'INVERSIONS DEL PRESSUPOST EXERCICI 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 2,
+      "confianza_min": 0.25,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:34.378Z"
+      }
+    },
+    {
+      "id": "2026-09-28#7",
+      "sesion_id": "2026-09-28",
+      "orden": 7,
+      "titulo": "Expedient 3238/2026. DONACIÓ COMPTE DECRET LIQUIDACIÓ DE PRESSUPOST EXERCICI 2025",
+      "resultado": null,
+      "texto_redactado": "Expedient 3238/2026. DONACIÓ COMPTE DECRET LIQUIDACIÓ DE PRESSUPOST EXERCICI 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:34.378Z"
+      }
+    },
+    {
+      "id": "2026-09-28#8",
+      "sesion_id": "2026-09-28",
+      "orden": 8,
+      "titulo": "Expedient 4553/2026. RECTIFICACIÓ INVENTARI EXERCICI 2025",
+      "resultado": null,
+      "texto_redactado": "Expedient 4553/2026. RECTIFICACIÓ INVENTARI EXERCICI 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:34.378Z"
+      }
+    },
+    {
+      "id": "2026-09-28#9",
+      "sesion_id": "2026-09-28",
+      "orden": 9,
+      "titulo": "Expedient 2654/2026. DONAR COMPTE AL PLE DE L'ESTAT D'EXECUCIÓ DEL PRESSUPOST SEGON TRIMESTRE 2026",
+      "resultado": null,
+      "texto_redactado": "Expedient 2654/2026. DONAR COMPTE AL PLE DE L'ESTAT D'EXECUCIÓ DEL PRESSUPOST SEGON TRIMESTRE 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.98,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:34.378Z"
+      }
+    },
+    {
+      "id": "2026-09-28#10",
+      "sesion_id": "2026-09-28",
+      "orden": 10,
+      "titulo": "Expedient 2652/2026. DONACIÓ DE COMPTE DEL PERÍODE MIG DE PAGAMENT SEGONS RD 635/2014 SEGON TRIMESTRE 2026.",
+      "resultado": null,
+      "texto_redactado": "Expedient 2652/2026. DONACIÓ DE COMPTE DEL PERÍODE MIG DE PAGAMENT SEGONS RD 635/2014 SEGON TRIMESTRE 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:34.378Z"
+      }
+    },
+    {
+      "id": "2026-09-28#11",
+      "sesion_id": "2026-09-28",
+      "orden": 11,
+      "titulo": "Expedient 2263/2026. DONAR COMPTE INFORME TRIMESTRAL DE MOROSITAT, PREVIST A LA LLEI 15/2010, DE 5 DE JULIOL DEL SEGON TRIMESTRE 2026",
+      "resultado": null,
+      "texto_redactado": "Expedient 2263/2026. DONAR COMPTE INFORME TRIMESTRAL DE MOROSITAT, PREVIST A LA LLEI 15/2010, DE 5 DE JULIOL DEL SEGON TRIMESTRE 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:34.378Z"
+      }
+    },
+    {
+      "id": "2026-09-28#12",
+      "sesion_id": "2026-09-28",
+      "orden": 12,
+      "titulo": "DACIÓ DE COMPTES DECRETS D'ALCALDIA",
+      "resultado": null,
+      "texto_redactado": "DACIÓ DE COMPTES DECRETS D'ALCALDIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:34.378Z"
+      }
+    },
+    {
+      "id": "2026-09-28#13",
+      "sesion_id": "2026-09-28",
+      "orden": 13,
+      "titulo": "Expedient 4803/2026. MOCIÓ PRESENTADA PELS GRUPS MUNICIPALS POBLE ACTIU SMM, JUNTS PER SANTA MARGARIDA I ELS MONJOS I ESQUERRA REPUBLICANA DE SANTA MARGARIDA I ELS MONJOS PER L'IMPULS DE LES COMUNITATS ENERGÈTIQUES I EL DESPLEGAMENT DE LES ENERGIES RENOVABLES A SANTA MARGARIDA I ELS MONJOS.",
+      "resultado": null,
+      "texto_redactado": "Expedient 4803/2026. MOCIÓ PRESENTADA PELS GRUPS MUNICIPALS POBLE ACTIU SMM, JUNTS PER SANTA MARGARIDA I ELS MONJOS I ESQUERRA REPUBLICANA DE SANTA MARGARIDA I ELS MONJOS PER L'IMPULS DE LES COMUNITATS ENERGÈTIQUES I EL DESPLEGAMENT DE LES ENERGIES RENOVABLES A SANTA MARGARIDA I ELS MONJOS.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.48,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:34.378Z"
+      }
+    },
+    {
+      "id": "2026-09-28#14",
+      "sesion_id": "2026-09-28",
+      "orden": 14,
+      "titulo": "PRECS I PREGUNTES",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:34.378Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "roses",
+    "nombre": "Roses",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1715230008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-28",
+    "municipio_id": "roses",
+    "fecha": "2026-09-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1715230008/2026/bf608292-7aea-4a62-b309-136a77f14b96/P28.09.2026.pdf",
+    "hash_contenido": "907baf4e30494852e684de657588b9289ba127c0f102d648f9431922fdc17300",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-30T12:05:19.229Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-28#1",
+      "sesion_id": "2026-09-28",
+      "orden": 1,
+      "titulo": "Mitjançant registre d’entrada E2026/22821 de 10 de setembre de 2026, la",
+      "resultado": null,
+      "texto_redactado": "Mitjançant registre d’entrada E2026/22821 de 10 de setembre de 2026, la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.91,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:19.229Z"
+      }
+    },
+    {
+      "id": "2026-09-28#2",
+      "sesion_id": "2026-09-28",
+      "orden": 2,
+      "titulo": "L’esmentat informe es pot consultar en el següent enllaç:",
+      "resultado": null,
+      "texto_redactado": "L’esmentat informe es pot consultar en el següent enllaç:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:19.229Z"
+      }
+    },
+    {
+      "id": "2026-09-28#3",
+      "sesion_id": "2026-09-28",
+      "orden": 3,
+      "titulo": "La Interventora municipal ha emès un informe favorable al respecte.",
+      "resultado": null,
+      "texto_redactado": "La Interventora municipal ha emès un informe favorable al respecte.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.98,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:19.229Z"
+      }
+    },
+    {
+      "id": "2026-09-28#4",
+      "sesion_id": "2026-09-28",
+      "orden": 4,
+      "titulo": "La cap de Serveis Jurídics i Administratius del Departament d’Intervenció de",
+      "resultado": null,
+      "texto_redactado": "La cap de Serveis Jurídics i Administratius del Departament d’Intervenció de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.91,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:19.229Z"
+      }
+    },
+    {
+      "id": "2026-09-28#5",
+      "sesion_id": "2026-09-28",
+      "orden": 5,
+      "titulo": "Amb data 4 de novembre de 2025 l’arquitecta municipal, cap del departament de",
+      "resultado": null,
+      "texto_redactado": "Amb data 4 de novembre de 2025 l’arquitecta municipal, cap del departament de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:19.229Z"
+      }
+    },
+    {
+      "id": "2026-09-28#6",
+      "sesion_id": "2026-09-28",
+      "orden": 6,
+      "titulo": "Consta a l’expedient la següent documentació facilitada pel Registre de la Propietat",
+      "resultado": null,
+      "texto_redactado": "Consta a l’expedient la següent documentació facilitada pel Registre de la Propietat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.98,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:19.229Z"
+      }
+    },
+    {
+      "id": "2026-09-28#7",
+      "sesion_id": "2026-09-28",
+      "orden": 7,
+      "titulo": "Consta a l’expedient la següent documentació del Cadastre:",
+      "resultado": null,
+      "texto_redactado": "Consta a l’expedient la següent documentació del Cadastre:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:19.229Z"
+      }
+    },
+    {
+      "id": "2026-09-28#8",
+      "sesion_id": "2026-09-28",
+      "orden": 8,
+      "titulo": "Donada la discrepància entre la superfície cadastral (7.754,00 m2) i la registral",
+      "resultado": null,
+      "texto_redactado": "Donada la discrepància entre la superfície cadastral (7.754,00 m2) i la registral",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.35,
+      "impacto": 2,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:19.229Z"
+      }
+    },
+    {
+      "id": "2026-09-28#9",
+      "sesion_id": "2026-09-28",
+      "orden": 9,
+      "titulo": "En data 7 de maig de 2026, registre d’entrada E2026011658, Anida Operaciones",
+      "resultado": null,
+      "texto_redactado": "En data 7 de maig de 2026, registre d’entrada E2026011658, Anida Operaciones",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:19.229Z"
+      }
+    },
+    {
+      "id": "2026-09-28#10",
+      "sesion_id": "2026-09-28",
+      "orden": 10,
+      "titulo": "Amb data 27 de maig de 2026 els serveis jurídics emeten informe en el qual es",
+      "resultado": null,
+      "texto_redactado": "Amb data 27 de maig de 2026 els serveis jurídics emeten informe en el qual es",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.98,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:19.229Z"
+      }
+    },
+    {
+      "id": "2026-09-28#11",
+      "sesion_id": "2026-09-28",
+      "orden": 11,
+      "titulo": "Consta a l’expedient l’informe, de data 1 de juny de 2026, emès per l’arquitecta",
+      "resultado": null,
+      "texto_redactado": "Consta a l’expedient l’informe, de data 1 de juny de 2026, emès per l’arquitecta",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.89,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:19.229Z"
+      }
+    },
+    {
+      "id": "2026-09-28#12",
+      "sesion_id": "2026-09-28",
+      "orden": 12,
+      "titulo": "Amb data 2 de juny de 2026 l’arquitecta municipal, cap del departament de",
+      "resultado": null,
+      "texto_redactado": "Amb data 2 de juny de 2026 l’arquitecta municipal, cap del departament de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:19.229Z"
+      }
+    },
+    {
+      "id": "2026-09-28#13",
+      "sesion_id": "2026-09-28",
+      "orden": 13,
+      "titulo": "Amb data 3 de juny de 2026 el cap de serveis jurídics i administratius del",
+      "resultado": null,
+      "texto_redactado": "Amb data 3 de juny de 2026 el cap de serveis jurídics i administratius del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:19.229Z"
+      }
+    },
+    {
+      "id": "2026-09-28#14",
+      "sesion_id": "2026-09-28",
+      "orden": 14,
+      "titulo": "El Ple de l’Ajuntament en la sessió ordinària del dia 22 de juny de 2026 acorda",
+      "resultado": null,
+      "texto_redactado": "El Ple de l’Ajuntament en la sessió ordinària del dia 22 de juny de 2026 acorda",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:19.229Z"
+      }
+    },
+    {
+      "id": "2026-09-28#15",
+      "sesion_id": "2026-09-28",
+      "orden": 15,
+      "titulo": "En data 29 de juliol de 2026, registre d’entrada E2026019154, l’interessat presenta,",
+      "resultado": null,
+      "texto_redactado": "En data 29 de juliol de 2026, registre d’entrada E2026019154, l’interessat presenta,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:19.229Z"
+      }
+    },
+    {
+      "id": "2026-09-28#16",
+      "sesion_id": "2026-09-28",
+      "orden": 16,
+      "titulo": "Amb data 5 d’agost de 2026 el regidor responsable de l’àrea d’Urbanisme,",
+      "resultado": null,
+      "texto_redactado": "Amb data 5 d’agost de 2026 el regidor responsable de l’àrea d’Urbanisme,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 1,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:19.229Z"
+      }
+    },
+    {
+      "id": "2026-09-28#17",
+      "sesion_id": "2026-09-28",
+      "orden": 17,
+      "titulo": "En data 7 d’agost de 2026, registre d’entrada E2026019879, la mercantil interessada",
+      "resultado": null,
+      "texto_redactado": "En data 7 d’agost de 2026, registre d’entrada E2026019879, la mercantil interessada",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:19.229Z"
+      }
+    },
+    {
+      "id": "2026-09-28#18",
+      "sesion_id": "2026-09-28",
+      "orden": 18,
+      "titulo": "Amb data 13 d’agost de 2026 el cap de serveis jurídics i administratius dels",
+      "resultado": null,
+      "texto_redactado": "Amb data 13 d’agost de 2026 el cap de serveis jurídics i administratius dels",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:19.229Z"
+      }
+    },
+    {
+      "id": "2026-09-28#19",
+      "sesion_id": "2026-09-28",
+      "orden": 19,
+      "titulo": "El dia 21 de setembre de 2026 la Comissió Informativa ha emès un dictamen",
+      "resultado": null,
+      "texto_redactado": "El dia 21 de setembre de 2026 la Comissió Informativa ha emès un dictamen",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.37,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:19.229Z"
+      }
+    },
+    {
+      "id": "2026-09-28#20",
+      "sesion_id": "2026-09-28",
+      "orden": 20,
+      "titulo": "En data 24 de juliol de 2026 i registre d’entrada E2026018794, la Direcció General de",
+      "resultado": null,
+      "texto_redactado": "En data 24 de juliol de 2026 i registre d’entrada E2026018794, la Direcció General de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:19.229Z"
+      }
+    },
+    {
+      "id": "2026-09-28#21",
+      "sesion_id": "2026-09-28",
+      "orden": 21,
+      "titulo": "Amb data 16 de setembre de 2026, el Cap de serveis jurídics i administratius dels",
+      "resultado": null,
+      "texto_redactado": "Amb data 16 de setembre de 2026, el Cap de serveis jurídics i administratius dels",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.96,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:19.229Z"
+      }
+    },
+    {
+      "id": "2026-09-28#22",
+      "sesion_id": "2026-09-28",
+      "orden": 22,
+      "titulo": "El dia 21 de setembre de 2026 la Comissió Informativa ha emès un dictamen",
+      "resultado": null,
+      "texto_redactado": "El dia 21 de setembre de 2026 la Comissió Informativa ha emès un dictamen",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.95,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:19.229Z"
+      }
+    }
+  ]
+}

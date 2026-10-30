@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "toledo",
+    "nombre": "Toledo",
+    "provincia": "Toledo",
+    "fuente_tipo": "pdf-transparencia",
+    "fuente_config": {
+      "listado_url": "https://www.toledo.es/toledo-abierto/transparencia-activa-e-informacion-sobre-la-corporacion-municipal/actas_pleno_ayto/",
+      "patron_pdf": "(^|/)acta[^/]*\\.pdf$",
+      "formato": "auto",
+      "idioma": "es"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-17",
+    "municipio_id": "toledo",
+    "fecha": "2026-09-17",
+    "tipo": "otra",
+    "fuente_url": "https://www.toledo.es/wp-content/uploads/2026/10/acta-ses.-extraord.-pleno-debate-estado-de-la-ciudad.-17-septiembre-2026.pdf",
+    "hash_contenido": "76a7eb1ab74a8f179fb780b2fa0272af3df4eacae156e93bc475977fd5c655a4",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-30T12:04:15.682Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-17#1",
+      "sesion_id": "2026-09-17",
+      "orden": 1,
+      "titulo": "1.594.910 millones de euros destinados a la atención primaria de los servicios",
+      "resultado": null,
+      "texto_redactado": "1.594.910 millones de euros destinados a la atención primaria de los servicios",
+      "importe_eur": 594910000000,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}

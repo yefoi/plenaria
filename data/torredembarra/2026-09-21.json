@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "torredembarra",
+    "nombre": "Torredembarra",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4315360009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-21",
+    "municipio_id": "torredembarra",
+    "fecha": "2026-09-21",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4315360009/2026/2ff61717-ae40-4322-abb8-6ba9850eb337/07.%202026-09-21.%20Certificat%20acta%20Ple.pdf",
+    "hash_contenido": "fa14644cd0afecad7dac4e06a08c322851ac951f074eea708fed14795a07f849",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-30T12:05:22.622Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-21#1",
+      "sesion_id": "2026-09-21",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió anterior.",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:22.622Z"
+      }
+    },
+    {
+      "id": "2026-09-21#2",
+      "sesion_id": "2026-09-21",
+      "orden": 2,
+      "titulo": "Dació de compte dels Decrets dictats per l'alcaldia i les regidories",
+      "resultado": null,
+      "texto_redactado": "Dació de compte dels Decrets dictats per l'alcaldia i les regidories",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:22.622Z"
+      }
+    },
+    {
+      "id": "2026-09-21#3",
+      "sesion_id": "2026-09-21",
+      "orden": 3,
+      "titulo": "Dació de compte dels acords adoptats per la Junta de Govern Local des de",
+      "resultado": null,
+      "texto_redactado": "Dació de compte dels acords adoptats per la Junta de Govern Local des de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:22.622Z"
+      }
+    },
+    {
+      "id": "2026-09-21#4",
+      "sesion_id": "2026-09-21",
+      "orden": 4,
+      "titulo": "Expedient 4389/2026. Proposta d'aprovació del Compte General de",
+      "resultado": null,
+      "texto_redactado": "Expedient 4389/2026. Proposta d'aprovació del Compte General de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:22.622Z"
+      }
+    },
+    {
+      "id": "2026-09-21#5",
+      "sesion_id": "2026-09-21",
+      "orden": 5,
+      "titulo": "Expedient 8342/2026. Dictamen proposant la modificació de Crèdit 20",
+      "resultado": null,
+      "texto_redactado": "Expedient 8342/2026. Dictamen proposant la modificació de Crèdit 20",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:22.622Z"
+      }
+    },
+    {
+      "id": "2026-09-21#6",
+      "sesion_id": "2026-09-21",
+      "orden": 6,
+      "titulo": "Expedient 4333/2026. Dictamen proposant l'aprovació Inicial de la",
+      "resultado": null,
+      "texto_redactado": "Expedient 4333/2026. Dictamen proposant l'aprovació Inicial de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 1,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:22.622Z"
+      }
+    },
+    {
+      "id": "2026-09-21#7",
+      "sesion_id": "2026-09-21",
+      "orden": 7,
+      "titulo": "Consta a l’expedient informe jurídic de la Cap del Departament d’Urbanisme i Territori",
+      "resultado": null,
+      "texto_redactado": "Consta a l’expedient informe jurídic de la Cap del Departament d’Urbanisme i Territori",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:22.622Z"
+      }
+    },
+    {
+      "id": "2026-09-21#8",
+      "sesion_id": "2026-09-21",
+      "orden": 8,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:22.622Z"
+      }
+    },
+    {
+      "id": "2026-09-21#9",
+      "sesion_id": "2026-09-21",
+      "orden": 9,
+      "titulo": "Expedient 4794/2026. Dictamen proposant la declaració de Bé d'Interès",
+      "resultado": null,
+      "texto_redactado": "Expedient 4794/2026. Dictamen proposant la declaració de Bé d'Interès",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0.05,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:22.622Z"
+      }
+    },
+    {
+      "id": "2026-09-21#10",
+      "sesion_id": "2026-09-21",
+      "orden": 10,
+      "titulo": "Expedient 4795/2026. Dictamen proposant la declaració de Bé d'Interès",
+      "resultado": null,
+      "texto_redactado": "Expedient 4795/2026. Dictamen proposant la declaració de Bé d'Interès",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 2,
+      "confianza_min": 0.06,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:22.622Z"
+      }
+    },
+    {
+      "id": "2026-09-21#11",
+      "sesion_id": "2026-09-21",
+      "orden": 11,
+      "titulo": "Expedient 8233/2026. Dictamen proposant al Consell Comarcal del",
+      "resultado": null,
+      "texto_redactado": "Expedient 8233/2026. Dictamen proposant al Consell Comarcal del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.89,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:22.622Z"
+      }
+    }
+  ]
+}

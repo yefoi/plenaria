@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "madrid",
+    "nombre": "Madrid",
+    "provincia": "Madrid",
+    "fuente_tipo": "portal-sesiones",
+    "fuente_config": {
+      "listado_url": "https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/El-Pleno/Actividad-del-Pleno-y-las-Comisiones/Pleno/Sesiones-del-Pleno/?vgnextchannel=8e9858f5c050e210VgnVCM2000000c205a0aRCRD&vgnextfmt=default&vgnextoid=122481276d58c010VgnVCM100000d90ca8c0RCRD",
+      "patron_sesion": "Pleno/\\d{1,2}-de-[a-z]+-de-\\d{4}",
+      "patrones_pdf": [
+        "AC_[^/]*\\.pdf$",
+        "DS_[^/]*\\.pdf$"
+      ],
+      "tipo_por_defecto": "ordinaria",
+      "url_base_pdf": "https://transparencia.madrid.es",
+      "max_sesiones": 3,
+      "idioma": "es"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-08--2a51db3c",
+    "municipio_id": "madrid",
+    "fecha": "2026-10-08",
+    "tipo": "extraordinaria_urgente",
+    "fuente_url": "https://transparencia.madrid.es/UnidadesDescentralizadas/UDCPleno/Actividad/Pleno/2026/2026-10-08%20EU/AC_PEU_8_10_26.pdf",
+    "hash_contenido": "d104beac1ff579519a132980b4e6941055761837f1a90124c4544dbfc64459b1",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-30T12:05:43.051Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-08--2a51db3c#1",
+      "sesion_id": "2026-10-08--2a51db3c",
+      "orden": 1,
+      "titulo": "Ratificar la urgencia de la sesión. Propuestas de la Presidencia del Pleno",
+      "resultado": null,
+      "texto_redactado": "Ratificar la urgencia de la sesión. Propuestas de la Presidencia del Pleno",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 0.99,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:43.051Z"
+      }
+    },
+    {
+      "id": "2026-10-08--2a51db3c#2",
+      "sesion_id": "2026-10-08--2a51db3c",
+      "orden": 2,
+      "titulo": "Quedar enterado de la proclamación por la Junta Electoral Central de don Cristian Isaac Toro Carballo como concejal del Ayuntamiento de Madrid por la candidatura de VOX, a efectos de cubrir la vacante producida por la renuncia de doña Carla Toscano de Balbín, y toma de posesión por el interesado. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPrimero.- Quedar enterado de la proclamación por la Junta Electoral Central de don Cristian Isaac Toro Carballo como concejal de este Ayuntamiento, a efectos de cubrir la vacante producida por renuncia de doña Carla Toscano de Balbín, por estar incluido como candidato siguiente al último de los electos en la lista de VOX, de conformidad con lo dispuesto en el artículo 182 de la Ley Orgánica 5/1985, de 19 de junio, de Régimen Electoral General. Segundo.- Quedar, asimismo, enterado de la toma de posesión por don Cristian Isaac Toro Carballo,",
+      "resultado": null,
+      "texto_redactado": "Quedar enterado de la proclamación por la Junta Electoral Central de don Cristian Isaac Toro Carballo como concejal del Ayuntamiento de Madrid por la candidatura de VOX, a efectos de cubrir la vacante producida por la renuncia de doña Carla Toscano de Balbín, y toma de posesión por el interesado. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPrimero.- Quedar enterado de la proclamación por la Junta Electoral Central de don Cristian Isaac Toro Carballo como concejal de este Ayuntamiento, a efectos de cubrir la vacante producida por renuncia de doña Carla Toscano de Balbín, por estar incluido como candidato siguiente al último de los electos en la lista de VOX, de conformidad con lo dispuesto en el artículo 182 de la Ley Orgánica 5/1985, de 19 de junio, de Régimen Electoral General. Segundo.- Quedar, asimismo, enterado de la toma de posesión por don Cristian Isaac Toro Carballo,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:43.051Z"
+      }
+    },
+    {
+      "id": "2026-10-08--2a51db3c#3",
+      "sesion_id": "2026-10-08--2a51db3c",
+      "orden": 3,
+      "titulo": "Aprobar definitivamente, con estimación, estimación parcial y desestimación de las alegaciones presentadas durante el trámite de información pública, el Plan Especial para la aplicación en el municipio de Madrid de la Ley 3/2024, de 28 de junio, de medidas urbanísticas para la promoción de vivienda protegida de la Comunidad de Madrid, de iniciativa pública. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO.- Estimar, estimar parcialmente y desestimar las alegaciones presentadas durante el período de información pública, por las razones y en los términos señalados en el Informe de análisis de alegaciones de 26 de septiembre de 2026 y recogidos en el informe propuesta de 2 de octubre de 2026 de la Dirección General de Planeamiento. Dichos informes estarán a disposición de los alegantes y de los ciudadanos en general, formando parte de la documentación que se publique en la p",
+      "resultado": null,
+      "texto_redactado": "Aprobar definitivamente, con estimación, estimación parcial y desestimación de las alegaciones presentadas durante el trámite de información pública, el Plan Especial para la aplicación en el municipio de Madrid de la Ley 3/2024, de 28 de junio, de medidas urbanísticas para la promoción de vivienda protegida de la Comunidad de Madrid, de iniciativa pública. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO.- Estimar, estimar parcialmente y desestimar las alegaciones presentadas durante el período de información pública, por las razones y en los términos señalados en el Informe de análisis de alegaciones de 26 de septiembre de 2026 y recogidos en el informe propuesta de 2 de octubre de 2026 de la Dirección General de Planeamiento. Dichos informes estarán a disposición de los alegantes y de los ciudadanos en general, formando parte de la documentación que se publique en la p",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias",
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.8,
+      "impacto": 5,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:43.051Z"
+      }
+    },
+    {
+      "id": "2026-10-08--2a51db3c#4",
+      "sesion_id": "2026-10-08--2a51db3c",
+      "orden": 4,
+      "titulo": "Aprobar definitivamente, con estimación, estimación parcial y desestimación de las alegaciones presentadas durante el trámite de información pública, el Plan Especial relativo a la modificación del régimen de compatibilidad del uso terciario hospedaje en los ámbitos regulados por el grado 3º de la norma zonal 9 y en las parcelas de uso cualificado industrial incluidas en ámbitos de uso global no industrial, de iniciativa pública. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO.- Estimar, estimar parcialmente y desestimar las alegaciones presentadas durante el período de información pública, por las razones y en los términos señalados en el Informe de análisis de alegaciones y en el informe propuesta de 1 de octubre de 2026 de la Dirección General de Planeamiento. Dichos informes estarán a disposición de los alegantes y de los ciudadanos en general, formando parte de la d",
+      "resultado": null,
+      "texto_redactado": "Aprobar definitivamente, con estimación, estimación parcial y desestimación de las alegaciones presentadas durante el trámite de información pública, el Plan Especial relativo a la modificación del régimen de compatibilidad del uso terciario hospedaje en los ámbitos regulados por el grado 3º de la norma zonal 9 y en las parcelas de uso cualificado industrial incluidas en ámbitos de uso global no industrial, de iniciativa pública. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO.- Estimar, estimar parcialmente y desestimar las alegaciones presentadas durante el período de información pública, por las razones y en los términos señalados en el Informe de análisis de alegaciones y en el informe propuesta de 1 de octubre de 2026 de la Dirección General de Planeamiento. Dichos informes estarán a disposición de los alegantes y de los ciudadanos en general, formando parte de la d",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.64,
+      "impacto": 4,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:43.051Z"
+      }
+    }
+  ]
+}

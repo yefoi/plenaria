@@ -1,0 +1,315 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "masquefa",
+    "nombre": "Masquefa",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "811920002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-24",
+    "municipio_id": "masquefa",
+    "fecha": "2026-09-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/811920002/2026/c8fca3b8-f004-4b7e-997d-13a9abf3e870/PO260924.pdf",
+    "hash_contenido": "ea9db3414daa08dc528643d298faeb6c0b9b08b42e2b9c8066135f55ef9b8336",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-30T12:05:11.477Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-24#1",
+      "sesion_id": "2026-09-24",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE LES ACTES DEL PLE DE SESSIONS ANTERIORS",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE LES ACTES DEL PLE DE SESSIONS ANTERIORS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:11.477Z"
+      }
+    },
+    {
+      "id": "2026-09-24#2",
+      "sesion_id": "2026-09-24",
+      "orden": 2,
+      "titulo": "DESPATX ALCALDIA",
+      "resultado": null,
+      "texto_redactado": "DESPATX ALCALDIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:11.477Z"
+      }
+    },
+    {
+      "id": "2026-09-24#3",
+      "sesion_id": "2026-09-24",
+      "orden": 3,
+      "titulo": "Mitjançant el Decret núm. 13664, en data 3 d’octubre de 2025, la Presidència delegada de l'Àrea",
+      "resultado": null,
+      "texto_redactado": "Mitjançant el Decret núm. 13664, en data 3 d’octubre de 2025, la Presidència delegada de l'Àrea",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:11.477Z"
+      }
+    },
+    {
+      "id": "2026-09-24#4",
+      "sesion_id": "2026-09-24",
+      "orden": 4,
+      "titulo": "DONAR COMPTE AL PLE DE LA CORPORACIÓ LOCAL DE L’INFORME TRAMÈS AL",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE DE LA CORPORACIÓ LOCAL DE L’INFORME TRAMÈS AL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:11.477Z"
+      }
+    },
+    {
+      "id": "2026-09-24#5",
+      "sesion_id": "2026-09-24",
+      "orden": 5,
+      "titulo": "APROVACIÓ DE LA PROPOSTA DE BAIXA DE DRETS RECONEGUTS PENDENTS DE COBRAMENT PRESENTATS PER L’ORGANISME DE GESTIÓ TRIBUTÀRIA SEGONS REGISTRE",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE LA PROPOSTA DE BAIXA DE DRETS RECONEGUTS PENDENTS DE COBRAMENT PRESENTATS PER L’ORGANISME DE GESTIÓ TRIBUTÀRIA SEGONS REGISTRE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 2,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:11.477Z"
+      }
+    },
+    {
+      "id": "2026-09-24#6",
+      "sesion_id": "2026-09-24",
+      "orden": 6,
+      "titulo": "Durant el mes de juliol de 2026, l’Ajuntament de Masquefa, va rebre la memòria final i el document",
+      "resultado": null,
+      "texto_redactado": "Durant el mes de juliol de 2026, l’Ajuntament de Masquefa, va rebre la memòria final i el document",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.93,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:11.477Z"
+      }
+    },
+    {
+      "id": "2026-09-24#7",
+      "sesion_id": "2026-09-24",
+      "orden": 7,
+      "titulo": "Atesa l’extensió del document del PEC, aquest s'incorpora a l'expedient administratiu com a annex.",
+      "resultado": null,
+      "texto_redactado": "Atesa l’extensió del document del PEC, aquest s'incorpora a l'expedient administratiu com a annex.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.05,
+      "impacto": 1,
+      "confianza_min": 0.99,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:11.477Z"
+      }
+    },
+    {
+      "id": "2026-09-24#8",
+      "sesion_id": "2026-09-24",
+      "orden": 8,
+      "titulo": "APROVACIÓ DEFINITIVA DEL PLÀNOL DE DELIMITACIÓ DE LES URBANITZACIONS, ELS NUCLIS DE POBLACIÓ, LES EDIFICACIONS I LES INSTAL·LACIONS SITUATS EN TERRENYS FORESTALS DEL MUNICIPI DE MASQUEFA",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEFINITIVA DEL PLÀNOL DE DELIMITACIÓ DE LES URBANITZACIONS, ELS NUCLIS DE POBLACIÓ, LES EDIFICACIONS I LES INSTAL·LACIONS SITUATS EN TERRENYS FORESTALS DEL MUNICIPI DE MASQUEFA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.56,
+      "impacto": 4,
+      "confianza_min": 0.39,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:11.477Z"
+      }
+    },
+    {
+      "id": "2026-09-24#9",
+      "sesion_id": "2026-09-24",
+      "orden": 9,
+      "titulo": "DONAR COMPTE AL PLE MUNICIPAL DE LA CORRESPONDÈNCIA DE TRÀMIT I DECRETS",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE MUNICIPAL DE LA CORRESPONDÈNCIA DE TRÀMIT I DECRETS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:11.477Z"
+      }
+    },
+    {
+      "id": "2026-09-24#10",
+      "sesion_id": "2026-09-24",
+      "orden": 10,
+      "titulo": "DONAR COMPTE AL PLE MUNICIPAL DELS ASSUMPTES TRACTATS A LA JUNTA DE",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE AL PLE MUNICIPAL DELS ASSUMPTES TRACTATS A LA JUNTA DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:11.477Z"
+      }
+    },
+    {
+      "id": "2026-09-24#11",
+      "sesion_id": "2026-09-24",
+      "orden": 11,
+      "titulo": "En data 28 de juliol de 2026 R. Entrada n. E2026009481 es rep l’informe favorable de la Direcció",
+      "resultado": null,
+      "texto_redactado": "En data 28 de juliol de 2026 R. Entrada n. E2026009481 es rep l’informe favorable de la Direcció",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.92,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:11.477Z"
+      }
+    },
+    {
+      "id": "2026-09-24#12",
+      "sesion_id": "2026-09-24",
+      "orden": 12,
+      "titulo": "PRECS I PREGUNTES",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:11.477Z"
+      }
+    }
+  ]
+}

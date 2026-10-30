@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "ripoll",
+    "nombre": "Ripoll",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1714790004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-29",
+    "municipio_id": "ripoll",
+    "fecha": "2026-09-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1714790004/2026/2c9a3e43-e1c0-4d2a-878c-fbd77aa2b6f4/Acta%20Ple%2010-2026.pdf",
+    "hash_contenido": "be97d8465b4e62d4b6e853913e30f9619cdf0574a59b544e7a4deea07adbf94d",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-30T12:05:06.605Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-29#1",
+      "sesion_id": "2026-09-29",
+      "orden": 1,
+      "titulo": "En data 13 de març de 2020 es va formalitzar el contracte mixt de subministrament, obra i servei",
+      "resultado": null,
+      "texto_redactado": "En data 13 de març de 2020 es va formalitzar el contracte mixt de subministrament, obra i servei",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:06.605Z"
+      }
+    },
+    {
+      "id": "2026-09-29#2",
+      "sesion_id": "2026-09-29",
+      "orden": 2,
+      "titulo": "El contracte inclou, entre d’altres, les prestacions P1 (Serveis energètics) i P2 (Manteniment),",
+      "resultado": null,
+      "texto_redactado": "El contracte inclou, entre d’altres, les prestacions P1 (Serveis energètics) i P2 (Manteniment),",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.55,
+      "impacto": 2,
+      "confianza_min": 0.31,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:06.605Z"
+      }
+    },
+    {
+      "id": "2026-09-29#3",
+      "sesion_id": "2026-09-29",
+      "orden": 3,
+      "titulo": "L’enginyer municipal ha emès un informe tècnic en el qual es posen de manifest els següents",
+      "resultado": null,
+      "texto_redactado": "L’enginyer municipal ha emès un informe tècnic en el qual es posen de manifest els següents",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.95,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:06.605Z"
+      }
+    },
+    {
+      "id": "2026-09-29#4",
+      "sesion_id": "2026-09-29",
+      "orden": 4,
+      "titulo": "L'informe tècnic conclou proposant requerir a l'empresa la justificació i planificació dels treballs",
+      "resultado": null,
+      "texto_redactado": "L'informe tècnic conclou proposant requerir a l'empresa la justificació i planificació dels treballs",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 2,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:06.605Z"
+      }
+    },
+    {
+      "id": "2026-09-29#5",
+      "sesion_id": "2026-09-29",
+      "orden": 5,
+      "titulo": "Mitjançant acord adoptat per unanimitat pel Ple de l’Ajuntament de Ripoll en sessió ordinària de",
+      "resultado": null,
+      "texto_redactado": "Mitjançant acord adoptat per unanimitat pel Ple de l’Ajuntament de Ripoll en sessió ordinària de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:06.605Z"
+      }
+    },
+    {
+      "id": "2026-09-29#6",
+      "sesion_id": "2026-09-29",
+      "orden": 6,
+      "titulo": "En data 9 de juny de 2026 el senyor Gabriel Fernández Martí, actuant en nom i representació",
+      "resultado": null,
+      "texto_redactado": "En data 9 de juny de 2026 el senyor Gabriel Fernández Martí, actuant en nom i representació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:06.605Z"
+      }
+    },
+    {
+      "id": "2026-09-29#7",
+      "sesion_id": "2026-09-29",
+      "orden": 7,
+      "titulo": "L’enginyer municipal emet informe mitjançant el qual resol les al·legacions interposades. Pel",
+      "resultado": null,
+      "texto_redactado": "L’enginyer municipal emet informe mitjançant el qual resol les al·legacions interposades. Pel",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.36,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:06.605Z"
+      }
+    }
+  ]
+}

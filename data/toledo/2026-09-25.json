@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "toledo",
+    "nombre": "Toledo",
+    "provincia": "Toledo",
+    "fuente_tipo": "pdf-transparencia",
+    "fuente_config": {
+      "listado_url": "https://www.toledo.es/toledo-abierto/transparencia-activa-e-informacion-sobre-la-corporacion-municipal/actas_pleno_ayto/",
+      "patron_pdf": "(^|/)acta[^/]*\\.pdf$",
+      "formato": "auto",
+      "idioma": "es"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-25",
+    "municipio_id": "toledo",
+    "fecha": "2026-09-25",
+    "tipo": "otra",
+    "fuente_url": "https://www.toledo.es/wp-content/uploads/2026/10/acta-sesion-ordinaria-pleno-celebrado-el-25-de-septiembre-de-2026.pdf",
+    "hash_contenido": "5e05fe7449fc5baf5fea26dcebc6e6af85ba226e0764c1f5e7779c5ace3bc8eb",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-30T12:05:39.832Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-25#1",
+      "sesion_id": "2026-09-25",
+      "orden": 1,
+      "titulo": "APROBACIÓN DEL ACTA DE LA SESIÓN ANTERIOR (ORDINARIA, CELEBRADA EL 24 DE JULIO DE 2026).",
+      "resultado": null,
+      "texto_redactado": "APROBACIÓN DEL ACTA DE LA SESIÓN ANTERIOR (ORDINARIA, CELEBRADA EL 24 DE JULIO DE 2026).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:39.832Z"
+      }
+    },
+    {
+      "id": "2026-09-25#2",
+      "sesion_id": "2026-09-25",
+      "orden": 2,
+      "titulo": "Una vez conocido ese catálogo lo más exhaustivo posible elaborado con la",
+      "resultado": null,
+      "texto_redactado": "Una vez conocido ese catálogo lo más exhaustivo posible elaborado con la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:39.832Z"
+      }
+    },
+    {
+      "id": "2026-09-25#3",
+      "sesion_id": "2026-09-25",
+      "orden": 3,
+      "titulo": "MOCIONES DE LOS GRUPOS POLÍTICOS:",
+      "resultado": null,
+      "texto_redactado": "MOCIONES DE LOS GRUPOS POLÍTICOS:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:39.832Z"
+      }
+    }
+  ]
+}

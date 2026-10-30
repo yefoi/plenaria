@@ -1,0 +1,316 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "castellar-del-valles",
+    "nombre": "Castellar del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "805170005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-29",
+    "municipio_id": "castellar-del-valles",
+    "fecha": "2026-09-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/805170005/2026/54db759f-6cbd-46ed-98a9-f30f4b490b75/6%20Acta%20Ple%20de%2029-09-26.pdf",
+    "hash_contenido": "ae96559be14df9b332e5cbd5e12d1df88ed12cbd88c964376af86904e0334a22",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-30T12:05:32.454Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-29#1",
+      "sesion_id": "2026-09-29",
+      "orden": 1,
+      "titulo": "Aprovació acta anterior.-",
+      "resultado": null,
+      "texto_redactado": "Aprovació acta anterior.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:32.454Z"
+      }
+    },
+    {
+      "id": "2026-09-29#2",
+      "sesion_id": "2026-09-29",
+      "orden": 2,
+      "titulo": "Donar compte de les resolucions d’Alcaldia (de la 1108 a la 1399).-Per descarregar una còpia d'aquest document consulti la següent pàgina web",
+      "resultado": null,
+      "texto_redactado": "Donar compte de les resolucions d’Alcaldia (de la 1108 a la 1399).-Per descarregar una còpia d'aquest document consulti la següent pàgina web",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:32.454Z"
+      }
+    },
+    {
+      "id": "2026-09-29#3",
+      "sesion_id": "2026-09-29",
+      "orden": 3,
+      "titulo": "Donar compte del període mitjà de pagament i morositat del segon trimestre de",
+      "resultado": null,
+      "texto_redactado": "Donar compte del període mitjà de pagament i morositat del segon trimestre de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:32.454Z"
+      }
+    },
+    {
+      "id": "2026-09-29#4",
+      "sesion_id": "2026-09-29",
+      "orden": 4,
+      "titulo": "Donar compte del Decret d'Alcaldia núm. 1329, esmenat pel Decret d’Alcaldia núm.",
+      "resultado": null,
+      "texto_redactado": "Donar compte del Decret d'Alcaldia núm. 1329, esmenat pel Decret d’Alcaldia núm.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:32.454Z"
+      }
+    },
+    {
+      "id": "2026-09-29#5",
+      "sesion_id": "2026-09-29",
+      "orden": 5,
+      "titulo": "Donar compte del Decret d'Alcaldia núm. 1335 per la qual s'aprova desactivar el Pla",
+      "resultado": null,
+      "texto_redactado": "Donar compte del Decret d'Alcaldia núm. 1335 per la qual s'aprova desactivar el Pla",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:32.454Z"
+      }
+    },
+    {
+      "id": "2026-09-29#6",
+      "sesion_id": "2026-09-29",
+      "orden": 6,
+      "titulo": "Aprovar l’inici del procediment de contractació pel servei de neteja dels centres",
+      "resultado": null,
+      "texto_redactado": "Aprovar l’inici del procediment de contractació pel servei de neteja dels centres",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 3,
+      "confianza_min": 0.34,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:32.454Z"
+      }
+    },
+    {
+      "id": "2026-09-29#7",
+      "sesion_id": "2026-09-29",
+      "orden": 7,
+      "titulo": "Aprovar inicialment l’ordenança reguladora de les bases per a la concessió d’ajuts",
+      "resultado": null,
+      "texto_redactado": "Aprovar inicialment l’ordenança reguladora de les bases per a la concessió d’ajuts",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.47,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:32.454Z"
+      }
+    },
+    {
+      "id": "2026-09-29#8",
+      "sesion_id": "2026-09-29",
+      "orden": 8,
+      "titulo": "Assumptes sobrevinguts.-",
+      "resultado": null,
+      "texto_redactado": "Assumptes sobrevinguts.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:32.454Z"
+      }
+    },
+    {
+      "id": "2026-09-29#9",
+      "sesion_id": "2026-09-29",
+      "orden": 9,
+      "titulo": "Moció presentada pel grup municipal d'ERC i que porta per títol: moció per a la",
+      "resultado": null,
+      "texto_redactado": "Moció presentada pel grup municipal d'ERC i que porta per títol: moció per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:32.454Z"
+      }
+    },
+    {
+      "id": "2026-09-29#10",
+      "sesion_id": "2026-09-29",
+      "orden": 10,
+      "titulo": "Moció presentada pel grup municipal de JxCast i que porta per títol: Moció per a la",
+      "resultado": null,
+      "texto_redactado": "Moció presentada pel grup municipal de JxCast i que porta per títol: Moció per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:32.454Z"
+      }
+    },
+    {
+      "id": "2026-09-29#11",
+      "sesion_id": "2026-09-29",
+      "orden": 11,
+      "titulo": "Proposicions i mocions sobrevingudes.-",
+      "resultado": null,
+      "texto_redactado": "Proposicions i mocions sobrevingudes.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:32.454Z"
+      }
+    },
+    {
+      "id": "2026-09-29#12",
+      "sesion_id": "2026-09-29",
+      "orden": 12,
+      "titulo": "Precs i preguntes.-",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-30T12:05:32.454Z"
+      }
+    }
+  ]
+}
