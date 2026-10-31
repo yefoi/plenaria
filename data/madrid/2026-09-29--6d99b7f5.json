@@ -25,8 +25,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://transparencia.madrid.es/UnidadesDescentralizadas/UDCPleno/Actividad/Pleno/2026/2026-09-29/AC_PO_29_09_26.pdf",
     "hash_contenido": "8035b967186ac78352fbf4386254eef3c03ca3357cd5b7bfd4e96c0b9a8030a0",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-10-30T12:04:39.495Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-31T11:34:04.412Z"
   },
   "puntos": [
     {
@@ -38,13 +38,20 @@
       "texto_redactado": "Se da cuenta de la Resolución de la Presidencia del Pleno, de 7 de agosto de 2026, por la que se toma razón de la expulsión del partido político VOX de los concejales doña Carla Toscano de Balbín y don Ignacio Ansaldo Adriaensens, que pasan a tener la condición de concejales no adscritos del Ayuntamiento de Madrid.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.87,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#2",
@@ -55,13 +62,20 @@
       "texto_redactado": "Se da cuenta del escrito, de 7 de agosto de 2026, presentado por el Grupo Municipal VOX, por el que se modifican los cargos orgánicos del citado grupo.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.87,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#3",
@@ -72,13 +86,20 @@
       "texto_redactado": "Se da cuenta de la Resolución de la Presidencia del Pleno, de 25 de agosto de 2026, por la que se modifica la composición de las Comisiones Permanentes Ordinarias del Pleno del Ayuntamiento.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.95,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#4",
@@ -89,13 +110,20 @@
       "texto_redactado": "Se da cuenta del escrito, de 8 de septiembre de 2026, presentado por el Grupo Municipal Socialista de Madrid, por el que se modifican los cargos orgánicos del citado grupo.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.88,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#5",
@@ -106,13 +134,20 @@
       "texto_redactado": "Se da cuenta de la Resolución de la Presidencia del Pleno, de 8 de septiembre de 2026, por la que se actualiza la composición de la Junta de Portavoces del Ayuntamiento de Madrid.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.96,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#6",
@@ -123,13 +158,20 @@
       "texto_redactado": "Aprobar el acta de la sesión anterior (8/2026), ordinaria, celebrada el día 21 de julio de 2026.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#7",
@@ -140,13 +182,20 @@
       "texto_redactado": "Quedar enterado de la renuncia a la condición de concejala formulada por doña Carla Toscano de Balbín, que fue electa por la candidatura de VOX y, asimismo, dirigir petición a la Junta Electoral Central del nombre del siguiente candidato al último de los electos por la lista VOX a efectos de cubrir la vacante producida. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPrimero.- Quedar enterado de la renuncia a la condición de concejala del Ayuntamiento de Madrid de doña Carla Toscano de Balbín, electa por la candidatura de VOX, tras las elecciones municipales celebradas el día 28 de mayo de 2023. Segundo.- Dirigir petición a la Junta Electoral Central, para que designe el nombre del siguiente candidato que corresponda por la lista de la candidatura de VOX, a efectos de cubrir la vacante ocasionada por dicha renunciaÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 2,
+      "confianza_min": 0.3,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#8",
@@ -157,13 +206,20 @@
       "texto_redactado": "Se sustancia la pregunta n.º 20268000767, formulada por la concejala doña Arantzazu Purificación Cabello López, portavoz del Grupo Municipal VOX, dirigida al alcalde, interesando conocer si se han activado los sistemas de coordinación y prevención del Ayuntamiento de Madrid para anticipar posibles amenazas a la seguridad de la capital tras la invasión producida en Ceuta.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.76,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#9",
@@ -174,13 +230,20 @@
       "texto_redactado": "Se sustancia la pregunta n.º 20268000771, formulada por la concejal doña Rita Maestre Fernández, portavoz del Grupo Municipal Más Madrid, dirigida al alcalde, interesando conocer Òcómo valora el inicio del curso en MadridÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.36,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#10",
@@ -191,13 +254,21 @@
       "texto_redactado": "Se sustancia la pregunta n.º 20268000772, formulada por la concejala doña Reyes Maroto Illera, portavoz del Grupo Municipal Socialista de Madrid, dirigida al alcalde, en la redacción dada en la Junta de Portavoces celebrada el día 24 de septiembre de 2026, interesando conocer si puede explicar Òa los miles de madrileños que no pueden acceder a una vivienda si el ático de lujo que ha comprado la Comunidad de Madrid para servir como oficina temporal de la presidenta Ayuso cumple con las normas urbanísticas municipalesÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "vivienda",
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.55,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#11",
@@ -208,13 +279,20 @@
       "texto_redactado": "Se sustancia la pregunta n.º 20268000758, formulada por el concejal don José Luis Nieto Bueno, del Grupo Municipal Más Madrid, con el visto bueno de su portavoz, dirigida al delegado del Área de Gobierno de Urbanismo, Medio Ambiente y Movilidad, interesando conocer si Òconsidera que las recalificaciones de los terrenos de las ciudades deportivas de los grandes equipos de fútbol madrileños responden al interés generalÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#12",
@@ -225,13 +303,20 @@
       "texto_redactado": "Se sustancia la pregunta n.º 20268000759, formulada por el concejal no adscrito don Francisco Javier Ortega Smith-Molina, interesando conocer Òcuál es el motivo por el cual el Equipo de Gobierno no ha informado sobre la naturaleza de un ataque yihadista en la ciudad de MadridÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.77,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#13",
@@ -242,13 +327,20 @@
       "texto_redactado": "Se retira por la portavoz del Grupo Municipal, mediante escrito con número de registro 20268000776, antes del comienzo de su deliberación, en los términos del artículo 65.1 del Reglamento Orgánico del Pleno, la pregunta n.º 20268000760, formulada por el concejal don Pedro Esteban Barrero Cuadrado, del Grupo Municipal Socialista de Madrid, con el visto bueno de su portavoz, dirigida al delegado del Área de Gobierno de Políticas de Vivienda, interesando conocer Òqué medidas piensa adoptar ante el fracaso de las políticas municipales de rehabilitación residencial en la ciudad de MadridÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.82,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#14",
@@ -259,13 +351,20 @@
       "texto_redactado": "Se sustancia la pregunta n.º 20268000761, formulada por el concejal don Antonio Giraldo Capellán, del Grupo Municipal Socialista de Madrid, con el visto bueno de su portavoz, dirigida al delegado del Área de Gobierno de Urbanismo, Medio Ambiente y Movilidad, interesando conocer Òtranscurrido el primer año de vigencia del Plan Reside, que pretendía proteger la vivienda frente a la proliferación descontrolada de los pisos turísticos, ¿cómo explica que cientos de familias estén siendo expulsadas de sus inmuebles a consecuencia del mismo, para hacer más pisos turísticos?Ó.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.75,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#15",
@@ -276,13 +375,20 @@
       "texto_redactado": "Se sustancia la pregunta n.º 20268000762, formulada por la concejala doña Meritxell Tizón Gutiérrez, portavoz adjunta del Grupo Municipal Socialista de Madrid, con el visto bueno de su portavoz, dirigida a la vicealcaldesa, interesando conocer si Òconsidera que este Gobierno municipal debe rectificar su política de igualdad, que supone un retroceso en los derechos de las mujeres madrileñas y pone en riesgo los avances conseguidos en materia de igualdadÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.39,
+      "impacto": 2,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#16",
@@ -293,13 +399,20 @@
       "texto_redactado": "Se sustancia la pregunta n.º 20268000763, formulada por la concejala doña María Caso Escudero, del Grupo Municipal Socialista de Madrid, con el visto bueno de su portavoz, dirigida al delegado del Área de Gobierno de Políticas Sociales, Familia e Igualdad, interesando conocer Òqué medidas concretas va a impulsar para atender, dentro de su ámbito de competencias, a las demandas planteadas por las educadoras infantiles, que llevan más de 160 días en huelga indefinida, y por las organizaciones sindicales y sociales convocantes de la huelga indefinida de la educación pública madrileña que empezará el 14 de octubreÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.51,
+      "impacto": 2,
+      "confianza_min": 0.12,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#17",
@@ -310,13 +423,21 @@
       "texto_redactado": "Se retira por su autora, mediante escrito con número de registro 20268000781, antes del comienzo de su deliberación, en los términos del artículo 65.1 del Reglamento Orgánico del Pleno, la pregunta n.º 20268000766, formulada por la concejala doña Esther Gómez Morante, del Grupo Municipal Más Madrid, con el visto bueno de su portavoz, interesando conocer si Òconsidera el equipo de gobierno que alguien puede desplazarse en transporte público por la ciudad de Madrid y tardar solo 20 minutosÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "movilidad_trafico",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 1,
+      "confianza_min": 0.92,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#18",
@@ -327,13 +448,20 @@
       "texto_redactado": "Se sustancia la pregunta n.º 20268000768, formulada por la concejala doña Arantzazu Purificación Cabello López, portavoz del Grupo Municipal VOX, interesando conocer Òpor qué el gravísimo incidente del 5 de septiembre que afectó directamente a agentes de la Policía Municipal, no fue conocido públicamente hasta 12 días despuésÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.75,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#19",
@@ -344,13 +472,20 @@
       "texto_redactado": "Se sustancia la pregunta n.º 20268000769, formulada por el concejal don Fernando Martínez Vidal, portavoz adjunto del Grupo Municipal VOX, interesando conocer Òqué gestiones ha realizado el Ayuntamiento de Madrid para la construcción de la futura Casa de Campo del Norte, tal y como aprobó el Pleno a iniciativa del Grupo Municipal VOX en su sesión del 30 de octubre de 2019Ó.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 2,
+      "confianza_min": 0.3,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#20",
@@ -361,13 +496,20 @@
       "texto_redactado": "Se sustancia la pregunta n.º 20268000770, formulada por el concejal don Fernando Martínez Vidal, portavoz adjunto del Grupo Municipal VOX, interesando conocer Òqué actuaciones concretas ha realizado el Gobierno municipal para cumplir el compromiso y garantizar la continuidad del Rayo Vallecano en el DistritoÓ, tras la aprobación por el Pleno en 2024 de la colaboración del Ayuntamiento para la remodelación del Estadio de Vallecas o la búsqueda de una alternativa, siempre en Vallecas.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.49,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#21",
@@ -378,13 +520,20 @@
       "texto_redactado": "Fijar como fiestas locales, para su inclusión en el calendario laboral del año 2027, el 15 de mayo, sábado, San Isidro Labrador, y el 9 de noviembre, martes, Nuestra Señora de La Almudena. Siendo el acuerdo adoptado del siguiente tenor literal: ÒFijar como fiestas locales, para su inclusión en el calendario laboral del año 2027, el 15 de mayo, sábado, San Isidro Labrador, y el 9 de noviembre, martes, Nuestra Señora de La AlmudenaÓ. Propuestas de la Junta de Gobierno, de sus miembros y de los demás concejales con responsabilidades de gobierno COMISIÓN PERMANENTE ORDINARIA DE URBANISMO, MEDIO AMBIENTE Y MOVILIDAD",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.84,
+      "impacto": 4,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#22",
@@ -395,13 +544,20 @@
       "texto_redactado": "Aprobar el Reglamento 5/2026, por el que se modifica el Reglamento 7/2022, de 26 de abril, por el que se establece el régimen de las Entidades Colaboradoras Urbanísticas de verificación, inspección y control. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO.- Aprobar el Reglamento por el que se modifica el Reglamento 7/2022, de 26 de abril, por el que se establece el régimen de las Entidades Colaboradoras Urbanísticas de Verificación, Inspección y Control que figura como anexo. SEGUNDO.- Facultar a la presidencia del Pleno, tan ampliamente como en derecho proceda, y siguiendo criterios de eficacia, eficiencia, economía procesal y seguridad jurídica, para corregir de oficio los errores materiales o de hecho que pudieran detectarse, de lo que, en su caso, se dará cuenta en la próxima sesión ordinaria del Pleno que se celebreÓ. * * * * El texto del Reglamento 5/2026, de 29 d",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.4,
+      "impacto": 2,
+      "confianza_min": 0.16,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#23",
@@ -412,13 +568,20 @@
       "texto_redactado": "Aprobar definitivamente, una vez transcurrido el trámite de información pública sin que se hayan presentado alegaciones, el Plan Especial para el edificio situado en el [DIRECCIÓN], promovido por la Universidad Nacional de Educación a Distancia. Distrito de Moncloa-Aravaca. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO.- Aprobar definitivamente el Plan Especial para el edificio situado en el [DIRECCIÓN], distrito de Moncloa-Aravaca, promovido por la Universidad Nacional de Educación a Distancia (UNED), de conformidad con lo establecido en el artículo 59.4 de la Ley 9/2001, de 17 de julio, del Suelo de la Comunidad de Madrid, en relación con los artículos 57 y 62.2 de la citada Ley. SEGUNDO.- Publicar el presente acuerdo en el ÒBoletín Oficial de la Comunidad de MadridÓ, en cumplimiento del artículo 66 de la Ley 9/2001, de 1",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 3,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#24",
@@ -429,13 +592,20 @@
       "texto_redactado": "Aprobar definitivamente, una vez transcurrido el trámite de información pública sin que se hayan presentado alegaciones, el Estudio de Detalle para la parcela situada en la [DIRECCIÓN], promovido por Foradada Homes Sociedad Cooperativa Madrileña. Distrito de Carabanchel. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO.- Aprobar definitivamente el Estudio de Detalle para la parcela situada en la [DIRECCIÓN], distrito de Carabanchel, promovido por Foradada Homes Sociedad Cooperativa Madrileña, de conformidad con lo dispuesto en el artículo 60 de la Ley 9/2001, de 17 de julio, del Suelo de la Comunidad de Madrid, en relación con los artículos 61.5 y 62.2 de la citada Ley. SEGUNDO.- Publicar el presente acuerdo en el ÒBoletín Oficial de la Comunidad de MadridÓ, en cumplimiento del artículo 66 de la Ley 9/2001, de 17 de ",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.6,
+      "impacto": 3,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#25",
@@ -446,13 +616,20 @@
       "texto_redactado": "Aprobar definitivamente, una vez transcurrido el trámite de información pública sin que se hayan presentado alegaciones, la modificación del Estudio de Detalle 07.313 para la parcela situada en la [DIRECCIÓN], promovida por el Hospital Virgen de la Paloma S.A. Distrito de Chamberí. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO.- Aprobar definitivamente la segunda modificación del Estudio de Detalle 07.313 para la parcela situada en la [DIRECCIÓN], distrito de Chamberí, promovido por el Hospital Virgen de la Paloma S.A., de conformidad con lo establecido en el artículo 60 de la Ley 9/2001, de 17 de julio, del Suelo de la Comunidad de Madrid, en relación con los artículos 61.5 y 62.2 de la citada Ley. SEGUNDO.- Publicar el presente acuerdo en el ÒBoletín Oficial de la Comunidad de MadridÓ, en cumplimiento del artículo 66 de la Ley 9/2001, de 1",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.51,
+      "impacto": 3,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#26",
@@ -463,13 +640,20 @@
       "texto_redactado": "Aprobar definitivamente, una vez transcurrido el trámite de información pública sin que se hayan presentado alegaciones, el Estudio de Detalle para la parcela situada en la calle de la Hermandad de Donantes de Sangre, con vuelta a la calle de El Santo de la Isidra, con vuelta a la calle de El Caserío, promovido por la Consejería de Educación, Ciencia y Universidades de la Comunidad de Madrid. Distrito de Villaverde. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO.- Aprobar definitivamente el Estudio de Detalle para la parcela situada en la calle de la Hermandad de Donantes de Sangre con vuelta a la calle de El Santo de la Isidra con vuelta a la calle de El Caserío, distrito de Villaverde, promovido por la Consejería de Educación, Ciencia y Universidades de la Comunidad de Madrid, de conformidad con lo dispuesto en el artículo 60 de la Ley 9/2001, de 17 de julio, del Suel",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 3,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#27",
@@ -480,13 +664,20 @@
       "texto_redactado": "Aprobar definitivamente, con estimación parcial y desestimación de las alegaciones presentadas durante el trámite de información pública, el Plan Especial para la parcela D2 del Área de Planeamiento Remitido 06.02 ÒPaseo de la DirecciónÓ, situada en la [DIRECCIÓN] y un tramo de viario en la calle del Cosmos. Distrito de Tetuán. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO.- Estimar parcialmente y desestimar las alegaciones presentadas durante el periodo de información pública, por las razones y en los términos señalados en el informe técnico-jurídico de la Dirección General de Planeamiento de 9 de septiembre de 2026. Dicho informe estará a disposición del alegante y de los ciudadanos en general, formando parte de la documentación que se publique en la página de transparencia del Ayuntamiento de Madrid, una vez que el planeamiento se apruebe definitivamen",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.74,
+      "impacto": 3,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#28",
@@ -497,13 +688,20 @@
       "texto_redactado": "Aprobar un suplemento de crédito por importe de 733.076,00 euros en el Presupuesto del Organismo Autónomo Informática del Ayuntamiento de Madrid. Siendo el acuerdo adoptado del siguiente tenor literal: ÒAprobar la concesión de un suplemento de crédito por importe de 733.076,00 euros en el Presupuesto del Organismo Autónomo Informática del Ayuntamiento de Madrid para 2026, correspondiente al capítulo 6 ÒInversiones realesÓ en la aplicación presupuestaria 501/102/491.01/641.00, subconcepto económico ÒAplicaciones informáticasÓ en el programa 491.01 ÒServicios informáticos y comunicacionesÓ. La citada modificación se financia con el remanente de tesorería para gastos generales obtenido de la liquidación del Presupuesto del Organismo Autónomo Informática del Ayuntamiento de Madrid del ejercicio 2025Ó. * * * * Los cuadros correspondientes a la publicación del precedente acuerdo, se incluyen c",
       "importe_eur": 733076,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 4,
+      "confianza_min": 0.29,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#29",
@@ -514,13 +712,20 @@
       "texto_redactado": "Aprobar un crédito extraordinario por importe de 15.146.515,87 euros en el Presupuesto del Organismo Autónomo Informática del Ayuntamiento de Madrid. Siendo el acuerdo adoptado del siguiente tenor literal: ÒAprobar la concesión de un crédito extraordinario por importe de 15.146.515,87 euros en el Presupuesto del Organismo Autónomo Informática del Ayuntamiento de Madrid para 2026, correspondiente al capítulo 4 ÒTransferencias corrientesÓ en la aplicación presupuestaria 501/102/491.01/400.00, subconcepto económico ÒA la Administración General del AyuntamientoÓ en el programa 491.01 ÒServicios informáticos y comunicacionesÓ. La citada modificación se financia con el remanente de tesorería para gastos generales obtenido de la liquidación del Presupuesto del Organismo Autónomo Informática del Ayuntamiento de Madrid del ejercicio 2025Ó. * * * * Los cuadros correspondientes a la publicación del",
       "importe_eur": 15146515.87,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 4,
+      "confianza_min": 0.16,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#30",
@@ -531,13 +736,20 @@
       "texto_redactado": "Aprobar un crédito extraordinario por importe de 5.813.157,37 euros en el Presupuesto del Organismo Autónomo Agencia para el Empleo de Madrid. Siendo el acuerdo adoptado del siguiente tenor literal: ÒAprobar la concesión de un crédito extraordinario por importe de 5.813.157,37 euros en el Presupuesto del Organismo Autónomo Agencia para el Empleo de Madrid para 2026, correspondiente al capítulo 4 ÒTransferencias corrientesÓ en la aplicación presupuestaria 503/140/241.00/400.00, subconcepto económico ÒA la Administración General del AyuntamientoÓ en el programa 241.00 ÒDirección y gestión administrativa de la Agencia para el Empleo de MadridÓ. La citada modificación se financia con el remanente de tesorería para gastos generales obtenido de la liquidación del Presupuesto del Organismo Autónomo Agencia para el Empleo de Madrid del ejercicio 2025Ó. * * * * Los cuadros correspondientes a la p",
       "importe_eur": 5813157.37,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#31",
@@ -548,13 +760,20 @@
       "texto_redactado": "Aprobar un suplemento de crédito por importe de 10.038.822,24 euros en el Presupuesto del Organismo Autónomo Agencia Tributaria Madrid. Siendo el acuerdo adoptado del siguiente tenor literal: ÒAprobar la concesión de un suplemento de crédito por importe de 10.038.822,24 euros en el Presupuesto del Organismo Autónomo Agencia Tributaria Madrid para 2026, correspondiente al capítulo 4 ÒTransferencias corrientesÓ en la aplicación presupuestaria 506/140/932.00/400.00, subconcepto económico ÒA la Administración General del AyuntamientoÓ en el programa 932.00 ÒGestión tributariaÓ. La citada modificación se financia con el remanente de tesorería para gastos generales obtenido de la liquidación del Presupuesto del Organismo Autónomo Agencia Tributaria Madrid del ejercicio 2025Ó. * * * * Los cuadros correspondientes a la publicación del precedente acuerdo, se incluyen como apéndice V, relacionado ",
       "importe_eur": 10038822.24,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 4,
+      "confianza_min": 0.04,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#32",
@@ -565,13 +784,20 @@
       "texto_redactado": "Aprobar un crédito extraordinario por importe de 10.414.375,38 euros en el Presupuesto del Organismo Autónomo Madrid Salud. Siendo el acuerdo adoptado del siguiente tenor literal: ÒAprobar la concesión de un crédito extraordinario por importe de 10.414.375,38 euros en el Presupuesto del Organismo Autónomo Madrid Salud para 2026, correspondiente al capítulo 4 ÒTransferencias corrientesÓ en la aplicación presupuestaria 508/120/311.00/400.00, subconcepto económico ÒA la Administración General del AyuntamientoÓ en el programa 311.00 ÒDirección y gestión administrativa Madrid SaludÓ. La citada modificación se financia con el remanente de tesorería para gastos generales obtenido de la liquidación del Presupuesto del Organismo Autónomo Madrid Salud del ejercicio 2025Ó. * * * * Los cuadros correspondientes a la publicación del precedente acuerdo, se incluyen como apéndice VI, relacionado con el ",
       "importe_eur": 10414375.38,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#33",
@@ -582,13 +808,20 @@
       "texto_redactado": "Aprobar un crédito extraordinario por importe de 4.820.459,80 euros en el Presupuesto del Organismo Autónomo Agencia de Actividades. Siendo el acuerdo adoptado del siguiente tenor literal: ÒAprobar la concesión de un crédito extraordinario por importe de 4.820.459,80 euros en el Presupuesto del Organismo Autónomo Agencia de Actividades para 2026, correspondiente al capítulo 4 ÒTransferencias corrientesÓ en la aplicación presupuestaria 509/150/151.09/400.00, subconcepto económico ÒA la Administración General del AyuntamientoÓ en el programa 151.09 ÒGestión de licencias de actividadesÓ. La citada modificación se financia con el remanente de tesorería para gastos generales obtenido de la liquidación del Presupuesto del Organismo Autónomo Agencia de Actividades del ejercicio 2025Ó. * * * * Los cuadros correspondientes a la publicación del precedente acuerdo, se incluyen como apéndice VII, re",
       "importe_eur": 4820459.8,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 4,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#34",
@@ -599,13 +832,20 @@
       "texto_redactado": "Aprobar un suplemento de crédito por importe de 6.322,46 euros en el Presupuesto del Ayuntamiento de Madrid (Distrito de Latina). Siendo el acuerdo adoptado del siguiente tenor literal: ÒAprobar la concesión de un suplemento de crédito por importe de 6.322,46 euros en el Presupuesto del Ayuntamiento de Madrid (Distrito de Latina), correspondiente al capítulo 2 ÒGastos corrientes en bienes y serviciosÓ en la aplicación presupuestaria 001/210/153.22/210.01, subconcepto económico ÒReparación, mantenimiento y conservación de vías públicas a cargo de particularesÓ en el programa 153.22 ÒOtras actuaciones en vías públicasÓ. La citada modificación se financia con las desviaciones positivas de financiación del proyecto de gastos con financiación afectada puestas de manifiesto a 31 de diciembre de 2025Ó. * * * * Los cuadros correspondientes a la publicación del precedente acuerdo, se incluyen com",
       "importe_eur": 6322.46,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.42,
+      "impacto": 3,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#35",
@@ -616,13 +856,21 @@
       "texto_redactado": "Aprobar un crédito extraordinario por importe de 48.400,00 euros en el Presupuesto del Ayuntamiento de Madrid (Área de Gobierno de Urbanismo, Medio Ambiente y Movilidad). Siendo el acuerdo adoptado del siguiente tenor literal: ÒAprobar la concesión de un crédito extraordinario por importe de 48.400,00 euros en el Presupuesto del Ayuntamiento de Madrid (Área de Gobierno de Urbanismo, Medio Ambiente y Movilidad), correspondiente al capítulo 6 ÒInversiones realesÓ en la aplicación presupuestaria 001/150/172.12/623.01, subconcepto económico ÒInstalaciones técnicasÓ en el programa 172.12 ÒControl ambientalÓ. La citada modificación se financia con el remanente de tesorería para gastos generales obtenido de la liquidación del Presupuesto General del Ayuntamiento de Madrid del ejercicio 2025Ó. * * * * Los cuadros correspondientes a la publicación del precedente acuerdo, se incluyen como apéndice",
       "importe_eur": 48400,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 3,
+      "confianza_min": 0.27,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#36",
@@ -633,13 +881,21 @@
       "texto_redactado": "Aprobar un crédito extraordinario por importe de 237.470,00 euros en el Presupuesto del Ayuntamiento de Madrid (Área de Gobierno de Urbanismo, Medio Ambiente y Movilidad y Área Delegada de Limpieza y Zonas Verdes). Siendo el acuerdo adoptado del siguiente tenor literal: ÒAprobar la concesión de un crédito extraordinario por importe de 237.470,00 euros en el Presupuesto del Ayuntamiento de Madrid (Área de Gobierno de Urbanismo, Medio Ambiente y Movilidad y Área Delegada de Limpieza y Zonas Verdes), con el detalle de las aplicaciones presupuestarias que corresponden a este crédito extraordinario que se recogen en las dotaciones del anexo. La citada modificación se financia con el remanente de tesorería para gastos generales obtenido de la liquidación del Presupuesto General del Ayuntamiento de Madrid del ejercicio 2025Ó. * * * * El anexo al que se refiere el precedente acuerdo, así como lo",
       "importe_eur": 237470,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.3,
+      "impacto": 3,
+      "confianza_min": 0.3,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#37",
@@ -650,13 +906,20 @@
       "texto_redactado": "Aprobar un suplemento de crédito por importe de 5.601.044,00 euros en el Presupuesto del Ayuntamiento de Madrid (Área de Gobierno de Urbanismo, Medio Ambiente y Movilidad y de Políticas de Vivienda y Área Delegada de Limpieza y Zonas Verdes). Siendo el acuerdo adoptado del siguiente tenor literal: ÒAprobar la concesión de un suplemento de crédito por importe de 5.601.044,00 euros en el Presupuesto del Ayuntamiento de Madrid (Áreas de Gobierno de Urbanismo, Medio Ambiente y Movilidad y de Políticas de Vivienda y Área Delegada de Limpieza y Zonas Verdes), con el detalle de las aplicaciones presupuestarias que corresponden a este suplemento de crédito que se recogen en las dotaciones del anexo. La citada modificación se financia con el remanente de tesorería para gastos generales obtenido de la liquidación del Presupuesto General del Ayuntamiento de Madrid del ejercicio 2025Ó. * * * * El an",
       "importe_eur": 5601044,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 4,
+      "confianza_min": 0.35,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#38",
@@ -667,13 +930,20 @@
       "texto_redactado": "Aprobar un suplemento de crédito por importe de 2.276.244,00 euros en el Presupuesto del Ayuntamiento de Madrid (Distritos de Centro, Retiro, Tetuán, Fuencarral-El Pardo, Moncloa-Aravaca, Latina, Usera, Puente de Vallecas, Ciudad Lineal, Hortaleza, Villaverde, Villa de Vallecas, Vicálvaro y Barajas). Siendo el acuerdo adoptado del siguiente tenor literal: ÒAprobar la concesión de un suplemento de crédito por importe de 2.276.244,00 euros en el Presupuesto del Ayuntamiento de Madrid (Distritos de Centro, Retiro, Tetuán, Fuencarral-El Pardo, Moncloa-Aravaca, Latina, Usera, Puente de Vallecas, Ciudad Lineal, Hortaleza, Villaverde, Villa de Vallecas, Vicálvaro y Barajas), con el detalle de las aplicaciones presupuestarias que corresponden a este suplemento de crédito que se recogen en las dotaciones del anexo. La citada modificación se financia con el remanente de tesorería para gastos gener",
       "importe_eur": 2276244,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.37,
+      "impacto": 4,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#39",
@@ -684,13 +954,20 @@
       "texto_redactado": "Aprobar la aplicación del remanente líquido de tesorería para gastos generales en concepto de superávit correspondiente al ejercicio 2025, para financiar proyectos de inversión que tienen la consideración de inversiones financieramente sostenibles en el ejercicio 2026, por un importe de 4.013.854,98 euros. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO.- Los proyectos de inversión, relacionados en el anexo, por un importe total de 67.964.451,22 euros, tienen la consideración de inversiones financieramente sostenibles y, mediante la modificación de su fuente de financiación, la inversión a realizar en el ejercicio 2026 por un importe de 4.013.854,98 euros, pasa de ser financiada con recursos generales del presupuesto a ser financiada con cargo al remanente de tesorería para gastos generales en concepto de superávit correspondiente al ejercicio 2025. SEGUNDO.- La titular ",
       "importe_eur": 67964451.22,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 4,
+      "confianza_min": 0.2,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#40",
@@ -701,13 +978,20 @@
       "texto_redactado": "Aprobar el establecimiento del precio público por la adquisición del catálogo de la exposición ÒTeatro de grandezas. Arte, arquitectura y ciudad en el Madrid barrocoÓ. Siendo el acuerdo adoptado del siguiente tenor literal: ÒPRIMERO.- Aprobar el establecimiento del precio público por la adquisición del catálogo de la exposición ÒTeatro de grandezas. Arte, arquitectura y ciudad en el Madrid barrocoÓ, que figura como anexo. SEGUNDO.- Dejar sin efecto cuantas disposiciones se opongan, contradigan o resulten incompatibles con lo establecido en este acuerdo. TERCERO.- Facultar al titular del Área de Gobierno de Economía, Innovación y Hacienda para dictar cuantas resoluciones sean necesarias para el desarrollo y ejecución del acuerdo, de conformidad con lo dispuesto en los estatutos de la Agencia Tributaria Madrid. CUARTO.- Este acuerdo surtirá efectos desde el día siguiente a su publicación e",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 2,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#41",
@@ -718,13 +1002,20 @@
       "texto_redactado": "Conceder, en sesenta expedientes, otras tantas solicitudes de declaración de especial interés o utilidad municipal, a los efectos de la obtención de las correspondientes bonificaciones en el Impuesto sobre Construcciones, Instalaciones y Obras. Siendo los acuerdos adoptados del siguiente tenor literal: Ò1) Conceder la declaración de especial interés o utilidad municipal, solicitada por D. JUAN CARLOS SORIANO TRUJILLO, en representación de C.P. CL SANDALIO LÓPEZ 23, con NIF ****0951*, en el expediente número 205/2024/28195, a los efectos de lo dispuesto en el artículo 9 de la Ordenanza Fiscal reguladora del Impuesto sobre Construcciones, Instalaciones y Obras, por concurrir los requisitos objetivos que el citado precepto establece para que pueda tener lugar esa declaración. 2) Conceder la declaración de especial interés o utilidad municipal, solicitada por D. IGNACIO JUAN ARACIL ELEJABEIT",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.62,
+      "impacto": 3,
+      "confianza_min": 0.2,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#42",
@@ -735,13 +1026,20 @@
       "texto_redactado": "Denegar, en treinta y cinco expedientes, otras tantas solicitudes de declaración de especial interés o utilidad municipal, a los efectos de la obtención de las correspondientes bonificaciones en el Impuesto sobre Construcciones, Instalaciones y Obras. Siendo los acuerdos adoptados del siguiente tenor literal: Ò1) Denegar la declaración de especial interés o utilidad municipal, solicitada por D. JAVIER TELLERÍA CEBRIÁN, en representación de SERANCO S.A. – TRANSPORTES POR CABLE S.A.U. UNIÓN TEMPORAL DE EMPRESAS LEY, con NIF ****5517*, en el expediente número 205/2026/08023, a los efectos de lo dispuesto en los artículos 8.1 a) y 10 de la Ordenanza Fiscal reguladora del Impuesto sobre Construcciones, Instalaciones y Obras, por no concurrir los requisitos objetivos que los citados preceptos establecen para que pueda tener lugar esa declaración. 2) Denegar la declaración de especial interés o",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 2,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#43",
@@ -752,13 +1050,20 @@
       "texto_redactado": "Inadmitir a trámite, en un expediente, el recurso extraordinario de revisión interpuesto contra el acuerdo por el que se denegaba la solicitud de declaración de especial interés o utilidad municipal, a los efectos de la obtención de la correspondiente bonificación en el Impuesto sobre Construcciones, Instalaciones y Obras. Siendo el acuerdo adoptado del siguiente tenor literal: ÒINADMITIR a trámite el recurso extraordinario de revisión interpuesto el 03 de julio de 2025 por Don [NOMBRE], con N.I.F. ****2890*, en representación de FUNDACION ANDE, con N.I.F. ****1251*, contra el Acuerdo del Pleno del Ayuntamiento de Madrid, en sesión celebrada en fecha 27 de marzo de 2025, por el que se deniega la declaración de especial interés o utilidad municipal solicitada en el expediente número 205/2025/07118, a los efectos de lo dispuesto en el artículo 8.1.b) de la Ordenanza Fiscal r",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.32,
+      "impacto": 2,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#44",
@@ -769,13 +1074,20 @@
       "texto_redactado": "Aprobar la Cuenta General del Ayuntamiento de Madrid, correspondiente al ejercicio 2025, integrada por la del propio Ayuntamiento y las de los organismos autónomos dependientes de la Corporación y sociedades mercantiles de capital íntegramente municipal. Siendo el acuerdo adoptado del siguiente tenor literal: ÒAprobar la Cuenta General del Ayuntamiento de Madrid correspondiente al ejercicio económico 2025, integrada por la del propio Ayuntamiento y las de los organismos autónomos dependientes de la Corporación y Sociedades Mercantiles de capital íntegramente municipal, y acompañada de la documentación complementaria e información adicional que consta en el expedienteÓ. Proposiciones de los grupos políticos",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 2,
+      "confianza_min": 0.17,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#45",
@@ -786,13 +1098,20 @@
       "texto_redactado": "Rechazar la proposición n.º 20268000674, presentada por la concejala doña Arantzazu Purificación Cabello López, portavoz del Grupo Municipal VOX, interesando que el Pleno del Ayuntamiento reafirme solemnemente la plena e indiscutible soberanía española sobre Ceuta, Melilla, las islas Chafarinas, el peñón de Vélez de la Gomera, isla del Perejil, y las islas y peñón de Alhucemas, plazas y lugares de soberanía española en el norte de África e inste al Gobierno de la Nación a que adopte las medidas que sobre este asunto contiene la iniciativa.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.06,
+      "impacto": 1,
+      "confianza_min": 0.93,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#46",
@@ -803,13 +1122,20 @@
       "texto_redactado": "Aprobar la proposición n.º 20268000753, presentada por la concejala doña Arantzazu Purificación Cabello López, portavoz del Grupo Municipal VOX, en la redacción dada por el enmienda n.º 20268000780 presentada por el Grupo Municipal del Partido Popular, interesando que el Pleno del Ayuntamiento exprese su reconocimiento y agradecimiento a los profesionales que sirven y defienden la soberanía, independencia e integridad territorial de España; que respalde las medidas que sean necesarias para restablecer la normalidad en las ciudades de Ceuta y Melilla en los términos que establezca la autoridad competente, así como llevar a cabo las demás actuaciones contenidas en el escrito de la enmienda. Siendo el acuerdo adoptado del siguiente tenor literal: ÒEXPOSICIÓN DE MOTIVOS Las ciudades de Ceuta y Melilla necesitan ser defendidas. Son ciudades españolas que, por su situación geográfica, requiere",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#47",
@@ -820,13 +1146,21 @@
       "texto_redactado": "Aprobar la proposición n.º 20268000755, presentada por el concejal don Carlos Izquierdo Torres, portavoz del Grupo Municipal del Partido Popular, interesando que el Pleno del Ayuntamiento manifieste su firme apoyo, solidaridad y cercanía con la Ciudad Autónoma de Ceuta, sus instituciones y todos los ceutíes ante los graves acontecimientos producidos y expresar el reconocimiento y agradecimiento a las Fuerzas y Cuerpos de Seguridad del Estado, las Fuerzas Armadas, la Policía Local, los servicios de emergencia y todos los empleados públicos que están trabajando en defensa de la seguridad, la convivencia y los derechos de los ciudadanos ceutíes e instar al Gobierno de España al cumplimiento de las medidas que sobre este asunto contiene la iniciativa. Siendo el acuerdo adoptado del siguiente tenor literal: ÒEXPOSICIÓN DE MOTIVOS Madrid, quiere expresar, a través de su Ayuntamiento, su firme ",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.06,
+      "impacto": 1,
+      "confianza_min": 0.82,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#48",
@@ -837,13 +1171,21 @@
       "texto_redactado": "Rechazar la proposición n.º 20268000756, presentada por la concejala doña Lucía Lois Méndez de Vigo, del Grupo Municipal Más Madrid, con el visto bueno de su portavoz, interesando que el Ayuntamiento implemente las medidas que contiene la iniciativa, orientadas de forma prioritaria, a reforzar la escuela pública como garantía real de equidad educativa en la ciudad y a bajar de forma drástica el coste del curso escolar en Madrid.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 3,
+      "confianza_min": 0.03,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#49",
@@ -854,13 +1196,21 @@
       "texto_redactado": "Rechazar la proposición n.º 20268000757, presentada por la concejala doña Esther Gómez Morante, del Grupo Municipal Más Madrid, con el visto bueno de su portavoz, interesando Òinstar a la Comunidad de Madrid a recuperar el servicio de transporte con espera para los Equipos de Atención Paliativa Domiciliaria del SERMAS dependientes de la Dirección Asistencial Centro, para que el transporte entre domicilios no suponga un menoscabo de la actividad clínica, del tiempo de los pacientes y de las condiciones laborales de los profesionales sanitarios que los prestanÓ.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.3,
+      "impacto": 2,
+      "confianza_min": 0.37,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#50",
@@ -871,13 +1221,21 @@
       "texto_redactado": "Rechazar la proposición n.º 20268000764, presentada conjuntamente por las concejalas doña María Caso Escudero, del Grupo Municipal Socialista de Madrid, y doña Olga Martínez López, del Grupo Municipal Más Madrid, con el visto bueno de sus portavoces, interesando que el Pleno del Ayuntamiento manifieste su compromiso con la permanencia del equipo del Rayo Vallecano en su sede histórica, e inste al gobierno municipal y autonómico a que adopte para ello las medidas que sean necesarias señaladas en la iniciativa.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 2,
+      "confianza_min": 0.34,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#51",
@@ -888,13 +1246,20 @@
       "texto_redactado": "Rechazar la proposición n.º 20268000765, presentada por el concejal don Miguel Montejo Bombín, del Grupo Municipal Más Madrid, con el visto bueno de su portavoz, interesando que el Pleno del Ayuntamiento inste al equipo de gobierno a iniciar los trámites necesarios para la disolución y liquidación de la sociedad mercantil municipal Madrid Calle 30, S.A.; a la reversión de sus funciones y medios a la gestión municipal directa a través del área competente, así como llevar a cabo las medidas que sobre este asunto señala la iniciativa.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.44,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#52",
@@ -905,13 +1270,21 @@
       "texto_redactado": "Aprobar la proposición n.º 20268000773, presentada por el concejal don Carlos Izquierdo Torres, portavoz del Grupo Municipal del Partido Popular, interesando que la corporación municipal manifieste su apoyo a las familias beneficiarias de la prestación por cuidado de menores afectados por cáncer u otra enfermedad grave (CUME), y a las asociaciones y entidades que las representan, así como instar al Gobierno de España a la adopción de las medidas legislativas y económicas necesarias en esta materia de conformidad con lo señalado en la iniciativa. Siendo el acuerdo adoptado del siguiente tenor literal: ÒEXPOSICIÓN DE MOTIVOS La prestación económica por cuidado de menores afectados por cáncer u otra enfermedad grave, conocida como prestación CUME, constituye uno de los principales instrumentos de protección para aquellas familias que deben reducir de manera significativa su actividad labora",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 2,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#53",
@@ -922,13 +1295,20 @@
       "texto_redactado": "Se da cuenta del Acuerdo de 9 de julio de 2026 de la Junta de Gobierno de la Ciudad de Madrid, por el que se declara la tramitación preferente del procedimiento de elaboración y aprobación del Plan Estratégico Municipal del Municipio de Madrid.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#54",
@@ -939,13 +1319,20 @@
       "texto_redactado": "Se da cuenta del Acuerdo de 16 de julio de 2026 de la Junta de Gobierno de la Ciudad de Madrid, por el que se inadmite a trámite el Estudio de Detalle para la parcela situada en la [DIRECCIÓN], promovido por Viroque Mining S. L. Distrito de Fuencarral-El Pardo.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.97,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#55",
@@ -956,13 +1343,22 @@
       "texto_redactado": "Se da cuenta del Acuerdo de 30 de julio de 2026 de la Junta de Gobierno de la Ciudad de Madrid, por el que se avocan las competencias para la redacción de los proyectos y posterior ejecución de obras de adecuación de diversos entornos escolares del Distrito de Chamartín, y se delegan en la Concejala Presidenta de Distrito de Chamartín.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "cultura_deporte_educacion",
+        "organizacion_institucional",
+        "contratacion_obras"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.74,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#56",
@@ -973,13 +1369,20 @@
       "texto_redactado": "Se da cuenta del Acuerdo de 3 de septiembre de 2026 de la Junta de Gobierno de la Ciudad de Madrid, por el que se avocan las competencias en materia de licencias urbanísticas y declaraciones responsables para la ejecución de las obras de ampliación del edificio sede del Tribunal Constitucional, situado en la calle de Doménico Scarlatti, número 6, distrito de Chamberí, y se delegan en la Dirección General de la Edificación.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.98,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#57",
@@ -990,13 +1393,20 @@
       "texto_redactado": "Se da cuenta del Acuerdo de 3 de septiembre de 2026 de la Junta de Gobierno de la Ciudad de Madrid, por el que se inadmite a trámite el plan especial para el edificio situado en la [DIRECCIÓN], promovido por la comunidad de propietarios. Distrito de Chamberí.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.96,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#58",
@@ -1007,13 +1417,20 @@
       "texto_redactado": "Se da cuenta del Acuerdo de 17 de septiembre de 2026 de la Junta de Gobierno de la Ciudad de Madrid, por el que se aprueban las líneas fundamentales del presupuesto del Ayuntamiento de Madrid para 2027.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.93,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#59",
@@ -1024,13 +1441,21 @@
       "texto_redactado": "Rechazar la procedencia del debate de la moción de urgencia n.º 20268000777, presentada por el concejal don Pedro Esteban Barrero Cuadrado, del Grupo Municipal Socialista de Madrid, con el visto bueno de su portavoz, interesando que se inste al gobierno municipal a aprobar un Plan Extraordinario Municipal frente a la emergencia habitacional que contemple al menos las medidas que contiene la iniciativa, con el objetivo de evitar la pérdida de la vivienda habitual y garantizar una alternativa digna y adecuada en esta materia.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "vivienda",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.37,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     },
     {
       "id": "2026-09-29--6d99b7f5#60",
@@ -1041,13 +1466,21 @@
       "texto_redactado": "Rechazar la procedencia del debate de la moción de urgencia n.º 20268000782, presentada por la concejala doña Lucía Lois Méndez de Vigo, del Grupo Municipal Más Madrid, con el visto bueno de su portavoz, interesando que se inste a la Junta de Gobierno de la Ciudad de Madrid, a la Comunidad de Madrid y al Gobierno de España, a llevar a cabo todas las medidas necesarias indicadas en la iniciativa para que la vivienda sea, exclusivamente, un bien de primera necesidad y deje de ser un bien de inversión, así como hacer efectiva su función social y garantizar un hogar digno a los ciudadanos. Se levanta la sesión por el presidente del Pleno a las catorce horas y veintitrés minutos. El acta de la presente sesión ha sido aprobada por el Pleno en su sesión (11/2026), ordinaria de 27 de octubre de 2026. Madrid, a 27 de octubre de 2026.- El secretario general del Pleno en funciones, el vicesecretari",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "vivienda",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 2,
+      "confianza_min": 0.39,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:34:04.412Z"
+      }
     }
   ]
 }

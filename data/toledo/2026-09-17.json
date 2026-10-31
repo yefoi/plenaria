@@ -20,7 +20,7 @@
     "fuente_url": "https://www.toledo.es/wp-content/uploads/2026/10/acta-ses.-extraord.-pleno-debate-estado-de-la-ciudad.-17-septiembre-2026.pdf",
     "hash_contenido": "76a7eb1ab74a8f179fb780b2fa0272af3df4eacae156e93bc475977fd5c655a4",
     "estado_ingesta": "segmentacion_pobre",
-    "actualizada_en": "2026-10-30T12:04:15.682Z"
+    "actualizada_en": "2026-10-31T11:33:57.433Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "1.594.910 millones de euros destinados a la atención primaria de los servicios",
       "importe_eur": 594910000000,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.58,
+      "impacto": 5,
+      "confianza_min": 0.92,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:33:57.433Z"
+      }
     }
   ]
 }

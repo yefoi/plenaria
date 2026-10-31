@@ -1,0 +1,268 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "corbera-de-llobregat",
+    "nombre": "Corbera de Llobregat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "807280001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-14",
+    "municipio_id": "corbera-de-llobregat",
+    "fecha": "2026-07-14",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/807280001/2026/6e39769d-2099-4916-899d-0079a2b04976/LOPD%20Ple%2014-7-26.pdf",
+    "hash_contenido": "165376281ea23fbffdbefd52fa29c51a489ab913f2d0d8fe04500a6cfbcee33c",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-10-31T11:33:52.985Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-14#1",
+      "sesion_id": "2026-07-14",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta del Ple ordinari 12/5/2026.",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’acta del Ple ordinari 12/5/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:33:52.985Z"
+      }
+    },
+    {
+      "id": "2026-07-14#2",
+      "sesion_id": "2026-07-14",
+      "orden": 2,
+      "titulo": "Proposta de les festes locals a Corbera de Llobregat per a l’any 2027.",
+      "resultado": null,
+      "texto_redactado": "Proposta de les festes locals a Corbera de Llobregat per a l’any 2027.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.52,
+      "impacto": 3,
+      "confianza_min": 0.37,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:33:52.985Z"
+      }
+    },
+    {
+      "id": "2026-07-14#3",
+      "sesion_id": "2026-07-14",
+      "orden": 3,
+      "titulo": "Aprovació de la modificació del Catàleg de llocs de treball de la corporació",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la modificació del Catàleg de llocs de treball de la corporació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:33:52.985Z"
+      }
+    },
+    {
+      "id": "2026-07-14#4",
+      "sesion_id": "2026-07-14",
+      "orden": 4,
+      "titulo": "Aprovació de la modificació del contracte de serveis de recollida Porta a",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la modificació del contracte de serveis de recollida Porta a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.66,
+      "impacto": 3,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:33:52.985Z"
+      }
+    },
+    {
+      "id": "2026-07-14#5",
+      "sesion_id": "2026-07-14",
+      "orden": 5,
+      "titulo": "Aprovació provisional modificació puntual Pla general d’Ordenació a la UA",
+      "resultado": null,
+      "texto_redactado": "Aprovació provisional modificació puntual Pla general d’Ordenació a la UA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.6,
+      "impacto": 3,
+      "confianza_min": 0.35,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:33:52.985Z"
+      }
+    },
+    {
+      "id": "2026-07-14#6",
+      "sesion_id": "2026-07-14",
+      "orden": 6,
+      "titulo": "Aprovació de l’expedient de reconeixement extrajudicial de crèdits",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’expedient de reconeixement extrajudicial de crèdits",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 2,
+      "confianza_min": 0.32,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:33:52.985Z"
+      }
+    },
+    {
+      "id": "2026-07-14#7",
+      "sesion_id": "2026-07-14",
+      "orden": 7,
+      "titulo": "Donar compte de la renúncia presentada pel regidor del grup municipal",
+      "resultado": null,
+      "texto_redactado": "Donar compte de la renúncia presentada pel regidor del grup municipal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:33:52.985Z"
+      }
+    },
+    {
+      "id": "2026-07-14#8",
+      "sesion_id": "2026-07-14",
+      "orden": 8,
+      "titulo": "Donar compte de l’informe de tresoreria de morositat i període mitjà de",
+      "resultado": null,
+      "texto_redactado": "Donar compte de l’informe de tresoreria de morositat i període mitjà de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:33:52.985Z"
+      }
+    },
+    {
+      "id": "2026-07-14#9",
+      "sesion_id": "2026-07-14",
+      "orden": 9,
+      "titulo": "Donar compte de l’informe d’intervenció sobre les resolucions adoptades",
+      "resultado": null,
+      "texto_redactado": "Donar compte de l’informe d’intervenció sobre les resolucions adoptades",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:33:52.985Z"
+      }
+    },
+    {
+      "id": "2026-07-14#10",
+      "sesion_id": "2026-07-14",
+      "orden": 10,
+      "titulo": "Precs i preguntes",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:33:52.985Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "hospitalet-de-llobregat",
+    "nombre": "L'Hospitalet de Llobregat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "810170005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "extracte-acords",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-28",
+    "municipio_id": "hospitalet-de-llobregat",
+    "fecha": "2026-10-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/810170005/2026/a8f7c86e-8245-4a5f-aa3a-8a05abba6055/20261028%20Extracte%20acords%20del%20Ple.pdf",
+    "hash_contenido": "c056bba63175d49e0ec829430459793572549ae76259b73956952eae2fbdb41d",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-10-31T11:33:49.334Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-28#1",
+      "sesion_id": "2026-10-28",
+      "orden": 1,
+      "titulo": "1.LECTURA I APROVACIÓ DELS ESBORRANYS DE LES ACTES DE LA SESSIÓ",
+      "resultado": null,
+      "texto_redactado": "1.LECTURA I APROVACIÓ DELS ESBORRANYS DE LES ACTES DE LA SESSIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-10-31T11:33:49.334Z"
+      }
+    }
+  ]
+}
