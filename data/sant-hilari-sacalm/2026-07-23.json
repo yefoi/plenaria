@@ -1,0 +1,414 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-hilari-sacalm",
+    "nombre": "Sant Hilari Sacalm",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1716420002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-23",
+    "municipio_id": "sant-hilari-sacalm",
+    "fecha": "2026-07-23",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1716420002/2026/9ddd2a31-dd17-4d17-a80f-fff5f23806f4/PLE%2023%20JULIOL%202026.pdf",
+    "hash_contenido": "8eb3b9983b41d185fce9ae817157c091b84f96f2b0934934ff521aa5202bb4e8",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-01T12:30:11.368Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-23#1",
+      "sesion_id": "2026-07-23",
+      "orden": 1,
+      "titulo": "APROVACIÓ ACTA ANTERIOR",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ ACTA ANTERIOR",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:11.368Z"
+      }
+    },
+    {
+      "id": "2026-07-23#2",
+      "sesion_id": "2026-07-23",
+      "orden": 2,
+      "titulo": "ASSUMPTES D'INTERÈS GENERAL",
+      "resultado": null,
+      "texto_redactado": "ASSUMPTES D'INTERÈS GENERAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 2,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:11.368Z"
+      }
+    },
+    {
+      "id": "2026-07-23#3",
+      "sesion_id": "2026-07-23",
+      "orden": 3,
+      "titulo": "DONAR COMPTE DELS DECRETS D'ALCALDIA DEL 53 AL 73 I JUNTES DE GOVERN LOCAL 18/26 MAIG - 1/8/15/22/29 JUNY DE 2026",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DELS DECRETS D'ALCALDIA DEL 53 AL 73 I JUNTES DE GOVERN LOCAL 18/26 MAIG - 1/8/15/22/29 JUNY DE 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:11.368Z"
+      }
+    },
+    {
+      "id": "2026-07-23#4",
+      "sesion_id": "2026-07-23",
+      "orden": 4,
+      "titulo": "RATIFICACIO DE L'APROVACIO DEL CONVENI ESPECIFIC ENTRE LA SRA. PILAR TORRENT MORAGAS I L'AJUNTAMENT DE SANT HILARI SACALM PER A LA CESSIO TEMPORAL D'US D’UN IMMOBLE DESTINAT A L'ESPAI JOVE",
+      "resultado": null,
+      "texto_redactado": "RATIFICACIO DE L'APROVACIO DEL CONVENI ESPECIFIC ENTRE LA SRA. PILAR TORRENT MORAGAS I L'AJUNTAMENT DE SANT HILARI SACALM PER A LA CESSIO TEMPORAL D'US D’UN IMMOBLE DESTINAT A L'ESPAI JOVE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.48,
+      "impacto": 3,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:11.368Z"
+      }
+    },
+    {
+      "id": "2026-07-23#5",
+      "sesion_id": "2026-07-23",
+      "orden": 5,
+      "titulo": "RATIFICACIÓ DE L'APROVACIÓ DEL CONVENI ESPECÍFIC AMB LA CÀTEDRA DE L'AIGUA, NATURA I BENESTAR DE LA UNIVERSITAT DE GIRONA, LA UNIVERSITAT DE VIC - UNIVERSITAT CENTRAL DE CATALUNYA I EL CONSORCI DE L'ESPAI NATURAL DE LES GUILLERIES-SAVASSONA, PER AL FINANÇAMENT DE LA",
+      "resultado": null,
+      "texto_redactado": "RATIFICACIÓ DE L'APROVACIÓ DEL CONVENI ESPECÍFIC AMB LA CÀTEDRA DE L'AIGUA, NATURA I BENESTAR DE LA UNIVERSITAT DE GIRONA, LA UNIVERSITAT DE VIC - UNIVERSITAT CENTRAL DE CATALUNYA I EL CONSORCI DE L'ESPAI NATURAL DE LES GUILLERIES-SAVASSONA, PER AL FINANÇAMENT DE LA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 2,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:11.368Z"
+      }
+    },
+    {
+      "id": "2026-07-23#6",
+      "sesion_id": "2026-07-23",
+      "orden": 6,
+      "titulo": "RATIFICACIÓ DE L’APROVACIÓ DEL CONVENI DE COL.LABORACIÓ AMB EL CONSELL COMARCAL DE LA SELVA PER A LA REALITZACIÓ DE LES ACCIONS DEL PROGRAMA PLA CORRESPONSABLE DE LA SELVA ANY 2026",
+      "resultado": null,
+      "texto_redactado": "RATIFICACIÓ DE L’APROVACIÓ DEL CONVENI DE COL.LABORACIÓ AMB EL CONSELL COMARCAL DE LA SELVA PER A LA REALITZACIÓ DE LES ACCIONS DEL PROGRAMA PLA CORRESPONSABLE DE LA SELVA ANY 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 2,
+      "confianza_min": 0.23,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:11.368Z"
+      }
+    },
+    {
+      "id": "2026-07-23#7",
+      "sesion_id": "2026-07-23",
+      "orden": 7,
+      "titulo": "CONVENI DE COL·LABORACIÓ ENTRE L’AJUNTAMENT DE SANT HILARI SACALM",
+      "resultado": null,
+      "texto_redactado": "CONVENI DE COL·LABORACIÓ ENTRE L’AJUNTAMENT DE SANT HILARI SACALM",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:11.368Z"
+      }
+    },
+    {
+      "id": "2026-07-23#8",
+      "sesion_id": "2026-07-23",
+      "orden": 8,
+      "titulo": "CONVENI DE COL·LABORACIÓ AMB L’ADMINISTRACIÓ DE LA GENERALITAT DE CATALUNYA, MITJANÇANT EL DEPARTAMENT D’EDUCACIÓ I FORMACIÓ PROFESSIONAL PER A LA REALITZACIÓ DE PROGRAMES DE FORMACIÓ I INSERCIÓ ORGANITZATS EN LA MODALITAT PLA DE TRANSICIÓ AL TREBALL (PTT), PER A JOVES QUE HAN FINALITZAT L’ENSENYAMENT OBLIGATORI SENSE OBTENIR EL TÍTOL DE GRADUAT/DA EN EDUCACIÓ SECUNDÀRIA OBLIGATÒRIA",
+      "resultado": null,
+      "texto_redactado": "CONVENI DE COL·LABORACIÓ AMB L’ADMINISTRACIÓ DE LA GENERALITAT DE CATALUNYA, MITJANÇANT EL DEPARTAMENT D’EDUCACIÓ I FORMACIÓ PROFESSIONAL PER A LA REALITZACIÓ DE PROGRAMES DE FORMACIÓ I INSERCIÓ ORGANITZATS EN LA MODALITAT PLA DE TRANSICIÓ AL TREBALL (PTT), PER A JOVES QUE HAN FINALITZAT L’ENSENYAMENT OBLIGATORI SENSE OBTENIR EL TÍTOL DE GRADUAT/DA EN EDUCACIÓ SECUNDÀRIA OBLIGATÒRIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.52,
+      "impacto": 3,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:11.368Z"
+      }
+    },
+    {
+      "id": "2026-07-23#9",
+      "sesion_id": "2026-07-23",
+      "orden": 9,
+      "titulo": "CONVENI DE COL·LABORACIÓ AMB EL CONSELL COMARCAL DE LA SELVA PER A LA REALITZACIÓ D'ACCIONS D'ESPERIÈNCIA LABORAL (AGENT TELEMÀTIC)",
+      "resultado": null,
+      "texto_redactado": "CONVENI DE COL·LABORACIÓ AMB EL CONSELL COMARCAL DE LA SELVA PER A LA REALITZACIÓ D'ACCIONS D'ESPERIÈNCIA LABORAL (AGENT TELEMÀTIC)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 2,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:11.368Z"
+      }
+    },
+    {
+      "id": "2026-07-23#10",
+      "sesion_id": "2026-07-23",
+      "orden": 10,
+      "titulo": "COMPROMÍS MUNICIPAL AMB LA LLENGUA CATALANA",
+      "resultado": null,
+      "texto_redactado": "COMPROMÍS MUNICIPAL AMB LA LLENGUA CATALANA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 2,
+      "confianza_min": 0.19,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:11.368Z"
+      }
+    },
+    {
+      "id": "2026-07-23#11",
+      "sesion_id": "2026-07-23",
+      "orden": 11,
+      "titulo": "ADJUDICACIÓ DE LA VENDA PER SUBHASTA DE CINC PARCEL·LES DEL SECTOR CAL SASTRE",
+      "resultado": null,
+      "texto_redactado": "ADJUDICACIÓ DE LA VENDA PER SUBHASTA DE CINC PARCEL·LES DEL SECTOR CAL SASTRE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 3,
+      "confianza_min": 0.36,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:11.368Z"
+      }
+    },
+    {
+      "id": "2026-07-23#12",
+      "sesion_id": "2026-07-23",
+      "orden": 12,
+      "titulo": "ADJUDICACIÓ DEL CONTRACTE DE SERVEIS DE NETEJA VIÀRIA DE SANT",
+      "resultado": null,
+      "texto_redactado": "ADJUDICACIÓ DEL CONTRACTE DE SERVEIS DE NETEJA VIÀRIA DE SANT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.72,
+      "impacto": 4,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:11.368Z"
+      }
+    },
+    {
+      "id": "2026-07-23#13",
+      "sesion_id": "2026-07-23",
+      "orden": 13,
+      "titulo": "APROVACIÓ DE LA SOL·LICITUD DE FINANÇAMENT AMB L’INSTITUT CATALÀ DE FINANCES PER L’AVANÇAMENT DE L’ACTUACIÓ INCLOSA EN EL PUOSC PRE219/25/000665",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE LA SOL·LICITUD DE FINANÇAMENT AMB L’INSTITUT CATALÀ DE FINANCES PER L’AVANÇAMENT DE L’ACTUACIÓ INCLOSA EN EL PUOSC PRE219/25/000665",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.32,
+      "impacto": 2,
+      "confianza_min": 0.16,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:11.368Z"
+      }
+    },
+    {
+      "id": "2026-07-23#14",
+      "sesion_id": "2026-07-23",
+      "orden": 14,
+      "titulo": "APROVACIÓ DEL COMPTE GENERAL 2025",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEL COMPTE GENERAL 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:11.368Z"
+      }
+    },
+    {
+      "id": "2026-07-23#15",
+      "sesion_id": "2026-07-23",
+      "orden": 15,
+      "titulo": "APROVACIÓ DE LES AL·LEGACIONS DE L’AJUNTAMENT DE SANT HILARI SACALM AL PLA TERRITORIAL SECTORIAL PER A LA GENERACIÓ ELÈCTRICA EÒLICA I FOTOVOLTAICA, LES SEVES LÍNIES D'EVACUACIÓ I ELS SEUS ELEMENTS D'EMMAGATZEMATGE (PLATER)",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE LES AL·LEGACIONS DE L’AJUNTAMENT DE SANT HILARI SACALM AL PLA TERRITORIAL SECTORIAL PER A LA GENERACIÓ ELÈCTRICA EÒLICA I FOTOVOLTAICA, LES SEVES LÍNIES D'EVACUACIÓ I ELS SEUS ELEMENTS D'EMMAGATZEMATGE (PLATER)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente",
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.49,
+      "impacto": 4,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:11.368Z"
+      }
+    },
+    {
+      "id": "2026-07-23#16",
+      "sesion_id": "2026-07-23",
+      "orden": 16,
+      "titulo": "PRECS I PREGUNTES",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:11.368Z"
+      }
+    }
+  ]
+}

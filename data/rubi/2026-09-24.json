@@ -1,0 +1,460 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "rubi",
+    "nombre": "Rubí",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "818460009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-24",
+    "municipio_id": "rubi",
+    "fecha": "2026-09-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/818460009/2026/d44dbd01-a9b1-4d89-b86c-ddabafb8eef3/9_Acta%20Ple%2024.09.2026.pdf",
+    "hash_contenido": "55c5bfb4ff1104bf058f24d1cb986d6884b10503d3f9114c4ba1025e8214bfc0",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-01T12:29:56.510Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-24#1",
+      "sesion_id": "2026-09-24",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L’ACTA DE LA SESSIÓ ANTERIOR 10/2026, DE 9 DE SETEMBRE DE 2026, DEL PLE ORDINARI.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’ACTA DE LA SESSIÓ ANTERIOR 10/2026, DE 9 DE SETEMBRE DE 2026, DEL PLE ORDINARI.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:29:56.510Z"
+      }
+    },
+    {
+      "id": "2026-09-24#2",
+      "sesion_id": "2026-09-24",
+      "orden": 2,
+      "titulo": "PRESA DE CONEIXEMENT DELS DECRETS D'ALCALDIA I DE LES RESOLUCIONS DE LES REGIDORIES DELEGADES DICTATS ENTRE ELS DIES 1 AL 31 DE AGOST DE 2026. EXP. 9/2026/PCDA.",
+      "resultado": null,
+      "texto_redactado": "PRESA DE CONEIXEMENT DELS DECRETS D'ALCALDIA I DE LES RESOLUCIONS DE LES REGIDORIES DELEGADES DICTATS ENTRE ELS DIES 1 AL 31 DE AGOST DE 2026. EXP. 9/2026/PCDA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:29:56.510Z"
+      }
+    },
+    {
+      "id": "2026-09-24#3",
+      "sesion_id": "2026-09-24",
+      "orden": 3,
+      "titulo": "DONAR A COMPTE AL PLE DEL CANVI DE DEDICACIÓ PARCIAL DE LA PORTAVEU DEL GRUP MUNICIPAL ESQUERA REPUBLICANA (ERC-AM). EXP.",
+      "resultado": null,
+      "texto_redactado": "DONAR A COMPTE AL PLE DEL CANVI DE DEDICACIÓ PARCIAL DE LA PORTAVEU DEL GRUP MUNICIPAL ESQUERA REPUBLICANA (ERC-AM). EXP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:29:56.510Z"
+      }
+    },
+    {
+      "id": "2026-09-24#4",
+      "sesion_id": "2026-09-24",
+      "orden": 4,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:29:56.510Z"
+      }
+    },
+    {
+      "id": "2026-09-24#5",
+      "sesion_id": "2026-09-24",
+      "orden": 5,
+      "titulo": "Regidors i regidores portaveus dels diferents grups polítics municipals amb",
+      "resultado": null,
+      "texto_redactado": "Regidors i regidores portaveus dels diferents grups polítics municipals amb",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:29:56.510Z"
+      }
+    },
+    {
+      "id": "2026-09-24#6",
+      "sesion_id": "2026-09-24",
+      "orden": 6,
+      "titulo": "Regidors i regidores portaveus dels diferents grups polítics municipals amb",
+      "resultado": null,
+      "texto_redactado": "Regidors i regidores portaveus dels diferents grups polítics municipals amb",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:29:56.510Z"
+      }
+    },
+    {
+      "id": "2026-09-24#7",
+      "sesion_id": "2026-09-24",
+      "orden": 7,
+      "titulo": "Segons la diligència de data 9 de setembre de 2026 estesa per l’Oficina d’Atenció",
+      "resultado": null,
+      "texto_redactado": "Segons la diligència de data 9 de setembre de 2026 estesa per l’Oficina d’Atenció",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.97,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:29:56.510Z"
+      }
+    },
+    {
+      "id": "2026-09-24#8",
+      "sesion_id": "2026-09-24",
+      "orden": 8,
+      "titulo": "Es desprèn de l’acta de la Policia Local de data 8 de setembre de 2026 i de l’ofici",
+      "resultado": null,
+      "texto_redactado": "Es desprèn de l’acta de la Policia Local de data 8 de setembre de 2026 i de l’ofici",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:29:56.510Z"
+      }
+    },
+    {
+      "id": "2026-09-24#9",
+      "sesion_id": "2026-09-24",
+      "orden": 9,
+      "titulo": "Fomentar el civisme i els valors democràtics a través de la participació i la",
+      "resultado": null,
+      "texto_redactado": "Fomentar el civisme i els valors democràtics a través de la participació i la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 2,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:29:56.510Z"
+      }
+    },
+    {
+      "id": "2026-09-24#10",
+      "sesion_id": "2026-09-24",
+      "orden": 10,
+      "titulo": "APROVACIÓ INICIAL DEL \"PROJECTE D'IMPLANTACIÓ D'UNA NOVA LÍNIA DEL",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ INICIAL DEL \"PROJECTE D'IMPLANTACIÓ D'UNA NOVA LÍNIA DEL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.68,
+      "impacto": 4,
+      "confianza_min": 0.36,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:29:56.510Z"
+      }
+    },
+    {
+      "id": "2026-09-24#11",
+      "sesion_id": "2026-09-24",
+      "orden": 11,
+      "titulo": "ASSUMPTES URGENTS",
+      "resultado": null,
+      "texto_redactado": "ASSUMPTES URGENTS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:29:56.510Z"
+      }
+    },
+    {
+      "id": "2026-09-24#12",
+      "sesion_id": "2026-09-24",
+      "orden": 12,
+      "titulo": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL ALTERNATIVA D'UNITAT POPULAR (AUP-AMUNT), PER RECLAMAR UN PROCÉS PARTICIPATIU SOBRE ELS ANTICS CINEMES DE LES TORRES I LA SEVA INCORPORACIÓ AL PLA DE BARRIS. EXP.",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL ALTERNATIVA D'UNITAT POPULAR (AUP-AMUNT), PER RECLAMAR UN PROCÉS PARTICIPATIU SOBRE ELS ANTICS CINEMES DE LES TORRES I LA SEVA INCORPORACIÓ AL PLA DE BARRIS. EXP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.42,
+      "impacto": 3,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:29:56.510Z"
+      }
+    },
+    {
+      "id": "2026-09-24#13",
+      "sesion_id": "2026-09-24",
+      "orden": 13,
+      "titulo": "MOCIÓ PRESENTADA PER LA JUNTA DE PORTAVEUS PER LA PROTECCIÓ DE LES PENSIONS DE LES PERSONES QUE HAN COTITZAT MÉS DE 40 ANYS. EXP.",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ PRESENTADA PER LA JUNTA DE PORTAVEUS PER LA PROTECCIÓ DE LES PENSIONS DE LES PERSONES QUE HAN COTITZAT MÉS DE 40 ANYS. EXP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:29:56.510Z"
+      }
+    },
+    {
+      "id": "2026-09-24#14",
+      "sesion_id": "2026-09-24",
+      "orden": 14,
+      "titulo": "Moció presentada pel Grup Municipal Partit Popular Rubí (PP), sol·licitant al govern",
+      "resultado": null,
+      "texto_redactado": "Moció presentada pel Grup Municipal Partit Popular Rubí (PP), sol·licitant al govern",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:29:56.510Z"
+      }
+    },
+    {
+      "id": "2026-09-24#15",
+      "sesion_id": "2026-09-24",
+      "orden": 15,
+      "titulo": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL ESQUERRA REPUBLICANA RUBÍ (ERC-AM), EN SUPORT A LA PLATAFORMA \"TRENCANT EL SILENCI\" I PER LA RECONEIXENÇA, VERITAT I REPARACIÓ DE LES VÍCTIMES I FAMÍLIES AFECTADES PEL SERVEI MILITAR OBLIGATORI (1976-2001). EXP. 43/2026/MOC.",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL ESQUERRA REPUBLICANA RUBÍ (ERC-AM), EN SUPORT A LA PLATAFORMA \"TRENCANT EL SILENCI\" I PER LA RECONEIXENÇA, VERITAT I REPARACIÓ DE LES VÍCTIMES I FAMÍLIES AFECTADES PEL SERVEI MILITAR OBLIGATORI (1976-2001). EXP. 43/2026/MOC.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:29:56.510Z"
+      }
+    },
+    {
+      "id": "2026-09-24#16",
+      "sesion_id": "2026-09-24",
+      "orden": 16,
+      "titulo": "ASSUMPTES URGENTS",
+      "resultado": null,
+      "texto_redactado": "ASSUMPTES URGENTS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:29:56.510Z"
+      }
+    },
+    {
+      "id": "2026-09-24#17",
+      "sesion_id": "2026-09-24",
+      "orden": 17,
+      "titulo": "PRECS I PREGUNTES",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:29:56.510Z"
+      }
+    },
+    {
+      "id": "2026-09-24#18",
+      "sesion_id": "2026-09-24",
+      "orden": 18,
+      "titulo": "VIDEOACTA DE LA SESSIÓ",
+      "resultado": null,
+      "texto_redactado": "VIDEOACTA DE LA SESSIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:29:56.510Z"
+      }
+    }
+  ]
+}

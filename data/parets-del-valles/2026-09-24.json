@@ -1,0 +1,700 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "parets-del-valles",
+    "nombre": "Parets del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "815930008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-24",
+    "municipio_id": "parets-del-valles",
+    "fecha": "2026-09-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/815930008/2026/36b2edec-88db-48aa-a3c3-b8e8c6f8e88f/ACTA%20DEL%20PLE%202026-0011%20[Acta%20Ple%20de%20l%27Ajuntament%20ordinari%2024-09-2026].pdf",
+    "hash_contenido": "50a8b4034340fc29f7b60f7a9c506840ba1223c0cb95df0361552298b294f26c",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-01T12:30:07.329Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-24#1",
+      "sesion_id": "2026-09-24",
+      "orden": 1,
+      "titulo": "la pintada homòfoba realitzada a l'InstitutCondemnar de manera ferma i contundent",
+      "resultado": null,
+      "texto_redactado": "la pintada homòfoba realitzada a l'InstitutCondemnar de manera ferma i contundent",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 2,
+      "confianza_min": 0.24,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#2",
+      "sesion_id": "2026-09-24",
+      "orden": 2,
+      "titulo": "qualsevol discurs d'odi, discriminació o violència LGTBIfòbica,Rebutjar rotundament",
+      "resultado": null,
+      "texto_redactado": "qualsevol discurs d'odi, discriminació o violència LGTBIfòbica,Rebutjar rotundament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 2,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#3",
+      "sesion_id": "2026-09-24",
+      "orden": 3,
+      "titulo": "Impulsar immediatament als instituts del municipi accions concretes de formació i",
+      "resultado": null,
+      "texto_redactado": "Impulsar immediatament als instituts del municipi accions concretes de formació i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.51,
+      "impacto": 3,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#4",
+      "sesion_id": "2026-09-24",
+      "orden": 4,
+      "titulo": "Reiterar el compromís ferm de l'Ajuntament de Parets del Vallès amb la defensa",
+      "resultado": null,
+      "texto_redactado": "Reiterar el compromís ferm de l'Ajuntament de Parets del Vallès amb la defensa",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#5",
+      "sesion_id": "2026-09-24",
+      "orden": 5,
+      "titulo": "a investigar els fets perInstar les autoritats competents i cossos de seguretat",
+      "resultado": null,
+      "texto_redactado": "a investigar els fets perInstar les autoritats competents i cossos de seguretat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 2,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#6",
+      "sesion_id": "2026-09-24",
+      "orden": 6,
+      "titulo": "a la direcció i al Consell Escolar de l'Institut Torre de Malla, aNotificar aquests acords",
+      "resultado": null,
+      "texto_redactado": "a la direcció i al Consell Escolar de l'Institut Torre de Malla, aNotificar aquests acords",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#7",
+      "sesion_id": "2026-09-24",
+      "orden": 7,
+      "titulo": "La modificació afecta concretament els articles 185 a 188 de l’Ordenança, relatius a les",
+      "resultado": null,
+      "texto_redactado": "La modificació afecta concretament els articles 185 a 188 de l’Ordenança, relatius a les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.32,
+      "impacto": 2,
+      "confianza_min": 0.39,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#8",
+      "sesion_id": "2026-09-24",
+      "orden": 8,
+      "titulo": "Consta a l’expedient informe de Secretaria emès en compliment del que disposa l’article",
+      "resultado": null,
+      "texto_redactado": "Consta a l’expedient informe de Secretaria emès en compliment del que disposa l’article",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.06,
+      "impacto": 1,
+      "confianza_min": 1,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#9",
+      "sesion_id": "2026-09-24",
+      "orden": 9,
+      "titulo": "L’expedient s’ha iniciat d’acord amb el procediment legalment establert per a l’aprovació i",
+      "resultado": null,
+      "texto_redactado": "L’expedient s’ha iniciat d’acord amb el procediment legalment establert per a l’aprovació i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.96,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#10",
+      "sesion_id": "2026-09-24",
+      "orden": 10,
+      "titulo": "L'acta de cada sessió es pot aprovar en la mateixa reunió o en la següent immediata. La",
+      "resultado": null,
+      "texto_redactado": "L'acta de cada sessió es pot aprovar en la mateixa reunió o en la següent immediata. La",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#11",
+      "sesion_id": "2026-09-24",
+      "orden": 11,
+      "titulo": "La Secretaria pot emetre certificats sobre els acords específics que s'hagin adoptat a les",
+      "resultado": null,
+      "texto_redactado": "La Secretaria pot emetre certificats sobre els acords específics que s'hagin adoptat a les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#12",
+      "sesion_id": "2026-09-24",
+      "orden": 12,
+      "titulo": "El Ple es reuneix amb caràcter ordinari un cop al semestre, i amb caràcter extraordinari",
+      "resultado": null,
+      "texto_redactado": "El Ple es reuneix amb caràcter ordinari un cop al semestre, i amb caràcter extraordinari",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#13",
+      "sesion_id": "2026-09-24",
+      "orden": 13,
+      "titulo": "Expedient 6074/2026. Donar compte de la Moció aprovada per la Junta de",
+      "resultado": null,
+      "texto_redactado": "Expedient 6074/2026. Donar compte de la Moció aprovada per la Junta de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#14",
+      "sesion_id": "2026-09-24",
+      "orden": 14,
+      "titulo": "Pren la paraula, la regidora del grup PSC-CP, la Sra. [NOMBRE] tarda de",
+      "resultado": null,
+      "texto_redactado": "Pren la paraula, la regidora del grup PSC-CP, la Sra. [NOMBRE] tarda de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 1,
+      "confianza_min": 0.92,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#15",
+      "sesion_id": "2026-09-24",
+      "orden": 15,
+      "titulo": "La Sra. [NOMBRE] indica que el segon prec és sobre la participació ciutadana en",
+      "resultado": null,
+      "texto_redactado": "La Sra. [NOMBRE] indica que el segon prec és sobre la participació ciutadana en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#16",
+      "sesion_id": "2026-09-24",
+      "orden": 16,
+      "titulo": "Pren la paraula la regidora del grup Sumem Esquerres a Parets, la Sra. Casandra",
+      "resultado": null,
+      "texto_redactado": "Pren la paraula la regidora del grup Sumem Esquerres a Parets, la Sra. Casandra",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.98,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#17",
+      "sesion_id": "2026-09-24",
+      "orden": 17,
+      "titulo": "La Sra. [NOMBRE] explica que els han arribat queixes també de la necessitat",
+      "resultado": null,
+      "texto_redactado": "La Sra. [NOMBRE] explica que els han arribat queixes també de la necessitat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 1,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#18",
+      "sesion_id": "2026-09-24",
+      "orden": 18,
+      "titulo": "La Sra. [NOMBRE] indica que diversos veïns i veïnes ens han traslladat",
+      "resultado": null,
+      "texto_redactado": "La Sra. [NOMBRE] indica que diversos veïns i veïnes ens han traslladat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 1,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#19",
+      "sesion_id": "2026-09-24",
+      "orden": 19,
+      "titulo": "La Sra. [NOMBRE] pregunta quines actuacions té previstes el govern municipal",
+      "resultado": null,
+      "texto_redactado": "La Sra. [NOMBRE] pregunta quines actuacions té previstes el govern municipal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.39,
+      "impacto": 1,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#20",
+      "sesion_id": "2026-09-24",
+      "orden": 20,
+      "titulo": "La Sra. [NOMBRE] manifesta que l'accés a l'habitatge ha de continuar sent una",
+      "resultado": null,
+      "texto_redactado": "La Sra. [NOMBRE] manifesta que l'accés a l'habitatge ha de continuar sent una",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "vivienda",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.8,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#21",
+      "sesion_id": "2026-09-24",
+      "orden": 21,
+      "titulo": "Pren la paraula, la regidora del grup Municipal Parets x la República-Junts, la Sra.",
+      "resultado": null,
+      "texto_redactado": "Pren la paraula, la regidora del grup Municipal Parets x la República-Junts, la Sra.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.97,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#22",
+      "sesion_id": "2026-09-24",
+      "orden": 22,
+      "titulo": "La Sra. [NOMBRE] exposa que seguim amb la neteja, ens agradaria confirmar el bon",
+      "resultado": null,
+      "texto_redactado": "La Sra. [NOMBRE] exposa que seguim amb la neteja, ens agradaria confirmar el bon",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.69,
+      "impacto": 2,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#23",
+      "sesion_id": "2026-09-24",
+      "orden": 23,
+      "titulo": "Urbanisme i obres -- Expedient 1514/2026 -- Llicències",
+      "resultado": null,
+      "texto_redactado": "Urbanisme i obres -- Expedient 1514/2026 -- Llicències",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.44,
+      "impacto": 2,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#24",
+      "sesion_id": "2026-09-24",
+      "orden": 24,
+      "titulo": "La Sra. [NOMBRE] exposa que seguim amb algo que no és nou, encara que ho hem",
+      "resultado": null,
+      "texto_redactado": "La Sra. [NOMBRE] exposa que seguim amb algo que no és nou, encara que ho hem",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.3,
+      "impacto": 1,
+      "confianza_min": 0.86,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#25",
+      "sesion_id": "2026-09-24",
+      "orden": 25,
+      "titulo": "La Sra. [NOMBRE] pregunta què passa amb els punts de càrrega elèctrics. En ple",
+      "resultado": null,
+      "texto_redactado": "La Sra. [NOMBRE] pregunta què passa amb els punts de càrrega elèctrics. En ple",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.82,
+      "impacto": 2,
+      "confianza_min": 0.17,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#26",
+      "sesion_id": "2026-09-24",
+      "orden": 26,
+      "titulo": "La Sra. [NOMBRE] passa al torn de precs. Explica que el veïnat del parc dels Horts",
+      "resultado": null,
+      "texto_redactado": "La Sra. [NOMBRE] passa al torn de precs. Explica que el veïnat del parc dels Horts",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 2,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#27",
+      "sesion_id": "2026-09-24",
+      "orden": 27,
+      "titulo": "La Sra. [NOMBRE] fa el segon prec. Comença a ser una urgència, ja que després",
+      "resultado": null,
+      "texto_redactado": "La Sra. [NOMBRE] fa el segon prec. Comença a ser una urgència, ja que després",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.32,
+      "impacto": 1,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    },
+    {
+      "id": "2026-09-24#28",
+      "sesion_id": "2026-09-24",
+      "orden": 28,
+      "titulo": "La Sra. [NOMBRE] exposa per acabar, que volem parlar de la situació del CAP a",
+      "resultado": null,
+      "texto_redactado": "La Sra. [NOMBRE] exposa per acabar, que volem parlar de la situació del CAP a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.75,
+      "impacto": 2,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:07.329Z"
+      }
+    }
+  ]
+}

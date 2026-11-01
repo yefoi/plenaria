@@ -1,0 +1,317 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "altafulla",
+    "nombre": "Altafulla",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4301200000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-28",
+    "municipio_id": "altafulla",
+    "fecha": "2026-09-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4301200000/2026/cf6c7680-57ef-44be-a052-5fd1a748d5ef/2026-09-28%20Acta%20Ple.pdf",
+    "hash_contenido": "1071e097f5eb6c98f1a80996cd5f8a7465f2228b7dcc2aa63be580def2874ffc",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-01T12:30:13.086Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-28#1",
+      "sesion_id": "2026-09-28",
+      "orden": 1,
+      "titulo": "Aprovació esborrany de l’acta del Ple del 27 de Juliol de 2026",
+      "resultado": null,
+      "texto_redactado": "Aprovació esborrany de l’acta del Ple del 27 de Juliol de 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:13.086Z"
+      }
+    },
+    {
+      "id": "2026-09-28#2",
+      "sesion_id": "2026-09-28",
+      "orden": 2,
+      "titulo": "Proposta concessió distinció honorífica Fill Predilecte JM Bellido (Exp. 4046/2026)",
+      "resultado": null,
+      "texto_redactado": "Proposta concessió distinció honorífica Fill Predilecte JM Bellido (Exp. 4046/2026)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:13.086Z"
+      }
+    },
+    {
+      "id": "2026-09-28#3",
+      "sesion_id": "2026-09-28",
+      "orden": 3,
+      "titulo": "Proposta aprovació candidatura Convocatòria 2026 Mèrits distingits CCT - Coral Nous",
+      "resultado": null,
+      "texto_redactado": "Proposta aprovació candidatura Convocatòria 2026 Mèrits distingits CCT - Coral Nous",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 2,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:13.086Z"
+      }
+    },
+    {
+      "id": "2026-09-28#4",
+      "sesion_id": "2026-09-28",
+      "orden": 4,
+      "titulo": "Proposta aprovació inicial modificació OF 34 ZER (Exp. 5076/2026)",
+      "resultado": null,
+      "texto_redactado": "Proposta aprovació inicial modificació OF 34 ZER (Exp. 5076/2026)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.45,
+      "impacto": 2,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:13.086Z"
+      }
+    },
+    {
+      "id": "2026-09-28#5",
+      "sesion_id": "2026-09-28",
+      "orden": 5,
+      "titulo": "Proposta aprovació inicial modificació OF 11 cementiri municipal (Exp. 5078/2026)",
+      "resultado": null,
+      "texto_redactado": "Proposta aprovació inicial modificació OF 11 cementiri municipal (Exp. 5078/2026)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 2,
+      "confianza_min": 0.37,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:13.086Z"
+      }
+    },
+    {
+      "id": "2026-09-28#6",
+      "sesion_id": "2026-09-28",
+      "orden": 6,
+      "titulo": "Proposta aprovació inicial modificació OF 4 IIVTNU (Exp. 5077/2026)",
+      "resultado": null,
+      "texto_redactado": "Proposta aprovació inicial modificació OF 4 IIVTNU (Exp. 5077/2026)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 2,
+      "confianza_min": 0.15,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:13.086Z"
+      }
+    },
+    {
+      "id": "2026-09-28#7",
+      "sesion_id": "2026-09-28",
+      "orden": 7,
+      "titulo": "Proposta modificació fitxa V.26 peó brigada RLT (Exp. 5219/2025)",
+      "resultado": null,
+      "texto_redactado": "Proposta modificació fitxa V.26 peó brigada RLT (Exp. 5219/2025)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:13.086Z"
+      }
+    },
+    {
+      "id": "2026-09-28#8",
+      "sesion_id": "2026-09-28",
+      "orden": 8,
+      "titulo": "Proposta aprovació inicial EMC 11-2026 (Exp. 5296/2026)",
+      "resultado": null,
+      "texto_redactado": "Proposta aprovació inicial EMC 11-2026 (Exp. 5296/2026)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.53,
+      "impacto": 2,
+      "confianza_min": 0.24,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:13.086Z"
+      }
+    },
+    {
+      "id": "2026-09-28#9",
+      "sesion_id": "2026-09-28",
+      "orden": 9,
+      "titulo": "Moció EINA Parc Natural El Gaià (2026-E-RE-4529)",
+      "resultado": null,
+      "texto_redactado": "Moció EINA Parc Natural El Gaià (2026-E-RE-4529)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 2,
+      "confianza_min": 0.26,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:13.086Z"
+      }
+    },
+    {
+      "id": "2026-09-28#10",
+      "sesion_id": "2026-09-28",
+      "orden": 10,
+      "titulo": "Moció EINA Adhesió Educació 360 (2026-E-RE-4530) C) ACTIVITAT DE CONTROL",
+      "resultado": null,
+      "texto_redactado": "Moció EINA Adhesió Educació 360 (2026-E-RE-4530) C) ACTIVITAT DE CONTROL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 2,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:13.086Z"
+      }
+    },
+    {
+      "id": "2026-09-28#11",
+      "sesion_id": "2026-09-28",
+      "orden": 11,
+      "titulo": "Dació de compte del Decret 2026-2054 relatiu a l’EMC 10-2026",
+      "resultado": null,
+      "texto_redactado": "Dació de compte del Decret 2026-2054 relatiu a l’EMC 10-2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:13.086Z"
+      }
+    },
+    {
+      "id": "2026-09-28#12",
+      "sesion_id": "2026-09-28",
+      "orden": 12,
+      "titulo": "Dació de compte decrets Ple 28-09-2026 (període 22.07.2026 – 22.09.2026) D) PRECS I PREGUNTES A) PART RESOLUTIVA",
+      "resultado": null,
+      "texto_redactado": "Dació de compte decrets Ple 28-09-2026 (període 22.07.2026 – 22.09.2026) D) PRECS I PREGUNTES A) PART RESOLUTIVA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-01T12:30:13.086Z"
+      }
+    }
+  ]
+}
