@@ -1,0 +1,226 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "mostoles",
+    "nombre": "Móstoles",
+    "provincia": "Madrid",
+    "fuente_tipo": "portal-sesiones",
+    "fuente_config": {
+      "listado_url": "https://www.mostoles.es/es/ayuntamiento/organizacion-municipal-organos-gobierno-personal/plenos-municipales/sesiones-pleno-municipal",
+      "patron_sesion": "sesion-pleno-[^/]+$",
+      "patrones_pdf": [
+        "Acta de Pleno",
+        "Extracto de Pleno"
+      ],
+      "tipo_por_defecto": "ordinaria",
+      "max_sesiones": 3,
+      "idioma": "es"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-24--218030aa",
+    "municipio_id": "mostoles",
+    "fecha": "2026-09-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://www.mostoles.es/es/ayuntamiento/organizacion-municipal-organos-gobierno-personal/plenos-municipales/sesiones-pleno-municipal/sesion-pleno-ordinario-ayuntamiento-mostoles-24-septiembre.ficheros/1498945-Acta%20de%20Pleno%20ordinario%20del%20Ayuntamiento%20de%20M%C3%B3stoles%20celebrado%20el%2024%20de%20septiembre%20de%202026.pdf",
+    "hash_contenido": "00d3bbda0fbb060e1d4b4ac5ef737abc9b165b15d053430875cb71c41ab28822",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-03T13:25:58.058Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-24--218030aa#1",
+      "sesion_id": "2026-09-24--218030aa",
+      "orden": 1,
+      "titulo": "SEGUNDO Informe trimestral 2026 de la Tesorera Municipal",
+      "resultado": null,
+      "texto_redactado": "SEGUNDO Informe trimestral 2026 de la Tesorera Municipal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-03T13:25:58.058Z"
+      }
+    },
+    {
+      "id": "2026-09-24--218030aa#2",
+      "sesion_id": "2026-09-24--218030aa",
+      "orden": 2,
+      "titulo": "SEGUNDO informe trimestral ejercicio 2026, resumen de la",
+      "resultado": null,
+      "texto_redactado": "SEGUNDO informe trimestral ejercicio 2026, resumen de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-03T13:25:58.058Z"
+      }
+    },
+    {
+      "id": "2026-09-24--218030aa#3",
+      "sesion_id": "2026-09-24--218030aa",
+      "orden": 3,
+      "titulo": "SEGUNDO Informe trimestral 2026 del Tesorera Municipal,",
+      "resultado": null,
+      "texto_redactado": "SEGUNDO Informe trimestral 2026 del Tesorera Municipal,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-03T13:25:58.058Z"
+      }
+    },
+    {
+      "id": "2026-09-24--218030aa#4",
+      "sesion_id": "2026-09-24--218030aa",
+      "orden": 4,
+      "titulo": "Documentación enviada al Ministerio de Hacienda y",
+      "resultado": null,
+      "texto_redactado": "Documentación enviada al Ministerio de Hacienda y",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-03T13:25:58.058Z"
+      }
+    },
+    {
+      "id": "2026-09-24--218030aa#5",
+      "sesion_id": "2026-09-24--218030aa",
+      "orden": 5,
+      "titulo": "Patronato de Escuelas Infantiles",
+      "resultado": null,
+      "texto_redactado": "Patronato de Escuelas Infantiles",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.61,
+      "impacto": 3,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-03T13:25:58.058Z"
+      }
+    },
+    {
+      "id": "2026-09-24--218030aa#6",
+      "sesion_id": "2026-09-24--218030aa",
+      "orden": 6,
+      "titulo": "Gerencia Municipal de Urbanismo",
+      "resultado": null,
+      "texto_redactado": "Gerencia Municipal de Urbanismo",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.7,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-03T13:25:58.058Z"
+      }
+    },
+    {
+      "id": "2026-09-24--218030aa#7",
+      "sesion_id": "2026-09-24--218030aa",
+      "orden": 7,
+      "titulo": "Instituto Municipal del Suelo (IMS S.A.)",
+      "resultado": null,
+      "texto_redactado": "Instituto Municipal del Suelo (IMS S.A.)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias",
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.68,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-03T13:25:58.058Z"
+      }
+    },
+    {
+      "id": "2026-09-24--218030aa#8",
+      "sesion_id": "2026-09-24--218030aa",
+      "orden": 8,
+      "titulo": "Empresa Municipal Móstoles Desarrollo (EMPE S.A.)",
+      "resultado": null,
+      "texto_redactado": "Empresa Municipal Móstoles Desarrollo (EMPE S.A.)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-03T13:25:58.058Z"
+      }
+    }
+  ]
+}
