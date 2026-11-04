@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-andreu-de-llavaneres",
+    "nombre": "Sant Andreu de Llavaneres",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "819760009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-07",
+    "municipio_id": "sant-andreu-de-llavaneres",
+    "fecha": "2026-09-07",
+    "tipo": "extraordinaria_urgente",
+    "fuente_url": "https://media.seu-e.cat/acteca/819760009/2026/0a896098-7096-483f-a350-d50b080b2015/Acta%20Ple%20extraordinari%20i%20urgent%2007.09.2026.pdf",
+    "hash_contenido": "c30f9ff2ad462908a7577c9a92dfcf49b5f2c4bfc02166705368acb075e347c6",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-11-04T13:24:12.750Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-07#1",
+      "sesion_id": "2026-09-07",
+      "orden": 1,
+      "titulo": "1.- RATIFICACIÓ DE LA URGÈNCIA DE LA SESSIÓ",
+      "resultado": null,
+      "texto_redactado": "1.- RATIFICACIÓ DE LA URGÈNCIA DE LA SESSIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}

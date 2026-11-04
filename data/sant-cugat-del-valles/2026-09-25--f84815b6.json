@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-cugat-del-valles",
+    "nombre": "Sant Cugat del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "820550006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-25--f84815b6",
+    "municipio_id": "sant-cugat-del-valles",
+    "fecha": "2026-09-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/820550006/2026/508a591c-c08d-4e54-8957-5d1754142045/p20260925_145%20-%20Part%20V.pdf",
+    "hash_contenido": "841a654c8de0d73f1888c681ac9b1b52acdb1b694871308df15d263b0cdbc8a5",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-11-04T13:40:59.000Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-25--f84815b6#1",
+      "sesion_id": "2026-09-25--f84815b6",
+      "orden": 1,
+      "titulo": "2.0&endsAt=7772",
+      "resultado": null,
+      "texto_redactado": "2.0&endsAt=7772",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:40:59.000Z"
+      }
+    }
+  ]
+}

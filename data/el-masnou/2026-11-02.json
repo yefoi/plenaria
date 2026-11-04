@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "el-masnou",
+    "nombre": "El Masnou",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "811890004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-02",
+    "municipio_id": "el-masnou",
+    "fecha": "2026-11-02",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/811890004/2026/35eed80a-265d-43da-81ba-6c2d754813ce/Extractes%20Ple%20extraordinari%20021126.pdf",
+    "hash_contenido": "869a97939078eb3582751e1e121ebbed5a5a9d39fc77ce42b50d788fb9e4bf96",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-11-04T13:40:58.145Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-02#1",
+      "sesion_id": "2026-11-02",
+      "orden": 1,
+      "titulo": "Expedient núm. PLE2026000011 ACTSEXTR v. 2023/03",
+      "resultado": null,
+      "texto_redactado": "Expedient núm. PLE2026000011 ACTSEXTR v. 2023/03",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.36,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:40:58.145Z"
+      }
+    }
+  ]
+}

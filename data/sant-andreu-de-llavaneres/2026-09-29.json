@@ -1,0 +1,411 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-andreu-de-llavaneres",
+    "nombre": "Sant Andreu de Llavaneres",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "819760009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-29",
+    "municipio_id": "sant-andreu-de-llavaneres",
+    "fecha": "2026-09-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/819760009/2026/d61f9ad9-2d06-4833-b904-31913f6a4b87/Acta%20Ple%2029.09.2026.pdf",
+    "hash_contenido": "00c6c8728a3ea59791b7b9cc2561fc0a93dc67231de070768aaf075f607458c4",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-04T13:41:04.606Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-29#1",
+      "sesion_id": "2026-09-29",
+      "orden": 1,
+      "titulo": "APROVACIÓ, SI S'ESCAU, DE L'ACTA DE LA SESSIÓ ORDINÀRIA CELEBRADA EL 28 DE JULIOL DE 2026.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ, SI S'ESCAU, DE L'ACTA DE LA SESSIÓ ORDINÀRIA CELEBRADA EL 28 DE JULIOL DE 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:04.606Z"
+      }
+    },
+    {
+      "id": "2026-09-29#2",
+      "sesion_id": "2026-09-29",
+      "orden": 2,
+      "titulo": "APROVACIÓ, SI S'ESCAU, DE L'ACTA DE LA SESSIÓ EXTRAORDINÀRIA I URGENT CELEBRADA EL 7 DE SETEMBRE DE 2026.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ, SI S'ESCAU, DE L'ACTA DE LA SESSIÓ EXTRAORDINÀRIA I URGENT CELEBRADA EL 7 DE SETEMBRE DE 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:04.606Z"
+      }
+    },
+    {
+      "id": "2026-09-29#3",
+      "sesion_id": "2026-09-29",
+      "orden": 3,
+      "titulo": "CONTROL I FISCALITZACIÓ DELS ÒRGANS DE GOVERN: A) RESOLUCIONS DE L’ALCALDIA I REGIDORS-DELEGATS.",
+      "resultado": null,
+      "texto_redactado": "CONTROL I FISCALITZACIÓ DELS ÒRGANS DE GOVERN: A) RESOLUCIONS DE L’ALCALDIA I REGIDORS-DELEGATS.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.24,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:04.606Z"
+      }
+    },
+    {
+      "id": "2026-09-29#4",
+      "sesion_id": "2026-09-29",
+      "orden": 4,
+      "titulo": "DONAR COMPTE DE LA RELACIÓ MENSUAL DE LES OPERACIONS DEL COMPTE 413 «CREDITORS PER OPERACIONS MERITADES» (EXP. 2023/874).-",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE LA RELACIÓ MENSUAL DE LES OPERACIONS DEL COMPTE 413 «CREDITORS PER OPERACIONS MERITADES» (EXP. 2023/874).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:04.606Z"
+      }
+    },
+    {
+      "id": "2026-09-29#5",
+      "sesion_id": "2026-09-29",
+      "orden": 5,
+      "titulo": "ATORGAMENT A L’ENTITAT EL CASAL DE LLAVANERES DEL CONSENTIMENT EXPRÉS PER A LA UTILITZACIÓ DE LA BANDERA MUNICIPAL (EXP. 2026/4988).-",
+      "resultado": null,
+      "texto_redactado": "ATORGAMENT A L’ENTITAT EL CASAL DE LLAVANERES DEL CONSENTIMENT EXPRÉS PER A LA UTILITZACIÓ DE LA BANDERA MUNICIPAL (EXP. 2026/4988).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 2,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:04.606Z"
+      }
+    },
+    {
+      "id": "2026-09-29#6",
+      "sesion_id": "2026-09-29",
+      "orden": 6,
+      "titulo": "APROVACIÓ DEL COMPTE GENERAL DE L’AJUNTAMENT, EXERCICI 2025. (EXP.",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEL COMPTE GENERAL DE L’AJUNTAMENT, EXERCICI 2025. (EXP.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:04.606Z"
+      }
+    },
+    {
+      "id": "2026-09-29#7",
+      "sesion_id": "2026-09-29",
+      "orden": 7,
+      "titulo": "APROVACIÓ DEL COMPTE DE GESTIÓ I RECAPTACIÓ DE TRIBUTS I MULTES, EXERCICI",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEL COMPTE DE GESTIÓ I RECAPTACIÓ DE TRIBUTS I MULTES, EXERCICI",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 2,
+      "confianza_min": 0.19,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:04.606Z"
+      }
+    },
+    {
+      "id": "2026-09-29#8",
+      "sesion_id": "2026-09-29",
+      "orden": 8,
+      "titulo": "APROVACIÓ PROVISIONAL DE LES ORDENANCES FISCALS PER A L’EXERCICI 2027. (EXP. 2026/5859).-",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ PROVISIONAL DE LES ORDENANCES FISCALS PER A L’EXERCICI 2027. (EXP. 2026/5859).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.81,
+      "impacto": 5,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:04.606Z"
+      }
+    },
+    {
+      "id": "2026-09-29#9",
+      "sesion_id": "2026-09-29",
+      "orden": 9,
+      "titulo": "APROVACIÓ PROVISIONAL DE LA MODIFICACIÓ PUNTUAL NòM. 16 DEL PLA D’ORDENACIÓ URBANÍSTICA MUNICIPAL (POUM) MILLORA DE LA INTEGRACIÓ PAISATGÍSTICA DE LES EDIFICACIONS AÏLLADES EN TERRENYS AMB PENDENT, MITJANÇANT LA REVISIÓ I AJUST DE DIVERSOS PARÀMETRES URBANÍSTICS APLICABLES A LA ZONA 5 D’HABITATGE AÏLLAT. (EXP. 2026/3362).-",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ PROVISIONAL DE LA MODIFICACIÓ PUNTUAL NòM. 16 DEL PLA D’ORDENACIÓ URBANÍSTICA MUNICIPAL (POUM) MILLORA DE LA INTEGRACIÓ PAISATGÍSTICA DE LES EDIFICACIONS AÏLLADES EN TERRENYS AMB PENDENT, MITJANÇANT LA REVISIÓ I AJUST DE DIVERSOS PARÀMETRES URBANÍSTICS APLICABLES A LA ZONA 5 D’HABITATGE AÏLLAT. (EXP. 2026/3362).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.67,
+      "impacto": 3,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:04.606Z"
+      }
+    },
+    {
+      "id": "2026-09-29#10",
+      "sesion_id": "2026-09-29",
+      "orden": 10,
+      "titulo": ". APROVACIÓ DEFINITIVA DEL PLA ESPECIAL URBANÍSTIC D’ASSIGNACIÓ D’USOS I D’ORDENACIÓ DE LA FINCA MUNICIPAL D’EQUIPAMENT SITUADA A L’AVINGUDA DE CAN",
+      "resultado": null,
+      "texto_redactado": ". APROVACIÓ DEFINITIVA DEL PLA ESPECIAL URBANÍSTIC D’ASSIGNACIÓ D’USOS I D’ORDENACIÓ DE LA FINCA MUNICIPAL D’EQUIPAMENT SITUADA A L’AVINGUDA DE CAN",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.52,
+      "impacto": 3,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:04.606Z"
+      }
+    },
+    {
+      "id": "2026-09-29#11",
+      "sesion_id": "2026-09-29",
+      "orden": 11,
+      "titulo": "APROVACIÓ PROVISIONAL DEL PLA ESPECIAL DE PROTECCIÓ DEL PATRIMONI DE LA",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ PROVISIONAL DEL PLA ESPECIAL DE PROTECCIÓ DEL PATRIMONI DE LA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.58,
+      "impacto": 4,
+      "confianza_min": 0.39,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:04.606Z"
+      }
+    },
+    {
+      "id": "2026-09-29#12",
+      "sesion_id": "2026-09-29",
+      "orden": 12,
+      "titulo": "PREGUNTES DEL SENYOR ORIOL GIRALT GILI, REGIDOR NO ADSCRIT.-",
+      "resultado": null,
+      "texto_redactado": "PREGUNTES DEL SENYOR ORIOL GIRALT GILI, REGIDOR NO ADSCRIT.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:04.606Z"
+      }
+    },
+    {
+      "id": "2026-09-29#13",
+      "sesion_id": "2026-09-29",
+      "orden": 13,
+      "titulo": "PREGUNTES DEL GRUP MUNICIPAL DE JUNTS PER LLAVANERES.-",
+      "resultado": null,
+      "texto_redactado": "PREGUNTES DEL GRUP MUNICIPAL DE JUNTS PER LLAVANERES.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:04.606Z"
+      }
+    },
+    {
+      "id": "2026-09-29#14",
+      "sesion_id": "2026-09-29",
+      "orden": 14,
+      "titulo": "PREGUNTES DEL GRUP MUNICIPAL D'ERC-AM.-",
+      "resultado": null,
+      "texto_redactado": "PREGUNTES DEL GRUP MUNICIPAL D'ERC-AM.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:04.606Z"
+      }
+    },
+    {
+      "id": "2026-09-29#15",
+      "sesion_id": "2026-09-29",
+      "orden": 15,
+      "titulo": "PREC DEL SENYOR ORIOL GIRALT GILI, REGIDOR NO ADSCRIT.-",
+      "resultado": null,
+      "texto_redactado": "PREC DEL SENYOR ORIOL GIRALT GILI, REGIDOR NO ADSCRIT.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:04.606Z"
+      }
+    },
+    {
+      "id": "2026-09-29#16",
+      "sesion_id": "2026-09-29",
+      "orden": 16,
+      "titulo": "INFORMES.-",
+      "resultado": null,
+      "texto_redactado": "INFORMES.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:04.606Z"
+      }
+    }
+  ]
+}

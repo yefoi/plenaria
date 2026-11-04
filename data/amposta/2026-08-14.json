@@ -1,0 +1,459 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "amposta",
+    "nombre": "Amposta",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4301410007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-08-14",
+    "municipio_id": "amposta",
+    "fecha": "2026-08-14",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4301410007/2026/1aae6bcc-24fc-4a94-aa7a-fbaf358560a2/actaexturg_260814.pdf",
+    "hash_contenido": "a397d8c75ea621a0c4351df24600b4a38d514a185d78964f3b41b7edd3603483",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-04T13:41:02.699Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-08-14#1",
+      "sesion_id": "2026-08-14",
+      "orden": 1,
+      "titulo": "EXPEDIENT: 1629/2026/18. RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT DELS EXPEDIENTS",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT: 1629/2026/18. RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT DELS EXPEDIENTS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:02.699Z"
+      }
+    },
+    {
+      "id": "2026-08-14#2",
+      "sesion_id": "2026-08-14",
+      "orden": 2,
+      "titulo": "En data 25, 27, 30 de juliol i 3 d’agost de 2026, a la vista dels informes subscrits per les àrees",
+      "resultado": null,
+      "texto_redactado": "En data 25, 27, 30 de juliol i 3 d’agost de 2026, a la vista dels informes subscrits per les àrees",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.29,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:02.699Z"
+      }
+    },
+    {
+      "id": "2026-08-14#3",
+      "sesion_id": "2026-08-14",
+      "orden": 3,
+      "titulo": "A la vista de dits informes, per decrets d’Alcaldia número 3824 – 3820 – 3823 – 3821 - 3822 i",
+      "resultado": null,
+      "texto_redactado": "A la vista de dits informes, per decrets d’Alcaldia número 3824 – 3820 – 3823 – 3821 - 3822 i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.35,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:02.699Z"
+      }
+    },
+    {
+      "id": "2026-08-14#4",
+      "sesion_id": "2026-08-14",
+      "orden": 4,
+      "titulo": "Vistos els informes d’objeccions de la Intervenció FRB202600917, FRB202600914,",
+      "resultado": null,
+      "texto_redactado": "Vistos els informes d’objeccions de la Intervenció FRB202600917, FRB202600914,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.41,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:02.699Z"
+      }
+    },
+    {
+      "id": "2026-08-14#5",
+      "sesion_id": "2026-08-14",
+      "orden": 5,
+      "titulo": "En data 7 de juliol de 2026 es remet informe de valoració dels criteris sotmesos a judici de",
+      "resultado": null,
+      "texto_redactado": "En data 7 de juliol de 2026 es remet informe de valoració dels criteris sotmesos a judici de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:02.699Z"
+      }
+    },
+    {
+      "id": "2026-08-14#6",
+      "sesion_id": "2026-08-14",
+      "orden": 6,
+      "titulo": "En data 9 de juliol de 2026 es constitueix en sessió pública la Mesa de contractació per tal de",
+      "resultado": null,
+      "texto_redactado": "En data 9 de juliol de 2026 es constitueix en sessió pública la Mesa de contractació per tal de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:02.699Z"
+      }
+    },
+    {
+      "id": "2026-08-14#7",
+      "sesion_id": "2026-08-14",
+      "orden": 7,
+      "titulo": "A continuació es procedeix a l’obertura del Sobre Digital C que ha de contenir l’oferta",
+      "resultado": null,
+      "texto_redactado": "A continuació es procedeix a l’obertura del Sobre Digital C que ha de contenir l’oferta",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:02.699Z"
+      }
+    },
+    {
+      "id": "2026-08-14#8",
+      "sesion_id": "2026-08-14",
+      "orden": 8,
+      "titulo": "En data 10 de juliol de 2026, amb registre de sortida 2026017503, es realitzar requeriment a",
+      "resultado": null,
+      "texto_redactado": "En data 10 de juliol de 2026, amb registre de sortida 2026017503, es realitzar requeriment a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.32,
+      "impacto": 1,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:02.699Z"
+      }
+    },
+    {
+      "id": "2026-08-14#9",
+      "sesion_id": "2026-08-14",
+      "orden": 9,
+      "titulo": "En data 13 de juliol de 2026, amb registre d’entrada PTS_LGE/2026017236 l’empresa FCC",
+      "resultado": null,
+      "texto_redactado": "En data 13 de juliol de 2026, amb registre d’entrada PTS_LGE/2026017236 l’empresa FCC",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.3,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:02.699Z"
+      }
+    },
+    {
+      "id": "2026-08-14#10",
+      "sesion_id": "2026-08-14",
+      "orden": 10,
+      "titulo": "En data 14 de juliol de 2026, el tècnic de medi ambient i la secretària accidental emeten",
+      "resultado": null,
+      "texto_redactado": "En data 14 de juliol de 2026, el tècnic de medi ambient i la secretària accidental emeten",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:02.699Z"
+      }
+    },
+    {
+      "id": "2026-08-14#11",
+      "sesion_id": "2026-08-14",
+      "orden": 11,
+      "titulo": "En data 14 de juliol de 2026, la Mesa de contractació en reunió interna va assumir per",
+      "resultado": null,
+      "texto_redactado": "En data 14 de juliol de 2026, la Mesa de contractació en reunió interna va assumir per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.32,
+      "impacto": 1,
+      "confianza_min": 0.3,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:02.699Z"
+      }
+    },
+    {
+      "id": "2026-08-14#12",
+      "sesion_id": "2026-08-14",
+      "orden": 12,
+      "titulo": "Un cop vistes les ofertes presentades i ponderades d’acord amb els criteris de valoració a les",
+      "resultado": null,
+      "texto_redactado": "Un cop vistes les ofertes presentades i ponderades d’acord amb els criteris de valoració a les",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 1,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:02.699Z"
+      }
+    },
+    {
+      "id": "2026-08-14#13",
+      "sesion_id": "2026-08-14",
+      "orden": 13,
+      "titulo": "A continuació la Mesa de contractació acorda a l’òrgan de contractació l’adjudicació a favor de",
+      "resultado": null,
+      "texto_redactado": "A continuació la Mesa de contractació acorda a l’òrgan de contractació l’adjudicació a favor de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.43,
+      "impacto": 1,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:02.699Z"
+      }
+    },
+    {
+      "id": "2026-08-14#14",
+      "sesion_id": "2026-08-14",
+      "orden": 14,
+      "titulo": "En data 27 de juliol de 2026 el Ple de la Corporació en sessió ordinària, va adoptar, entre",
+      "resultado": null,
+      "texto_redactado": "En data 27 de juliol de 2026 el Ple de la Corporació en sessió ordinària, va adoptar, entre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 1,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:02.699Z"
+      }
+    },
+    {
+      "id": "2026-08-14#15",
+      "sesion_id": "2026-08-14",
+      "orden": 15,
+      "titulo": "En data 28 de juliol de 2026 s’envia el requeriment i s’obre l’espai dintre l’eina de Sobre Digital",
+      "resultado": null,
+      "texto_redactado": "En data 28 de juliol de 2026 s’envia el requeriment i s’obre l’espai dintre l’eina de Sobre Digital",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:02.699Z"
+      }
+    },
+    {
+      "id": "2026-08-14#16",
+      "sesion_id": "2026-08-14",
+      "orden": 16,
+      "titulo": "En data 5 d’agost de 2026 i en registre d’entrada número PTS_LGE/2026019291 l’empresa FCC",
+      "resultado": null,
+      "texto_redactado": "En data 5 d’agost de 2026 i en registre d’entrada número PTS_LGE/2026019291 l’empresa FCC",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 1,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:02.699Z"
+      }
+    },
+    {
+      "id": "2026-08-14#17",
+      "sesion_id": "2026-08-14",
+      "orden": 17,
+      "titulo": "En data 11 d’agost de 2026 el Tresorer actal emet informe de la constitució de la garantia",
+      "resultado": null,
+      "texto_redactado": "En data 11 d’agost de 2026 el Tresorer actal emet informe de la constitució de la garantia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:02.699Z"
+      }
+    },
+    {
+      "id": "2026-08-14#18",
+      "sesion_id": "2026-08-14",
+      "orden": 18,
+      "titulo": "Havent comprovat que l’empresa està degudament constituida, que el signant de l’oferta",
+      "resultado": null,
+      "texto_redactado": "Havent comprovat que l’empresa està degudament constituida, que el signant de l’oferta",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-04T13:41:02.699Z"
+      }
+    }
+  ]
+}
