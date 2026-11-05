@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "roda-de-bera",
+    "nombre": "Roda de Berà",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4313100000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-29",
+    "municipio_id": "roda-de-bera",
+    "fecha": "2026-10-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4313100000/2026/e930c4f1-d811-4e9f-99ff-b999505e5de5/20261022_Acta_Acta%20ple_ACTA%20DEL%20PLE%202026-0008%20[Acta%20sessi%f3%20PLE%208_2026%20de%20data%2024.09.2026].pdf",
+    "hash_contenido": "106d71fac1b3b20310dbb74e3756c875bdcff5478ac61636c96d04385908e888",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-05T13:49:04.095Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-29#1",
+      "sesion_id": "2026-10-29",
+      "orden": 1,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:04.095Z"
+      }
+    },
+    {
+      "id": "2026-10-29#2",
+      "sesion_id": "2026-10-29",
+      "orden": 2,
+      "titulo": "En data 8 de setembre de 2026 l’interessat presenta instància amb número de registre",
+      "resultado": null,
+      "texto_redactado": "En data 8 de setembre de 2026 l’interessat presenta instància amb número de registre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:04.095Z"
+      }
+    },
+    {
+      "id": "2026-10-29#3",
+      "sesion_id": "2026-10-29",
+      "orden": 3,
+      "titulo": "L’interessat presta els seus serveis en règim de jornada completa de dilluns a divendres,",
+      "resultado": null,
+      "texto_redactado": "L’interessat presta els seus serveis en règim de jornada completa de dilluns a divendres,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:04.095Z"
+      }
+    },
+    {
+      "id": "2026-10-29#4",
+      "sesion_id": "2026-10-29",
+      "orden": 4,
+      "titulo": "Consta a l’expedient informe del departament de Recursos Humans respecte a la",
+      "resultado": null,
+      "texto_redactado": "Consta a l’expedient informe del departament de Recursos Humans respecte a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:04.095Z"
+      }
+    },
+    {
+      "id": "2026-10-29#5",
+      "sesion_id": "2026-10-29",
+      "orden": 5,
+      "titulo": "Aquest escrit ha motivat la incoació de l'expedient 5081/2026, mitjançant provisió de",
+      "resultado": null,
+      "texto_redactado": "Aquest escrit ha motivat la incoació de l'expedient 5081/2026, mitjançant provisió de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.97,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:04.095Z"
+      }
+    },
+    {
+      "id": "2026-10-29#6",
+      "sesion_id": "2026-10-29",
+      "orden": 6,
+      "titulo": "Punto de servicios sociales",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.91,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:04.095Z"
+      }
+    },
+    {
+      "id": "2026-10-29#7",
+      "sesion_id": "2026-10-29",
+      "orden": 7,
+      "titulo": "En data 13 d’agost de 2026, la secretària d'aquest Ajuntament ha emès l'informe jurídic",
+      "resultado": null,
+      "texto_redactado": "En data 13 d’agost de 2026, la secretària d'aquest Ajuntament ha emès l'informe jurídic",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:04.095Z"
+      }
+    }
+  ]
+}

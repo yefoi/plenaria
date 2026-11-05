@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/4301410007/2026/71140507-214e-4085-b3bc-1b96a9bd4908/acta_260727.pdf",
     "hash_contenido": "1eb3f5a588916478aaf2949d8027518084881048987340ef95a3daca65fa8551",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-11-04T13:17:03.274Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-05T13:48:53.798Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "EXPEDIENT: 1028/2026/7. APROVACIÓ DELS ESBORRANYS DE LES ACTES DEL PLE DE LA SESSIÓ ORDINÀRIA CELEBRADA EL DIA 29 DE JUNY [MATRÍCULA] DE LA SESSIÓ EXTRAORDINÀRIA CELEBRADA EL DIA 10 DE JULIOL DE 2026",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#2",
@@ -49,13 +56,20 @@
       "texto_redactado": "Atès que d’acord amb el que disposa el Reial Decret 2568/1986, de 28 de novembre, pel qual",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.9,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#3",
@@ -66,13 +80,20 @@
       "texto_redactado": "EXPEDIENT: 1515/2026/65. DONAR COMPTE DE LES NOVES INCORPORACIONS DE PERSONAL DEL MES DE JULIOL DE 2026",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "personal"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.98,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#4",
@@ -83,13 +104,20 @@
       "texto_redactado": "EXPEDIENT: 1754/2026/10. DONAR COMPTE DEL PLA D'ACCIÓ DERIVAT DE LES ACTUACIONS DE CONTROL FINANCER",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#5",
@@ -100,13 +128,20 @@
       "texto_redactado": "EXPEDIENT: 1627/2026/31. MODIFICACIÓ DE CRÈDIT PER CRÈDITS EXTRAORDINARIS I SUPLEMENTS DE CRÈDIT- PCE-PSC 10/2026",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.37,
+      "impacto": 2,
+      "confianza_min": 0.11,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#6",
@@ -117,13 +152,20 @@
       "texto_redactado": "EXPEDIENT: 1629/2026/14. RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT – OBJECCIÓ 36, 39, 40,",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.71,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#7",
@@ -134,13 +176,20 @@
       "texto_redactado": "EXPEDIENT: 1629/2026/15. RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT DE LES OFI’S 41, 50,",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 2,
+      "confianza_min": 0.27,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#8",
@@ -151,13 +200,20 @@
       "texto_redactado": "EXPEDIENT: 1629/2026/17. RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT DE LES OFI 73- 69",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0.22,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#9",
@@ -168,13 +224,21 @@
       "texto_redactado": "EXPEDIENT: 1375/2026/17. APROVACIÓ DE L'ENCÀRREC I INSTRUCCIONS REGULADORES PER A LA PRESTACIÓ DEL SERVEI INTEGRAL DE NETEJA D'EDIFICIS I INSTAL·LACIONS MUNICIPALS A",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.55,
+      "impacto": 3,
+      "confianza_min": 0.43,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#10",
@@ -185,13 +249,20 @@
       "texto_redactado": "EXPEDIENT: 1437/2024/3. CONTRACTACIÓ DEL SUBMINISTRAMENT D'EQUIPS I SERVEIS DE REPROGRAFIA MUNICIPAL DE L'AJUNTAMENT D'AMPOSTA",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 2,
+      "confianza_min": 0.32,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#11",
@@ -202,13 +273,21 @@
       "texto_redactado": "EXPEDIENT: 1403/2026/2. ACCEPTACIÓ DE LA PROPOSTA DE LA MESA DE CONTRACTACIÓ I REQUERIMENT DE DOCUMENTACIÓ PRÈVIA A L’ADJUDICACIÓ DEL CONTRACTE DEL SERVEI DE NETEJA VIÀRIA EN EL TERME MUNICIPAL D’AMPOSTA",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.47,
+      "impacto": 3,
+      "confianza_min": 0.21,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#12",
@@ -219,13 +298,20 @@
       "texto_redactado": "EXPEDIENT: 1448/2026/1. ADJUDICACIÓ I APROVACIÓ DE LA CONCERTACIÓ DELS LOTS 1 I 2 DE L’OPERACIÓ DE PRÉSTEC A LLARG TERMINI PER AL FINANÇAMENT D’INVERSIONS DE L’EXERCICI 2026",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#13",
@@ -236,13 +322,20 @@
       "texto_redactado": "EXPEDIENT: 2758/2026/393. APROVACIÓ DEL PROGRAMA D’ACTIVITATS DEFINITIU DE LES FESTES POBLE NOU DEL DELTA 2026, INCORPORAT A L’EXPEDIENT, A CELEBRAR DEL 29 DE JULIOL",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.57,
+      "impacto": 3,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#14",
@@ -253,13 +346,20 @@
       "texto_redactado": "EXPEDIENT: 2758/2026/392. APROVACIÓ DEL PROGRAMA D’ACTIVITATS DEFINITIU DE LES FESTES MAJORS D’AMPOSTA 2026, INCORPORAT A L’EXPEDIENT, A CELEBRAR DEL 7 AL 16 D’AGOST",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.61,
+      "impacto": 4,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#15",
@@ -270,13 +370,20 @@
       "texto_redactado": "EXPEDIENT: 2120/2026/3. SOL·LICITUD BONIFICACIÓ DE L’ICIO PER AMPLIACIÓ D'EMPRESA - FOMENT DE L'OCUPACIÓ",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.44,
+      "impacto": 2,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#16",
@@ -287,13 +394,21 @@
       "texto_redactado": "EXPEDIENT: 2120/2026/5. SOL·LICITUD DE BONIFICACIÓ DE L'IMPOST SOBRE CONSTRUCCIONS, INSTAL·LACIONS I OBRES PER INSTAL·LACIÓ DE PLAQUES FOTOVOLTAIQUES",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.68,
+      "impacto": 2,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#17",
@@ -304,13 +419,20 @@
       "texto_redactado": "EXPEDIENT: 2120/2025/173. SOL·LICITUD DE BONIFICACIÓ DE L’ICIO PER OBRA NOVA O DE REHABILITACIÓ DE LA CIUTAT VELLA (CASC ANTIC) O BARRI DEL GRAU",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.78,
+      "impacto": 3,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#18",
@@ -321,13 +443,20 @@
       "texto_redactado": "EXPEDIENT: 2253/2026/1. APROVACIÓ INICIAL DE LA MODIFICACIÓ PUNTUAL NòMERO 64 DEL POUM. REORDENACIÓ DEL SISTEMA D'EQUIPAMENTS DE LA ZONA ESPORTIVA MUNICIPAL",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.64,
+      "impacto": 3,
+      "confianza_min": 0.76,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#19",
@@ -338,13 +467,20 @@
       "texto_redactado": "EXPEDIENT: 1615/2026/1. APROVAR INICIALMENT LA QUALIFICACIÓ JURÍDICA COM A PARCEL·LA SOBRERA, DE LA FINCA MUNICIPAL SITUADA AL POLÍGON 30, PARCEL·LA 14",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 2,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#20",
@@ -355,13 +491,20 @@
       "texto_redactado": "EXPEDIENT: 1363/2026/5. RATIFICACIÓ DEL DECRET D’ALCALDIA NòMERO 2026002627 SOBRE LA PRESENTACIÓ DE RECURS CONTNECIÓS ADMINISTRATIU DAVANT EL TSJCAT CONTRA LA RESOLUCIÓ TER/4802/2025",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 2,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#21",
@@ -372,13 +515,20 @@
       "texto_redactado": "EXPEDIENT: 1346/2026/19. RATIFICACIÓ DELS DECRETS D’ALCALDIA DE DESIGNACIÓ D’ADVOCAT I PROCURADORES PER AL RECURS CONTENCIÓS ADMINISTRATIU DAVANT EL TSJCAT CONTRA LA RESOLUCIÓ TER/4802/2025",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#22",
@@ -389,13 +539,21 @@
       "texto_redactado": "EXPEDIENT: 1029/2026/12. MOCIÓ DEL GRUP MUNICIPAL JUNTS PER AMPOSTA - COMPROMÍS MUNICIPAL PER A LA IMPLANTACIÓ DE LES POLSERES CENTINELA A LES FESTES D’AMPOSTA",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.57,
+      "impacto": 3,
+      "confianza_min": 0.23,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#23",
@@ -406,13 +564,21 @@
       "texto_redactado": "EXPEDIENT: 1029/2026/14. MOCIÓ DEL GRUP MUNICIPAL D’EA-ERC-AM PER A LA IMPLANTACIÓ DE LES ENERGIES RENOVABLES A CATALUNYA (PLATER) I EN DEFENSA D’UNA TRANSICIÓ ENERGÈTICA JUSTA, EQUILIBRADA I CONSENSUADA AMB EL MÓN LOCAL",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.3,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#24",
@@ -423,13 +589,20 @@
       "texto_redactado": "EXPEDIENT: 1029/2026/13. MOCIÓ DEL GRUP MUNICIPAL JUNTS PER AMPOSTA - COMPROMÍS MUNICIPAL PER A LA INSTAL·LACIÓ DE TENDALS EN ELS PARCS INFANTILS DEL MUNICIPI",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.68,
+      "impacto": 3,
+      "confianza_min": 0.02,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     },
     {
       "id": "2026-07-27#25",
@@ -440,13 +613,20 @@
       "texto_redactado": "PRECS I PREGUNTES",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:53.798Z"
+      }
     }
   ]
 }

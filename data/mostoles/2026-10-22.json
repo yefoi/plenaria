@@ -1,0 +1,616 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "mostoles",
+    "nombre": "Móstoles",
+    "provincia": "Madrid",
+    "fuente_tipo": "portal-sesiones",
+    "fuente_config": {
+      "listado_url": "https://www.mostoles.es/es/ayuntamiento/organizacion-municipal-organos-gobierno-personal/plenos-municipales/sesiones-pleno-municipal",
+      "patron_sesion": "sesion-pleno-[^/]+$",
+      "patrones_pdf": [
+        "Acta de Pleno",
+        "Extracto de Pleno"
+      ],
+      "tipo_por_defecto": "ordinaria",
+      "max_sesiones": 3,
+      "idioma": "es"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-22",
+    "municipio_id": "mostoles",
+    "fecha": "2026-10-22",
+    "tipo": "ordinaria",
+    "fuente_url": "https://www.mostoles.es/es/ayuntamiento/organizacion-municipal-organos-gobierno-personal/plenos-municipales/sesiones-pleno-municipal/sesion-pleno-ordinario-ayuntamiento-mostoles-22-octubre-202.ficheros/1499195-Extracto%20de%20Pleno%20ordinario%20del%20Ayuntamiento%20de%20M%C3%B3stoles%20del%2022%20de%20octubre%20de%202026.pdf",
+    "hash_contenido": "99b7556e0557d6528643718cfcb49e1cba517d9c58509a7414969156af963236",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-05T13:49:09.596Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-22#1",
+      "sesion_id": "2026-10-22",
+      "orden": 1,
+      "titulo": "Se da lectura a la Declaración Institucional relativa al reconocimiento al voluntariado en los Centros de Mayores Municipales y de la Comunidad de Madrid.",
+      "resultado": null,
+      "texto_redactado": "Se da lectura a la Declaración Institucional relativa al reconocimiento al voluntariado en los Centros de Mayores Municipales y de la Comunidad de Madrid.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 2,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#2",
+      "sesion_id": "2026-10-22",
+      "orden": 2,
+      "titulo": "Se da lectura Declaración Institucional relativa al Día Internacional de las Personas Mayores.",
+      "resultado": null,
+      "texto_redactado": "Se da lectura Declaración Institucional relativa al Día Internacional de las Personas Mayores.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.06,
+      "impacto": 1,
+      "confianza_min": 0.91,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#3",
+      "sesion_id": "2026-10-22",
+      "orden": 3,
+      "titulo": "Se aprueba el acta de la sesión anterior de fecha 24 de septiembre de 2026",
+      "resultado": null,
+      "texto_redactado": "Se aprueba el acta de la sesión anterior de fecha 24 de septiembre de 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#4",
+      "sesion_id": "2026-10-22",
+      "orden": 4,
+      "titulo": "La Corporación Pleno queda enterada cuenta de las Resoluciones de Alcaldía desde la 2.960/26 a la 3.200/26. Así mismo, se da cuenta de las Resoluciones firmadas digitalmente por el Concejal delegado de Hacienda, Presidencia y Recursos Humanos desde la 57/2026 a la 62/2026.",
+      "resultado": null,
+      "texto_redactado": "La Corporación Pleno queda enterada cuenta de las Resoluciones de Alcaldía desde la 2.960/26 a la 3.200/26. Así mismo, se da cuenta de las Resoluciones firmadas digitalmente por el Concejal delegado de Hacienda, Presidencia y Recursos Humanos desde la 57/2026 a la 62/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#5",
+      "sesion_id": "2026-10-22",
+      "orden": 5,
+      "titulo": "La Corporación Pleno queda de los Acuerdos de la Junta de Gobierno Local desde el 10 de septiembre de 2026 hasta el 30 de septiembre de 2026.",
+      "resultado": null,
+      "texto_redactado": "La Corporación Pleno queda de los Acuerdos de la Junta de Gobierno Local desde el 10 de septiembre de 2026 hasta el 30 de septiembre de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#6",
+      "sesion_id": "2026-10-22",
+      "orden": 6,
+      "titulo": "Se da cuenta del cambio de represente del Grupo Municipal Popular en el Consejo Sectorial de Bienestar Animal, en el Consejo Sectorial de Deportes y en el Consejo Sectorial de Sanidad Dª [NOMBRE] es la nueva representante en los tres Consejos, sustituyendo a D. [NOMBRE]",
+      "resultado": null,
+      "texto_redactado": "Se da cuenta del cambio de represente del Grupo Municipal Popular en el Consejo Sectorial de Bienestar Animal, en el Consejo Sectorial de Deportes y en el Consejo Sectorial de Sanidad Dª [NOMBRE] es la nueva representante en los tres Consejos, sustituyendo a D. [NOMBRE]",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#7",
+      "sesion_id": "2026-10-22",
+      "orden": 7,
+      "titulo": "Comparece Dª. Ángeles García González, Concejala delegada de Economía, Industrias, Empleo, Desarrollo y Promoción Turística, todo ello de conformidad con el acuerdo de Pleno 4/177 de 24 de septiembre de 2026.",
+      "resultado": null,
+      "texto_redactado": "Comparece Dª. Ángeles García González, Concejala delegada de Economía, Industrias, Empleo, Desarrollo y Promoción Turística, todo ello de conformidad con el acuerdo de Pleno 4/177 de 24 de septiembre de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.98,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#8",
+      "sesion_id": "2026-10-22",
+      "orden": 8,
+      "titulo": "Se sustanciaron las siguientes preguntas: a) Pregunta nº. 67/26 presentada por el Grupo Municipal Mixto sobre qué valoración hace el Gobierno municipal de los Presupuestos Participativos. b) Pregunta nº. 68/26 presentada por el Grupo Municipal Mixto sobre por qué el Gobierno municipal incumple el artículo 119 del Reglamento Orgánico del Ayuntamiento de Móstoles. c) Pregunta nº. 69/26 presentada por el Grupo Municipal MM-Móstoles relativa al informe emitido por la Cámara de Cuentas aprobado el 30 de septiembre de 2026 titulado ÒInforme de la Fiscalización de Determinadas Áreas del Ayuntamiento de Móstoles y sus Entidades DependientesÓ. ¿Qué valoración hace el Gobierno de Móstoles de dicho informe y qué actuaciones piensa llevar a cabo?",
+      "resultado": null,
+      "texto_redactado": "Se sustanciaron las siguientes preguntas: a) Pregunta nº. 67/26 presentada por el Grupo Municipal Mixto sobre qué valoración hace el Gobierno municipal de los Presupuestos Participativos. b) Pregunta nº. 68/26 presentada por el Grupo Municipal Mixto sobre por qué el Gobierno municipal incumple el artículo 119 del Reglamento Orgánico del Ayuntamiento de Móstoles. c) Pregunta nº. 69/26 presentada por el Grupo Municipal MM-Móstoles relativa al informe emitido por la Cámara de Cuentas aprobado el 30 de septiembre de 2026 titulado ÒInforme de la Fiscalización de Determinadas Áreas del Ayuntamiento de Móstoles y sus Entidades DependientesÓ. ¿Qué valoración hace el Gobierno de Móstoles de dicho informe y qué actuaciones piensa llevar a cabo?",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#9",
+      "sesion_id": "2026-10-22",
+      "orden": 9,
+      "titulo": "La Corporación Pleno queda enterada del cálculo del coste efectivo de los servicios públicos 2025 del Ayuntamiento de Móstoles.",
+      "resultado": null,
+      "texto_redactado": "La Corporación Pleno queda enterada del cálculo del coste efectivo de los servicios públicos 2025 del Ayuntamiento de Móstoles.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#10",
+      "sesion_id": "2026-10-22",
+      "orden": 10,
+      "titulo": "La Corporación Pleno queda enterada de JGL de 22.09.2026 de Rectificación de saldos iniciales de obligaciones pendientes de pago de ejercicios cerrados por errores y otras causas.",
+      "resultado": null,
+      "texto_redactado": "La Corporación Pleno queda enterada de JGL de 22.09.2026 de Rectificación de saldos iniciales de obligaciones pendientes de pago de ejercicios cerrados por errores y otras causas.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#11",
+      "sesion_id": "2026-10-22",
+      "orden": 11,
+      "titulo": "Se aprueba la propuesta de resolución sobre aprobación inicial de modificación de crédito H004/DGP/2026-22 en la modalidad de crédito suplemento de crédito.",
+      "resultado": null,
+      "texto_redactado": "Se aprueba la propuesta de resolución sobre aprobación inicial de modificación de crédito H004/DGP/2026-22 en la modalidad de crédito suplemento de crédito.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#12",
+      "sesion_id": "2026-10-22",
+      "orden": 12,
+      "titulo": "Se aprueba la propuesta de regularización de gastos, en la modalidad de reconocimiento extrajudicial de créditos, relativos al XV Premio de fotografía ÒMóstoles, en fiestasÓ, septiembre 2025, por importe de 2.000 €.",
+      "resultado": null,
+      "texto_redactado": "Se aprueba la propuesta de regularización de gastos, en la modalidad de reconocimiento extrajudicial de créditos, relativos al XV Premio de fotografía ÒMóstoles, en fiestasÓ, septiembre 2025, por importe de 2.000 €.",
+      "importe_eur": 2000,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 2,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#13",
+      "sesion_id": "2026-10-22",
+      "orden": 13,
+      "titulo": "Se aprueba la propuesta de regularización de gastos, en la modalidad de reconocimiento extrajudicial de créditos de la factura de la Granja Gallego Hermanos, S.L. por importe de 3.444,35 euros correspondiente al año 2025.",
+      "resultado": null,
+      "texto_redactado": "Se aprueba la propuesta de regularización de gastos, en la modalidad de reconocimiento extrajudicial de créditos de la factura de la Granja Gallego Hermanos, S.L. por importe de 3.444,35 euros correspondiente al año 2025.",
+      "importe_eur": 3444.35,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 2,
+      "confianza_min": 0.43,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#14",
+      "sesion_id": "2026-10-22",
+      "orden": 14,
+      "titulo": "Se aprueba la propuesta de regularización de gastos, en la modalidad de reconocimiento extrajudicial de créditos de la factura 25/1828 del año 2025 de COPYPOC, S.L. relativa al ÒContrato basado en el acuerdo marco de la Comunidad de Madrid para el suministro de material de oficina. Lote 1: Elementos de escritura, corrección y artículos de dibujoÓ, por importe de 9.978,57 €.",
+      "resultado": null,
+      "texto_redactado": "Se aprueba la propuesta de regularización de gastos, en la modalidad de reconocimiento extrajudicial de créditos de la factura 25/1828 del año 2025 de COPYPOC, S.L. relativa al ÒContrato basado en el acuerdo marco de la Comunidad de Madrid para el suministro de material de oficina. Lote 1: Elementos de escritura, corrección y artículos de dibujoÓ, por importe de 9.978,57 €.",
+      "importe_eur": 9978.57,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 2,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#15",
+      "sesion_id": "2026-10-22",
+      "orden": 15,
+      "titulo": "Se aprueba la propuesta de regularización de gastos, en la modalidad de reconocimiento extrajudicial de créditos, relativo a la cuota de la Comunidad de Propietarios [DIRECCIÓN] correspondiente a los meses de noviembre y diciembre de 2022, por importe de 136,28 €.",
+      "resultado": null,
+      "texto_redactado": "Se aprueba la propuesta de regularización de gastos, en la modalidad de reconocimiento extrajudicial de créditos, relativo a la cuota de la Comunidad de Propietarios [DIRECCIÓN] correspondiente a los meses de noviembre y diciembre de 2022, por importe de 136,28 €.",
+      "importe_eur": 136.28,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 2,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#16",
+      "sesion_id": "2026-10-22",
+      "orden": 16,
+      "titulo": "Se aprueba la propuesta de regularización de gastos, en la modalidad de reconocimiento extrajudicial de créditos, relativo a la publicación del anuncio de exposición pública de la matrícula provisional del IAE correspondiente al ejercicio 2023 por importe de 272,25 €.",
+      "resultado": null,
+      "texto_redactado": "Se aprueba la propuesta de regularización de gastos, en la modalidad de reconocimiento extrajudicial de créditos, relativo a la publicación del anuncio de exposición pública de la matrícula provisional del IAE correspondiente al ejercicio 2023 por importe de 272,25 €.",
+      "importe_eur": 272.25,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#17",
+      "sesion_id": "2026-10-22",
+      "orden": 17,
+      "titulo": "Se rechaza la moción presentada por el Grupo Municipal Mixto relativa a la movilización de la vivienda vacía en Móstoles y se rechaza la enmienda de modificación parcial del Grupo Municipal Vox",
+      "resultado": null,
+      "texto_redactado": "Se rechaza la moción presentada por el Grupo Municipal Mixto relativa a la movilización de la vivienda vacía en Móstoles y se rechaza la enmienda de modificación parcial del Grupo Municipal Vox",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "vivienda",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.5,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#18",
+      "sesion_id": "2026-10-22",
+      "orden": 18,
+      "titulo": "Se aprueba la moción presentada por el Grupo Municipal Mixto con la incorporación de la enmienda parcial presentada por el Grupo Municipal Vox, , relativa a la renaturalización y sombra en los patios escolares en Móstoles.",
+      "resultado": null,
+      "texto_redactado": "Se aprueba la moción presentada por el Grupo Municipal Mixto con la incorporación de la enmienda parcial presentada por el Grupo Municipal Vox, , relativa a la renaturalización y sombra en los patios escolares en Móstoles.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.64,
+      "impacto": 3,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#19",
+      "sesion_id": "2026-10-22",
+      "orden": 19,
+      "titulo": "Se aprueba la moción presentada por el Grupo Municipal MM-Móstoles con la incorporación de la enmienda de modificación parcial presentada por el Grupo Municipal Vox relativa al apoyo a la huelga educativa del 14 de octubre y por la mejora de la escuela pública en Móstoles.",
+      "resultado": null,
+      "texto_redactado": "Se aprueba la moción presentada por el Grupo Municipal MM-Móstoles con la incorporación de la enmienda de modificación parcial presentada por el Grupo Municipal Vox relativa al apoyo a la huelga educativa del 14 de octubre y por la mejora de la escuela pública en Móstoles.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "cultura_deporte_educacion",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 2,
+      "confianza_min": 0.37,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#20",
+      "sesion_id": "2026-10-22",
+      "orden": 20,
+      "titulo": "Se aprueba la moción presentada por el Grupo Municipal Socialista con la incorporación de la enmienda de modificación parcial presentada por el Grupo Municipal Vox, , relativa a la defensa de la educación pública, en apoyo al profesorado y a las educadoras infantiles y para exigir mejoras concretas en los centros educativos de Móstoles.",
+      "resultado": null,
+      "texto_redactado": "Se aprueba la moción presentada por el Grupo Municipal Socialista con la incorporación de la enmienda de modificación parcial presentada por el Grupo Municipal Vox, , relativa a la defensa de la educación pública, en apoyo al profesorado y a las educadoras infantiles y para exigir mejoras concretas en los centros educativos de Móstoles.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "cultura_deporte_educacion",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.48,
+      "impacto": 3,
+      "confianza_min": 0.17,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#21",
+      "sesion_id": "2026-10-22",
+      "orden": 21,
+      "titulo": "Se rechaza la moción presentada por el Grupo Municipal MM-Móstoles relativa a la promoción de cooperativas de vivienda sin ánimo de lucro en suelo municipal mediante derecho de superficie, se rechaza la enmienda de modificación parcial presentada por el Grupo Municipal Vox",
+      "resultado": null,
+      "texto_redactado": "Se rechaza la moción presentada por el Grupo Municipal MM-Móstoles relativa a la promoción de cooperativas de vivienda sin ánimo de lucro en suelo municipal mediante derecho de superficie, se rechaza la enmienda de modificación parcial presentada por el Grupo Municipal Vox",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "vivienda",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.5,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#22",
+      "sesion_id": "2026-10-22",
+      "orden": 22,
+      "titulo": "Se rechaza la moción presentada por el Grupo Municipal Vox relativa a la aplicación municipal de la Ley 2/2026 de vivienda protegida.",
+      "resultado": null,
+      "texto_redactado": "Se rechaza la moción presentada por el Grupo Municipal Vox relativa a la aplicación municipal de la Ley 2/2026 de vivienda protegida.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "vivienda",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.51,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#23",
+      "sesion_id": "2026-10-22",
+      "orden": 23,
+      "titulo": "Se aprueba la moción presentada por el Grupo Municipal Socialista con la incorporación de la enmienda de modificación parcial presentada por el Grupo Municipal Vox, relativa a la implantación de una tarjeta sanitaria de atención preferente en la Comunidad de Madrid para personas con grandes necesidades de apoyo, discapacidad intelectual o del desarrollo y trastorno del espectro autista. Se rechazan las enmiendas de modificación parcial presentadas por los Grupos Municipales MM_Móstoles y Mixto.",
+      "resultado": null,
+      "texto_redactado": "Se aprueba la moción presentada por el Grupo Municipal Socialista con la incorporación de la enmienda de modificación parcial presentada por el Grupo Municipal Vox, relativa a la implantación de una tarjeta sanitaria de atención preferente en la Comunidad de Madrid para personas con grandes necesidades de apoyo, discapacidad intelectual o del desarrollo y trastorno del espectro autista. Se rechazan las enmiendas de modificación parcial presentadas por los Grupos Municipales MM_Móstoles y Mixto.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.69,
+      "impacto": 4,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    },
+    {
+      "id": "2026-10-22#24",
+      "sesion_id": "2026-10-22",
+      "orden": 24,
+      "titulo": "Se aprueba la moción presentada por el Grupo Municipal Popular relativa a exigir transparencia, seguridad jurídica y garantías en la aplicación de la Ley de Nietos y en la gestión del censo electoral y se rechaza la enmienda de modificación parcial presentada por el Grupo Municipal Vox Móstoles, a fecha de la firma digital EL SECRETARIO GENERAL DEL PLENO Fdo. Pedro Daniel Rey Fernández",
+      "resultado": null,
+      "texto_redactado": "Se aprueba la moción presentada por el Grupo Municipal Popular relativa a exigir transparencia, seguridad jurídica y garantías en la aplicación de la Ley de Nietos y en la gestión del censo electoral y se rechaza la enmienda de modificación parcial presentada por el Grupo Municipal Vox Móstoles, a fecha de la firma digital EL SECRETARIO GENERAL DEL PLENO Fdo. Pedro Daniel Rey Fernández",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:49:09.596Z"
+      }
+    }
+  ]
+}

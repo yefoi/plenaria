@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "hospitalet-de-llobregat",
+    "nombre": "L'Hospitalet de Llobregat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "810170005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "extracte-acords",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-02",
+    "municipio_id": "hospitalet-de-llobregat",
+    "fecha": "2026-11-02",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/810170005/2026/bf9ddd24-f63e-4313-bfb1-8fd49386f7cf/20261102%20Extracte%20acords%20del%20Ple%20sorteig%20meses.pdf",
+    "hash_contenido": "312ef339244f8b363606a316f2ea8785429b1976e45e266b49687c4c780168d1",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-11-05T13:48:28.609Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-02#1",
+      "sesion_id": "2026-11-02",
+      "orden": 1,
+      "titulo": "1. SORTEIG PÚBLIC PER A LA DESIGNACIÓ DE LES PERSONES MEMBRES DE LES",
+      "resultado": null,
+      "texto_redactado": "1. SORTEIG PÚBLIC PER A LA DESIGNACIÓ DE LES PERSONES MEMBRES DE LES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 2,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-05T13:48:28.609Z"
+      }
+    }
+  ]
+}
