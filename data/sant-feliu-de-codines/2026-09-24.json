@@ -1,0 +1,172 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-feliu-de-codines",
+    "nombre": "Sant Feliu de Codines",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "821070005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-24",
+    "municipio_id": "sant-feliu-de-codines",
+    "fecha": "2026-09-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/821070005/2026/8d194776-8e65-4fb6-b02f-94b3f90f1f35/Acta%20de%20la%20sessi%f3%20ordin%e0ria%20del%20ple%20de%2024%20de%20setembre%20de%202026.pdf",
+    "hash_contenido": "0c243e57baf374aed23faa9eec375ed313a6c7be2476466d19dfcd4aa1142ec3",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-06T13:32:59.430Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-24#1",
+      "sesion_id": "2026-09-24",
+      "orden": 1,
+      "titulo": "LECTURA I APROVACIÓ DE L'ESBORRANY DE L'ACTA DE LA SESSIÓ ORDINÀRIA DE 23 DE JULIOL [MATRÍCULA] DE LA SESSIÓ EXTRAORDINÀRIA DE 10 DE SETEMBRE DE 2026",
+      "resultado": null,
+      "texto_redactado": "LECTURA I APROVACIÓ DE L'ESBORRANY DE L'ACTA DE LA SESSIÓ ORDINÀRIA DE 23 DE JULIOL [MATRÍCULA] DE LA SESSIÓ EXTRAORDINÀRIA DE 10 DE SETEMBRE DE 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-06T13:32:59.430Z"
+      }
+    },
+    {
+      "id": "2026-09-24#2",
+      "sesion_id": "2026-09-24",
+      "orden": 2,
+      "titulo": "DONAR COMPTE DEL CONTINGUT DE LES ACTES DE LA JUNTA DE GOVERN LOCAL DE 16 I 30 DE JULIOL [MATRÍCULA] DE 3 I 10 DE SETEMBRE DE 2026",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DEL CONTINGUT DE LES ACTES DE LA JUNTA DE GOVERN LOCAL DE 16 I 30 DE JULIOL [MATRÍCULA] DE 3 I 10 DE SETEMBRE DE 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-06T13:32:59.430Z"
+      }
+    },
+    {
+      "id": "2026-09-24#3",
+      "sesion_id": "2026-09-24",
+      "orden": 3,
+      "titulo": "DONAR COMPTE DELS DECRETS D'ALCALDIA, DES DEL NòMERO 2026-0471",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DELS DECRETS D'ALCALDIA, DES DEL NòMERO 2026-0471",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-06T13:32:59.430Z"
+      }
+    },
+    {
+      "id": "2026-09-24#4",
+      "sesion_id": "2026-09-24",
+      "orden": 4,
+      "titulo": "URBANISME. EXPEDIENT 3447/2026. RATIFICACIÓ DEL DECRET 2026-0459 DE",
+      "resultado": null,
+      "texto_redactado": "URBANISME. EXPEDIENT 3447/2026. RATIFICACIÓ DEL DECRET 2026-0459 DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 2,
+      "confianza_min": 0.32,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-06T13:32:59.430Z"
+      }
+    },
+    {
+      "id": "2026-09-24#5",
+      "sesion_id": "2026-09-24",
+      "orden": 5,
+      "titulo": "AIGUA. EXPEDIENT 1635/2026. DICTAMEN D’APROVACIÓ DEL PLA D’EMERGÈNCIA PER SEQUERA DE SANT FELIU DE CODINES",
+      "resultado": null,
+      "texto_redactado": "AIGUA. EXPEDIENT 1635/2026. DICTAMEN D’APROVACIÓ DEL PLA D’EMERGÈNCIA PER SEQUERA DE SANT FELIU DE CODINES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.69,
+      "impacto": 4,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-06T13:32:59.430Z"
+      }
+    },
+    {
+      "id": "2026-09-24#6",
+      "sesion_id": "2026-09-24",
+      "orden": 6,
+      "titulo": "EXPEDIENT 4302/2026. MOCIÓ QUE PRESENTA ÒJUNTS PER SANT FELIU DE CODINESÒ, PER SOL·LICITAR UN AUGMENT DE LA PRESÈNCIA DELS MOSSOS D’ESQUADRA A SANT FELIU DE CODINES EXPOSICIÓ DE MOTIUS",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT 4302/2026. MOCIÓ QUE PRESENTA ÒJUNTS PER SANT FELIU DE CODINESÒ, PER SOL·LICITAR UN AUGMENT DE LA PRESÈNCIA DELS MOSSOS D’ESQUADRA A SANT FELIU DE CODINES EXPOSICIÓ DE MOTIUS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.65,
+      "impacto": 3,
+      "confianza_min": 0.15,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-06T13:32:59.430Z"
+      }
+    }
+  ]
+}

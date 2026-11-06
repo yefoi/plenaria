@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "palau-solita-i-plegamans",
+    "nombre": "Palau-solità i Plegamans",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "815680001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-13",
+    "municipio_id": "palau-solita-i-plegamans",
+    "fecha": "2026-10-13",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/815680001/2026/b878b160-8a3f-4c78-9c14-02c74d4d3d23/Extracte%20d%27acords%2013.10.2026%20extraordinari.pdf",
+    "hash_contenido": "ff5570e24fae87479b259cfff0d6803ac13bd46d0ed08d0847fce52e2836e7c2",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-06T13:32:51.564Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-13#1",
+      "sesion_id": "2026-10-13",
+      "orden": 1,
+      "titulo": "PRP2026/911. PRESA DE POSSESSIÓ DEL SEU CÀRREC DE REGIDOR DEL GRUP MUNICIPAL ERC-AM",
+      "resultado": null,
+      "texto_redactado": "PRP2026/911. PRESA DE POSSESSIÓ DEL SEU CÀRREC DE REGIDOR DEL GRUP MUNICIPAL ERC-AM",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.95,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-06T13:32:51.564Z"
+      }
+    },
+    {
+      "id": "2026-10-13#2",
+      "sesion_id": "2026-10-13",
+      "orden": 2,
+      "titulo": "PRP2026/917 APROVACIÓ MC16 TRASPÀS FONS CONTINGÈNCIA I INCORPORACIÓ ROMANENT TRESORERIA PER ATENDRE DESPESES",
+      "resultado": null,
+      "texto_redactado": "PRP2026/917 APROVACIÓ MC16 TRASPÀS FONS CONTINGÈNCIA I INCORPORACIÓ ROMANENT TRESORERIA PER ATENDRE DESPESES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-06T13:32:51.564Z"
+      }
+    }
+  ]
+}

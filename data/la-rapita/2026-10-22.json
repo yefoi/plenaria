@@ -1,0 +1,315 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "la-rapita",
+    "nombre": "La Ràpita",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4313620002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-22",
+    "municipio_id": "la-rapita",
+    "fecha": "2026-10-22",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4313620002/2026/d703af0a-13c6-42b8-9f51-677e78588e73/41_AnonimJGL_22octubre2026.pdf",
+    "hash_contenido": "76f1e70ebf08c9f42d816ed1784932aa603a6597519fb65facc2f4169943cce3",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-06T13:32:58.578Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-22#1",
+      "sesion_id": "2026-10-22",
+      "orden": 1,
+      "titulo": "Aprovació, si escau, de la sessió de la Junta de Govern Local del dia 8 d'octubre de 2026",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de la sessió de la Junta de Govern Local del dia 8 d'octubre de 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-06T13:32:58.578Z"
+      }
+    },
+    {
+      "id": "2026-10-22#2",
+      "sesion_id": "2026-10-22",
+      "orden": 2,
+      "titulo": "Aprovació, si escau, de la sessió de la Junta de Govern Local del dia 16 d'octubre de 2026",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de la sessió de la Junta de Govern Local del dia 16 d'octubre de 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-06T13:32:58.578Z"
+      }
+    },
+    {
+      "id": "2026-10-22#3",
+      "sesion_id": "2026-10-22",
+      "orden": 3,
+      "titulo": "Autoritzar, si escau, la resolució d'ocupació de la via pública, mitjançant parada informativa, del",
+      "resultado": null,
+      "texto_redactado": "Autoritzar, si escau, la resolució d'ocupació de la via pública, mitjançant parada informativa, del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.65,
+      "impacto": 2,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-06T13:32:58.578Z"
+      }
+    },
+    {
+      "id": "2026-10-22#4",
+      "sesion_id": "2026-10-22",
+      "orden": 4,
+      "titulo": "Aprovació, si escau, de l'alineació directa de parcel·la sobrera situada al Carrer 8 de gener,",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de l'alineació directa de parcel·la sobrera situada al Carrer 8 de gener,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.42,
+      "impacto": 2,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-06T13:32:58.578Z"
+      }
+    },
+    {
+      "id": "2026-10-22#5",
+      "sesion_id": "2026-10-22",
+      "orden": 5,
+      "titulo": "Aprovació, si escau, de reserva d'estacionament PMR.",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de reserva d'estacionament PMR.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.59,
+      "impacto": 2,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-06T13:32:58.578Z"
+      }
+    },
+    {
+      "id": "2026-10-22#6",
+      "sesion_id": "2026-10-22",
+      "orden": 6,
+      "titulo": "Aprovació, si escau, de l'adjudicació del contracte d’obres previstes al ÒProjecte d’instal·lació",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de l'adjudicació del contracte d’obres previstes al ÒProjecte d’instal·lació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 2,
+      "confianza_min": 0.19,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-06T13:32:58.578Z"
+      }
+    },
+    {
+      "id": "2026-10-22#7",
+      "sesion_id": "2026-10-22",
+      "orden": 7,
+      "titulo": "Consta en l’expedient el plec de clàusules administratives particulars, on s’estableixen els",
+      "resultado": null,
+      "texto_redactado": "Consta en l’expedient el plec de clàusules administratives particulars, on s’estableixen els",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.77,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-06T13:32:58.578Z"
+      }
+    },
+    {
+      "id": "2026-10-22#8",
+      "sesion_id": "2026-10-22",
+      "orden": 8,
+      "titulo": "La Junta de Govern Local en sessió de data 13 d’agost de 2026, acorda, incoar i aprovar",
+      "resultado": null,
+      "texto_redactado": "La Junta de Govern Local en sessió de data 13 d’agost de 2026, acorda, incoar i aprovar",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-06T13:32:58.578Z"
+      }
+    },
+    {
+      "id": "2026-10-22#9",
+      "sesion_id": "2026-10-22",
+      "orden": 9,
+      "titulo": "La convocatòria pública ha estat objecte d’informació pública mitjançant la publicació d’anuncis",
+      "resultado": null,
+      "texto_redactado": "La convocatòria pública ha estat objecte d’informació pública mitjançant la publicació d’anuncis",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-06T13:32:58.578Z"
+      }
+    },
+    {
+      "id": "2026-10-22#10",
+      "sesion_id": "2026-10-22",
+      "orden": 10,
+      "titulo": "En l’Acta de la Mesa de contractació de data 2 d’octubre de 2026, es posa de manifest el",
+      "resultado": null,
+      "texto_redactado": "En l’Acta de la Mesa de contractació de data 2 d’octubre de 2026, es posa de manifest el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-06T13:32:58.578Z"
+      }
+    },
+    {
+      "id": "2026-10-22#11",
+      "sesion_id": "2026-10-22",
+      "orden": 11,
+      "titulo": "En data 5 d’octubre de 2026, per part del Servei de Contractació de l’Ajuntament,",
+      "resultado": null,
+      "texto_redactado": "En data 5 d’octubre de 2026, per part del Servei de Contractació de l’Ajuntament,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.38,
+      "impacto": 2,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-06T13:32:58.578Z"
+      }
+    },
+    {
+      "id": "2026-10-22#12",
+      "sesion_id": "2026-10-22",
+      "orden": 12,
+      "titulo": "En data 19 d’octubre de 2026, s’emet proposta per part de la tècnica d’administració",
+      "resultado": null,
+      "texto_redactado": "En data 19 d’octubre de 2026, s’emet proposta per part de la tècnica d’administració",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 1,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-06T13:32:58.578Z"
+      }
+    }
+  ]
+}

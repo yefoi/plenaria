@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "madrid",
+    "nombre": "Madrid",
+    "provincia": "Madrid",
+    "fuente_tipo": "portal-sesiones",
+    "fuente_config": {
+      "listado_url": "https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/El-Pleno/Actividad-del-Pleno-y-las-Comisiones/Pleno/Sesiones-del-Pleno/?vgnextchannel=8e9858f5c050e210VgnVCM2000000c205a0aRCRD&vgnextfmt=default&vgnextoid=122481276d58c010VgnVCM100000d90ca8c0RCRD",
+      "patron_sesion": "Pleno/\\d{1,2}-de-[a-z]+-de-\\d{4}",
+      "patrones_pdf": [
+        "AC_[^/]*\\.pdf$",
+        "DS_[^/]*\\.pdf$"
+      ],
+      "tipo_por_defecto": "ordinaria",
+      "url_base_pdf": "https://transparencia.madrid.es",
+      "max_sesiones": 3,
+      "idioma": "es"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-29",
+    "municipio_id": "madrid",
+    "fecha": "2026-10-29",
+    "tipo": "extraordinaria",
+    "fuente_url": "https://transparencia.madrid.es/UnidadesDescentralizadas/UDCPleno/Actividad/Pleno/2026/2026-10-29%20E/DS_2582_PE_29_10_26.pdf",
+    "hash_contenido": "07b90c0f1b3e3f7d5582cb6526f99065f949a21469b21fd0c61261be9836769d",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-11-06T13:33:03.936Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-29#1",
+      "sesion_id": "2026-10-29",
+      "orden": 1,
+      "titulo": "3.635 pertenecientes a las 2.463 secciones censales en",
+      "resultado": null,
+      "texto_redactado": "3.635 pertenecientes a las 2.463 secciones censales en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-06T13:33:03.936Z"
+      }
+    }
+  ]
+}
