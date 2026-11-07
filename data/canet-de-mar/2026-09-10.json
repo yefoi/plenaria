@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "canet-de-mar",
+    "nombre": "Canet de Mar",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "804030008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-10",
+    "municipio_id": "canet-de-mar",
+    "fecha": "2026-09-10",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/804030008/2026/95bc805d-093a-4370-b777-9df452f81768/PLE%20260910_extracte.pdf",
+    "hash_contenido": "352b77bf89c36c9f03ef386fa868cc6d7adc35cc85e51cde38c389b230715116",
+    "estado_ingesta": "redactada",
+    "actualizada_en": "2026-11-07T12:03:04.222Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-10#1",
+      "sesion_id": "2026-09-10",
+      "orden": 1,
+      "titulo": "Propostes sotmeses a dictamen de la Comissió Informativa General",
+      "resultado": null,
+      "texto_redactado": "Propostes sotmeses a dictamen de la Comissió Informativa General",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-09-10#2",
+      "sesion_id": "2026-09-10",
+      "orden": 2,
+      "titulo": "S’habilitarà una sola bossa per dur a terme el sorteig, dins de la qual s’introduirà",
+      "resultado": null,
+      "texto_redactado": "S’habilitarà una sola bossa per dur a terme el sorteig, dins de la qual s’introduirà",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-09-10#3",
+      "sesion_id": "2026-09-10",
+      "orden": 3,
+      "titulo": "A continuació es procedirà al sorteig. Les persones que no resultin escollides",
+      "resultado": null,
+      "texto_redactado": "A continuació es procedirà al sorteig. Les persones que no resultin escollides",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-09-10#4",
+      "sesion_id": "2026-09-10",
+      "orden": 4,
+      "titulo": "La llista d’espera servirà per a cobrir qualsevol vacant que es produeixi, bé per",
+      "resultado": null,
+      "texto_redactado": "La llista d’espera servirà per a cobrir qualsevol vacant que es produeixi, bé per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}

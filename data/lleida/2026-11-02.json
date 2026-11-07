@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "lleida",
+    "nombre": "Lleida",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2512070005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-02",
+    "municipio_id": "lleida",
+    "fecha": "2026-11-02",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2512070005/2026/52e646c8-12d1-4f99-8a8c-a9097a0f4ba0/ACTA%20Ple%20sorteig_pendent%20aprovaci%f3.pdf",
+    "hash_contenido": "490a0471690a6813bdbacd580cffed62ab92ccecdee428db5c4ceb0ffcf57893",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-11-07T12:19:49.034Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-02#1",
+      "sesion_id": "2026-11-02",
+      "orden": 1,
+      "titulo": "2.0&endsAt=768.7484",
+      "resultado": null,
+      "texto_redactado": "2.0&endsAt=768.7484",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:49.034Z"
+      }
+    }
+  ]
+}

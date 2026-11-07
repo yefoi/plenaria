@@ -25,8 +25,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://transparencia.madrid.es/UnidadesDescentralizadas/UDCPleno/Actividad/Pleno/2026/2026-10-27/DS_2581_PO_27_10_26.pdf",
     "hash_contenido": "6a50e289f34c5771548dce6a0af06e4076b6f0cef6acaed02d45a812ba3f2ab3",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-11-06T13:32:19.923Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-07T12:19:55.245Z"
   },
   "puntos": [
     {
@@ -38,13 +38,20 @@
       "texto_redactado": "Aprobación, en su caso, de las actas de las sesiones anteriores que seguidamente se relacionan: - Sesión (9/2026), ordinaria de 29 de septiembre de 2026. - Sesión (10/2026), extraordinaria y urgente de 8 de octubre de 2026. Página .............................................................................................................................................................................. 8 − Intervenciones del presidente, el Sr. [NOMBRE], el Sr. Ortega Smith-Molina, la Sra. [NOMBRE], la Sra. [NOMBRE], la Sra. [NOMBRE], el Sr. [NOMBRE] y el secretario general del Pleno en funciones. − Votación y aprobación de las actas. 2. PARTE DE INFORMACIÓN, IMPULSO Y CONTROL (Subapartado 1)",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#2",
@@ -55,13 +62,20 @@
       "texto_redactado": "Pregunta n.º 20268000871, formulada por la concejala doña Arantzazu Purificación Cabello López, portavoz del Grupo Municipal VOX, dirigida al alcalde, interesando conocer qué va a hacer Òpara acabar con la ocupación, la degradación y la violencia en la Puerta del SolÓ. Página .............................................................................................................................................................................. 8 − Intervenciones del presidente, la Sra. [NOMBRE], el alcalde, Sr. Martínez-Almeida Navasqüés y y el secretario general del Pleno en funciones.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.64,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#3",
@@ -72,13 +86,20 @@
       "texto_redactado": "Pregunta n.º 20268000875, formulada por la concejala doña Reyes Maroto Illera, portavoz del Grupo Municipal Socialista de Madrid, dirigida al alcalde, interesando conocer qué valoración hace Òde los recursos que recibe el Ayuntamiento de Madrid del Gobierno de España, a través de los planes estatales de vivienda y los fondos europeos Next Generation EU, para impulsar la construcción de nuevas viviendas y la rehabilitación de edificiosÓ. Página .............................................................................................................................................................................. 9 − Intervenciones del presidente, la Sra. [NOMBRE], el alcalde, Sr. Martínez-Almeida Navasqüés y el secretario general del Pleno en funciones.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.67,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#4",
@@ -89,13 +110,20 @@
       "texto_redactado": "Pregunta n.º 20268000876, formulada por la concejala doña Rita Maestre Fernández, portavoz del Grupo Municipal Más Madrid, dirigida al alcalde, interesando conocer Òsi va a seguir este equipo de gobierno aplicando las mismas políticas ante las huelgas convocadas y el aumento de las movilizaciones sociales en MadridÓ. Página .............................................................................................................................................................................. 11 − Intervenciones del presidente, la Sra. [NOMBRE], el alcalde, Sr. Martínez-Almeida Navasqüés y el secretario general del Pleno en funciones.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.42,
+      "impacto": 2,
+      "confianza_min": 0.36,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#5",
@@ -106,13 +134,20 @@
       "texto_redactado": "Pregunta n.º 20268000877, formulada por el concejal don Carlos Izquierdo Torres, portavoz del Grupo Municipal del Partido Popular, dirigida al alcalde, interesando conocer, Òsi Madrid ha bajado el IBI seis veces hasta el mínimo legal, qué diferencia marca esto con el modelo fiscal del Gobierno de SánchezÓ. Página .............................................................................................................................................................................. 13 − Intervenciones del presidente, el Sr. [NOMBRE], el alcalde, Sr. Martínez-Almeida Navasqüés y el secretario general del Pleno en funciones. Diario de Sesiones del Pleno del Ayuntamiento de Madrid Fecha de edición 6 de noviembre de 2026 Página 3 Núm. 2.581 Sesión (11/2026), ordinaria de 27 de octubre de 2026 Pleno del Ayuntamiento",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.79,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#6",
@@ -123,13 +158,20 @@
       "texto_redactado": "Pregunta n.º 20268000860, formulada por el concejal don Enrique Rico García Hierro, del Grupo Municipal Socialista de Madrid, con el visto bueno de su portavoz, dirigida a la vicealcaldesa y delegada del Área de Gobierno de Vicealcaldía, Portavoz, Seguridad y Emergencias, interesando conocer qué valoración hace Òde la acampada de la Puerta del SolÓ. Página .............................................................................................................................................................................. 15 − Intervenciones del secretario general del Pleno en funciones, el presidente, el Sr. [NOMBRE] y la Sra. [NOMBRE]",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.43,
+      "impacto": 2,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#7",
@@ -140,13 +182,20 @@
       "texto_redactado": "Pregunta n.º 20268000862, formulada por la concejala doña Esther Gómez Morante, del Grupo Municipal Más Madrid, con el visto bueno de su portavoz, interesando conocer Òcómo valora el gobierno la afectación sobre la movilidad en la ciudad que van a tener las últimas modificaciones de trazado en varias líneas de Metro de MadridÓ. Página .............................................................................................................................................................................. 16 − Intervención del secretario general del Pleno en funciones. − La precedente iniciativa se retira por la autora proponente antes del comienzo de su deliberación, en los términos del art. 65.1 del Reglamento Orgánico del Pleno.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.44,
+      "impacto": 1,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#8",
@@ -157,13 +206,20 @@
       "texto_redactado": "Pregunta n.º 20268000864, formulada por el concejal don Fernando Martínez Vidal, portavoz adjunto del Grupo Municipal VOX, dirigida al delegado del Área de Gobierno de Urbanismo, Medio Ambiente y Movilidad, interesando Òque informe cuánto le está costando a los madrileños la limpieza, desinfección, desinsectación, desratización, recogida de basuras y botellas, destrozo de mobiliario urbano y pintadas vandálicas en edificios públicos, patrimonio histórico y monumentos, producidos por los radicales de extrema izquierda, que sin oficio ni beneficio llevan dos meses ocupando de manera ilegal la Puerta del Sol, con el consentimiento del Delegado del Gobierno y si el Ayuntamiento le ha enviado ya la factura al Sindicato de InquilinasÓ. Página .........................................................................................................................................................",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.68,
+      "impacto": 2,
+      "confianza_min": 0.07,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#9",
@@ -174,13 +230,20 @@
       "texto_redactado": "Pregunta n.º 20268000865, formulada por el concejal don Fernando Martínez Vidal, portavoz adjunto del Grupo Municipal VOX, dirigida al delegado del Área de Gobierno de Urbanismo, Medio Ambiente y Movilidad, interesando conocer Òsi el Ayuntamiento va a asumir su responsabilidad, de subsanar el error a coste cero para los vecinos y desbloquear de inmediato las citas de la EMVS para las 5.400 familias, o va a seguir mirando hacia otro ladoÓ. Página .............................................................................................................................................................................. 18 − Intervenciones del presidente, el Sr. [NOMBRE] y el secretario general del Pleno en funciones. − La precedente iniciativa se retira Òin voceÓ por el autor proponente antes del comienzo de su deliberación, en los términos del art. 65.1 del Reglamento Orgánico del P",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.67,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#10",
@@ -191,13 +254,21 @@
       "texto_redactado": "Pregunta n.º 20268000869, formulada por la concejala doña Arantzazu Purificación Cabello López, portavoz del Grupo Municipal VOX, interesando conocer si Òse ratifica el equipo de gobierno en su afirmación de que podría cobrar a los madrileños casi el doble por la tasa de residuosÓ. Página .............................................................................................................................................................................. 18 − Intervenciones del presidente, la Sra. [NOMBRE], la Sra. [NOMBRE] y el secretario general del Pleno en funciones.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "presupuesto_impuestos",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.86,
+      "impacto": 4,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#11",
@@ -208,13 +279,20 @@
       "texto_redactado": "Pregunta n.º 20268000873, formulada por el concejal don Fernando Martínez Vidal, portavoz adjunto del Grupo Municipal VOX, interesando conocer si Òtiene previsto el gobierno municipal incorporar criterios de prioridad por empadronamiento y arraigo territorial en la adjudicación de plazas de las actividades deportivas municipales, especialmente cuando existan listas de esperaÓ. Página .............................................................................................................................................................................. 19 − Intervenciones del presidente, el Sr. [NOMBRE], la Sra. [NOMBRE] y el secretario general del Pleno en funciones.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.78,
+      "impacto": 3,
+      "confianza_min": 0.43,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#12",
@@ -225,13 +303,20 @@
       "texto_redactado": "Pregunta n.º 20268000874, formulada por la concejala doña Rita Maestre Fernández, portavoz del Grupo Municipal Más Madrid, interesando conocer Òqué medidas va a implementar el Ayuntamiento de Madrid para garantizar la efectiva aplicación del Real Decreto-ley 29/2026 para la protección de la función social de la vivienda y la ampliación de la oferta de vivienda asequibleÓ. Página .............................................................................................................................................................................. 21 Diario de Sesiones del Pleno del Ayuntamiento de Madrid Fecha de edición 6 de noviembre de 2026 Página 4 Núm. 2.581 Sesión (11/2026), ordinaria de 27 de octubre de 2026 Pleno del Ayuntamiento − Intervenciones del presidente, el Sr. [NOMBRE], el Sr. [NOMBRE], el alcalde, Sr. [NOMBRE] y el secretario general",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.84,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#13",
@@ -242,13 +327,20 @@
       "texto_redactado": "Propuestas del Área de Gobierno de Economía, Innovación y Hacienda para conceder, en treinta y siete expedientes, otras tantas solicitudes de declaración de especial interés o utilidad municipal, a los efectos de la obtención de las correspondientes bonificaciones en el Impuesto sobre Construcciones, Instalaciones y Obras. Página .............................................................................................................................................................................. 22 − Intervenciones del secretario general del Pleno en funciones, el presidente, el Sr. [NOMBRE], el Sr. Ortega Smith-Molina, la Sra. [NOMBRE], la Sra. [NOMBRE], la Sra. [NOMBRE] y el Sr. [NOMBRE] − Votación y aprobación de la propuesta.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.74,
+      "impacto": 3,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#14",
@@ -259,13 +351,20 @@
       "texto_redactado": "Propuestas del Área de Gobierno de Economía, Innovación y Hacienda para denegar, en veintitrés expedientes, otras tantas solicitudes de declaración de especial interés o utilidad municipal, a los efectos de la obtención de las correspondientes bonificaciones en el Impuesto sobre Construcciones, Instalaciones y Obras. Página .............................................................................................................................................................................. 23 − Votación y aprobación de la propuesta.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.52,
+      "impacto": 2,
+      "confianza_min": 0.75,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#15",
@@ -276,13 +375,20 @@
       "texto_redactado": "Propuesta del Área de Gobierno de Economía, Innovación y Hacienda para la adopción por el Pleno de un acuerdo con el objeto de proceder a la aplicación del remanente líquido de tesorería para gastos generales para financiar créditos del estado de gastos del presupuesto general del Ayuntamiento de Madrid 2026 y determinar el destino de los superávits de las liquidaciones de los ejercicios 2024 y 2025 en el presente ejercicio. Página .............................................................................................................................................................................. 23 − Votación y aprobación de la propuesta. Proposiciones de los grupos políticos",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#16",
@@ -293,13 +399,21 @@
       "texto_redactado": "Proposición n.º 20268000857, presentada por el concejal don Pedro Esteban Barrero Cuadrado, del Grupo Municipal Socialista de Madrid, con el visto bueno de su portavoz, interesando que el Pleno del Ayuntamiento inste al gobierno municipal a aprobar un Plan Extraordinario Municipal frente a la emergencia habitacional contemplando las medidas que contiene la iniciativa; al Gobierno de la Comunidad de Madrid a declarar la ciudad de Madrid como zona de mercado residencial tensionado y, a aplicar, los límites al precio del alquiler previstos en la Ley de Vivienda, de acuerdo con el artículo 18 de la Ley 12/2023, por el derecho a la vivienda, y el artículo 17, apartados 6 y 7, de la Ley de Arrendamientos Urbanos. Página .............................................................................................................................................................................. 2",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "vivienda",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.7,
+      "impacto": 4,
+      "confianza_min": 0.31,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#17",
@@ -310,13 +424,21 @@
       "texto_redactado": "Proposición n.º 20268000859, presentada por el concejal no adscrito don Ignacio Ansaldo Adriaensens, interesando que el equipo de gobierno del Ayuntamiento inste, de manera inmediata, en el mismo día del pleno, a la Delegación del Gobierno en Madrid a que dé instrucciones para desalojar inmediatamente el asentamiento ilegal de la Puerta del Sol, sin agotar ningún tipo de plazo y, en caso de no recibir respuesta o Diario de Sesiones del Pleno del Ayuntamiento de Madrid Fecha de edición 6 de noviembre de 2026 Página 5 Núm. 2.581 Sesión (11/2026), ordinaria de 27 de octubre de 2026 Pleno del Ayuntamiento ser negativa, en virtud de sus competencias en salubridad pública y protección del patrimonio histórico- cultural de la ciudad, ordene las actuaciones necesarias para desalojar a los acampados en la Puerta del Sol. Página .....................................................................",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.64,
+      "impacto": 3,
+      "confianza_min": 0.41,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#18",
@@ -327,13 +449,22 @@
       "texto_redactado": "Proposición n.º 20268000861, presentada por la concejala doña Mar Barberán Parrado, del Grupo Municipal Más Madrid, con el visto bueno de su portavoz, interesando que se inste a la Comunidad de Madrid a que, en colaboración con el Ayuntamiento, se destinen los terrenos del antiguo campo de fútbol de Puerta Bonita a la creación de un polideportivo público de gestión directa con piscina; se rehabilite el antiguo Colegio Magerit para usos públicos de carácter cultural, educativo y juvenil; que se adquiera por el Ayuntamiento el edificio de la antigua Fundación Goicoechea e Isusi para destinarlo a centro de día para personas mayores, y llevar a cabo las demás medidas de la iniciativa para dar respuesta a las necesidades vecinales del distrito de Carabanchel. Página ................................................................................................................................",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "cultura_deporte_educacion",
+        "mociones_grupos",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.67,
+      "impacto": 4,
+      "confianza_min": 0.4,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#19",
@@ -344,13 +475,21 @@
       "texto_redactado": "Proposición n.º 20268000863, presentada por la concejala doña María Pilar Sánchez Álvarez, del Grupo Municipal Más Madrid, con el visto bueno de su portavoz, interesando que el Pleno del Ayuntamiento a través de sus representantes en la Junta General de Accionistas de la empresa mixta ÒClub de Campo Villa de Madrid S.A.Ó promueva la disolución de la misma, al finalizar el plazo de duración de la sociedad fijado, por el acuerdo plenario de 30 de enero de 1991, en el 31 de diciembre de 2025, e inicie el procedimiento para la gestión directa de las actuales instalaciones del Club de Campo Villa de Madrid, como centro deportivo municipal adscrito al Área Delegada de Deporte. Página .............................................................................................................................................................................. 36 − Intervenciones del presidente, la",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "cultura_deporte_educacion",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.58,
+      "impacto": 4,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#20",
@@ -361,13 +500,21 @@
       "texto_redactado": "Proposición n.º 20268000866, presentada por la concejala doña Emilia Martínez Garrido, del Grupo Municipal Socialista de Madrid, con el visto bueno de su portavoz, interesando que se inste al gobierno municipal a instalar en el bulevar de la calle Alcalde Sáinz de Baranda, a la altura del número 46, una placa conmemorativa en memoria de María del Carmen Abascal Martín, vecina de nuestra ciudad y símbolo de la crisis de la vivienda y se promueva un proceso participativo para definir el texto de la placa. Página .............................................................................................................................................................................. 40 − Intervenciones del presidente, la Sra. [NOMBRE], la Sra. [NOMBRE], el Sr. [NOMBRE], la Sra. [NOMBRE], el Sr. Ortega Smith-Molina, el Sr. [NOMBRE], el Sr. [NOMBRE]",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 2,
+      "confianza_min": 0.84,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#21",
@@ -378,13 +525,22 @@
       "texto_redactado": "Proposición n.º 20268000867, presentada por la concejala doña Meritxell Tizón Gutiérrez, portavoz adjunta del Grupo Municipal Socialista de Madrid, con el visto bueno de su portavoz, interesando que se inste al gobierno municipal a aprobar, en el plazo de seis meses, un plan de refuerzo de la red municipal de atención a personas sin hogar que contemple los recursos de emergencia, centros de acogida y Equipos de Calle necesarios para garantizar una atención adecuada y llevar a cabo las demás actuaciones establecidas en la iniciativa orientadas a una mayor participación y evaluación por los servicios implicados en esta materia. Página .............................................................................................................................................................................. 44 − Intervenciones del secretario general del Pleno en funciones, el presidente, la",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales",
+        "mociones_grupos",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.7,
+      "impacto": 3,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#22",
@@ -395,13 +551,20 @@
       "texto_redactado": "Proposición n.º 20268000868, presentada por la concejala doña Arantzazu Purificación Cabello López, portavoz del Grupo Municipal VOX, interesando que el Pleno del Ayuntamiento exprese su rechazo a la atribución masiva, indiscriminada e ilegal de la nacionalidad española de extranjeros, como consecuencia de la interpretación de la disposición adicional octava de la Ley 20/2022, de 19 de octubre, de Memoria Democrática realizada por la Instrucción de 25 de octubre de 2022 de la Dirección General de Seguridad Jurídica y Fe Pública y, al procedimiento de inscripción censal llevado al efecto, así como llevar a cabo las demás actuaciones que señala la iniciativa en esta materia. Página .............................................................................................................................................................................. 48 − Intervenciones del secretario g",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 2,
+      "confianza_min": 0.41,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#23",
@@ -412,13 +575,22 @@
       "texto_redactado": "Proposición n.º 20268000870, presentada por la concejala doña María Caso Escudero, del Grupo Municipal Socialista de Madrid, con el visto bueno de su portavoz, interesando instar al Gobierno de la Comunidad de Madrid, a negociar, dentro del ámbito de sus competencias, con las organizaciones convocantes de la huelga indefinida de la educación pública; al gobierno municipal a negociar con los representantes de las educadoras infantiles y, a ambos gobiernos regional y municipal a adoptar las medidas que contiene la iniciativa para dar solución a las demandas planteadas por la educación pública madrileña con la incorporación en la elaboración de los Presupuestos para 2027 de las partidas presupuestarias necesarias para financiarlas. Página ..........................................................................................................................................................",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "cultura_deporte_educacion",
+        "mociones_grupos",
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.52,
+      "impacto": 4,
+      "confianza_min": 0.37,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#24",
@@ -429,13 +601,22 @@
       "texto_redactado": "Proposición n.º 20268000872, presentada por la concejala doña Sara Ladra Álvarez, del Grupo Municipal Más Madrid, con el visto bueno de su portavoz, interesando Òque el órgano competente, durante el trámite de aprobación del proyecto de las Ordenanzas Fiscales del Ayuntamiento de Madrid 2026, introduzca las modificaciones necesarias en las ordenanzas fiscales correspondientes de forma que se dé cumplimiento a lo establecido en el Real Decreto-ley 29/2026, de 6 de octubre, por el que se adoptan medidas urgentes para la protección de la función social de la vivienda y la ampliación de la oferta de vivienda asequible, en relación con la prohibición de atribuir a los arrendatarios cualquier tributo vinculado a la viviendaÓ. Página ...................................................................................................................................................................",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "presupuesto_impuestos",
+        "vivienda",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.89,
+      "impacto": 4,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#25",
@@ -446,13 +627,21 @@
       "texto_redactado": "Dar cuenta de la Resolución de la Presidencia del Pleno, de 20 de octubre de 2026, de corrección de los errores materiales advertidos en el texto del Reglamento 5/2026, de 29 de septiembre, por el que se modifica el Reglamento 7/2022, de 26 de abril, por el que se establece el régimen de las Entidades Colaboradoras Urbanísticas de verificación, inspección y control. Página .............................................................................................................................................................................. 62 − Intervenciones del secretario general del Pleno en funciones y el presidente. Información del Equipo de Gobierno",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional",
+        "urbanismo_licencias"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.88,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#26",
@@ -463,13 +652,20 @@
       "texto_redactado": "Dar cuenta del Acuerdo de 24 de septiembre de 2026 de la Junta de Gobierno de la Ciudad de Madrid, por el que se avocan las competencias para la redacción del proyecto y posterior ejecución de obras de adecuación de entorno escolar en la calle Eugenio Salazar del distrito de Chamartín, y se delegan en la concejala presidenta del distrito de Chamartín. Página .............................................................................................................................................................................. 62 − Intervención del secretario general del Pleno en funciones. Diario de Sesiones del Pleno del Ayuntamiento de Madrid Fecha de edición 6 de noviembre de 2026 Página 7 Núm. 2.581 Sesión (11/2026), ordinaria de 27 de octubre de 2026 Pleno del Ayuntamiento",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.7,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#27",
@@ -480,13 +676,20 @@
       "texto_redactado": "Dar cuenta del informe, de 30 de septiembre de 2026, emitido por la Coordinadora General de Presupuestos y Recursos Humanos, sobre el cumplimiento de lo previsto en el artículo 104 bis de la Ley 7/1985, de 2 de abril, reguladora de las Bases de Régimen Local, relativo al tercer trimestre de 2026, remitido por Decreto de 30 de septiembre de 2026 de la delegada del Área de Gobierno de Economía, Innovación y Hacienda. Página .............................................................................................................................................................................. 62",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.84,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#28",
@@ -497,13 +700,21 @@
       "texto_redactado": "Dar cuenta del Acuerdo de 8 de octubre de 2026 de la Junta de Gobierno de la Ciudad de Madrid, por el que se avoca la competencia para la redacción del proyecto y la ejecución de las obras de embellecimiento de la isla central de la glorieta situada en la confluencia de las calles Ocaña y Nuestra Señora de la Luz, en el Distrito de Latina, y se delega en el Concejal Presidente del Distrito de Latina. Página .............................................................................................................................................................................. 62",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "contratacion_obras",
+        "urbanismo_licencias"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.76,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#29",
@@ -514,13 +725,20 @@
       "texto_redactado": "Dar cuenta del informe definitivo de control financiero emitido por la Intervención General, en cumplimiento del artículo 36.1 del Real Decreto 424/2017, de 28 de abril, por el que se regula el régimen jurídico del control interno en las entidades del Sector Público Local, en la modalidad de auditoría pública de cumplimiento y operativa sobre el área de personal, de la Empresa Municipal de Servicios Funerarios y Cementerios de Madrid, S.A., correspondiente al ejercicio 2024 (PACF 2025), remitido por Decreto de 15 de octubre de 2026 de la delegada del Área de Gobierno de Economía, Innovación y Hacienda. Página .............................................................................................................................................................................. 62 5. MOCIONES DE URGENCIA",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#30",
@@ -531,13 +749,20 @@
       "texto_redactado": "",
       "importe_eur": null,
       "sensible": true,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.91,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     },
     {
       "id": "2026-10-27#31",
@@ -548,13 +773,21 @@
       "texto_redactado": "Moción de urgencia n.º 20268000883, presentada por el concejal don Carlos Izquierdo Torres, portavoz del Grupo Municipal del Partido Popular, interesando que el Pleno exija a la Delegación del Gobierno en la Comunidad de Madrid que levante de inmediato la concentración ilegal, restablezca la normalidad en la Puerta del Sol, y termine con los graves problemas de seguridad, peligro para cualquier evacuación, daños patrimoniales, insalubridad y perjuicios a los comercios que en estos momentos se están produciendo en la zona. Página .............................................................................................................................................................................. 63 − Intervenciones del presidente, el Sr. [NOMBRE], el Sr. [NOMBRE], el Sr. [NOMBRE], la Sra. [NOMBRE], la Sra. [NOMBRE], la Sra. [NOMBRE],",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.58,
+      "impacto": 3,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-07T12:19:55.245Z"
+      }
     }
   ]
 }
