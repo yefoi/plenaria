@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "santa-perpetua-de-mogoda",
+    "nombre": "Santa Perpètua de Mogoda",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "826060009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-29",
+    "municipio_id": "santa-perpetua-de-mogoda",
+    "fecha": "2026-10-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/826060009/2026/43327b55-1080-4347-9c92-1c21bea563b2/extracte%2012-29.10.2026.pdf",
+    "hash_contenido": "ae428f591e19eaa937bcedac8bbcfebacaef161ec82bb2a6b4c673c0d71737f6",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-08T12:32:21.892Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-29#2",
+      "sesion_id": "2026-10-29",
+      "orden": 2,
+      "titulo": "Serveis Econòmics. Expedient: 2026/[DNI].",
+      "resultado": null,
+      "texto_redactado": "Serveis Econòmics. Expedient: 2026/[DNI].",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.892Z"
+      }
+    },
+    {
+      "id": "2026-10-29#3",
+      "sesion_id": "2026-10-29",
+      "orden": 3,
+      "titulo": "Serveis Econòmics. Expedient: 2026/[DNI].",
+      "resultado": null,
+      "texto_redactado": "Serveis Econòmics. Expedient: 2026/[DNI].",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.892Z"
+      }
+    },
+    {
+      "id": "2026-10-29#4",
+      "sesion_id": "2026-10-29",
+      "orden": 4,
+      "titulo": "Serveis Econòmics. Expedient: 2026/[DNI].",
+      "resultado": null,
+      "texto_redactado": "Serveis Econòmics. Expedient: 2026/[DNI].",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.892Z"
+      }
+    },
+    {
+      "id": "2026-10-29#5",
+      "sesion_id": "2026-10-29",
+      "orden": 5,
+      "titulo": "Serveis Econòmics. Expedient: 2026/[DNI].",
+      "resultado": null,
+      "texto_redactado": "Serveis Econòmics. Expedient: 2026/[DNI].",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.892Z"
+      }
+    },
+    {
+      "id": "2026-10-29#6",
+      "sesion_id": "2026-10-29",
+      "orden": 6,
+      "titulo": "Serveis Urbans, Mobilitat i Canvi Climàtic. Expedient: 2026/[DNI].",
+      "resultado": null,
+      "texto_redactado": "Serveis Urbans, Mobilitat i Canvi Climàtic. Expedient: 2026/[DNI].",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "medio_ambiente",
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 2,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.892Z"
+      }
+    },
+    {
+      "id": "2026-10-29#7",
+      "sesion_id": "2026-10-29",
+      "orden": 7,
+      "titulo": "Servei d'Urbanisme, Llicències i Habitatge. Expedient: 2022/[DNI].",
+      "resultado": null,
+      "texto_redactado": "Servei d'Urbanisme, Llicències i Habitatge. Expedient: 2022/[DNI].",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias",
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.55,
+      "impacto": 1,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.892Z"
+      }
+    }
+  ]
+}

@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/2512070005/2026/85d78bd0-797a-4974-8717-fa25ac5978be/Acta%20Ple%20ordinari%2030-10-2026%20pendent%20aprovaci%f3.pdf",
     "hash_contenido": "4ca004bd7ae8a16e929f33f57ca836d55fd6ed56db62bdde986df4c032784223",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-11-07T11:50:45.036Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-08T12:32:21.095Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "APROVAR L’ACTA DE LA SESSIÓ ORDINÀRIA DEL DIA 25 DE SETEMBRE [MATRÍCULA] L’ACTA DE LA SESSIÓ EXTRAORDINÀRIA DEL DIA 20 D’OCTUBRE DE 2026.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.095Z"
+      }
     },
     {
       "id": "2026-10-30#2",
@@ -49,13 +56,20 @@
       "texto_redactado": "DONAR COMPTE DELS DECRETS DICTATS PER L’ALCALDIA DES DEL DARRER",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.79,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.095Z"
+      }
     },
     {
       "id": "2026-10-30#3",
@@ -66,13 +80,20 @@
       "texto_redactado": "DONAR COMPTE ESPECÍFIC DE DECRETS AL PLE.-",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.74,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.095Z"
+      }
     },
     {
       "id": "2026-10-30#4",
@@ -83,13 +104,20 @@
       "texto_redactado": "DONAR COMPTE DE L’INFORME 13/2026, COMPTE GENERAL DE LES CORPORACIONS LOCALS, EXERCICI 2024, DE LA SINDICATURA DE COMPTES DE",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.095Z"
+      }
     },
     {
       "id": "2026-10-30#5",
@@ -100,13 +128,20 @@
       "texto_redactado": "DONAR COMPTE DELS INFORMES DE CONTROL FINANCER PCAF 2026 EN REFERÈNCIA A L’EXERCICI 2025.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.71,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.095Z"
+      }
     },
     {
       "id": "2026-10-30#6",
@@ -117,13 +152,20 @@
       "texto_redactado": "",
       "importe_eur": null,
       "sensible": true,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.85,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.095Z"
+      }
     },
     {
       "id": "2026-10-30#7",
@@ -134,13 +176,20 @@
       "texto_redactado": "",
       "importe_eur": null,
       "sensible": true,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.85,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.095Z"
+      }
     },
     {
       "id": "2026-10-30#8",
@@ -151,13 +200,20 @@
       "texto_redactado": "APROVAR DEFINITIVAMENT EL REGLAMENT DEL CONSELL MUNICIPAL DE LES DONES DE LLEIDA.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 2,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.095Z"
+      }
     },
     {
       "id": "2026-10-30#9",
@@ -168,13 +224,20 @@
       "texto_redactado": "APROVAR LA DESAFECTACIÓ DE L’òS I SERVEI PòBLIC D’UN VEHICLE MUNICIPAL, QUE PRESTAVA SERVEI AL SERVEI DE BRIGADA D’OBRES, MARCA CITROEN, MODEL BERLINGO, MATRÍCULA [MATRÍCULA] (EXP. PAT 127_2026).",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 2,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.095Z"
+      }
     },
     {
       "id": "2026-10-30#10",
@@ -185,13 +248,20 @@
       "texto_redactado": "DONAR CONFORMITAT AL TEXT REFÓS DE LA MODIFICACIÓ PUNTUAL DEL PLA GENERAL D'ORDENACIÓ URBANA DE LLEIDA PER A LA REORDENACIÓ DE VOLUMETRIES I CONCRECIÓ D’USOS EN L’ILLA DELIMITADA PEL CARRER ENGINYER SANTI COMPANYS, L’AVINGUDA ALBARÉS, EL CARRER ENGINYER",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 3,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.095Z"
+      }
     },
     {
       "id": "2026-10-30#11",
@@ -202,13 +272,20 @@
       "texto_redactado": "EMETRE INFORME EN RELACIÓ AMB L’AVANÇ DEL PLA PARCIAL URBANÍSTIC DE DELIMITACIÓ SECTOR SUR 27 DE LLEIDA (PU26-12 - X020106A/2026/0001).",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0.03,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.095Z"
+      }
     },
     {
       "id": "2026-10-30#12",
@@ -219,13 +296,20 @@
       "texto_redactado": "APROVAR EL PLEC DE CLÀUSULES ADMINISTRATIVES PARTICULARS I EL PLEC DE PRESCRIPCIONS TÈCNIQUES DEL CONTRACTE DEL SERVEI DE REDACCIÓ DEL PLA DIRECTOR DE LES MURALLES, ESGLÉSIA I CASTELL DE GARDENY, MITJANÇANT PROCEDIMENT OBERT SIMPLIFICAT DE TRAMITACIÓ ORDINÀRIA ANTICIPADA, AMB DIVERSOS CRITERIS D’ADJUDICACIÓ I INICIAR LA LICITACIÓ (EXP. SER_OBE_2026_0030).",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 2,
+      "confianza_min": 0.31,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.095Z"
+      }
     },
     {
       "id": "2026-10-30#13",
@@ -236,13 +320,21 @@
       "texto_redactado": "APROVAR INICIALMENT, AMB TRAMITACIÓ D’URGÈNCIA, EL PROJECTE EXECUTIU DE CONSTRUCCIÓ DE LA NOVA DEIXALLERIA DE LLEIDA (EXP. OBR_OBE_2026_0023).",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.72,
+      "impacto": 4,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.095Z"
+      }
     },
     {
       "id": "2026-10-30#14",
@@ -253,13 +345,21 @@
       "texto_redactado": "APROVAR INICIALMENT, AMB TRAMITACIÓ D’URGÈNCIA, EL PROJECTE DE CONTENCIÓ I PREVENCIÓ D’INUNDABILITAT DEL RIU SEGRE A LLEIDA, FASE 2- MILLORA DE LA CANALITZACIÓ TRAM CAMPS ELISIS – PONT VELL A LLEIDA (EXP. OBR_OBE_2026_0030).",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.74,
+      "impacto": 4,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.095Z"
+      }
     },
     {
       "id": "2026-10-30#15",
@@ -270,13 +370,20 @@
       "texto_redactado": "APROVAR L'ADHESIÓ DE L’AJUNTAMENT DE LLEIDA A L’ASSOCIACIÓ CIVIL BARCELONA – CATALUNYA CENTRE LOGÍSTIC (EXP. 35/2026_PC).",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 2,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.095Z"
+      }
     },
     {
       "id": "2026-10-30#16",
@@ -287,13 +394,20 @@
       "texto_redactado": "DECLARACIÓ INSTITUCIONAL DE L’AJUNTAMENT DE LLEIDA, DE SUPORT A NOUS ESTUDIS POLITÈCNICS A LA UNIVERSITAT DE LLEIDA (UDL).",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 2,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.095Z"
+      }
     },
     {
       "id": "2026-10-30#17",
@@ -304,13 +418,22 @@
       "texto_redactado": "MOCIÓ PROMOGUDA PELS SINDICATS UGT I CCOO, RELATIVA AL FUTUR MODEL DE GESTIÓ DE LES RESIDÈNCIES DE GENT GRAN DE LLEIDA, BALÀFIA 1 I",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales",
+        "mociones_grupos",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.66,
+      "impacto": 4,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.095Z"
+      }
     },
     {
       "id": "2026-10-30#18",
@@ -321,13 +444,21 @@
       "texto_redactado": "MOCIÓ PRESENTADA PELS GRUPS MUNICIPALS ERC-AM I COMòDELLEIDA, PER GARANTIR L’EXECUCIÓ DELS ACORDS EN MATÈRIA D’HABITATGE, IMPULSAR UN CENS MUNICIPAL OPERATIU D’HABITATGES BUITS I CONÈIXER ELS ACTIUS",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "vivienda",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 3,
+      "confianza_min": 0.14,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.095Z"
+      }
     },
     {
       "id": "2026-10-30#19",
@@ -338,13 +469,20 @@
       "texto_redactado": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL VOX, PARA LA ELIMINACIÓN DE LA CITA PRÈVIA OBLIGATÒRIA Y LA GARANTIA DE ATENCIÓN PRESENCIAL EN",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.71,
+      "impacto": 4,
+      "confianza_min": 0.18,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.095Z"
+      }
     },
     {
       "id": "2026-10-30#20",
@@ -355,13 +493,20 @@
       "texto_redactado": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL COMòDELLEIDA, SOBRE LA PROTECCIÓ DE LES PENSIONS DE LES PERSONES QUE HAN COTITZAT MÉS DE 40",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.095Z"
+      }
     },
     {
       "id": "2026-10-30#21",
@@ -372,13 +517,20 @@
       "texto_redactado": "MOCIÓ PRESENTADA PEL GRUP MUNICIPAL PP, DE SUPORT A LES FAMÍLIES",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.74,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:21.095Z"
+      }
     }
   ]
 }

@@ -1,0 +1,339 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "alcarras",
+    "nombre": "Alcarràs",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2501170005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-07",
+    "municipio_id": "alcarras",
+    "fecha": "2026-10-07",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2501170005/2026/3694436d-6c78-4629-a2cf-5697e8bffaa0/20261106_Acta_Acta%20ple_ACTA%20DEL%20PLE%202026-0006%20anonimitzada.pdf",
+    "hash_contenido": "716067876f146d01a4cc79a916d30e4bafc9ad694775012cb513fd24d8d449c5",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-08T12:32:20.068Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-07#1",
+      "sesion_id": "2026-10-07",
+      "orden": 1,
+      "titulo": "Aprovació del compte general del 2025",
+      "resultado": null,
+      "texto_redactado": "Aprovació del compte general del 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 2,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:20.068Z"
+      }
+    },
+    {
+      "id": "2026-10-07#2",
+      "sesion_id": "2026-10-07",
+      "orden": 2,
+      "titulo": "Aprovació provisional de les Ordenances fiscals per a l’exercici de 2027 i",
+      "resultado": null,
+      "texto_redactado": "Aprovació provisional de les Ordenances fiscals per a l’exercici de 2027 i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.83,
+      "impacto": 5,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:20.068Z"
+      }
+    },
+    {
+      "id": "2026-10-07#3",
+      "sesion_id": "2026-10-07",
+      "orden": 3,
+      "titulo": "Aprovació inicial de l'expedient de modificació del pressupost 14/2026",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial de l'expedient de modificació del pressupost 14/2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.38,
+      "impacto": 2,
+      "confianza_min": 0.18,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:20.068Z"
+      }
+    },
+    {
+      "id": "2026-10-07#4",
+      "sesion_id": "2026-10-07",
+      "orden": 4,
+      "titulo": "Sol·licitud a la Generalitat perquè cedeixi la sitja",
+      "resultado": null,
+      "texto_redactado": "Sol·licitud a la Generalitat perquè cedeixi la sitja",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 2,
+      "confianza_min": 0.16,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:20.068Z"
+      }
+    },
+    {
+      "id": "2026-10-07#5",
+      "sesion_id": "2026-10-07",
+      "orden": 5,
+      "titulo": "Donar compte de l'Informe de Sindicatura 13/2026",
+      "resultado": null,
+      "texto_redactado": "Donar compte de l'Informe de Sindicatura 13/2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:20.068Z"
+      }
+    },
+    {
+      "id": "2026-10-07#6",
+      "sesion_id": "2026-10-07",
+      "orden": 6,
+      "titulo": "Els subjectes passius que en els seus béns immobles hagin instal·lat sistemes per a",
+      "resultado": null,
+      "texto_redactado": "Els subjectes passius que en els seus béns immobles hagin instal·lat sistemes per a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.56,
+      "impacto": 2,
+      "confianza_min": 0.33,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:20.068Z"
+      }
+    },
+    {
+      "id": "2026-10-07#7",
+      "sesion_id": "2026-10-07",
+      "orden": 7,
+      "titulo": "S’aplica una bonificació del 95 % de la quota íntegra de l’impost a favor dels immobles",
+      "resultado": null,
+      "texto_redactado": "S’aplica una bonificació del 95 % de la quota íntegra de l’impost a favor dels immobles",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.9,
+      "impacto": 5,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:20.068Z"
+      }
+    },
+    {
+      "id": "2026-10-07#8",
+      "sesion_id": "2026-10-07",
+      "orden": 8,
+      "titulo": "Les sol·licituds de bonificació per al reconeixement dels beneficis fiscals regulats",
+      "resultado": null,
+      "texto_redactado": "Les sol·licituds de bonificació per al reconeixement dels beneficis fiscals regulats",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 2,
+      "confianza_min": 0.27,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:20.068Z"
+      }
+    },
+    {
+      "id": "2026-10-07#9",
+      "sesion_id": "2026-10-07",
+      "orden": 9,
+      "titulo": "En qualsevol cas, la manca d’aportació documental dins del termini establert",
+      "resultado": null,
+      "texto_redactado": "En qualsevol cas, la manca d’aportació documental dins del termini establert",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:20.068Z"
+      }
+    },
+    {
+      "id": "2026-10-07#10",
+      "sesion_id": "2026-10-07",
+      "orden": 10,
+      "titulo": "L’Ajuntament pot comprovar en qualsevol moment la veracitat de les dades i el",
+      "resultado": null,
+      "texto_redactado": "L’Ajuntament pot comprovar en qualsevol moment la veracitat de les dades i el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 1,
+      "confianza_min": 0.73,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:20.068Z"
+      }
+    },
+    {
+      "id": "2026-10-07#11",
+      "sesion_id": "2026-10-07",
+      "orden": 11,
+      "titulo": "Si l'adquisició o la transmissió hagués estat a títol lucratiu, per tal d'aconseguir",
+      "resultado": null,
+      "texto_redactado": "Si l'adquisició o la transmissió hagués estat a títol lucratiu, per tal d'aconseguir",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.5,
+      "impacto": 1,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:20.068Z"
+      }
+    },
+    {
+      "id": "2026-10-07#12",
+      "sesion_id": "2026-10-07",
+      "orden": 12,
+      "titulo": "Per a determinar l'import de l'increment de valor no es poden computar les despeses",
+      "resultado": null,
+      "texto_redactado": "Per a determinar l'import de l'increment de valor no es poden computar les despeses",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.81,
+      "impacto": 3,
+      "confianza_min": 0.13,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:20.068Z"
+      }
+    },
+    {
+      "id": "2026-10-07#13",
+      "sesion_id": "2026-10-07",
+      "orden": 13,
+      "titulo": "Quan es tracti de la transmissió d'un immoble en el qual hi hagi sòl i construcció, s’ha",
+      "resultado": null,
+      "texto_redactado": "Quan es tracti de la transmissió d'un immoble en el qual hi hagi sòl i construcció, s’ha",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.73,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:20.068Z"
+      }
+    }
+  ]
+}

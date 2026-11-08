@@ -1,0 +1,363 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "montgat",
+    "nombre": "Montgat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "812650006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-29",
+    "municipio_id": "montgat",
+    "fecha": "2026-10-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/812650006/2026/27a3f3cd-b4e9-4d7f-8591-d8aad260f6ea/Esborrany%20acta%20Ple%2010-2026%20ordinari%20de%20data%2029-10-2026.pdf",
+    "hash_contenido": "826476aafb237a6ea95b0ec08a11e6009da79f1c53f9c63ce6f1e38837784f87",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-08T12:32:14.796Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-29#1",
+      "sesion_id": "2026-10-29",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta núm. 9/2026, corresponents a la sessió celebrada el dia 24 de setembre",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’acta núm. 9/2026, corresponents a la sessió celebrada el dia 24 de setembre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:14.796Z"
+      }
+    },
+    {
+      "id": "2026-10-29#2",
+      "sesion_id": "2026-10-29",
+      "orden": 2,
+      "titulo": "Despatx d’ofici.-",
+      "resultado": null,
+      "texto_redactado": "Despatx d’ofici.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:14.796Z"
+      }
+    },
+    {
+      "id": "2026-10-29#3",
+      "sesion_id": "2026-10-29",
+      "orden": 3,
+      "titulo": "Donar compte de les resolucions d’alcaldia i resolucions dels regidors delegats, des del 21",
+      "resultado": null,
+      "texto_redactado": "Donar compte de les resolucions d’alcaldia i resolucions dels regidors delegats, des del 21",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:14.796Z"
+      }
+    },
+    {
+      "id": "2026-10-29#4",
+      "sesion_id": "2026-10-29",
+      "orden": 4,
+      "titulo": "Assabentar de la resolució de l’alcaldia núm. 1991-2026, de data 24 de setembre, relativa al",
+      "resultado": null,
+      "texto_redactado": "Assabentar de la resolució de l’alcaldia núm. 1991-2026, de data 24 de setembre, relativa al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:14.796Z"
+      }
+    },
+    {
+      "id": "2026-10-29#5",
+      "sesion_id": "2026-10-29",
+      "orden": 5,
+      "titulo": "Assabentar de la resolució de l’alcaldia núm. 2107-2026, de data 9 d’octubre, relativa al",
+      "resultado": null,
+      "texto_redactado": "Assabentar de la resolució de l’alcaldia núm. 2107-2026, de data 9 d’octubre, relativa al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:14.796Z"
+      }
+    },
+    {
+      "id": "2026-10-29#6",
+      "sesion_id": "2026-10-29",
+      "orden": 6,
+      "titulo": "Dictamen relatiu a l’aprovació de la revisió anual del Padró Municipal d’Habitants a data 1 de",
+      "resultado": null,
+      "texto_redactado": "Dictamen relatiu a l’aprovació de la revisió anual del Padró Municipal d’Habitants a data 1 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.53,
+      "impacto": 4,
+      "confianza_min": 0.07,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:14.796Z"
+      }
+    },
+    {
+      "id": "2026-10-29#7",
+      "sesion_id": "2026-10-29",
+      "orden": 7,
+      "titulo": "Dictamen relatiu a l’aprovació de l’expedient de modificació de crèdit número 21/2026 per",
+      "resultado": null,
+      "texto_redactado": "Dictamen relatiu a l’aprovació de l’expedient de modificació de crèdit número 21/2026 per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:14.796Z"
+      }
+    },
+    {
+      "id": "2026-10-29#8",
+      "sesion_id": "2026-10-29",
+      "orden": 8,
+      "titulo": "Dictamen relatiu a l’aprovació de l’expedient de modificació de crèdit número 25/2026,",
+      "resultado": null,
+      "texto_redactado": "Dictamen relatiu a l’aprovació de l’expedient de modificació de crèdit número 25/2026,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:14.796Z"
+      }
+    },
+    {
+      "id": "2026-10-29#9",
+      "sesion_id": "2026-10-29",
+      "orden": 9,
+      "titulo": "Dictamen relatiu a l’aprovació de l’expedient de reconeixement extrajudicial de crèdit número",
+      "resultado": null,
+      "texto_redactado": "Dictamen relatiu a l’aprovació de l’expedient de reconeixement extrajudicial de crèdit número",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:14.796Z"
+      }
+    },
+    {
+      "id": "2026-10-29#10",
+      "sesion_id": "2026-10-29",
+      "orden": 10,
+      "titulo": "Dictamen relatiu a l’aprovació de la modificació de les ordenances fiscals i preus públics per",
+      "resultado": null,
+      "texto_redactado": "Dictamen relatiu a l’aprovació de la modificació de les ordenances fiscals i preus públics per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.8,
+      "impacto": 4,
+      "confianza_min": 0.03,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:14.796Z"
+      }
+    },
+    {
+      "id": "2026-10-29#11",
+      "sesion_id": "2026-10-29",
+      "orden": 11,
+      "titulo": "Dictamen relatiu a l’aprovació de l’esmena de l’acord adoptat pel Ple d’aquest ajuntament en",
+      "resultado": null,
+      "texto_redactado": "Dictamen relatiu a l’aprovació de l’esmena de l’acord adoptat pel Ple d’aquest ajuntament en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:14.796Z"
+      }
+    },
+    {
+      "id": "2026-10-29#12",
+      "sesion_id": "2026-10-29",
+      "orden": 12,
+      "titulo": "Dictamen relatiu a l’aprovació inicial del ÒProjecte de remodelació del jardí posterior del",
+      "resultado": null,
+      "texto_redactado": "Dictamen relatiu a l’aprovació inicial del ÒProjecte de remodelació del jardí posterior del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.48,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:14.796Z"
+      }
+    },
+    {
+      "id": "2026-10-29#13",
+      "sesion_id": "2026-10-29",
+      "orden": 13,
+      "titulo": "Dictamen relatiu a l’aprovació de l’admissió de l’oportunitat de la concessió demanial per a la",
+      "resultado": null,
+      "texto_redactado": "Dictamen relatiu a l’aprovació de l’admissió de l’oportunitat de la concessió demanial per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 2,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:14.796Z"
+      }
+    },
+    {
+      "id": "2026-10-29#14",
+      "sesion_id": "2026-10-29",
+      "orden": 14,
+      "titulo": "Dictamen relatiu a l’aprovació de l’expedient de contractació, del plec de clàusules",
+      "resultado": null,
+      "texto_redactado": "Dictamen relatiu a l’aprovació de l’expedient de contractació, del plec de clàusules",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.43,
+      "impacto": 2,
+      "confianza_min": 0.25,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:14.796Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vila-seca",
+    "nombre": "Vila-seca",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4317110007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-25",
+    "municipio_id": "vila-seca",
+    "fecha": "2026-09-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4317110007/2026/b76d77e2-b1f3-4245-96f4-a23c62b365b9/Acta%20Ple%2025-09-2026.pdf",
+    "hash_contenido": "0234c5e4cb60309fffa9a2b6b8bcdf1e281d414194ecfc59701f8b9ea9f87d6f",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-08T12:32:27.451Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-25#1",
+      "sesion_id": "2026-09-25",
+      "orden": 1,
+      "titulo": "Defensa absoluta de les persones treballadores",
+      "resultado": null,
+      "texto_redactado": "Defensa absoluta de les persones treballadores",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 2,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:27.451Z"
+      }
+    },
+    {
+      "id": "2026-09-25#2",
+      "sesion_id": "2026-09-25",
+      "orden": 2,
+      "titulo": "Exigència de transparència a Dow Chemical",
+      "resultado": null,
+      "texto_redactado": "Exigència de transparència a Dow Chemical",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:27.451Z"
+      }
+    },
+    {
+      "id": "2026-09-25#3",
+      "sesion_id": "2026-09-25",
+      "orden": 3,
+      "titulo": "Compromís empresarial amb Tarragona",
+      "resultado": null,
+      "texto_redactado": "Compromís empresarial amb Tarragona",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:27.451Z"
+      }
+    },
+    {
+      "id": "2026-09-25#4",
+      "sesion_id": "2026-09-25",
+      "orden": 4,
+      "titulo": "Una resposta territorial, unitària i no partidista",
+      "resultado": null,
+      "texto_redactado": "Una resposta territorial, unitària i no partidista",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 2,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:27.451Z"
+      }
+    },
+    {
+      "id": "2026-09-25#5",
+      "sesion_id": "2026-09-25",
+      "orden": 5,
+      "titulo": "El Camp de Tarragona, a l’agenda industrial europeaCodi Validació: C2ATYAD433XSR2TP6J26GDMPH",
+      "resultado": null,
+      "texto_redactado": "El Camp de Tarragona, a l’agenda industrial europeaCodi Validació: C2ATYAD433XSR2TP6J26GDMPH",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 2,
+      "confianza_min": 0.06,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:27.451Z"
+      }
+    },
+    {
+      "id": "2026-09-25#6",
+      "sesion_id": "2026-09-25",
+      "orden": 6,
+      "titulo": "L’activació de mesures urgents en matèria d’energia assequible, agilitat administrativa,",
+      "resultado": null,
+      "texto_redactado": "L’activació de mesures urgents en matèria d’energia assequible, agilitat administrativa,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.62,
+      "impacto": 3,
+      "confianza_min": 0.24,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:27.451Z"
+      }
+    },
+    {
+      "id": "2026-09-25#7",
+      "sesion_id": "2026-09-25",
+      "orden": 7,
+      "titulo": "Que el món local sigui part activa en la presa de decisions que afecten el futur industrial",
+      "resultado": null,
+      "texto_redactado": "Que el món local sigui part activa en la presa de decisions que afecten el futur industrial",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-08T12:32:27.451Z"
+      }
+    }
+  ]
+}
