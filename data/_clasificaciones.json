@@ -69930,6 +69930,152 @@
       "confianza": 1,
       "modelo": "jev-1.13.0",
       "fecha": "2026-11-09T14:30:38.338Z"
+    },
+    "82b586353dd28815b2031366569c9af2": {
+      "temas": [],
+      "scores": {
+        "urbanismo_licencias": 0.55,
+        "vivienda": 0.04,
+        "presupuesto_impuestos": 0.09,
+        "contratacion_obras": 0.14,
+        "servicios_publicos": 0.19,
+        "movilidad_trafico": 0.13,
+        "seguridad": 0.13,
+        "cultura_deporte_educacion": 0.16,
+        "servicios_sociales": 0.03,
+        "personal": 0.03,
+        "medio_ambiente": 0.06,
+        "mociones_grupos": 0.13,
+        "organizacion_institucional": 0.28,
+        "otros": 0.38
+      },
+      "tipo": "acuerdo",
+      "confianza": null,
+      "modelo": "jev-1.13.0|google/gemini-3.8-flash",
+      "fecha": "2026-11-10T14:03:51.731Z"
+    },
+    "357a326a22fa8619cd6e843f942ba265": {
+      "temas": [
+        "otros"
+      ],
+      "scores": {
+        "urbanismo_licencias": 0.22,
+        "vivienda": 0.05,
+        "presupuesto_impuestos": 0.06,
+        "contratacion_obras": 0.08,
+        "servicios_publicos": 0.15,
+        "movilidad_trafico": 0.11,
+        "seguridad": 0.09,
+        "cultura_deporte_educacion": 0.14,
+        "servicios_sociales": 0.04,
+        "personal": 0.04,
+        "medio_ambiente": 0.05,
+        "mociones_grupos": 0.13,
+        "organizacion_institucional": 0.17,
+        "otros": 0.82
+      },
+      "tipo": "otro",
+      "confianza": null,
+      "modelo": "jev-1.13.0|google/gemini-3.8-flash",
+      "fecha": "2026-11-10T14:03:51.731Z"
+    },
+    "098f8dc03faa7d5dbfa7dfcaf6be506e": {
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "scores": {
+        "urbanismo_licencias": 0.38,
+        "vivienda": 0.03,
+        "presupuesto_impuestos": 0.08,
+        "contratacion_obras": 0.14,
+        "servicios_publicos": 0.3,
+        "movilidad_trafico": 0.25,
+        "seguridad": 0.25,
+        "cultura_deporte_educacion": 0.88,
+        "servicios_sociales": 0.04,
+        "personal": 0.03,
+        "medio_ambiente": 0.06,
+        "mociones_grupos": 0.14,
+        "organizacion_institucional": 0.3,
+        "otros": 0.42
+      },
+      "tipo": "acuerdo",
+      "confianza": null,
+      "modelo": "jev-1.13.0|google/gemini-3.8-flash",
+      "fecha": "2026-11-10T14:03:51.731Z"
+    },
+    "d236b08b57e350f24dfb99d3e075cfca": {
+      "temas": [],
+      "scores": {
+        "urbanismo_licencias": 0.28,
+        "vivienda": 0.03,
+        "presupuesto_impuestos": 0.05,
+        "contratacion_obras": 0.08,
+        "servicios_publicos": 0.26,
+        "movilidad_trafico": 0.12,
+        "seguridad": 0.22,
+        "cultura_deporte_educacion": 0.25,
+        "servicios_sociales": 0.03,
+        "personal": 0.03,
+        "medio_ambiente": 0.11,
+        "mociones_grupos": 0.11,
+        "organizacion_institucional": 0.38,
+        "otros": 0.69
+      },
+      "tipo": "otro",
+      "confianza": null,
+      "modelo": "jev-1.13.0|google/gemini-3.8-flash",
+      "fecha": "2026-11-10T14:03:51.731Z"
+    },
+    "c1d414f33970b79b7fcbae6881357b3e": {
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "scores": {
+        "urbanismo_licencias": 0.45,
+        "vivienda": 0.05,
+        "presupuesto_impuestos": 0.12,
+        "contratacion_obras": 0.14,
+        "servicios_publicos": 0.28,
+        "movilidad_trafico": 0.94,
+        "seguridad": 0.13,
+        "cultura_deporte_educacion": 0.03,
+        "servicios_sociales": 0.03,
+        "personal": 0.03,
+        "medio_ambiente": 0.05,
+        "mociones_grupos": 0.11,
+        "organizacion_institucional": 0.32,
+        "otros": 0.18
+      },
+      "tipo": "acuerdo",
+      "confianza": null,
+      "modelo": "jev-1.13.0|google/gemini-3.8-flash",
+      "fecha": "2026-11-10T14:03:51.731Z"
+    },
+    "2905b3bce00018a10e58bbbb8653a556": {
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "scores": {
+        "urbanismo_licencias": 0.38,
+        "vivienda": 0.05,
+        "presupuesto_impuestos": 0.08,
+        "contratacion_obras": 0.11,
+        "servicios_publicos": 0.23,
+        "movilidad_trafico": 0.92,
+        "seguridad": 0.1,
+        "cultura_deporte_educacion": 0.03,
+        "servicios_sociales": 0.03,
+        "personal": 0.02,
+        "medio_ambiente": 0.03,
+        "mociones_grupos": 0.11,
+        "organizacion_institucional": 0.27,
+        "otros": 0.15
+      },
+      "tipo": "acuerdo",
+      "confianza": null,
+      "modelo": "jev-1.13.0|google/gemini-3.8-flash",
+      "fecha": "2026-11-10T14:03:51.731Z"
     }
   }
 }
