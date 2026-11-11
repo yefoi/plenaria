@@ -1,0 +1,267 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "lescala",
+    "nombre": "L'Escala",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1706220002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-25",
+    "municipio_id": "lescala",
+    "fecha": "2026-05-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1706220002/2026/845b9749-01d8-49de-b9d1-718e603b9b82/6-250526.pdf",
+    "hash_contenido": "b093898801c0aa468c501d74506c09a7402efc9cba159c07bdd847afa2aec61c",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-11T13:18:52.991Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-25#1",
+      "sesion_id": "2026-05-25",
+      "orden": 1,
+      "titulo": "APROVACIÓ, SI S’ESCAU, D’ACTES ANTERIORS",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ, SI S’ESCAU, D’ACTES ANTERIORS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.43,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:52.991Z"
+      }
+    },
+    {
+      "id": "2026-05-25#2",
+      "sesion_id": "2026-05-25",
+      "orden": 2,
+      "titulo": "DONAR COMPTE D’ACTIVITATS DE L’ALCALDIA",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE D’ACTIVITATS DE L’ALCALDIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:52.991Z"
+      }
+    },
+    {
+      "id": "2026-05-25#3",
+      "sesion_id": "2026-05-25",
+      "orden": 3,
+      "titulo": "DONAR COMPTE DE DECRETS D’ALCALDIA (TAMBÉ LLISTAT GT)",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE DECRETS D’ALCALDIA (TAMBÉ LLISTAT GT)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:52.991Z"
+      }
+    },
+    {
+      "id": "2026-05-25#4",
+      "sesion_id": "2026-05-25",
+      "orden": 4,
+      "titulo": "CONVALIDACIÓ PLENÀRIA DE FACTURA PER OMISSIÓ I RECONEIXEMENT DE",
+      "resultado": null,
+      "texto_redactado": "CONVALIDACIÓ PLENÀRIA DE FACTURA PER OMISSIÓ I RECONEIXEMENT DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:52.991Z"
+      }
+    },
+    {
+      "id": "2026-05-25#5",
+      "sesion_id": "2026-05-25",
+      "orden": 5,
+      "titulo": "PLA ECONÒMIC FINANCER RECUPERACIÓ DE LA REGLA DE LA DESPESA 2026",
+      "resultado": null,
+      "texto_redactado": "PLA ECONÒMIC FINANCER RECUPERACIÓ DE LA REGLA DE LA DESPESA 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.44,
+      "impacto": 4,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:52.991Z"
+      }
+    },
+    {
+      "id": "2026-05-25#6",
+      "sesion_id": "2026-05-25",
+      "orden": 6,
+      "titulo": "Nota informativa sobre el règim de tutela financera dels ens locals per a l’exercici",
+      "resultado": null,
+      "texto_redactado": "Nota informativa sobre el règim de tutela financera dels ens locals per a l’exercici",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:52.991Z"
+      }
+    },
+    {
+      "id": "2026-05-25#7",
+      "sesion_id": "2026-05-25",
+      "orden": 7,
+      "titulo": "ÒManual de càlcul del dèficit en comptabilitat nacional adaptat a les corporacions",
+      "resultado": null,
+      "texto_redactado": "ÒManual de càlcul del dèficit en comptabilitat nacional adaptat a les corporacions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:52.991Z"
+      }
+    },
+    {
+      "id": "2026-05-25#8",
+      "sesion_id": "2026-05-25",
+      "orden": 8,
+      "titulo": "ÒCàlcul del dèficit en comptabilitat nacional de les unitats empresarials que apliquen",
+      "resultado": null,
+      "texto_redactado": "ÒCàlcul del dèficit en comptabilitat nacional de les unitats empresarials que apliquen",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:52.991Z"
+      }
+    },
+    {
+      "id": "2026-05-25#9",
+      "sesion_id": "2026-05-25",
+      "orden": 9,
+      "titulo": "Guia per a la determinació de la regla de despesa per a corporacions locals. Article",
+      "resultado": null,
+      "texto_redactado": "Guia per a la determinació de la regla de despesa per a corporacions locals. Article",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 2,
+      "confianza_min": 0.18,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:52.991Z"
+      }
+    },
+    {
+      "id": "2026-05-25#10",
+      "sesion_id": "2026-05-25",
+      "orden": 10,
+      "titulo": "ASSUMPTES URGENTS MOCIÓ DE L’AJUNTAMENT DE L’ESCALA EN DEFENSA DEL DESENVOLUPAMENT RURAL I MARÍTIM, DEL PROGRAMA LEADER I DEL MODEL DE PESCA MEDITERRANI, DAVANT EL FUTUR MARC FINANCER DE LA UNIÓ EUROPEA",
+      "resultado": null,
+      "texto_redactado": "ASSUMPTES URGENTS MOCIÓ DE L’AJUNTAMENT DE L’ESCALA EN DEFENSA DEL DESENVOLUPAMENT RURAL I MARÍTIM, DEL PROGRAMA LEADER I DEL MODEL DE PESCA MEDITERRANI, DAVANT EL FUTUR MARC FINANCER DE LA UNIÓ EUROPEA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 2,
+      "confianza_min": 0.27,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:52.991Z"
+      }
+    }
+  ]
+}

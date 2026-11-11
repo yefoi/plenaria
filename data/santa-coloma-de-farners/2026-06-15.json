@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "santa-coloma-de-farners",
+    "nombre": "Santa Coloma de Farners",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1718050006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-15",
+    "municipio_id": "santa-coloma-de-farners",
+    "fecha": "2026-06-15",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1718050006/2026/dea01183-261b-4d7a-a292-58c4574e6328/Acta%20JGL%2015_06_2026.pdf",
+    "hash_contenido": "7aff927c40b4d739a1315ad771eb2f4d8f2be82971b163c08ef726662f8cf921",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-11T13:18:51.208Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-15#1",
+      "sesion_id": "2026-06-15",
+      "orden": 1,
+      "titulo": "Aprovació acta sessió anterior.",
+      "resultado": null,
+      "texto_redactado": "Aprovació acta sessió anterior.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:51.208Z"
+      }
+    },
+    {
+      "id": "2026-06-15#2",
+      "sesion_id": "2026-06-15",
+      "orden": 2,
+      "titulo": "Aprovació de la concessió d’una subvenció nominativa per l’any 2026 i",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la concessió d’una subvenció nominativa per l’any 2026 i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 2,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:51.208Z"
+      }
+    },
+    {
+      "id": "2026-06-15#3",
+      "sesion_id": "2026-06-15",
+      "orden": 3,
+      "titulo": "Aprovació de la concessió d’una subvenció nominativa per l’any 2026 i",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la concessió d’una subvenció nominativa per l’any 2026 i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.32,
+      "impacto": 2,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:51.208Z"
+      }
+    }
+  ]
+}

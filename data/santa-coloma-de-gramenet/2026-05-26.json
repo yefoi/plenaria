@@ -1,0 +1,363 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "santa-coloma-de-gramenet",
+    "nombre": "Santa Coloma de Gramenet",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "824570005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-05-26",
+    "municipio_id": "santa-coloma-de-gramenet",
+    "fecha": "2026-05-26",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/824570005/2026/44f49946-10bb-4838-a0f0-ab7082128209/Acta%2005_26%20PLE%20MUNICIPAL%2026_05_26%20Anonimitzada.PDF",
+    "hash_contenido": "4b8751332fd3a03f8e2f512324b0311b47388d74df6bba6c6129c516d5d2ce33",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-11T13:18:50.345Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-05-26#1",
+      "sesion_id": "2026-05-26",
+      "orden": 1,
+      "titulo": "El Ple municipal d’aquesta Corporació, en sessió del dia 27 de maig de 2024, aprova",
+      "resultado": null,
+      "texto_redactado": "El Ple municipal d’aquesta Corporació, en sessió del dia 27 de maig de 2024, aprova",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:50.345Z"
+      }
+    },
+    {
+      "id": "2026-05-26#2",
+      "sesion_id": "2026-05-26",
+      "orden": 2,
+      "titulo": "En data 16 d’octubre de 2024 es formalitza el conveni de col·laboració entre l’Ajuntament",
+      "resultado": null,
+      "texto_redactado": "En data 16 d’octubre de 2024 es formalitza el conveni de col·laboració entre l’Ajuntament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.3,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:50.345Z"
+      }
+    },
+    {
+      "id": "2026-05-26#3",
+      "sesion_id": "2026-05-26",
+      "orden": 3,
+      "titulo": "L’al·ludit conveni estableix que el seu objecte i finalitat és reordenar, impulsar, gestionar i",
+      "resultado": null,
+      "texto_redactado": "L’al·ludit conveni estableix que el seu objecte i finalitat és reordenar, impulsar, gestionar i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.33,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:50.345Z"
+      }
+    },
+    {
+      "id": "2026-05-26#4",
+      "sesion_id": "2026-05-26",
+      "orden": 4,
+      "titulo": "El Ple municipal en sessió del dia 23 de febrer de 2026 aprova inicialment la cessió",
+      "resultado": null,
+      "texto_redactado": "El Ple municipal en sessió del dia 23 de febrer de 2026 aprova inicialment la cessió",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 2,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:50.345Z"
+      }
+    },
+    {
+      "id": "2026-05-26#5",
+      "sesion_id": "2026-05-26",
+      "orden": 5,
+      "titulo": "Figura a l’expedient l’informe de règim urbanístic emès el dia 26 de febrer de 2026 pel",
+      "resultado": null,
+      "texto_redactado": "Figura a l’expedient l’informe de règim urbanístic emès el dia 26 de febrer de 2026 pel",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:50.345Z"
+      }
+    },
+    {
+      "id": "2026-05-26#6",
+      "sesion_id": "2026-05-26",
+      "orden": 6,
+      "titulo": "S’incorpora a l’expedient l’informe patrimonial del Servei de Compres i Gestió Patrimonial,",
+      "resultado": null,
+      "texto_redactado": "S’incorpora a l’expedient l’informe patrimonial del Servei de Compres i Gestió Patrimonial,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:50.345Z"
+      }
+    },
+    {
+      "id": "2026-05-26#7",
+      "sesion_id": "2026-05-26",
+      "orden": 7,
+      "titulo": "El Ple municipal del dia 23 de febrer de 2026 acorda sotmetre a informació pública l’acord",
+      "resultado": null,
+      "texto_redactado": "El Ple municipal del dia 23 de febrer de 2026 acorda sotmetre a informació pública l’acord",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:50.345Z"
+      }
+    },
+    {
+      "id": "2026-05-26#8",
+      "sesion_id": "2026-05-26",
+      "orden": 8,
+      "titulo": "En data 4 de maig de 2026 s’emet certificació del secretari d’aquesta Corporació, que",
+      "resultado": null,
+      "texto_redactado": "En data 4 de maig de 2026 s’emet certificació del secretari d’aquesta Corporació, que",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:50.345Z"
+      }
+    },
+    {
+      "id": "2026-05-26#9",
+      "sesion_id": "2026-05-26",
+      "orden": 9,
+      "titulo": "En els pactes vuitè a setzè del conveni s’indiquen les finques afectades en l’àmbit de Sant",
+      "resultado": null,
+      "texto_redactado": "En els pactes vuitè a setzè del conveni s’indiquen les finques afectades en l’àmbit de Sant",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.43,
+      "impacto": 2,
+      "confianza_min": 0.37,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:50.345Z"
+      }
+    },
+    {
+      "id": "2026-05-26#10",
+      "sesion_id": "2026-05-26",
+      "orden": 10,
+      "titulo": "S’incorpora igualment a l’expedient l’informe jurídic emès per la tècnica de suport jurídic del",
+      "resultado": null,
+      "texto_redactado": "S’incorpora igualment a l’expedient l’informe jurídic emès per la tècnica de suport jurídic del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:50.345Z"
+      }
+    },
+    {
+      "id": "2026-05-26#11",
+      "sesion_id": "2026-05-26",
+      "orden": 11,
+      "titulo": "El Decret 344/2006, de 19 de setembre, de regulació dels estudis d’avaluació de la",
+      "resultado": null,
+      "texto_redactado": "El Decret 344/2006, de 19 de setembre, de regulació dels estudis d’avaluació de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 2,
+      "confianza_min": 0.41,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:50.345Z"
+      }
+    },
+    {
+      "id": "2026-05-26#12",
+      "sesion_id": "2026-05-26",
+      "orden": 12,
+      "titulo": "El Decret legislatiu 3/2003, de 4 de novembre, pel qual s'aprova el Text refós de la",
+      "resultado": null,
+      "texto_redactado": "El Decret legislatiu 3/2003, de 4 de novembre, pel qual s'aprova el Text refós de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.49,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:50.345Z"
+      }
+    },
+    {
+      "id": "2026-05-26#13",
+      "sesion_id": "2026-05-26",
+      "orden": 13,
+      "titulo": "L’art. 21.1.j de la Llei 7/1985, de 2 d’abril, reguladora de les bases del règim local",
+      "resultado": null,
+      "texto_redactado": "L’art. 21.1.j de la Llei 7/1985, de 2 d’abril, reguladora de les bases del règim local",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.44,
+      "impacto": 2,
+      "confianza_min": 0.13,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:50.345Z"
+      }
+    },
+    {
+      "id": "2026-05-26#14",
+      "sesion_id": "2026-05-26",
+      "orden": 14,
+      "titulo": "Atès el Decret d’alcaldia núm. 2959 d’1 d’abril de 2025 que modifica el Decret d’alcaldia",
+      "resultado": null,
+      "texto_redactado": "Atès el Decret d’alcaldia núm. 2959 d’1 d’abril de 2025 que modifica el Decret d’alcaldia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-11T13:18:50.345Z"
+      }
+    }
+  ]
+}
