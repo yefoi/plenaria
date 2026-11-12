@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "llinars-del-valles",
+    "nombre": "Llinars del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "810690004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-27",
+    "municipio_id": "llinars-del-valles",
+    "fecha": "2026-07-27",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/810690004/2026/13cdd76d-c212-42a4-9ad0-f57dc647fe85/Acta%20Ple%20ordinari%2027-07-2026.pdf",
+    "hash_contenido": "cee57b94c31c37b40fd0217f49792e102e36cc73d4ea59b0a1877f85e776a628",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-12T14:21:49.342Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-27#1",
+      "sesion_id": "2026-07-27",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió anterior de data 25-05-2026",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior de data 25-05-2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:49.342Z"
+      }
+    },
+    {
+      "id": "2026-07-27#2",
+      "sesion_id": "2026-07-27",
+      "orden": 2,
+      "titulo": "Expedient 1770/2022. Aprovar l'addenda al conveni de col·laboració urbanística",
+      "resultado": null,
+      "texto_redactado": "Expedient 1770/2022. Aprovar l'addenda al conveni de col·laboració urbanística",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.39,
+      "impacto": 3,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:49.342Z"
+      }
+    },
+    {
+      "id": "2026-07-27#3",
+      "sesion_id": "2026-07-27",
+      "orden": 3,
+      "titulo": "Expedient 2401/2020. Aprovació provisional del Pla d'Ordenació Urbanística",
+      "resultado": null,
+      "texto_redactado": "Expedient 2401/2020. Aprovació provisional del Pla d'Ordenació Urbanística",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.67,
+      "impacto": 5,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:49.342Z"
+      }
+    },
+    {
+      "id": "2026-07-27#4",
+      "sesion_id": "2026-07-27",
+      "orden": 4,
+      "titulo": "Expedient 5833/2026. Aprovació de les festes locals per a l'any 2027",
+      "resultado": null,
+      "texto_redactado": "Expedient 5833/2026. Aprovació de les festes locals per a l'any 2027",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.55,
+      "impacto": 4,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:49.342Z"
+      }
+    },
+    {
+      "id": "2026-07-27#5",
+      "sesion_id": "2026-07-27",
+      "orden": 5,
+      "titulo": "Expedient 6203/2026. Aprovació de la rectificació anual de l'Inventari general de la",
+      "resultado": null,
+      "texto_redactado": "Expedient 6203/2026. Aprovació de la rectificació anual de l'Inventari general de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:49.342Z"
+      }
+    },
+    {
+      "id": "2026-07-27#6",
+      "sesion_id": "2026-07-27",
+      "orden": 6,
+      "titulo": "Expedient 2248/2026. Aprovació del Compte General de l'any 2025",
+      "resultado": null,
+      "texto_redactado": "Expedient 2248/2026. Aprovació del Compte General de l'any 2025",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:49.342Z"
+      }
+    },
+    {
+      "id": "2026-07-27#7",
+      "sesion_id": "2026-07-27",
+      "orden": 7,
+      "titulo": "Expedient 3183/2026. Resolució de les al·legacions presentades i aprovació",
+      "resultado": null,
+      "texto_redactado": "Expedient 3183/2026. Resolució de les al·legacions presentades i aprovació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.45,
+      "impacto": 2,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:49.342Z"
+      }
+    },
+    {
+      "id": "2026-07-27#8",
+      "sesion_id": "2026-07-27",
+      "orden": 8,
+      "titulo": "Expedient 6824/2026. Modificació de Crèdit 04/2026",
+      "resultado": null,
+      "texto_redactado": "Expedient 6824/2026. Modificació de Crèdit 04/2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 2,
+      "confianza_min": 0.33,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:49.342Z"
+      }
+    },
+    {
+      "id": "2026-07-27#9",
+      "sesion_id": "2026-07-27",
+      "orden": 9,
+      "titulo": "Expedient 6330/2026. Modificació de l'ordenança fiscal 3.16 de la Taxa per l'ocupació",
+      "resultado": null,
+      "texto_redactado": "Expedient 6330/2026. Modificació de l'ordenança fiscal 3.16 de la Taxa per l'ocupació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.83,
+      "impacto": 3,
+      "confianza_min": 0.13,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:49.342Z"
+      }
+    },
+    {
+      "id": "2026-07-27#10",
+      "sesion_id": "2026-07-27",
+      "orden": 10,
+      "titulo": "Expedient 6804/2026. Donar coneixement de les resolucions d'Alcaldia des de la",
+      "resultado": null,
+      "texto_redactado": "Expedient 6804/2026. Donar coneixement de les resolucions d'Alcaldia des de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:49.342Z"
+      }
+    },
+    {
+      "id": "2026-07-27#11",
+      "sesion_id": "2026-07-27",
+      "orden": 11,
+      "titulo": "Precs i preguntes",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:49.342Z"
+      }
+    }
+  ]
+}

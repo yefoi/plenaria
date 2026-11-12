@@ -1,0 +1,363 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "palau-solita-i-plegamans",
+    "nombre": "Palau-solità i Plegamans",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "815680001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-29",
+    "municipio_id": "palau-solita-i-plegamans",
+    "fecha": "2026-10-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/815680001/2026/c33b9507-3d2d-4b4e-a1ba-3f8417f7cb4c/Extracte%20d%27acords%2029.10.2026.pdf",
+    "hash_contenido": "5b1df76ef5736bbaf40b0ad1a9a426edbd8257227d7f065906022322ff2d0e12",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-12T14:21:44.816Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-29#1",
+      "sesion_id": "2026-10-29",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L’ACTA DE LA SESSIÓ DEL PLE MUNICIPAL DE DATES 24 DE SETEMBRE I 13 D’OCTUBRE DE 2026",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’ACTA DE LA SESSIÓ DEL PLE MUNICIPAL DE DATES 24 DE SETEMBRE I 13 D’OCTUBRE DE 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:44.816Z"
+      }
+    },
+    {
+      "id": "2026-10-29#2",
+      "sesion_id": "2026-10-29",
+      "orden": 2,
+      "titulo": "PRP2026/957 APROVACIÓ INICIAL DE LA MODIFICACIÓ DE LES ORDENANCES FISCALS PER A L'EXERCICI 2027",
+      "resultado": null,
+      "texto_redactado": "PRP2026/957 APROVACIÓ INICIAL DE LA MODIFICACIÓ DE LES ORDENANCES FISCALS PER A L'EXERCICI 2027",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.77,
+      "impacto": 4,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:44.816Z"
+      }
+    },
+    {
+      "id": "2026-10-29#3",
+      "sesion_id": "2026-10-29",
+      "orden": 3,
+      "titulo": "Les sol·licituds de bonificació que es presentin amb posterioritat a la",
+      "resultado": null,
+      "texto_redactado": "Les sol·licituds de bonificació que es presentin amb posterioritat a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.56,
+      "impacto": 2,
+      "confianza_min": 0.29,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:44.816Z"
+      }
+    },
+    {
+      "id": "2026-10-29#4",
+      "sesion_id": "2026-10-29",
+      "orden": 4,
+      "titulo": "En relació a les comunicacions prèvies amb tècnic les sol·licituds de",
+      "resultado": null,
+      "texto_redactado": "En relació a les comunicacions prèvies amb tècnic les sol·licituds de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:44.816Z"
+      }
+    },
+    {
+      "id": "2026-10-29#5",
+      "sesion_id": "2026-10-29",
+      "orden": 5,
+      "titulo": "Quan la bonificació s’apliqui sobre una part de la quota, caldrà aportar",
+      "resultado": null,
+      "texto_redactado": "Quan la bonificació s’apliqui sobre una part de la quota, caldrà aportar",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.68,
+      "impacto": 2,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:44.816Z"
+      }
+    },
+    {
+      "id": "2026-10-29#6",
+      "sesion_id": "2026-10-29",
+      "orden": 6,
+      "titulo": "No es reconeixerà cap exempció, bonificació ni altre benefici fiscal",
+      "resultado": null,
+      "texto_redactado": "No es reconeixerà cap exempció, bonificació ni altre benefici fiscal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.71,
+      "impacto": 3,
+      "confianza_min": 0.08,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:44.816Z"
+      }
+    },
+    {
+      "id": "2026-10-29#7",
+      "sesion_id": "2026-10-29",
+      "orden": 7,
+      "titulo": "MATERIALS DE VENDA",
+      "resultado": null,
+      "texto_redactado": "MATERIALS DE VENDA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:44.816Z"
+      }
+    },
+    {
+      "id": "2026-10-29#8",
+      "sesion_id": "2026-10-29",
+      "orden": 8,
+      "titulo": "CANVI DE NOM I/O òS 47,39 9,95 57,34",
+      "resultado": null,
+      "texto_redactado": "CANVI DE NOM I/O òS 47,39 9,95 57,34",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.35,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:44.816Z"
+      }
+    },
+    {
+      "id": "2026-10-29#9",
+      "sesion_id": "2026-10-29",
+      "orden": 9,
+      "titulo": "RESTABLIMENT DEL SERVEI PER SUSPENSIÓ",
+      "resultado": null,
+      "texto_redactado": "RESTABLIMENT DEL SERVEI PER SUSPENSIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.5,
+      "impacto": 2,
+      "confianza_min": 0.37,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:44.816Z"
+      }
+    },
+    {
+      "id": "2026-10-29#10",
+      "sesion_id": "2026-10-29",
+      "orden": 10,
+      "titulo": "PRP2026/960 DONAR COMPTE DE LA RESOLUCIÓ D’ALCALDIA DE MODIFICACIÓ DE LA COMPOSICIÓ DE LA JUNTA DE GOVERN LOCAL I DE LES TINENCES D’ALCALDIA",
+      "resultado": null,
+      "texto_redactado": "PRP2026/960 DONAR COMPTE DE LA RESOLUCIÓ D’ALCALDIA DE MODIFICACIÓ DE LA COMPOSICIÓ DE LA JUNTA DE GOVERN LOCAL I DE LES TINENCES D’ALCALDIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:44.816Z"
+      }
+    },
+    {
+      "id": "2026-10-29#11",
+      "sesion_id": "2026-10-29",
+      "orden": 11,
+      "titulo": "PRP2026/961 DONAR COMPTE DE LA RESOLUCIÓ D’ALCALDIA DE MODIFICACIÓ DE LES DELEGACIONS DE LES REGIDORIES",
+      "resultado": null,
+      "texto_redactado": "PRP2026/961 DONAR COMPTE DE LA RESOLUCIÓ D’ALCALDIA DE MODIFICACIÓ DE LES DELEGACIONS DE LES REGIDORIES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:44.816Z"
+      }
+    },
+    {
+      "id": "2026-10-29#12",
+      "sesion_id": "2026-10-29",
+      "orden": 12,
+      "titulo": "PRP2026/991 MOCIÓ QUE PRESENTA EL GRUP MUNICIPAL DEL PSC-CP,",
+      "resultado": null,
+      "texto_redactado": "PRP2026/991 MOCIÓ QUE PRESENTA EL GRUP MUNICIPAL DEL PSC-CP,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:44.816Z"
+      }
+    },
+    {
+      "id": "2026-10-29#13",
+      "sesion_id": "2026-10-29",
+      "orden": 13,
+      "titulo": "PRP2026/969 DONAR COMPTE DE LES RESOLUCIONS EMESES PER L'ALCALDIA I ACORDS DE LA JUNTA DE",
+      "resultado": null,
+      "texto_redactado": "PRP2026/969 DONAR COMPTE DE LES RESOLUCIONS EMESES PER L'ALCALDIA I ACORDS DE LA JUNTA DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.84,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:44.816Z"
+      }
+    },
+    {
+      "id": "2026-10-29#14",
+      "sesion_id": "2026-10-29",
+      "orden": 14,
+      "titulo": "PROPOSTES D’URGÈNCIA",
+      "resultado": null,
+      "texto_redactado": "PROPOSTES D’URGÈNCIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 1,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:44.816Z"
+      }
+    }
+  ]
+}

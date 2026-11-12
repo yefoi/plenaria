@@ -1,0 +1,392 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-vicenc-de-castellet",
+    "nombre": "Sant Vicenç de Castellet",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "826280001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-30",
+    "municipio_id": "sant-vicenc-de-castellet",
+    "fecha": "2026-09-30",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/826280001/2026/5e6a7da9-5d28-457b-a208-bf9f927dcd04/ACTA%20LOPD%20PLE09-2026%2030%20SETEMBRE.pdf",
+    "hash_contenido": "b4012de53bb6b8663a30ee7d9b04d7f1262989d80529d4b037b6960350574a8f",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-12T14:21:46.714Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-30#1",
+      "sesion_id": "2026-09-30",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L'ACTA DE LA SESSIÓ EXTRAORDINÀRIA DEL PLE DE L’AJUNTAMENT DEL DIA 11 DE JULIOL DE 2026 .................................................................................................................................... 3",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L'ACTA DE LA SESSIÓ EXTRAORDINÀRIA DEL PLE DE L’AJUNTAMENT DEL DIA 11 DE JULIOL DE 2026 .................................................................................................................................... 3",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:46.714Z"
+      }
+    },
+    {
+      "id": "2026-09-30#2",
+      "sesion_id": "2026-09-30",
+      "orden": 2,
+      "titulo": "APROVACIÓ DE L'ACTA DE LA SESSIÓ DEL PLE DE L’AJUNTAMENT DEL DIA 29 DE JULIOL DE 2026 .... 4",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L'ACTA DE LA SESSIÓ DEL PLE DE L’AJUNTAMENT DEL DIA 29 DE JULIOL DE 2026 .... 4",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:46.714Z"
+      }
+    },
+    {
+      "id": "2026-09-30#3",
+      "sesion_id": "2026-09-30",
+      "orden": 3,
+      "titulo": "MOCIÓ DEL GRUP MUNICIPAL DE JUNTS PER SANT VICENÇ DE CASTELLET PER CONTINUAR IMPULSANT LES ACTUACIONS MUNICIPALS EN MATÈRIA D'HABITATGE I L'ATENCIÓ A LES SITUACIONS DE VULNERABILITAT RESIDENCIAL ...................................................................................................... 36",
+      "resultado": null,
+      "texto_redactado": "MOCIÓ DEL GRUP MUNICIPAL DE JUNTS PER SANT VICENÇ DE CASTELLET PER CONTINUAR IMPULSANT LES ACTUACIONS MUNICIPALS EN MATÈRIA D'HABITATGE I L'ATENCIÓ A LES SITUACIONS DE VULNERABILITAT RESIDENCIAL ...................................................................................................... 36",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "vivienda",
+        "mociones_grupos",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.59,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:46.714Z"
+      }
+    },
+    {
+      "id": "2026-09-30#4",
+      "sesion_id": "2026-09-30",
+      "orden": 4,
+      "titulo": "Exp. X2026004527",
+      "resultado": null,
+      "texto_redactado": "Exp. X2026004527",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:46.714Z"
+      }
+    },
+    {
+      "id": "2026-09-30#5",
+      "sesion_id": "2026-09-30",
+      "orden": 5,
+      "titulo": "Exp. X2026004751",
+      "resultado": null,
+      "texto_redactado": "Exp. X2026004751",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:46.714Z"
+      }
+    },
+    {
+      "id": "2026-09-30#6",
+      "sesion_id": "2026-09-30",
+      "orden": 6,
+      "titulo": "Exp. X2026004597 APROVACIÓ DE L’EXPEDIENT DE RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT PER IMPORT DE 153.039,66 €.",
+      "resultado": null,
+      "texto_redactado": "Exp. X2026004597 APROVACIÓ DE L’EXPEDIENT DE RECONEIXEMENT EXTRAJUDICIAL DE CRÈDIT PER IMPORT DE 153.039,66 €.",
+      "importe_eur": 153039.66,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:46.714Z"
+      }
+    },
+    {
+      "id": "2026-09-30#7",
+      "sesion_id": "2026-09-30",
+      "orden": 7,
+      "titulo": "Exp. X2026003794",
+      "resultado": null,
+      "texto_redactado": "Exp. X2026003794",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:46.714Z"
+      }
+    },
+    {
+      "id": "2026-09-30#8",
+      "sesion_id": "2026-09-30",
+      "orden": 8,
+      "titulo": "Exp. X2026003836 DONAR PER ASSABENTAT AL PLE DE LES OBLIGACIONS TRIMESTRALS DE",
+      "resultado": null,
+      "texto_redactado": "Exp. X2026003836 DONAR PER ASSABENTAT AL PLE DE LES OBLIGACIONS TRIMESTRALS DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:46.714Z"
+      }
+    },
+    {
+      "id": "2026-09-30#9",
+      "sesion_id": "2026-09-30",
+      "orden": 9,
+      "titulo": "Exp. X2026004322 DONAR PER ASSABENTAT AL PLE LES LÍNIES FONAMENTALS DEL PRESSUPOST PER A L’EXERCICI 2027 D’ACORD AMB L’ORDRE L' ORDRE HAP/2082/2014. EXPOSICIÓ DE MOTIUS",
+      "resultado": null,
+      "texto_redactado": "Exp. X2026004322 DONAR PER ASSABENTAT AL PLE LES LÍNIES FONAMENTALS DEL PRESSUPOST PER A L’EXERCICI 2027 D’ACORD AMB L’ORDRE L' ORDRE HAP/2082/2014. EXPOSICIÓ DE MOTIUS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.97,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:46.714Z"
+      }
+    },
+    {
+      "id": "2026-09-30#10",
+      "sesion_id": "2026-09-30",
+      "orden": 10,
+      "titulo": "Exp. X2026003787 CONVENI INTERADMINISTRATIU PER LA ÒPROMOCIÓ, DINAMITZACIÓ I MILLORAR DELS PAE DEL BAGES 2026-2027Ó ENTRE EL CONSELL COMARCAL DEL BAGES I ELS AJUNTAMENTS D’ARTES, D’AVINYÓ, CARDONA, CASTELLBELL I EL VILAR, MANRESA, NAVARCLES, NAVÀS, SALLENT, SANTPEDOR, SANT FRUITÓS DE",
+      "resultado": null,
+      "texto_redactado": "Exp. X2026003787 CONVENI INTERADMINISTRATIU PER LA ÒPROMOCIÓ, DINAMITZACIÓ I MILLORAR DELS PAE DEL BAGES 2026-2027Ó ENTRE EL CONSELL COMARCAL DEL BAGES I ELS AJUNTAMENTS D’ARTES, D’AVINYÓ, CARDONA, CASTELLBELL I EL VILAR, MANRESA, NAVARCLES, NAVÀS, SALLENT, SANTPEDOR, SANT FRUITÓS DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 3,
+      "confianza_min": 0.03,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:46.714Z"
+      }
+    },
+    {
+      "id": "2026-09-30#11",
+      "sesion_id": "2026-09-30",
+      "orden": 11,
+      "titulo": "Exp. X2026003788 APROVACIÓ DEL CONVENI INTERADMINISTRATIU PER L’ACTUACIÓ ÒTEIXIT INDUSTRIAL DEL BAGES, MÉS SOSTENIBLE I COMPETITIUÓ ENTRE EL CONSELL COMARCAL DEL BAGES I ELS AJUNTAMENTS D’AVINYÓ, CARDONA, CASTELLBELL I EL VILAR, NAVARCLES, SALLENT, SANT FRUITÓS DE BAGES,",
+      "resultado": null,
+      "texto_redactado": "Exp. X2026003788 APROVACIÓ DEL CONVENI INTERADMINISTRATIU PER L’ACTUACIÓ ÒTEIXIT INDUSTRIAL DEL BAGES, MÉS SOSTENIBLE I COMPETITIUÓ ENTRE EL CONSELL COMARCAL DEL BAGES I ELS AJUNTAMENTS D’AVINYÓ, CARDONA, CASTELLBELL I EL VILAR, NAVARCLES, SALLENT, SANT FRUITÓS DE BAGES,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 3,
+      "confianza_min": 0.32,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:46.714Z"
+      }
+    },
+    {
+      "id": "2026-09-30#12",
+      "sesion_id": "2026-09-30",
+      "orden": 12,
+      "titulo": "Exp. X2026004324",
+      "resultado": null,
+      "texto_redactado": "Exp. X2026004324",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.83,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:46.714Z"
+      }
+    },
+    {
+      "id": "2026-09-30#13",
+      "sesion_id": "2026-09-30",
+      "orden": 13,
+      "titulo": "Exp. X2026003525 LLICÈNCIA OBRA MENOR PER LA INSTAL·LACIO DE PANELLS SOLARS FOTOVOLTAICS PER CONSUM COL·LECTIU AMB EMPLAÇAMENT A LA COBERTA DE LA PISTA DE LA ZONA ESPORTIVA MUNICIPAL DE HOQUEI DE SANT VICENÇ DE CASTELLET.",
+      "resultado": null,
+      "texto_redactado": "Exp. X2026003525 LLICÈNCIA OBRA MENOR PER LA INSTAL·LACIO DE PANELLS SOLARS FOTOVOLTAICS PER CONSUM COL·LECTIU AMB EMPLAÇAMENT A LA COBERTA DE LA PISTA DE LA ZONA ESPORTIVA MUNICIPAL DE HOQUEI DE SANT VICENÇ DE CASTELLET.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias",
+        "cultura_deporte_educacion",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 3,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:46.714Z"
+      }
+    },
+    {
+      "id": "2026-09-30#14",
+      "sesion_id": "2026-09-30",
+      "orden": 14,
+      "titulo": "Exp. X2026004880 MOCIÓ PRESENTADA PEL GRUP MUNICIPAL D’ERC SANT VICENÇ DE CASTELLET PER IMPULSAR UNA POLÍTICA MUNICIPAL ACTIVA D’HABITATGE I DONAR RESPOSTA A L’EMERGÈNCIA HABITACIONAL EXPOSICIÓ DE MOTIUS",
+      "resultado": null,
+      "texto_redactado": "Exp. X2026004880 MOCIÓ PRESENTADA PEL GRUP MUNICIPAL D’ERC SANT VICENÇ DE CASTELLET PER IMPULSAR UNA POLÍTICA MUNICIPAL ACTIVA D’HABITATGE I DONAR RESPOSTA A L’EMERGÈNCIA HABITACIONAL EXPOSICIÓ DE MOTIUS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "vivienda",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.53,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:46.714Z"
+      }
+    },
+    {
+      "id": "2026-09-30#15",
+      "sesion_id": "2026-09-30",
+      "orden": 15,
+      "titulo": "Exp. X2026005005 APROVACIÓ INICIAL DEL PLA ESPECIAL REGULADOR DELS CLUBS DE FUMADORS ANTECEDENTS",
+      "resultado": null,
+      "texto_redactado": "Exp. X2026005005 APROVACIÓ INICIAL DEL PLA ESPECIAL REGULADOR DELS CLUBS DE FUMADORS ANTECEDENTS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.55,
+      "impacto": 3,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:46.714Z"
+      }
+    }
+  ]
+}

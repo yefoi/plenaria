@@ -1,0 +1,219 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "alella",
+    "nombre": "Alella",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "800390004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-24",
+    "municipio_id": "alella",
+    "fecha": "2026-09-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/800390004/2026/e5425ea0-cd74-4ed4-aeaf-a260cfa92069/20260924_Acta%20Ple.pdf",
+    "hash_contenido": "bd96f3b20bea56b47f023ec455ec71459b637b877f84a1a81cb094c9b9675404",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-12T14:21:51.235Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-24#1",
+      "sesion_id": "2026-09-24",
+      "orden": 1,
+      "titulo": "Aprovació de l’esborrany de l’acta de la sessió ordinària del Ple municipal celebrada el dia",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’esborrany de l’acta de la sessió ordinària del Ple municipal celebrada el dia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:51.235Z"
+      }
+    },
+    {
+      "id": "2026-09-24#2",
+      "sesion_id": "2026-09-24",
+      "orden": 2,
+      "titulo": "Control i fiscalització òrgans de govern:",
+      "resultado": null,
+      "texto_redactado": "Control i fiscalització òrgans de govern:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:51.235Z"
+      }
+    },
+    {
+      "id": "2026-09-24#3",
+      "sesion_id": "2026-09-24",
+      "orden": 3,
+      "titulo": "Proposta de l’Alcaldia sobre resolució del recurs de reposició contra l’acord de Ple de 28 de",
+      "resultado": null,
+      "texto_redactado": "Proposta de l’Alcaldia sobre resolució del recurs de reposició contra l’acord de Ple de 28 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:51.235Z"
+      }
+    },
+    {
+      "id": "2026-09-24#4",
+      "sesion_id": "2026-09-24",
+      "orden": 4,
+      "titulo": "Proposta de l’Alcaldia sobre resolució del recurs de reposició, contra l’acord de Ple de 27 de",
+      "resultado": null,
+      "texto_redactado": "Proposta de l’Alcaldia sobre resolució del recurs de reposició, contra l’acord de Ple de 27 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:51.235Z"
+      }
+    },
+    {
+      "id": "2026-09-24#5",
+      "sesion_id": "2026-09-24",
+      "orden": 5,
+      "titulo": "Proposta de l’Alcaldia sobre adhesió de l’Ajuntament d’Alella al contracte 2023.05 de l’Acord",
+      "resultado": null,
+      "texto_redactado": "Proposta de l’Alcaldia sobre adhesió de l’Ajuntament d’Alella al contracte 2023.05 de l’Acord",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.32,
+      "impacto": 2,
+      "confianza_min": 0.13,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:51.235Z"
+      }
+    },
+    {
+      "id": "2026-09-24#6",
+      "sesion_id": "2026-09-24",
+      "orden": 6,
+      "titulo": "Proposta de l’Alcaldia sobre aprovació del Compte General de la corporació corresponent a",
+      "resultado": null,
+      "texto_redactado": "Proposta de l’Alcaldia sobre aprovació del Compte General de la corporació corresponent a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:51.235Z"
+      }
+    },
+    {
+      "id": "2026-09-24#7",
+      "sesion_id": "2026-09-24",
+      "orden": 7,
+      "titulo": "Proposta de l’Alcaldia sobre aprovació definitiva de la relació de béns i drets afectats en",
+      "resultado": null,
+      "texto_redactado": "Proposta de l’Alcaldia sobre aprovació definitiva de la relació de béns i drets afectats en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 3,
+      "confianza_min": 0.12,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:51.235Z"
+      }
+    },
+    {
+      "id": "2026-09-24#8",
+      "sesion_id": "2026-09-24",
+      "orden": 8,
+      "titulo": "PROPOSTA DE L’ALCALDIA SOBRE RESOLUCIÓ D’AMPLIACIÓ DEL RECURS DE REPOSICIÓ, CONTRA ELS ACORDS DE PLE DE 28 DE MAIG [MATRÍCULA] DE 27 DE JULIOL DE",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA DE L’ALCALDIA SOBRE RESOLUCIÓ D’AMPLIACIÓ DEL RECURS DE REPOSICIÓ, CONTRA ELS ACORDS DE PLE DE 28 DE MAIG [MATRÍCULA] DE 27 DE JULIOL DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-12T14:21:51.235Z"
+      }
+    }
+  ]
+}
