@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vilanova-i-la-geltru",
+    "nombre": "Vilanova i la Geltrú",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "830730008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-27",
+    "municipio_id": "vilanova-i-la-geltru",
+    "fecha": "2026-07-27",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/830730008/2026/8e9ea8b6-a4e0-4f15-893a-794eaae85854/9.PLE%2027%20JULIOL%202026.pdf",
+    "hash_contenido": "0a5819b91a1c2e31201fd3bfc7dd1bcb6ab81d0c6e33cf1b1708f3629f6cac4f",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-11-13T13:14:10.956Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-27#1",
+      "sesion_id": "2026-07-27",
+      "orden": 1,
+      "titulo": "1. Secretaria General.",
+      "resultado": null,
+      "texto_redactado": "1. Secretaria General.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}

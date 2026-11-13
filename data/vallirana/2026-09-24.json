@@ -1,0 +1,244 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vallirana",
+    "nombre": "Vallirana",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "829560009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-24",
+    "municipio_id": "vallirana",
+    "fecha": "2026-09-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/829560009/2026/cea8c73d-2ec7-49ea-9acc-c5e0293f3d53/ACTA%20PLE%2024.09.2026.pdf",
+    "hash_contenido": "6adf3f08e598b0a92fe59ac64d2b698bebfa2bd8df25c39d9a8d112f657744dc",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-13T13:45:43.570Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-24#1",
+      "sesion_id": "2026-09-24",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió anterior 30.07.2026",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior 30.07.2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:43.570Z"
+      }
+    },
+    {
+      "id": "2026-09-24#2",
+      "sesion_id": "2026-09-24",
+      "orden": 2,
+      "titulo": "Expedient 3709/2026. Aprovar el Compte General de l'Ajuntament de Vallirana de",
+      "resultado": null,
+      "texto_redactado": "Expedient 3709/2026. Aprovar el Compte General de l'Ajuntament de Vallirana de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 2,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:43.570Z"
+      }
+    },
+    {
+      "id": "2026-09-24#3",
+      "sesion_id": "2026-09-24",
+      "orden": 3,
+      "titulo": "Expedient 1177/2026. Desistir de l’aprovació inicial adoptada pel Ple de la",
+      "resultado": null,
+      "texto_redactado": "Expedient 1177/2026. Desistir de l’aprovació inicial adoptada pel Ple de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.35,
+      "impacto": 2,
+      "confianza_min": 0.41,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:43.570Z"
+      }
+    },
+    {
+      "id": "2026-09-24#4",
+      "sesion_id": "2026-09-24",
+      "orden": 4,
+      "titulo": "L’estudi econòmic posa de manifest que, amb les noves tarifes, els ingressos previstos",
+      "resultado": null,
+      "texto_redactado": "L’estudi econòmic posa de manifest que, amb les noves tarifes, els ingressos previstos",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.68,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:43.570Z"
+      }
+    },
+    {
+      "id": "2026-09-24#5",
+      "sesion_id": "2026-09-24",
+      "orden": 5,
+      "titulo": "Expedient 5522/2026. Aprovar inicialment el Reglament d'ús del Complex Esportiu",
+      "resultado": null,
+      "texto_redactado": "Expedient 5522/2026. Aprovar inicialment el Reglament d'ús del Complex Esportiu",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.69,
+      "impacto": 3,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:43.570Z"
+      }
+    },
+    {
+      "id": "2026-09-24#6",
+      "sesion_id": "2026-09-24",
+      "orden": 6,
+      "titulo": "Expedient 5417/2026. Aprovar l´expedient de Modificació de Crèdit número 15",
+      "resultado": null,
+      "texto_redactado": "Expedient 5417/2026. Aprovar l´expedient de Modificació de Crèdit número 15",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.3,
+      "impacto": 2,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:43.570Z"
+      }
+    },
+    {
+      "id": "2026-09-24#7",
+      "sesion_id": "2026-09-24",
+      "orden": 7,
+      "titulo": "Moció d´ERC per garantir el confort tèrmic a les escoles bressol municipals i",
+      "resultado": null,
+      "texto_redactado": "Moció d´ERC per garantir el confort tèrmic a les escoles bressol municipals i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.72,
+      "impacto": 3,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:43.570Z"
+      }
+    },
+    {
+      "id": "2026-09-24#8",
+      "sesion_id": "2026-09-24",
+      "orden": 8,
+      "titulo": "Donar compte de les Juntes de Govern Local de data 9 de juliol a 27 d´agost de",
+      "resultado": null,
+      "texto_redactado": "Donar compte de les Juntes de Govern Local de data 9 de juliol a 27 d´agost de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:43.570Z"
+      }
+    },
+    {
+      "id": "2026-09-24#9",
+      "sesion_id": "2026-09-24",
+      "orden": 9,
+      "titulo": "Donar compte de les Resolucions de 16 de juliol a 15 de setembre de 2026 i núms.",
+      "resultado": null,
+      "texto_redactado": "Donar compte de les Resolucions de 16 de juliol a 15 de setembre de 2026 i núms.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:43.570Z"
+      }
+    }
+  ]
+}

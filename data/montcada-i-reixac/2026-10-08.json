@@ -1,0 +1,617 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "montcada-i-reixac",
+    "nombre": "Montcada i Reixac",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "812520002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-08",
+    "municipio_id": "montcada-i-reixac",
+    "fecha": "2026-10-08",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/812520002/2026/48a6b043-ac92-44bf-80e1-8912eb4d42ac/20261008E%20Acta%20Extraordin%e0ria%20del%208%20d%27octubre%20de%202026.pdf",
+    "hash_contenido": "5035920ab123dfe9b61bebe946b7ad59872ed69f1b5c3b6bdc73c270d36a1805",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-13T13:45:42.662Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-08#1",
+      "sesion_id": "2026-10-08",
+      "orden": 1,
+      "titulo": "DONAR COMPTE DEL DECRET D’ALCALDIA 2026/2026 DEL 4 D’OCTUBRE DE",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DEL DECRET D’ALCALDIA 2026/2026 DEL 4 D’OCTUBRE DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#2",
+      "sesion_id": "2026-10-08",
+      "orden": 2,
+      "titulo": "APROVACIÓ PROVISIONAL DE L'EXPEDIENT DE MODIFICACIÓ DE LES",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ PROVISIONAL DE L'EXPEDIENT DE MODIFICACIÓ DE LES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.39,
+      "impacto": 2,
+      "confianza_min": 0.36,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#3",
+      "sesion_id": "2026-10-08",
+      "orden": 3,
+      "titulo": "Actes solidaris",
+      "resultado": null,
+      "texto_redactado": "Actes solidaris",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#4",
+      "sesion_id": "2026-10-08",
+      "orden": 4,
+      "titulo": "Convenis de col·laboració",
+      "resultado": null,
+      "texto_redactado": "Convenis de col·laboració",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#5",
+      "sesion_id": "2026-10-08",
+      "orden": 5,
+      "titulo": "Partits polítics",
+      "resultado": null,
+      "texto_redactado": "Partits polítics",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.22,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#6",
+      "sesion_id": "2026-10-08",
+      "orden": 6,
+      "titulo": "La taxa s'exigeix amb independència de la utilització efectiva del servei, sempre que",
+      "resultado": null,
+      "texto_redactado": "La taxa s'exigeix amb independència de la utilització efectiva del servei, sempre que",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.77,
+      "impacto": 3,
+      "confianza_min": 0.08,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#7",
+      "sesion_id": "2026-10-08",
+      "orden": 7,
+      "titulo": "En cas de no incorporar-se al servei municipal, o bé quan hagin estat expressament",
+      "resultado": null,
+      "texto_redactado": "En cas de no incorporar-se al servei municipal, o bé quan hagin estat expressament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#8",
+      "sesion_id": "2026-10-08",
+      "orden": 8,
+      "titulo": "Amb caràcter general, l'Ajuntament podrà considerar grans generadors",
+      "resultado": null,
+      "texto_redactado": "Amb caràcter general, l'Ajuntament podrà considerar grans generadors",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 2,
+      "confianza_min": 0.43,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#9",
+      "sesion_id": "2026-10-08",
+      "orden": 9,
+      "titulo": "Com a excepció es podrà considerar gran generador a aquells establiments que,",
+      "resultado": null,
+      "texto_redactado": "Com a excepció es podrà considerar gran generador a aquells establiments que,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.32,
+      "impacto": 2,
+      "confianza_min": 0.14,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#10",
+      "sesion_id": "2026-10-08",
+      "orden": 10,
+      "titulo": "L’Ajuntament podrà comprovar en qualsevol moment el compliment d’aquestes",
+      "resultado": null,
+      "texto_redactado": "L’Ajuntament podrà comprovar en qualsevol moment el compliment d’aquestes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#11",
+      "sesion_id": "2026-10-08",
+      "orden": 11,
+      "titulo": "Es consideraran exclosos de l’obligació d’incorporació al servei municipal de",
+      "resultado": null,
+      "texto_redactado": "Es consideraran exclosos de l’obligació d’incorporació al servei municipal de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 2,
+      "confianza_min": 0.27,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#12",
+      "sesion_id": "2026-10-08",
+      "orden": 12,
+      "titulo": "Es consideraran generadors assimilables a residus domèstics, aquells",
+      "resultado": null,
+      "texto_redactado": "Es consideraran generadors assimilables a residus domèstics, aquells",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.66,
+      "impacto": 3,
+      "confianza_min": 0.27,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#13",
+      "sesion_id": "2026-10-08",
+      "orden": 13,
+      "titulo": "Els volums es consideraran orientatius i podran determinar-se mitjançant els",
+      "resultado": null,
+      "texto_redactado": "Els volums es consideraran orientatius i podran determinar-se mitjançant els",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#14",
+      "sesion_id": "2026-10-08",
+      "orden": 14,
+      "titulo": "Es considerarà obligat a acollir-se al serveis de recollida personalitzada comercial",
+      "resultado": null,
+      "texto_redactado": "Es considerarà obligat a acollir-se al serveis de recollida personalitzada comercial",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.83,
+      "impacto": 4,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#15",
+      "sesion_id": "2026-10-08",
+      "orden": 15,
+      "titulo": "L’Ajuntament podrà comprovar en qualsevol moment el compliment d’aquestes",
+      "resultado": null,
+      "texto_redactado": "L’Ajuntament podrà comprovar en qualsevol moment el compliment d’aquestes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 1,
+      "confianza_min": 0.41,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#16",
+      "sesion_id": "2026-10-08",
+      "orden": 16,
+      "titulo": "Restaran exclosos del servei municipal de recollida comercial personalitzada, porta",
+      "resultado": null,
+      "texto_redactado": "Restaran exclosos del servei municipal de recollida comercial personalitzada, porta",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.67,
+      "impacto": 3,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#17",
+      "sesion_id": "2026-10-08",
+      "orden": 17,
+      "titulo": "Tindran la consideració de generadors extraordinaris aquells establiments que",
+      "resultado": null,
+      "texto_redactado": "Tindran la consideració de generadors extraordinaris aquells establiments que",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.37,
+      "impacto": 2,
+      "confianza_min": 0.23,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#18",
+      "sesion_id": "2026-10-08",
+      "orden": 18,
+      "titulo": "Els generadors extraordinaris hauran d’acreditar anualment davant l’Ajuntament la",
+      "resultado": null,
+      "texto_redactado": "Els generadors extraordinaris hauran d’acreditar anualment davant l’Ajuntament la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 2,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#19",
+      "sesion_id": "2026-10-08",
+      "orden": 19,
+      "titulo": "Els establiments generadors extraordinaris no estaran subjectes a la quota fixa del",
+      "resultado": null,
+      "texto_redactado": "Els establiments generadors extraordinaris no estaran subjectes a la quota fixa del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.56,
+      "impacto": 2,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#20",
+      "sesion_id": "2026-10-08",
+      "orden": 20,
+      "titulo": "Directament, i independentment de la seva generació, es considerarà generador",
+      "resultado": null,
+      "texto_redactado": "Directament, i independentment de la seva generació, es considerarà generador",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.43,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#21",
+      "sesion_id": "2026-10-08",
+      "orden": 21,
+      "titulo": "D’igual manera, els titulars d’activitats que generin residus comercials o residus",
+      "resultado": null,
+      "texto_redactado": "D’igual manera, els titulars d’activitats que generin residus comercials o residus",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.52,
+      "impacto": 2,
+      "confianza_min": 0.37,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#22",
+      "sesion_id": "2026-10-08",
+      "orden": 22,
+      "titulo": "En cas de concurrència de diverses activitats en un mateix establiment sota una",
+      "resultado": null,
+      "texto_redactado": "En cas de concurrència de diverses activitats en un mateix establiment sota una",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.38,
+      "impacto": 2,
+      "confianza_min": 0.4,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#23",
+      "sesion_id": "2026-10-08",
+      "orden": 23,
+      "titulo": "Els volums de generació de residus es determinaran d’acord amb la necessitat de",
+      "resultado": null,
+      "texto_redactado": "Els volums de generació de residus es determinaran d’acord amb la necessitat de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.39,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    },
+    {
+      "id": "2026-10-08#24",
+      "sesion_id": "2026-10-08",
+      "orden": 24,
+      "titulo": "L'Ajuntament podrà revisar d'ofici la classificació assignada a qualsevol activitat",
+      "resultado": null,
+      "texto_redactado": "L'Ajuntament podrà revisar d'ofici la classificació assignada a qualsevol activitat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.36,
+      "impacto": 3,
+      "confianza_min": 0.02,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:42.662Z"
+      }
+    }
+  ]
+}

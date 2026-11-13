@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/810690004/2026/30761981-7b71-4f75-984f-b3016a7c18f8/Acta%20Ple%20ordinari%2025-05-2026.pdf",
     "hash_contenido": "13d1d9728de53b6cd037dc6059fcf8acc4e001a49727a3ba23575ace8ec1bffc",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-11-12T14:07:43.797Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-13T13:45:47.826Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "Aprovació de l'acta de la sessió anterior de data 23-03-2026",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:47.826Z"
+      }
     },
     {
       "id": "2026-05-25#2",
@@ -49,13 +56,20 @@
       "texto_redactado": "Aprovació de l'acta de la sessió anterior de data 27-04-2026",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:47.826Z"
+      }
     },
     {
       "id": "2026-05-25#3",
@@ -66,13 +80,20 @@
       "texto_redactado": "Expedient 3083/2026. Aprovació de l'Ordenança reguladora de la prestació",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.64,
+      "impacto": 3,
+      "confianza_min": 0.22,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:47.826Z"
+      }
     },
     {
       "id": "2026-05-25#4",
@@ -83,13 +104,20 @@
       "texto_redactado": "Expedient 4563/2026. Aprovació de l'Ordenança reguladora de la prestació",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.64,
+      "impacto": 3,
+      "confianza_min": 0.23,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:47.826Z"
+      }
     },
     {
       "id": "2026-05-25#5",
@@ -100,13 +128,21 @@
       "texto_redactado": "Expedient 4827/2026. Aprovació del Protocol de la Festa Major de Llinars del Vallès",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 3,
+      "confianza_min": 0.24,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:47.826Z"
+      }
     },
     {
       "id": "2026-05-25#6",
@@ -117,13 +153,20 @@
       "texto_redactado": "Expedient 4895/2026. Ampliació de capital i modificació dels Estatuts de la societat",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.71,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:47.826Z"
+      }
     },
     {
       "id": "2026-05-25#7",
@@ -134,13 +177,20 @@
       "texto_redactado": "Expedient 3185/2026. Donar compte de la remissió de l'execució pressupostària del",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.96,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:47.826Z"
+      }
     },
     {
       "id": "2026-05-25#8",
@@ -151,13 +201,20 @@
       "texto_redactado": "Expedient 4661/2026. Donar coneixement de les Resolucions d'Alcaldia des de la",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.7,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:47.826Z"
+      }
     },
     {
       "id": "2026-05-25#9",
@@ -168,13 +225,20 @@
       "texto_redactado": "Precs i preguntes",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:47.826Z"
+      }
     }
   ]
 }

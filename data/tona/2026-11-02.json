@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "tona",
+    "nombre": "Tona",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "828300000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-02",
+    "municipio_id": "tona",
+    "fecha": "2026-11-02",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/828300000/2026/4fd763ac-2a56-4e05-afc6-18a9b6513ddd/20261103_Notificaci%f3_Notificaci%f3_Notificaci%f3%20-%20A09024763%20(1).pdf",
+    "hash_contenido": "8472c8815ef77f3b897aae0eeafced4fbf61ef370f9c82c470779f345e7484e5",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-13T13:45:48.042Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-02#1",
+      "sesion_id": "2026-11-02",
+      "orden": 1,
+      "titulo": "El Ple Municipal en la sessió celebrada el dia 17 de gener de 2011 va aprovar l’",
+      "resultado": null,
+      "texto_redactado": "El Ple Municipal en la sessió celebrada el dia 17 de gener de 2011 va aprovar l’",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.32,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:48.042Z"
+      }
+    },
+    {
+      "id": "2026-11-02#2",
+      "sesion_id": "2026-11-02",
+      "orden": 2,
+      "titulo": "El 10 de juny de 2024, el responsable de Delimitació Territorial de l’Institut",
+      "resultado": null,
+      "texto_redactado": "El 10 de juny de 2024, el responsable de Delimitació Territorial de l’Institut",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 2,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:48.042Z"
+      }
+    },
+    {
+      "id": "2026-11-02#3",
+      "sesion_id": "2026-11-02",
+      "orden": 3,
+      "titulo": "Posteriorment, el responsable de Delimitació Territorial de l’Institut Cartogràfic i",
+      "resultado": null,
+      "texto_redactado": "Posteriorment, el responsable de Delimitació Territorial de l’Institut Cartogràfic i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:48.042Z"
+      }
+    },
+    {
+      "id": "2026-11-02#4",
+      "sesion_id": "2026-11-02",
+      "orden": 4,
+      "titulo": "El 30 d’abril de 2026 es varen reunir les Comissions de Delimitació d’aquest",
+      "resultado": null,
+      "texto_redactado": "El 30 d’abril de 2026 es varen reunir les Comissions de Delimitació d’aquest",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 2,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:48.042Z"
+      }
+    }
+  ]
+}

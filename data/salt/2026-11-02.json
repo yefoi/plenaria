@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "salt",
+    "nombre": "Salt",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1715570005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-02",
+    "municipio_id": "salt",
+    "fecha": "2026-11-02",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1715570005/2026/452af0c2-835a-445a-a413-d20ccfb4070f/10%20-%20ACTA%20PE%2002.11.2026-E.pdf",
+    "hash_contenido": "47e3b2f4fe114aa43d1831f834633c5ace06196767afb37ed1dee7e0c5715a6e",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-11-13T13:45:34.580Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-02#1",
+      "sesion_id": "2026-11-02",
+      "orden": 1,
+      "titulo": "ACTA DE LA SESSIÓ DEL PLE MUNICIPAL Núm. 2026A021000010 Tipus de sessió: Extraordinària",
+      "resultado": null,
+      "texto_redactado": "ACTA DE LA SESSIÓ DEL PLE MUNICIPAL Núm. 2026A021000010 Tipus de sessió: Extraordinària",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:34.580Z"
+      }
+    }
+  ]
+}

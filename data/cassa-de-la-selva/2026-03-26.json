@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/1704480001/2026/bd52dca5-4359-438a-ac4b-e24e81a8f884/acta%20ple%2026032026_4.pdf",
     "hash_contenido": "f414534ce933e7175eacafc4a4a825a31b1850ad108c2e0970bcc5cc15d7dbba",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-11-12T14:07:27.113Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-13T13:45:46.851Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "Aprovació de l'acta anterior de 26 de febrer de 2026",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:46.851Z"
+      }
     },
     {
       "id": "2026-03-26#2",
@@ -49,13 +56,20 @@
       "texto_redactado": "Donar compte dels decrets d'alcaldia del núm. 2026/0399 al 2026/0694",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:46.851Z"
+      }
     },
     {
       "id": "2026-03-26#3",
@@ -66,13 +80,20 @@
       "texto_redactado": "",
       "importe_eur": null,
       "sensible": true,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.85,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:46.851Z"
+      }
     },
     {
       "id": "2026-03-26#4",
@@ -83,13 +104,20 @@
       "texto_redactado": "",
       "importe_eur": null,
       "sensible": true,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.85,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:46.851Z"
+      }
     },
     {
       "id": "2026-03-26#5",
@@ -100,13 +128,20 @@
       "texto_redactado": "Reajustament de les anualitats i la pròrroga del contracte privat de mandat d'una finca",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 2,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:46.851Z"
+      }
     },
     {
       "id": "2026-03-26#6",
@@ -117,13 +152,20 @@
       "texto_redactado": "Aprovació de la declaració de concurrència de bonificacions d'ICIO",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.45,
+      "impacto": 2,
+      "confianza_min": 0.12,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:46.851Z"
+      }
     },
     {
       "id": "2026-03-26#7",
@@ -134,13 +176,20 @@
       "texto_redactado": "Aprovació inicial de l’expedient de suplement de crèdit 3SC 2/2026 de l’Ajuntament de",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 2,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:46.851Z"
+      }
     },
     {
       "id": "2026-03-26#8",
@@ -151,13 +200,20 @@
       "texto_redactado": "Aprovació inicial de l’expedient de crèdit extraordinari 3CE 2/2026 de l’Ajuntament de",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 2,
+      "confianza_min": 0.31,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:46.851Z"
+      }
     },
     {
       "id": "2026-03-26#9",
@@ -168,13 +224,20 @@
       "texto_redactado": "Aprovació inicial de l’expedient de crèdit extraordinari 3CE 3/2026 de l’Ajuntament de",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 2,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:46.851Z"
+      }
     },
     {
       "id": "2026-03-26#10",
@@ -185,13 +248,20 @@
       "texto_redactado": "Reconeixement extrajudicial de crèdit",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:46.851Z"
+      }
     },
     {
       "id": "2026-03-26#11",
@@ -202,13 +272,20 @@
       "texto_redactado": "Donar compte del Pla de control financer i el seu sector institucional de l’exercici 2026",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:46.851Z"
+      }
     },
     {
       "id": "2026-03-26#12",
@@ -219,13 +296,20 @@
       "texto_redactado": "Donar compte de la liquidació del pressupost general de l'exercici 2025",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.98,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:46.851Z"
+      }
     },
     {
       "id": "2026-03-26#13",
@@ -236,13 +320,20 @@
       "texto_redactado": "Donar compte de l'informe anual dels resultats de la funció interventora de l'exercici",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:46.851Z"
+      }
     },
     {
       "id": "2026-03-26#14",
@@ -253,13 +344,20 @@
       "texto_redactado": "Moció per al restabliment de la inscripció de naixements al municipi del domicili",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.5,
+      "impacto": 3,
+      "confianza_min": 0.18,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:46.851Z"
+      }
     },
     {
       "id": "2026-03-26#15",
@@ -270,13 +368,20 @@
       "texto_redactado": "Informes d'alcaldia i regidors",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:46.851Z"
+      }
     },
     {
       "id": "2026-03-26#16",
@@ -287,13 +392,20 @@
       "texto_redactado": "Precs i preguntes",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-13T13:45:46.851Z"
+      }
     }
   ]
 }
