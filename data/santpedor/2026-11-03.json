@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "santpedor",
+    "nombre": "Santpedor",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "819230008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-03",
+    "municipio_id": "santpedor",
+    "fecha": "2026-11-03",
+    "tipo": "extraordinaria_urgente",
+    "fuente_url": "https://media.seu-e.cat/acteca/819230008/2026/57a0b218-4365-4eaa-b7d5-8764ef10a01d/ACTA%20PLE%2003112026.pdf",
+    "hash_contenido": "1ed5fe225c149933975d927f45a6b681791758b407f901308d2aebcf47aacd19",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-11-14T12:52:05.438Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-03#1",
+      "sesion_id": "2026-11-03",
+      "orden": 1,
+      "titulo": "1. Sorteig dels membres de les meses electorals Eleccions Generals novembre",
+      "resultado": null,
+      "texto_redactado": "1. Sorteig dels membres de les meses electorals Eleccions Generals novembre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 2,
+      "confianza_min": 0.13,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,deepseek/deepseek-v4-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-14T12:52:05.438Z"
+      }
+    }
+  ]
+}

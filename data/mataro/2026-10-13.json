@@ -1,0 +1,250 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "mataro",
+    "nombre": "Mataró",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "812130008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-13",
+    "municipio_id": "mataro",
+    "fecha": "2026-10-13",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/812130008/2026/f115b5ce-4a14-4afd-900b-e7a45038b300/20261013_acta_sessio_Ple_extraordinari%20SIG.pdf",
+    "hash_contenido": "97fe6cc4e01c4d0287b48286fff8eaa41f18efda7a191219af57e72c46800ee0",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-14T12:52:47.021Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-13#1",
+      "sesion_id": "2026-10-13",
+      "orden": 1,
+      "titulo": "Aprovació inicial de la modificació de crèdit i de les bases d'execució de l'ajuntament de Mataró",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial de la modificació de crèdit i de les bases d'execució de l'ajuntament de Mataró",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.42,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,deepseek/deepseek-v4-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-14T12:52:47.021Z"
+      }
+    },
+    {
+      "id": "2026-10-13#2",
+      "sesion_id": "2026-10-13",
+      "orden": 2,
+      "titulo": "Aprovació provisional de les modificacions de les Ordenances fiscals per a l’exercici 2027.-",
+      "resultado": null,
+      "texto_redactado": "Aprovació provisional de les modificacions de les Ordenances fiscals per a l’exercici 2027.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.78,
+      "impacto": 4,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,deepseek/deepseek-v4-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-14T12:52:47.021Z"
+      }
+    },
+    {
+      "id": "2026-10-13#3",
+      "sesion_id": "2026-10-13",
+      "orden": 3,
+      "titulo": "Concertació d’una operació d’endeutament a llarg termini d’import màxim 200.000€, amb la",
+      "resultado": null,
+      "texto_redactado": "Concertació d’una operació d’endeutament a llarg termini d’import màxim 200.000€, amb la",
+      "importe_eur": 200000,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 4,
+      "confianza_min": 0.31,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,deepseek/deepseek-v4-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-14T12:52:47.021Z"
+      }
+    },
+    {
+      "id": "2026-10-13#4",
+      "sesion_id": "2026-10-13",
+      "orden": 4,
+      "titulo": "En concret aquesta modificació consisteix en:",
+      "resultado": null,
+      "texto_redactado": "En concret aquesta modificació consisteix en:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 1,
+      "confianza_min": 0.85,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,deepseek/deepseek-v4-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-14T12:52:47.021Z"
+      }
+    },
+    {
+      "id": "2026-10-13#5",
+      "sesion_id": "2026-10-13",
+      "orden": 5,
+      "titulo": "Consten incorporats a l’expedient els informes de sol·licitud de modificació per part dels serveis",
+      "resultado": null,
+      "texto_redactado": "Consten incorporats a l’expedient els informes de sol·licitud de modificació per part dels serveis",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias",
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,deepseek/deepseek-v4-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-14T12:52:47.021Z"
+      }
+    },
+    {
+      "id": "2026-10-13#6",
+      "sesion_id": "2026-10-13",
+      "orden": 6,
+      "titulo": "Vist l’informe del servei de Gestió Econòmica on s’informa d’aquesta modificació pressupostària i",
+      "resultado": null,
+      "texto_redactado": "Vist l’informe del servei de Gestió Econòmica on s’informa d’aquesta modificació pressupostària i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 1,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,deepseek/deepseek-v4-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-14T12:52:47.021Z"
+      }
+    },
+    {
+      "id": "2026-10-13#7",
+      "sesion_id": "2026-10-13",
+      "orden": 7,
+      "titulo": "Remetre còpia d’aquest acord de modificació de crèdit a la Generalitat de Catalunya, d’acord",
+      "resultado": null,
+      "texto_redactado": "Remetre còpia d’aquest acord de modificació de crèdit a la Generalitat de Catalunya, d’acord",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.92,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,deepseek/deepseek-v4-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-14T12:52:47.021Z"
+      }
+    },
+    {
+      "id": "2026-10-13#8",
+      "sesion_id": "2026-10-13",
+      "orden": 8,
+      "titulo": "Incorporació d’una segona disposició transitòria, relativa al canvi de regulació de la bonificació",
+      "resultado": null,
+      "texto_redactado": "Incorporació d’una segona disposició transitòria, relativa al canvi de regulació de la bonificació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.6,
+      "impacto": 3,
+      "confianza_min": 0.36,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,deepseek/deepseek-v4-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-14T12:52:47.021Z"
+      }
+    },
+    {
+      "id": "2026-10-13#9",
+      "sesion_id": "2026-10-13",
+      "orden": 9,
+      "titulo": "Modificació de la disposició final tercera:",
+      "resultado": null,
+      "texto_redactado": "Modificació de la disposició final tercera:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.38,
+      "impacto": 1,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,deepseek/deepseek-v4-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-14T12:52:47.021Z"
+      }
+    }
+  ]
+}

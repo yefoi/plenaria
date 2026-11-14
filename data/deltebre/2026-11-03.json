@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "deltebre",
+    "nombre": "Deltebre",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4390180001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-03",
+    "municipio_id": "deltebre",
+    "fecha": "2026-11-03",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4390180001/2026/efef0d6b-55ad-4012-8044-4b22e5412fdf/Acta%20PM%2011032026%20relaci%f3%20s_dades.pdf",
+    "hash_contenido": "f3dd10aa2b2fe879bd8a4dab6326ff4de14698296f0739630e6063c06c336f10",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-11-14T12:49:49.925Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-03#1",
+      "sesion_id": "2026-11-03",
+      "orden": 1,
+      "titulo": "Acta del Ple Identificació de la sessió Sessió: PLE MUNICIPAL EXTRAORDINARI DE DATA 3 DE NOVEMBRE [MATRÍCULA]ÚM 10",
+      "resultado": null,
+      "texto_redactado": "Acta del Ple Identificació de la sessió Sessió: PLE MUNICIPAL EXTRAORDINARI DE DATA 3 DE NOVEMBRE [MATRÍCULA]ÚM 10",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,deepseek/deepseek-v4-flash)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-14T12:49:49.925Z"
+      }
+    }
+  ]
+}
