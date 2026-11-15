@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "torello",
+    "nombre": "Torelló",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "828580001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-20",
+    "municipio_id": "torello",
+    "fecha": "2026-07-20",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/828580001/2026/bb46f36f-bb58-4e4e-b0c7-b5a537d68962/X2026004470%20PLE_compressed.pdf",
+    "hash_contenido": "1b282a7385cdf73bcdd1bee11df9ec7c14a2f9f6e5563c60c504dd305ce6ae23",
+    "estado_ingesta": "requiere_ocr",
+    "actualizada_en": "2026-11-15T13:02:54.722Z"
+  },
+  "puntos": []
+}

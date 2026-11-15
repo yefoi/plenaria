@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "cervello",
+    "nombre": "Cervelló",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "806890004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-09",
+    "municipio_id": "cervello",
+    "fecha": "2026-11-09",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/806890004/2026/bd76b040-6360-4401-a333-7fa6ecadf348/20261110_Certificat_Certificat%20d%27acords_Certificat%20d%27acord%20(1).pdf",
+    "hash_contenido": "81ca2dde65c2d84f0f5f9529bdfbe1dff38648b09ebd18abe3df188b4c0914cf",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-11-15T13:33:43.043Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-09#1",
+      "sesion_id": "2026-11-09",
+      "orden": 1,
+      "titulo": "Ajuntament de Cervelló [DIRECCIÓN]-148, Cervelló. 08758 (Barcelona). Tel. [TELÉFONO]. Fax: [TELÉFONO] CERTIFICAT",
+      "resultado": null,
+      "texto_redactado": "Ajuntament de Cervelló [DIRECCIÓN]-148, Cervelló. 08758 (Barcelona). Tel. [TELÉFONO]. Fax: [TELÉFONO] CERTIFICAT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.32,
+      "impacto": 1,
+      "confianza_min": 0.77,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (inclusionai/ling-3.0-flash,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-15T13:33:43.043Z"
+      }
+    }
+  ]
+}

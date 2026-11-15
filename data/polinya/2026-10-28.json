@@ -1,0 +1,250 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "polinya",
+    "nombre": "Polinyà",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "816720002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-28",
+    "municipio_id": "polinya",
+    "fecha": "2026-10-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/816720002/2026/24350168-e66e-4075-b5dc-2d15fd9f540e/AP20261028-6.pdf",
+    "hash_contenido": "a6b1b582faaf7ddd116ff03a3b02a459f3d7da78c5ee4ce6a8eb2c97cafe0ca7",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-15T13:35:21.953Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-28#1",
+      "sesion_id": "2026-10-28",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta de la sessió anterior",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’acta de la sessió anterior",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,deepseek/deepseek-v4-flash,inclusionai/ling-3.0-flash,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-15T13:35:21.953Z"
+      }
+    },
+    {
+      "id": "2026-10-28#2",
+      "sesion_id": "2026-10-28",
+      "orden": 2,
+      "titulo": "Aprovació provisional de la modificació de les Ordenances Fiscals per a l’any",
+      "resultado": null,
+      "texto_redactado": "Aprovació provisional de la modificació de les Ordenances Fiscals per a l’any",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.81,
+      "impacto": 4,
+      "confianza_min": 0.33,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,deepseek/deepseek-v4-flash,inclusionai/ling-3.0-flash,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-15T13:35:21.953Z"
+      }
+    },
+    {
+      "id": "2026-10-28#3",
+      "sesion_id": "2026-10-28",
+      "orden": 3,
+      "titulo": "Aprovació inicial del Nomenclàtor de Polinyà i d’assignació i modificació de",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial del Nomenclàtor de Polinyà i d’assignació i modificació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.53,
+      "impacto": 4,
+      "confianza_min": 0.25,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,deepseek/deepseek-v4-flash,inclusionai/ling-3.0-flash,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-15T13:35:21.953Z"
+      }
+    },
+    {
+      "id": "2026-10-28#4",
+      "sesion_id": "2026-10-28",
+      "orden": 4,
+      "titulo": "Aprovació inicial de la modificació pressupostària núm. 29/2026.",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial de la modificació pressupostària núm. 29/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.42,
+      "impacto": 2,
+      "confianza_min": 0.26,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,deepseek/deepseek-v4-flash,inclusionai/ling-3.0-flash,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-15T13:35:21.953Z"
+      }
+    },
+    {
+      "id": "2026-10-28#5",
+      "sesion_id": "2026-10-28",
+      "orden": 5,
+      "titulo": "Reconeixement extrajudicial de crèdits. Exp.4653/2026",
+      "resultado": null,
+      "texto_redactado": "Reconeixement extrajudicial de crèdits. Exp.4653/2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,deepseek/deepseek-v4-flash,inclusionai/ling-3.0-flash,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-15T13:35:21.953Z"
+      }
+    },
+    {
+      "id": "2026-10-28#6",
+      "sesion_id": "2026-10-28",
+      "orden": 6,
+      "titulo": "Convalidació d’omissió de la funció interventora respecte a la Licitació del",
+      "resultado": null,
+      "texto_redactado": "Convalidació d’omissió de la funció interventora respecte a la Licitació del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,deepseek/deepseek-v4-flash,inclusionai/ling-3.0-flash,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-15T13:35:21.953Z"
+      }
+    },
+    {
+      "id": "2026-10-28#7",
+      "sesion_id": "2026-10-28",
+      "orden": 7,
+      "titulo": "Modificació de compromís de despesa plurianual de durada superior a quatre",
+      "resultado": null,
+      "texto_redactado": "Modificació de compromís de despesa plurianual de durada superior a quatre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,deepseek/deepseek-v4-flash,inclusionai/ling-3.0-flash,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-15T13:35:21.953Z"
+      }
+    },
+    {
+      "id": "2026-10-28#8",
+      "sesion_id": "2026-10-28",
+      "orden": 8,
+      "titulo": "Inici d’expedient i aprovació dels plecs de condicions per a la contractació de",
+      "resultado": null,
+      "texto_redactado": "Inici d’expedient i aprovació dels plecs de condicions per a la contractació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "personal",
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,deepseek/deepseek-v4-flash,inclusionai/ling-3.0-flash,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-15T13:35:21.953Z"
+      }
+    },
+    {
+      "id": "2026-10-28#9",
+      "sesion_id": "2026-10-28",
+      "orden": 9,
+      "titulo": "Verificació del text refós del Pla Parcial del sector D2 Can Rovira. Exp. _________________ A) PART RESOLUTIVA",
+      "resultado": null,
+      "texto_redactado": "Verificació del text refós del Pla Parcial del sector D2 Can Rovira. Exp. _________________ A) PART RESOLUTIVA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias",
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.35,
+      "impacto": 3,
+      "confianza_min": 0.11,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (ibm-granite/granite-4.2-8b,deepseek/deepseek-v4-flash,inclusionai/ling-3.0-flash,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-15T13:35:21.953Z"
+      }
+    }
+  ]
+}
