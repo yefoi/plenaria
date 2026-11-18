@@ -1,0 +1,223 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-celoni",
+    "nombre": "Sant Celoni",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "820210007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-19",
+    "municipio_id": "sant-celoni",
+    "fecha": "2026-10-19",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/820210007/2026/60805a81-f873-4054-8679-24a3b264c873/Acta%20Ple%20191026.pdf",
+    "hash_contenido": "d8cc7fffa9560c50842b4e52696bb0dcf7aa1431ab026bccca8495fac45fde78",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-18T14:34:36.746Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-19#1",
+      "sesion_id": "2026-10-19",
+      "orden": 1,
+      "titulo": "Modificació provisional de l’Ordenança Fiscal número 14 relativa a la taxa per la prestació del",
+      "resultado": null,
+      "texto_redactado": "Modificació provisional de l’Ordenança Fiscal número 14 relativa a la taxa per la prestació del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.74,
+      "impacto": 3,
+      "confianza_min": 0.32,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-18T14:34:36.746Z"
+      }
+    },
+    {
+      "id": "2026-10-19#2",
+      "sesion_id": "2026-10-19",
+      "orden": 2,
+      "titulo": "En data 05/10/2026 els serveis municipals, per via de la tècnica de residus, emeten informe",
+      "resultado": null,
+      "texto_redactado": "En data 05/10/2026 els serveis municipals, per via de la tècnica de residus, emeten informe",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.82,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-18T14:34:36.746Z"
+      }
+    },
+    {
+      "id": "2026-10-19#3",
+      "sesion_id": "2026-10-19",
+      "orden": 3,
+      "titulo": "En data 09/10/2026 la Tresoreria municipal emet informe jurídic-tributari analitzant el marc",
+      "resultado": null,
+      "texto_redactado": "En data 09/10/2026 la Tresoreria municipal emet informe jurídic-tributari analitzant el marc",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-18T14:34:36.746Z"
+      }
+    },
+    {
+      "id": "2026-10-19#4",
+      "sesion_id": "2026-10-19",
+      "orden": 4,
+      "titulo": "En data 09/10/2026 la Secretaria municipal emet nota de conformitat amb l’informe jurídic",
+      "resultado": null,
+      "texto_redactado": "En data 09/10/2026 la Secretaria municipal emet nota de conformitat amb l’informe jurídic",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.98,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-18T14:34:36.746Z"
+      }
+    },
+    {
+      "id": "2026-10-19#5",
+      "sesion_id": "2026-10-19",
+      "orden": 5,
+      "titulo": "Els obligats tributaris que tinguin domiciliat el pagament del rebut de venciment",
+      "resultado": null,
+      "texto_redactado": "Els obligats tributaris que tinguin domiciliat el pagament del rebut de venciment",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.51,
+      "impacto": 2,
+      "confianza_min": 0.06,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-18T14:34:36.746Z"
+      }
+    },
+    {
+      "id": "2026-10-19#6",
+      "sesion_id": "2026-10-19",
+      "orden": 6,
+      "titulo": "Costos nets previstos per la prestació dels serveis de recollida, transport, tractament",
+      "resultado": null,
+      "texto_redactado": "Costos nets previstos per la prestació dels serveis de recollida, transport, tractament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.6,
+      "impacto": 4,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-18T14:34:36.746Z"
+      }
+    },
+    {
+      "id": "2026-10-19#7",
+      "sesion_id": "2026-10-19",
+      "orden": 7,
+      "titulo": "Estimació de recaptació per les taxes. EPÍGRAF I – GESTIÓ DE RESIDUS DOMÈSTICS",
+      "resultado": null,
+      "texto_redactado": "Estimació de recaptació per les taxes. EPÍGRAF I – GESTIÓ DE RESIDUS DOMÈSTICS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos",
+        "servicios_publicos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-18T14:34:36.746Z"
+      }
+    },
+    {
+      "id": "2026-10-19#8",
+      "sesion_id": "2026-10-19",
+      "orden": 8,
+      "titulo": "Adequació al principi d’equivalència",
+      "resultado": null,
+      "texto_redactado": "Adequació al principi d’equivalència",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.35,
+      "impacto": 2,
+      "confianza_min": 0.3,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-18T14:34:36.746Z"
+      }
+    }
+  ]
+}

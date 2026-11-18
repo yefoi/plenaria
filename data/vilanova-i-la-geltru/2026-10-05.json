@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vilanova-i-la-geltru",
+    "nombre": "Vilanova i la Geltrú",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "830730008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-05",
+    "municipio_id": "vilanova-i-la-geltru",
+    "fecha": "2026-10-05",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/830730008/2026/bc6f3a8c-fdac-4283-b9e1-aee2a06dcfca/11.PLE%205%20OCTUBRE%202026.pdf",
+    "hash_contenido": "4da1ae5d8ddb48563d4fae0a6482ed1781497615163b34736c39e3c63516aef5",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-18T14:34:22.931Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-05#1",
+      "sesion_id": "2026-10-05",
+      "orden": 1,
+      "titulo": "Còpia en paper (només material imprès a partir de 1930 i en",
+      "resultado": null,
+      "texto_redactado": "Còpia en paper (només material imprès a partir de 1930 i en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 2,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-18T14:34:22.931Z"
+      }
+    },
+    {
+      "id": "2026-10-05#2",
+      "sesion_id": "2026-10-05",
+      "orden": 2,
+      "titulo": "Despeses de tramesa, en cas d’enviament per correu",
+      "resultado": null,
+      "texto_redactado": "Despeses de tramesa, en cas d’enviament per correu",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.57,
+      "impacto": 2,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-18T14:34:22.931Z"
+      }
+    },
+    {
+      "id": "2026-10-05#3",
+      "sesion_id": "2026-10-05",
+      "orden": 3,
+      "titulo": "Còpia digital (màxim mida de l’original DIN A3)",
+      "resultado": null,
+      "texto_redactado": "Còpia digital (màxim mida de l’original DIN A3)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.61,
+      "impacto": 2,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-18T14:34:22.931Z"
+      }
+    }
+  ]
+}

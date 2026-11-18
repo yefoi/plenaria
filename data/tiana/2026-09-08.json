@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "tiana",
+    "nombre": "Tiana",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "828240003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-08",
+    "municipio_id": "tiana",
+    "fecha": "2026-09-08",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/828240003/2026/f954a67e-8625-4189-9bb4-7c58e36ac8b3/ACTA%20DEL%20PLE%20A9-080926.pdf",
+    "hash_contenido": "a7e997a4635d0068fc2975e0e3e398c68cb98a5d1fc846651a5d494421ec548b",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-18T14:34:38.331Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-08#1",
+      "sesion_id": "2026-09-08",
+      "orden": 1,
+      "titulo": "VOLDRÍEM SABER SI JA S’HA REALITZAT LA SUBSTITUCIÓ DE LA COBERTA DE LA SALA ALBÈNIZ I QUAN ES PROCEDIRÀ A CANVIAR ELS SEIENTS DE LA SALA.",
+      "resultado": null,
+      "texto_redactado": "VOLDRÍEM SABER SI JA S’HA REALITZAT LA SUBSTITUCIÓ DE LA COBERTA DE LA SALA ALBÈNIZ I QUAN ES PROCEDIRÀ A CANVIAR ELS SEIENTS DE LA SALA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.49,
+      "impacto": 3,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-18T14:34:38.331Z"
+      }
+    },
+    {
+      "id": "2026-09-08#2",
+      "sesion_id": "2026-09-08",
+      "orden": 2,
+      "titulo": "HAN REALITZAR ALGUNA DE LES MILLORES PROJECTADES EN EL CAMÍ PEATONAL QUE UNEIX LA VIRREINA AMB EL POBLE DE TIANA?",
+      "resultado": null,
+      "texto_redactado": "HAN REALITZAR ALGUNA DE LES MILLORES PROJECTADES EN EL CAMÍ PEATONAL QUE UNEIX LA VIRREINA AMB EL POBLE DE TIANA?",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.86,
+      "impacto": 3,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-18T14:34:38.331Z"
+      }
+    },
+    {
+      "id": "2026-09-08#3",
+      "sesion_id": "2026-09-08",
+      "orden": 3,
+      "titulo": "EL CAMÍ DEL MIG QUE UNEIX TIANA I LA VIRREINA. HAN REALITZAT ALGUNA DE LES MILLORES PREVISTES?",
+      "resultado": null,
+      "texto_redactado": "EL CAMÍ DEL MIG QUE UNEIX TIANA I LA VIRREINA. HAN REALITZAT ALGUNA DE LES MILLORES PREVISTES?",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.89,
+      "impacto": 3,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-18T14:34:38.331Z"
+      }
+    },
+    {
+      "id": "2026-09-08#4",
+      "sesion_id": "2026-09-08",
+      "orden": 4,
+      "titulo": "EN DIVERSES OCASIONS ELS MEMBRES DE L’OPOSICIÓ HEM DEMANAT QUE ES FACI UN MANTENIMENT ADEQUAT DEL TRAMVIA DE TIANA, QUE TENIM EXPOSAT AL CARRER. VOLDRIA SABER PERQUÈ NO ES FA AQUEST MANTENIMENT.",
+      "resultado": null,
+      "texto_redactado": "EN DIVERSES OCASIONS ELS MEMBRES DE L’OPOSICIÓ HEM DEMANAT QUE ES FACI UN MANTENIMENT ADEQUAT DEL TRAMVIA DE TIANA, QUE TENIM EXPOSAT AL CARRER. VOLDRIA SABER PERQUÈ NO ES FA AQUEST MANTENIMENT.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.49,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-18T14:34:38.331Z"
+      }
+    },
+    {
+      "id": "2026-09-08#5",
+      "sesion_id": "2026-09-08",
+      "orden": 5,
+      "titulo": "QUANTS INFANTS QUE HAVIEN DEMANAT PLAÇA A L’ESCOLA BRESSOL DE TIANA, S’HAN QUEDAT SENSE PLAÇA?",
+      "resultado": null,
+      "texto_redactado": "QUANTS INFANTS QUE HAVIEN DEMANAT PLAÇA A L’ESCOLA BRESSOL DE TIANA, S’HAN QUEDAT SENSE PLAÇA?",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.83,
+      "impacto": 3,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-18T14:34:38.331Z"
+      }
+    }
+  ]
+}
