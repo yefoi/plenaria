@@ -1,0 +1,292 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "santa-coloma-de-gramenet",
+    "nombre": "Santa Coloma de Gramenet",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "824570005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-20",
+    "municipio_id": "santa-coloma-de-gramenet",
+    "fecha": "2026-07-20",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/824570005/2026/3b73ac51-29c0-4477-b71d-5d2de8dd5ecb/Acta%2007_26%20PLE%20MUNICIPAL%2020_07_26%20Anonimitzada.PDF",
+    "hash_contenido": "02f10a7f96eb5a94de624d280ea83c9550461ba59954bbc3e31d7f064f380b8a",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-19T15:02:21.986Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-20#1",
+      "sesion_id": "2026-07-20",
+      "orden": 1,
+      "titulo": "En data 30 de maig de 2005 el Ple de l’Ajuntament de Santa Coloma de Gramenet va",
+      "resultado": null,
+      "texto_redactado": "En data 30 de maig de 2005 el Ple de l’Ajuntament de Santa Coloma de Gramenet va",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 1,
+      "confianza_min": 0.83,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:02:21.986Z"
+      }
+    },
+    {
+      "id": "2026-07-20#2",
+      "sesion_id": "2026-07-20",
+      "orden": 2,
+      "titulo": "En data 26 de març de 2026, el primer tinent d’alcaldessa de l’àrea d’Urbanisme, Habitatge,",
+      "resultado": null,
+      "texto_redactado": "En data 26 de març de 2026, el primer tinent d’alcaldessa de l’àrea d’Urbanisme, Habitatge,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias",
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.35,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:02:21.986Z"
+      }
+    },
+    {
+      "id": "2026-07-20#3",
+      "sesion_id": "2026-07-20",
+      "orden": 3,
+      "titulo": "En data 6 de maig de 2026, el secretari general emet certificat en el qual fa constar que un",
+      "resultado": null,
+      "texto_redactado": "En data 6 de maig de 2026, el secretari general emet certificat en el qual fa constar que un",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:02:21.986Z"
+      }
+    },
+    {
+      "id": "2026-07-20#4",
+      "sesion_id": "2026-07-20",
+      "orden": 4,
+      "titulo": "En data 6 de maig de 2026 la cap del Servei de Medi Ambient ha emès informe favorable a",
+      "resultado": null,
+      "texto_redactado": "En data 6 de maig de 2026 la cap del Servei de Medi Ambient ha emès informe favorable a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:02:21.986Z"
+      }
+    },
+    {
+      "id": "2026-07-20#5",
+      "sesion_id": "2026-07-20",
+      "orden": 5,
+      "titulo": "L’informe jurídic emès pel tècnic jurídic d’àmbit superior del Servei de Gestió Econòmica i",
+      "resultado": null,
+      "texto_redactado": "L’informe jurídic emès pel tècnic jurídic d’àmbit superior del Servei de Gestió Econòmica i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:02:21.986Z"
+      }
+    },
+    {
+      "id": "2026-07-20#6",
+      "sesion_id": "2026-07-20",
+      "orden": 6,
+      "titulo": "L’informe d’assessorament legal preceptiu del secretari general, que consta a l’expedient.",
+      "resultado": null,
+      "texto_redactado": "L’informe d’assessorament legal preceptiu del secretari general, que consta a l’expedient.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 1,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:02:21.986Z"
+      }
+    },
+    {
+      "id": "2026-07-20#7",
+      "sesion_id": "2026-07-20",
+      "orden": 7,
+      "titulo": "La confecció de l’expedient de rectificació s’ha dut a terme seguint els criteris generals",
+      "resultado": null,
+      "texto_redactado": "La confecció de l’expedient de rectificació s’ha dut a terme seguint els criteris generals",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:02:21.986Z"
+      }
+    },
+    {
+      "id": "2026-07-20#8",
+      "sesion_id": "2026-07-20",
+      "orden": 8,
+      "titulo": "L’article 105.3) del Decret 336/1988, de 17 d’octubre, pel qual s’aprova el Reglament del",
+      "resultado": null,
+      "texto_redactado": "L’article 105.3) del Decret 336/1988, de 17 d’octubre, pel qual s’aprova el Reglament del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:02:21.986Z"
+      }
+    },
+    {
+      "id": "2026-07-20#9",
+      "sesion_id": "2026-07-20",
+      "orden": 9,
+      "titulo": "S’ha emès el corresponent certificat del secretari general de la Corporació, que s’incorpora a",
+      "resultado": null,
+      "texto_redactado": "S’ha emès el corresponent certificat del secretari general de la Corporació, que s’incorpora a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.99,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:02:21.986Z"
+      }
+    },
+    {
+      "id": "2026-07-20#10",
+      "sesion_id": "2026-07-20",
+      "orden": 10,
+      "titulo": "S’incorpora igualment a l’expedient l’informe jurídic emès per la tècnica de suport jurídic del",
+      "resultado": null,
+      "texto_redactado": "S’incorpora igualment a l’expedient l’informe jurídic emès per la tècnica de suport jurídic del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:02:21.986Z"
+      }
+    },
+    {
+      "id": "2026-07-20#11",
+      "sesion_id": "2026-07-20",
+      "orden": 11,
+      "titulo": "Configurant doncs l’expedient de rectificació de l’Inventari de la Corporació, tancat a 31 de",
+      "resultado": null,
+      "texto_redactado": "Configurant doncs l’expedient de rectificació de l’Inventari de la Corporació, tancat a 31 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.96,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:02:21.986Z"
+      }
+    }
+  ]
+}

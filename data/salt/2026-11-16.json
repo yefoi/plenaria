@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "salt",
+    "nombre": "Salt",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1715570005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-16",
+    "municipio_id": "salt",
+    "fecha": "2026-11-16",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1715570005/2026/fb3d6e8f-2381-47af-9319-e9353b2e29a5/11.-%20ACTA%20PO%2016.11.2026-E.pdf",
+    "hash_contenido": "dbc2075b313360186530304bfe577d50448b00fd4c618066484204e56ece1b58",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-19T15:01:35.499Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-16#1",
+      "sesion_id": "2026-11-16",
+      "orden": 1,
+      "titulo": "El Pla General d’Ordenació Urbana de Salt, vigent des del 7 de juny de 2002, fou",
+      "resultado": null,
+      "texto_redactado": "El Pla General d’Ordenació Urbana de Salt, vigent des del 7 de juny de 2002, fou",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.74,
+      "impacto": 5,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:01:35.499Z"
+      }
+    },
+    {
+      "id": "2026-11-16#2",
+      "sesion_id": "2026-11-16",
+      "orden": 2,
+      "titulo": "La Comissió Territorial d’Urbanisme de Girona, en sessió de data 2 de febrer de",
+      "resultado": null,
+      "texto_redactado": "La Comissió Territorial d’Urbanisme de Girona, en sessió de data 2 de febrer de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:01:35.499Z"
+      }
+    },
+    {
+      "id": "2026-11-16#3",
+      "sesion_id": "2026-11-16",
+      "orden": 3,
+      "titulo": "Els serveis tècnics municipals de l’Àrea de Territori d’aquest Ajuntament han",
+      "resultado": null,
+      "texto_redactado": "Els serveis tècnics municipals de l’Àrea de Territori d’aquest Ajuntament han",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.92,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:01:35.499Z"
+      }
+    },
+    {
+      "id": "2026-11-16#4",
+      "sesion_id": "2026-11-16",
+      "orden": 4,
+      "titulo": "En data 16 d’octubre de 2026, l’arquitecta Cap d’àrea de Serveis Territorials emet",
+      "resultado": null,
+      "texto_redactado": "En data 16 d’octubre de 2026, l’arquitecta Cap d’àrea de Serveis Territorials emet",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.85,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:01:35.499Z"
+      }
+    },
+    {
+      "id": "2026-11-16#5",
+      "sesion_id": "2026-11-16",
+      "orden": 5,
+      "titulo": "En data16 d’octubre de 2026 el Secretari de la Corporació emet informe jurídic",
+      "resultado": null,
+      "texto_redactado": "En data16 d’octubre de 2026 el Secretari de la Corporació emet informe jurídic",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.99,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:01:35.499Z"
+      }
+    }
+  ]
+}

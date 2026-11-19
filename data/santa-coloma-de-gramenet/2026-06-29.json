@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "santa-coloma-de-gramenet",
+    "nombre": "Santa Coloma de Gramenet",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "824570005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-29",
+    "municipio_id": "santa-coloma-de-gramenet",
+    "fecha": "2026-06-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/824570005/2026/696534ca-010b-47ed-a925-ee76913f4deb/Acta%2006_26%20PLE%20MUNICIPAL%2029_06_26%20Anonimitzada.PDF",
+    "hash_contenido": "c2a78181225ba85b7a60b3c42e0ba86f9e826760ef00f6b60eb82c2f4d3a7852",
+    "estado_ingesta": "redactada",
+    "actualizada_en": "2026-11-19T14:40:11.344Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-29#1",
+      "sesion_id": "2026-06-29",
+      "orden": 1,
+      "titulo": "El Ple de la corporació en data 24 de febrer de 2025 va aprovar el Reglament del",
+      "resultado": null,
+      "texto_redactado": "El Ple de la corporació en data 24 de febrer de 2025 va aprovar el Reglament del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-06-29#2",
+      "sesion_id": "2026-06-29",
+      "orden": 2,
+      "titulo": "El passat mes de novembre de 2025 es va abonar l’esmentat CPDP referent a l’exercici",
+      "resultado": null,
+      "texto_redactado": "El passat mes de novembre de 2025 es va abonar l’esmentat CPDP referent a l’exercici",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-06-29#3",
+      "sesion_id": "2026-06-29",
+      "orden": 3,
+      "titulo": "Posterior al seu pagament, alguns empleats/des de la corporació, així com els",
+      "resultado": null,
+      "texto_redactado": "Posterior al seu pagament, alguns empleats/des de la corporació, així com els",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-06-29#4",
+      "sesion_id": "2026-06-29",
+      "orden": 4,
+      "titulo": "Després de diferents reunions de l’esmentada Comissió en les quals va haver-hi un",
+      "resultado": null,
+      "texto_redactado": "Després de diferents reunions de l’esmentada Comissió en les quals va haver-hi un",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "premia-de-dalt",
+    "nombre": "Premià de Dalt",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "823030008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-02",
+    "municipio_id": "premia-de-dalt",
+    "fecha": "2026-11-02",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/823030008/2026/3e60ea63-4fcc-4007-8bb9-4f1322aa8f3f/acta%20n%fam.%206%20ple%20ext%20novembre%20pdf.pdf",
+    "hash_contenido": "62db17b1fa89bcd94cfdb6e9e0d132c667dcd9ca6cc6ed831659c0f071f6ccba",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-19T15:01:42.434Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-02#1",
+      "sesion_id": "2026-11-02",
+      "orden": 1,
+      "titulo": "Sorteig dels membres de les meses electorals per a les Eleccions Generals del dia 29",
+      "resultado": null,
+      "texto_redactado": "Sorteig dels membres de les meses electorals per a les Eleccions Generals del dia 29",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 2,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:01:42.434Z"
+      }
+    },
+    {
+      "id": "2026-11-02#2",
+      "sesion_id": "2026-11-02",
+      "orden": 2,
+      "titulo": "Aprovació de l'addenda econòmica de l'encàrrec a la societat municipal \"La Pinassa,",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'addenda econòmica de l'encàrrec a la societat municipal \"La Pinassa,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.37,
+      "impacto": 2,
+      "confianza_min": 0.24,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:01:42.434Z"
+      }
+    },
+    {
+      "id": "2026-11-02#3",
+      "sesion_id": "2026-11-02",
+      "orden": 3,
+      "titulo": "Aprovació de la modificació de l'Annex d'Inversions del Pressupost General de",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la modificació de l'Annex d'Inversions del Pressupost General de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.52,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:01:42.434Z"
+      }
+    },
+    {
+      "id": "2026-11-02#4",
+      "sesion_id": "2026-11-02",
+      "orden": 4,
+      "titulo": "Aprovació de l'increment pressupostari corresponent a gratificacions extraordinàries",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'increment pressupostari corresponent a gratificacions extraordinàries",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal",
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 2,
+      "confianza_min": 0.19,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:01:42.434Z"
+      }
+    },
+    {
+      "id": "2026-11-02#5",
+      "sesion_id": "2026-11-02",
+      "orden": 5,
+      "titulo": "Aprovació provisional de la modificació de les Ordenances Fiscals, corresponent a",
+      "resultado": null,
+      "texto_redactado": "Aprovació provisional de la modificació de les Ordenances Fiscals, corresponent a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.78,
+      "impacto": 4,
+      "confianza_min": 0.35,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:01:42.434Z"
+      }
+    },
+    {
+      "id": "2026-11-02#6",
+      "sesion_id": "2026-11-02",
+      "orden": 6,
+      "titulo": "Aprovació de la delegació a favor de la Diputació de Barcelona de la competència de",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la delegació a favor de la Diputació de Barcelona de la competència de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 2,
+      "confianza_min": 0.06,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:01:42.434Z"
+      }
+    },
+    {
+      "id": "2026-11-02#7",
+      "sesion_id": "2026-11-02",
+      "orden": 7,
+      "titulo": "Aprovació de la delegació a favor de la Diputació de Barcelona de la competència de",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la delegació a favor de la Diputació de Barcelona de la competència de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:01:42.434Z"
+      }
+    },
+    {
+      "id": "2026-11-02#8",
+      "sesion_id": "2026-11-02",
+      "orden": 8,
+      "titulo": "Qualsevol altra causa prevista per la normativa vigent.",
+      "resultado": null,
+      "texto_redactado": "Qualsevol altra causa prevista per la normativa vigent.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-19T15:01:42.434Z"
+      }
+    }
+  ]
+}
