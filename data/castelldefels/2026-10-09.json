@@ -1,0 +1,219 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "castelldefels",
+    "nombre": "Castelldefels",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "805690004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-09",
+    "municipio_id": "castelldefels",
+    "fecha": "2026-10-09",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/805690004/2026/cf47097b-6ace-4915-ab69-8fd8d5981c8a/Acta_sessio_%202026_000009.pdf",
+    "hash_contenido": "2d3392e48f33d466b9e2e22ede35f3a7bc88b86286f5d6a3a955e1b6e15006fa",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-20T14:36:15.522Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-09#1",
+      "sesion_id": "2026-10-09",
+      "orden": 1,
+      "titulo": "EXPEDIENT 2026/16443. APROVACIÓ DEL PRESSUPOST GENERAL DE LA CORPORACIÓ PER A L’EXERCICI DE L’ANY 2027",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT 2026/16443. APROVACIÓ DEL PRESSUPOST GENERAL DE LA CORPORACIÓ PER A L’EXERCICI DE L’ANY 2027",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.8,
+      "impacto": 5,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-20T14:36:15.522Z"
+      }
+    },
+    {
+      "id": "2026-10-09#2",
+      "sesion_id": "2026-10-09",
+      "orden": 2,
+      "titulo": "EXPEDIENT 2026/20479. APROVACIÓ DE LA MODIFICACIÓ DE L’ORDENANÇA GENERAL",
+      "resultado": null,
+      "texto_redactado": "EXPEDIENT 2026/20479. APROVACIÓ DE LA MODIFICACIÓ DE L’ORDENANÇA GENERAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.38,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-20T14:36:15.522Z"
+      }
+    },
+    {
+      "id": "2026-10-09#3",
+      "sesion_id": "2026-10-09",
+      "orden": 3,
+      "titulo": "L’article 168.4 del RD 2/2004, de 5 de març, pel qual s’aprova el TRLRHL disposa que",
+      "resultado": null,
+      "texto_redactado": "L’article 168.4 del RD 2/2004, de 5 de març, pel qual s’aprova el TRLRHL disposa que",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.49,
+      "impacto": 1,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-20T14:36:15.522Z"
+      }
+    },
+    {
+      "id": "2026-10-09#4",
+      "sesion_id": "2026-10-09",
+      "orden": 4,
+      "titulo": "L’article 168.4 del RD 2/2004, de 5 de març, pel qual s’aprova el TRLRHL disposa l'acord",
+      "resultado": null,
+      "texto_redactado": "L’article 168.4 del RD 2/2004, de 5 de març, pel qual s’aprova el TRLRHL disposa l'acord",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.38,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-20T14:36:15.522Z"
+      }
+    },
+    {
+      "id": "2026-10-09#5",
+      "sesion_id": "2026-10-09",
+      "orden": 5,
+      "titulo": "L’article 166 del RD 2/2004, de 5 de març, pel qual s’aprova el TRLRHL relaciona els",
+      "resultado": null,
+      "texto_redactado": "L’article 166 del RD 2/2004, de 5 de març, pel qual s’aprova el TRLRHL relaciona els",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.47,
+      "impacto": 1,
+      "confianza_min": 0.43,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-20T14:36:15.522Z"
+      }
+    },
+    {
+      "id": "2026-10-09#6",
+      "sesion_id": "2026-10-09",
+      "orden": 6,
+      "titulo": "L’article 169 del TRLRHL estableix que aprovat inicialment el pressupost, s’exposarà al",
+      "resultado": null,
+      "texto_redactado": "L’article 169 del TRLRHL estableix que aprovat inicialment el pressupost, s’exposarà al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 2,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-20T14:36:15.522Z"
+      }
+    },
+    {
+      "id": "2026-10-09#7",
+      "sesion_id": "2026-10-09",
+      "orden": 7,
+      "titulo": "L’article 171 del RD 2/2004, de 5 de març, pel qual s’aprova el TRLRHL estableix que",
+      "resultado": null,
+      "texto_redactado": "L’article 171 del RD 2/2004, de 5 de març, pel qual s’aprova el TRLRHL estableix que",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.5,
+      "impacto": 2,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-20T14:36:15.522Z"
+      }
+    },
+    {
+      "id": "2026-10-09#8",
+      "sesion_id": "2026-10-09",
+      "orden": 8,
+      "titulo": "Les plantilles, que hauran de comprendre tots els llocs de treball degudament",
+      "resultado": null,
+      "texto_redactado": "Les plantilles, que hauran de comprendre tots els llocs de treball degudament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-20T14:36:15.522Z"
+      }
+    }
+  ]
+}

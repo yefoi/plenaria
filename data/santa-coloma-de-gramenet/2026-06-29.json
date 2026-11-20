@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/824570005/2026/696534ca-010b-47ed-a925-ee76913f4deb/Acta%2006_26%20PLE%20MUNICIPAL%2029_06_26%20Anonimitzada.PDF",
     "hash_contenido": "c2a78181225ba85b7a60b3c42e0ba86f9e826760ef00f6b60eb82c2f4d3a7852",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-11-19T14:40:11.344Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-20T14:36:21.154Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "El Ple de la corporació en data 24 de febrer de 2025 va aprovar el Reglament del",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-20T14:36:21.154Z"
+      }
     },
     {
       "id": "2026-06-29#2",
@@ -49,13 +56,20 @@
       "texto_redactado": "El passat mes de novembre de 2025 es va abonar l’esmentat CPDP referent a l’exercici",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.73,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-20T14:36:21.154Z"
+      }
     },
     {
       "id": "2026-06-29#3",
@@ -66,13 +80,20 @@
       "texto_redactado": "Posterior al seu pagament, alguns empleats/des de la corporació, així com els",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.86,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-20T14:36:21.154Z"
+      }
     },
     {
       "id": "2026-06-29#4",
@@ -83,13 +104,20 @@
       "texto_redactado": "Després de diferents reunions de l’esmentada Comissió en les quals va haver-hi un",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-20T14:36:21.154Z"
+      }
     }
   ]
 }

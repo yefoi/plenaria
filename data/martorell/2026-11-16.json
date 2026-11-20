@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "martorell",
+    "nombre": "Martorell",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "811410007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-16",
+    "municipio_id": "martorell",
+    "fecha": "2026-11-16",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/811410007/2026/1d364cd5-fe62-4395-a64d-a8412b077f3b/Ex_acta_ple_11_2026.pdf",
+    "hash_contenido": "486a2a79a4971edebab7bc3e144b5227e73a66b338c4ead5c661cb921bf4d562",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-20T14:36:09.142Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-16#2",
+      "sesion_id": "2026-11-16",
+      "orden": 2,
+      "titulo": "APROVACIÓ DEFINITIVA DEL PLA DE MOBILITAT URBANA SOSTENIBLE DE MARTORELL. (EXP. 9025/2025).",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DEFINITIVA DEL PLA DE MOBILITAT URBANA SOSTENIBLE DE MARTORELL. (EXP. 9025/2025).",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.73,
+      "impacto": 5,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-20T14:36:09.142Z"
+      }
+    },
+    {
+      "id": "2026-11-16#3",
+      "sesion_id": "2026-11-16",
+      "orden": 3,
+      "titulo": "DECLARACIÓ INSTITUCIONAL DEL PLE DE L’AJUNTAMENT DE MARTORELL AMB MOTIU DEL DIA INTERNACIONAL PER A L’ELIMINACIÓ DE LA VIOLÈNCIA ENVERS LES DONES.",
+      "resultado": null,
+      "texto_redactado": "DECLARACIÓ INSTITUCIONAL DEL PLE DE L’AJUNTAMENT DE MARTORELL AMB MOTIU DEL DIA INTERNACIONAL PER A L’ELIMINACIÓ DE LA VIOLÈNCIA ENVERS LES DONES.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-20T14:36:09.142Z"
+      }
+    },
+    {
+      "id": "2026-11-16#4",
+      "sesion_id": "2026-11-16",
+      "orden": 4,
+      "titulo": "DECLARACIÓ INSTITUCIONAL AMB MOTIU DEL DIA MUNDIAL DE LA INFÀNCIA",
+      "resultado": null,
+      "texto_redactado": "DECLARACIÓ INSTITUCIONAL AMB MOTIU DEL DIA MUNDIAL DE LA INFÀNCIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-20T14:36:09.142Z"
+      }
+    },
+    {
+      "id": "2026-11-16#5",
+      "sesion_id": "2026-11-16",
+      "orden": 5,
+      "titulo": "Promoure entorns segurs, saludables, inclusius i protectors per a tots els nens, nenes i",
+      "resultado": null,
+      "texto_redactado": "Promoure entorns segurs, saludables, inclusius i protectors per a tots els nens, nenes i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.4,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-20T14:36:09.142Z"
+      }
+    },
+    {
+      "id": "2026-11-16#6",
+      "sesion_id": "2026-11-16",
+      "orden": 6,
+      "titulo": "Reforçar la perspectiva d’infància i adolescència en la planificació, el disseny i l’avaluació",
+      "resultado": null,
+      "texto_redactado": "Reforçar la perspectiva d’infància i adolescència en la planificació, el disseny i l’avaluació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 2,
+      "confianza_min": 0.27,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-20T14:36:09.142Z"
+      }
+    },
+    {
+      "id": "2026-11-16#7",
+      "sesion_id": "2026-11-16",
+      "orden": 7,
+      "titulo": "Comprometre’s en la defensa i la cooperació amb aquells nens i nenes que pateixen",
+      "resultado": null,
+      "texto_redactado": "Comprometre’s en la defensa i la cooperació amb aquells nens i nenes que pateixen",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 2,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-20T14:36:09.142Z"
+      }
+    },
+    {
+      "id": "2026-11-16#8",
+      "sesion_id": "2026-11-16",
+      "orden": 8,
+      "titulo": "Sumar-se a la commemoració del Dia Mundial de la Infància amb el lema Som Aquí, fent",
+      "resultado": null,
+      "texto_redactado": "Sumar-se a la commemoració del Dia Mundial de la Infància amb el lema Som Aquí, fent",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 2,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-20T14:36:09.142Z"
+      }
+    }
+  ]
+}

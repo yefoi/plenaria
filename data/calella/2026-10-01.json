@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "calella",
+    "nombre": "Calella",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "803510007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-01",
+    "municipio_id": "calella",
+    "fecha": "2026-10-01",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/803510007/2026/24fd5ebe-e89f-4c08-8d82-c482230d98c5/Acta%20n%fam.%209%20Ple%201-10-2026.pdf",
+    "hash_contenido": "31bbd19ce026f31f7cfa425ed031814522e7286c41cf0ad148df9b7fe2ce884e",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-20T14:36:13.725Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-01#1",
+      "sesion_id": "2026-10-01",
+      "orden": 1,
+      "titulo": "EXPOSICIÓ DE MOTIUS",
+      "resultado": null,
+      "texto_redactado": "EXPOSICIÓ DE MOTIUS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.93,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-20T14:36:13.725Z"
+      }
+    },
+    {
+      "id": "2026-10-01#2",
+      "sesion_id": "2026-10-01",
+      "orden": 2,
+      "titulo": "la revisió i actualització del Pla d’Usos de l’equipament;",
+      "resultado": null,
+      "texto_redactado": "la revisió i actualització del Pla d’Usos de l’equipament;",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 2,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-20T14:36:13.725Z"
+      }
+    },
+    {
+      "id": "2026-10-01#3",
+      "sesion_id": "2026-10-01",
+      "orden": 3,
+      "titulo": "la definició del model de gestió futura de les activitats municipals de caràcter cultural i educatiu.",
+      "resultado": null,
+      "texto_redactado": "la definició del model de gestió futura de les activitats municipals de caràcter cultural i educatiu.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 4,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-20T14:36:13.725Z"
+      }
+    }
+  ]
+}
