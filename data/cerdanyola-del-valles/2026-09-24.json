@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/826650006/2026/7f20e6a8-7b8d-4d15-88c8-24d8b3100aae/ACTA%20SESSI%d3%20PLE%2024-9-2026.pdf",
     "hash_contenido": "b50236870c0334400c69c99c5504ab63a5954c6b4822407ae7e70fd7293a6cf0",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-11-20T14:11:55.882Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-21T14:03:53.900Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "APROVACIÓ ACTA SESSIÓ ANTERIOR",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#2",
@@ -49,13 +56,20 @@
       "texto_redactado": "INFORMACIÓ DELS DECRETS D'ALCALDIA I DELS REGIDORS I REGIDORES DELEGATS I DELS ACORDS DE LA JUNTA DE GOVERN LOCAL",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.85,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#3",
@@ -66,13 +80,20 @@
       "texto_redactado": "DONAR COMPTE AL PLE DE L'EXECUCIÓ PRESSUPOSTÀRIA, PERÍODE MIG PAGAMENT I",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.94,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#4",
@@ -83,13 +104,20 @@
       "texto_redactado": "APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL D’OBLIGACIONS DE LA SECCIÓ DE TECNOLOGIES I SISTEMES D’INFORMACIÓ CORRESPONENT AL SERVEI DE MANTENIMENT DE LES LLICÈNCIES DEL FIREWALL SOPHOS A L’EMPRESA SUMINISTROS, IMPORTACIONES Y MANTENIMIENTOS ELECTRÓNICOS, S.A., DURANT EL PERÍODE DEL 19-05-2024 A 22-03-",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.7,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#5",
@@ -100,13 +128,20 @@
       "texto_redactado": "APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL D’OBLIGACIONS DE LA SECCIÓ DE TECNOLOGIES I SISTEMES D’INFORMACIÓ CORRESPONENT A LA COMPRA DE LLICÈNCIES DEL FIREWALL SOPHOS A L’EMPRESA SUMINISTROS, IMPORTACIONES Y MANTENIMIENTOS ELECTRÓNICOS, S.A EXPEDIENT 543/2025/0087.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.71,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#6",
@@ -117,13 +152,20 @@
       "texto_redactado": "APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL D’OBLIGACIONS DE LA SECCIÓ DE TECNOLOGIES I SISTEMES D’INFORMACIÓ CORRESPONENT AL SERVEI DE MANTENIMENT DE LA PLATAFORMA DE VÍDEO-ACTES DE L’AJUNTAMENT A L’EMPRESA ECITYCLIC ESPUBLICO, SL. EXPEDIENT 543/2025/0084.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 2,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#7",
@@ -134,13 +176,20 @@
       "texto_redactado": "APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL D’OBLIGACIONS DE LA SECCIÓ DE TECNOLOGIES I SISTEMES D’INFORMACIÓ CORRESPONENT A L’EMPRESA ÁBACO C.E. INFORMÁTICOS, SL EXPEDIENT 543/2025/0090.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#8",
@@ -151,13 +200,20 @@
       "texto_redactado": "APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL D’OBLIGACIONS DE LA SECCIÓ DE TECNOLOGIES I SISTEMES D’INFORMACIÓ CORRESPONENT AL MANTENIMENT D’APLICATIUS I MIGRACIÓ DE SERVIDORS A L’EMPRESA AYTOS SOLUCIONES INFORMÁTICAS, S.L.U. EXPEDIENT 543/2025/0093.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.76,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#9",
@@ -168,13 +224,20 @@
       "texto_redactado": "APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL D’OBLIGACIONS DE LA SECCIÓ DE TECNOLOGIES I SISTEMES D’INFORMACIÓ CORRESPONENT AL SERVEI DE MANTENIMENT DE LES APLICACIONS INFORMÀTIQUES A L’EMPRESA CARLOS CASTILLA INGENIEROS, S.A. EXPEDIENT 543/2025/0094.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.7,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#10",
@@ -185,13 +248,20 @@
       "texto_redactado": "APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL D’OBLIGACIONS DE LA SECCIÓ DE TECNOLOGIES I SISTEMES D’INFORMACIÓ CORRESPONENT A LA COMPRA DE QUATRE TERMINALS MÒBILS A L’EMPRESA VODAFONE ESPAÑA, SAU EXPEDIENT 543/2025/0091.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#11",
@@ -202,13 +272,20 @@
       "texto_redactado": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI DE CULTURA A FAVOR DEL PROVEÏDOR FERRETERIA MARANGES SA EXPEDIENT",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.71,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#12",
@@ -219,13 +296,20 @@
       "texto_redactado": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI DE CULTURA A FAVOR DEL PROVEÏDOR ENERGIA ELECTRICA MOVIL SL EXPEDIENT",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#13",
@@ -236,13 +320,20 @@
       "texto_redactado": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI DE CULTURA A FAVOR DEL PROVEÏDOR MARTÍ CANUDAS SA EXPEDIENT 543/2026/0058.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#14",
@@ -253,13 +344,20 @@
       "texto_redactado": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIONS DEL SERVEI MUNICIPAL",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 2,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#15",
@@ -270,13 +368,20 @@
       "texto_redactado": "APROVACIÓ RECONEIXEMENT EXTRAJUDICIAL D'OBLIGACIÓ DEL SERVEI DE MOBILITAT A FAVOR DEL PROVEÏDOR MARFINA BUS SA PELS SERVEIS DE TRANSPORT URBÀ EXPEDIENT 543/2026/0025.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.35,
+      "impacto": 3,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#16",
@@ -287,13 +392,20 @@
       "texto_redactado": "APROVACIÓ DEL RECONEIXEMENT EXTRAJUDICIAL D’OBLIGACIONS CORRESPONENT AL SUBMINISTRAMENT D’UNA XOCOLATADA PER A 500 PERSONES AMB MOTIU DE LA CELEBRACIÓ DEL DIA INTERNACIONAL DE LA GENT GRAN, A FAVOR DE LA SENYORA MARIA DEL CARMEN ELCACHO CLEMENTE. EXPEDIENT 543/2025/0080.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 3,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#17",
@@ -304,13 +416,20 @@
       "texto_redactado": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DE PRESSUPOST MUNICIPAL NòM. 27/2026 EXPEDIENT 011/2026/0027.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#18",
@@ -321,13 +440,20 @@
       "texto_redactado": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DE PRESSUPOST MUNICIPAL NòM. 39/2026 EXPEDIENT 011/2026/0039.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.45,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#19",
@@ -338,13 +464,20 @@
       "texto_redactado": "APROVACIÓ INICIAL DE LA MODIFICACIÓ DE LES ORDENANCES DE PREU PòBLIC NòM.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.72,
+      "impacto": 3,
+      "confianza_min": 0.07,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#20",
@@ -355,13 +488,20 @@
       "texto_redactado": "APROVACIÓ INICIAL DEL PROJECTE TÈCNIC I ESTUDI DE SEGURETAT I SALUT PER EXECUTAR LES OBRES DE SUBSTITUCIÓ DE LES COBERTES DE FIBROCIMENT DE LES NAUS MUNICIPALS DEL [DIRECCIÓN]. EXPEDIENT 126/2025/0011.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.36,
+      "impacto": 2,
+      "confianza_min": 0.32,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#21",
@@ -372,13 +512,20 @@
       "texto_redactado": "APROVACIÓ INICIAL DEL PROJECTE EXECUTIU DE LES OBRES DE LA NOVA INSTAL·LACIÓ D’UNA CUINA A L’ESCOLA INFANTIL I PRIMÀRIA SERRAPARERA. EXPEDIENT",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.56,
+      "impacto": 3,
+      "confianza_min": 0.71,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#22",
@@ -389,13 +536,20 @@
       "texto_redactado": "APROVACIÓ DELS DOS DIES FESTIUS ADDICIONALS ANUALS QUE ELS ESTABLIMENTS COMERCIALS DE CERDANYOLA DEL VALLÈS PODRAN ROMANDRE OBERTS L'ANY 2027 EXPEDIENT 586/2026/0001.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.76,
+      "impacto": 4,
+      "confianza_min": 0.43,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#23",
@@ -406,13 +560,20 @@
       "texto_redactado": "Federico García",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.86,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#24",
@@ -423,13 +584,20 @@
       "texto_redactado": "MOCIÓ DEL GRUP MUNICIPAL DE VOX CERDANYOLA EN SUPORT I SOLIDARITAT AMB EL POBLE DE CEUTA I EN DEFENSA DE LA SOBIRANIA ESPANYOLA. EXPEDIENT",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.92,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#25",
@@ -440,13 +608,21 @@
       "texto_redactado": "MOCIÓ DEL GRUP MUNICIPAL DE VOX CERDANYOLA PER GARANTIR LA PROTECCIÓ DE LA POBLACIÓ DAVANT POSSIBLES EMERGÈNCIES DE RISC BIOLÒGIC. EXPEDIENT",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "seguridad"
+      ],
+      "afecta_vecinos_prob": 0.35,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#26",
@@ -457,13 +633,21 @@
       "texto_redactado": "MOCIÓ DELS GRUPS MUNICIPALS D’ERC CERDANYOLA, GUANYEM CERDANYOLA I JUNTS PER CERDANYOLA PER REVISAR LES MESURES EXCEPCIONALS DERIVADES DE LA PESTA PORCINA AFRICANA I DELIMITAR ESPAIS DE LLIURE ACCÉS AL PARC NATURAL DE LA SERRA DE COLLSEROLA I A LA RESTA D’ESPAIS NATURALS AFECTATS. EXPEDIENT",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.6,
+      "impacto": 3,
+      "confianza_min": 0.02,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#27",
@@ -474,13 +658,20 @@
       "texto_redactado": "MOCIÓ DELS GRUPS MUNICIPALS D’ERC CERDANYOLA I JUNTS PER CERDANYOLA EN SUPORT A LA PLATAFORMA \"TRENCANT EL SILENCI\" I PER LA RECONEIXENÇA, VERITAT I REPARACIÓ DE LES VÍCTIMES I FAMÍLIES AFECTADES PEL SERVEI MILITAR OBLIGATORI (1976-2001). EXPEDIENT 177/2026/0051.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 2,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#28",
@@ -491,13 +682,21 @@
       "texto_redactado": "MOCIÓ DELS GRUPS MUNICIPALS D'ERC CERDANYOLA, GUANYEM CERDANYOLA I ECP CERDANYOLA PER A LA NATURALITZACIÓ, L’OMBRA I L’ADAPTACIÓ CLIMÀTICA DELS PARCS INFANTILS I ZONES DE JOC DE CERDANYOLA DEL VALLÈS. EXPEDIENT 177/2026/0052.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.73,
+      "impacto": 3,
+      "confianza_min": 0.26,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#29",
@@ -508,13 +707,20 @@
       "texto_redactado": "PRESA DE CONEIXEMENT DE LA RENòNCIA FORMULADA PER LA REGIDORA SENYORA CRISTINA MONTSERRAT GALLARDO COLLADO AL CÀRREC DE REGIDORA DE L’AJUNTAMENT DE CERDANYOLA DEL VALLÈS EXPEDIENT 163/2023/1.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.82,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     },
     {
       "id": "2026-09-24#30",
@@ -525,13 +731,20 @@
       "texto_redactado": "PRECS I PREGUNTES",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:53.900Z"
+      }
     }
   ]
 }

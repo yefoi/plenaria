@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "montgat",
+    "nombre": "Montgat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "812650006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-16",
+    "municipio_id": "montgat",
+    "fecha": "2026-11-16",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/812650006/2026/aa19ea17-a4ea-4f0b-8a70-f92319bd2ea4/Esborrany%20acta%20Ple%2011-2026%20extraordinari%20de%20data%2016-11-2026.pdf",
+    "hash_contenido": "c657d6ba9d79f24622cb95ce8dcc890cbf4ca21bd3dbeb52e124d084b6c4b3b9",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-21T14:03:46.792Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-16#1",
+      "sesion_id": "2026-11-16",
+      "orden": 1,
+      "titulo": "Part resolutiva.-",
+      "resultado": null,
+      "texto_redactado": "Part resolutiva.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:46.791Z"
+      }
+    },
+    {
+      "id": "2026-11-16#2",
+      "sesion_id": "2026-11-16",
+      "orden": 2,
+      "titulo": "La informació que permeti relacionar el saldo resultant dels ingressos i despeses del",
+      "resultado": null,
+      "texto_redactado": "La informació que permeti relacionar el saldo resultant dels ingressos i despeses del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:46.791Z"
+      }
+    },
+    {
+      "id": "2026-11-16#3",
+      "sesion_id": "2026-11-16",
+      "orden": 3,
+      "titulo": "L’informe de la Intervenció d’avaluació del compliment de l’objectiu d’estabilitat i del límit de",
+      "resultado": null,
+      "texto_redactado": "L’informe de la Intervenció d’avaluació del compliment de l’objectiu d’estabilitat i del límit de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:46.791Z"
+      }
+    },
+    {
+      "id": "2026-11-16#4",
+      "sesion_id": "2026-11-16",
+      "orden": 4,
+      "titulo": "La informació relativa a personal recollida als apartats 1 i 2 de l’ article 7.",
+      "resultado": null,
+      "texto_redactado": "La informació relativa a personal recollida als apartats 1 i 2 de l’ article 7.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:46.791Z"
+      }
+    },
+    {
+      "id": "2026-11-16#5",
+      "sesion_id": "2026-11-16",
+      "orden": 5,
+      "titulo": "Informació sobre els passius contingents, com són les garanties públiques i préstecs morosos,",
+      "resultado": null,
+      "texto_redactado": "Informació sobre els passius contingents, com són les garanties públiques i préstecs morosos,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:46.791Z"
+      }
+    }
+  ]
+}

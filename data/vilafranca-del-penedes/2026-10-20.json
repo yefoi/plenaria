@@ -1,0 +1,316 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vilafranca-del-penedes",
+    "nombre": "Vilafranca del Penedès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "830540003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-20",
+    "municipio_id": "vilafranca-del-penedes",
+    "fecha": "2026-10-20",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/830540003/2026/0cb57976-1fa9-4159-b60e-c747498d48e3/Acta_OCTUBRE%2026_%20SIGNADA.pdf",
+    "hash_contenido": "b980fe31f8dd815a5697024f02a3598ce6e41d20d34531985f424088d8153757",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-21T14:03:41.765Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-20#1",
+      "sesion_id": "2026-10-20",
+      "orden": 1,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:41.765Z"
+      }
+    },
+    {
+      "id": "2026-10-20#2",
+      "sesion_id": "2026-10-20",
+      "orden": 2,
+      "titulo": "La quota de la taxa dels locals no afectats a una activitat comercial o industrial, es prorratejarà o",
+      "resultado": null,
+      "texto_redactado": "La quota de la taxa dels locals no afectats a una activitat comercial o industrial, es prorratejarà o",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.7,
+      "impacto": 3,
+      "confianza_min": 0.08,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:41.765Z"
+      }
+    },
+    {
+      "id": "2026-10-20#3",
+      "sesion_id": "2026-10-20",
+      "orden": 3,
+      "titulo": "Informe tècnic d’alineacions, rasants, delimitació de domini públic i privat o conformitat sobre la",
+      "resultado": null,
+      "texto_redactado": "Informe tècnic d’alineacions, rasants, delimitació de domini públic i privat o conformitat sobre la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:41.765Z"
+      }
+    },
+    {
+      "id": "2026-10-20#4",
+      "sesion_id": "2026-10-20",
+      "orden": 4,
+      "titulo": "Senyalització d’alienacions i rasants sobre el terreny, afectació de vialitat i altres comprovacions",
+      "resultado": null,
+      "texto_redactado": "Senyalització d’alienacions i rasants sobre el terreny, afectació de vialitat i altres comprovacions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.44,
+      "impacto": 2,
+      "confianza_min": 0.22,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:41.765Z"
+      }
+    },
+    {
+      "id": "2026-10-20#5",
+      "sesion_id": "2026-10-20",
+      "orden": 5,
+      "titulo": "Per cada atestat, informe tècnic o document similar........ 126€",
+      "resultado": null,
+      "texto_redactado": "Per cada atestat, informe tècnic o document similar........ 126€",
+      "importe_eur": 126,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.7,
+      "impacto": 2,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:41.765Z"
+      }
+    },
+    {
+      "id": "2026-10-20#6",
+      "sesion_id": "2026-10-20",
+      "orden": 6,
+      "titulo": "Per cada fotog, de rafia ............................................... 13€",
+      "resultado": null,
+      "texto_redactado": "Per cada fotog, de rafia ............................................... 13€",
+      "importe_eur": 13,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.73,
+      "impacto": 2,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:41.765Z"
+      }
+    },
+    {
+      "id": "2026-10-20#7",
+      "sesion_id": "2026-10-20",
+      "orden": 7,
+      "titulo": "Tindran dret a una bonificació del 50% de la quota íntegra de l'impost els béns immobles",
+      "resultado": null,
+      "texto_redactado": "Tindran dret a una bonificació del 50% de la quota íntegra de l'impost els béns immobles",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.92,
+      "impacto": 4,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:41.765Z"
+      }
+    },
+    {
+      "id": "2026-10-20#8",
+      "sesion_id": "2026-10-20",
+      "orden": 8,
+      "titulo": "Per a gaudir de les exempcions dels apartats 1.h), 1.i), 1.j), 1.k), es requerirà que el subjecte",
+      "resultado": null,
+      "texto_redactado": "Per a gaudir de les exempcions dels apartats 1.h), 1.i), 1.j), 1.k), es requerirà que el subjecte",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.61,
+      "impacto": 2,
+      "confianza_min": 0.22,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:41.765Z"
+      }
+    },
+    {
+      "id": "2026-10-20#9",
+      "sesion_id": "2026-10-20",
+      "orden": 9,
+      "titulo": "La bonificació establerta a l’apartat 2.a) (habitatges de protecció oficial), no és acumulable",
+      "resultado": null,
+      "texto_redactado": "La bonificació establerta a l’apartat 2.a) (habitatges de protecció oficial), no és acumulable",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.83,
+      "impacto": 3,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:41.765Z"
+      }
+    },
+    {
+      "id": "2026-10-20#10",
+      "sesion_id": "2026-10-20",
+      "orden": 10,
+      "titulo": "Quan el pagament de la quota s’hagi fraccionat, el mínim de la quota dels apartats 1.a) i 1.b)",
+      "resultado": null,
+      "texto_redactado": "Quan el pagament de la quota s’hagi fraccionat, el mínim de la quota dels apartats 1.a) i 1.b)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.65,
+      "impacto": 2,
+      "confianza_min": 0.32,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:41.765Z"
+      }
+    },
+    {
+      "id": "2026-10-20#11",
+      "sesion_id": "2026-10-20",
+      "orden": 11,
+      "titulo": "El termini d’aplicació de la bonificació de l’apartat 2 comprendrà des del període impositiu",
+      "resultado": null,
+      "texto_redactado": "El termini d’aplicació de la bonificació de l’apartat 2 comprendrà des del període impositiu",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.59,
+      "impacto": 2,
+      "confianza_min": 0.41,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:41.765Z"
+      }
+    },
+    {
+      "id": "2026-10-20#12",
+      "sesion_id": "2026-10-20",
+      "orden": 12,
+      "titulo": "Piscines d’ús col·lectiu.",
+      "resultado": null,
+      "texto_redactado": "Piscines d’ús col·lectiu.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.78,
+      "impacto": 3,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:41.765Z"
+      }
+    }
+  ]
+}

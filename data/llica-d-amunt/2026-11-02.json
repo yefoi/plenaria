@@ -1,0 +1,532 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "llica-d-amunt",
+    "nombre": "Lliçà d'Amunt",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "810750006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-02",
+    "municipio_id": "llica-d-amunt",
+    "fecha": "2026-11-02",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/810750006/2026/cf2e8136-08c1-4c19-ab1b-a6d3e73babfc/35_ACTA%20JGL%20APROVADA%2002_11_2026.pdf",
+    "hash_contenido": "f24c03a65cfd7d9580879685c0468313787c22967290054065bd6e48fe20ddaf",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-21T14:03:51.581Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-02#1",
+      "sesion_id": "2026-11-02",
+      "orden": 1,
+      "titulo": "PRP2026/850 APDM, UN AJUT DE 100€ PER BUTÀ",
+      "resultado": null,
+      "texto_redactado": "PRP2026/850 APDM, UN AJUT DE 100€ PER BUTÀ",
+      "importe_eur": 100,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.79,
+      "impacto": 3,
+      "confianza_min": 0.43,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:51.581Z"
+      }
+    },
+    {
+      "id": "2026-11-02#2",
+      "sesion_id": "2026-11-02",
+      "orden": 2,
+      "titulo": "PRP2026/853 MAPP, UN AJUT DE 300€ PER ALIMENTACIÓ I HIGIENE",
+      "resultado": null,
+      "texto_redactado": "PRP2026/853 MAPP, UN AJUT DE 300€ PER ALIMENTACIÓ I HIGIENE",
+      "importe_eur": 300,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.94,
+      "impacto": 3,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:51.581Z"
+      }
+    },
+    {
+      "id": "2026-11-02#3",
+      "sesion_id": "2026-11-02",
+      "orden": 3,
+      "titulo": "PRP2026/855 ML, UN AJUT DE 42’70€ PER TRANSPORT",
+      "resultado": null,
+      "texto_redactado": "PRP2026/855 ML, UN AJUT DE 42’70€ PER TRANSPORT",
+      "importe_eur": 70,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.85,
+      "impacto": 2,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:51.581Z"
+      }
+    },
+    {
+      "id": "2026-11-02#4",
+      "sesion_id": "2026-11-02",
+      "orden": 4,
+      "titulo": "PRP2026/856 ABR, UN AJUT DE 100€ BUTÀ",
+      "resultado": null,
+      "texto_redactado": "PRP2026/856 ABR, UN AJUT DE 100€ BUTÀ",
+      "importe_eur": 100,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.79,
+      "impacto": 2,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:51.581Z"
+      }
+    },
+    {
+      "id": "2026-11-02#5",
+      "sesion_id": "2026-11-02",
+      "orden": 5,
+      "titulo": "PRP2026/859 AOE, UN AJUT DE 480€ PER ALIMENTACIÓ I HIGIENE",
+      "resultado": null,
+      "texto_redactado": "PRP2026/859 AOE, UN AJUT DE 480€ PER ALIMENTACIÓ I HIGIENE",
+      "importe_eur": 480,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.94,
+      "impacto": 3,
+      "confianza_min": 0.43,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:51.581Z"
+      }
+    },
+    {
+      "id": "2026-11-02#6",
+      "sesion_id": "2026-11-02",
+      "orden": 6,
+      "titulo": "PRP2026/861 DSJ, UN AJUT DE 100€ PER SUBMINISTRAMENTS",
+      "resultado": null,
+      "texto_redactado": "PRP2026/861 DSJ, UN AJUT DE 100€ PER SUBMINISTRAMENTS",
+      "importe_eur": 100,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.77,
+      "impacto": 2,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:51.581Z"
+      }
+    },
+    {
+      "id": "2026-11-02#7",
+      "sesion_id": "2026-11-02",
+      "orden": 7,
+      "titulo": "PRP2026/863 ARI, UN AJUT DE 240€ PER ALIMENTACIÓ I HIGIENE",
+      "resultado": null,
+      "texto_redactado": "PRP2026/863 ARI, UN AJUT DE 240€ PER ALIMENTACIÓ I HIGIENE",
+      "importe_eur": 240,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.94,
+      "impacto": 3,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:51.581Z"
+      }
+    },
+    {
+      "id": "2026-11-02#8",
+      "sesion_id": "2026-11-02",
+      "orden": 8,
+      "titulo": "PRP2026/864 MBL, UN AJUT DE 45’60€ PER TRANSPORT",
+      "resultado": null,
+      "texto_redactado": "PRP2026/864 MBL, UN AJUT DE 45’60€ PER TRANSPORT",
+      "importe_eur": 60,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.83,
+      "impacto": 2,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:51.581Z"
+      }
+    },
+    {
+      "id": "2026-11-02#9",
+      "sesion_id": "2026-11-02",
+      "orden": 9,
+      "titulo": "PRP2026/865 ADG, UN AJUT DE 45’50€ PER TRANSPORT",
+      "resultado": null,
+      "texto_redactado": "PRP2026/865 ADG, UN AJUT DE 45’50€ PER TRANSPORT",
+      "importe_eur": 50,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.88,
+      "impacto": 2,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:51.581Z"
+      }
+    },
+    {
+      "id": "2026-11-02#10",
+      "sesion_id": "2026-11-02",
+      "orden": 10,
+      "titulo": "PRP2026/869 AM, UN AJUT DE 100€ PER BUTÀ",
+      "resultado": null,
+      "texto_redactado": "PRP2026/869 AM, UN AJUT DE 100€ PER BUTÀ",
+      "importe_eur": 100,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.81,
+      "impacto": 3,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:51.581Z"
+      }
+    },
+    {
+      "id": "2026-11-02#11",
+      "sesion_id": "2026-11-02",
+      "orden": 11,
+      "titulo": "PRP2026/870 AM, UN AJUT DE 336€ PER ALIMENTACIÓ, FARMÀCIA I TRANSPORTPer descarregar una còpia d’aquest document consulti la següent pàgina web",
+      "resultado": null,
+      "texto_redactado": "PRP2026/870 AM, UN AJUT DE 336€ PER ALIMENTACIÓ, FARMÀCIA I TRANSPORTPer descarregar una còpia d’aquest document consulti la següent pàgina web",
+      "importe_eur": 336,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico",
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.94,
+      "impacto": 2,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:51.581Z"
+      }
+    },
+    {
+      "id": "2026-11-02#12",
+      "sesion_id": "2026-11-02",
+      "orden": 12,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:51.581Z"
+      }
+    },
+    {
+      "id": "2026-11-02#13",
+      "sesion_id": "2026-11-02",
+      "orden": 13,
+      "titulo": "PRP2026/872 APROVACIÓ DE LA CERTIFICACIÓ Nº 6 DE LES OBRES DEL TANATORI",
+      "resultado": null,
+      "texto_redactado": "PRP2026/872 APROVACIÓ DE LA CERTIFICACIÓ Nº 6 DE LES OBRES DEL TANATORI",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.32,
+      "impacto": 2,
+      "confianza_min": 0.29,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:51.581Z"
+      }
+    },
+    {
+      "id": "2026-11-02#14",
+      "sesion_id": "2026-11-02",
+      "orden": 14,
+      "titulo": "PRP2026/879 APROVACIÓ DE CERTIFICACIONS D'OBRA DIGITALITZACIÓ XARXA",
+      "resultado": null,
+      "texto_redactado": "PRP2026/879 APROVACIÓ DE CERTIFICACIONS D'OBRA DIGITALITZACIÓ XARXA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 2,
+      "confianza_min": 0.07,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:51.581Z"
+      }
+    },
+    {
+      "id": "2026-11-02#15",
+      "sesion_id": "2026-11-02",
+      "orden": 15,
+      "titulo": "PRP2026/880 APROVACIÓ LIQUIDACIÓ AIGUA I CLAVEGUERAM 1R TRIM 2026",
+      "resultado": null,
+      "texto_redactado": "PRP2026/880 APROVACIÓ LIQUIDACIÓ AIGUA I CLAVEGUERAM 1R TRIM 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:51.581Z"
+      }
+    },
+    {
+      "id": "2026-11-02#16",
+      "sesion_id": "2026-11-02",
+      "orden": 16,
+      "titulo": "PRP2026/871 APROVACIÓ DE LES BASES DELS PREMIS DE LA CURSA",
+      "resultado": null,
+      "texto_redactado": "PRP2026/871 APROVACIÓ DE LES BASES DELS PREMIS DE LA CURSA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 2,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:51.581Z"
+      }
+    },
+    {
+      "id": "2026-11-02#17",
+      "sesion_id": "2026-11-02",
+      "orden": 17,
+      "titulo": "PRP2026/873 APROVACIÓ DEL CONVENI REGULADOR DE LA CESSIÓ D'òS D'UN ESPAI",
+      "resultado": null,
+      "texto_redactado": "PRP2026/873 APROVACIÓ DEL CONVENI REGULADOR DE LA CESSIÓ D'òS D'UN ESPAI",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 2,
+      "confianza_min": 0.31,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:51.581Z"
+      }
+    },
+    {
+      "id": "2026-11-02#18",
+      "sesion_id": "2026-11-02",
+      "orden": 18,
+      "titulo": "PRP2026/876 APROVACIÓ DE DEVOLUCIONS DEL CASAL D'ESTIU 2026",
+      "resultado": null,
+      "texto_redactado": "PRP2026/876 APROVACIÓ DE DEVOLUCIONS DEL CASAL D'ESTIU 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 2,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:51.581Z"
+      }
+    },
+    {
+      "id": "2026-11-02#19",
+      "sesion_id": "2026-11-02",
+      "orden": 19,
+      "titulo": "PRP2026/882 APROVACIÓ DEL TERCER PAGAMENT A L'ATENEU L'ALIANÇA DE L’AJUT",
+      "resultado": null,
+      "texto_redactado": "PRP2026/882 APROVACIÓ DEL TERCER PAGAMENT A L'ATENEU L'ALIANÇA DE L’AJUT",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 2,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:51.581Z"
+      }
+    },
+    {
+      "id": "2026-11-02#20",
+      "sesion_id": "2026-11-02",
+      "orden": 20,
+      "titulo": "PRP2026/886 APROVACIÓ INICIAL DEL PROJECTE DE MILLORA DEL PARC DE CA",
+      "resultado": null,
+      "texto_redactado": "PRP2026/886 APROVACIÓ INICIAL DEL PROJECTE DE MILLORA DEL PARC DE CA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.59,
+      "impacto": 3,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:51.581Z"
+      }
+    },
+    {
+      "id": "2026-11-02#21",
+      "sesion_id": "2026-11-02",
+      "orden": 21,
+      "titulo": "PRP2026/884 PROPOSTA DE RECTIFICACIÓ DE L'ACORD DE JUNTA DE GOVERN",
+      "resultado": null,
+      "texto_redactado": "PRP2026/884 PROPOSTA DE RECTIFICACIÓ DE L'ACORD DE JUNTA DE GOVERN",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:51.581Z"
+      }
+    }
+  ]
+}

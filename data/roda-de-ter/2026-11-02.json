@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "roda-de-ter",
+    "nombre": "Roda de Ter",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "818310007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-02",
+    "municipio_id": "roda-de-ter",
+    "fecha": "2026-11-02",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/818310007/2026/68c2137a-2232-4133-8e22-42e85706929a/ACTA_PLE_EXTRAORDINARI_2_NOVEMBRE_2026.pdf",
+    "hash_contenido": "2d09a123120481ee5688e4f2f2288d887e836b49a800ea0878ec05569e17b3d9",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-21T14:03:47.388Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-02#1",
+      "sesion_id": "2026-11-02",
+      "orden": 1,
+      "titulo": "PART RESOLUTIVA",
+      "resultado": null,
+      "texto_redactado": "PART RESOLUTIVA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-21T14:03:47.388Z"
+      }
+    }
+  ]
+}
