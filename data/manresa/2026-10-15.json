@@ -1,0 +1,870 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "manresa",
+    "nombre": "Manresa",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "811360009",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-15",
+    "municipio_id": "manresa",
+    "fecha": "2026-10-15",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/811360009/2026/0b7a563b-29e3-4aeb-a4a8-3f25163f4925/2026%2010%2015%20Acta%20Web%20Ple.pdf",
+    "hash_contenido": "64bcda1548e2532d89b190cc710a821d402d6378f353f9442d3820b66c778765",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-22T13:56:40.027Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-15#1",
+      "sesion_id": "2026-10-15",
+      "orden": 1,
+      "titulo": "Informe d’Intervenció relatiu al període mitjà de pagament a proveïdors – Agost 2026. (INT.DON 2026000025).-",
+      "resultado": null,
+      "texto_redactado": "Informe d’Intervenció relatiu al període mitjà de pagament a proveïdors – Agost 2026. (INT.DON 2026000025).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#2",
+      "sesion_id": "2026-10-15",
+      "orden": 2,
+      "titulo": "Resolució de l’alcalde, núm. 16447, de 28 de setembre de 2026, sobre aprovació de",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde, núm. 16447, de 28 de setembre de 2026, sobre aprovació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 1,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#3",
+      "sesion_id": "2026-10-15",
+      "orden": 3,
+      "titulo": "Resolució de l’alcalde, núm. 15585, de 10 de setembre de 2026, sobre aprovació de",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde, núm. 15585, de 10 de setembre de 2026, sobre aprovació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 1,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#4",
+      "sesion_id": "2026-10-15",
+      "orden": 4,
+      "titulo": "Resolució de l’alcalde, núm. 16253, de 23 de setembre de 2026, sobre aprovació de",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde, núm. 16253, de 23 de setembre de 2026, sobre aprovació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 1,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#5",
+      "sesion_id": "2026-10-15",
+      "orden": 5,
+      "titulo": "Resolució de l’alcalde, núm. 16575, de 30 de setembre de 2026, sobre aprovació de",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde, núm. 16575, de 30 de setembre de 2026, sobre aprovació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 1,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#6",
+      "sesion_id": "2026-10-15",
+      "orden": 6,
+      "titulo": "Resolució de l’alcalde, núm. 16665, d’1 d’octubre de 2026, sobre aprovació de",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde, núm. 16665, d’1 d’octubre de 2026, sobre aprovació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 1,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#7",
+      "sesion_id": "2026-10-15",
+      "orden": 7,
+      "titulo": "Resolució de l’alcalde, núm. 16369, de 28 de setembre de 2026, per la qual es",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde, núm. 16369, de 28 de setembre de 2026, per la qual es",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#8",
+      "sesion_id": "2026-10-15",
+      "orden": 8,
+      "titulo": "Resolució de l’alcalde, núm. 16489, de 29 de setembre de 2026, per la qual s’aprova",
+      "resultado": null,
+      "texto_redactado": "Resolució de l’alcalde, núm. 16489, de 29 de setembre de 2026, per la qual s’aprova",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 1,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#9",
+      "sesion_id": "2026-10-15",
+      "orden": 9,
+      "titulo": "Aprovació, si escau, de reconeixements extrajudicials de crèdit a favor de diversos",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de reconeixements extrajudicials de crèdit a favor de diversos",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 2,
+      "confianza_min": 0.37,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#10",
+      "sesion_id": "2026-10-15",
+      "orden": 10,
+      "titulo": "Aprovació provisional, si escau, de l’expedient de modificació de les ordenances",
+      "resultado": null,
+      "texto_redactado": "Aprovació provisional, si escau, de l’expedient de modificació de les ordenances",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.39,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#11",
+      "sesion_id": "2026-10-15",
+      "orden": 11,
+      "titulo": "Aprovació inicial, si escau, de l’expedient de modificació de crèdits núm. P42/2026,",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial, si escau, de l’expedient de modificació de crèdits núm. P42/2026,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#12",
+      "sesion_id": "2026-10-15",
+      "orden": 12,
+      "titulo": "Aprovació inicial, si escau, de l’expedient de modificació de crèdits núm. P43/2026,",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial, si escau, de l’expedient de modificació de crèdits núm. P43/2026,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#13",
+      "sesion_id": "2026-10-15",
+      "orden": 13,
+      "titulo": "Aprovació, si escau, de l’autorització a la societat mercantil Aigües de Manresa, SA,",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de l’autorització a la societat mercantil Aigües de Manresa, SA,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.36,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#14",
+      "sesion_id": "2026-10-15",
+      "orden": 14,
+      "titulo": "Aprovació inicial, si escau, de la ÒModificació puntual del POUM ampliació NILED.",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial, si escau, de la ÒModificació puntual del POUM ampliació NILED.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.48,
+      "impacto": 3,
+      "confianza_min": 0.31,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#15",
+      "sesion_id": "2026-10-15",
+      "orden": 15,
+      "titulo": "Aprovació definitiva, si escau, del ÒPla d’accessibilitat de l’Espai públic de ManresaÓ. (AJT.DIC 2026000094).-",
+      "resultado": null,
+      "texto_redactado": "Aprovació definitiva, si escau, del ÒPla d’accessibilitat de l’Espai públic de ManresaÓ. (AJT.DIC 2026000094).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.69,
+      "impacto": 4,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#16",
+      "sesion_id": "2026-10-15",
+      "orden": 16,
+      "titulo": "Aprovació, si escau, de l’adhesió de l’Ajuntament de Manresa al Pacte territorial per a",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de l’adhesió de l’Ajuntament de Manresa al Pacte territorial per a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 2,
+      "confianza_min": 0.17,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#17",
+      "sesion_id": "2026-10-15",
+      "orden": 17,
+      "titulo": "Aprovació, si escau, de la desafectació del servei públic d’ensenyament d’un",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de la desafectació del servei públic d’ensenyament d’un",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.47,
+      "impacto": 3,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#18",
+      "sesion_id": "2026-10-15",
+      "orden": 18,
+      "titulo": "Aprovació, si escau, de la primera modificació del LOT 2 de les escoles bressol",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, de la primera modificació del LOT 2 de les escoles bressol",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 3,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#19",
+      "sesion_id": "2026-10-15",
+      "orden": 19,
+      "titulo": "Aprovació, si escau, del Pla de Salut de Manresa 2026-2030. (OSC.SPU 2026000107).-",
+      "resultado": null,
+      "texto_redactado": "Aprovació, si escau, del Pla de Salut de Manresa 2026-2030. (OSC.SPU 2026000107).-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.37,
+      "impacto": 4,
+      "confianza_min": 0.35,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#20",
+      "sesion_id": "2026-10-15",
+      "orden": 20,
+      "titulo": "Moció del Grup Municipal de VOX per al rebuig als intents de manipulació del cens",
+      "resultado": null,
+      "texto_redactado": "Moció del Grup Municipal de VOX per al rebuig als intents de manipulació del cens",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 2,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#21",
+      "sesion_id": "2026-10-15",
+      "orden": 21,
+      "titulo": "Moció del Grup Municipal de Fem Manresa per protegir l’oferta d’habitatge habitual",
+      "resultado": null,
+      "texto_redactado": "Moció del Grup Municipal de Fem Manresa per protegir l’oferta d’habitatge habitual",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "vivienda",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.55,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#22",
+      "sesion_id": "2026-10-15",
+      "orden": 22,
+      "titulo": "Moció del Grup Municipal de Fem Manresa per reforçar els controls d’integritat en",
+      "resultado": null,
+      "texto_redactado": "Moció del Grup Municipal de Fem Manresa per reforçar els controls d’integritat en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 2,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#23",
+      "sesion_id": "2026-10-15",
+      "orden": 23,
+      "titulo": "Moció del Grup Municipal de Junts per a l’encàrrec d’una auditoria externa de la",
+      "resultado": null,
+      "texto_redactado": "Moció del Grup Municipal de Junts per a l’encàrrec d’una auditoria externa de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 2,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#24",
+      "sesion_id": "2026-10-15",
+      "orden": 24,
+      "titulo": "Moció del Grup Municipal de Junts per reclamar la descentralització de la justícia",
+      "resultado": null,
+      "texto_redactado": "Moció del Grup Municipal de Junts per reclamar la descentralització de la justícia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 2,
+      "confianza_min": 0.04,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#25",
+      "sesion_id": "2026-10-15",
+      "orden": 25,
+      "titulo": "Moció dels Grups Municipals de Junts i Nacionalista per reforçar la lluita contra el",
+      "resultado": null,
+      "texto_redactado": "Moció dels Grups Municipals de Junts i Nacionalista per reforçar la lluita contra el",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 1,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#26",
+      "sesion_id": "2026-10-15",
+      "orden": 26,
+      "titulo": "Pregunta del Grup Municipal Nacionalista sobre l’estat de neteja i manteniment del",
+      "resultado": null,
+      "texto_redactado": "Pregunta del Grup Municipal Nacionalista sobre l’estat de neteja i manteniment del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.77,
+      "impacto": 2,
+      "confianza_min": 0.05,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#27",
+      "sesion_id": "2026-10-15",
+      "orden": 27,
+      "titulo": "Pregunta del Grup Municipal de Fem Manresa sobre la participació de membres del",
+      "resultado": null,
+      "texto_redactado": "Pregunta del Grup Municipal de Fem Manresa sobre la participació de membres del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#28",
+      "sesion_id": "2026-10-15",
+      "orden": 28,
+      "titulo": "Pregunta del Grup Municipal de Junts sobre els espais d’estacionament als nous",
+      "resultado": null,
+      "texto_redactado": "Pregunta del Grup Municipal de Junts sobre els espais d’estacionament als nous",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.82,
+      "impacto": 2,
+      "confianza_min": 0.17,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#29",
+      "sesion_id": "2026-10-15",
+      "orden": 29,
+      "titulo": "Pregunta del Grup Municipal de Junts sobre l’acord adoptat pel Ple de l’Ajuntament",
+      "resultado": null,
+      "texto_redactado": "Pregunta del Grup Municipal de Junts sobre l’acord adoptat pel Ple de l’Ajuntament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#30",
+      "sesion_id": "2026-10-15",
+      "orden": 30,
+      "titulo": "Pregunta del Grup Municipal de Junts sobre les places d’agents de la Guàrdia",
+      "resultado": null,
+      "texto_redactado": "Pregunta del Grup Municipal de Junts sobre les places d’agents de la Guàrdia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "seguridad",
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#31",
+      "sesion_id": "2026-10-15",
+      "orden": 31,
+      "titulo": "Pregunta del Grup Municipal de Junts sobre la fira Ecoviure.-",
+      "resultado": null,
+      "texto_redactado": "Pregunta del Grup Municipal de Junts sobre la fira Ecoviure.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.33,
+      "impacto": 2,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#32",
+      "sesion_id": "2026-10-15",
+      "orden": 32,
+      "titulo": "Pregunta del Grup Municipal de Junts sobre les obres del Carrer del Balç i l’Espai",
+      "resultado": null,
+      "texto_redactado": "Pregunta del Grup Municipal de Junts sobre les obres del Carrer del Balç i l’Espai",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "contratacion_obras",
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.78,
+      "impacto": 2,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#33",
+      "sesion_id": "2026-10-15",
+      "orden": 33,
+      "titulo": "Pregunta del Grup Municipal de Fem Manresa sobre l’estat i l’evolució de la",
+      "resultado": null,
+      "texto_redactado": "Pregunta del Grup Municipal de Fem Manresa sobre l’estat i l’evolució de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 1,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#34",
+      "sesion_id": "2026-10-15",
+      "orden": 34,
+      "titulo": "Pregunta del Grup Municipal de VOX sobre el parc d’habitatges socials a Manresa.-",
+      "resultado": null,
+      "texto_redactado": "Pregunta del Grup Municipal de VOX sobre el parc d’habitatges socials a Manresa.-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.64,
+      "impacto": 2,
+      "confianza_min": 0.22,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    },
+    {
+      "id": "2026-10-15#35",
+      "sesion_id": "2026-10-15",
+      "orden": 35,
+      "titulo": "Prec del GM de Junts per recuperar el pessebre i l’adoració dels Reis d’Orient en la",
+      "resultado": null,
+      "texto_redactado": "Prec del GM de Junts per recuperar el pessebre i l’adoració dels Reis d’Orient en la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.47,
+      "impacto": 2,
+      "confianza_min": 0.4,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:40.027Z"
+      }
+    }
+  ]
+}

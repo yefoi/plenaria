@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vilafant",
+    "nombre": "Vilafant",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1722140003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-02",
+    "municipio_id": "vilafant",
+    "fecha": "2026-11-02",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1722140003/2026/292b4894-fee2-4134-97e0-a6a265f5b83c/ACTA%20PLE%20EXTRA%202%20NOV.pdf",
+    "hash_contenido": "a977a5c14fbf233ed5caa105792c2f9e227ec85c66a6f8d0c1f05cc56e235c88",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-11-22T13:56:46.294Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-02#1",
+      "sesion_id": "2026-11-02",
+      "orden": 1,
+      "titulo": "1.0.- Sorteig membres de les taules electorals corresponents a les eleccions",
+      "resultado": null,
+      "texto_redactado": "1.0.- Sorteig membres de les taules electorals corresponents a les eleccions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 2,
+      "confianza_min": 0.27,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:46.294Z"
+      }
+    }
+  ]
+}

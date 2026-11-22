@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sallent",
+    "nombre": "Sallent",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "819180001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-03",
+    "municipio_id": "sallent",
+    "fecha": "2026-11-03",
+    "tipo": "extraordinaria_urgente",
+    "fuente_url": "https://media.seu-e.cat/acteca/819180001/2026/f27eeecd-1511-4519-9f56-b01aab4110a0/ACTA%20PLE%20EXTR.%20URGENT%207%203.11.2026.pdf",
+    "hash_contenido": "2c1ec64e2fe8f2d88d786b9182afe1c822b3543d711323626cf6b131d73c9cae",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-22T13:56:45.627Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-03#1",
+      "sesion_id": "2026-11-03",
+      "orden": 1,
+      "titulo": "La urgència de la convocatòria extraordinària i urgent està motivada pel fet que seguint les indicacions del",
+      "resultado": null,
+      "texto_redactado": "La urgència de la convocatòria extraordinària i urgent està motivada pel fet que seguint les indicacions del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.88,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:45.627Z"
+      }
+    },
+    {
+      "id": "2026-11-03#2",
+      "sesion_id": "2026-11-03",
+      "orden": 2,
+      "titulo": "L’article 46.2.b) de la Llei de Bases de Règim Local disposa que les sessions extraordinàries que ho hagin estat",
+      "resultado": null,
+      "texto_redactado": "L’article 46.2.b) de la Llei de Bases de Règim Local disposa que les sessions extraordinàries que ho hagin estat",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:45.627Z"
+      }
+    },
+    {
+      "id": "2026-11-03#3",
+      "sesion_id": "2026-11-03",
+      "orden": 3,
+      "titulo": "Reiterada jurisprudència, entre la que trobem, la STS de 20 de maig de 1998 (Ar. 4481) estableix que en la",
+      "resultado": null,
+      "texto_redactado": "Reiterada jurisprudència, entre la que trobem, la STS de 20 de maig de 1998 (Ar. 4481) estableix que en la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:45.627Z"
+      }
+    },
+    {
+      "id": "2026-11-03#4",
+      "sesion_id": "2026-11-03",
+      "orden": 4,
+      "titulo": "Comunicar aquest Acord a la Junta Electoral de Zona.",
+      "resultado": null,
+      "texto_redactado": "Comunicar aquest Acord a la Junta Electoral de Zona.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:45.627Z"
+      }
+    }
+  ]
+}

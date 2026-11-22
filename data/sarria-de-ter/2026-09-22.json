@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sarria-de-ter",
+    "nombre": "Sarrià de Ter",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1718640003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-22",
+    "municipio_id": "sarria-de-ter",
+    "fecha": "2026-09-22",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1718640003/2026/ac752beb-e335-46eb-94a4-cc79ff0b2a8b/acta%20Ple%2009%2022092026.pdf",
+    "hash_contenido": "8a2b9c4bbf9efc4a539e8fb7bd7e1a28d0b9d66205dab9126baf726e04ac0e69",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-11-22T13:56:46.949Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-22#1",
+      "sesion_id": "2026-09-22",
+      "orden": 1,
+      "titulo": "1.0.- Aprovació de l'acta de la sessió de 28 de juliol de 2026 (X2026000003)",
+      "resultado": null,
+      "texto_redactado": "1.0.- Aprovació de l'acta de la sessió de 28 de juliol de 2026 (X2026000003)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-22T13:56:46.949Z"
+      }
+    }
+  ]
+}
