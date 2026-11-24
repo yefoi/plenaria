@@ -1,0 +1,507 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vilanova-i-la-geltru",
+    "nombre": "Vilanova i la Geltrú",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "830730008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-27",
+    "municipio_id": "vilanova-i-la-geltru",
+    "fecha": "2026-10-27",
+    "tipo": "otra",
+    "fuente_url": "https://media.seu-e.cat/acteca/830730008/2026/ee54242b-ed1b-43cd-b7de-76c7d69a8852/Acta%2037%20-%2027.10.2026.pdf",
+    "hash_contenido": "f513cf3c528f59dc07dfc2e1aeaff07c535218d6f1e8100d23529d29ee22c10b",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-24T16:29:21.418Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-27#1",
+      "sesion_id": "2026-10-27",
+      "orden": 1,
+      "titulo": "Secretaria General. Servei de Fe Pública i Cartipàs.",
+      "resultado": null,
+      "texto_redactado": "Secretaria General. Servei de Fe Pública i Cartipàs.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.35,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-24T16:29:21.418Z"
+      }
+    },
+    {
+      "id": "2026-10-27#2",
+      "sesion_id": "2026-10-27",
+      "orden": 2,
+      "titulo": "Secretaria General. Assessoria Jurídica",
+      "resultado": null,
+      "texto_redactado": "Secretaria General. Assessoria Jurídica",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.9,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-24T16:29:21.418Z"
+      }
+    },
+    {
+      "id": "2026-10-27#3",
+      "sesion_id": "2026-10-27",
+      "orden": 3,
+      "titulo": "Secretaria General. Assessoria Jurídica",
+      "resultado": null,
+      "texto_redactado": "Secretaria General. Assessoria Jurídica",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.9,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-24T16:29:21.418Z"
+      }
+    },
+    {
+      "id": "2026-10-27#4",
+      "sesion_id": "2026-10-27",
+      "orden": 4,
+      "titulo": "Secretaria General. Assessoria Jurídica",
+      "resultado": null,
+      "texto_redactado": "Secretaria General. Assessoria Jurídica",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.91,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-24T16:29:21.418Z"
+      }
+    },
+    {
+      "id": "2026-10-27#5",
+      "sesion_id": "2026-10-27",
+      "orden": 5,
+      "titulo": "Secretaria General. Assessoria Jurídica",
+      "resultado": null,
+      "texto_redactado": "Secretaria General. Assessoria Jurídica",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.9,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-24T16:29:21.418Z"
+      }
+    },
+    {
+      "id": "2026-10-27#6",
+      "sesion_id": "2026-10-27",
+      "orden": 6,
+      "titulo": "Secretaria General. Assessoria Jurídica",
+      "resultado": null,
+      "texto_redactado": "Secretaria General. Assessoria Jurídica",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.91,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-24T16:29:21.418Z"
+      }
+    },
+    {
+      "id": "2026-10-27#7",
+      "sesion_id": "2026-10-27",
+      "orden": 7,
+      "titulo": "Secretaria General. Assessoria Jurídica",
+      "resultado": null,
+      "texto_redactado": "Secretaria General. Assessoria Jurídica",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.91,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-24T16:29:21.418Z"
+      }
+    },
+    {
+      "id": "2026-10-27#8",
+      "sesion_id": "2026-10-27",
+      "orden": 8,
+      "titulo": "Secretaria General. Assessoria Jurídica",
+      "resultado": null,
+      "texto_redactado": "Secretaria General. Assessoria Jurídica",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.84,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-24T16:29:21.418Z"
+      }
+    },
+    {
+      "id": "2026-10-27#9",
+      "sesion_id": "2026-10-27",
+      "orden": 9,
+      "titulo": "Secretaria General. Assessoria Jurídica",
+      "resultado": null,
+      "texto_redactado": "Secretaria General. Assessoria Jurídica",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.9,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-24T16:29:21.418Z"
+      }
+    },
+    {
+      "id": "2026-10-27#10",
+      "sesion_id": "2026-10-27",
+      "orden": 10,
+      "titulo": "Secretaria General. Assessoria Jurídica",
+      "resultado": null,
+      "texto_redactado": "Secretaria General. Assessoria Jurídica",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.91,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-24T16:29:21.418Z"
+      }
+    },
+    {
+      "id": "2026-10-27#11",
+      "sesion_id": "2026-10-27",
+      "orden": 11,
+      "titulo": "Servei de Compres i Serveis Generals.",
+      "resultado": null,
+      "texto_redactado": "Servei de Compres i Serveis Generals.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.47,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-24T16:29:21.418Z"
+      }
+    },
+    {
+      "id": "2026-10-27#12",
+      "sesion_id": "2026-10-27",
+      "orden": 12,
+      "titulo": "Intervenció.",
+      "resultado": null,
+      "texto_redactado": "Intervenció.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-24T16:29:21.418Z"
+      }
+    },
+    {
+      "id": "2026-10-27#13",
+      "sesion_id": "2026-10-27",
+      "orden": 13,
+      "titulo": "Intervenció.",
+      "resultado": null,
+      "texto_redactado": "Intervenció.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.79,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-24T16:29:21.418Z"
+      }
+    },
+    {
+      "id": "2026-10-27#14",
+      "sesion_id": "2026-10-27",
+      "orden": 14,
+      "titulo": "Mercats Municipals.",
+      "resultado": null,
+      "texto_redactado": "Mercats Municipals.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.75,
+      "impacto": 3,
+      "confianza_min": 0.4,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-24T16:29:21.418Z"
+      }
+    },
+    {
+      "id": "2026-10-27#15",
+      "sesion_id": "2026-10-27",
+      "orden": 15,
+      "titulo": "Cultura i Llengua.",
+      "resultado": null,
+      "texto_redactado": "Cultura i Llengua.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.38,
+      "impacto": 2,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-24T16:29:21.418Z"
+      }
+    },
+    {
+      "id": "2026-10-27#16",
+      "sesion_id": "2026-10-27",
+      "orden": 16,
+      "titulo": "Infància i Joventut.",
+      "resultado": null,
+      "texto_redactado": "Infància i Joventut.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 2,
+      "confianza_min": 0.13,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-24T16:29:21.418Z"
+      }
+    },
+    {
+      "id": "2026-10-27#17",
+      "sesion_id": "2026-10-27",
+      "orden": 17,
+      "titulo": "Participació.",
+      "resultado": null,
+      "texto_redactado": "Participació.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-24T16:29:21.418Z"
+      }
+    },
+    {
+      "id": "2026-10-27#18",
+      "sesion_id": "2026-10-27",
+      "orden": 18,
+      "titulo": "Participació.",
+      "resultado": null,
+      "texto_redactado": "Participació.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.73,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-24T16:29:21.418Z"
+      }
+    },
+    {
+      "id": "2026-10-27#19",
+      "sesion_id": "2026-10-27",
+      "orden": 19,
+      "titulo": "Espai Públic.",
+      "resultado": null,
+      "texto_redactado": "Espai Públic.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.57,
+      "impacto": 2,
+      "confianza_min": 0.08,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-24T16:29:21.418Z"
+      }
+    },
+    {
+      "id": "2026-10-27#20",
+      "sesion_id": "2026-10-27",
+      "orden": 20,
+      "titulo": "Servei de Projectes i Obres.",
+      "resultado": null,
+      "texto_redactado": "Servei de Projectes i Obres.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.51,
+      "impacto": 2,
+      "confianza_min": 0.33,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0,google/gemini-3.8-flash) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-24T16:29:21.418Z"
+      }
+    }
+  ]
+}
