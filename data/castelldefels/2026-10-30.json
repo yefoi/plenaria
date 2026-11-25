@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "castelldefels",
+    "nombre": "Castelldefels",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "805690004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-30",
+    "municipio_id": "castelldefels",
+    "fecha": "2026-10-30",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/805690004/2026/47a33517-a65a-4838-9fcd-4efc736b0f50/Edicte_aprovaci%f3_definitiva_ordenan%e7a_civisme.pdf",
+    "hash_contenido": "dbd8362b4ef813fb6ab879578084938236d83f66bc2aa3b89f47cbf66341f8cd",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-11-25T16:18:41.417Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-30#1",
+      "sesion_id": "2026-10-30",
+      "orden": 1,
+      "titulo": "Secció Via Pública i Infraestructures Núm. Exp.: 2026/6962 Aprovació d'ordenances no fiscals,",
+      "resultado": null,
+      "texto_redactado": "Secció Via Pública i Infraestructures Núm. Exp.: 2026/6962 Aprovació d'ordenances no fiscals,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.54,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:41.417Z"
+      }
+    }
+  ]
+}

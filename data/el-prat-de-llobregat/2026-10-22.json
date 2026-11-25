@@ -1,0 +1,465 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "el-prat-de-llobregat",
+    "nombre": "El Prat de Llobregat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "816910007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-22",
+    "municipio_id": "el-prat-de-llobregat",
+    "fecha": "2026-10-22",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/816910007/2026/5c41c233-92f5-4161-8e81-db8c40616298/Esborrany%20acta%20PM%2009%20221026.pdf",
+    "hash_contenido": "7e53a28f3bc377d782dc835a926021bbdbd153e276f2b651505df8490352e06e",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-25T16:18:43.017Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-22#1",
+      "sesion_id": "2026-10-22",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió anterior",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.62,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:43.017Z"
+      }
+    },
+    {
+      "id": "2026-10-22#2",
+      "sesion_id": "2026-10-22",
+      "orden": 2,
+      "titulo": "Aprovació provisional de la modificació de les Ordenances fiscals i de",
+      "resultado": null,
+      "texto_redactado": "Aprovació provisional de la modificació de les Ordenances fiscals i de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.78,
+      "impacto": 4,
+      "confianza_min": 0.21,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:43.017Z"
+      }
+    },
+    {
+      "id": "2026-10-22#3",
+      "sesion_id": "2026-10-22",
+      "orden": 3,
+      "titulo": "El recàrrec serà del 150 per 100 en cas de titulars de quatre o més immobles destinats a",
+      "resultado": null,
+      "texto_redactado": "El recàrrec serà del 150 per 100 en cas de titulars de quatre o més immobles destinats a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos",
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.87,
+      "impacto": 3,
+      "confianza_min": 0.32,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:43.017Z"
+      }
+    },
+    {
+      "id": "2026-10-22#4",
+      "sesion_id": "2026-10-22",
+      "orden": 4,
+      "titulo": "Als efectes d’aquest recàrrec tindran la consideració d’immoble desocupat amb caràcter",
+      "resultado": null,
+      "texto_redactado": "Als efectes d’aquest recàrrec tindran la consideració d’immoble desocupat amb caràcter",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda",
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.8,
+      "impacto": 3,
+      "confianza_min": 0.29,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:43.017Z"
+      }
+    },
+    {
+      "id": "2026-10-22#5",
+      "sesion_id": "2026-10-22",
+      "orden": 5,
+      "titulo": "En tot cas es consideraran justificades les següents causes: el trasllat temporal per raons",
+      "resultado": null,
+      "texto_redactado": "En tot cas es consideraran justificades les següents causes: el trasllat temporal per raons",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:43.017Z"
+      }
+    },
+    {
+      "id": "2026-10-22#6",
+      "sesion_id": "2026-10-22",
+      "orden": 6,
+      "titulo": "El recàrrec es merita el 31 de desembre i es liquida anualment als subjectes passius de",
+      "resultado": null,
+      "texto_redactado": "El recàrrec es merita el 31 de desembre i es liquida anualment als subjectes passius de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.5,
+      "impacto": 2,
+      "confianza_min": 0.05,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:43.017Z"
+      }
+    },
+    {
+      "id": "2026-10-22#7",
+      "sesion_id": "2026-10-22",
+      "orden": 7,
+      "titulo": "La declaració municipal com a immoble desocupat amb caràcter permanent exigirà la prèvia",
+      "resultado": null,
+      "texto_redactado": "La declaració municipal com a immoble desocupat amb caràcter permanent exigirà la prèvia",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda",
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.73,
+      "impacto": 3,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:43.017Z"
+      }
+    },
+    {
+      "id": "2026-10-22#8",
+      "sesion_id": "2026-10-22",
+      "orden": 8,
+      "titulo": "Per part del serveis municipals s’emetrà certificació de tots els habitatges que a data 31 de",
+      "resultado": null,
+      "texto_redactado": "Per part del serveis municipals s’emetrà certificació de tots els habitatges que a data 31 de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.43,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:43.017Z"
+      }
+    },
+    {
+      "id": "2026-10-22#9",
+      "sesion_id": "2026-10-22",
+      "orden": 9,
+      "titulo": "Presa de coneixement de la sentència 4144 del Tribunal Superior de Justícia de",
+      "resultado": null,
+      "texto_redactado": "Presa de coneixement de la sentència 4144 del Tribunal Superior de Justícia de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:43.017Z"
+      }
+    },
+    {
+      "id": "2026-10-22#10",
+      "sesion_id": "2026-10-22",
+      "orden": 10,
+      "titulo": "Presa de coneixement de l’aprovació del conveni amb l'Agència Tributària de",
+      "resultado": null,
+      "texto_redactado": "Presa de coneixement de l’aprovació del conveni amb l'Agència Tributària de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:43.017Z"
+      }
+    },
+    {
+      "id": "2026-10-22#11",
+      "sesion_id": "2026-10-22",
+      "orden": 11,
+      "titulo": "Moció pel blindatge del sistema públic de pensions, presentada pel Grup",
+      "resultado": null,
+      "texto_redactado": "Moció pel blindatge del sistema públic de pensions, presentada pel Grup",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:43.017Z"
+      }
+    },
+    {
+      "id": "2026-10-22#12",
+      "sesion_id": "2026-10-22",
+      "orden": 12,
+      "titulo": "Moció per accelerar l’adaptació climàtica i la climatització sostenible dels centres",
+      "resultado": null,
+      "texto_redactado": "Moció per accelerar l’adaptació climàtica i la climatització sostenible dels centres",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "medio_ambiente",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.38,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:43.017Z"
+      }
+    },
+    {
+      "id": "2026-10-22#13",
+      "sesion_id": "2026-10-22",
+      "orden": 13,
+      "titulo": "Moció per reclamar el retorn social, econòmic i ambiental de les grans",
+      "resultado": null,
+      "texto_redactado": "Moció per reclamar el retorn social, econòmic i ambiental de les grans",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos",
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.35,
+      "impacto": 2,
+      "confianza_min": 0.25,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:43.017Z"
+      }
+    },
+    {
+      "id": "2026-10-22#14",
+      "sesion_id": "2026-10-22",
+      "orden": 14,
+      "titulo": "Quotes mínimes",
+      "resultado": null,
+      "texto_redactado": "Quotes mínimes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:43.017Z"
+      }
+    },
+    {
+      "id": "2026-10-22#15",
+      "sesion_id": "2026-10-22",
+      "orden": 15,
+      "titulo": "Moció per a finalització del agermanament amb Kukra Hill (Nicaragua) i l’ establiment",
+      "resultado": null,
+      "texto_redactado": "Moció per a finalització del agermanament amb Kukra Hill (Nicaragua) i l’ establiment",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "organizacion_institucional",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 2,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:43.017Z"
+      }
+    },
+    {
+      "id": "2026-10-22#16",
+      "sesion_id": "2026-10-22",
+      "orden": 16,
+      "titulo": "Moció per a la modificació de l'Ordenança fiscal i del model operatiu de la zona",
+      "resultado": null,
+      "texto_redactado": "Moció per a la modificació de l'Ordenança fiscal i del model operatiu de la zona",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.8,
+      "impacto": 4,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:43.017Z"
+      }
+    },
+    {
+      "id": "2026-10-22#17",
+      "sesion_id": "2026-10-22",
+      "orden": 17,
+      "titulo": "Punto sancionador",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:43.017Z"
+      }
+    },
+    {
+      "id": "2026-10-22#18",
+      "sesion_id": "2026-10-22",
+      "orden": 18,
+      "titulo": "Precs i preguntes",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:43.017Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "agramunt",
+    "nombre": "Agramunt",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2500300000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-24--5c0ae593",
+    "municipio_id": "agramunt",
+    "fecha": "2026-09-24",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2500300000/2026/b234c640-3927-4325-b71b-81cfaa2b50c6/ACTA%20PLE%20N%daM.%2006-2026%20(Data%2024-09-2026)-Acta%20amb%20protecci%f3%20de%20dades.pdf",
+    "hash_contenido": "fbd43afad442bf80df5808f45dfaeb4b01bf312468f2a9a838f9b5bf6472f9bf",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-25T16:18:47.149Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-24--5c0ae593#1",
+      "sesion_id": "2026-09-24--5c0ae593",
+      "orden": 1,
+      "titulo": "En data 17 de juliol de 2026 com a continuïtat de la tasca iniciada per l’equip de",
+      "resultado": null,
+      "texto_redactado": "En data 17 de juliol de 2026 com a continuïtat de la tasca iniciada per l’equip de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:47.149Z"
+      }
+    },
+    {
+      "id": "2026-09-24--5c0ae593#2",
+      "sesion_id": "2026-09-24--5c0ae593",
+      "orden": 2,
+      "titulo": "La Comissió de Valoració de llocs de treball, integrada per la representació de l’",
+      "resultado": null,
+      "texto_redactado": "La Comissió de Valoració de llocs de treball, integrada per la representació de l’",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:47.149Z"
+      }
+    },
+    {
+      "id": "2026-09-24--5c0ae593#3",
+      "sesion_id": "2026-09-24--5c0ae593",
+      "orden": 3,
+      "titulo": "La proposta de RLT es fonamenta en els criteris adoptats en el si de la Comissió i",
+      "resultado": null,
+      "texto_redactado": "La proposta de RLT es fonamenta en els criteris adoptats en el si de la Comissió i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.34,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:47.149Z"
+      }
+    },
+    {
+      "id": "2026-09-24--5c0ae593#4",
+      "sesion_id": "2026-09-24--5c0ae593",
+      "orden": 4,
+      "titulo": "Arran dels criteris de treball relacionats en l’apartat anterior, s’han anat valorant un",
+      "resultado": null,
+      "texto_redactado": "Arran dels criteris de treball relacionats en l’apartat anterior, s’han anat valorant un",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:47.149Z"
+      }
+    },
+    {
+      "id": "2026-09-24--5c0ae593#5",
+      "sesion_id": "2026-09-24--5c0ae593",
+      "orden": 5,
+      "titulo": "Per acord de l’ajuntament ple es va APROVAR INICIALMENT la ÒRelació de Llocs de",
+      "resultado": null,
+      "texto_redactado": "Per acord de l’ajuntament ple es va APROVAR INICIALMENT la ÒRelació de Llocs de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 2,
+      "confianza_min": 0.43,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:47.149Z"
+      }
+    },
+    {
+      "id": "2026-09-24--5c0ae593#6",
+      "sesion_id": "2026-09-24--5c0ae593",
+      "orden": 6,
+      "titulo": "En l’expedient de referència també hi ha constància de les diverses sessions de la",
+      "resultado": null,
+      "texto_redactado": "En l’expedient de referència també hi ha constància de les diverses sessions de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 1,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:47.149Z"
+      }
+    },
+    {
+      "id": "2026-09-24--5c0ae593#7",
+      "sesion_id": "2026-09-24--5c0ae593",
+      "orden": 7,
+      "titulo": "Consta a l’expedient informe jurídic favorable de secretaria i informe de control",
+      "resultado": null,
+      "texto_redactado": "Consta a l’expedient informe jurídic favorable de secretaria i informe de control",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:47.149Z"
+      }
+    }
+  ]
+}

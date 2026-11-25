@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "torroella-de-montgri",
+    "nombre": "Torroella de Montgrí",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1719970005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-02",
+    "municipio_id": "torroella-de-montgri",
+    "fecha": "2026-11-02",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1719970005/2026/773c940b-06e8-4962-97e6-7bea04deeb9b/13.Acta_Ple%20extraordinari_02112026.pdf",
+    "hash_contenido": "f952d383b795aff6758a763f223009711d6fcebb08df223783ef3a15cae0dd06",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-11-25T16:18:40.745Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-02#1",
+      "sesion_id": "2026-11-02",
+      "orden": 1,
+      "titulo": "ACTA DE LA SESSIÓ DEL PLE DE L’AJUNTAMENT DE TORROELLA DE MONTGRÍ IDENTIFICACIÓ DE LA SESSIÓ",
+      "resultado": null,
+      "texto_redactado": "ACTA DE LA SESSIÓ DEL PLE DE L’AJUNTAMENT DE TORROELLA DE MONTGRÍ IDENTIFICACIÓ DE LA SESSIÓ",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:40.745Z"
+      }
+    }
+  ]
+}

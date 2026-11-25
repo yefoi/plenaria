@@ -1,0 +1,675 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "reus",
+    "nombre": "Reus",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4312330008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-23",
+    "municipio_id": "reus",
+    "fecha": "2026-10-23",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4312330008/2026/fe89a200-c6ee-499d-95eb-5ff93f09fce1/20261123-Copia_Acta_Copia_Ple_MunicipalORD_acta-0829.pdf",
+    "hash_contenido": "3edc3abea48bfda5ef20d13255aeefdf49b790d962275724488a44c10f0201cc",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-25T16:18:38.445Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-23#1",
+      "sesion_id": "2026-10-23",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta del Ple de la sessió del dia 18 de setembre de 2026.",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’acta del Ple de la sessió del dia 18 de setembre de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#2",
+      "sesion_id": "2026-10-23",
+      "orden": 2,
+      "titulo": "Presa de possessió de la Sra. [NOMBRE] del càrrec de regidora de l’Ajuntament",
+      "resultado": null,
+      "texto_redactado": "Presa de possessió de la Sra. [NOMBRE] del càrrec de regidora de l’Ajuntament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#3",
+      "sesion_id": "2026-10-23",
+      "orden": 3,
+      "titulo": "Informació de l’Alcaldia. MOCIONS DE L'ALCALDIA",
+      "resultado": null,
+      "texto_redactado": "Informació de l’Alcaldia. MOCIONS DE L'ALCALDIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#4",
+      "sesion_id": "2026-10-23",
+      "orden": 4,
+      "titulo": "Alcaldia. Donar compte de l’adscripció de la regidora Sra. [NOMBRE] al grup",
+      "resultado": null,
+      "texto_redactado": "Alcaldia. Donar compte de l’adscripció de la regidora Sra. [NOMBRE] al grup",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#5",
+      "sesion_id": "2026-10-23",
+      "orden": 5,
+      "titulo": "Alcaldia. Donar compte del canvi de la segona portaveu suplent del grup municipal ERC-",
+      "resultado": null,
+      "texto_redactado": "Alcaldia. Donar compte del canvi de la segona portaveu suplent del grup municipal ERC-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#6",
+      "sesion_id": "2026-10-23",
+      "orden": 6,
+      "titulo": "Alcaldia. Donar compte del decret de l’Alcaldia de delegació de la presidència de l’Institut",
+      "resultado": null,
+      "texto_redactado": "Alcaldia. Donar compte del decret de l’Alcaldia de delegació de la presidència de l’Institut",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.92,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#7",
+      "sesion_id": "2026-10-23",
+      "orden": 7,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#8",
+      "sesion_id": "2026-10-23",
+      "orden": 8,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#9",
+      "sesion_id": "2026-10-23",
+      "orden": 9,
+      "titulo": "Coordinació jurídica de les empreses municipals i defensa jurídica. Autorització a Reus",
+      "resultado": null,
+      "texto_redactado": "Coordinació jurídica de les empreses municipals i defensa jurídica. Autorització a Reus",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 2,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#10",
+      "sesion_id": "2026-10-23",
+      "orden": 10,
+      "titulo": "Gestió Econòmica i Pressupostària. Expedient de modificació de crèdits del Pressupost",
+      "resultado": null,
+      "texto_redactado": "Gestió Econòmica i Pressupostària. Expedient de modificació de crèdits del Pressupost",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.3,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#11",
+      "sesion_id": "2026-10-23",
+      "orden": 11,
+      "titulo": "Gestió jurídica. Aprovació inicial de la modificació de l’Ordenança fiscal número 3,",
+      "resultado": null,
+      "texto_redactado": "Gestió jurídica. Aprovació inicial de la modificació de l’Ordenança fiscal número 3,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.71,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#12",
+      "sesion_id": "2026-10-23",
+      "orden": 12,
+      "titulo": "Gestió jurídica. Aprovació inicial de la modificació de l’Ordenança fiscal número 5,",
+      "resultado": null,
+      "texto_redactado": "Gestió jurídica. Aprovació inicial de la modificació de l’Ordenança fiscal número 5,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.71,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#13",
+      "sesion_id": "2026-10-23",
+      "orden": 13,
+      "titulo": "Gestió jurídica. Modificació de l’ordenança fiscal número 9, reguladora de la Taxa per",
+      "resultado": null,
+      "texto_redactado": "Gestió jurídica. Modificació de l’ordenança fiscal número 9, reguladora de la Taxa per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.75,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#14",
+      "sesion_id": "2026-10-23",
+      "orden": 14,
+      "titulo": "Gestió jurídica. Modificació de l’ordenança fiscal número 11, reguladora de la Taxa per la",
+      "resultado": null,
+      "texto_redactado": "Gestió jurídica. Modificació de l’ordenança fiscal número 11, reguladora de la Taxa per la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.73,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#15",
+      "sesion_id": "2026-10-23",
+      "orden": 15,
+      "titulo": "Gestió jurídica. Modificació de l’ordenança fiscal número 13, reguladora de la Taxa per",
+      "resultado": null,
+      "texto_redactado": "Gestió jurídica. Modificació de l’ordenança fiscal número 13, reguladora de la Taxa per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.75,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#16",
+      "sesion_id": "2026-10-23",
+      "orden": 16,
+      "titulo": "Gestió jurídica. Modificació de l’ordenança fiscal número 15, reguladora de la Taxa per la",
+      "resultado": null,
+      "texto_redactado": "Gestió jurídica. Modificació de l’ordenança fiscal número 15, reguladora de la Taxa per la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.73,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#17",
+      "sesion_id": "2026-10-23",
+      "orden": 17,
+      "titulo": "Gestió jurídica. Modificació de l’ordenança fiscal número 17, reguladora de la Taxa per",
+      "resultado": null,
+      "texto_redactado": "Gestió jurídica. Modificació de l’ordenança fiscal número 17, reguladora de la Taxa per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.74,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#18",
+      "sesion_id": "2026-10-23",
+      "orden": 18,
+      "titulo": "Gestió jurídica. Modificació de l’ordenança fiscal número 18, reguladora de la Taxa per",
+      "resultado": null,
+      "texto_redactado": "Gestió jurídica. Modificació de l’ordenança fiscal número 18, reguladora de la Taxa per",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.73,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#19",
+      "sesion_id": "2026-10-23",
+      "orden": 19,
+      "titulo": "Gestió jurídica. Modificació de l’ordenança número 22, reguladora del Preu Públic pel",
+      "resultado": null,
+      "texto_redactado": "Gestió jurídica. Modificació de l’ordenança número 22, reguladora del Preu Públic pel",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.67,
+      "impacto": 3,
+      "confianza_min": 0.18,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#20",
+      "sesion_id": "2026-10-23",
+      "orden": 20,
+      "titulo": "Intervenció. Aprovació del Pressupost General corresponent a l'exercici 2027. SERVEIS GENERALS",
+      "resultado": null,
+      "texto_redactado": "Intervenció. Aprovació del Pressupost General corresponent a l'exercici 2027. SERVEIS GENERALS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.69,
+      "impacto": 5,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#21",
+      "sesion_id": "2026-10-23",
+      "orden": 21,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#22",
+      "sesion_id": "2026-10-23",
+      "orden": 22,
+      "titulo": "Benestar Social. Aprovació de la pròrroga i modificació del conveni de col·laboració",
+      "resultado": null,
+      "texto_redactado": "Benestar Social. Aprovació de la pròrroga i modificació del conveni de col·laboració",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.36,
+      "impacto": 2,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#23",
+      "sesion_id": "2026-10-23",
+      "orden": 23,
+      "titulo": "Benestar Social. Aprovació de la pròrroga i modificació del conveni de col·laboració",
+      "resultado": null,
+      "texto_redactado": "Benestar Social. Aprovació de la pròrroga i modificació del conveni de col·laboració",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.37,
+      "impacto": 2,
+      "confianza_min": 0.33,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#24",
+      "sesion_id": "2026-10-23",
+      "orden": 24,
+      "titulo": "Gestió Urbanística. Aprovació inicial de la Modificació puntual de la Revisió del Pla",
+      "resultado": null,
+      "texto_redactado": "Gestió Urbanística. Aprovació inicial de la Modificació puntual de la Revisió del Pla",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.53,
+      "impacto": 3,
+      "confianza_min": 0.2,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#25",
+      "sesion_id": "2026-10-23",
+      "orden": 25,
+      "titulo": "Gestió Urbanística. Aprovació provisional de la Modificació puntual de la Revisió del Pla",
+      "resultado": null,
+      "texto_redactado": "Gestió Urbanística. Aprovació provisional de la Modificació puntual de la Revisió del Pla",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.55,
+      "impacto": 3,
+      "confianza_min": 0.15,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#26",
+      "sesion_id": "2026-10-23",
+      "orden": 26,
+      "titulo": "Servei d'Habitatge. Aprovació de l'addenda de modificació del Conveni de col·laboració",
+      "resultado": null,
+      "texto_redactado": "Servei d'Habitatge. Aprovació de l'addenda de modificació del Conveni de col·laboració",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.38,
+      "impacto": 2,
+      "confianza_min": 0.25,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    },
+    {
+      "id": "2026-10-23#27",
+      "sesion_id": "2026-10-23",
+      "orden": 27,
+      "titulo": "Precs i preguntes.",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:38.445Z"
+      }
+    }
+  ]
+}

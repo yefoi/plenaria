@@ -1,0 +1,339 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "corbera-de-llobregat",
+    "nombre": "Corbera de Llobregat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "807280001",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-09-29",
+    "municipio_id": "corbera-de-llobregat",
+    "fecha": "2026-09-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/807280001/2026/5a41f260-f77f-4567-b76e-9619ffd36ed4/Ple%20LOPD%2029-9-2026.pdf",
+    "hash_contenido": "79c4c7245e6cce858de0d738a10d3cc71e3db2cda82dbb943a5e1d0abcc9cd2d",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-25T16:18:45.722Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-09-29#1",
+      "sesion_id": "2026-09-29",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta del Ple ordinari 14/7/2026.",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’acta del Ple ordinari 14/7/2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:45.722Z"
+      }
+    },
+    {
+      "id": "2026-09-29#2",
+      "sesion_id": "2026-09-29",
+      "orden": 2,
+      "titulo": "Presa de possessió regidora municipal",
+      "resultado": null,
+      "texto_redactado": "Presa de possessió regidora municipal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:45.722Z"
+      }
+    },
+    {
+      "id": "2026-09-29#3",
+      "sesion_id": "2026-09-29",
+      "orden": 3,
+      "titulo": "Ratificació del Decret 1834/2026 de modificació de la composició de la",
+      "resultado": null,
+      "texto_redactado": "Ratificació del Decret 1834/2026 de modificació de la composició de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.82,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:45.722Z"
+      }
+    },
+    {
+      "id": "2026-09-29#4",
+      "sesion_id": "2026-09-29",
+      "orden": 4,
+      "titulo": "Aprovació inicial del Reglament regulador del teletreball a l’Ajuntament de",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial del Reglament regulador del teletreball a l’Ajuntament de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.73,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:45.722Z"
+      }
+    },
+    {
+      "id": "2026-09-29#5",
+      "sesion_id": "2026-09-29",
+      "orden": 5,
+      "titulo": "Aprovació provisional de la modificació de les ordenances fiscals núm. 2,",
+      "resultado": null,
+      "texto_redactado": "Aprovació provisional de la modificació de les ordenances fiscals núm. 2,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.79,
+      "impacto": 4,
+      "confianza_min": 0.37,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:45.722Z"
+      }
+    },
+    {
+      "id": "2026-09-29#6",
+      "sesion_id": "2026-09-29",
+      "orden": 6,
+      "titulo": "L'Organisme de Gestió Tributària rebrà les informacions que, sobre modificacions",
+      "resultado": null,
+      "texto_redactado": "L'Organisme de Gestió Tributària rebrà les informacions que, sobre modificacions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:45.722Z"
+      }
+    },
+    {
+      "id": "2026-09-29#7",
+      "sesion_id": "2026-09-29",
+      "orden": 7,
+      "titulo": "Aprovació del reconeixement extrajudicial de crèdit corresponent a",
+      "resultado": null,
+      "texto_redactado": "Aprovació del reconeixement extrajudicial de crèdit corresponent a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 2,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:45.722Z"
+      }
+    },
+    {
+      "id": "2026-09-29#8",
+      "sesion_id": "2026-09-29",
+      "orden": 8,
+      "titulo": "Aprovació inicial de l’expedient de modificació de crèdits 19/2026. ANTECEDENTS DE FETS",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial de l’expedient de modificació de crèdits 19/2026. ANTECEDENTS DE FETS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 2,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:45.722Z"
+      }
+    },
+    {
+      "id": "2026-09-29#9",
+      "sesion_id": "2026-09-29",
+      "orden": 9,
+      "titulo": "Donar compte del Decret 1828/2026 de modificació del cartipàs municipal",
+      "resultado": null,
+      "texto_redactado": "Donar compte del Decret 1828/2026 de modificació del cartipàs municipal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:45.722Z"
+      }
+    },
+    {
+      "id": "2026-09-29#10",
+      "sesion_id": "2026-09-29",
+      "orden": 10,
+      "titulo": "Donar compte de la Declaració de la Comissió de Seguiment del Codi Ètic.",
+      "resultado": null,
+      "texto_redactado": "Donar compte de la Declaració de la Comissió de Seguiment del Codi Ètic.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:45.722Z"
+      }
+    },
+    {
+      "id": "2026-09-29#11",
+      "sesion_id": "2026-09-29",
+      "orden": 11,
+      "titulo": "Donar compte de l’acord de la JGL d'adjudicació del contracte per a la",
+      "resultado": null,
+      "texto_redactado": "Donar compte de l’acord de la JGL d'adjudicació del contracte per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.93,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:45.722Z"
+      }
+    },
+    {
+      "id": "2026-09-29#12",
+      "sesion_id": "2026-09-29",
+      "orden": 12,
+      "titulo": "Donar compte de l’informe de tresoreria de morositat i període mitjà de",
+      "resultado": null,
+      "texto_redactado": "Donar compte de l’informe de tresoreria de morositat i període mitjà de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:45.722Z"
+      }
+    },
+    {
+      "id": "2026-09-29#13",
+      "sesion_id": "2026-09-29",
+      "orden": 13,
+      "titulo": "Precs i preguntes.",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:45.722Z"
+      }
+    }
+  ]
+}

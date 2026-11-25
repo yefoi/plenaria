@@ -1,0 +1,411 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "cubelles",
+    "nombre": "Cubelles",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "807490004",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-21",
+    "municipio_id": "cubelles",
+    "fecha": "2026-07-21",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/807490004/2026/50c4ad8e-cbb2-47a7-ae84-ddf3934132bf/ACTAPLE21JULIOL2026.pdf",
+    "hash_contenido": "417db7dd4e4b2784e821f7d4cdb0a136b88da6d1926bb73b898dce889b6c004b",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-25T16:18:44.425Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-21#1",
+      "sesion_id": "2026-07-21",
+      "orden": 1,
+      "titulo": "APROVACIÓ DE L’ACTA DE LA SESSIÓ ORDINÀRIA DEL PLE DE DATA 19 DE MAIG DE 2026",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’ACTA DE LA SESSIÓ ORDINÀRIA DEL PLE DE DATA 19 DE MAIG DE 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:44.425Z"
+      }
+    },
+    {
+      "id": "2026-07-21#2",
+      "sesion_id": "2026-07-21",
+      "orden": 2,
+      "titulo": "APROVACIÓ DE L’ACTA DE LA SESSIÓ EXTRAORDINÀRIA DEL PLE DE DATA 17 DE JUNY DE 2026",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’ACTA DE LA SESSIÓ EXTRAORDINÀRIA DEL PLE DE DATA 17 DE JUNY DE 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:44.425Z"
+      }
+    },
+    {
+      "id": "2026-07-21#3",
+      "sesion_id": "2026-07-21",
+      "orden": 3,
+      "titulo": "APROVACIÓ DE L’ACTA DE LA SESSIÓ EXTRAORDINÀRIA DEL PLE DE DATA 15 DE JULIOL DE 2026",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE L’ACTA DE LA SESSIÓ EXTRAORDINÀRIA DEL PLE DE DATA 15 DE JULIOL DE 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:44.425Z"
+      }
+    },
+    {
+      "id": "2026-07-21#4",
+      "sesion_id": "2026-07-21",
+      "orden": 4,
+      "titulo": "INFORMACIONS DE PRESIDÈNCIA",
+      "resultado": null,
+      "texto_redactado": "INFORMACIONS DE PRESIDÈNCIA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.41,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:44.425Z"
+      }
+    },
+    {
+      "id": "2026-07-21#5",
+      "sesion_id": "2026-07-21",
+      "orden": 5,
+      "titulo": "DONAR COMPTE DELS DECRETS DE L’ALCALDIA DES DEL NòM. 481 AL",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DELS DECRETS DE L’ALCALDIA DES DEL NòM. 481 AL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:44.425Z"
+      }
+    },
+    {
+      "id": "2026-07-21#6",
+      "sesion_id": "2026-07-21",
+      "orden": 6,
+      "titulo": "DONAR COMPTE DE LES RESOLUCIONS DELS REGIDORS, DES DE",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DE LES RESOLUCIONS DELS REGIDORS, DES DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:44.425Z"
+      }
+    },
+    {
+      "id": "2026-07-21#7",
+      "sesion_id": "2026-07-21",
+      "orden": 7,
+      "titulo": "DONAR COMPTE DELS ACORDS ADOPTATS PER LA JUNTA DE GOVERN LOCAL DES DE LA DARRERA DONACIÓ DE COMPTE AL PLE MUNICIPAL",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE DELS ACORDS ADOPTATS PER LA JUNTA DE GOVERN LOCAL DES DE LA DARRERA DONACIÓ DE COMPTE AL PLE MUNICIPAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:44.425Z"
+      }
+    },
+    {
+      "id": "2026-07-21#8",
+      "sesion_id": "2026-07-21",
+      "orden": 8,
+      "titulo": "DONAR COMPTE TEMES DE PERSONAL",
+      "resultado": null,
+      "texto_redactado": "DONAR COMPTE TEMES DE PERSONAL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.94,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:44.425Z"
+      }
+    },
+    {
+      "id": "2026-07-21#9",
+      "sesion_id": "2026-07-21",
+      "orden": 9,
+      "titulo": "APROVACIÓ DE RESOLUCIÓ DE DISCREPÀNCIA, AIXECAMENT D’OBJECCIÓ SUSPENSIVA I APROVACIÓ DE LA RELACIÓ DE FACTURES",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE RESOLUCIÓ DE DISCREPÀNCIA, AIXECAMENT D’OBJECCIÓ SUSPENSIVA I APROVACIÓ DE LA RELACIÓ DE FACTURES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.67,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:44.425Z"
+      }
+    },
+    {
+      "id": "2026-07-21#10",
+      "sesion_id": "2026-07-21",
+      "orden": 10,
+      "titulo": "APROVACIÓ PROVISIONAL DE LA MODIFICACIÓ DE L’ANNEX DE",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ PROVISIONAL DE LA MODIFICACIÓ DE L’ANNEX DE",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.3,
+      "impacto": 2,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:44.425Z"
+      }
+    },
+    {
+      "id": "2026-07-21#11",
+      "sesion_id": "2026-07-21",
+      "orden": 11,
+      "titulo": "APROVACIÓ DE LA DESIGNACIÓ DE LES DUES FESTES LOCALS PER A",
+      "resultado": null,
+      "texto_redactado": "APROVACIÓ DE LA DESIGNACIÓ DE LES DUES FESTES LOCALS PER A",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 3,
+      "confianza_min": 0.15,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:44.425Z"
+      }
+    },
+    {
+      "id": "2026-07-21#12",
+      "sesion_id": "2026-07-21",
+      "orden": 12,
+      "titulo": "ALTRES TEMES",
+      "resultado": null,
+      "texto_redactado": "ALTRES TEMES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:44.425Z"
+      }
+    },
+    {
+      "id": "2026-07-21#13",
+      "sesion_id": "2026-07-21",
+      "orden": 13,
+      "titulo": "Atesa la brutícia acumulada als carrers i al superàvit amb el que liquiden tots",
+      "resultado": null,
+      "texto_redactado": "Atesa la brutícia acumulada als carrers i al superàvit amb el que liquiden tots",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.68,
+      "impacto": 4,
+      "confianza_min": 0.14,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:44.425Z"
+      }
+    },
+    {
+      "id": "2026-07-21#14",
+      "sesion_id": "2026-07-21",
+      "orden": 14,
+      "titulo": "ALTRES MOCIONS",
+      "resultado": null,
+      "texto_redactado": "ALTRES MOCIONS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:44.425Z"
+      }
+    },
+    {
+      "id": "2026-07-21#15",
+      "sesion_id": "2026-07-21",
+      "orden": 15,
+      "titulo": "PRECS I PREGUNTES",
+      "resultado": null,
+      "texto_redactado": "PRECS I PREGUNTES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:44.425Z"
+      }
+    },
+    {
+      "id": "2026-07-21#16",
+      "sesion_id": "2026-07-21",
+      "orden": 16,
+      "titulo": "PRENDRE CONEIXEMENT DE LA RENòNCIA PRESENTADA PEL REGIDOR SR. DANIEL PÉREZ VILAJOSANA DEL GRUP MUNICIPAL CUP-",
+      "resultado": null,
+      "texto_redactado": "PRENDRE CONEIXEMENT DE LA RENòNCIA PRESENTADA PEL REGIDOR SR. DANIEL PÉREZ VILAJOSANA DEL GRUP MUNICIPAL CUP-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-25T16:18:44.425Z"
+      }
+    }
+  ]
+}
