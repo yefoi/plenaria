@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "almacelles",
+    "nombre": "Almacelles",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2501940003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-04",
+    "municipio_id": "almacelles",
+    "fecha": "2026-11-04",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2501940003/2026/636e2d8b-2d95-4b94-b581-dca850d2483e/6.%20Acta%20ple%20extraordinari%20%2004-11-2026.pdf",
+    "hash_contenido": "6d51a9ffe84317f13bb4769c7597f5055e765f01901e9e5fbd7add07b2cfff76",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-26T15:52:17.273Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-04#1",
+      "sesion_id": "2026-11-04",
+      "orden": 1,
+      "titulo": "ALMACELLES 01 001 U A Z SALA POLIVALENT RBLA GENERALITAT 7 25100",
+      "resultado": null,
+      "texto_redactado": "ALMACELLES 01 001 U A Z SALA POLIVALENT RBLA GENERALITAT 7 25100",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 2,
+      "confianza_min": 0.26,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:17.273Z"
+      }
+    },
+    {
+      "id": "2026-11-04#2",
+      "sesion_id": "2026-11-04",
+      "orden": 2,
+      "titulo": "ALMACELLES 01 002 A A L SALA POLIVALENT RBLA GENERALITAT 7 25100",
+      "resultado": null,
+      "texto_redactado": "ALMACELLES 01 002 A A L SALA POLIVALENT RBLA GENERALITAT 7 25100",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.37,
+      "impacto": 2,
+      "confianza_min": 0.24,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:17.273Z"
+      }
+    },
+    {
+      "id": "2026-11-04#3",
+      "sesion_id": "2026-11-04",
+      "orden": 3,
+      "titulo": "ALMACELLES 01 002 B M Z SALA POLIVALENT RBLA GENERALITAT 7 25100Codi Validació: 55Z9P5WEH9MHTPFWF73PZ95GL",
+      "resultado": null,
+      "texto_redactado": "ALMACELLES 01 002 B M Z SALA POLIVALENT RBLA GENERALITAT 7 25100Codi Validació: 55Z9P5WEH9MHTPFWF73PZ95GL",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 2,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:17.273Z"
+      }
+    },
+    {
+      "id": "2026-11-04#4",
+      "sesion_id": "2026-11-04",
+      "orden": 4,
+      "titulo": "ALMACELLES 02 001 U A Z SALA POLIVALENT RBLA GENERALITAT 7 25100",
+      "resultado": null,
+      "texto_redactado": "ALMACELLES 02 001 U A Z SALA POLIVALENT RBLA GENERALITAT 7 25100",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.5,
+      "impacto": 2,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:17.273Z"
+      }
+    },
+    {
+      "id": "2026-11-04#5",
+      "sesion_id": "2026-11-04",
+      "orden": 5,
+      "titulo": "ALMACELLES 02 002 A A K SALA POLIVALENT RBLA GENERALITAT 7 25100",
+      "resultado": null,
+      "texto_redactado": "ALMACELLES 02 002 A A K SALA POLIVALENT RBLA GENERALITAT 7 25100",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.5,
+      "impacto": 2,
+      "confianza_min": 0.22,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:17.273Z"
+      }
+    },
+    {
+      "id": "2026-11-04#6",
+      "sesion_id": "2026-11-04",
+      "orden": 6,
+      "titulo": "ALMACELLES 02 002 B L Z SALA POLIVALENT RBLA GENERALITAT 7 25100 FONAMENTS JURÍDICS",
+      "resultado": null,
+      "texto_redactado": "ALMACELLES 02 002 B L Z SALA POLIVALENT RBLA GENERALITAT 7 25100 FONAMENTS JURÍDICS",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 2,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:17.273Z"
+      }
+    }
+  ]
+}

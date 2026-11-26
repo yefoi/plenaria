@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "macanet-de-la-selva",
+    "nombre": "Maçanet de la Selva",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1710300000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-28",
+    "municipio_id": "macanet-de-la-selva",
+    "fecha": "2026-10-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1710300000/2026/c6d74ec4-1287-451a-af9b-f8650bb0974d/PLE2026000012.pdf",
+    "hash_contenido": "271221704149efd89b0886469e30c23a0c8736ddcc246f57959d41ba5e1ad67b",
+    "estado_ingesta": "redactada",
+    "actualizada_en": "2026-11-26T15:22:14.566Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-28#1",
+      "sesion_id": "2026-10-28",
+      "orden": 1,
+      "titulo": "Aprovació de l’acta anterior",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l’acta anterior",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-10-28#2",
+      "sesion_id": "2026-10-28",
+      "orden": 2,
+      "titulo": "Aprovació provisional de la modificació de les ordenances fiscals per a l'exercici",
+      "resultado": null,
+      "texto_redactado": "Aprovació provisional de la modificació de les ordenances fiscals per a l'exercici",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-10-28#3",
+      "sesion_id": "2026-10-28",
+      "orden": 3,
+      "titulo": "Aprovació inicial de l'expedient de modificació de crèdit núm. 19/2026 en la",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial de l'expedient de modificació de crèdit núm. 19/2026 en la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-10-28#4",
+      "sesion_id": "2026-10-28",
+      "orden": 4,
+      "titulo": "Aprovació inicial de l'expedient de modificació de crèdit núm. 22/2026 en la",
+      "resultado": null,
+      "texto_redactado": "Aprovació inicial de l'expedient de modificació de crèdit núm. 22/2026 en la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}

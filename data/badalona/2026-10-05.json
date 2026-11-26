@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "badalona",
+    "nombre": "Badalona",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "801550006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-05",
+    "municipio_id": "badalona",
+    "fecha": "2026-10-05",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/801550006/2026/2f6cca46-2397-48cb-85ca-a3ffd6fdd4e1/ACTA_19_Ple_05-10-2026.pdf",
+    "hash_contenido": "359f6aa6a64f08e07b662a41ab5d549296a1f40dc61e38deb7898ec07fd73bf8",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-26T15:52:11.575Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-05#1",
+      "sesion_id": "2026-10-05",
+      "orden": 1,
+      "titulo": "Es formula i tramita per iniciativa pública la present proposta a l’empara de l’article 78 del",
+      "resultado": null,
+      "texto_redactado": "Es formula i tramita per iniciativa pública la present proposta a l’empara de l’article 78 del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:11.575Z"
+      }
+    },
+    {
+      "id": "2026-10-05#2",
+      "sesion_id": "2026-10-05",
+      "orden": 2,
+      "titulo": "A l’expedient administratiu 2024/38272T tramitat pel Departament de Planejament",
+      "resultado": null,
+      "texto_redactado": "A l’expedient administratiu 2024/38272T tramitat pel Departament de Planejament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.35,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:11.575Z"
+      }
+    },
+    {
+      "id": "2026-10-05#3",
+      "sesion_id": "2026-10-05",
+      "orden": 3,
+      "titulo": "Els informes tècnics que consten a l’expedient justifiquen la necessitat i interès públic per la",
+      "resultado": null,
+      "texto_redactado": "Els informes tècnics que consten a l’expedient justifiquen la necessitat i interès públic per la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 1,
+      "confianza_min": 0.35,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:11.575Z"
+      }
+    },
+    {
+      "id": "2026-10-05#4",
+      "sesion_id": "2026-10-05",
+      "orden": 4,
+      "titulo": "Així mateix, en compliment de l’article 85.5 del TRLUC es va sol·licitar informes sectorials",
+      "resultado": null,
+      "texto_redactado": "Així mateix, en compliment de l’article 85.5 del TRLUC es va sol·licitar informes sectorials",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:11.575Z"
+      }
+    },
+    {
+      "id": "2026-10-05#5",
+      "sesion_id": "2026-10-05",
+      "orden": 5,
+      "titulo": "De conformitat amb l’article 3.3. c) 7è del Reial Decret 128/2018, de 17 de març, cal",
+      "resultado": null,
+      "texto_redactado": "De conformitat amb l’article 3.3. c) 7è del Reial Decret 128/2018, de 17 de març, cal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:11.575Z"
+      }
+    },
+    {
+      "id": "2026-10-05#6",
+      "sesion_id": "2026-10-05",
+      "orden": 6,
+      "titulo": "D’acord amb l’article 179.1 b) de la Llei Municipal i de règim local, (DL 2/2003, de 28 d’abril)",
+      "resultado": null,
+      "texto_redactado": "D’acord amb l’article 179.1 b) de la Llei Municipal i de règim local, (DL 2/2003, de 28 d’abril)",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:11.575Z"
+      }
+    }
+  ]
+}

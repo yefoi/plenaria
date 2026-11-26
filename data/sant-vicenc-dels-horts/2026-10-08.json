@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sant-vicenc-dels-horts",
+    "nombre": "Sant Vicenç dels Horts",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "826340003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-08",
+    "municipio_id": "sant-vicenc-dels-horts",
+    "fecha": "2026-10-08",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/826340003/2026/2d99fb98-a27f-46f9-aadb-bf58b8cd4509/Acta_extraordin%e0ria_08.10.2026.pdf",
+    "hash_contenido": "9bb5baa26f64ee2dad5ad18b4f50171ea741f6f6e30112256a052e6e9ec200c1",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-11-26T15:52:12.437Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-08#1",
+      "sesion_id": "2026-10-08",
+      "orden": 1,
+      "titulo": "1. ECONOMÍA I HISENDA",
+      "resultado": null,
+      "texto_redactado": "1. ECONOMÍA I HISENDA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.61,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:12.437Z"
+      }
+    }
+  ]
+}

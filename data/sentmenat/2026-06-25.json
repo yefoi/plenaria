@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "sentmenat",
+    "nombre": "Sentmenat",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "826710007",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-25",
+    "municipio_id": "sentmenat",
+    "fecha": "2026-06-25",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/826710007/2026/7cba1862-f5d4-4e37-8f37-7c2ac1266303/20261019_ACTA%20DEL%20PLE%202026-0007%20[ACTA%20PLE%2025-06-26].pdf",
+    "hash_contenido": "f6fdbca88670b66cc2d8e244cdab16f9a847abd24f204c6e13c08279bc0b2d7b",
+    "estado_ingesta": "redactada",
+    "actualizada_en": "2026-11-26T15:40:04.979Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-25#1",
+      "sesion_id": "2026-06-25",
+      "orden": 1,
+      "titulo": "Expedient 3892/2026. Presa de possessió del càrrec de regidor del Sr. Arnau",
+      "resultado": null,
+      "texto_redactado": "Expedient 3892/2026. Presa de possessió del càrrec de regidor del Sr. Arnau",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-06-25#2",
+      "sesion_id": "2026-06-25",
+      "orden": 2,
+      "titulo": "Despatx d'ofici",
+      "resultado": null,
+      "texto_redactado": "Despatx d'ofici",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-06-25#3",
+      "sesion_id": "2026-06-25",
+      "orden": 3,
+      "titulo": "Expedient 2439/2020. Aprovar prorroga extraordinària del contracte de recollida i",
+      "resultado": null,
+      "texto_redactado": "Expedient 2439/2020. Aprovar prorroga extraordinària del contracte de recollida i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-06-25#4",
+      "sesion_id": "2026-06-25",
+      "orden": 4,
+      "titulo": "Expedient 2633/2023. Modificació del dia i hora de les sessions ordinàries de laCodi Validació: 4PKXSMZMJCNYHFYSY963QCPAW",
+      "resultado": null,
+      "texto_redactado": "Expedient 2633/2023. Modificació del dia i hora de les sessions ordinàries de laCodi Validació: 4PKXSMZMJCNYHFYSY963QCPAW",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-06-25#5",
+      "sesion_id": "2026-06-25",
+      "orden": 5,
+      "titulo": "Expedient 4169/2026. Aprovar festes locals 2027",
+      "resultado": null,
+      "texto_redactado": "Expedient 4169/2026. Aprovar festes locals 2027",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}

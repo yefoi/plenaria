@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "reus",
+    "nombre": "Reus",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4312330008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-02",
+    "municipio_id": "reus",
+    "fecha": "2026-11-02",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4312330008/2026/1d62e5e0-4190-4fec-b135-e516586bf9e7/20261123-Copia_Acta_Copia_Ple_MunicipalEXTR_acta-1713.pdf",
+    "hash_contenido": "4b960c04ab3c5e01009756428ccc970fe9c14c9e3530f6c637bb39fffc030828",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-11-26T15:52:04.242Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-02#1",
+      "sesion_id": "2026-11-02",
+      "orden": 1,
+      "titulo": "1. Sorteig per a la designació dels membres de les meses electorals per a les eleccions a",
+      "resultado": null,
+      "texto_redactado": "1. Sorteig per a la designació dels membres de les meses electorals per a les eleccions a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:04.242Z"
+      }
+    }
+  ]
+}

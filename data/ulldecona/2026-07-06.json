@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "ulldecona",
+    "nombre": "Ulldecona",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4315670005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-06",
+    "municipio_id": "ulldecona",
+    "fecha": "2026-07-06",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4315670005/2026/e240e103-2df9-4499-a9d1-6d05148cfb00/202604_ActaPM06072026.pdf",
+    "hash_contenido": "7bf3014db19adfa837966ca25f0635e130894bb8318088a8224b9a8310fada21",
+    "estado_ingesta": "redactada",
+    "actualizada_en": "2026-11-26T15:45:24.171Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-06#1",
+      "sesion_id": "2026-07-06",
+      "orden": 1,
+      "titulo": "Aprovar el Pla Econòmic Financer 2026 - 2027.",
+      "resultado": null,
+      "texto_redactado": "Aprovar el Pla Econòmic Financer 2026 - 2027.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-07-06#2",
+      "sesion_id": "2026-07-06",
+      "orden": 2,
+      "titulo": "Trametre el Pla aprovat a l'òrgan de tutela financera de la Generalitat de Catalunya.",
+      "resultado": null,
+      "texto_redactado": "Trametre el Pla aprovat a l'òrgan de tutela financera de la Generalitat de Catalunya.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-07-06#3",
+      "sesion_id": "2026-07-06",
+      "orden": 3,
+      "titulo": "Facultar a l'Alcaldia per a dur a terme totes aquelles modificacions que puguin ser requerides",
+      "resultado": null,
+      "texto_redactado": "Facultar a l'Alcaldia per a dur a terme totes aquelles modificacions que puguin ser requerides",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-07-06#4",
+      "sesion_id": "2026-07-06",
+      "orden": 4,
+      "titulo": "Exposar el pressupost al públic mitjançant la inserció de l’anunci al Butlletí Oficial de la",
+      "resultado": null,
+      "texto_redactado": "Exposar el pressupost al públic mitjançant la inserció de l’anunci al Butlletí Oficial de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-07-06#5",
+      "sesion_id": "2026-07-06",
+      "orden": 5,
+      "titulo": "L’aprovació inicial del pressupost general es considerarà definitiva si no es produeixen",
+      "resultado": null,
+      "texto_redactado": "L’aprovació inicial del pressupost general es considerarà definitiva si no es produeixen",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}

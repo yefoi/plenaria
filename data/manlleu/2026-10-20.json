@@ -1,0 +1,485 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "manlleu",
+    "nombre": "Manlleu",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "811200000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-20",
+    "municipio_id": "manlleu",
+    "fecha": "2026-10-20",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/811200000/2026/f66f6ed3-30f8-4cc8-8449-9d0725d768ad/ACTA%20PLE_10_2026%20DE%2020_10_2026%20-%20SEFYCU%20288014.pdf",
+    "hash_contenido": "32d6044b57f2d23768ab1ca47425e61a552911dafcfd7bcc98407bd1a9915748",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-26T15:52:14.313Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-20#1",
+      "sesion_id": "2026-10-20",
+      "orden": 1,
+      "titulo": "Aprovació de l'acta de la sessió anterior.",
+      "resultado": null,
+      "texto_redactado": "Aprovació de l'acta de la sessió anterior.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:14.313Z"
+      }
+    },
+    {
+      "id": "2026-10-20#2",
+      "sesion_id": "2026-10-20",
+      "orden": 2,
+      "titulo": "Presa de possessió del càrrec de regidor pel grup Esquerra Republicana de Catalunya",
+      "resultado": null,
+      "texto_redactado": "Presa de possessió del càrrec de regidor pel grup Esquerra Republicana de Catalunya",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.07,
+      "impacto": 1,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:14.313Z"
+      }
+    },
+    {
+      "id": "2026-10-20#3",
+      "sesion_id": "2026-10-20",
+      "orden": 3,
+      "titulo": "Ratificació de la modificació dels estatuts del Consorci Per a la Normalització Lingüística",
+      "resultado": null,
+      "texto_redactado": "Ratificació de la modificació dels estatuts del Consorci Per a la Normalització Lingüística",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 2,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:14.313Z"
+      }
+    },
+    {
+      "id": "2026-10-20#4",
+      "sesion_id": "2026-10-20",
+      "orden": 4,
+      "titulo": "Aprovar el Pla d’igualtat i feminismes de Manlleu 2026-2029.",
+      "resultado": null,
+      "texto_redactado": "Aprovar el Pla d’igualtat i feminismes de Manlleu 2026-2029.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_sociales"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 4,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:14.313Z"
+      }
+    },
+    {
+      "id": "2026-10-20#5",
+      "sesion_id": "2026-10-20",
+      "orden": 5,
+      "titulo": "Modificació de l’Ordenança general de gestió, inspecció i recaptació dels ingressos de",
+      "resultado": null,
+      "texto_redactado": "Modificació de l’Ordenança general de gestió, inspecció i recaptació dels ingressos de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.62,
+      "impacto": 3,
+      "confianza_min": 0.15,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:14.313Z"
+      }
+    },
+    {
+      "id": "2026-10-20#6",
+      "sesion_id": "2026-10-20",
+      "orden": 6,
+      "titulo": "Modificació de l’Ordenança fiscal núm. 1 reguladora de l’impost sobre bens immobles.",
+      "resultado": null,
+      "texto_redactado": "Modificació de l’Ordenança fiscal núm. 1 reguladora de l’impost sobre bens immobles.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.87,
+      "impacto": 4,
+      "confianza_min": 0.4,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:14.313Z"
+      }
+    },
+    {
+      "id": "2026-10-20#7",
+      "sesion_id": "2026-10-20",
+      "orden": 7,
+      "titulo": "Modificació de l’Ordenança fiscal núm. 3 reguladora de l’impost sobre vehicles de",
+      "resultado": null,
+      "texto_redactado": "Modificació de l’Ordenança fiscal núm. 3 reguladora de l’impost sobre vehicles de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.85,
+      "impacto": 4,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:14.313Z"
+      }
+    },
+    {
+      "id": "2026-10-20#8",
+      "sesion_id": "2026-10-20",
+      "orden": 8,
+      "titulo": "Modificació de l’Ordenança fiscal núm. 4 reguladora de l’impost sobre l’increment de",
+      "resultado": null,
+      "texto_redactado": "Modificació de l’Ordenança fiscal núm. 4 reguladora de l’impost sobre l’increment de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.77,
+      "impacto": 3,
+      "confianza_min": 0.1,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:14.313Z"
+      }
+    },
+    {
+      "id": "2026-10-20#9",
+      "sesion_id": "2026-10-20",
+      "orden": 9,
+      "titulo": "Modificació de l’Ordenança fiscal núm. 5 reguladora de l’impost sobre construccions,",
+      "resultado": null,
+      "texto_redactado": "Modificació de l’Ordenança fiscal núm. 5 reguladora de l’impost sobre construccions,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.82,
+      "impacto": 4,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:14.313Z"
+      }
+    },
+    {
+      "id": "2026-10-20#10",
+      "sesion_id": "2026-10-20",
+      "orden": 10,
+      "titulo": "Modificació de l’Ordenança fiscal núm. 11 reguladora de les taxes per la prestació de",
+      "resultado": null,
+      "texto_redactado": "Modificació de l’Ordenança fiscal núm. 11 reguladora de les taxes per la prestació de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.76,
+      "impacto": 3,
+      "confianza_min": 0.3,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:14.313Z"
+      }
+    },
+    {
+      "id": "2026-10-20#11",
+      "sesion_id": "2026-10-20",
+      "orden": 11,
+      "titulo": "Modificació de l’Ordenança fiscal núm. 12 reguladora de la taxa per la utilització",
+      "resultado": null,
+      "texto_redactado": "Modificació de l’Ordenança fiscal núm. 12 reguladora de la taxa per la utilització",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.78,
+      "impacto": 3,
+      "confianza_min": 0.32,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:14.313Z"
+      }
+    },
+    {
+      "id": "2026-10-20#12",
+      "sesion_id": "2026-10-20",
+      "orden": 12,
+      "titulo": "Modificació de l’Ordenança fiscal núm. 21 reguladora de la taxa per la prestació dels",
+      "resultado": null,
+      "texto_redactado": "Modificació de l’Ordenança fiscal núm. 21 reguladora de la taxa per la prestació dels",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.76,
+      "impacto": 3,
+      "confianza_min": 0.24,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:14.313Z"
+      }
+    },
+    {
+      "id": "2026-10-20#13",
+      "sesion_id": "2026-10-20",
+      "orden": 13,
+      "titulo": "Modificació de l’Ordenança fiscal núm. 29 reguladora de la taxa per la prestació del",
+      "resultado": null,
+      "texto_redactado": "Modificació de l’Ordenança fiscal núm. 29 reguladora de la taxa per la prestació del",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.76,
+      "impacto": 3,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:14.313Z"
+      }
+    },
+    {
+      "id": "2026-10-20#14",
+      "sesion_id": "2026-10-20",
+      "orden": 14,
+      "titulo": "Moció per a l’aprovació d’una ordenança municipal de contaminació odorífera a",
+      "resultado": null,
+      "texto_redactado": "Moció per a l’aprovació d’una ordenança municipal de contaminació odorífera a",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "medio_ambiente",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.77,
+      "impacto": 4,
+      "confianza_min": 0.4,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:14.313Z"
+      }
+    },
+    {
+      "id": "2026-10-20#15",
+      "sesion_id": "2026-10-20",
+      "orden": 15,
+      "titulo": "Moció per impulsar habitatge social i inclusiu a Manlleu.",
+      "resultado": null,
+      "texto_redactado": "Moció per impulsar habitatge social i inclusiu a Manlleu.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "vivienda",
+        "mociones_grupos"
+      ],
+      "afecta_vecinos_prob": 0.58,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:14.313Z"
+      }
+    },
+    {
+      "id": "2026-10-20#16",
+      "sesion_id": "2026-10-20",
+      "orden": 16,
+      "titulo": "Donar compte dels Decrets d'Alcaldia i de les resolucions de les regidories amb",
+      "resultado": null,
+      "texto_redactado": "Donar compte dels Decrets d'Alcaldia i de les resolucions de les regidories amb",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:14.313Z"
+      }
+    },
+    {
+      "id": "2026-10-20#17",
+      "sesion_id": "2026-10-20",
+      "orden": 17,
+      "titulo": "Donar compte de les actes de la Junta de Govern Local, corresponents als números:",
+      "resultado": null,
+      "texto_redactado": "Donar compte de les actes de la Junta de Govern Local, corresponents als números:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.89,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:14.313Z"
+      }
+    },
+    {
+      "id": "2026-10-20#18",
+      "sesion_id": "2026-10-20",
+      "orden": 18,
+      "titulo": "Informació de les regidories.",
+      "resultado": null,
+      "texto_redactado": "Informació de les regidories.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:14.313Z"
+      }
+    },
+    {
+      "id": "2026-10-20#19",
+      "sesion_id": "2026-10-20",
+      "orden": 19,
+      "titulo": "Precs i preguntes. A) ACTA SESSIÓ ANTERIOR:",
+      "resultado": null,
+      "texto_redactado": "Precs i preguntes. A) ACTA SESSIÓ ANTERIOR:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-26T15:52:14.313Z"
+      }
+    }
+  ]
+}

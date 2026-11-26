@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "almacelles",
+    "nombre": "Almacelles",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2501940003",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-06-22",
+    "municipio_id": "almacelles",
+    "fecha": "2026-06-22",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2501940003/2026/bf80a1e1-e9c0-4b0a-87ff-4e005176182d/5.%20Acta%20ple%20ordinari%20%2022-06-2026.pdf",
+    "hash_contenido": "f5e07cfcd7db8bebad106a2f24a94da96e66d172640c3137b200686ed9d0333c",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-11-26T15:44:05.177Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-06-22#1",
+      "sesion_id": "2026-06-22",
+      "orden": 1,
+      "titulo": "1.502,34 setembre-octubre-novembre 2025 EXPOSITO BAQUEDANO Manteniment cementiri, material electricista, manteniment",
+      "resultado": null,
+      "texto_redactado": "1.502,34 setembre-octubre-novembre 2025 EXPOSITO BAQUEDANO Manteniment cementiri, material electricista, manteniment",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}
