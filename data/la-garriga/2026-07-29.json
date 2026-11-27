@@ -1,0 +1,1758 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "la-garriga",
+    "nombre": "La Garriga",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "808850006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-07-29",
+    "municipio_id": "la-garriga",
+    "fecha": "2026-07-29",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/808850006/2026/e459cb0c-e43d-49dd-afd9-315e0e1364b2/20260729_Sessi%f3%20ordin%e0ria.pdf",
+    "hash_contenido": "764cc3216519f14227d5cfb7b7945f01b5aee3a0476739251bb5da214bf35515",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-27T15:41:01.237Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-07-29#1",
+      "sesion_id": "2026-07-29",
+      "orden": 1,
+      "titulo": "Exp. PLN/2026/9 Aprovació de l'acta de la sessió ordinària anterior del 22 de juny de 2026.",
+      "resultado": null,
+      "texto_redactado": "Exp. PLN/2026/9 Aprovació de l'acta de la sessió ordinària anterior del 22 de juny de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#2",
+      "sesion_id": "2026-07-29",
+      "orden": 2,
+      "titulo": "Exp. PLN/2026/9 Aprovació de l'acta de la sessió extraordinària del 15 de juliol de 2026.",
+      "resultado": null,
+      "texto_redactado": "Exp. PLN/2026/9 Aprovació de l'acta de la sessió extraordinària del 15 de juliol de 2026.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#3",
+      "sesion_id": "2026-07-29",
+      "orden": 3,
+      "titulo": "Exp. 2585/2026. Donar compte al Ple de l'aprovació definitiva i entrada en vigor de la",
+      "resultado": null,
+      "texto_redactado": "Exp. 2585/2026. Donar compte al Ple de l'aprovació definitiva i entrada en vigor de la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#4",
+      "sesion_id": "2026-07-29",
+      "orden": 4,
+      "titulo": "Exp. 2857/2026. Donar compte al Ple de l'aprovació definitiva i entrada en vigor de",
+      "resultado": null,
+      "texto_redactado": "Exp. 2857/2026. Donar compte al Ple de l'aprovació definitiva i entrada en vigor de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#5",
+      "sesion_id": "2026-07-29",
+      "orden": 5,
+      "titulo": "Exp. 3719/2026. Donar compte dels informes de la tresoreria relatius a la remissió de dades",
+      "resultado": null,
+      "texto_redactado": "Exp. 3719/2026. Donar compte dels informes de la tresoreria relatius a la remissió de dades",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#6",
+      "sesion_id": "2026-07-29",
+      "orden": 6,
+      "titulo": "Exp. 2969/2026. Donar compte al Ple de l’informe de la intervenció municipal relatiu als",
+      "resultado": null,
+      "texto_redactado": "Exp. 2969/2026. Donar compte al Ple de l’informe de la intervenció municipal relatiu als",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#7",
+      "sesion_id": "2026-07-29",
+      "orden": 7,
+      "titulo": "Exp. 4492/2026. Donar compte dels informes de la Intervenció municipal a la remissió de",
+      "resultado": null,
+      "texto_redactado": "Exp. 4492/2026. Donar compte dels informes de la Intervenció municipal a la remissió de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#8",
+      "sesion_id": "2026-07-29",
+      "orden": 8,
+      "titulo": "Exp. 7309/2026. Aprovació inicial de les Bases reguladores per a la concessió de subvencions",
+      "resultado": null,
+      "texto_redactado": "Exp. 7309/2026. Aprovació inicial de les Bases reguladores per a la concessió de subvencions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.37,
+      "impacto": 2,
+      "confianza_min": 0.34,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#9",
+      "sesion_id": "2026-07-29",
+      "orden": 9,
+      "titulo": "Exp. 4378/2026. Aprovació inicial de les Bases reguladores per a la concessió de subvencions",
+      "resultado": null,
+      "texto_redactado": "Exp. 4378/2026. Aprovació inicial de les Bases reguladores per a la concessió de subvencions",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.39,
+      "impacto": 2,
+      "confianza_min": 0.34,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#10",
+      "sesion_id": "2026-07-29",
+      "orden": 10,
+      "titulo": "Exp. AJT/11139/2025. Adjudicar el contracte de concessió del servei d'abastament d'aigua",
+      "resultado": null,
+      "texto_redactado": "Exp. AJT/11139/2025. Adjudicar el contracte de concessió del servei d'abastament d'aigua",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "servicios_publicos",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.8,
+      "impacto": 5,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#11",
+      "sesion_id": "2026-07-29",
+      "orden": 11,
+      "titulo": "Exp. 8153/2026. Modificació de crèdit número 2026/51. Modalitat suplement de crèdit",
+      "resultado": null,
+      "texto_redactado": "Exp. 8153/2026. Modificació de crèdit número 2026/51. Modalitat suplement de crèdit",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#12",
+      "sesion_id": "2026-07-29",
+      "orden": 12,
+      "titulo": "Exp. 9006/2026. Modificació de crèdit número 2026/58. Modalitat suplment de crèdit",
+      "resultado": null,
+      "texto_redactado": "Exp. 9006/2026. Modificació de crèdit número 2026/58. Modalitat suplment de crèdit",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 1,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#13",
+      "sesion_id": "2026-07-29",
+      "orden": 13,
+      "titulo": "Exp. 9170/2026. Modificació del pressupost 2026/59. Modalitat suplement de crèdit",
+      "resultado": null,
+      "texto_redactado": "Exp. 9170/2026. Modificació del pressupost 2026/59. Modalitat suplement de crèdit",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.38,
+      "impacto": 2,
+      "confianza_min": 0.33,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#14",
+      "sesion_id": "2026-07-29",
+      "orden": 14,
+      "titulo": "Exp. 8737/2026. Omissió de la funció interventora. Ple Juliol",
+      "resultado": null,
+      "texto_redactado": "Exp. 8737/2026. Omissió de la funció interventora. Ple Juliol",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.16,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#15",
+      "sesion_id": "2026-07-29",
+      "orden": 15,
+      "titulo": "Exp. 5619/2026. Aprovació inicial de l'ordenança municipal P11, reguladora del preu públic",
+      "resultado": null,
+      "texto_redactado": "Exp. 5619/2026. Aprovació inicial de l'ordenança municipal P11, reguladora del preu públic",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.82,
+      "impacto": 3,
+      "confianza_min": 0.17,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#16",
+      "sesion_id": "2026-07-29",
+      "orden": 16,
+      "titulo": "Exp. 4216/2026. Compte general i liquidació del pressupost",
+      "resultado": null,
+      "texto_redactado": "Exp. 4216/2026. Compte general i liquidació del pressupost",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 2,
+      "confianza_min": 0.35,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#17",
+      "sesion_id": "2026-07-29",
+      "orden": 17,
+      "titulo": "Exp. 5598/2026. Aprovació definitiva de les Bases reguladores del programa municipal",
+      "resultado": null,
+      "texto_redactado": "Exp. 5598/2026. Aprovació definitiva de les Bases reguladores del programa municipal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.48,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#18",
+      "sesion_id": "2026-07-29",
+      "orden": 18,
+      "titulo": "Exp. 5599/2026. Aprovació definitiva de les Bases reguladores del programa municipal",
+      "resultado": null,
+      "texto_redactado": "Exp. 5599/2026. Aprovació definitiva de les Bases reguladores del programa municipal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#19",
+      "sesion_id": "2026-07-29",
+      "orden": 19,
+      "titulo": "Exp. 2880/2026. Rectificació dels estatuts de la mercantil La Garriga 360, SLU i",
+      "resultado": null,
+      "texto_redactado": "Exp. 2880/2026. Rectificació dels estatuts de la mercantil La Garriga 360, SLU i",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#20",
+      "sesion_id": "2026-07-29",
+      "orden": 20,
+      "titulo": "Exp. 5855/2026. Aprovació inicial de l’establiment del servei de càrrega de vehicles",
+      "resultado": null,
+      "texto_redactado": "Exp. 5855/2026. Aprovació inicial de l’establiment del servei de càrrega de vehicles",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.65,
+      "impacto": 3,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#21",
+      "sesion_id": "2026-07-29",
+      "orden": 21,
+      "titulo": "PLN/2026/9. Donar compte al Ple de les resolucions d’alcaldia dictades entre l'11 de juny",
+      "resultado": null,
+      "texto_redactado": "PLN/2026/9. Donar compte al Ple de les resolucions d’alcaldia dictades entre l'11 de juny",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#22",
+      "sesion_id": "2026-07-29",
+      "orden": 22,
+      "titulo": "Expedient AJT/1737/2026. Concedir un ajut econòmic per import de 319,81€ per la",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/1737/2026. Concedir un ajut econòmic per import de 319,81€ per la",
+      "importe_eur": 319.81,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.73,
+      "impacto": 2,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#23",
+      "sesion_id": "2026-07-29",
+      "orden": 23,
+      "titulo": "Expedient Concedir un ajut econòmic per import de 319,77 € per la compraCodi Validació: 3YNQWDCL9QE3ACZG42DJP46ZL",
+      "resultado": null,
+      "texto_redactado": "Expedient Concedir un ajut econòmic per import de 319,77 € per la compraCodi Validació: 3YNQWDCL9QE3ACZG42DJP46ZL",
+      "importe_eur": 319.77,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.66,
+      "impacto": 2,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#24",
+      "sesion_id": "2026-07-29",
+      "orden": 24,
+      "titulo": "Expedient AJT/1006/2026. Concedir un ajut econòmic per import de 499,99 € per la",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/1006/2026. Concedir un ajut econòmic per import de 499,99 € per la",
+      "importe_eur": 499.99,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.69,
+      "impacto": 2,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#25",
+      "sesion_id": "2026-07-29",
+      "orden": 25,
+      "titulo": "Expedient AJT/1537/2026. Concedir un ajut econòmic per import de 319,19 € per la",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/1537/2026. Concedir un ajut econòmic per import de 319,19 € per la",
+      "importe_eur": 319.19,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.68,
+      "impacto": 2,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#26",
+      "sesion_id": "2026-07-29",
+      "orden": 26,
+      "titulo": "Expedient AJT/861/2026. Concedir un ajut econòmic per import de 393,35 € per la",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/861/2026. Concedir un ajut econòmic per import de 393,35 € per la",
+      "importe_eur": 393.35,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.68,
+      "impacto": 2,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#27",
+      "sesion_id": "2026-07-29",
+      "orden": 27,
+      "titulo": "Expedient AJT/246/2026. Concedir un ajut econòmic per import de 599,84 € per la",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/246/2026. Concedir un ajut econòmic per import de 599,84 € per la",
+      "importe_eur": 599.84,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.68,
+      "impacto": 2,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#28",
+      "sesion_id": "2026-07-29",
+      "orden": 28,
+      "titulo": "Expedient AJT/504/2026. Concedir un ajut econòmic per import de 499,12 € per la",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/504/2026. Concedir un ajut econòmic per import de 499,12 € per la",
+      "importe_eur": 499.12,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.7,
+      "impacto": 2,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#29",
+      "sesion_id": "2026-07-29",
+      "orden": 29,
+      "titulo": "Expedient AJT/1141/2026. Concedir un ajut econòmic per import de 497,18 € per la",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/1141/2026. Concedir un ajut econòmic per import de 497,18 € per la",
+      "importe_eur": 497.18,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.69,
+      "impacto": 2,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#30",
+      "sesion_id": "2026-07-29",
+      "orden": 30,
+      "titulo": "Expedient AJT/1093/2026. Concedir un ajut econòmic per import de 398,10 € per la",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/1093/2026. Concedir un ajut econòmic per import de 398,10 € per la",
+      "importe_eur": 398.1,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.7,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#31",
+      "sesion_id": "2026-07-29",
+      "orden": 31,
+      "titulo": "Expedient 6208/2026. Concedir la targeta d’aparcament individual per a persones",
+      "resultado": null,
+      "texto_redactado": "Expedient 6208/2026. Concedir la targeta d’aparcament individual per a persones",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.67,
+      "impacto": 2,
+      "confianza_min": 0.88,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#32",
+      "sesion_id": "2026-07-29",
+      "orden": 32,
+      "titulo": "Expedient 3279/2026. Concedir la targeta d’aparcament individual per a persones",
+      "resultado": null,
+      "texto_redactado": "Expedient 3279/2026. Concedir la targeta d’aparcament individual per a persones",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.7,
+      "impacto": 2,
+      "confianza_min": 0.87,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#33",
+      "sesion_id": "2026-07-29",
+      "orden": 33,
+      "titulo": "Expedient 3249/2026. Concedir la targeta d’aparcament individual per a persones",
+      "resultado": null,
+      "texto_redactado": "Expedient 3249/2026. Concedir la targeta d’aparcament individual per a persones",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.69,
+      "impacto": 2,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#34",
+      "sesion_id": "2026-07-29",
+      "orden": 34,
+      "titulo": "Expedient 6439/2026. Concedir la targeta d’aparcament individual per a persones",
+      "resultado": null,
+      "texto_redactado": "Expedient 6439/2026. Concedir la targeta d’aparcament individual per a persones",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.7,
+      "impacto": 2,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#35",
+      "sesion_id": "2026-07-29",
+      "orden": 35,
+      "titulo": "Expedient 2660/2026. Adjudicació subvencions entitats culturals 2026",
+      "resultado": null,
+      "texto_redactado": "Expedient 2660/2026. Adjudicació subvencions entitats culturals 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.4,
+      "impacto": 3,
+      "confianza_min": 0.28,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#36",
+      "sesion_id": "2026-07-29",
+      "orden": 36,
+      "titulo": "Expedient 2806/2026. Adjudicació subvencions entitats juvenils 2026",
+      "resultado": null,
+      "texto_redactado": "Expedient 2806/2026. Adjudicació subvencions entitats juvenils 2026",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.45,
+      "impacto": 3,
+      "confianza_min": 0.36,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#37",
+      "sesion_id": "2026-07-29",
+      "orden": 37,
+      "titulo": "Expedient 4664/2026. Aprovació del conveni de col·laboració amb la Parròquia de Sant",
+      "resultado": null,
+      "texto_redactado": "Expedient 4664/2026. Aprovació del conveni de col·laboració amb la Parròquia de Sant",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 2,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#38",
+      "sesion_id": "2026-07-29",
+      "orden": 38,
+      "titulo": "Expedient 6242/2026. Sol·licitud d’ús de l’Auditori de l’Escola Municipal de Música",
+      "resultado": null,
+      "texto_redactado": "Expedient 6242/2026. Sol·licitud d’ús de l’Auditori de l’Escola Municipal de Música",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 2,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#39",
+      "sesion_id": "2026-07-29",
+      "orden": 39,
+      "titulo": "Expedient 4892/2026. Aprovació de la convocatòria per a la concessió de subvencions en",
+      "resultado": null,
+      "texto_redactado": "Expedient 4892/2026. Aprovació de la convocatòria per a la concessió de subvencions en",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.41,
+      "impacto": 2,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#40",
+      "sesion_id": "2026-07-29",
+      "orden": 40,
+      "titulo": "Expedient AJT/2139/2025. Aprovació de la justificació de l’aportació de l'Ajuntament",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/2139/2025. Aprovació de la justificació de l’aportació de l'Ajuntament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#41",
+      "sesion_id": "2026-07-29",
+      "orden": 41,
+      "titulo": "Expedient AJT/5666/2025. Aprovació de la justificació de l’aportació de l'Ajuntament",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/5666/2025. Aprovació de la justificació de l’aportació de l'Ajuntament",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#42",
+      "sesion_id": "2026-07-29",
+      "orden": 42,
+      "titulo": "Expedient 3415/2026. Devolució ingressos indeguts pagament duplicat taxa ocupació via",
+      "resultado": null,
+      "texto_redactado": "Expedient 3415/2026. Devolució ingressos indeguts pagament duplicat taxa ocupació via",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 2,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#43",
+      "sesion_id": "2026-07-29",
+      "orden": 43,
+      "titulo": "Expedient 4419/2026. Lloguer sala gran de l'equipament municipal de Can Luna -",
+      "resultado": null,
+      "texto_redactado": "Expedient 4419/2026. Lloguer sala gran de l'equipament municipal de Can Luna -",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.35,
+      "impacto": 2,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#44",
+      "sesion_id": "2026-07-29",
+      "orden": 44,
+      "titulo": "Expedient AJT/2960/2025. Justificació subvenció a l’Associació de Veïns i als",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/2960/2025. Justificació subvenció a l’Associació de Veïns i als",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 2,
+      "confianza_min": 0.27,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#45",
+      "sesion_id": "2026-07-29",
+      "orden": 45,
+      "titulo": "Expedient AJT/11216/2024. Modificació de llicència per l’obertura d’una nova rasa al",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/11216/2024. Modificació de llicència per l’obertura d’una nova rasa al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.49,
+      "impacto": 2,
+      "confianza_min": 0.65,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#46",
+      "sesion_id": "2026-07-29",
+      "orden": 46,
+      "titulo": "Expedient 4143/2026. Obres subjectes a llicència per obertura de rasa per a nova",
+      "resultado": null,
+      "texto_redactado": "Expedient 4143/2026. Obres subjectes a llicència per obertura de rasa per a nova",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.58,
+      "impacto": 2,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#47",
+      "sesion_id": "2026-07-29",
+      "orden": 47,
+      "titulo": "Expedient 3556/2026. Obres subjectes a llicència per enderroc de passera en pati",
+      "resultado": null,
+      "texto_redactado": "Expedient 3556/2026. Obres subjectes a llicència per enderroc de passera en pati",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.38,
+      "impacto": 2,
+      "confianza_min": 0.8,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#48",
+      "sesion_id": "2026-07-29",
+      "orden": 48,
+      "titulo": "Expedient 5029/2026. Aprovar la liquidació de l’ICIO corresponent a la comunicació",
+      "resultado": null,
+      "texto_redactado": "Expedient 5029/2026. Aprovar la liquidació de l’ICIO corresponent a la comunicació",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias",
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.5,
+      "impacto": 2,
+      "confianza_min": 0.86,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#49",
+      "sesion_id": "2026-07-29",
+      "orden": 49,
+      "titulo": "Expedient AJT/4673/2024. Modificació substancial de la llicència ambiental per a la",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/4673/2024. Modificació substancial de la llicència ambiental per a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "medio_ambiente"
+      ],
+      "afecta_vecinos_prob": 0.46,
+      "impacto": 3,
+      "confianza_min": 0.3,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#50",
+      "sesion_id": "2026-07-29",
+      "orden": 50,
+      "titulo": "Expedient 6317/2026. Ocupacions de la via pública per a la instal·lació de terrasses -",
+      "resultado": null,
+      "texto_redactado": "Expedient 6317/2026. Ocupacions de la via pública per a la instal·lació de terrasses -",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.64,
+      "impacto": 3,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#51",
+      "sesion_id": "2026-07-29",
+      "orden": 51,
+      "titulo": "Expedient 6374/2026. Ingrés a favor de l´ajuntament pel tractament de la fracció de",
+      "resultado": null,
+      "texto_redactado": "Expedient 6374/2026. Ingrés a favor de l´ajuntament pel tractament de la fracció de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.45,
+      "impacto": 2,
+      "confianza_min": 0.31,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#52",
+      "sesion_id": "2026-07-29",
+      "orden": 52,
+      "titulo": "Expedient AJT/6120/2025. Devolució aval corresponent a les obres de la finca situades a la",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/6120/2025. Devolució aval corresponent a les obres de la finca situades a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.61,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#53",
+      "sesion_id": "2026-07-29",
+      "orden": 53,
+      "titulo": "Expedient AJT/1500/2026. Devolució de la fiança corresponent a les obres de la finca",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/1500/2026. Devolució de la fiança corresponent a les obres de la finca",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 2,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#54",
+      "sesion_id": "2026-07-29",
+      "orden": 54,
+      "titulo": "Expedient 5798/2026. Devolució de la fiança corresponent a les obres de la finca situada al",
+      "resultado": null,
+      "texto_redactado": "Expedient 5798/2026. Devolució de la fiança corresponent a les obres de la finca situada al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#55",
+      "sesion_id": "2026-07-29",
+      "orden": 55,
+      "titulo": "Expedient 5757/2026. Devolució aval corresponent a les obres de la finca situades al",
+      "resultado": null,
+      "texto_redactado": "Expedient 5757/2026. Devolució aval corresponent a les obres de la finca situades al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#56",
+      "sesion_id": "2026-07-29",
+      "orden": 56,
+      "titulo": "Expedient AJT/8368/2022. Devolució aval corresponent a les obres de la finca situades al",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/8368/2022. Devolució aval corresponent a les obres de la finca situades al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.59,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#57",
+      "sesion_id": "2026-07-29",
+      "orden": 57,
+      "titulo": "Expedient AJT/6846/2024. Devolució aval corresponent a les obres de la finca situades al",
+      "resultado": null,
+      "texto_redactado": "Expedient AJT/6846/2024. Devolució aval corresponent a les obres de la finca situades al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#58",
+      "sesion_id": "2026-07-29",
+      "orden": 58,
+      "titulo": "Expedient 7037/2026. Devolució de la fiança corresponent a les obres de la finca situada al",
+      "resultado": null,
+      "texto_redactado": "Expedient 7037/2026. Devolució de la fiança corresponent a les obres de la finca situada al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#59",
+      "sesion_id": "2026-07-29",
+      "orden": 59,
+      "titulo": "Expedient 5423/2026. Devolució de la fiança corresponent a les obres de la finca situada al",
+      "resultado": null,
+      "texto_redactado": "Expedient 5423/2026. Devolució de la fiança corresponent a les obres de la finca situada al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.53,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#60",
+      "sesion_id": "2026-07-29",
+      "orden": 60,
+      "titulo": "Expedient 6333/2026. Devolució de la fiança corresponent a les obres de la finca",
+      "resultado": null,
+      "texto_redactado": "Expedient 6333/2026. Devolució de la fiança corresponent a les obres de la finca",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 2,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#61",
+      "sesion_id": "2026-07-29",
+      "orden": 61,
+      "titulo": "Expedient 6017/2026. Devolució de la fiança corresponent a les obres de la finca",
+      "resultado": null,
+      "texto_redactado": "Expedient 6017/2026. Devolució de la fiança corresponent a les obres de la finca",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 2,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#62",
+      "sesion_id": "2026-07-29",
+      "orden": 62,
+      "titulo": "Expedient 5387/2026. Devolució de la fiança corresponent a les obres de la finca situada al",
+      "resultado": null,
+      "texto_redactado": "Expedient 5387/2026. Devolució de la fiança corresponent a les obres de la finca situada al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.25,
+      "impacto": 1,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#63",
+      "sesion_id": "2026-07-29",
+      "orden": 63,
+      "titulo": "Expedient 6117/2026. Devolució de la fiança corresponent a les obres de la finca situada",
+      "resultado": null,
+      "texto_redactado": "Expedient 6117/2026. Devolució de la fiança corresponent a les obres de la finca situada",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#64",
+      "sesion_id": "2026-07-29",
+      "orden": 64,
+      "titulo": "Expedient 5315/2026. Devolució de la fiança corresponent a les obres de la finca situada al",
+      "resultado": null,
+      "texto_redactado": "Expedient 5315/2026. Devolució de la fiança corresponent a les obres de la finca situada al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.23,
+      "impacto": 1,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#65",
+      "sesion_id": "2026-07-29",
+      "orden": 65,
+      "titulo": "Expedient 5647/2026. Devolució de la fiança corresponent a les obres de la finca situada al",
+      "resultado": null,
+      "texto_redactado": "Expedient 5647/2026. Devolució de la fiança corresponent a les obres de la finca situada al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#66",
+      "sesion_id": "2026-07-29",
+      "orden": 66,
+      "titulo": "Expedient 3489/2026. Devolució de la fiança corresponent a les obres de la finca situada al",
+      "resultado": null,
+      "texto_redactado": "Expedient 3489/2026. Devolució de la fiança corresponent a les obres de la finca situada al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#67",
+      "sesion_id": "2026-07-29",
+      "orden": 67,
+      "titulo": "Expedient 5274/2026. Devolució de la fiança corresponent a les obres de la finca situada al",
+      "resultado": null,
+      "texto_redactado": "Expedient 5274/2026. Devolució de la fiança corresponent a les obres de la finca situada al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#68",
+      "sesion_id": "2026-07-29",
+      "orden": 68,
+      "titulo": "Expedient 7777/2026. Devolució de la fiança corresponent a les obres de la finca",
+      "resultado": null,
+      "texto_redactado": "Expedient 7777/2026. Devolució de la fiança corresponent a les obres de la finca",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.28,
+      "impacto": 2,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#69",
+      "sesion_id": "2026-07-29",
+      "orden": 69,
+      "titulo": "Expedient 6792/2026. Ocupacions de sòl públic per a la instal·lació de terrasses a On Street",
+      "resultado": null,
+      "texto_redactado": "Expedient 6792/2026. Ocupacions de sòl públic per a la instal·lació de terrasses a On Street",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.66,
+      "impacto": 3,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#70",
+      "sesion_id": "2026-07-29",
+      "orden": 70,
+      "titulo": "Expedient 6636/2026. Ocupacions de sòl públic per a la instal·lació de terrasses",
+      "resultado": null,
+      "texto_redactado": "Expedient 6636/2026. Ocupacions de sòl públic per a la instal·lació de terrasses",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.4,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#71",
+      "sesion_id": "2026-07-29",
+      "orden": 71,
+      "titulo": "Expedient 7296/2026. Ocupacions de sòl públic per a la instal·lació de terrasses -",
+      "resultado": null,
+      "texto_redactado": "Expedient 7296/2026. Ocupacions de sòl públic per a la instal·lació de terrasses -",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    },
+    {
+      "id": "2026-07-29#72",
+      "sesion_id": "2026-07-29",
+      "orden": 72,
+      "titulo": "Expedient 3582/2026. Anul·lar i deixar sense efecte les liquidacions per ocupació temporal",
+      "resultado": null,
+      "texto_redactado": "Expedient 3582/2026. Anul·lar i deixar sense efecte les liquidacions per ocupació temporal",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.81,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:01.237Z"
+      }
+    }
+  ]
+}

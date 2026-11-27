@@ -1,0 +1,435 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "tarrega",
+    "nombre": "Tàrrega",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2521730008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-12",
+    "municipio_id": "tarrega",
+    "fecha": "2026-11-12",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2521730008/2026/09541f81-6be2-4890-98ad-4f35ce0b3781/14.%20ACTA%20PLE%202026-11-12.pdf",
+    "hash_contenido": "c48c66faa5b8840804c35e754ff144557dccbc649df3388e52996ef92f7f8fc9",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-27T15:40:56.258Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-12#1",
+      "sesion_id": "2026-11-12",
+      "orden": 1,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:40:56.258Z"
+      }
+    },
+    {
+      "id": "2026-11-12#2",
+      "sesion_id": "2026-11-12",
+      "orden": 2,
+      "titulo": "Des del Centre de Formació La Solana s’ha informat de la necessitat de",
+      "resultado": null,
+      "texto_redactado": "Des del Centre de Formació La Solana s’ha informat de la necessitat de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.24,
+      "impacto": 1,
+      "confianza_min": 0.36,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:40:56.258Z"
+      }
+    },
+    {
+      "id": "2026-11-12#3",
+      "sesion_id": "2026-11-12",
+      "orden": 3,
+      "titulo": "La naturalesa de les tasques desenvolupades, la seva continuïtat i el volum",
+      "resultado": null,
+      "texto_redactado": "La naturalesa de les tasques desenvolupades, la seva continuïtat i el volum",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:40:56.258Z"
+      }
+    },
+    {
+      "id": "2026-11-12#4",
+      "sesion_id": "2026-11-12",
+      "orden": 4,
+      "titulo": "En relació amb la darrera anualitat de la subvenció AODL, corresponent al",
+      "resultado": null,
+      "texto_redactado": "En relació amb la darrera anualitat de la subvenció AODL, corresponent al",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:40:56.258Z"
+      }
+    },
+    {
+      "id": "2026-11-12#5",
+      "sesion_id": "2026-11-12",
+      "orden": 5,
+      "titulo": "La tramitació de la modificació de plantilla durant l’exercici 2026 permet",
+      "resultado": null,
+      "texto_redactado": "La tramitació de la modificació de plantilla durant l’exercici 2026 permet",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 1,
+      "confianza_min": 0.38,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:40:56.258Z"
+      }
+    },
+    {
+      "id": "2026-11-12#6",
+      "sesion_id": "2026-11-12",
+      "orden": 6,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:40:56.258Z"
+      }
+    },
+    {
+      "id": "2026-11-12#7",
+      "sesion_id": "2026-11-12",
+      "orden": 7,
+      "titulo": "D’acord amb els antecedents exposats, es proposa modificar la plantilla de",
+      "resultado": null,
+      "texto_redactado": "D’acord amb els antecedents exposats, es proposa modificar la plantilla de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.72,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:40:56.258Z"
+      }
+    },
+    {
+      "id": "2026-11-12#8",
+      "sesion_id": "2026-11-12",
+      "orden": 8,
+      "titulo": "Consta a l’expedient l’informe de la cap de la Unitat de Recursos Humans,",
+      "resultado": null,
+      "texto_redactado": "Consta a l’expedient l’informe de la cap de la Unitat de Recursos Humans,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:40:56.258Z"
+      }
+    },
+    {
+      "id": "2026-11-12#9",
+      "sesion_id": "2026-11-12",
+      "orden": 9,
+      "titulo": "A l’expedient hi consta informe d’intervenció en compliment de l’article 7.3",
+      "resultado": null,
+      "texto_redactado": "A l’expedient hi consta informe d’intervenció en compliment de l’article 7.3",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:40:56.258Z"
+      }
+    },
+    {
+      "id": "2026-11-12#10",
+      "sesion_id": "2026-11-12",
+      "orden": 10,
+      "titulo": "El Centre de Formació La Solana desenvolupa actuacions de promoció de",
+      "resultado": null,
+      "texto_redactado": "El Centre de Formació La Solana desenvolupa actuacions de promoció de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.52,
+      "impacto": 2,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:40:56.258Z"
+      }
+    },
+    {
+      "id": "2026-11-12#11",
+      "sesion_id": "2026-11-12",
+      "orden": 11,
+      "titulo": "Per adequar la plantilla a aquestes necessitats, es tramita en l’expedient",
+      "resultado": null,
+      "texto_redactado": "Per adequar la plantilla a aquestes necessitats, es tramita en l’expedient",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.29,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:40:56.258Z"
+      }
+    },
+    {
+      "id": "2026-11-12#12",
+      "sesion_id": "2026-11-12",
+      "orden": 12,
+      "titulo": "Les modificacions de valoració es fonamenten en les característiques",
+      "resultado": null,
+      "texto_redactado": "Les modificacions de valoració es fonamenten en les característiques",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.4,
+      "impacto": 1,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:40:56.258Z"
+      }
+    },
+    {
+      "id": "2026-11-12#13",
+      "sesion_id": "2026-11-12",
+      "orden": 13,
+      "titulo": "Les esmentades modificacions, tenen caràcter urgent per tal d’adaptar els",
+      "resultado": null,
+      "texto_redactado": "Les esmentades modificacions, tenen caràcter urgent per tal d’adaptar els",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.31,
+      "impacto": 1,
+      "confianza_min": 0.45,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:40:56.258Z"
+      }
+    },
+    {
+      "id": "2026-11-12#14",
+      "sesion_id": "2026-11-12",
+      "orden": 14,
+      "titulo": "L’article 37.2.a) del Text refós de la Llei de l’Estatut Bàsic de l’Empleat Públic,",
+      "resultado": null,
+      "texto_redactado": "L’article 37.2.a) del Text refós de la Llei de l’Estatut Bàsic de l’Empleat Públic,",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:40:56.258Z"
+      }
+    },
+    {
+      "id": "2026-11-12#15",
+      "sesion_id": "2026-11-12",
+      "orden": 15,
+      "titulo": "La negociació de les modificacions està prevista per al 9 de novembre de",
+      "resultado": null,
+      "texto_redactado": "La negociació de les modificacions està prevista per al 9 de novembre de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.54,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:40:56.258Z"
+      }
+    },
+    {
+      "id": "2026-11-12#16",
+      "sesion_id": "2026-11-12",
+      "orden": 16,
+      "titulo": "A l’expedient hi consta informe jurídic favorable, emès pel Secretari General",
+      "resultado": null,
+      "texto_redactado": "A l’expedient hi consta informe jurídic favorable, emès pel Secretari General",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:40:56.258Z"
+      }
+    },
+    {
+      "id": "2026-11-12#17",
+      "sesion_id": "2026-11-12",
+      "orden": 17,
+      "titulo": "Vist que d’acord amb l’article 22.2 de la Llei 7/1985, de 2 d’abril, de bases",
+      "resultado": null,
+      "texto_redactado": "Vist que d’acord amb l’article 22.2 de la Llei 7/1985, de 2 d’abril, de bases",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.15,
+      "impacto": 1,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:40:56.258Z"
+      }
+    }
+  ]
+}

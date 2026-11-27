@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "moia",
+    "nombre": "Moià",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "813850006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-04",
+    "municipio_id": "moia",
+    "fecha": "2026-11-04",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/813850006/2026/3803dcec-f581-4e00-bc52-ad86c324f267/Acta%20PLN_2026_14,%20Extraodinari%20de%204%20de%20novembre%20de%202026.pdf",
+    "hash_contenido": "7fef2d4a07ddfbad3122b288ac8303264151059f1f9dffe969321e2ef0425574",
+    "estado_ingesta": "requiere_ocr",
+    "actualizada_en": "2026-11-27T15:11:38.582Z"
+  },
+  "puntos": []
+}

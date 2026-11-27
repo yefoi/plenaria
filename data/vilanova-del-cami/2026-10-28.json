@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "vilanova-del-cami",
+    "nombre": "Vilanova del Camí",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "830200000",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-28",
+    "municipio_id": "vilanova-del-cami",
+    "fecha": "2026-10-28",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/830200000/2026/0b808c6b-c187-4879-95c6-ad6567a26354/ACTA%20PLE%20EXTRAORDINARI%20N%BA.%207%20DEL%2028-10-2026.pdf",
+    "hash_contenido": "c52ed702c9037b08f1f117d5926146b30ff66940020eecbac2e51878ed17c63f",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-27T15:41:02.008Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-28#1",
+      "sesion_id": "2026-10-28",
+      "orden": 1,
+      "titulo": "PROPOSTA D’APROVACIÓ PROVISIONAL DE LA MODIFICACIÓ DE LES ORDENANCES FISCALS REGULADORES DELS TRIBUTS MUNICIPALS PER A L’EXERCICI 2027.",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA D’APROVACIÓ PROVISIONAL DE LA MODIFICACIÓ DE LES ORDENANCES FISCALS REGULADORES DELS TRIBUTS MUNICIPALS PER A L’EXERCICI 2027.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.83,
+      "impacto": 4,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:02.008Z"
+      }
+    },
+    {
+      "id": "2026-10-28#2",
+      "sesion_id": "2026-10-28",
+      "orden": 2,
+      "titulo": "PROPOSTA D’APROVACIÓ PER A LA CONCERTACIÓ D’UN PRÉSTEC PONT PER A LA SUBVENCIÓ PUOSC AMB L’INSTITUT CATALÀ DE FINANCES.",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA D’APROVACIÓ PER A LA CONCERTACIÓ D’UN PRÉSTEC PONT PER A LA SUBVENCIÓ PUOSC AMB L’INSTITUT CATALÀ DE FINANCES.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.2,
+      "impacto": 2,
+      "confianza_min": 0.48,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:02.008Z"
+      }
+    },
+    {
+      "id": "2026-10-28#3",
+      "sesion_id": "2026-10-28",
+      "orden": 3,
+      "titulo": "PROPOSTA D’APROVACIÓ INICIAL DE LA MODIFICACIÓ DE CRÈDIT 26/2026 MITJANÇANT TRANSFERÈNCIA ENTRE PARTIDES DE DIFERENT POLÍTICA DE DESPESA.",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA D’APROVACIÓ INICIAL DE LA MODIFICACIÓ DE CRÈDIT 26/2026 MITJANÇANT TRANSFERÈNCIA ENTRE PARTIDES DE DIFERENT POLÍTICA DE DESPESA.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:02.008Z"
+      }
+    },
+    {
+      "id": "2026-10-28#4",
+      "sesion_id": "2026-10-28",
+      "orden": 4,
+      "titulo": "PROPOSTA D’APROVACIÓ REVISIÓ DE PREUS CONTRACTE DE DEIXALLERIA 2026-2027",
+      "resultado": null,
+      "texto_redactado": "PROPOSTA D’APROVACIÓ REVISIÓ DE PREUS CONTRACTE DE DEIXALLERIA 2026-2027",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "contratacion_obras",
+        "servicios_publicos"
+      ],
+      "afecta_vecinos_prob": 0.58,
+      "impacto": 3,
+      "confianza_min": 0.4,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-27T15:41:02.008Z"
+      }
+    }
+  ]
+}

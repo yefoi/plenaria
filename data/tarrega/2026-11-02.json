@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "tarrega",
+    "nombre": "Tàrrega",
+    "provincia": "Lleida",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "2521730008",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-02",
+    "municipio_id": "tarrega",
+    "fecha": "2026-11-02",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/2521730008/2026/65ff6d77-b435-4cd2-95d5-3a2ad73e842c/13.%20ACTA%20PLE%202026-11-02.pdf",
+    "hash_contenido": "b694599ea19e879862e27dca87b7678a92d243ffaba03a978a4a54a37cb39fe6",
+    "estado_ingesta": "segmentacion_pobre",
+    "actualizada_en": "2026-11-27T15:15:00.875Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-02#1",
+      "sesion_id": "2026-11-02",
+      "orden": 1,
+      "titulo": "1. SORTEIG DELS MEMBRES QUE HAN DE CONSTITUIR LES MESES ELECTORALS PER A LES",
+      "resultado": null,
+      "texto_redactado": "1. SORTEIG DELS MEMBRES QUE HAN DE CONSTITUIR LES MESES ELECTORALS PER A LES",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}
