@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "santa-coloma-de-farners",
+    "nombre": "Santa Coloma de Farners",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1718050006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-08-18",
+    "municipio_id": "santa-coloma-de-farners",
+    "fecha": "2026-08-18",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1718050006/2026/c58beefe-40d5-40f3-89fc-8675f1b48956/Acta_Ple_18_08_26.pdf",
+    "hash_contenido": "f5c91c21f19d606f18590bc7e0777de9e55e05afb78dfec48ec277f4fabce1cb",
+    "estado_ingesta": "redactada",
+    "actualizada_en": "2026-11-28T14:32:07.581Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-08-18#1",
+      "sesion_id": "2026-08-18",
+      "orden": 1,
+      "titulo": "Requeriment de la Diputació de Girona, de 05/08/2026, en relació a la",
+      "resultado": null,
+      "texto_redactado": "Requeriment de la Diputació de Girona, de 05/08/2026, en relació a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-08-18#2",
+      "sesion_id": "2026-08-18",
+      "orden": 2,
+      "titulo": "Per tal d’aprovar les bases reguladores del concurs per la participació a la",
+      "resultado": null,
+      "texto_redactado": "Per tal d’aprovar les bases reguladores del concurs per la participació a la",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-08-18#3",
+      "sesion_id": "2026-08-18",
+      "orden": 3,
+      "titulo": "Requeriment de la Diputació de Girona, de 05/08/2026, en relació a la sol·licitud de",
+      "resultado": null,
+      "texto_redactado": "Requeriment de la Diputació de Girona, de 05/08/2026, en relació a la sol·licitud de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    },
+    {
+      "id": "2026-08-18#4",
+      "sesion_id": "2026-08-18",
+      "orden": 4,
+      "titulo": "Memòria del projecte elaborada per l’Enginyer Municipal.",
+      "resultado": null,
+      "texto_redactado": "Memòria del projecte elaborada per l’Enginyer Municipal.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": null,
+      "temas": [],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": null,
+      "revision_manual": false,
+      "clasificado_con": null
+    }
+  ]
+}

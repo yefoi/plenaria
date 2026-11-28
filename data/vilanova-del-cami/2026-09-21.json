@@ -19,8 +19,8 @@
     "tipo": "ordinaria",
     "fuente_url": "https://media.seu-e.cat/acteca/830200000/2026/70ca9262-69d4-4fba-9bd9-c2fe0295bbc9/ACTA%20PLE%20ORDINARI%20N%BA.%206%20DEL%2021-09-2026.pdf",
     "hash_contenido": "9d4937ae01e2f4370d1445cbfc90f7b48e09db911c1bb7238a49b5dfbde780f4",
-    "estado_ingesta": "redactada",
-    "actualizada_en": "2026-11-27T15:26:01.392Z"
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-28T14:48:17.652Z"
   },
   "puntos": [
     {
@@ -32,13 +32,20 @@
       "texto_redactado": "APROVACIÓ, SI S’ESCAU, DE L'ESBORRANY DE L’ACTA DEL PLE ORDINARI Nº. 5 DE DATA 13 DE JULIOL DE 2026.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "aprobacion_acta",
+      "temas": [
+        "otros"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:17.652Z"
+      }
     },
     {
       "id": "2026-09-21#2",
@@ -49,13 +56,20 @@
       "texto_redactado": "DONAR COMPTE DELS DECRETS D’ALCALDIA",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
       "afecta_vecinos_prob": null,
       "impacto": null,
-      "confianza_min": null,
+      "confianza_min": 0.73,
       "revision_manual": false,
-      "clasificado_con": null
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:17.652Z"
+      }
     },
     {
       "id": "2026-09-21#3",
@@ -66,13 +80,20 @@
       "texto_redactado": "PROPOSTA D’APROVACIÓ DEL COMPTE GENERAL CORRESPONENT A L’EXERCICI 2025.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:17.652Z"
+      }
     },
     {
       "id": "2026-09-21#4",
@@ -83,13 +104,20 @@
       "texto_redactado": "PROPOSTA D’APROVACIÓ INICIAL MODIFICACIÓ DE CRÈDIT 22/2026 PER SUPLEMENT DE CRÈDIT FINANÇAT AMB ROMANENT DE TRESORERIA PER A",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.27,
+      "impacto": 2,
+      "confianza_min": 0.52,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:17.652Z"
+      }
     },
     {
       "id": "2026-09-21#5",
@@ -100,13 +128,20 @@
       "texto_redactado": "PROPOSTA D’APROVACIÓ INICIAL DEL PROJECTE EXECUTIU DE LA REFORMA DE LA NAU EXISTENT A LA [DIRECCIÓN] PER A CONVERTIR-LA EN UN EQUIPAMENT PER A ENTITATS VILANOVINES.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.42,
+      "impacto": 3,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:17.652Z"
+      }
     },
     {
       "id": "2026-09-21#6",
@@ -117,13 +152,21 @@
       "texto_redactado": "PROPOSTA D’APROVACIÓ INICIAL DEL PROJECTE EXECUTIU DE LA REMODELACIÓ DEL ROVY ESPAI CULTURAL.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "cultura_deporte_educacion",
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.49,
+      "impacto": 3,
+      "confianza_min": 0.57,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:17.652Z"
+      }
     },
     {
       "id": "2026-09-21#7",
@@ -134,13 +177,20 @@
       "texto_redactado": "PROPOSTA D’APROVACIÓ DEL CONVENI ENTRE L’AJUNTAMENT DE VILANOVA DEL CAMÍ I L’AGÈNCIA DE L’HABITATGE DE CATALUNYA PER A LA PROMOCIÓ D’HABITATGES AMB PROTECCIÓ OFICIAL EN UN SOLAR MUNICIPAL INSCRIT A LA RESERVA PÚBLICA DE SOLARS.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "vivienda"
+      ],
+      "afecta_vecinos_prob": 0.71,
+      "impacto": 3,
+      "confianza_min": 0.41,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:17.652Z"
+      }
     },
     {
       "id": "2026-09-21#8",
@@ -151,13 +201,20 @@
       "texto_redactado": "PROPOSTA D’APROVACIÓ DEL CONVENI DE COL·LABORACIÓ ENTRE ELS AJUNTAMENT D’IGUALADA, L’AJUNTAMENT DE VILANOVA DEL CAMÍ I FERROCARRILS DE LA GENERALITAT DE CATALUNYA PER A LA MILLORA DE LA PROMOCIÓ DE LA MOBILITAT SOSTENIBLE ENTRE AMBDÓS MUNICIPIS.",
       "importe_eur": null,
       "sensible": false,
-      "tipo_punto": null,
-      "temas": [],
-      "afecta_vecinos_prob": null,
-      "impacto": null,
-      "confianza_min": null,
-      "revision_manual": false,
-      "clasificado_con": null
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "movilidad_trafico"
+      ],
+      "afecta_vecinos_prob": 0.55,
+      "impacto": 3,
+      "confianza_min": 0.11,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:17.652Z"
+      }
     }
   ]
 }

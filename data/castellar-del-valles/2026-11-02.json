@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "castellar-del-valles",
+    "nombre": "Castellar del Vallès",
+    "provincia": "Barcelona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "805170005",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-02",
+    "municipio_id": "castellar-del-valles",
+    "fecha": "2026-11-02",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/805170005/2026/3702e654-4432-4fe4-8d6c-29f3cdd1820e/5%20Acta%20Ple%20de%202-11-26.pdf",
+    "hash_contenido": "3a1b24a04db92a186cbc9cc8e636539c68fddc60630fd163dcbd90125e4daa59",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-28T14:48:13.808Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-02#1",
+      "sesion_id": "2026-11-02",
+      "orden": 1,
+      "titulo": "Ratificar la urgència de la present sessió plenària, d’acord amb la convocatòria",
+      "resultado": null,
+      "texto_redactado": "Ratificar la urgència de la present sessió plenària, d’acord amb la convocatòria",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.06,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:13.808Z"
+      }
+    },
+    {
+      "id": "2026-11-02#2",
+      "sesion_id": "2026-11-02",
+      "orden": 2,
+      "titulo": "Procedir al sorteig públic per a l’elecció dels membres de les meses electorals que",
+      "resultado": null,
+      "texto_redactado": "Procedir al sorteig públic per a l’elecció dels membres de les meses electorals que",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.13,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:13.808Z"
+      }
+    }
+  ]
+}

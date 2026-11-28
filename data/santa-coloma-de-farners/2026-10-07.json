@@ -1,0 +1,435 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "santa-coloma-de-farners",
+    "nombre": "Santa Coloma de Farners",
+    "provincia": "Girona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "1718050006",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-10-07",
+    "municipio_id": "santa-coloma-de-farners",
+    "fecha": "2026-10-07",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/1718050006/2026/fc9a4f5d-af51-45f7-ab83-1f3397e9835b/Acta%20PLE%207_10_26.pdf",
+    "hash_contenido": "7788c1e784bcf6157c33ab6d69ff661fd27b551cd15e1802c791f82b4832b26b",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-28T14:48:16.816Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-10-07#1",
+      "sesion_id": "2026-10-07",
+      "orden": 1,
+      "titulo": "Presa de possessió del regidor de la candidatura JUNTS PER SANTA",
+      "resultado": null,
+      "texto_redactado": "Presa de possessió del regidor de la candidatura JUNTS PER SANTA",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 0.3,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:16.816Z"
+      }
+    },
+    {
+      "id": "2026-10-07#2",
+      "sesion_id": "2026-10-07",
+      "orden": 2,
+      "titulo": "L’esmentat acord de Ple es va comunicar a la Junta Electoral Central, per tal que",
+      "resultado": null,
+      "texto_redactado": "L’esmentat acord de Ple es va comunicar a la Junta Electoral Central, per tal que",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:16.816Z"
+      }
+    },
+    {
+      "id": "2026-10-07#3",
+      "sesion_id": "2026-10-07",
+      "orden": 3,
+      "titulo": "S’ha rebut la credencial de regidor, a favor del senyor Florin Fratila, expedida pel",
+      "resultado": null,
+      "texto_redactado": "S’ha rebut la credencial de regidor, a favor del senyor Florin Fratila, expedida pel",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:16.816Z"
+      }
+    },
+    {
+      "id": "2026-10-07#4",
+      "sesion_id": "2026-10-07",
+      "orden": 4,
+      "titulo": "El senyor Florin Fratila ha presentat davant la Secretaria de l’Ajuntament la seva",
+      "resultado": null,
+      "texto_redactado": "El senyor Florin Fratila ha presentat davant la Secretaria de l’Ajuntament la seva",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.14,
+      "impacto": 1,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:16.816Z"
+      }
+    },
+    {
+      "id": "2026-10-07#5",
+      "sesion_id": "2026-10-07",
+      "orden": 5,
+      "titulo": "Donar compte al Ple del Decret d’Alcaldia núm. 2158/2026, de 24 d’agost de",
+      "resultado": null,
+      "texto_redactado": "Donar compte al Ple del Decret d’Alcaldia núm. 2158/2026, de 24 d’agost de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:16.816Z"
+      }
+    },
+    {
+      "id": "2026-10-07#6",
+      "sesion_id": "2026-10-07",
+      "orden": 6,
+      "titulo": "Donar compte del Pla anual de control financer de l’Ajuntament de Santa",
+      "resultado": null,
+      "texto_redactado": "Donar compte del Pla anual de control financer de l’Ajuntament de Santa",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:16.816Z"
+      }
+    },
+    {
+      "id": "2026-10-07#7",
+      "sesion_id": "2026-10-07",
+      "orden": 7,
+      "titulo": "Donar compte al Ple de l’informe anual de l’Ajuntament de Santa Coloma de",
+      "resultado": null,
+      "texto_redactado": "Donar compte al Ple de l’informe anual de l’Ajuntament de Santa Coloma de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:16.816Z"
+      }
+    },
+    {
+      "id": "2026-10-07#8",
+      "sesion_id": "2026-10-07",
+      "orden": 8,
+      "titulo": "Donar compte al Ple del Decret d’Alcaldia núm. 2409/2026, de 15 de setembre",
+      "resultado": null,
+      "texto_redactado": "Donar compte al Ple del Decret d’Alcaldia núm. 2409/2026, de 15 de setembre",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.7,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:16.816Z"
+      }
+    },
+    {
+      "id": "2026-10-07#9",
+      "sesion_id": "2026-10-07",
+      "orden": 9,
+      "titulo": "Donar compte al Ple de l’informe resum anual de l’Ajuntament de Santa",
+      "resultado": null,
+      "texto_redactado": "Donar compte al Ple de l’informe resum anual de l’Ajuntament de Santa",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.43,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:16.816Z"
+      }
+    },
+    {
+      "id": "2026-10-07#10",
+      "sesion_id": "2026-10-07",
+      "orden": 10,
+      "titulo": "Donar compte al Ple de la Corporació de l’informe d’execució del pressupost",
+      "resultado": null,
+      "texto_redactado": "Donar compte al Ple de la Corporació de l’informe d’execució del pressupost",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.96,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:16.816Z"
+      }
+    },
+    {
+      "id": "2026-10-07#11",
+      "sesion_id": "2026-10-07",
+      "orden": 11,
+      "titulo": "Donar compte al Ple de la Corporació de l’informe d’execució del pressupost",
+      "resultado": null,
+      "texto_redactado": "Donar compte al Ple de la Corporació de l’informe d’execució del pressupost",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.9,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:16.816Z"
+      }
+    },
+    {
+      "id": "2026-10-07#12",
+      "sesion_id": "2026-10-07",
+      "orden": 12,
+      "titulo": "Aprovació de la modificació de crèdit MC17-2026 en la modalitat de",
+      "resultado": null,
+      "texto_redactado": "Aprovació de la modificació de crèdit MC17-2026 en la modalitat de",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.26,
+      "impacto": 1,
+      "confianza_min": 0.63,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:16.816Z"
+      }
+    },
+    {
+      "id": "2026-10-07#13",
+      "sesion_id": "2026-10-07",
+      "orden": 13,
+      "titulo": "Aprovació del Compte General de l’Ajuntament de Santa Coloma de Farners",
+      "resultado": null,
+      "texto_redactado": "Aprovació del Compte General de l’Ajuntament de Santa Coloma de Farners",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "acuerdo",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 2,
+      "confianza_min": 0.09,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:16.816Z"
+      }
+    },
+    {
+      "id": "2026-10-07#14",
+      "sesion_id": "2026-10-07",
+      "orden": 14,
+      "titulo": "Punto de personal",
+      "resultado": null,
+      "texto_redactado": "",
+      "importe_eur": null,
+      "sensible": true,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.85,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:16.816Z"
+      }
+    },
+    {
+      "id": "2026-10-07#15",
+      "sesion_id": "2026-10-07",
+      "orden": 15,
+      "titulo": "Adhesió al «Manifest del Mil·lenari de les Assemblees de Pau i Treva (1027-",
+      "resultado": null,
+      "texto_redactado": "Adhesió al «Manifest del Mil·lenari de les Assemblees de Pau i Treva (1027-",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "mocion",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.08,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:16.816Z"
+      }
+    },
+    {
+      "id": "2026-10-07#16",
+      "sesion_id": "2026-10-07",
+      "orden": 16,
+      "titulo": "Informe de l'Alcaldia i regidors",
+      "resultado": null,
+      "texto_redactado": "Informe de l'Alcaldia i regidors",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "dacion_cuenta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": null,
+      "impacto": null,
+      "confianza_min": 0.55,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:16.816Z"
+      }
+    },
+    {
+      "id": "2026-10-07#17",
+      "sesion_id": "2026-10-07",
+      "orden": 17,
+      "titulo": "Precs, preguntes i control als òrgans de govern.",
+      "resultado": null,
+      "texto_redactado": "Precs, preguntes i control als òrgans de govern.",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "ruego_pregunta",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.56,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:16.816Z"
+      }
+    }
+  ]
+}

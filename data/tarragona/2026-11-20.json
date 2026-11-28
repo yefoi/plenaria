@@ -1,0 +1,675 @@
+{
+  "version": 1,
+  "municipio": {
+    "id": "tarragona",
+    "nombre": "Tarragona",
+    "provincia": "Tarragona",
+    "fuente_tipo": "ckan-seu-e",
+    "fuente_config": {
+      "codi_ens": "4314820002",
+      "csv_url": "https://dadesobertes.seu-e.cat/csv/agn-ag-actes-de-ple.csv",
+      "formato": "auto",
+      "idioma": "ca"
+    }
+  },
+  "sesion": {
+    "id": "2026-11-20",
+    "municipio_id": "tarragona",
+    "fecha": "2026-11-20",
+    "tipo": "ordinaria",
+    "fuente_url": "https://media.seu-e.cat/acteca/4314820002/2026/e19a1b5d-495d-4a81-98e6-766d4371d7c7/CP-%202026-11-20.pdf",
+    "hash_contenido": "430edefad35e0123b6cd5c31adc2c686c80317c574a903f6e398ee24622a7466",
+    "estado_ingesta": "clasificada",
+    "actualizada_en": "2026-11-28T14:48:09.747Z"
+  },
+  "puntos": [
+    {
+      "id": "2026-11-20#1",
+      "sesion_id": "2026-11-20",
+      "orden": 1,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/11-G104; Expedient: 2026/12-G104;",
+      "resultado": null,
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/11-G104; Expedient: 2026/12-G104;",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.09,
+      "impacto": 1,
+      "confianza_min": 0.44,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#2",
+      "sesion_id": "2026-11-20",
+      "orden": 2,
+      "titulo": "Promoció Comercial. Expedient: 2024/83-G810:",
+      "resultado": null,
+      "texto_redactado": "Promoció Comercial. Expedient: 2024/83-G810:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.21,
+      "impacto": 1,
+      "confianza_min": 0.47,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#3",
+      "sesion_id": "2026-11-20",
+      "orden": 3,
+      "titulo": "IMET (Educació) . Expedient: 2026/3-D132:",
+      "resultado": null,
+      "texto_redactado": "IMET (Educació) . Expedient: 2026/3-D132:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.22,
+      "impacto": 1,
+      "confianza_min": 0.66,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#4",
+      "sesion_id": "2026-11-20",
+      "orden": 4,
+      "titulo": "Patrimoni Històric . Expedient: 2026/35-G423:",
+      "resultado": null,
+      "texto_redactado": "Patrimoni Històric . Expedient: 2026/35-G423:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "cultura_deporte_educacion"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.58,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#5",
+      "sesion_id": "2026-11-20",
+      "orden": 5,
+      "titulo": "Béns. Expedient: 2024/154-G711:",
+      "resultado": null,
+      "texto_redactado": "Béns. Expedient: 2024/154-G711:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.18,
+      "impacto": 1,
+      "confianza_min": 0.5,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#6",
+      "sesion_id": "2026-11-20",
+      "orden": 6,
+      "titulo": "Béns. Expedient: 2026/143-G711:",
+      "resultado": null,
+      "texto_redactado": "Béns. Expedient: 2026/143-G711:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.51,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#7",
+      "sesion_id": "2026-11-20",
+      "orden": 7,
+      "titulo": "Béns. Expedient: 2026/144-G711:",
+      "resultado": null,
+      "texto_redactado": "Béns. Expedient: 2026/144-G711:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.49,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#8",
+      "sesion_id": "2026-11-20",
+      "orden": 8,
+      "titulo": "Domini Públic. Expedient: 2026/6-O278_8:",
+      "resultado": null,
+      "texto_redactado": "Domini Públic. Expedient: 2026/6-O278_8:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.46,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#9",
+      "sesion_id": "2026-11-20",
+      "orden": 9,
+      "titulo": "Patrimoni Històric. Expedient: 2026/136-G711:",
+      "resultado": null,
+      "texto_redactado": "Patrimoni Històric. Expedient: 2026/136-G711:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.16,
+      "impacto": 1,
+      "confianza_min": 0.64,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#10",
+      "sesion_id": "2026-11-20",
+      "orden": 10,
+      "titulo": "Planejament Urbanístic. Expedient: 2022/2-O116:",
+      "resultado": null,
+      "texto_redactado": "Planejament Urbanístic. Expedient: 2022/2-O116:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.45,
+      "impacto": 3,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#11",
+      "sesion_id": "2026-11-20",
+      "orden": 11,
+      "titulo": "Planejament Urbanístic. Expedient: 2022/6-O116:",
+      "resultado": null,
+      "texto_redactado": "Planejament Urbanístic. Expedient: 2022/6-O116:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "urbanismo_licencias"
+      ],
+      "afecta_vecinos_prob": 0.44,
+      "impacto": 2,
+      "confianza_min": 0,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#12",
+      "sesion_id": "2026-11-20",
+      "orden": 12,
+      "titulo": "Vicesecretaria. Expedient: 2026/153-V132:",
+      "resultado": null,
+      "texto_redactado": "Vicesecretaria. Expedient: 2026/153-V132:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#13",
+      "sesion_id": "2026-11-20",
+      "orden": 13,
+      "titulo": "Contractació d'Obres, Béns i Serveis. Expedient: 2025/963-G626 :",
+      "resultado": null,
+      "texto_redactado": "Contractació d'Obres, Béns i Serveis. Expedient: 2025/963-G626 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.34,
+      "impacto": 1,
+      "confianza_min": 0.39,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#14",
+      "sesion_id": "2026-11-20",
+      "orden": 14,
+      "titulo": "Contractació d'Obres, Béns i Serveis. Expedient: 2026/643-G626 :",
+      "resultado": null,
+      "texto_redactado": "Contractació d'Obres, Béns i Serveis. Expedient: 2026/643-G626 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "contratacion_obras"
+      ],
+      "afecta_vecinos_prob": 0.36,
+      "impacto": 1,
+      "confianza_min": 0.42,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#15",
+      "sesion_id": "2026-11-20",
+      "orden": 15,
+      "titulo": "Gestió Econòmica. Expedient: 2026/119-G605 :",
+      "resultado": null,
+      "texto_redactado": "Gestió Econòmica. Expedient: 2026/119-G605 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "presupuesto_impuestos"
+      ],
+      "afecta_vecinos_prob": 0.29,
+      "impacto": 1,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#16",
+      "sesion_id": "2026-11-20",
+      "orden": 16,
+      "titulo": "Personal. Expedient: 2026/1-G562 :",
+      "resultado": null,
+      "texto_redactado": "Personal. Expedient: 2026/1-G562 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#17",
+      "sesion_id": "2026-11-20",
+      "orden": 17,
+      "titulo": "Personal. Expedient: 2026/2-G557 :",
+      "resultado": null,
+      "texto_redactado": "Personal. Expedient: 2026/2-G557 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.68,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#18",
+      "sesion_id": "2026-11-20",
+      "orden": 18,
+      "titulo": "Personal. Expedient: 2025/11-G572 :",
+      "resultado": null,
+      "texto_redactado": "Personal. Expedient: 2025/11-G572 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#19",
+      "sesion_id": "2026-11-20",
+      "orden": 19,
+      "titulo": "Personal. Expedient: 2026/9-G572 :",
+      "resultado": null,
+      "texto_redactado": "Personal. Expedient: 2026/9-G572 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.12,
+      "impacto": 1,
+      "confianza_min": 0.75,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#20",
+      "sesion_id": "2026-11-20",
+      "orden": 20,
+      "titulo": "Relació amb Empreses Municipals. Expedient: 2026/3-G106 :",
+      "resultado": null,
+      "texto_redactado": "Relació amb Empreses Municipals. Expedient: 2026/3-G106 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.19,
+      "impacto": 1,
+      "confianza_min": 0.69,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#21",
+      "sesion_id": "2026-11-20",
+      "orden": 21,
+      "titulo": "Relació amb Empreses Municipals. Expedient: 2026/21-T139 :",
+      "resultado": null,
+      "texto_redactado": "Relació amb Empreses Municipals. Expedient: 2026/21-T139 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "otros"
+      ],
+      "afecta_vecinos_prob": 0.17,
+      "impacto": 1,
+      "confianza_min": 0.6,
+      "revision_manual": true,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#22",
+      "sesion_id": "2026-11-20",
+      "orden": 22,
+      "titulo": "Personal. Expedient: 2026/3-G575 :",
+      "resultado": null,
+      "texto_redactado": "Personal. Expedient: 2026/3-G575 :",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "personal"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#23",
+      "sesion_id": "2026-11-20",
+      "orden": 23,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/3-G233:",
+      "resultado": null,
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/3-G233:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.71,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#24",
+      "sesion_id": "2026-11-20",
+      "orden": 24,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/3-G233:",
+      "resultado": null,
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/3-G233:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.1,
+      "impacto": 1,
+      "confianza_min": 0.78,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#25",
+      "sesion_id": "2026-11-20",
+      "orden": 25,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/3-G233:",
+      "resultado": null,
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/3-G233:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.77,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#26",
+      "sesion_id": "2026-11-20",
+      "orden": 26,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/12-G114:",
+      "resultado": null,
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/12-G114:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.74,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    },
+    {
+      "id": "2026-11-20#27",
+      "sesion_id": "2026-11-20",
+      "orden": 27,
+      "titulo": "Ordenació Corporativa i Administrativa. Expedient: 2026/12-G114:",
+      "resultado": null,
+      "texto_redactado": "Ordenació Corporativa i Administrativa. Expedient: 2026/12-G114:",
+      "importe_eur": null,
+      "sensible": false,
+      "tipo_punto": "otro",
+      "temas": [
+        "organizacion_institucional"
+      ],
+      "afecta_vecinos_prob": 0.11,
+      "impacto": 1,
+      "confianza_min": 0.76,
+      "revision_manual": false,
+      "clasificado_con": {
+        "modelo": "classifier.dev (jev-1.13.0) + typesafe (jev-1.14.0)",
+        "version": "taxonomia 2026-09-30.1",
+        "hash_instrucciones": "3837fb92187403d2",
+        "fecha": "2026-11-28T14:48:09.747Z"
+      }
+    }
+  ]
+}
